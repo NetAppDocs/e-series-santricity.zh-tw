@@ -1,0 +1,36 @@
+---
+permalink: sm-settings/reset-management-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reset, management, certificates, 
+summary: 您可以將控制器上的憑證從使用CA簽署的憑證還原為原廠設定的自我簽署憑證。 
+---
+= 重設管理憑證
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以將控制器上的憑證從使用CA簽署的憑證還原為原廠設定的自我簽署憑證。
+
+.開始之前
+* 您必須以包含安全管理員權限的使用者設定檔登入。否則、不會顯示憑證功能。
+* CA簽署的憑證必須先匯入。
+
+
+重設功能會從每個控制器刪除目前由CA簽署的憑證檔案。然後控制器將恢復使用自我簽署的憑證。
+
+.步驟
+. 選取功能表：設定[憑證]。
+. 從Array Management（陣列管理）選項卡中選擇* Reset*（重置*）。
++
+隨即開啟「確認重設管理憑證」對話方塊。
+
+. 在欄位中輸入「重設」、然後按一下「*重設*」。
++
+瀏覽器重新整理之後、瀏覽器可能會封鎖對目的地站台的存取、並回報該站台使用HTTP嚴格傳輸安全性。當您切換回自我簽署的憑證時、就會出現這種情況。若要清除封鎖目的地存取的條件、您必須從瀏覽器清除瀏覽資料。
+
+
+
+控制器會恢復使用自我簽署的憑證。因此、系統會提示使用者手動接受其工作階段的自我簽署憑證。

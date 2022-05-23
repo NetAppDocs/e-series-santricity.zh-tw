@@ -1,0 +1,28 @@
+---
+permalink: sm-hardware/update-battery-learn-cycles.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, update, battery, learn, cycles 
+summary: 學習週期是自動校準智慧型電池電量表的週期。週期會排定在8週時間內（每個控制器）、於同一天和時間自動開始。如果您想要設定不同的排程、可以調整學習週期。 
+---
+= 更新電池記憶週期
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+學習週期是自動校準智慧型電池電量表的週期。週期會排定在8週時間內（每個控制器）、於同一天和時間自動開始。如果您想要設定不同的排程、可以調整學習週期。
+
+更新記憶週期會影響兩個控制器電池。
+
+.步驟
+. 選取*硬體*。
+. 選取控制器機櫃的下拉式清單、然後選取*檢視設定*。
+. 選取「*電池*」索引標籤。
+. 選擇*更新電池記憶週期*。
++
+「更新電池記憶週期」對話方塊隨即開啟。
+
+. 從下拉式清單中、選取新的日期和時間。
+. 按一下「 * 儲存 * 」。
+

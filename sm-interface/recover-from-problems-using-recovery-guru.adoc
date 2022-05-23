@@ -1,0 +1,41 @@
+---
+permalink: sm-interface/recover-from-problems-using-recovery-guru.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Recovery Guru 
+summary: Recovery Guru是System Manager的一項元件、可診斷儲存陣列問題、並建議恢復程序來修正問題。 
+---
+= 使用Recovery Guru從問題中恢復
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Recovery Guru是System Manager的一項元件、可診斷儲存陣列問題、並建議恢復程序來修正問題。
+
+.步驟
+. 選擇*主頁*。
+. 按一下視窗中上方標有「*從_n_問題中恢復*」的連結。
++
+此時會出現Recovery Guru對話方塊。
+
+. 選取摘要清單中顯示的第一個問題、然後依照還原程序中的指示來修正問題。如有必要、請使用更換指示來更換故障的元件。針對每個列出的問題重複此步驟。
++
+儲存陣列中的多個問題可能相關。在此情況下、問題的修正順序可能會影響結果。依照摘要清單中列出的順序、選取並修正問題。
+
++
+在摘要清單中、會將電源設備機箱的多個故障分組並列為一個問題。一個風扇容器的多個故障也列示為一個問題。
+
+. 若要確定恢復程序成功、請按一下* Recheck*。
++
+如果您為非同步鏡射群組或非同步鏡射群組的成員選取問題、請先按一下*清除*、從控制器中清除故障、然後按一下*重新檢查*、從Recovery Guru中移除事件。
+
++
+如果所有問題都已修正、儲存陣列圖示最終會從「需要注意」轉變為「最佳」。對於某些問題、重建等作業正在進行中時、會出現「修復」圖示。
+
+. *選用：*若要將Recovery Guru資訊儲存至檔案、請按一下* Save*圖示。
++
+檔案會儲存在瀏覽器的「Downloads（下載）」資料夾中、名稱為「recovery guru故障」、字型為：yd-mm-dd-hh-mm-ss-mmm.html。
+
+. 若要列印Recovery Guru資訊、請按一下* Print（列印）*圖示。
+

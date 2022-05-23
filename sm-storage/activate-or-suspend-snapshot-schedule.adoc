@@ -1,0 +1,33 @@
+---
+permalink: sm-storage/activate-or-suspend-snapshot-schedule.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot schedule 
+summary: 您可以在需要節省儲存空間時、暫時暫停已排程的快照映像集合。此方法比刪除快照排程及稍後重新建立快照排程更有效率。 
+---
+= 啟動並暫停快照排程
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在需要節省儲存空間時、暫時暫停已排程的快照映像集合。此方法比刪除快照排程及稍後重新建立快照排程更有效率。
+
+快照排程的狀態會一直暫停、直到您使用* Activate*選項來恢復排程的快照活動為止。
+
+.步驟
+. 選取功能表：Storage[快照]。
+. 如果尚未顯示、請按一下*排程*索引標籤。
++
+排程會列在頁面上。
+
+. 選取您要暫停的作用中快照排程、然後按一下*啟動/暫停*。
++
+狀態欄狀態會變更為*暫停*、而快照排程會停止收集所有快照映像。
+
+. 若要繼續收集快照映像、請選取您要恢復的暫停快照排程、然後按一下*啟動/暫停*。
++
+狀態欄狀態變更為*作用中*。
+
+

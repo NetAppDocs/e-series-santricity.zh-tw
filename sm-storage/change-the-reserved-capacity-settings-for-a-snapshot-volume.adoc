@@ -1,0 +1,43 @@
+---
+permalink: sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, snapshot, volume 
+summary: 您可以變更快照磁碟區的設定、以調整當快照磁碟區的保留容量即將滿時、系統傳送警示通知的百分比點。 
+---
+= 變更快照磁碟區的保留容量設定
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更快照磁碟區的設定、以調整當快照磁碟區的保留容量即將滿時、系統傳送警示通知的百分比點。
+
+.步驟
+. 選取功能表：Storage[集區與Volume群組]。
+. 按一下*保留容量*索引標籤。
+. 選取您要編輯的快照磁碟區、然後按一下「*檢視/編輯設定*」。
++
+此時會出現Snapshot Volume保留容量設定對話方塊。
+
+. 視需要變更快照磁碟區的保留容量設定。
++
+.欄位詳細資料
+====
+[cols="25h,~"]
+|===
+| 設定 | 說明 
+
+
+ a| 
+提醒我...
+ a| 
+使用微調方塊來調整當成員Volume的保留容量即將滿時、系統傳送警示通知的百分比點。
+
+當快照磁碟區的保留容量超過指定臨界值時、系統會傳送警示、讓您有時間增加保留容量或刪除不必要的物件。
+
+|===
+====
+. 按一下「*儲存*」、將您的變更套用至快照磁碟區保留容量設定。
+

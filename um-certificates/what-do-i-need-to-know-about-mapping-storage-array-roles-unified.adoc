@@ -1,0 +1,33 @@
+---
+permalink: um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, mapping, storage, array, roles 
+summary: 在將群組對應至角色之前、請先檢閱準則。 
+---
+= 我需要知道哪些關於對應至儲存陣列角色的資訊？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在將群組對應至角色之前、請先檢閱準則。
+
+RBAC（角色型存取控制）功能包括下列角色：
+
+* *儲存設備管理*-完整讀寫陣列上的儲存物件存取權、但無法存取安全性組態。
+* *安全管理*：存取存取管理與憑證管理中的安全性組態。
+* *支援admin*：存取儲存陣列、故障資料及MEL事件上的所有硬體資源。無法存取儲存物件或安全性組態。
+* *監控*-對所有儲存物件的唯讀存取、但無法存取安全性組態。
+
+
+[NOTE]
+====
+所有使用者（包括系統管理員）都必須具備「監控」角色。
+
+====
+如果您使用的是LDAP（輕量型目錄存取傳輸協定）伺服器和目錄服務、請確定：
+
+* 系統管理員已在目錄服務中定義使用者群組。
+* 您知道LDAP使用者群組的群組網域名稱。
+

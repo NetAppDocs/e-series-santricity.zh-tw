@@ -1,0 +1,13 @@
+---
+layout: landing-page 
+sidebar: sidebar 
+permalink: unified-manager/index.html 
+summary: 利用此軟件文件、您可以安裝、設定及維護儲存陣列。SANtricity 
+---
+= Unified Manager 5.3提供多重陣列管理功能
+:hardbreaks:
+:allow-uri-read: 
+:linkattrs: 
+:imagesdir: ./media/
+
+

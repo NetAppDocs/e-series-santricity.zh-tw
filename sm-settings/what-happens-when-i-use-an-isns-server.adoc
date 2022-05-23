@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-happens-when-i-use-an-isns-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, isns, server, registration, 
+summary: 使用網際網路儲存名稱服務（iSNS）伺服器資訊時、可將主機（啟動器）設定為查詢iSNS伺服器、以便從目標（控制器）擷取資訊。 
+---
+= 使用iSNS伺服器進行登錄時會發生什麼事？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用網際網路儲存名稱服務（iSNS）伺服器資訊時、可將主機（啟動器）設定為查詢iSNS伺服器、以便從目標（控制器）擷取資訊。
+
+此登錄可為iSNS伺服器提供控制器的iSCSI合格名稱（IQN）和連接埠資訊、並允許在啟動器（iSCSI主機）和目標（控制器）之間進行查詢。

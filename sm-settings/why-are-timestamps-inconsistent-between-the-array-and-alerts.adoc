@@ -1,0 +1,22 @@
+---
+permalink: sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, timestamps, inconsistent, array, alerts, 
+summary: 當儲存陣列傳送警示時、對於接收警示的目標伺服器或主機所在的時區而言、它不正確。相反地、儲存陣列會使用本機時間（GMT）來建立警示記錄所用的時間戳記。因此、您可能會看到儲存陣列與收到警示的伺服器或主機之間的時間戳記不一致。 
+---
+= 為什麼陣列與警示之間的時間戳記不一致？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當儲存陣列傳送警示時、對於接收警示的目標伺服器或主機所在的時區而言、它不正確。相反地、儲存陣列會使用本機時間（GMT）來建立警示記錄所用的時間戳記。因此、您可能會看到儲存陣列與收到警示的伺服器或主機之間的時間戳記不一致。
+
+由於儲存陣列在傳送警示時區不正確、因此警示上的時間戳記為相對於GMT-的時間區偏移值為零。若要計算適合您當地時區的時間戳記、您應該決定小時與時間的時差、然後從時間戳記中新增或減去該值。
+
+[NOTE]
+====
+若要避免此問題、請在儲存陣列控制器上設定網路時間傳輸協定（NTP）。NTP可確保控制器永遠同步至正確的時間。
+
+====

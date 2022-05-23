@@ -1,0 +1,28 @@
+---
+permalink: sm-storage/cancel-pending-snapshot-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, cancel, pending, snapshot, image 
+summary: 您可以在待處理的快照映像完成之前取消該映像。快照非同步發生、快照狀態會擱置、直到快照完成為止。快照映像會在同步作業完成後立即完成。 
+---
+= 取消擱置的快照映像
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在待處理的快照映像完成之前取消該映像。快照非同步發生、快照狀態會擱置、直到快照完成為止。快照映像會在同步作業完成後立即完成。
+
+快照映像因為下列並行情況而處於「Pending」（擱置）狀態：
+
+* 包含此快照映像之一致性群組的快照群組或一或多個成員磁碟區的基礎磁碟區、是非同步鏡射群組的成員。
+* 磁碟區目前正處於非同步鏡射同步作業中。
+
+
+.步驟
+. 選取功能表：Storage[集區與Volume群組]。
+. 按一下*保留容量*索引標籤。
+. 選取您要取消擱置中快照映像的快照群組、然後按一下功能表：「Uncommon Tasks（非經常工作）」（「取消擱置中的快照映像」）。
+. 按一下「*是*」以確認您要取消擱置的快照映像。
+

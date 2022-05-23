@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-is-a-health-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, health, images, controller, memory, processor 
+summary: 健全狀況映像是控制器處理器記憶體的原始資料傾印、技術支援可用來診斷控制器的問題。 
+---
+= 什麼是健全狀況映像？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+健全狀況映像是控制器處理器記憶體的原始資料傾印、技術支援可用來診斷控制器的問題。
+
+韌體偵測到特定錯誤時、會自動產生健全狀況映像。在某些疑難排解案例中、技術支援人員可能會要求您擷取健全狀況映像檔並將其傳送給他們。

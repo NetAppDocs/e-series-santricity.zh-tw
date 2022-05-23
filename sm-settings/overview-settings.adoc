@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/overview-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, system settings 
+summary: 您可以針對某些一般陣列設定和附加功能來設定System Manager。 
+---
+= 設定總覽
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以針對某些一般陣列設定和附加功能來設定System Manager。
+
+
+
+== 我可以設定哪些設定？
+
+陣列設定包括：
+
+* link:cache-settings-and-performance.html["快取設定與效能"]
+* link:automatic-load-balancing-overview.html"["自動負載平衡"]
+* link:how-add-on-features-work.html["附加功能"]
+* link:overview-drive-security.html["磁碟機安全性"]
+
+
+
+
+== 相關工作
+
+深入瞭解與系統設定相關的工作：
+
+* link:download-cli.html["下載命令列介面（CLI）"]
+* link:create-internal-security-key.html["建立內部安全金鑰"]
+* link:create-external-security-key.html["建立外部安全金鑰"]
+* link:../sm-hardware/configure-iscsi-ports-hardware.html["設定iSCSI連接埠"]
+* link:../sm-hardware/configure-nvme-over-infiniband-ports-hardware.html["設定透過IB連接埠的NVMe"]
+* link:../sm-hardware/configure-nvme-over-roce-ports-hardware.html["設定NVMe over RoCE連接埠"]
+

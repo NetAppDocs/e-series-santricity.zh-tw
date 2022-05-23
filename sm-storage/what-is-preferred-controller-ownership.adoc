@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/what-is-preferred-controller-ownership.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, preferred, controller, ownership 
+summary: 偏好的控制器擁有權定義指定為磁碟區擁有或主要控制器的控制器。 
+---
+= 什麼是偏好的控制器擁有權？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+偏好的控制器擁有權定義指定為磁碟區擁有或主要控制器的控制器。
+
+控制器擁有權非常重要、因此應謹慎規劃。控制器應盡量平衡整體I/O。
+
+例如、如果某個控制器主要讀取大型連續資料區塊、而另一個控制器則有較小的資料區塊、而且經常讀取和寫入、則負載會截然不同。瞭解哪些磁碟區包含哪種資料類型、可讓您在兩個控制器上平均平衡I/O傳輸。

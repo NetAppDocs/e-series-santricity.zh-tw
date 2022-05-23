@@ -1,0 +1,36 @@
+---
+permalink: sm-storage/thin-volume-monitoring.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, thin, volume, monitoring 
+summary: 您可以監控精簡磁碟區是否有空間、並產生適當的警示、以避免容量不足的情況。 
+---
+= 精簡磁碟區監控
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以監控精簡磁碟區是否有空間、並產生適當的警示、以避免容量不足的情況。
+
+精簡配置的環境可以配置比基礎實體儲存設備更多的邏輯空間。您可以選取功能表：「Storage[磁碟區>精簡磁碟區監控]」索引標籤、以監控精簡磁碟區在達到分配容量上限之前的成長程度。
+
+您可以使用精簡型監控檢視來執行下列動作：
+
+* 定義限制精簡磁碟區可自動擴充的已分配容量上限。
+* 設定當精簡磁碟區接近最大分配容量限制時、將警示（超過警告臨界值）傳送至首頁通知區域的百分比點。
+
+
+若要增加精簡磁碟區的容量、請增加報告的容量。
+
+[NOTE]
+====
+System Manager不提供建立精簡磁碟區的選項。如果要建立精簡磁碟區、請使用命令列介面（CLI）。
+
+====
+[NOTE]
+====
+EF600或EF300儲存系統無法使用精簡磁碟區。
+
+====

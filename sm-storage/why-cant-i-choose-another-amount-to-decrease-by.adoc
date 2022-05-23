@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, decrease, reserved capacity 
+summary: 您只能減少保留容量、以增加容量的金額為準。成員磁碟區的保留容量只能以新增的相反順序移除。 
+---
+= 為什麼我不能選擇其他金額來減少？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您只能減少保留容量、以增加容量的金額為準。成員磁碟區的保留容量只能以新增的相反順序移除。
+
+如果存在下列任一情況、您就無法減少儲存物件的保留容量：
+
+* 如果儲存物件是鏡射的配對磁碟區。
+* 如果儲存物件僅包含一個保留容量的磁碟區。儲存物件必須包含至少兩個保留容量的磁碟區。
+* 如果儲存物件是停用的快照磁碟區。
+* 如果儲存物件包含一或多個相關的快照映像、
+
+
+您只能以新增磁碟區的相反順序、移除保留容量的磁碟區。
+
+您無法減少快照磁碟區的保留容量、因為該快照磁碟區沒有任何關聯的保留容量。只有讀寫快照磁碟區需要保留容量。

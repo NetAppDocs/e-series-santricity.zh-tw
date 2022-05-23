@@ -1,0 +1,42 @@
+---
+permalink: sm-support/what-type-of-data-is-collected-through-autosupport.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, data, collected, autosupport, ASUP 
+summary: 此功能包含三種標準派單類型：事件派單、排程派單、隨選及遠端診斷派單。AutoSupport 
+---
+= 透過此功能收集哪種類型的資料AutoSupport ？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此功能包含三種標準派單類型：事件派單、排程派單、隨選及遠端診斷派單。AutoSupport
+
+不含任何使用者資料。AutoSupport
+
+* *事件派單*
++
+當系統發生事件、需要主動通知技術支援人員時AutoSupport 、此功能會自動傳送事件觸發的派遣。
+
++
+** 受管理儲存陣列發生支援事件時傳送。
+** 包括事件發生時儲存陣列的完整現況快照。
+
+
+* *定期派單*
++
+此功能會定期自動傳送多份分派文件。AutoSupport
+
++
+** *每日派單*-在使用者可設定的時間間隔內、每天傳送一次。包括目前的系統事件記錄和效能資料。
+** *每週派單*-在使用者可自行設定的時間間隔和日期內、每週傳送一次。包括組態和系統狀態資訊。
+
+
+* * AutoSupport 《隨需與遠端診斷》派單*
++
+** * AutoSupport 《支援需求*》-可讓技術支援部門在AutoSupport 需要時要求重新傳輸先前的故障排除資訊。所有傳輸都是從儲存陣列啟動、而非AutoSupport 從伺服器啟動。儲存陣列會定期與AutoSupport VMware伺服器一起檢查、以判斷是否有任何擱置中的重新傳輸要求、並據此做出回應。
+** *遠端診斷*-可讓技術支援部門在AutoSupport 疑難排解問題時、要求提供最新的更新版的支援。所有傳輸都是從儲存陣列啟動、而非AutoSupport 從伺服器啟動。儲存陣列會定期與AutoSupport VMware伺服器一起檢查、以判斷是否有任何擱置中的新要求、並據此做出回應。
+
+
+

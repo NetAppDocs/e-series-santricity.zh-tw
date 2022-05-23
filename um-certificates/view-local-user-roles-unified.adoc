@@ -1,0 +1,36 @@
+---
+permalink: um-certificates/view-local-user-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, view, local, user, roles 
+summary: 從本機使用者角色索引標籤、您可以檢視使用者與預設角色之間的對應。這些對應是在Web Services Proxy for SANtricity the Unified Manager中強制執行的RBAC（角色型存取控制）的一部分。 
+---
+= 檢視本機使用者角色
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+從本機使用者角色索引標籤、您可以檢視使用者與預設角色之間的對應。這些對應是在Unified Manager的Web Services Proxy中強制執行的RBAC（角色型存取控制）的一部分。
+
+您必須以包含安全管理員權限的使用者設定檔登入。否則、就不會顯示存取管理功能。
+
+無法變更使用者和對應。只能修改密碼。
+
+.步驟
+. 選擇*存取管理*。
+. 選取*本機使用者角色*索引標籤。
++
+下表顯示使用者：
+
++
+** *管理*：擁有系統中所有功能存取權的超級管理員。此使用者包含所有角色。
+** *儲存設備*：負責所有儲存資源配置的管理員。此使用者包括下列角色：儲存管理員、支援管理員及監控。
+** *安全性*：負責安全性組態的使用者、包括存取管理和憑證管理。此使用者包括下列角色：安全性管理和監控。
+** *支援*：負責硬體資源、故障資料及韌體升級的使用者。此使用者包括下列角色：Support Admin和Monitor。
+** *監控*：擁有系統唯讀存取權的使用者。此使用者僅包含「監控」角色。
+** * rw*（讀寫）-此使用者包括下列角色：儲存管理員、支援管理員及監控。
+** * RO*（唯讀）-此使用者僅包含「監控」角色。
+
+
+

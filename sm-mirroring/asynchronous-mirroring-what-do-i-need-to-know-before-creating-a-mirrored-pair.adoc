@@ -1,0 +1,28 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, 
+summary: 您可以在Unified Manager介面中設定鏡射配對、然後在System Manager中管理配對。 
+---
+= 非同步鏡射-建立鏡射配對之前、我需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在Unified Manager介面中設定鏡射配對、然後在System Manager中管理配對。
+
+在建立鏡射配對之前、請遵循下列準則。
+
+* 您必須有兩個儲存陣列。
+* 每個儲存陣列都必須有兩個控制器。
+* 主陣列和次陣列中的每個控制器都必須設定乙太網路管理連接埠、而且必須連線至您的網路。
+* 您的本機和遠端儲存陣列是透過光纖通道架構或iSCSI介面來連接。
+* 儲存陣列的韌體版本最低為7.84。（每個作業系統都能執行不同的版本。）
+* 您必須知道本機和遠端儲存陣列的密碼。
+* 您必須在遠端儲存陣列上擁有足夠的可用容量、才能建立等於或大於您要鏡射之主要磁碟區的次要磁碟區。
+* 您已安裝Web服務Proxy和Unified Manager。在Unified Manager介面中設定鏡射配對。
+* 這兩個儲存陣列都是在Unified Manager中發現的。
+* 您的儲存陣列必須包含至少一個鏡射一致性群組。您可以在「建立鏡射配對」精靈的Unified Manager中建立一致性群組。
+

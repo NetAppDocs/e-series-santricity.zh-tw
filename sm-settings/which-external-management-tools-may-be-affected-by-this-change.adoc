@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/which-external-management-tools-may-be-affected-by-this-change.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, external, management, tools, 
+summary: 當您在System Manager中進行某些變更（例如切換管理介面或使用SAML進行驗證方法）時、部分外部工具和功能可能會受到限制、無法使用。 
+---
+= 哪些外部管理工具可能會受此變更影響？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您在System Manager中進行某些變更（例如切換管理介面或使用SAML進行驗證方法）時、部分外部工具和功能可能會受到限制、無法使用。
+
+
+
+== 管理介面
+
+直接與舊版管理介面（符號）通訊的工具（例如SANtricity 、功能完善的SESSMI-S Provider或OnCommand Insight 功能完善的OCI（OCI））、除非已啟用「舊版管理介面」設定、否則無法運作。此外、如果停用此設定、則無法使用舊版CLI命令或執行鏡射作業。
+
+如需詳細資訊、請聯絡技術支援部門。
+
+
+
+== SAML驗證
+
+啟用SAML時、下列用戶端無法存取儲存陣列服務和資源：
+
+* 企業管理所需時間（EMW）
+* 命令列介面（CLI）
+* 軟體開發人員套件（SDK）用戶端
+* 頻內用戶端
+* HTTP基本驗證REST API用戶端
+* 使用標準REST API端點登入
+
+
+如需詳細資訊、請聯絡技術支援部門。

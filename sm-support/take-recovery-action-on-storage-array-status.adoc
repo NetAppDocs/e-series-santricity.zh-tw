@@ -1,0 +1,14 @@
+---
+permalink: sm-support/take-recovery-action-on-storage-array-status.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, take, recovery, action, storage, array, status 
+summary: 您可以檢閱不可讀取的磁區記錄、重新啟用磁碟機連接埠、以及清除還原模式、以對目前儲存陣列的狀態採取行動。 
+---
+= 針對儲存陣列狀態採取恢復行動
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢閱不可讀取的磁區記錄、重新啟用磁碟機連接埠、以及清除還原模式、藉此對目前儲存陣列的狀態採取行動。

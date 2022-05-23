@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/delete-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
+summary: 您可以刪除syslog伺服器、使其不再接收警示。 
+---
+= 刪除系統記錄伺服器以取得警示
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以刪除syslog伺服器、使其不再接收警示。
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取「*系統記錄*」索引標籤。
+. 選取syslog伺服器位址、然後按一下右上角的*移除*。
++
+「確認刪除Syslog伺服器」對話方塊隨即開啟。
+
+. 確認操作、然後按一下*刪除*。
+
+
+您移除的伺服器不再從事件監視器接收警示。

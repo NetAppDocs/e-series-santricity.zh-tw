@@ -1,0 +1,42 @@
+---
+permalink: um-manage/overview-storage-arrays.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays 
+summary: 若要管理儲存資源、您必須先探索網路中的儲存陣列。 
+---
+= 探索總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要管理儲存資源、您必須先探索網路中的儲存陣列。
+
+
+
+== 如何探索陣列？
+
+使用「新增/探索」頁面、尋找並新增您要在組織網路中管理的儲存陣列。您可以探索多個陣列、也可以探索單一陣列。若要這麼做、請輸入網路IP位址、然後Unified Manager會嘗試個別連線至該範圍內的每個IP位址。
+
+深入瞭解：
+
+* link:considerations-for-discovering-arrays.html["探索陣列的考量事項"]
+* link:discover-multiple-arrays.html["探索多個儲存陣列"]
+* link:discover-single-array.html["探索單一陣列"]
+
+
+
+
+== 如何管理陣列？
+
+發現陣列後、請前往*管理-全部*頁面。在此頁面中、您可以捲動瀏覽網路中探索到的儲存陣列清單、檢視其狀態、以及在單一陣列或陣列群組上執行作業。
+
+如果您想要管理單一陣列、可以選取該陣列並開啟System Manager。
+
+深入瞭解：
+
+* link:launch-considerations.html["存取System Manager的考量事項"]
+* link:launch-system-manager.html["管理個別的儲存陣列"]
+* link:storage-array-status.html["檢視儲存陣列狀態"]
+

@@ -1,0 +1,60 @@
+---
+permalink: sm-mirroring/increase-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, increase, reserved, capacity 
+summary: 您可以增加保留容量、這是實體配置的容量、用於儲存物件上的任何複製服務作業。 
+---
+= 增加保留容量
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以增加保留容量、這是實體配置的容量、用於儲存物件上的任何複製服務作業。
+
+對於Snapshot作業、通常是基礎磁碟區的40%；對於非同步鏡射作業、通常是基礎磁碟區的20%。一般而言、當您收到儲存物件保留容量已滿的警告時、就會增加保留容量。
+
+.開始之前
+* 集區或磁碟區群組中的磁碟區必須處於最佳狀態、且不得處於任何修改狀態。
+* 可用容量必須存在於您要用來增加容量的資源池或磁碟區群組中。
++
+如果任何集區或Volume群組上不存在可用容量、您可以將未使用磁碟機的未指派容量新增至集區或Volume群組。
+
+
+
+您只能以8 GiB的增量來增加下列儲存物件的保留容量：
+
+* Snapshot群組
+* Snapshot Volume
+* 一致性群組成員磁碟區
+* 鏡射配對Volume
+
+
+如果您認為主要磁碟區會經歷許多變更、或是某個複製服務作業的壽命會很長、請使用高百分比。
+
+[NOTE]
+====
+您無法為唯讀的快照磁碟區增加保留容量。只有讀寫快照磁碟區需要保留容量。
+
+====
+.步驟
+. 選取功能表：Storage[集區與Volume群組]。
+. 選取*保留容量*索引標籤。
+. 選取您要增加保留容量的儲存物件、然後按一下*增加容量*。
++
+此時會出現「增加保留容量」對話方塊。
+
+. 使用微調方塊來調整容量百分比。
++
+如果包含所選儲存物件的資源池或Volume群組中不存在可用容量、且儲存陣列具有Unassigned Capacity、您可以建立新的資源池或Volume群組。然後您可以使用該集區或Volume群組上的新可用容量、重試此作業。
+
+. 按一下*「增加*」。
+
+
+System Manager會執行下列動作：
+
+* 增加儲存物件的保留容量。
+* 顯示新增的保留容量。
+

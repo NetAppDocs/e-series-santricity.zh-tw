@@ -1,0 +1,18 @@
+---
+permalink: sm-interface/what-is-a-workload.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workload 
+summary: 對於網路中的某些應用程式（例如SQL Server或Exchange）、您可以定義工作負載來最佳化該應用程式的儲存設備。 
+---
+= 什麼是工作負載？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+對於網路中的某些應用程式（例如SQL Server或Exchange）、您可以定義工作負載來最佳化該應用程式的儲存設備。
+
+工作負載是支援應用程式的儲存物件。您可以針對每個應用程式定義一或多個工作負載或執行個體。對於某些應用程式、系統會將工作負載設定為包含具有類似基礎Volume特性的磁碟區。這些Volume特性是根據工作負載所支援的應用程式類型而最佳化。例如、如果您建立支援Microsoft SQL Server應用程式的工作負載、然後為該工作負載建立磁碟區、則基礎磁碟區特性會最佳化以支援Microsoft SQL Server。
+
+在Volume建立期間、系統會提示您回答有關工作負載使用的問題。例如、如果您要為Microsoft Exchange建立磁碟區、系統會詢問您需要多少信箱、平均信箱容量需求為何、以及您想要的資料庫複本數量。系統會使用此資訊為您建立最佳Volume組態、並可視需要加以編輯。

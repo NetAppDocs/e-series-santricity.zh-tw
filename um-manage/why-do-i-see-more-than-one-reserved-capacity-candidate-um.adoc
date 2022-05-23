@@ -1,0 +1,16 @@
+---
+permalink: um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, reserved, capacity, candidate 
+summary: 如果某個集區或Volume群組中有多個Volume符合您為儲存物件選取的容量百分比量、您就會看到多個候選磁碟區。 
+---
+= 為什麼我會看到多個保留容量的候選對象？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果某個集區或Volume群組中有多個Volume符合您為儲存物件選取的容量百分比量、您就會看到多個候選磁碟區。
+
+您可以變更要保留在基礎磁碟區上進行複製服務作業的實體磁碟機空間百分比、以重新整理建議的候選磁碟機清單。根據您的選擇、將會顯示最佳的候選對象。

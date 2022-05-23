@@ -1,0 +1,16 @@
+---
+permalink: sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Not Available 
+summary: 當遠端儲存陣列上的資料無法顯示時、表格會列出不可用的值。 
+---
+= 為什麼我在表格中看到無法使用的值？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當遠端儲存陣列上的資料無法顯示時、表格會列出不可用的值。
+
+若要顯示遠端儲存陣列資料、請從Unified Manager啟動System Manager。

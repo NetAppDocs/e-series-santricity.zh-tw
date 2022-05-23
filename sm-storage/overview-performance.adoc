@@ -1,0 +1,39 @@
+---
+permalink: sm-storage/overview-performance.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, performance 
+summary: 「效能」頁面可讓您輕鬆監控儲存陣列的效能。 
+---
+= 效能總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「效能」頁面可讓您輕鬆監控儲存陣列的效能。
+
+
+
+== 我可以從效能資料中學到什麼？
+
+效能圖表和表格會以近乎即時的方式顯示效能資料、協助您判斷儲存陣列是否發生問題。您也可以儲存效能資料、以建構儲存陣列的歷史檢視、並識別問題發生的時間或原因。
+
+深入瞭解：
+
+* link:performance-graphs-guidelines.html["效能圖表與準則"]
+* link:performance-terminology.html["效能術語"]
+
+
+
+
+== 如何檢視效能資料？
+
+效能資料可從首頁和「儲存設備」頁面取得。
+
+深入瞭解：
+
+* link:view-performance-data-graphical.html["檢視圖形化效能資料"]
+* link:view-and-save-performance-data-tabular.html["檢視及儲存表格式效能資料"]
+* link:interpret-performance-data.html["解讀效能資料"]
+

@@ -1,0 +1,21 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, validating, security, key, 
+summary: 建立安全金鑰之後、您應該驗證金鑰檔、以確保它不會毀損。 
+---
+= 驗證安全金鑰需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+建立安全金鑰之後、您應該驗證金鑰檔、以確保它不會毀損。
+
+如果驗證失敗、請執行下列動作：
+
+* 如果安全金鑰識別碼與控制器上的識別碼不符、請找出正確的安全金鑰檔案、然後再試一次驗證。
+* 如果控制器無法解密安全金鑰以進行驗證、您可能輸入的密碼不正確。請仔細檢查密碼、必要時重新輸入密碼、然後再次嘗試驗證。如果錯誤訊息再次出現、請選取金鑰檔的備份（若有）、然後重新嘗試驗證。
+* 如果仍無法驗證安全金鑰、則原始檔案可能已毀損。建立金鑰的新備份並驗證該複本。
+

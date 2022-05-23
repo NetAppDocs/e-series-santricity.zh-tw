@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/add-community-names-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add, communities, snmpv2c, traps, 
+summary: 您最多可以新增256個SNMP v2c設陷的社群名稱。 
+---
+= 新增SNMP v2c設陷的社群
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您最多可以新增256個SNMP v2c設陷的社群名稱。
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取「* SNMP *」索引標籤。
++
+陷阱目的地和社群名稱會出現在表格中。
+
+. 選擇*設定社群*。
++
+「設定社群」對話方塊隨即開啟。
+
+. 選取*新增其他社群*。
+. 輸入新的社群名稱、然後按一下「*儲存*」。
+
+
+新的社群名稱會出現在「警示」頁面的SNMP索引標籤中。

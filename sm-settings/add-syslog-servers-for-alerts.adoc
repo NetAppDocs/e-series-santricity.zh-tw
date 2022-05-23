@@ -1,0 +1,42 @@
+---
+permalink: sm-settings/add-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add, syslog, servers, alerts, 
+summary: 您最多可以新增五部伺服器來執行系統記錄警示。 
+---
+= 新增系統記錄伺服器以供警示
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您最多可以新增五部伺服器來執行系統記錄警示。
+
+.開始之前
+* 系統記錄伺服器位址必須可用。此位址可以是完整網域名稱、IPv4位址或IPv6位址。
+* 系統記錄伺服器的udp連接埠號碼必須可用。此連接埠通常為514。
+
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取「*系統記錄*」索引標籤。
+. 選擇* Add Syslog Servers*（添加Syslog服務器*）。
++
+此時會開啟「新增Syslog伺服器」對話方塊。
+
+. 選取*新增其他syslog伺服器*。
+. 輸入syslog伺服器的資訊、然後按一下*「Add*（新增*）」。
++
+** *系統記錄伺服器位址*-輸入完整網域名稱、IPv4位址或IPv6位址。
+** * udp Port*-通常syslog的udp連接埠為514。
+
+
++
+
+NOTE: 最多可設定五部syslog伺服器。
+
+
+
+系統記錄伺服器位址會出現在表格中。

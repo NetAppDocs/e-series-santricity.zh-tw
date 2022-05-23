@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-is-configuration-data.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuration, data, collect, database 
+summary: 選取「收集組態資料」時、系統會儲存RAID組態資料庫的目前狀態。 
+---
+= 什麼是組態資料？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+選取「收集組態資料」時、系統會儲存RAID組態資料庫的目前狀態。
+
+RAID組態資料庫包含控制器上磁碟區群組和磁碟集區的所有資料。「收集組態資料」功能會將與CLI命令相同的資訊儲存在「儲存陣列dbmDatabase」中。

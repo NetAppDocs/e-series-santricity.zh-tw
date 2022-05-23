@@ -1,0 +1,37 @@
+---
+permalink: sm-storage/delete-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, consistency, group 
+summary: 您可以刪除不再需要的快照一致性群組。 
+---
+= 刪除Snapshot一致性群組
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以刪除不再需要的快照一致性群組。
+
+確認不再需要所有成員磁碟區的映像來進行備份或測試。
+
+此作業會刪除與Snapshot一致性群組相關的所有快照映像或排程。
+
+.步驟
+. 選取功能表：Storage[快照]。
+. 選取* Snapshot Consistency Group*索引標籤。
+. 選取您要刪除的快照一致性群組、然後選取功能表：「Uncommon Tasks（非常用工作）」[Delete（刪除）。
++
+此時將出現Confirm Delete Snapshot Consistency Group（確認刪除Snapshot一致性組）對話框。
+
+. 確認您要執行此作業、然後按一下*刪除*。
+
+
+System Manager會執行下列動作：
+
+* 從快照一致性群組中刪除所有現有的快照映像和快照磁碟區。
+* 刪除快照一致性群組中每個成員磁碟區的所有相關快照映像。
+* 刪除快照一致性群組中每個成員磁碟區的所有相關快照磁碟區。
+* 刪除快照一致性群組中每個成員磁碟區的所有相關保留容量（若已選取）。
+

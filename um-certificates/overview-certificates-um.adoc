@@ -1,0 +1,38 @@
+---
+permalink: um-certificates/overview-certificates-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, certificate management 
+summary: 「憑證管理」可讓您建立憑證簽署要求（CSR）、匯入憑證、以及管理現有的憑證。 
+---
+= 憑證總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「憑證管理」可讓您建立憑證簽署要求（CSR）、匯入憑證、以及管理現有的憑證。
+
+
+
+== 什麼是憑證？
+
+_Certificates_是數位檔案、可識別網站和伺服器等線上實體、以便在網際網路上進行安全通訊。憑證有兩種類型：_簽署的憑證_由憑證授權單位（CA）驗證、_自我簽署的憑證_則由實體擁有者（而非第三方）驗證。
+
+深入瞭解：
+
+* link:how-certificates-work-unified.html["憑證的運作方式"]
+* link:certificate-terminology-unified.html["憑證術語"]
+
+
+
+
+== 如何設定憑證？
+
+從「憑證管理」中、您可以設定裝載Unified Manager的管理站台憑證、也可以匯入陣列中控制器的憑證。
+
+深入瞭解：
+
+* link:use-ca-signed-certificate-um.html["管理系統使用CA簽署的憑證"]
+* link:import-array-certificates-unified.html["匯入陣列的憑證"]
+

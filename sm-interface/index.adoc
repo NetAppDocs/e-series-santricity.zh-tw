@@ -1,0 +1,12 @@
+---
+permalink: sm-interface/index.html 
+sidebar: sidebar 
+keywords: santricity, system, manager, 
+summary: 系統管理程式11.7 SANtricity 
+---
+= 系統管理程式11.7 SANtricity
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+

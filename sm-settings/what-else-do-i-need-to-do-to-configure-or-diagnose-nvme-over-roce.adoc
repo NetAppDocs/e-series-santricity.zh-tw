@@ -1,0 +1,51 @@
+---
+permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, nvme, roce, 
+summary: 您可以從「硬體與設定」頁面設定及管理NVMe over RoCE。 
+---
+= 我還需要做什麼才能透過RoCE來設定或診斷NVMe？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從「硬體與設定」頁面設定及管理NVMe over RoCE。
+
+[NOTE]
+====
+NVMe over RoCE設定僅適用於儲存陣列的控制器包含NVMe over RoCE連接埠的情況。
+
+====
+[cols="35h,~"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+設定NVMe over RoCE連接埠
+ a| 
+. 選取*硬體*。
+. 選擇*顯示櫃背面*。
+. 選取控制器。
+. 選取*透過RoCE連接埠設定NVMe *。
+
+
+或
+
+. 選取功能表：設定[系統]。
+. 向下捲動至* NVMe over roce設定*、然後選取* Configure NVMe over roce Ports*。
+
+
+
+
+ a| 
+檢視NVMe over Fabrics統計資料
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* NVMe over roce設定*、然後選取* View NVMe over Fabrics Statistic*。
+
+
+|===

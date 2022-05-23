@@ -1,0 +1,55 @@
+---
+permalink: sm-storage/overview-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes 
+summary: 您可以建立磁碟區做為容器、以供應用程式、資料庫和檔案系統儲存資料。建立磁碟區時、您也可以選取工作負載來自訂特定應用程式的儲存陣列組態。 
+---
+= Volume與工作負載總覽
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立磁碟區做為容器、以供應用程式、資料庫和檔案系統儲存資料。建立磁碟區時、您也可以選取工作負載來自訂特定應用程式的儲存陣列組態。
+
+
+
+== 什麼是磁碟區和工作負載？
+
+_volume是以特定容量建立的邏輯元件、可供主機存取。雖然磁碟區可能包含多個磁碟機、但磁碟區會顯示為主機的一個邏輯元件。定義磁碟區之後、您可以將其新增至工作負載。_Workload _是支援應用程式（例如SQL Server或Exchange）的儲存物件、您可以使用它來最佳化該應用程式的儲存設備。
+
+深入瞭解：
+
+* link:how-volumes-work.html["磁碟區的運作方式"]
+* link:how-workloads-work.html["工作負載的運作方式"]
+* link:volume-terminology.html["Volume術語"]
+* link:capacity-for-volumes.html["如何分配容量給磁碟區"]
+* link:actions-you-can-perform-on-volumes.html["您可以在磁碟區上執行的動作"]
+
+
+
+
+== 您如何建立磁碟區和工作負載？
+
+首先、您要建立工作負載。移至功能表：「Storage[Volumes]（儲存設備[磁碟區]）」、然後開啟精靈、引導您完成這些步驟。接下來、您可以從資源池或磁碟區群組中可用的容量建立磁碟區、然後指派您所建立的工作負載。
+
+深入瞭解：
+
+* link:workflow-for-creating-volumes.html["建立Volume的工作流程"]
+* link:create-workloads.html["建立工作負載"]
+* link:create-volumes.html["建立磁碟區"]
+* link:add-to-workload.html["新增磁碟區至工作負載"]
+
+
+
+
+== 相關資訊
+
+深入瞭解與Volume相關的概念：
+
+* link:data-integrity-and-data-security-for-volumes.html["磁碟區的資料完整性與資料安全性"]
+* link:ssd-cache-and-volumes.html["SSD快取與磁碟區"]
+* link:thin-volume-monitoring.html["精簡磁碟區監控"]
+

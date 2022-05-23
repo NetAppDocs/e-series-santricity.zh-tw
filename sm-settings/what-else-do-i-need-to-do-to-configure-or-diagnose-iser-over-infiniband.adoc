@@ -1,0 +1,51 @@
+---
+permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iser, infiniBand, 
+summary: 下表列出可用於設定及管理InfiniBand工作階段之iSER的System Manager功能。 
+---
+= 在InfiniBand上設定或診斷iSER還需要做什麼？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下表列出可用於設定及管理InfiniBand工作階段之iSER的System Manager功能。
+
+[NOTE]
+====
+僅當儲存陣列的控制器在InfiniBand主機管理連接埠上包含iSER時、才能使用iSER over InfiniBand設定。
+
+====
+[cols="35h,~"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+在InfiniBand連接埠上設定iSER
+ a| 
+. 選取*硬體*。
+. 選擇*顯示櫃背面*。
+. 選取控制器。
+. 選取*透過InfiniBand連接埠設定iSER *。
+
+
+或
+
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSER over InfiniBand settings *、然後選取* Configure iSER over InfiniBand Ports*。
+
+
+
+
+ a| 
+檢視InfiniBand統計資料的iSER
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至「InfiniBand設定*上的* iSER」、然後選取「View iSER over InfiniBand Statistics *」。
+
+
+|===

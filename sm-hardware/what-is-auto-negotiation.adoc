@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/what-is-auto-negotiation.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, auto, negotiation, network, interface, 
+summary: 「自動協調」是指網路介面能夠自動協調自己的連線參數（速度和雙工）與其他網路介面。 
+---
+= 什麼是自動交涉？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「自動協調」是指網路介面能夠自動協調自己的連線參數（速度和雙工）與其他網路介面。
+
+自動交涉通常是設定管理連接埠的慣用設定、但是如果交涉失敗、不相符的網路介面設定可能會嚴重影響網路效能。在無法接受此情況的情況下、您應該手動將網路介面設定設為正確的組態。自動交涉是由控制器的乙太網路管理連接埠執行。iSCSI主機匯流排介面卡不會執行自動交涉。
+
+[NOTE]
+====
+如果自動交涉失敗、控制器會嘗試以10BASE-T、半雙工、這是最低的共同點來建立連線。
+
+====

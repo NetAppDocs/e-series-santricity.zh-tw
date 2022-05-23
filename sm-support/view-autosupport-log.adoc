@@ -1,0 +1,40 @@
+---
+permalink: sm-support/view-autosupport-log.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, autosupport, log 
+summary: 此資料檔提供有關供應過程中所遇到的狀態、派單記錄和錯誤的資訊。AutoSupport AutoSupport 
+---
+= 檢視AutoSupport 資訊記錄
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此資料檔提供有關供應過程中所遇到的狀態、派單記錄和錯誤的資訊。AutoSupport AutoSupport
+
+可以存在多個記錄檔。當目前的記錄檔達到200 KB時、會將其歸檔並建立新的記錄檔。歸檔的記錄檔名稱為「ASUPMessages .n」、其中_n_是介於1到9之間的整數。如果存在多個記錄檔、您可以選擇檢視最新的記錄或先前的記錄。
+
+* *目前記錄*-顯示最新擷取事件的清單。
+* *歸檔記錄*-顯示先前事件的清單。
+
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 選擇*查看AutoSupport *《SView》*。
++
+此時會出現一個對話方塊、其中列出目前AutoSupport 的資訊記錄。
+
+. 如果您想查看先前AutoSupport 的資訊記錄、請選取*歸檔*選項按鈕、然後從*選取AutoSupport 資訊記錄*下拉式清單中選取記錄。
++
+只有儲存陣列上有歸檔記錄時、才會顯示「歸檔」選項。
+
++
+所選AutoSupport 的功能記錄會出現在對話方塊中。
+
+. *選用：*若要搜尋AutoSupport 此資訊記錄、請在*尋找*方塊中輸入字詞、然後按一下*尋找*。
++
+再按一下「*尋找*」以搜尋詞彙的其他出現項目。
+
+

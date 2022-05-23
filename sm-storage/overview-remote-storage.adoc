@@ -1,0 +1,44 @@
+---
+permalink: sm-storage/overview-remote-storage.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, storage 
+summary: 如果您有遠端儲存功能、可以從遠端儲存系統匯入資料。 
+---
+= 遠端儲存功能總覽
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您有遠端儲存功能、可以將資料從遠端儲存系統匯入儲存陣列。
+
+
+
+== 什麼是遠端儲存功能？
+
+「遠端儲存設備」功能可讓您從遠端儲存系統將資料匯入本機E系列儲存系統。遠端系統可以是另一個E系列系統、也可以是其他廠商的系統。當您想要簡化資料移轉作業並將停機時間降至最低（例如設備升級期間）時、這項功能非常實用。
+
+
+NOTE: 若要使用遠端儲存設備、必須在子機型ID（SMID）中啟用此功能。
+
+深入瞭解：
+
+* link:rtv-how-remote-storage-works.html["遠端儲存設備的運作方式"]
+* link:rtv-terminology.html["遠端儲存術語"]
+* link:rtv-remote-storage-requirements.html["遠端儲存需求"]
+* link:rtv-remote-storage-volume-requirements.html["遠端儲存Volume需求"]
+
+
+
+
+== 如何使用此功能匯入資料？
+
+使用遠端儲存精靈、您可以將遠端儲存設備（資料匯入來源）對應至E系列系統上的目標Volume。此精靈可從功能表：Storage[遠端儲存設備]取得。
+
+深入瞭解：
+
+* link:rtv-import-remote-storage.html["匯入遠端儲存設備"]
+* link:rtv-manage-progress-of-remote-volume-import.html["管理資料匯入進度"]
+

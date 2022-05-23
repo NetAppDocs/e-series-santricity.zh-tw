@@ -1,0 +1,14 @@
+---
+permalink: sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, dhcp, manual, configuration, protocol, 
+summary: 網路組態的預設方法是動態主機組態傳輸協定（DHCP）。除非您的網路沒有DHCP伺服器、否則請務必使用此選項。 
+---
+= 我應該選擇哪一項—DHCP或手動設定？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+網路組態的預設方法是動態主機組態傳輸協定（DHCP）。除非您的網路沒有DHCP伺服器、否則請務必使用此選項。

@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-if-alerts-are-disabled.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, alerts, disabled, 
+summary: 如果您希望系統管理員收到儲存陣列中發生重要事件的通知、您必須設定警示方法。 
+---
+= 停用警示時該怎麼辦？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您希望系統管理員收到儲存陣列中發生重要事件的通知、您必須設定警示方法。
+
+若為SANtricity 以《支援系統管理程式》管理的儲存陣列、您可從「警示」頁面設定警示。警示通知可透過電子郵件、SNMP設陷或系統記錄訊息傳送。此外、您也可以從初始設定精靈設定電子郵件警示。

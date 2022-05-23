@@ -1,0 +1,14 @@
+---
+permalink: sm-support/view-storage-array-information.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, storage, array, 
+summary: 您可以檢視儲存陣列的設定檔、以及儲存陣列中每個元件的韌體版本。 
+---
+= 檢視儲存陣列資訊
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視儲存陣列的設定檔、以及儲存陣列中每個元件的韌體版本。

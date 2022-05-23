@@ -1,0 +1,22 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, unlocking, secure, drives, 
+summary: 若要從啟用安全功能的磁碟機解除資料鎖定、您必須匯入其安全金鑰。 
+---
+= 在解除鎖定安全磁碟機之前、我需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要從啟用安全功能的磁碟機解除資料鎖定、您必須匯入其安全金鑰。
+
+在解除鎖定啟用安全功能的磁碟機之前、請謹記下列準則：
+
+* 儲存陣列必須已有安全金鑰。移轉的磁碟機將重新輸入目標儲存陣列。
+* 對於要移轉的磁碟機、您必須知道安全金鑰識別碼和安全金鑰檔案對應的密碼。
+* 安全金鑰檔案必須可在管理用戶端上使用（使用瀏覽器存取System Manager的系統）。
+* 如果您要重設鎖定的NVMe磁碟機、則必須輸入磁碟機的安全ID。若要找出安全ID、您必須實際移除磁碟機、並在磁碟機標籤上找到PSID字串（最多32個字元）。開始操作之前、請先確定已重新安裝磁碟機。
+

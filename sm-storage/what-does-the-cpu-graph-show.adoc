@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-does-the-cpu-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, cpu, graph, show, capacity, statistics, controller 
+summary: CPU圖表會顯示每個控制器（控制器A和控制器B）的處理容量統計資料。CPU是中央處理器（Central Processing）的縮寫。在首頁上、此圖表會顯示儲存陣列的統計資料。在「Performance（效能）」方塊的「Physical View（實體檢視）」索引標籤上、此圖表會顯示儲存陣列和磁碟機的統計資料。 
+---
+= CPU圖表顯示什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+CPU圖表會顯示每個控制器（控制器A和控制器B）的處理容量統計資料。CPU是_Central處理器單元_的縮寫。在首頁上、此圖表會顯示儲存陣列的統計資料。在「Performance（效能）」方塊的「Physical View（實體檢視）」索引標籤上、此圖表會顯示儲存陣列和磁碟機的統計資料。
+
+CPU圖表顯示陣列上的作業所使用的CPU處理容量百分比。即使沒有發生外部I/O、CPU使用率百分比也可能非零、因為儲存作業系統可能正在執行背景作業和監控。將游標停留在圖表上的某個點上、即可檢視當時使用的處理能力百分比。

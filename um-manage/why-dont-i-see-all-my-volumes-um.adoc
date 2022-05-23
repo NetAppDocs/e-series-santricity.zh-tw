@@ -1,0 +1,22 @@
+---
+permalink: um-manage/why-dont-i-see-all-my-volumes-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, volumes missing 
+summary: 當您選取鏡射配對的主要Volume時、會有一個清單顯示所有符合資格的Volume。 
+---
+= 為什麼我看不到所有磁碟區？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您選取鏡射配對的主要Volume時、會有一個清單顯示所有符合資格的Volume。
+
+任何不符合使用資格的磁碟區都不會顯示在該清單中。磁碟區可能不符合下列任一原因的資格：
+
+* Volume並非最佳。
+* Volume已參與鏡射關係。
+* 對於同步鏡射、鏡射配對中的主要和次要磁碟區必須是標準磁碟區。它們不能是精簡磁碟區或快照磁碟區。
+* 對於非同步鏡射、精簡磁碟區必須啟用自動擴充。
+

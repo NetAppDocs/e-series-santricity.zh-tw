@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-is-a-volume-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volume, group 
+summary: Volume群組是具有共享特性之磁碟區的容器。Volume群組具有已定義的容量和RAID層級。您可以使用Volume群組來建立一個或多個可讓主機存取的磁碟區。（您可以從磁碟區群組或集區建立磁碟區。） 
+---
+= 什麼是Volume群組？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Volume群組是具有共享特性之磁碟區的容器。Volume群組具有已定義的容量和RAID層級。您可以使用Volume群組來建立一個或多個可讓主機存取的磁碟區。（您可以從磁碟區群組或集區建立磁碟區。）

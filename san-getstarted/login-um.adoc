@@ -1,0 +1,36 @@
+---
+permalink: san-getstarted/login-um.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, log in Unified Manager 
+summary: 存取並登入Unified Manager。 
+---
+= 存取Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+安裝Web服務Proxy之後、您可以存取Unified Manager、在網路型介面中管理多個儲存系統。
+
+
+NOTE: 如需支援的瀏覽器、請參閱 link:supported-browsers-os.html["支援的瀏覽器和作業系統"]。
+
+.步驟
+. 開啟瀏覽器並輸入下列URL：
++
++http：//<server>:<port>/um+'
+
++
+在此URL中、「<server>'代表安裝Web服務Proxy之伺服器的IP位址或FQDN、而「<port>'代表接聽連接埠號碼（HTTP預設為8080、HTTPS預設為8443）。
+
++
+此時會開啟Unified Manager登入頁面。
+
+. 首次登入時、請輸入「admin」作為使用者名稱、然後設定並確認管理員使用者的密碼。
++
+密碼最多可包含30個字元。
+
+
+
+如需使用者和密碼的詳細資訊、請參閱 link:../um-certificates/how-access-management-works-unified.html["存取管理的運作方式"]。

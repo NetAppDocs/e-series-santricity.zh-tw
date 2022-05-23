@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, syslog, server, audit, logs, 
+summary: 如果您設定的syslog伺服器採用TLS傳輸協定、則伺服器在憑證因任何原因而失效時、將無法接收訊息。稽核記錄會張貼有關無效憑證的錯誤訊息。 
+---
+= 系統記錄伺服器不再接收稽核記錄。我該怎麼辦？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您設定的syslog伺服器採用TLS傳輸協定、則伺服器在憑證因任何原因而失效時、將無法接收訊息。稽核記錄會張貼有關無效憑證的錯誤訊息。
+
+若要解決此問題、您必須先修正syslog伺服器的憑證。一旦有效的憑證鏈結就位、請前往功能表：「Settings[Audit Log（設定稽核記錄）> Configure Syslog Servers（設定Syslog伺服器）> Test All（全部測試）」。

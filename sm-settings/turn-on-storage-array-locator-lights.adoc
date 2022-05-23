@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/turn-on-storage-array-locator-lights.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, locator, lights, 
+summary: 若要在機櫃中找到儲存陣列的實體位置、您可以開啟其定位器（LED）指示燈。 
+---
+= 開啟儲存陣列定位器指示燈
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要在機櫃中找到儲存陣列的實體位置、您可以開啟其定位器（LED）指示燈。
+
+.步驟
+. 選取功能表：設定[系統]。
+. 在「*一般*」下、按一下「*開啟儲存陣列定位器指示燈*」。
++
+「開啟儲存陣列定位器指示燈」對話方塊隨即開啟、對應的儲存陣列定位器指示燈也會亮起。
+
+. 當您實際找到儲存陣列後、請返回對話方塊、然後選取* Turn Off*。
+
+
+定位燈會關閉、對話方塊會關閉。

@@ -1,0 +1,14 @@
+---
+permalink: sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, servers, revocation, checking, 
+summary: 儲存陣列會在連線AutoSupport 至某個伺服器、外部金鑰管理伺服器（EKMS）、輕量型SSL目錄存取傳輸協定（LDAPS）伺服器或Syslog伺服器時、執行撤銷檢查。 
+---
+= 哪些類型的伺服器會啟用撤銷檢查？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+儲存陣列會在連線AutoSupport 至某個伺服器、外部金鑰管理伺服器（EKMS）、輕量型SSL目錄存取傳輸協定（LDAPS）伺服器或Syslog伺服器時、執行撤銷檢查。

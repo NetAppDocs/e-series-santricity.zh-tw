@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, offline, volumes, use, assign, host, 
+summary: 如果您想加速建立磁碟區的程序、可以跳過主機指派步驟、以便離線初始化新建立的磁碟區。 
+---
+= 我想在何時使用「稍後指派主機」選項？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您想加速建立磁碟區的程序、可以跳過主機指派步驟、以便離線初始化新建立的磁碟區。
+
+必須初始化新建立的磁碟區。系統可以使用兩種模式之一來初始化它們：立即可用的格式（IAF）背景初始化程序或離線程序。
+
+將磁碟區對應到主機時、會強制該群組中任何初始化的磁碟區轉換成背景初始化。此背景初始化程序可同時執行主機I/O、有時可能會耗費大量時間。
+
+如果未對應磁碟區群組中的任何磁碟區、則會執行離線初始化。離線程序比背景程序快得多。

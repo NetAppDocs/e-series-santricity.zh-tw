@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/why-cant-i-delete-the-selected-workload.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, selected, workload 
+summary: 此工作負載由一組使用命令列介面（CLI）建立的磁碟區、或是從不同儲存陣列移轉（匯入/匯出）的磁碟區組成。因此、此工作負載中的磁碟區不會與應用程式專屬的工作負載相關聯、因此無法刪除工作負載。 
+---
+= 為何無法刪除選取的工作負載？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此工作負載由一組使用命令列介面（CLI）建立的磁碟區、或是從不同儲存陣列移轉（匯入/匯出）的磁碟區組成。因此、此工作負載中的磁碟區不會與應用程式專屬的工作負載相關聯、因此無法刪除工作負載。

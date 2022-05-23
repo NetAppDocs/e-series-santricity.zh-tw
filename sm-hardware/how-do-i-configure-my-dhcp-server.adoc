@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/how-do-i-configure-my-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, dhcp, server, static, internet, protocol, 
+summary: 您必須設定動態主機組態傳輸協定（DHCP）伺服器、以使用儲存陣列中控制器的靜態網際網路傳輸協定（IP）位址。 
+---
+= 如何設定我的DHCP伺服器？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您必須設定動態主機組態傳輸協定（DHCP）伺服器、以使用儲存陣列中控制器的靜態網際網路傳輸協定（IP）位址。
+
+您的DHCP伺服器指派的IP位址通常是動態的、而且可能會因為租用期間已過期而變更。有些裝置（例如伺服器和路由器）需要使用靜態位址。儲存陣列中的控制器也需要靜態IP位址。
+
+如需如何指派靜態位址的相關資訊、請參閱DHCP伺服器的文件。

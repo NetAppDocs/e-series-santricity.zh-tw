@@ -1,0 +1,65 @@
+---
+permalink: sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, delivery, method, autosupport, 
+summary: 支援HTTPS、HTTP和SMTP傳輸協定的功能、AutoSupport 可將AutoSupport 不支援的項目傳送給技術支援人員。 
+---
+= 我要如何設定AutoSupport 供應方法以使用「不知道」功能？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援HTTPS、HTTP和SMTP傳輸協定的功能、AutoSupport 可將AutoSupport 不支援的項目傳送給技術支援人員。
+
+.開始之前
+* 必須啟用此功能。AutoSupport您可以在AutoSupport 「介紹」頁面上查看是否已啟用此功能。
+* 必須在網路中安裝和設定DNS伺服器。DNS伺服器位址必須在系統管理員中設定（此工作可從「硬體」頁面取得）。
+
+
+檢閱不同的傳輸協定：
+
+* * HTTPS *：可讓您使用HTTPS直接連線至目的地技術支援伺服器。如果您要啟用AutoSupport 「僅供支援的更新」或「遠端診斷」、AutoSupport 則必須將「提供支援的方法」設為HTTPS。
+* * HTTP *：可讓您使用HTTP直接連線至目的地技術支援伺服器。
+* *電子郵件*：可讓您使用電子郵件伺服器作為傳送AutoSupport 功能來傳送非功能性派單。
+
+
+[NOTE]
+====
+HTTPS / HTTP與電子郵件方法之間的差異*。使用SMTP的電子郵件傳送方法與HTTPS和HTTP傳送方法有一些重要差異。首先、「電子郵件」方法的派單大小限制為5MB、這表示部分ASUP資料收集將不會派送。第二、AutoSupport 只有在HTPP和HTTPS方法上才能使用「支援即用」功能。
+
+====
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 選擇*設定AutoSupport 「供應方法」*。
++
+此時會出現一個對話方塊、列出分派交付方法。
+
+. 選取所需的交付方法、然後選取該交付方法的參數。執行下列其中一項：
++
+** 如果您選取HTTPS或HTTP、請選取下列其中一個交付參數：
++
+*** *直接*-此交付參數為預設選項。選擇此選項可讓您使用HTTPS或HTTP傳輸協定、直接連線至目的地技術支援系統。
+*** *透過Proxy伺服器*-選擇此選項可讓您指定與目的地技術支援系統建立連線所需的HTTP Proxy伺服器詳細資料。您必須指定主機位址和連接埠號碼。不過、您只需在必要時輸入主機驗證詳細資料（使用者名稱和密碼）。
+*** *透過Proxy自動組態指令碼（PAC）*-指定Proxy自動組態（PAC）指令碼檔案的位置。PAC檔案可讓系統自動選擇適當的Proxy伺服器、以建立與目的地技術支援系統的連線。
+
+
+** 如果您選取電子郵件、請輸入下列資訊：
++
+*** 郵件伺服器位址是完整網域名稱、IPv4位址或IPv6位址。
+*** 出現在AutoSupport 「來源」欄位的電子郵件地址。
+*** *選用；如果您要執行組態測試。* AutoSupport 當系統收到測試派單時、會傳送確認訊息的電子郵件地址。
+*** 如果您要加密訊息、請選取* SMTP*或* STARTTLS*作為加密類型、然後選取加密訊息的連接埠號碼。否則、請選取*無*。
+*** 如有需要、請輸入使用者名稱和密碼、以便與傳出寄件者和郵件伺服器進行驗證。
+
+
+
+
+. 按一下*測試組態*、使用指定的交付參數測試技術支援伺服器的連線。如果您啟用AutoSupport 「根據需求提供支援」功能、系統也會測試連線AutoSupport 功能、以利提供「根據需求提供支援」。
++
+如果組態測試失敗、請檢查組態設定、然後再次執行測試。如果測試持續失敗、請聯絡技術支援部門。
+
+. 按一下「 * 儲存 * 」。
+

@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/manage-session-timeouts-sam.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, manage, session, timeouts, 
+summary: 您可以在SANtricity 「靜態系統管理程式」中設定逾時、以便在指定時間後中斷使用者的非作用中工作階段連線。 
+---
+= 管理工作階段逾時
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在System Manager中設定逾時、以便在指定時間後中斷使用者的非作用中工作階段連線。
+
+依預設、System Manager的工作階段逾時為30分鐘。您可以調整時間、也可以一併停用工作階段逾時。
+
+[NOTE]
+====
+如果使用陣列內嵌的安全聲明標記語言（SAML）功能來設定存取管理、則當使用者的SSO工作階段達到上限時、可能會發生工作階段逾時。這可能發生在System Manager工作階段逾時之前。
+
+====
+.步驟
+. 選取功能表：設定[系統]。
+. 在「General（一般）」區段下、選取*「Enable / Disable Session timeout*（啟用/停用工作階段逾
++
+「啟用/停用工作階段逾時」對話方塊隨即開啟。
+
+. 使用微調控制項來增加或減少時間（以分鐘為單位）。
++
+您可以為System Manager設定的最短逾時時間為15分鐘。
+
++
+[NOTE]
+====
+若要停用工作階段逾時、請取消選取*設定時間長度...*核取方塊。
+
+====
+. 按一下「 * 儲存 * 」。
+

@@ -1,0 +1,32 @@
+---
+permalink: sm-hardware/reset-reboot-controller.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reset, reboot, controller 
+summary: 有些問題需要重設控制器（重新開機）。即使您沒有實體存取權、也可以重設控制器。 
+---
+= 重設（重新開機）控制器
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+有些問題需要重設控制器（重新開機）。即使您沒有實體存取權限、也可以重設控制器。
+
+.開始之前
+* 儲存陣列必須有兩個控制器。您未重設的控制器必須處於線上狀態（處於最佳狀態）。
+* 請確定所有使用這些磁碟區的主機均未使用任何磁碟區、或已安裝多重路徑驅動程式。
+
+
+.步驟
+. 選取*硬體*。
+. 如果圖形顯示磁碟機、請按一下*顯示磁碟櫃背面*。
++
+圖形會變更、以顯示控制器而非磁碟機。
+
+. 按一下您要重設的控制器。
++
+此時會出現控制器的內容功能表。
+
+. 選取*重設*、然後確認您要執行此作業。
+

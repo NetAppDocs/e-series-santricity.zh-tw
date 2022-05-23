@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, controller, network, configuration, gateway, 
+summary: 使用頻外管理時、您必須為每個控制器設定網路組態、包括其網際網路傳輸協定（IP）位址、子網路遮罩（子網路遮罩）和閘道。 
+---
+= 為何需要變更控制器網路組態？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用頻外管理時、您必須為每個控制器設定網路組態、包括其網際網路傳輸協定（IP）位址、子網路遮罩（子網路遮罩）和閘道。
+
+您可以使用動態主機組態傳輸協定（DHCP）伺服器來設定網路組態。如果您不使用DHCP伺服器、則必須手動輸入網路組態。

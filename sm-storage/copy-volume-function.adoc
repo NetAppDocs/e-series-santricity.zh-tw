@@ -1,0 +1,131 @@
+---
+permalink: sm-storage/copy-volume-function.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, copy, volume, 
+summary: 複製Volume功能可讓您在同一個儲存陣列上建立兩個獨立的磁碟區、即來源磁碟區和目標磁碟區、藉此建立磁碟區的時間點複本。 
+---
+= 複製Volume總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+複製Volume功能可讓您在同一個儲存陣列上建立兩個獨立的磁碟區、即來源磁碟區和目標磁碟區、藉此建立磁碟區的時間點複本。
+
+此功能會從來源磁碟區逐位元組複製到目標磁碟區、使目標磁碟區上的資料與來源磁碟區上的資料相同。
+
+
+
+== 資料複製功能可提供更高的存取權限
+
+隨著磁碟區的儲存需求改變、您可以使用複製磁碟區功能、將使用較小容量磁碟機的資源池或磁碟區群組中的資料複製到使用較大容量磁碟機的資源池或磁碟區群組。例如、您可以使用複製Volume功能來執行下列動作：
+
+* 將資料移至較大的磁碟機。
+* 變更為資料傳輸率較高的磁碟機。
+* 改用新技術以提升效能。
+* 將精簡磁碟區變更為厚磁碟區。
+
+
+
+
+== 將精簡磁碟區變更為厚磁碟區
+
+如果您想要將精簡磁碟區變更為厚磁碟區、請使用複製磁碟區作業來建立精簡磁碟區的複本。「複製Volume」作業的目標永遠是較厚的Volume。
+
+[NOTE]
+====
+System Manager不提供建立精簡磁碟區的選項。如果要建立精簡磁碟區、請使用命令列介面（CLI）。
+
+====
+
+
+== 備份資料
+
+複製Volume功能可讓您將資料從一個磁碟區複製到同一個儲存陣列上的另一個磁碟區、藉此備份磁碟區。您可以使用目標磁碟區做為來源磁碟區的備份、進行系統測試、或備份至其他裝置、例如磁帶機。
+
+
+
+== 將Snapshot Volume資料還原至基礎Volume
+
+如果您需要從相關的Snapshot Volume將資料還原至基礎Volume、您可以使用Copy Volume（複製Volume）功能、將資料從快照Volume複製到基礎Volume。您可以在快照磁碟區上建立資料的Volume複本、然後將資料複製到基礎磁碟區。
+
+
+
+== 來源與目標磁碟區
+
+下表指定使用複製Volume功能、可用於來源和目標磁碟區的磁碟區類型。
+
+[cols="1a,1a,1a,1a"]
+|===
+| Volume類型 | 離線Volume複製來源Volume | 線上Volume複製來源Volume | 線上和離線目標Volume 
+
+
+ a| 
+集區中的複雜Volume
+ a| 
+是的
+ a| 
+是的
+ a| 
+是的
+
+
+
+ a| 
+Volume群組中的完整Volume
+ a| 
+是的
+ a| 
+是的
+ a| 
+是的
+
+
+
+ a| 
+精簡磁碟區
+ a| 
+是的
+ a| 
+是的
+ a| 
+否
+
+
+
+ a| 
+Snapshot Volume
+ a| 
+是1^
+ a| 
+否
+ a| 
+否
+
+
+
+ a| 
+Snapshot基礎Volume
+ a| 
+是的
+ a| 
+否
+ a| 
+否
+
+
+
+ a| 
+遠端鏡射主要Volume
+ a| 
+是：2^
+ a| 
+否
+ a| 
+是的
+
+|===
+在線上複製作業完成之前、您無法使用快照Volume複本。
+
+^2^如果來源Volume是主要Volume、則目標Volume的容量必須等於或大於來源Volume的可用容量。

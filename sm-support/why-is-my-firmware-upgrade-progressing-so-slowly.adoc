@@ -1,0 +1,16 @@
+---
+permalink: sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, firmware, upgrade, slow 
+summary: 韌體升級進度取決於系統的整體負載。 
+---
+= 我的韌體升級為什麼進展緩慢？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+韌體升級進度取決於系統的整體負載。
+
+在線上升級磁碟機韌體期間、如果在快速重建程序期間進行磁碟區傳輸、系統會對傳輸的磁碟區進行完整重建。這項作業可能需要相當長的時間。實際的完整重建時間取決於多個因素、包括重建作業期間發生的I/O活動量、磁碟區群組中的磁碟機數量、重建優先順序設定、以及磁碟機效能。

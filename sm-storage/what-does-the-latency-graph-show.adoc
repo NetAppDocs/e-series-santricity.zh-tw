@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-does-the-latency-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, latency, graph, show, statistics, 
+summary: 延遲圖表以毫秒（毫秒）為單位、針對磁碟區、磁碟區群組、集區、 應用程式與工作負載。此圖表會顯示在「邏輯檢視」、「實體檢視」及「應用程式與工作負載檢視」索引標籤中。 
+---
+= 延遲圖表顯示什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+延遲圖表以毫秒（毫秒）為單位、針對磁碟區、磁碟區群組、集區、 應用程式與工作負載。此圖表會顯示在「邏輯檢視」、「實體檢視」及「應用程式與工作負載檢視」索引標籤中。
+
+延遲是指在讀取或寫入資料時發生的任何延遲。將游標停留在圖表上的某個點上、即可檢視該時間點的下列值（以毫秒（毫秒）為單位）：
+
+* 讀取時間。
+* 寫入時間：
+* 平均I/O大小。
+

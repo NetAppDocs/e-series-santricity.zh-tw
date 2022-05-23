@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, snapshots, thin, standard, base, images 
+summary: 標準磁碟區和精簡磁碟區是唯一可用於儲存快照映像的磁碟區類型。無法使用非標準磁碟區。基礎磁碟區可位於集區或磁碟區群組上。 
+---
+= 快照可使用哪些類型的磁碟區？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+標準磁碟區和精簡磁碟區是唯一可用於儲存快照映像的磁碟區類型。無法使用非標準磁碟區。基礎磁碟區可位於集區或磁碟區群組上。

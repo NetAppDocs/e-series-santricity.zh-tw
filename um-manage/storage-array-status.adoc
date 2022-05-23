@@ -1,0 +1,72 @@
+---
+permalink: um-manage/storage-array-status.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, storage, array, status, communication, 
+summary: Unified Manager會顯示每個已探索儲存陣列的狀態。 
+---
+= 檢視儲存陣列狀態
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager會顯示每個已探索儲存陣列的狀態。
+
+前往*管理-全部*頁面。在此頁面中、您可以檢視Web服務Proxy與該儲存陣列之間的連線狀態。
+
+狀態指標如下表所述。
+
+[cols="25h,~"]
+|===
+| 狀態 | 表示 
+
+
+ a| 
+最佳化
+ a| 
+儲存陣列處於最佳狀態。沒有憑證問題、密碼有效。
+
+
+
+ a| 
+密碼無效
+ a| 
+提供無效的儲存陣列密碼。
+
+
+
+ a| 
+不受信任的憑證
+ a| 
+與儲存陣列的一或多個連線不受信任、因為HTTPS憑證為自我簽署且尚未匯入、或憑證已由CA簽署、且尚未匯入根和中繼CA憑證。
+
+
+
+ a| 
+需要注意
+ a| 
+儲存陣列發生問題、需要您介入修正。
+
+
+
+ a| 
+穩固定位
+ a| 
+儲存陣列處於鎖定狀態。
+
+
+
+ a| 
+不明
+ a| 
+從未聯絡過儲存陣列。當Web服務Proxy啟動且尚未與儲存陣列聯絡、或儲存陣列離線、且自Web服務Proxy啟動後從未聯絡過時、就會發生這種情況。
+
+
+
+ a| 
+離線
+ a| 
+Web Services Proxy先前曾聯絡過儲存陣列、但現在已失去與儲存陣列的所有連線。
+
+|===

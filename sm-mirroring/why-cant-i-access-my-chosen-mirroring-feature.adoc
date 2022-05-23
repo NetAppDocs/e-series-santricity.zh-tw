@@ -1,0 +1,33 @@
+---
+permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, mirroring, access 
+summary: 鏡射是在Unified Manager介面中設定。 
+---
+= 為什麼我無法存取所選的鏡射功能？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+鏡射是在Unified Manager介面中設定。
+
+[NOTE]
+====
+EF600或EF300儲存陣列無法使用鏡射功能。
+
+====
+若要啟用及設定兩個陣列之間的鏡射、請確認下列事項：
+
+* Web服務Proxy服務必須正在執行。（Unified Manager與Web服務Proxy一起安裝在主機系統上。）
+* Unified Manager必須透過HTTPS連線在本機主機上執行。
+* 您要用於鏡射的兩個儲存陣列必須在Unified Manager中探索。
+* Unified Manager必須擁有儲存陣列的有效SSL憑證。您可以接受自我簽署的憑證、或從Unified Manager安裝CA簽署的憑證。
+
+
+如需組態指示、請參閱下列內容：
+
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html["建立非同步鏡射配對（在Unified Manager中）"]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html["建立同步鏡射配對（在Unified Manager中）"]
+

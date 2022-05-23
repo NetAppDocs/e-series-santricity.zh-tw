@@ -1,0 +1,43 @@
+---
+permalink: um-certificates/overview-access-management-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, authentication 
+summary: 存取管理是一種在SANtricity 功能不全的Manager中設定使用者驗證的方法。 
+---
+= 存取管理總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+存取管理是一種在Unified Manager中設定使用者驗證的方法。
+
+
+
+== 有哪些驗證方法可用？
+
+提供下列驗證方法：
+
+* *本機使用者角色*-驗證是透過RBAC（角色型存取控制）功能來管理。本機使用者角色包括預先定義的使用者設定檔和具有特定存取權限的角色。
+* *目錄服務*-驗證是透過LDAP（輕量型目錄存取傳輸協定）伺服器和目錄服務（例如Microsoft的Active Directory）來管理。
+
+
+深入瞭解：
+
+* link:how-access-management-works-unified.html["存取管理的運作方式"]
+* link:access-management-terminology-unified.html["存取管理術語"]
+* link:permissions-for-mapped-roles-unified.html["對應角色的權限"]
+
+
+
+
+== 如何設定存取管理？
+
+此功能已預先設定為使用本機使用者角色。SANtricity如果您想要使用LDAP、可以在「存取管理」頁面下進行設定。
+
+深入瞭解：
+
+* link:access-management-with-local-user-roles-unified.html["具有本機使用者角色的存取管理"]
+* link:access-management-with-directory-services-unified.html["使用目錄服務進行存取管理"]
+

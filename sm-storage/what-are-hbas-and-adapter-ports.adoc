@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-are-hbas-and-adapter-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hbas, adapter, ports 
+summary: 主機匯流排介面卡（HBA）是一種主機板、位於主機中、包含一或多個主機連接埠。主機連接埠是主機匯流排介面卡（HBA）上的連接埠、可提供與控制器的實體連線、並用於I/O作業。 
+---
+= 什麼是HBA和介面卡連接埠？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+主機匯流排介面卡（HBA）是一種主機板、位於主機中、包含一或多個主機連接埠。主機連接埠是主機匯流排介面卡（HBA）上的連接埠、可提供與控制器的實體連線、並用於I/O作業。
+
+HBA上的介面卡連接埠稱為主機連接埠。大多數HBA都有一個或兩個主機連接埠。HBA具有唯一的全球識別碼（WWID）、而且每個HBA主機連接埠都有唯一的WWID。當您透過SANtricity 「支援系統管理程式」手動建立主機、或使用主機內容代理程式自動建立主機時、主機連接埠識別碼可用來將適當的HBA與實體主機建立關聯。

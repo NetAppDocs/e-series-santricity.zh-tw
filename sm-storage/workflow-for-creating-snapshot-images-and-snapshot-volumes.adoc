@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, create, snapshot, images, snapshot, volumes 
+summary: 在System Manager中、您可以依照下列步驟建立快照映像和快照磁碟區。 
+---
+= 建立快照映像與快照磁碟區的工作流程
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在System Manager中、您可以依照下列步驟建立快照映像和快照磁碟區。
+
+
+
+== 建立快照映像的工作流程
+
+image::../media/sam1130-flw-snapshots-create-ss-images.gif[Sam1130 FLW快照可建立數個映像]
+
+
+
+== 建立Snapshot Volume的工作流程
+
+image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[Sam1130 FLW快照可建立數個磁碟區]

@@ -1,0 +1,49 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuring, enabling, SAML, 
+summary: 在設定及啟用安全性聲明標記語言（SAML）功能以進行驗證之前、請確定您符合下列需求、並瞭解SAML限制。 
+---
+= 在設定及啟用SAML之前、我需要知道哪些資訊？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在設定及啟用安全性聲明標記語言（SAML）功能以進行驗證之前、請確定您符合下列需求、並瞭解SAML限制。
+
+
+
+== 需求
+
+開始之前、請確定：
+
+* 您的網路中已設定身分識別供應商（IDP）。IDP是一種外部系統、用於向使用者要求認證、並判斷使用者是否已成功驗證。您的安全團隊負責維護IDP。
+* IDP管理員已在IDP系統中設定使用者屬性和群組。
+* IDP管理員已確保IDP支援在驗證時傳回名稱ID的功能。
+* 系統管理員已確保IDP伺服器與控制器時鐘同步（透過NTP伺服器或調整控制器時鐘設定）。
+* IDP中繼資料檔案會從IDP系統下載、並可在本機系統上使用、以供存取System Manager。
+* 您知道儲存陣列中每個控制器的IP位址或網域名稱。
+
+
+
+
+== 限制
+
+除了上述要求之外、請務必瞭解下列限制：
+
+* 一旦啟用SAML、您就無法透過使用者介面停用SAML、也無法編輯IDP設定。如果您需要停用或編輯SAML組態、請聯絡技術支援部門以取得協助。建議您在最終組態步驟中啟用SAML之前先測試SSO登入。（系統也會在啟用SAML之前執行SSO登入測試。）
+* 如果您日後停用SAML、系統會自動還原先前的組態（本機使用者角色和/或目錄服務）。
+* 如果目錄服務目前設定為使用者驗證、則SAML會覆寫該組態。
+* 設定SAML時、下列用戶端無法存取儲存陣列資源：
++
+** 企業管理所需時間（EMW）
+** 命令列介面（CLI）
+** 軟體開發人員套件（SDK）用戶端
+** 頻內用戶端
+** HTTP基本驗證REST API用戶端
+** 使用標準REST API端點登入
+
+
+

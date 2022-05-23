@@ -1,0 +1,92 @@
+---
+permalink: sm-storage/change-the-settings-for-a-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volume, settings, snapshot, volume 
+summary: 您可以變更快照磁碟區或快照一致性群組快照磁碟區的設定、以重新命名、啟用或停用SSD快取、或變更主機、主機叢集或邏輯單元編號（LUN）指派。 
+---
+= 變更快照Volume的Volume設定
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更快照磁碟區或快照一致性群組快照磁碟區的設定、以重新命名、啟用或停用SSD快取、或變更主機、主機叢集或邏輯單元編號（LUN）指派。
+
+.步驟
+. 選取功能表：Storage[快照]。
+. 按一下「* Snapshot Volumes *（* Snapshot磁碟區*）
+. 選取您要變更的快照磁碟區、然後按一下「*檢視/編輯設定*」。
++
+此時將出現Snapshot Volume Settings（Snapshot Volume設置）對話框。
+
+. 視需要檢視或編輯快照磁碟區的設定。
++
+.欄位詳細資料
+====
+[cols="25h,~"]
+|===
+| 設定 | 說明 
+
+
+ a| 
+* Snapshot Volume *
+
+
+
+ a| 
+名稱
+ a| 
+您可以變更快照磁碟區的名稱。
+
+
+
+ a| 
+指派給
+ a| 
+您可以變更快照磁碟區的主機或主機叢集指派。
+
+
+
+ a| 
+LUN
+ a| 
+您可以變更快照磁碟區的LUN指派。
+
+
+
+ a| 
+SSD快取
+ a| 
+您可以在固態磁碟（SSD）上啟用/停用唯讀快取。
+
+
+
+ a| 
+*相關物件*
+
+
+
+ a| 
+Snapshot映像
+ a| 
+您可以檢視與快照磁碟區相關的快照映像。Snapshot映像是在特定時間點擷取的Volume資料邏輯複本。如同還原點、Snapshot映像可讓您回復至已知良好的資料集。雖然主機可以存取快照映像、但無法直接讀取或寫入。
+
+
+
+ a| 
+基礎Volume
+ a| 
+您可以檢視與快照磁碟區相關的基礎磁碟區。基礎Volume是建立快照映像的來源。它可以是厚磁碟區或精簡磁碟區、通常會指派給主機。基礎磁碟區可位於磁碟區群組或磁碟集區中。
+
+
+
+ a| 
+Snapshot群組
+ a| 
+您可以檢視與快照磁碟區相關聯的快照群組。Snapshot群組是來自單一基礎Volume的快照映像集合。
+
+|===
+====
+

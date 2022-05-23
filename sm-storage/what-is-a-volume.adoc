@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-a-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volume 
+summary: Volume是應用程式、資料庫和檔案系統儲存資料的容器。它是為主機所建立的邏輯元件、可用來存取儲存陣列上的儲存設備。 
+---
+= 什麼是Volume？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Volume是應用程式、資料庫和檔案系統儲存資料的容器。它是為主機所建立的邏輯元件、可用來存取儲存陣列上的儲存設備。
+
+磁碟區是從集區或磁碟區群組中可用的容量所建立。磁碟區具有已定義的容量。雖然磁碟區可能包含多個磁碟機、但磁碟區會顯示為主機的一個邏輯元件。

@@ -1,0 +1,29 @@
+---
+permalink: sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, unsynchronized, data, mirror, consistency, groups, 
+summary: 您可以檢視本機儲存陣列和遠端儲存陣列上鏡射一致性群組之間的未同步資料量。當鏡射一致性群組處於非同步狀態時、不會發生鏡射活動。 
+---
+= 檢視鏡射一致性群組之間的非同步資料量
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視本機儲存陣列和遠端儲存陣列上鏡射一致性群組之間的未同步資料量。當鏡射一致性群組處於非同步狀態時、不會發生鏡射活動。
+
+當選取的鏡射一致性群組包含鏡射配對、且同步處理目前未進行時、您可以執行此工作。
+
+.步驟
+. 選取功能表：Storage[非同步鏡射]。
+. 選取*鏡射一致性群組*索引標籤。
++
+「Mirror Consistency Group」（鏡射一致性群組）表格隨即出現、並顯示與儲存陣列相關的所有鏡射一致性群組。
+
+. 按一下功能表：More（更多）[檢視非同步資料量]。
++
+如果存在未同步的資料、則表格值會反映此情況。「資料量」欄會在MIBs中列出未同步的資料量。
+
+

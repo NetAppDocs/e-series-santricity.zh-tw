@@ -1,0 +1,74 @@
+---
+permalink: sm-settings/access-management-with-saml.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, saml 
+summary: 對於存取管理、系統管理員可以使用陣列內嵌的安全聲明標記語言（SAML）2.0功能。 
+---
+= 使用SAML進行存取管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+對於存取管理、系統管理員可以使用陣列內嵌的安全聲明標記語言（SAML）2.0功能。
+
+
+
+== 組態工作流程
+
+SAML組態運作方式如下：
+
+. 系統管理員使用包含「安全性管理」權限的使用者設定檔登入System Manager。
++
+[NOTE]
+====
+「admin」使用者可以完整存取System Manager中的所有功能。
+
+====
+. 系統管理員會移至「存取管理」下的「* SAML」索引標籤。
+. 系統管理員會設定與身分識別供應商（IDP）的通訊。IDP是一種外部系統、用於向使用者要求認證、並判斷使用者是否已成功驗證。若要設定與儲存陣列的通訊、系統管理員會從IDP系統下載IDP中繼資料檔案、然後使用System Manager將檔案上傳至儲存陣列。
+. 系統管理員會在服務供應商與IDP之間建立信任關係。服務供應商會控制使用者授權；在此情況下、儲存陣列中的控制器會扮演服務供應商的角色。若要設定通訊、系統管理員會使用System Manager匯出每個控制器的服務供應商中繼資料檔案。接著、系統管理員會從IDP系統將這些中繼資料檔案匯入IDP。
++
+[NOTE]
+====
+系統管理員也應確保IDP支援在驗證時傳回名稱ID的功能。
+
+====
+. 系統管理員會將儲存陣列的角色對應至IDP中定義的使用者屬性。為達成此目的、系統管理員會使用System Manager建立對應。
+. 系統管理員會測試SSO登入IDP URL。此測試可確保儲存陣列與IDP之間的通訊。
++
+[CAUTION]
+====
+一旦啟用SAML、您就無法透過使用者介面停用SAML、也無法編輯IDP設定。如果您需要停用或編輯SAML組態、請聯絡技術支援部門以取得協助。
+
+====
+. 系統管理員可從System Manager啟用儲存陣列的SAML。
+. 使用者使用SSO認證登入系統。
+
+
+
+
+== 管理
+
+使用SAML進行驗證時、系統管理員可以執行下列管理工作：
+
+* 修改或建立新的角色對應
+* 匯出服務供應商檔案
+
+
+
+
+== 存取限制
+
+啟用SAML時、使用者無法從Unified Manager或舊版Storage Manager介面探索或管理該陣列的儲存設備。
+
+此外、下列用戶端無法存取儲存陣列服務和資源：
+
+* 企業管理所需時間（EMW）
+* 命令列介面（CLI）
+* 軟體開發人員套件（SDK）用戶端
+* 頻內用戶端
+* HTTP基本驗證REST API用戶端
+* 使用標準REST API端點登入
+

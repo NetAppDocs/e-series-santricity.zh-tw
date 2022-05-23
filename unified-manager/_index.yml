@@ -1,0 +1,41 @@
+---
+indexpage:
+  tiles:
+  - title: 設定
+    links:
+    - title: Unified Manager介面總覽
+      url: "../um-admin/overview-interface-unified.html"
+    - title: 設定管理密碼
+      url: "../um-admin/administrator-password-protection-unified.html"
+  - title: 探索陣列
+    links:
+    - title: 探索考量
+      url: "../um-manage/considerations-for-discovering-arrays.html"
+    - title: 單一陣列
+      url: "../um-manage/discover-single-array.html"
+    - title: 多個陣列
+      url: "../um-manage/discover-multiple-arrays.html"
+  - title: 管理陣列
+    links:
+    - title: 儲存陣列群組
+      url: "../um-manage/overview-manage-groups.html"
+    - title: 儲存陣列狀態
+      url: "../um-manage/storage-array-status.html"
+    - title: 升級軟體
+      url: "../um-manage/upgrade-controller-firmware.html"
+  - title: 管理存取
+    links:
+    - title: 使用者存取
+      url: "../um-certificates/how-access-management-works-unified.html"
+    - title: 憑證
+      url: "../um-certificates/how-certificates-work-unified.html"
+    - title: 目錄服務
+      url: "../um-certificates/access-management-with-directory-services-unified.html"
+  - title: 管理設定
+    links:
+    - title: 匯入設定
+      url: "../um-manage/how-import-settings-works.html"
+    - title: 變更密碼設定
+      url: "../um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: 變更目錄伺服器設定
+      url: "../um-certificates/edit-directory-server-settings-unified.html"

@@ -1,0 +1,35 @@
+---
+permalink: um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, volumes missing 
+summary: 當您在遠端儲存陣列上選取次要Volume時、清單會顯示該鏡射配對的所有適用磁碟區。 
+---
+= 為什麼我看不到遠端儲存陣列上的所有磁碟區？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您在遠端儲存陣列上選取次要Volume時、清單會顯示該鏡射配對的所有適用磁碟區。
+
+任何不符合使用資格的磁碟區、都不會顯示在該清單中。Volume可能不符合下列任何理由：
+
+* 此磁碟區為非標準磁碟區、例如快照磁碟區。
+* Volume並非最佳。
+* Volume已參與鏡射關係。
+* 對於非同步鏡射、主要磁碟區與次要磁碟區之間的精簡磁碟區屬性不相符。
+* 如果您使用的是Data Assurance（DA）、則主要Volume和次要Volume必須具有相同的DA設定。
++
+** 如果主磁碟區已啟用DA、則必須啟用次要磁碟區DA。
+** 如果主要Volume未啟用DA、則次要Volume不得啟用DA。
+
+
+* 對於非同步鏡射、主要磁碟區和次要磁碟區必須具有相同的磁碟機安全功能。
++
+** 如果主要磁碟區支援FIPS、則次要磁碟區必須具備FIPS功能。
+** 如果主要Volume支援FDE、則次要Volume必須具備FDE功能。
+** 如果主要磁碟區未使用磁碟機安全性、則次要磁碟區不得使用磁碟機安全性。
+
+
+

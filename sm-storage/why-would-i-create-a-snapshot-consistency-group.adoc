@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/why-would-i-create-a-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency, group 
+summary: 您可以建立快照一致性群組、以確保快照映像同時在多個磁碟區上擷取。 
+---
+= 為什麼要建立Snapshot一致性群組？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立快照一致性群組、以確保快照映像同時在多個磁碟區上擷取。
+
+例如、由多個磁碟區所組成的資料庫、如果需要維持一致的恢復目的、則需要快照一致性群組來收集所有磁碟區的協調快照、並使用它們來還原整個資料庫。
+
+快照一致性群組中包含的磁碟區稱為「成員磁碟區」。
+
+您可以在快照一致性群組上執行下列快照作業：
+
+* 建立快照一致性群組的快照映像、以取得成員磁碟區的同步映像。
+* 建立快照一致性群組的排程、以自動擷取成員磁碟區的定期同步映像。
+* 建立快照一致性群組映像的主機存取快照磁碟區。
+* 針對快照一致性群組執行復原作業。
+

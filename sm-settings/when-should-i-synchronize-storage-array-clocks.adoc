@@ -1,0 +1,21 @@
+---
+permalink: sm-settings/when-should-i-synchronize-storage-array-clocks.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, synchronize, storage, array, clock, 
+summary: 如果您注意到System Manager中顯示的時間戳記與管理用戶端（透過瀏覽器存取System Manager的電腦）中顯示的時間戳記不一致、則應手動同步儲存陣列中的控制器時鐘。只有在System Manager中未啟用NTP（網路時間傳輸協定）時、才需要執行此工作。 
+---
+= 何時應該同步儲存陣列時鐘？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您注意到System Manager中顯示的時間戳記與管理用戶端（透過瀏覽器存取System Manager的電腦）中顯示的時間戳記不一致、則應手動同步儲存陣列中的控制器時鐘。只有在System Manager中未啟用NTP（網路時間傳輸協定）時、才需要執行此工作。
+
+[NOTE]
+====
+我們強烈建議您使用NTP伺服器、而非手動同步時鐘。NTP會使用SNTP（簡易網路時間傳輸協定）、自動將時鐘與外部伺服器同步。
+
+====
+您可以從「系統」頁面上的「同步儲存陣列時鐘」對話方塊中、檢查同步狀態。如果對話方塊中顯示的時間不相符、請執行同步處理。您可以定期檢視此對話方塊、以指出控制器時鐘的時間顯示是否已偏離並不再同步。

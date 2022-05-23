@@ -1,0 +1,34 @@
+---
+permalink: sm-support/enable-autosupport-maintenance-window.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, autosupport, ASUP, maintenance window 
+summary: 啟用AutoSupport 「還原維護」視窗、可在發生錯誤事件時禁止自動建立問題單。在正常操作模式下、如果AutoSupport 發生問題、儲存陣列會使用支援功能來開啟案例。 
+---
+= 啟用AutoSupport 還原維護所需時間
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+啟用AutoSupport 「還原維護」視窗、可在發生錯誤事件時禁止自動建立問題單。在正常操作模式下、如果AutoSupport 發生問題、儲存陣列會使用支援功能來開啟案例。
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 選取*「啟用AutoSupport 還原維護」視窗*。
+. 輸入電子郵件地址、以收到確認已處理維護期間申請的確認訊息。
++
+視您的組態而定、您最多可以輸入五個電子郵件地址。如果您要新增多個地址、請選取*新增其他電子郵件*以開啟另一個欄位。
+
+. 指定啟用維護所需的持續時間（小時）。
++
+支援的最長持續時間為72小時。
+
+. 按一下「*是*」。
++
+在指定的期間內、系統會暫時禁止在錯誤事件上建立自動問題單。AutoSupport
+
+
+
+除非AutoSupport 由VMware伺服器處理儲存陣列的要求、否則維護時間不會開始。在儲存陣列上執行任何維護活動之前、請先等候收到確認電子郵件。

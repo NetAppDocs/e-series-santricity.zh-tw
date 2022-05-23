@@ -1,0 +1,22 @@
+---
+permalink: sm-storage/snapshot-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, volumes 
+summary: 如果您想要讀取或寫入快照資料、可以建立快照磁碟區並將其指派給主機。快照磁碟區與基礎磁碟區具有相同的特性（RAID層級、I/O特性等）。 
+---
+= Snapshot Volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您想要讀取或寫入快照資料、可以建立快照磁碟區並將其指派給主機。快照磁碟區與基礎磁碟區具有相同的特性（RAID層級、I/O特性等）。
+
+建立快照磁碟區時、您可以將其指定為_read-onl_y或_read-write accessure_。
+
+建立唯讀快照磁碟區時、您不需要新增保留容量。建立讀寫快照磁碟區時、您必須新增保留容量以提供寫入存取。
+
+image::../media/sam1130-dwg-snapshots-volumes-overview.gif[Sam1130 dwgs快照磁碟區總覽]
+
+^1^基礎磁碟區；^2^主機；^3^唯讀快照磁碟區；^4^讀寫快照磁碟區；^5^保留容量

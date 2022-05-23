@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, drive, reconstruction, 
+summary: 您可以從「作業進行中」儀表板檢視磁碟機重建狀態。 
+---
+= 何處可以檢視正在進行重建的磁碟機狀態？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從「作業進行中」儀表板檢視磁碟機重建狀態。
+
+在首頁中、按一下右上角的*「View Operations in progress*（檢視進行中的作業*）」連結。
+
+視磁碟機而定、完整重建可能需要相當長的時間。如果磁碟區擁有權有所變更、可能會進行完整重建、而非快速重建。

@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/delete-trusted-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, trusted, certificates, 
+summary: 您可以刪除先前從信任索引標籤匯入的使用者安裝憑證。 
+---
+= 刪除信任的憑證
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以刪除先前從信任索引標籤匯入的使用者安裝憑證。
+
+.開始之前
+* 您必須以包含安全管理員權限的使用者設定檔登入。否則、不會顯示憑證功能。
+* 如果您要以新版本更新信任的憑證、則必須先匯入更新的憑證、才能刪除舊的憑證。
+
+
+[CAUTION]
+====
+如果您在匯入替代憑證之前刪除用於驗證控制器和其他伺服器（例如LDAP伺服器）的憑證、則可能會喪失系統存取權。
+
+====
+此工作說明如何刪除使用者安裝的憑證。無法刪除預先安裝的自我簽署憑證。
+
+.步驟
+. 選取功能表：設定[憑證]。
+. 選取*信任的*索引標籤。
++
+下表顯示儲存陣列的信任憑證。
+
+. 從表格中選取您要移除的憑證。
+. 按一下功能表：「Uncommon Tasks（非常見工作）」[Delete
++
+隨即開啟「確認刪除信任的憑證」對話方塊。
+
+. 在欄位中輸入「刪除」、然後按一下「*刪除*」。
+

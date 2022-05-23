@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/remove-user-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, users, snmpv3, traps, 
+summary: 您可以移除使用者的v3設陷。 
+---
+= 移除使用者的v3設陷
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以移除使用者的v3設陷。
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取「* SNMP *」索引標籤。
++
+設陷目的地和使用者名稱會出現在警示頁面上。
+
+. 選取*設定使用者*。
++
+此時將打開Configure v3 Users（配置v3用戶）對話框。
+
+. 選取您要刪除的使用者名稱、然後按一下*刪除*。
+. 確認操作、然後按一下*刪除*。
+
+
+使用者名稱及其相關的設陷目的地會從警示頁面中移除。

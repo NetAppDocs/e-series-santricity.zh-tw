@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/overview-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, certificates, 
+summary: 您可以使用System Manager來建立憑證簽署要求（CSR）、匯入憑證、以及管理現有的憑證。 
+---
+= 憑證總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用System Manager來建立憑證簽署要求（CSR）、匯入憑證、以及管理現有的憑證。
+
+
+
+== 什麼是憑證？
+
+_Certificates_是數位檔案、可識別網站和伺服器等線上實體、以便在網際網路上進行安全通訊。憑證有兩種類型：_簽署的憑證_由憑證授權單位（CA）驗證、_自我簽署的憑證_則由實體擁有者（而非第三方）驗證。
+
+深入瞭解：
+
+* link:how-certificates-work-sam.html["憑證的運作方式"]
+* link:certificate-terminology.html["憑證術語"]
+
+
+
+
+== 如何設定簽署的憑證？
+
+您首先會從System Manager產生簽署要求、然後將檔案傳送到CA。一旦CA傳回憑證檔案、您就可以使用System Manager匯入這些檔案。
+
+深入瞭解：
+
+* link:use-ca-signed-certificates-for-controllers.html["控制器使用CA簽署的憑證"]
+* link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html["使用CA簽署的憑證來驗證金鑰管理伺服器"]
+
+
+
+
+== 相關資訊
+
+深入瞭解與憑證相關的工作：
+
+* link:view-imported-certificates.html["檢視匯入的憑證資訊"]
+* link:enable-certificate-revocation-checking.html["啟用憑證撤銷檢查"]
+

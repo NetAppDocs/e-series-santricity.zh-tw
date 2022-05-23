@@ -1,0 +1,89 @@
+---
+permalink: um-admin/overview-interface-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, interface, GUI 
+summary: Unified Manager是網路型介面、可讓您在單一檢視畫面中管理多個儲存陣列。 
+---
+= Unified Manager介面總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager是網路型介面、可讓您在單一檢視畫面中管理多個儲存陣列。
+
+
+
+== 主頁
+
+登入Unified Manager時、主頁會開啟*管理-全部*。在此頁面中、您可以捲動瀏覽網路中探索到的儲存陣列清單、檢視其狀態、以及在單一陣列或陣列群組上執行作業。
+
+
+
+== 導覽側邊列
+
+您可以從導覽側邊列存取Unified Manager的功能。
+
+[cols="25h,~"]
+|===
+| 區域 | 說明 
+
+
+ a| 
+管理
+ a| 
+探索網路中的儲存陣列、啟動SANtricity 適用於陣列的《支援系統管理程式》、將設定從一個陣列匯入多個陣列、以及管理陣列群組。選取陣列名稱旁的核取方塊、即可對陣列名稱執行作業、例如匯入設定和建立陣列群組。每一列結尾的省略符號會提供即時功能表、以便在單一陣列上執行作業、例如重新命名。
+
+
+
+ a| 
+營運
+ a| 
+檢視批次作業的進度、例如將設定從一個陣列匯入另一個陣列。
+
+[NOTE]
+====
+當儲存陣列處於非最佳狀態時、部分作業無法使用。
+
+====
+
+
+ a| 
+憑證管理
+ a| 
+管理要在瀏覽器和用戶端之間驗證的憑證。
+
+
+
+ a| 
+存取管理
+ a| 
+為Unified Manager介面建立使用者驗證。
+
+
+
+ a| 
+支援
+ a| 
+檢視技術支援選項、資源和聯絡人。
+
+|===
+
+
+== 介面設定與說明
+
+在介面右上角、您可以存取「說明」和其他文件。您也可以存取管理選項、這些選項可從登入名稱旁的下拉式清單中取得。
+
+
+
+== 使用者登入和密碼
+
+目前登入系統的使用者會顯示在介面右上角。
+
+如需使用者和密碼的詳細資訊、請參閱：
+
+* link:administrator-password-protection-unified.html["設定管理密碼保護"]
+* link:change-admin-password-unified.html["變更管理密碼"]
+* link:../um-certificates/change-passwords-unified.html["變更本機使用者設定檔的密碼"]
+

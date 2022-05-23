@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, remote, volumes 
+summary: 當遠端磁碟區達到最大數量時、儲存系統會自動偵測任何未使用的遠端磁碟區、並提示您移除這些磁碟區。 
+---
+= 為什麼系統會提示我移除遠端磁碟區？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當遠端磁碟區達到最大數量時、儲存系統會自動偵測任何未使用的遠端磁碟區、並提示您移除這些磁碟區。
+
+有些情況下、未使用的遠端磁碟區在建立過程中不會被清理。在開始任何其他匯入作業之前、請先確認您的系統處於最佳狀態、而且網路連線穩定。

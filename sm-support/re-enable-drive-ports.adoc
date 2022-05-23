@@ -1,0 +1,26 @@
+---
+permalink: sm-support/re-enable-drive-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, re-enable, drive, ports 
+summary: 您可以向控制器指出、已採取修正行動、從錯誤的線路狀況中恢復。 
+---
+= 重新啟用磁碟機連接埠
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以向控制器指出、已採取修正行動、從錯誤的線路狀況中恢復。
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選取*重新啟用磁碟機連接埠*、然後確認您要執行此作業。
++
+僅當儲存陣列停用磁碟機連接埠時、才會顯示此選項。
+
++
+控制器會重新啟用偵測到連線錯誤時停用的任何SAS連接埠。
+
+

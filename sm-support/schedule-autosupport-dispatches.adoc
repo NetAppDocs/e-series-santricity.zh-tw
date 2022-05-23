@@ -1,0 +1,32 @@
+---
+permalink: sm-support/schedule-autosupport-dispatches.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, schedule, autosupport, dispatches 
+summary: System Manager會自動建立AutoSupport 一份預設的時間表、以供進行不一致的派單。如果您願意、可以指定自己的排程。 
+---
+= 排程AutoSupport 資訊派單
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager會自動建立AutoSupport 一份預設的時間表、以供進行不一致的派單。如果您願意、可以指定自己的排程。
+
+必須啟用此功能。AutoSupport您可以在AutoSupport 「介紹」頁面上查看是否已啟用此功能。
+
+.關於這項工作
+* *每日時間*：在您指定的時間範圍內、每天都會收集和傳送每日派單。System Manager會在範圍內選取隨機時間。所有時間都是協調的通用時間（UTC）、這可能與儲存陣列的本地時間不同。您必須將儲存陣列的本地時間轉換為UTC。
+* *每週一天*：每週一次的派單收集與傳送。System Manager會從您指定的天數中選取隨機日期。取消選取您不想讓每週分派發生的任何日期。System Manager會從您允許的天數中隨機選取一天。
+* *每週時間*：每週派單會在您指定的時間範圍內收集並每週傳送一次。System Manager會在範圍內選取隨機時間。所有時間都是協調的通用時間（UTC）、這可能與儲存陣列的本地時間不同。您必須將儲存陣列的本地時間轉換為UTC。
+
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 選擇*排程AutoSupport *。
++
+「排程AutoSupport 畫面」顯示「派遣」精靈。
+
+. 請依照精靈中的步驟進行。
+

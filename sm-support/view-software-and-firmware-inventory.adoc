@@ -1,0 +1,30 @@
+---
+permalink: sm-support/view-software-and-firmware-inventory.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, software, firmware, inventory 
+summary: 軟體與韌體詳細目錄會列出儲存陣列中每個元件的韌體版本。 
+---
+= 檢視軟體與韌體庫存
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+軟體與韌體詳細目錄會列出儲存陣列中每個元件的韌體版本。
+
+儲存陣列由許多元件組成、其中可能包括控制器、磁碟機、抽取器和輸入/輸出模組（IOM）。每個元件都包含韌體。某些韌體版本取決於其他韌體版本。若要擷取儲存陣列中所有韌體版本的相關資訊、請檢視軟體與韌體詳細目錄。技術支援人員可以分析軟體和韌體庫存、以偵測任何韌體不相符的情況。
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> Support Resources（支援資源）]索引標籤。
+. 向下捲動至*啟動詳細的儲存陣列資訊*、然後選取*軟體與韌體庫存*。
++
+螢幕上會出現「軟體與韌體庫存」報告。
+
+. 若要儲存軟體與韌體庫存、請按一下*「Save"（儲存）*。
++
+檔案會儲存在瀏覽器的「Downloads（下載）」資料夾中、檔案名稱為「韌體庫存」。
+
+. 請依照技術支援人員提供的指示、將檔案傳送給他們。
+

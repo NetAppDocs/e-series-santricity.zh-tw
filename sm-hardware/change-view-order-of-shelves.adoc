@@ -1,0 +1,19 @@
+---
+permalink: sm-hardware/change-view-order-of-shelves.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, change, view, order, shelves 
+summary: 您可以變更「硬體」頁面上顯示的磁碟櫃順序、以符合機櫃中磁碟櫃的實體順序。 
+---
+= 變更磁碟櫃的檢視順序
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更「硬體」頁面上顯示的磁碟櫃順序、以符合機櫃中磁碟櫃的實體順序。
+
+.步驟
+. 選取*硬體*。
+. 從機櫃檢視的右上角、選取向上或向下箭頭、重新排列「硬體」頁面上顯示的機櫃順序。
+

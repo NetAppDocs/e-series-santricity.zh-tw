@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, interpret, iser, over, infiniband, statistics, 
+summary: 「View iSER over InfiniBand Statistics」（檢視InfiniBand統計資料的iSER）對話方塊會顯示本機目標（傳輸協定）統計資料、以及InfiniBand（IB）介面統計資料上的iSER。所有統計資料均為唯讀、無法設定。 
+---
+= 我要如何解讀InfiniBand統計資料的iSER？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「View iSER over InfiniBand Statistics」（檢視InfiniBand統計資料的iSER）對話方塊會顯示本機目標（傳輸協定）統計資料、以及InfiniBand（IB）介面統計資料上的iSER。所有統計資料均為唯讀、無法設定。
+
+* *本機目標（傳輸協定）統計資料*-提供iSER over InfiniBand目標的統計資料、顯示區塊層級存取其儲存媒體的情形。
+* * InfiniBand介面統計資料* iSER：提供InfiniBand介面上所有InfiniBand連接埠的iSER統計資料、其中包括效能統計資料、以及與每個交換器連接埠相關的連結錯誤資訊。
+
+
+您可以將每個統計資料檢視為原始統計資料或是基準統計資料。原始統計資料是自控制器啟動以來所收集的所有統計資料。比較基準統計資料是自您設定基準時間以來所收集的時間點統計資料。

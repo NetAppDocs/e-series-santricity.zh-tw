@@ -1,0 +1,45 @@
+---
+permalink: sm-storage/decrease-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, decrease, reserved, capacity 
+summary: 您可以使用「降低容量」選項來減少下列儲存物件的保留容量：Snapshot群組、Snapshot Volume和一致性群組成員Volume。您只能減少保留容量、以增加容量所需的金額為準。 
+---
+= 減少保留容量
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「降低容量」選項來減少下列儲存物件的保留容量：Snapshot群組、Snapshot Volume和一致性群組成員Volume。您只能減少保留容量、以增加容量所需的金額為準。
+
+.開始之前
+* 儲存物件必須包含多個保留容量Volume。
+* 儲存物件不得為鏡射配對Volume。
+* 如果儲存物件是快照磁碟區、則必須是停用的快照磁碟區。
+* 如果儲存物件是快照群組、則不得包含任何相關的快照映像。
+
+
+請檢閱下列準則：
+
+* 您只能以新增保留容量磁碟區的相反順序來移除保留容量磁碟區。
+* 您無法減少快照磁碟區的保留容量、因為該快照磁碟區沒有任何關聯的保留容量。只有讀寫快照磁碟區需要保留容量。
+
+
+.步驟
+. 選取功能表：Storage[集區與Volume群組]。
+. 按一下*保留容量*索引標籤。
+. 選取您要減少保留容量的儲存物件、然後按一下*降低容量*。
++
+「減少保留容量」對話方塊隨即出現。
+
+. 選取您要減少保留容量的容量量、然後按一下*減少*。
+
+
+System Manager會執行下列動作：
+
+* 更新儲存物件的容量。
+* 顯示新更新的儲存物件保留容量。
+* 當您減少快照磁碟區的容量時、System Manager會自動將快照磁碟區轉換為「已停用」狀態。「停用」表示快照磁碟區目前未與快照映像相關聯、因此無法指派給I/O主機
+

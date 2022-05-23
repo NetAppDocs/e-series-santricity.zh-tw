@@ -1,0 +1,16 @@
+---
+permalink: um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, manual, synchronization, policy 
+summary: 建議手動重新同步、因為它可讓您以最佳的方式來管理重新同步程序、以提供最佳的資料恢復機會。 
+---
+= 為什麼建議使用手動同步原則？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+建議手動重新同步、因為它可讓您以最佳的方式來管理重新同步程序、以提供最佳的資料恢復機會。
+
+如果您使用自動重新同步原則、且在重新同步期間發生間歇性通訊問題、則次要磁碟區上的資料可能會暫時毀損。重新同步完成後、資料將會修正。

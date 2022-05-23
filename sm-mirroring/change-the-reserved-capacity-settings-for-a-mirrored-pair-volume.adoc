@@ -1,0 +1,46 @@
+---
+permalink: sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, change, reserved, capacity, settings, mirrored, pair, volume, 
+summary: 您可以變更鏡射配對磁碟區的設定、以調整當鏡射配對磁碟區的保留容量即將滿時、系統管理員傳送警示通知的百分比點。 
+---
+= 變更鏡射配對Volume的保留容量設定
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更鏡射配對磁碟區的設定、以調整當鏡射配對磁碟區的保留容量即將滿時、系統管理員傳送警示通知的百分比點。
+
+.步驟
+. 選取功能表：Storage[集區與Volume群組]。
+. 選取*保留容量*索引標籤。
+. 選取您要編輯的鏡射配對Volume、然後按一下*檢視/編輯設定*。
++
+「鏡射配對Volume保留容量設定」對話方塊隨即出現。
+
+. 視需要變更鏡射配對磁碟區的保留容量設定。
++
+.欄位詳細資料
+====
+[cols="25h,~"]
+|===
+| 設定 | 說明 
+
+
+ a| 
+提醒我...
+ a| 
+當鏡射配對的保留容量即將滿時、使用微調方塊來調整系統管理員傳送警示通知的百分比點。
+
+當鏡射配對的保留容量超過指定臨界值時、System Manager會傳送警示、讓您有時間增加保留容量。
+
+
+NOTE: 變更一個鏡射配對的警示設定、會變更屬於同一個鏡射一致性群組之所有鏡射配對的警示設定。
+
+|===
+====
+. 按一下「*儲存*」以套用您的變更。
+

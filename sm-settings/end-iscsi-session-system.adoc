@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/end-iscsi-session-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, end, iSCSI, session, 
+summary: 您可以結束不再需要的iSCSI工作階段。在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。 
+---
+= 結束iSCSI工作階段
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以結束不再需要的iSCSI工作階段。在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。
+
+您可能會因為下列原因而想要結束iSCSI工作階段：
+
+* *未獲授權的存取*-如果iSCSI啟動器已登入且不應具有存取權、您可以結束iSCSI工作階段、強制iSCSI啟動器離開儲存陣列。iSCSI啟動器可能已登入、因為無驗證方法可供使用。
+* *系統停機*-如果您需要關閉儲存陣列、但發現iSCSI啟動器仍在登入、您可以結束iSCSI工作階段、使iSCSI啟動器脫離儲存陣列。
+
+
+.步驟
+. 選取功能表：設定[系統]。
+. 選取*檢視/結束iSCSI工作階段*。
++
+此時會顯示目前iSCSI工作階段的清單。
+
+. 選取您要結束的工作階段
+. 按一下*結束工作階段*、然後確認您要執行此作業。
+

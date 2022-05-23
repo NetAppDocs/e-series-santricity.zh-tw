@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-is-security-capable-drive-security.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, secure-capable, drive, security 
+summary: 磁碟機安全功能可防止在從儲存陣列移除時、未獲授權存取啟用安全功能之磁碟機上的資料。這些磁碟機可以是全磁碟加密（FDE）磁碟機、也可以是聯邦資訊處理標準（FIPS）磁碟機。 
+---
+= 什麼是安全功能（磁碟機安全性）？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+磁碟機安全功能可防止在從儲存陣列移除時、未獲授權存取啟用安全功能之磁碟機上的資料。這些磁碟機可以是全磁碟加密（FDE）磁碟機、也可以是聯邦資訊處理標準（FIPS）磁碟機。

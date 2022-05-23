@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, optimal, drive, positioning, pools, volume groups 
+summary: 建立集區和磁碟區群組時、請務必在上方和下方磁碟機插槽之間平衡磁碟機的選擇。 
+---
+= 集區和磁碟區群組的最佳磁碟機定位為何？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+建立集區和磁碟區群組時、請務必在上方和下方磁碟機插槽之間平衡磁碟機的選擇。
+
+對於EF600和EF300控制器、磁碟機插槽0-11連接至一個PCI橋接器、而插槽12-23則連接至不同的PCI橋接器。為獲得最佳效能、您應該在磁碟機選擇之間取得平衡、以納入與上方和下方插槽大致相同的磁碟機數量。此定位可確保您的磁碟區不會在必要時達到頻寬限制。

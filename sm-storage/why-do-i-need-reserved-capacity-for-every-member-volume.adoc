@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity, member, volume 
+summary: Snapshot一致性群組中的每個成員磁碟區都必須擁有自己的保留容量、才能將主機應用程式所做的任何修改儲存到基礎磁碟區、而不會影響參考的一致性群組快照映像。保留容量可讓主機應用程式寫入指派為讀寫的成員磁碟區中所含資料複本。 
+---
+= 為什麼我需要每個成員磁碟區的保留容量？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot一致性群組中的每個成員磁碟區都必須擁有自己的保留容量、才能將主機應用程式所做的任何修改儲存到基礎磁碟區、而不會影響參考的一致性群組快照映像。保留容量可讓主機應用程式寫入指派為讀寫的成員磁碟區中所含資料複本。
+
+一致性群組快照映像無法直接讀取或寫入主機。而是使用快照映像來儲存從基礎磁碟區擷取的資料。
+
+在建立指定為讀寫的一致性群組快照磁碟區期間、System Manager會為一致性群組中的每個成員磁碟區建立保留容量。此保留容量可讓主機應用程式寫入一致性群組快照映像中所含資料的複本。

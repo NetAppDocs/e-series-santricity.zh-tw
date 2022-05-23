@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/why-would-i-suspend-a-snapshot-schedule.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series,  suspend, snapshot, schedule 
+summary: 當排程暫停時、不會建立排程的快照映像。您可以暫停快照排程以節省儲存空間、然後稍後再繼續排程的快照。 
+---
+= 為什麼要暫停快照排程？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當排程暫停時、不會建立排程的快照映像。您可以暫停快照排程以節省儲存空間、然後稍後再繼續排程的快照。
+
+如果您不需要快照排程、則應刪除排程、而非暫停排程。

@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-does-the-mib-s-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, mibs, graph, 
+summary: MIB/s圖以每秒兆位元組的單位顯示傳輸速度統計資料。在首頁上、此圖表會顯示儲存陣列的統計資料。在「效能」方塊的「邏輯檢視」、「實體檢視」及「應用程式與工作負載檢視」索引標籤中、此圖表會顯示儲存陣列、磁碟區、磁碟區群組、集區、應用程式、 和工作負載。 
+---
+= MIB/s圖顯示什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+MIB/s圖以每秒兆位元組的單位顯示傳輸速度統計資料。在首頁上、此圖表會顯示儲存陣列的統計資料。在「效能」方塊的「邏輯檢視」、「實體檢視」及「應用程式與工作負載檢視」索引標籤中、此圖表會顯示儲存陣列、磁碟區、磁碟區群組、集區、應用程式、 和工作負載。
+
+MIB/s是_mibibibytes per second_的縮寫、即每秒1、048、576位元組。將游標停留在圖表上的某個點上、即可檢視該時間點的下列值：
+
+* 讀取的資料量。
+* 寫入的資料量。
+* 讀取和寫入的總資料量。
+

@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/what-are-hosts-and-host-clusters.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hosts, clusters, server, 
+summary: 主機是一種伺服器、可將I/O傳送至儲存陣列上的磁碟區。主機叢集是一組主機。您可以建立主機叢集、以便輕鬆將相同的磁碟區指派給多個主機。 
+---
+= 什麼是主機和主機叢集？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+主機是一種伺服器、可將I/O傳送至儲存陣列上的磁碟區。主機叢集是一組主機。您可以建立主機叢集、以便輕鬆將相同的磁碟區指派給多個主機。
+
+您可以分別定義主機。它可以是獨立實體、也可以新增至主機叢集。您可以將磁碟區指派給個別主機、或是主機叢集的一部或多部主機、與主機叢集中的其他主機共用一個或多個磁碟區的存取權。
+
+主機叢集是SANtricity 您在《支援系統》中建立的邏輯實體。您必須先將主機新增至主機叢集、才能指派磁碟區。

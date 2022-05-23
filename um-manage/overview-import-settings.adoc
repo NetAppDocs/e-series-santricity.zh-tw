@@ -1,0 +1,41 @@
+---
+permalink: um-manage/overview-import-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, settings 
+summary: 您可以將設定從一個儲存陣列匯入到另一個儲存陣列、包括警示、AutoSupport 還原和目錄服務。 
+---
+= 設定匯入總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+匯入設定功能可讓您執行批次作業、將設定從一個陣列匯入多個陣列。當您需要在網路中設定多個陣列時、此功能可節省時間。
+
+
+
+== 可以匯入哪些設定？
+
+您可以匯入警示方法、AutoSupport 支援各種功能的組態、目錄服務組態、儲存組態（例如磁碟區群組和集區）、以及系統設定（例如自動負載平衡）。
+
+深入瞭解：
+
+* link:how-import-settings-works.html["匯入設定的運作方式"]
+* link:requirements-for-replicating-storage-configurations.html["複寫儲存組態的需求"]
+
+
+
+
+== 如何執行批次匯入？
+
+在要作為來源的儲存陣列上、開啟System Manager並設定所需的設定。然後從Unified Manager移至「管理」頁面、將設定匯入一或多個陣列。
+
+深入瞭解：
+
+* link:import-alert-settings.html["匯入警示設定"]
+* link:import-autosupport-settings.html["匯入AutoSupport 還原設定"]
+* link:import-directory-services-settings.html["匯入目錄服務設定"]
+* link:import-storage-configuration-settings.html["匯入儲存組態設定"]
+* link:import-system-settings.html["匯入系統設定"]
+

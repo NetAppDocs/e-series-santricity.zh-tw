@@ -1,0 +1,30 @@
+---
+permalink: sm-storage/what-is-automatic-load-balancing.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ALB, automatic, load, balancing 
+summary: 「自動負載平衡」功能可提供自動化I/O平衡、確保來自主機的傳入I/O流量能在兩個控制器之間動態管理和平衡。 
+---
+= 什麼是自動負載平衡？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「自動負載平衡」功能可提供自動化I/O平衡、確保來自主機的傳入I/O流量能在兩個控制器之間動態管理和平衡。
+
+「自動負載平衡」功能可動態回應一段時間內的負載變更、並自動調整Volume控制器擁有權、以修正工作負載在控制器之間移轉時發生的任何負載不平衡問題、進而改善I/O資源管理。
+
+每個控制器的工作負載都會持續受到監控、並可在主機上安裝多重路徑驅動程式的協助下、在必要時自動取得平衡。當工作負載在各個控制器之間自動重新平衡時、儲存管理員可免除手動調整Volume控制器所有權以因應儲存陣列負載變更的負擔。
+
+啟用「自動負載平衡」時、會執行下列功能：
+
+* 自動監控及平衡控制器資源使用率。
+* 視需要自動調整Volume控制器擁有權、藉此最佳化主機與儲存陣列之間的I/O頻寬。
+
+
+[NOTE]
+====
+指派使用控制器SSD快取的任何Volume均不符合自動負載平衡傳輸的資格。
+
+====

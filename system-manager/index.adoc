@@ -1,0 +1,13 @@
+---
+layout: landing-page 
+sidebar: sidebar 
+permalink: system-manager/index.html 
+summary: 利用此軟件文件、您可以安裝、設定及維護儲存陣列。SANtricity 
+---
+= 使用System Manager 11.7進行單一陣列管理
+:hardbreaks:
+:allow-uri-read: 
+:linkattrs: 
+:imagesdir: ./media/
+
+

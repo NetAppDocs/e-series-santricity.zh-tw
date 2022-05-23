@@ -1,0 +1,30 @@
+---
+permalink: sm-storage/copy-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume 
+summary: 您可以在快照磁碟區或快照一致性群組快照磁碟區上執行「複製磁碟區」程序。 
+---
+= 複製Snapshot Volume
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在快照磁碟區或快照一致性群組快照磁碟區上執行「複製磁碟區」程序。
+
+您可以將快照磁碟區複製到目標磁碟區、如同在一般複製磁碟區作業中所執行的一樣。不過、在複製磁碟區程序期間、快照磁碟區無法保持在線上狀態。
+
+.步驟
+. 選取功能表：Storage[快照]。
+. 選擇* Snapshot Volumes（快照卷）*選項卡。
++
+此時將出現Snapshot Volumes（快照卷）表並顯示與儲存陣列相關的所有快照卷。
+
+. 選取您要複製的快照磁碟區、然後選取*複製磁碟區*。
++
+此時會出現「複製Volume」對話方塊、提示您選取目標。
+
+. 選取要用作複製目的地的目標磁碟區、然後按一下*完成*。
+

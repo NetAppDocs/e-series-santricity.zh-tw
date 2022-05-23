@@ -1,0 +1,19 @@
+---
+permalink: sm-support/what-do-the-autosupport-features-do.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, autosupport features, ASUP 
+summary: 此功能由三項個別功能組成、AutoSupport 您可以分別啟用。 
+---
+= 這個功能有什麼AutoSupport 作用？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此功能由三項個別功能組成、AutoSupport 您可以分別啟用。
+
+* *基本AutoSupport 版S還原*：可讓儲存陣列自動收集資料、並將資料傳送給技術支援部門。
+* * AutoSupport 《支援需求*》-可讓技術支援部門在AutoSupport 需要時要求重新傳輸先前的故障排除資訊。所有傳輸都是從儲存陣列啟動、而非AutoSupport 從伺服器啟動。儲存陣列會定期與AutoSupport VMware伺服器一起檢查、以判斷是否有任何擱置中的重新傳輸要求、並據此做出回應。
+* *遠端診斷*-可讓技術支援部門在AutoSupport 疑難排解問題時、要求提供最新的更新版的支援。所有傳輸都是從儲存陣列啟動、而非AutoSupport 從伺服器啟動。儲存陣列會定期與AutoSupport VMware伺服器一起檢查、以判斷是否有任何擱置中的新要求、並據此做出回應。
+

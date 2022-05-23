@@ -1,0 +1,38 @@
+---
+permalink: um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, mirror, consistency, group 
+summary: 在建立鏡射一致性群組之前、請遵循下列準則。 
+---
+= 在建立鏡射一致性群組之前、我需要知道什麼？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在建立鏡射一致性群組之前、請遵循下列準則。
+
+符合Unified Manager的下列需求：
+
+* Web服務Proxy服務必須正在執行。
+* Unified Manager必須透過HTTPS連線在本機主機上執行。
+* Unified Manager必須顯示儲存陣列的有效SSL憑證。您可以接受自我簽署的憑證、或使用Unified Manager安裝自己的安全性憑證、並瀏覽至功能表：「Certificate [ Certificate Management（憑證管理）」。
+
+
+此外、請務必滿足下列儲存陣列需求：
+
+* 這兩個儲存陣列必須在Unified Manager中探索。
+* 每個儲存陣列都必須有兩個控制器。
+* 主陣列和次陣列中的每個控制器都必須設定乙太網路管理連接埠、而且必須連線至您的網路。
+* 儲存陣列的韌體版本最低為7.84。（每個作業系統都能執行不同的版本。）
+* 您必須知道本機和遠端儲存陣列的密碼。
+* 您的本機和遠端儲存陣列是透過光纖通道架構或iSCSI介面來連接。
+
+
+[NOTE]
+====
+EF600或EF300儲存系統無法使用此功能。
+
+====

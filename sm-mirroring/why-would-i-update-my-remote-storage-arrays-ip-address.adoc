@@ -1,0 +1,20 @@
+---
+permalink: sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, update, remote, ip, address, 
+summary: 當iSCSI連接埠的IP位址變更、且本機儲存陣列無法與遠端儲存陣列通訊時、您可以更新遠端儲存陣列的IP位址。 
+---
+= 為何要更新遠端儲存陣列的IP位址？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當iSCSI連接埠的IP位址變更、且本機儲存陣列無法與遠端儲存陣列通訊時、您可以更新遠端儲存陣列的IP位址。
+
+在與iSCSI連線建立非同步鏡射關係時、本機和遠端儲存陣列都會在非同步鏡射組態中儲存遠端儲存陣列IP位址的記錄。如果iSCSI連接埠的IP位址變更、則嘗試使用該連接埠的遠端儲存陣列會發生通訊錯誤。
+
+具有變更IP位址的儲存陣列會傳送訊息給與鏡射一致性群組相關聯的每個遠端儲存陣列、這些群組已設定為透過iSCSI連線鏡射。接收此訊息的儲存陣列會自動更新遠端目標IP位址。
+
+如果IP位址變更的儲存陣列無法將陣列間訊息傳送至遠端儲存陣列、系統會傳送連線問題警示給您。使用更新遠端IP位址選項、重新建立與本機儲存陣列的連線。

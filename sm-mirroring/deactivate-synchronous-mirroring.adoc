@@ -1,0 +1,31 @@
+---
+permalink: sm-mirroring/deactivate-synchronous-mirroring.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, deactivate, synchronous, mirroring, adapter, host, bus, 
+summary: 您可以停用儲存陣列上的同步鏡射功能、以重新建立主機匯流排介面卡（HBA）主機連接埠4的正常使用、此連接埠是保留用於鏡射資料傳輸的。 
+---
+= 停用同步鏡射
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以停用儲存陣列上的同步鏡射功能、以重新建立主機匯流排介面卡（HBA）主機連接埠4的正常使用、此連接埠是保留用於鏡射資料傳輸的。
+
+您必須刪除所有同步鏡射關係。驗證是否已從儲存陣列刪除所有鏡射配對。
+
+.步驟
+. 選取功能表：Storage[同步鏡射]。
+. 選取功能表：非常見工作[停用]。
++
+系統會顯示確認訊息。
+
+. 選擇* Yes *（是*）進行確認。
+
+
+.結果
+* 控制器的HBA主機連接埠4專門用於同步鏡射通訊、現在可以接受主機讀取和寫入要求。
+* 儲存陣列上的保留容量磁碟區即會刪除。
+

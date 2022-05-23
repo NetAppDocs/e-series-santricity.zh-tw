@@ -1,0 +1,56 @@
+---
+permalink: um-manage/manage-repository.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, manage, software, repository 
+summary: 軟體儲存庫會列出與Web服務Proxy相關的所有軟體檔案。 
+---
+= 管理軟體儲存庫
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+軟體儲存庫會列出與Web服務Proxy相關的所有軟體檔案。
+
+如果您沒有看到想要使用的檔案、可以使用「管理軟體儲存庫」選項、將一個或多個SANtricity 支援更新的作業系統檔案匯入正在執行Web服務Proxy和Unified Manager的主機系統。您也可以選擇刪除SANtricity 軟體儲存庫中的一或多個可用的還原OS檔案。
+
+如果您要新增SANtricity 無法使用的作業系統檔案、請確定您的本機系統上有可用的作業系統檔案。
+
+.步驟
+. 從主檢視畫面選取*管理*、然後選取功能表：升級中心[管理軟體儲存庫]。
++
+此時會出現「管理軟體儲存庫」對話方塊。
+
+. 請執行下列其中一項動作：
++
+[cols="25h,~"]
+|===
+| 選項 | 來這裏吧… 
+
+
+ a| 
+匯入
+ a| 
+.. 按一下*匯入*
+.. 按一下*瀏覽*、然後瀏覽至您要新增的OS檔案所在的位置。
++
+OS檔案的檔案名稱類似於「N2800-830000-000-dlp」。
+
+.. 選取您要新增的一或多個OS檔案、然後按一下*匯入*。
+
+
+
+
+ a| 
+刪除
+ a| 
+.. 選取您要從軟體儲存庫中移除的一或多個OS檔案。
+.. 按一下*刪除*。
+
+
+|===
+
+
+如果您選取匯入、檔案會上傳並驗證。如果您選取刪除、檔案會從軟體儲存庫中移除。

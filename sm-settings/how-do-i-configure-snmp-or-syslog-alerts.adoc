@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, snmp, syslog, alerts, 
+summary: 除了電子郵件警示之外、您也可以設定要透過簡單網路管理傳輸協定（SNMP）設陷或透過系統記錄訊息傳送的警示。 
+---
+= 如何設定SNMP或syslog警示？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+除了電子郵件警示之外、您也可以設定要透過簡單網路管理傳輸協定（SNMP）設陷或透過系統記錄訊息傳送的警示。
+
+若要設定SNMP或syslog警示、請前往功能表：設定[警示]。

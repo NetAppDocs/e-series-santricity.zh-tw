@@ -1,0 +1,36 @@
+---
+permalink: sm-storage/ssd-cache-restrictions.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ssd, cache, restrictions 
+summary: 瞭解在儲存陣列上使用SSD快取時的限制。 
+---
+= SSD快取限制
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+瞭解在儲存陣列上使用SSD快取時的限制。
+
+
+
+== 限制
+
+* 指派使用控制器SSD快取的任何Volume均不符合自動負載平衡傳輸的資格。
+* 目前、每個儲存陣列僅支援一個SSD快取。
+* 儲存陣列上可用的SSD快取容量上限為5 TB。
+* 快照映像不支援SSD快取。
+* EF600或EF300儲存系統無法使用SSD快取。
+* 如果您匯入或匯出啟用或停用SSD快取的磁碟區、則不會匯入或匯出快取資料。
+* 您必須先刪除SSD快取、才能移除SSD快取中的最後一個磁碟機。
+
+
+
+
+== 磁碟機安全性的限制
+
+* 只有在建立SSD快取時、才能啟用SSD快取的安全功能。稍後您無法像在磁碟區上一樣啟用安全性。
+* 如果您混合使用SSD快取中不安全的磁碟機、則無法為這些磁碟機啟用磁碟機安全功能。
+* 啟用安全功能的磁碟區必須具有啟用安全功能的SSD快取。
+

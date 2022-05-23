@@ -1,0 +1,46 @@
+---
+permalink: sm-hardware/configure-nvme-over-infiniband-ports-hardware.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, infiniband, ports, nvme, 
+summary: 如果您的控制器包含NVMe over InfiniBand連線、您可以從「Hardware（硬體）」頁面設定NVMe連接埠設定。 
+---
+= 設定NVMe over InfiniBand連接埠
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您的控制器包含NVMe over InfiniBand連線、您可以從「Hardware（硬體）」頁面設定NVMe連接埠設定。
+
+.開始之前
+* 您的控制器必須包含一個NVMe over InfiniBand主機連接埠、否則系統管理員無法使用NVMe over InfiniBand設定。
+* 您必須知道主機連線的IP位址。
+
+
+[NOTE]
+====
+NVMe over InfiniBand設定和功能只有在儲存陣列的控制器包含NVMe over InfiniBand連接埠時才會顯示。
+
+====
+.步驟
+. 選取*硬體*。
+. 如果圖形顯示磁碟機、請按一下*顯示磁碟櫃背面*。
++
+圖形會變更、以顯示控制器而非磁碟機。
+
+. 按一下要設定NVMe over InfiniBand連接埠的控制器。
++
+此時會出現控制器的內容功能表。
+
+. 選取*透過InfiniBand連接埠設定NVMe *。
++
+此時會開啟Configure NVMe over InfiniBand Portes（設定InfiniBand連接埠的NVMe）對話方塊。
+
+. 從下拉式清單中選取您要設定的HIC連接埠、然後輸入IP位址。
++
+如果您要使用支援200GB HIC的EF600儲存陣列、此對話方塊會顯示兩個IP位址欄位、一個用於實體連接埠（外部）、另一個用於虛擬連接埠（內部）。您應該為兩個連接埠指派唯一的IP位址。這些設定可讓主機在每個連接埠之間建立路徑、並讓HIC達到最大效能。如果您未將IP位址指派給虛擬連接埠、HIC將以大約一半的能力速度執行。
+
+. 按一下「*設定*」。
+. 完成組態、然後按一下* Yes*重設NVMe over InfiniBand連接埠。
+

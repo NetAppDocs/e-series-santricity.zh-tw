@@ -1,0 +1,28 @@
+---
+permalink: sm-storage/why-would-i-want-to-manually-configure-a-pool.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, manually, configure, pool 
+summary: 下列範例說明您想要手動設定集區的原因。 
+---
+= 為什麼要手動設定集區？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下列範例說明您想要手動設定集區的原因。
+
+* 如果您的儲存陣列上有多個應用程式、但不想讓它們競用相同的磁碟機資源、您可以考慮手動為一或多個應用程式建立較小的資源池。
++
+您只能指派一或兩個磁碟區、而不需將工作負載指派給有許多磁碟區的大型集區、以便在其中發佈資料。手動建立專屬特定應用程式工作負載的獨立資源池、可讓儲存陣列作業更快速地執行、同時減少爭用。
+
++
+若要手動建立集區：選取* Storage*、然後選取* Pools & Volume Groups*。從「All Capacity（所有容量）」索引標籤、按一下功能表：「Create[Pool]（建立資源池
+
+* 如果有多個相同磁碟機類型的集區、則會出現一則訊息、指出System Manager無法自動建議集區的磁碟機。不過、您可以手動將磁碟機新增至現有的集區。
++
+若要手動將磁碟機新增至現有的集區：從「集區與磁碟區群組」頁面選取集區、然後按一下「*新增容量*」。
+
+

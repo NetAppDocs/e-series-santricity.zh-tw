@@ -1,0 +1,23 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuring, syslog, server, 
+summary: 您可以將稽核記錄歸檔至外部syslog伺服器。 
+---
+= 設定syslog伺服器之前、我需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以將稽核記錄歸檔至外部syslog伺服器。
+
+在設定syslog伺服器之前、請記住下列準則。
+
+* 請確定您知道伺服器位址、傳輸協定和連接埠號碼。伺服器位址可以是完整網域名稱、IPv4位址或IPv6位址。
+* 如果您的伺服器使用安全傳輸協定（例如TLS）、則您的本機系統必須具備憑證授權單位（CA）憑證。CA憑證可識別網站擁有者、以確保伺服器與用戶端之間的安全連線。
+* 設定完成後、所有新的稽核記錄都會傳送到syslog伺服器。不會傳輸先前的記錄。
+* 覆寫原則設定（可從*檢視/編輯設定*取得）不會影響使用syslog伺服器組態來管理記錄的方式。
+* 稽核記錄遵循RFC 5424訊息格式。
+

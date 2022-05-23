@@ -1,0 +1,51 @@
+---
+permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, nvme, infiniBand, 
+summary: 下表列出可用於設定及管理InfiniBand上NVMe工作階段的System Manager功能。 
+---
+= 我還需要如何透過InfiniBand來設定或診斷NVMe？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下表列出可用於設定及管理InfiniBand上NVMe工作階段的System Manager功能。
+
+[NOTE]
+====
+NVMe over InfiniBand設定只有在儲存陣列的控制器包含NVMe over InfiniBand連接埠時才能使用。
+
+====
+[cols="35h,~"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+設定NVMe over InfiniBand連接埠
+ a| 
+. 選取*硬體*。
+. 選擇*顯示櫃背面*。
+. 選取控制器。
+. 選取*透過InfiniBand連接埠設定NVMe *。
+
+
+或
+
+. 選取功能表：設定[系統]。
+. 向下捲動至* NVMe over InfiniBand設定*、然後選取* Configure NVMe over InfiniBand Ports*。
+
+
+
+
+ a| 
+檢視NVMe over InfiniBand統計資料
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* NVMe over InfiniBand設定*、然後選取* View NVMe over Fabrics Statistic*。
+
+
+|===

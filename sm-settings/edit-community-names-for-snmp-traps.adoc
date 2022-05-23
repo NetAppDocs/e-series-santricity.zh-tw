@@ -1,0 +1,29 @@
+---
+permalink: sm-settings/edit-community-names-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, communities, smpv2c, traps, 
+summary: 您可以編輯SNMP v2c設陷的社群名稱。 
+---
+= 編輯SNMP v2c陷阱的社群
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以編輯SNMP v2c設陷的社群名稱。
+
+必須建立社群名稱。
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取「* SNMP *」索引標籤。
++
+陷阱目的地和社群名稱會出現在表格中。
+
+. 選擇*設定社群*。
+. 輸入新的社群名稱、然後按一下「*儲存*」。社群名稱只能由可列印的Ascii字元組成。
+
+
+「警示」頁面的「SNMP」索引標籤會顯示更新的社群名稱。

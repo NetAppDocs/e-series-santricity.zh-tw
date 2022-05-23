@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-are-the-differences-between-pools-and-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume, groups 
+summary: 集區類似於磁碟區群組、但有下列差異。 
+---
+= 集區與Volume群組之間有何差異？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+集區類似於磁碟區群組、但有下列差異。
+
+* 集區中的資料會隨機儲存在集區中的所有磁碟機上、這與儲存在同一組磁碟機上的Volume群組資料不同。
+* 當磁碟機故障時、集區的效能降級較少、重建所需時間也較短。
+* 集區具有內建的保留容量、因此不需要專用的熱備援磁碟機。
+* 集區可將大量磁碟機進行分組。
+* 集區不需要指定的RAID層級。
+

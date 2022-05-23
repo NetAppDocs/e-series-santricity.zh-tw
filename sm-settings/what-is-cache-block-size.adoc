@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-is-cache-block-size.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, cache, block, size, 
+summary: 儲存陣列的控制器會將快取組織成區塊、區塊大小可為8、16、32 KiB。儲存系統上的所有磁碟區都共用相同的快取空間、因此磁碟區只能有一個快取區塊大小。 
+---
+= 什麼是快取區塊大小？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+儲存陣列的控制器將其快取組織成「區塊」、這是大小可為8、16、32 KiB的記憶體區塊。儲存系統上的所有磁碟區都共用相同的快取空間、因此磁碟區只能有一個快取區塊大小。
+
+應用程式使用不同的區塊大小、可能會影響儲存效能。根據預設、System Manager中的區塊大小為32 KiB、但您可以將值設為8、16、32 KiB。較小的尺寸是檔案系統或資料庫應用程式的理想選擇。對於需要大量資料傳輸、連續I/O或高頻寬（例如多媒體）的應用程式而言、較大的規模是理想的選擇。

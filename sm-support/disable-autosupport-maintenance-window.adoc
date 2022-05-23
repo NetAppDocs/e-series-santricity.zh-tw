@@ -1,0 +1,30 @@
+---
+permalink: sm-support/disable-autosupport-maintenance-window.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disable, autosupport, ASUP, maintenance window 
+summary: 停用AutoSupport 「還原維護」視窗、以便在發生錯誤事件時自動建立問題單。停用「還原維護」時、如果發生問題、儲存陣列會使用「支援」來開啟個案。AutoSupport AutoSupport 
+---
+= 停用AutoSupport 還原維護所需時間
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+停用AutoSupport 「還原維護」視窗、以便在發生錯誤事件時自動建立問題單。停用「還原維護」時、如果發生問題、儲存陣列會使用「支援」來開啟個案。AutoSupport AutoSupport
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 選擇*停用AutoSupport 「還原維護」視窗*。
+. 輸入電子郵件地址、以收到已處理停用維護期間要求的確認訊息。
++
+視您的組態而定、您最多可以輸入五個電子郵件地址。如果您要新增多個地址、請選取*新增其他電子郵件*以開啟另一個欄位。
+
+. 按一下「*是*」。
++
+啟用錯誤事件時自動建立問題單。AutoSupport
+
+
+
+維護期間不會結束、直到AutoSupport 由支援服務器處理儲存陣列的要求為止。請等到收到確認電子郵件後再繼續。

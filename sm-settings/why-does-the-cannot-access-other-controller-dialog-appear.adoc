@@ -1,0 +1,24 @@
+---
+permalink: sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Cannot, Access, Other, Controller 
+summary: 當您執行某些與CA憑證相關的作業（例如匯入憑證）時、可能會看到一個對話方塊、提示您接受第二個控制器的自我簽署憑證。 
+---
+= 為什麼會出現「無法存取其他控制器」對話方塊？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您執行某些與CA憑證相關的作業（例如匯入憑證）時、可能會看到一個對話方塊、提示您接受第二個控制器的自我簽署憑證。
+
+在具有兩個控制器（雙工組態）的儲存陣列中、SANtricity 如果無法與第二個控制器通訊、或是瀏覽器在作業的某個時間點無法接受憑證、有時會出現此對話方塊。
+
+如果此對話方塊開啟、請按一下*「接受自我簽署的憑證*」繼續。如果另一個對話方塊提示您輸入密碼、請輸入您用於存取System Manager的管理員密碼。
+
+如果此對話方塊再次出現、且您無法完成憑證工作、請嘗試下列其中一個程序：
+
+* 使用不同的瀏覽器類型來存取此控制器、接受憑證並繼續。
+* 使用System Manager存取第二個控制器、接受自我簽署的憑證、然後返回第一個控制器並繼續。
+

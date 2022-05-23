@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-media-types-are-supported-for-a-drive.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, media, types, supported, hdd, hard disk, ssd 
+summary: 支援下列媒體類型：硬碟機（HDD）和固態磁碟（SSD）。 
+---
+= 磁碟機支援哪些媒體類型？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援下列媒體類型：硬碟機（HDD）和固態磁碟（SSD）。

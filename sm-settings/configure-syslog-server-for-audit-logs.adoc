@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/configure-syslog-server-for-audit-logs.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs, 
+summary: 如果您想要將稽核記錄歸檔到外部syslog伺服器、可以設定該伺服器與儲存陣列之間的通訊。建立連線之後、稽核記錄會自動儲存至syslog伺服器。 
+---
+= 設定系統記錄伺服器進行稽核記錄
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您想要將稽核記錄歸檔到外部syslog伺服器、可以設定該伺服器與儲存陣列之間的通訊。建立連線之後、稽核記錄會自動儲存至syslog伺服器。
+
+.開始之前
+* 您必須以包含安全管理員權限的使用者設定檔登入。否則、就不會顯示存取管理功能。
+* 系統記錄伺服器位址、傳輸協定和連接埠號碼必須可用。伺服器位址可以是完整網域名稱、IPv4位址或IPv6位址。
+* 如果您的伺服器使用安全傳輸協定（例如TLS）、則您的本機系統必須具備憑證授權單位（CA）憑證。CA憑證可識別網站擁有者、以確保伺服器與用戶端之間的安全連線。
+
+
+.步驟
+. 選取功能表：設定[Access Management（存取管理）]。
+. 從「稽核記錄」索引標籤、選取*「設定Syslog伺服器」*。
++
+此時將打開Configure Syslog Servers（配置Syslog服務器）對話框。
+
+. 按一下「 * 新增 * 」。
++
+此時會開啟「新增Syslog伺服器」對話方塊。
+
+. 輸入伺服器的資訊、然後按一下*「Add*（新增*）」。
++
+** *伺服器位址*-輸入完整網域名稱、IPv4位址或IPv6位址。
+** *傳輸協定*-從下拉式清單中選取傳輸協定（例如TLS、udp或TCP）。
+** *上傳憑證（選用）*-如果您選取TLS傳輸協定、但尚未上傳簽署的CA憑證、請按一下*瀏覽*上傳憑證檔案。稽核記錄不會歸檔至沒有信任憑證的syslog伺服器。
++
+[NOTE]
+====
+如果憑證稍後失效、TLS交握將會失敗。因此、系統會在稽核記錄中張貼錯誤訊息、而不會再將訊息傳送到syslog伺服器。若要解決此問題、您必須先修正syslog伺服器上的憑證、然後前往功能表：設定[稽核記錄>設定Syslog伺服器>全部測試]。
+
+====
+** * Port*（連接埠）-輸入syslog接收器的連接埠號碼。按一下「*新增*」之後、「設定Syslog伺服器」對話方塊隨即開啟、並在頁面上顯示您設定的syslog伺服器。
+
+
+. 若要測試伺服器與儲存陣列的連線、請選取* Test All*。
+
+
+設定完成後、所有新的稽核記錄都會傳送到syslog伺服器。不會傳輸先前的記錄。

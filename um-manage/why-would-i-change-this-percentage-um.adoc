@@ -1,0 +1,20 @@
+---
+permalink: um-manage/why-would-i-change-this-percentage-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, change, percentage 
+summary: '保留容量通常是基礎磁碟區的20%、用於非同步鏡射作業。通常這種容量是足夠的。' 
+---
+= 為什麼要變更這個百分比？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+保留容量通常是基礎磁碟區的20%、用於非同步鏡射作業。通常這種容量是足夠的。
+
+所需的容量會因寫入基礎磁碟區的頻率和大小、以及您打算使用儲存物件複製服務作業的時間而有所不同。一般而言、如果存在下列其中一項或兩項條件、請為保留容量選擇較大的百分比：
+
+* 如果特定儲存物件的複製服務作業壽命很長、
+* 如果由於I/O活動頻繁、基礎磁碟區上的資料區塊百分比會大幅變動。使用歷史效能資料或其他作業系統公用程式、協助您判斷基礎磁碟區的典型I/O活動。
+

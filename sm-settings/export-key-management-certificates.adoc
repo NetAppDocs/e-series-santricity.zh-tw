@@ -1,0 +1,30 @@
+---
+permalink: sm-settings/export-key-management-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, export, key, management, server, certificates, 
+summary: 您可以將金鑰管理伺服器的憑證儲存到本機機器。 
+---
+= 匯出金鑰管理伺服器憑證
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以將金鑰管理伺服器的憑證儲存到本機機器。
+
+.開始之前
+* 您必須以包含安全管理員權限的使用者設定檔登入。否則、不會顯示憑證功能。
+* 必須先匯入憑證。
+
+
+.步驟
+. 選取功能表：設定[憑證]。
+. 選取*金鑰管理*索引標籤。
+. 從表格中選取您要匯出的憑證、然後按一下*匯出*。
++
+隨即開啟「儲存」對話方塊。
+
+. 輸入檔案名稱、然後按一下*「Save*（儲存*）」。
+

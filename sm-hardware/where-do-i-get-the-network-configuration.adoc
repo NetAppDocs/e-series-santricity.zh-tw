@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/where-do-i-get-the-network-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, network, configuration, internet, protocol, 
+summary: 您可以從網路管理員取得網際網路傳輸協定（IP）位址、子網路遮罩（子網路遮罩）和閘道資訊。 
+---
+= 網路組態在哪裡？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從網路管理員取得網際網路傳輸協定（IP）位址、子網路遮罩（子網路遮罩）和閘道資訊。
+
+在控制器上設定連接埠時、您需要此資訊。

@@ -1,0 +1,55 @@
+---
+permalink: sm-hardware/overview-hardware.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hardware, page, 
+summary: 您可以在「硬體」頁面上檢查元件狀態、並執行與這些元件相關的部分功能。 
+---
+= 硬體元件總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在「硬體」頁面上檢查元件狀態、並執行與這些元件相關的部分功能。
+
+
+
+== 我可以管理哪些元件？
+
+您可以檢查元件狀態、並執行與這些元件相關的部分功能：
+
+* *機櫃*：_機櫃_是包含儲存陣列（控制器、電源/風扇機櫃和磁碟機）硬體的元件。磁碟櫃有三種尺寸可供選擇、最多容納12、24或60個磁碟機。
+* 「*控制器*」是實作儲存陣列與管理功能的硬體與韌體組合。其中包括快取記憶體、磁碟機支援、以及用於主機連線的連接埠。
+* *磁碟機*：_磁碟機_可以是硬碟機（HDD）或固態磁碟機（SSD）。根據磁碟櫃大小、磁碟櫃最多可安裝12、24或60個磁碟機。
+
+
+深入瞭解：
+
+* link:hardware-page-overview.html["硬體頁面"]
+* link:hardware-terminology.html["硬體術語"]
+
+
+
+
+== 如何檢視硬體元件？
+
+前往「硬體」頁面、以圖形方式呈現儲存陣列的實體元件。您可以從機櫃檢視的右上角選取*顯示機櫃背面*或*顯示機櫃正面*、在陣列機櫃的正面和背面檢視之間切換。
+
+深入瞭解：
+
+* link:view-shelf-component-status-and-settings.html["檢視機櫃元件狀態和設定"]
+* link:view-controller-settings.html["檢視控制器設定"]
+* link:view-drive-status-and-settings.html["檢視磁碟機狀態和設定"]
+
+
+
+
+= 相關資訊
+
+深入瞭解與硬體相關的概念：
+
+* link:controller-states.html["控制器狀態"]
+* link:drive-states.html["磁碟機狀態"]
+* link:what-is-shelf-loss-protection-and-drawer-loss-protection.html["機櫃遺失保護與藥櫃遺失保護"]
+

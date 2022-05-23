@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, volume, reserved, capacity 
+summary: Snapshot Volume可讓主機存取快照映像中的資料。快照磁碟區包含自己的保留容量、可儲存對基礎磁碟區所做的任何修改、而不會影響原始的快照映像。主機無法讀取或寫入Snapshot映像。如果您要讀取或寫入快照資料、請建立快照磁碟區並將其指派給主機。 
+---
+= 什麼是Snapshot Volume？何時需要保留容量？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot Volume可讓主機存取快照映像中的資料。快照磁碟區包含自己的保留容量、可儲存對基礎磁碟區所做的任何修改、而不會影響原始的快照映像。主機無法讀取或寫入Snapshot映像。如果您要讀取或寫入快照資料、請建立快照磁碟區並將其指派給主機。
+
+您可以建立兩種類型的快照磁碟區。快照磁碟區的類型會決定它是否使用保留容量。
+
+* *唯讀*：以唯讀方式建立的快照磁碟區、可讓主機應用程式讀取快照映像中所含資料的複本。唯讀快照磁碟區不會使用保留容量。
+* *讀寫*：以讀寫方式建立的快照磁碟區、可讓您變更快照磁碟區、而不會影響參考的快照映像。讀寫快照磁碟區會使用保留容量來儲存這些變更。您可以隨時將唯讀快照磁碟區轉換為讀寫。
+

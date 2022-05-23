@@ -1,0 +1,22 @@
+---
+permalink: sm-interface/set-default-time-frame-for-performance-graphs.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, time, graphs 
+summary: 您可以變更效能圖表所顯示的預設時間範圍。 
+---
+= 設定效能圖表的預設時間範圍
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更效能圖表所顯示的預設時間範圍。
+
+首頁和效能頁面上顯示的效能圖表、一開始會顯示1小時的時間範圍。偏好設定會儲存在瀏覽器的本機儲存設備中、讓所有使用者都能擁有自己的設定。
+
+.步驟
+. 選取功能表：偏好設定[設定偏好設定]。
+. 在下拉式清單中、選取* 5分鐘*、* 1小時*、* 8小時*、* 1天*或* 7天*、 並確認您要執行此作業。
+

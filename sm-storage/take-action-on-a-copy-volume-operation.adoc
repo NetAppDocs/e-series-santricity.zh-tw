@@ -1,0 +1,68 @@
+---
+permalink: sm-storage/take-action-on-a-copy-volume-operation.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, copy, volume, 
+summary: 您可以檢視進行中的複製Volume作業、以及停止、變更優先順序、重新複製或清除複製Volume作業。 
+---
+= 對複製Volume作業採取行動
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視進行中的複製Volume作業、以及停止、變更優先順序、重新複製或清除複製Volume作業。
+
+.步驟
+. 選取功能表：首頁[檢視進行中的作業]。
++
+此時會出現「作業進行中」對話方塊。
+
+. 找到您要對其採取行動的複製Volume作業、然後按一下「*動作*」欄中的連結、執行下列其中一項動作。
++
+請閱讀對話方塊中提供的所有警示文字、尤其是停止作業時。
+
++
+[cols="25h,~"]
+|===
+| 行動 | 說明 
+
+
+ a| 
+停止
+ a| 
+當作業狀態為「進行中」、「擱置中」或「失敗」時、您可以停止複製Volume作業。
+
+當複製Volume停止時、所有對應的主機都可以寫入來源Volume。如果資料寫入來源Volume、則目標Volume上的資料將不再符合來源Volume上的資料。
+
+
+
+ a| 
+變更優先順序
+ a| 
+您可以在作業狀態為「進行中」時、變更複製Volume作業的優先順序、以選取複製Volume作業完成的速度。
+
+
+
+ a| 
+重新複製
+ a| 
+當您停止複製Volume作業並想要再次啟動、或是複製Volume作業失敗或停止時、您可以重新複製Volume。「複製Volume」作業從頭開始。
+
+重新複製動作會覆寫目標磁碟區上的現有資料、並使與目標磁碟區相關的所有快照磁碟區（若有）失效。
+
+
+
+ a| 
+清楚明瞭
+ a| 
+您可以在作業狀態為「進行中」、「擱置中」或「失敗」時、移除「複製Volume」作業。
+
+[NOTE]
+====
+選擇*清除*之前、請務必執行此作業。沒有確認對話框。
+
+====
+|===
+

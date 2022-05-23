@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, image, 
+summary: Snapshot映像是在特定時間點擷取的Volume內容邏輯複本。Snapshot映像使用最小的儲存空間。 
+---
+= 什麼是快照映像？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot映像是在特定時間點擷取的Volume內容邏輯複本。Snapshot映像使用最小的儲存空間。
+
+Snapshot映像資料儲存方式如下：
+
+* 建立快照映像時、會完全符合基礎磁碟區。快照完成後、當基礎磁碟區上的任何區塊或區塊集發生第一次寫入要求時、原始資料會複製到快照保留容量、然後再將新資料寫入基礎磁碟區。
+* 後續的快照僅包含自建立第一個快照映像以來已變更的資料區塊。後續的寫入時複製作業會將基礎磁碟區上即將覆寫的原始資料、儲存至快照保留容量、然後再將新資料寫入基礎磁碟區。
+

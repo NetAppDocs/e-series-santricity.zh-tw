@@ -1,0 +1,19 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, adding, directory, server, 
+summary: 在Access Management中新增目錄伺服器之前、請確定您符合下列需求。 
+---
+= 新增目錄伺服器之前、我需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在Access Management中新增目錄伺服器之前、請確定您符合下列需求。
+
+* 必須在目錄服務中定義使用者群組。
+* LDAP伺服器認證必須可用、包括網域名稱、伺服器URL、以及可選的連結帳戶使用者名稱和密碼。
+* 對於使用安全傳輸協定的LDAPS伺服器、LDAP伺服器的憑證鏈結必須安裝在本機機器上。
+

@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, port, configuration, isns, server, dhcp, server, 
+summary: 每當修改或升級伺服器時、請重新整理DHCP伺服器、而且與目前儲存陣列和您要使用的儲存陣列相關的DHCP資訊已變更。 
+---
+= 何時應該從DHCP伺服器重新整理連接埠組態或iSNS伺服器？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+每當修改或升級伺服器時、請重新整理DHCP伺服器、而且與目前儲存陣列和您要使用的儲存陣列相關的DHCP資訊已變更。
+
+具體而言、當您知道DHCP伺服器將指派不同的位址時、請重新整理DHCP伺服器的連接埠組態或iSNS伺服器。
+
+[NOTE]
+====
+重新整理連接埠組態會破壞該連接埠上的所有iSCSI連線。
+
+====

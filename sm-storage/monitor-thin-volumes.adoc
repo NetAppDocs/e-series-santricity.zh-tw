@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/monitor-thin-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, monitor, thin, volumes 
+summary: 您可以監控精簡磁碟區的空間、並產生適當的警示、以防止容量不足的情況發生。 
+---
+= 監控精簡磁碟區
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以監控精簡磁碟區的空間、並產生適當的警示、以防止容量不足的情況發生。
+
+[NOTE]
+====
+EF600或EF300儲存系統無法使用此功能。
+
+====
+[NOTE]
+====
+不提供建立精簡磁碟區的選項。SANtricity如果要建立精簡磁碟區、請使用命令列介面（CLI）。
+
+====

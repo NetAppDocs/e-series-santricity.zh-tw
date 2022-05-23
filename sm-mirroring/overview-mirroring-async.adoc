@@ -1,0 +1,60 @@
+---
+permalink: sm-mirroring/overview-mirroring-async.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware, 
+summary: 非同步鏡射功能提供控制器層級的韌體架構、可在本機儲存陣列與遠端儲存陣列之間進行資料複寫。 
+---
+= 非同步鏡射總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+非同步鏡射功能提供控制器層級的韌體架構、可在本機儲存陣列與遠端儲存陣列之間進行資料複寫。
+
+[NOTE]
+====
+EF600或EF300儲存系統無法使用此功能。
+
+====
+
+
+== 什麼是非同步鏡射？
+
+_非同步鏡射_會在特定時間點擷取主要磁碟區的狀態、並僅複製自上次映像擷取後變更的資料。主站台可立即更新、而次要站台可在頻寬允許的情況下更新。這些資訊會在網路資源可用時快取並於稍後傳送。
+
+非同步鏡射是以每個磁碟區為基礎建立、但在群組層級進行管理、可讓您將不同的遠端鏡射磁碟區與特定儲存陣列上的任何主要磁碟區建立關聯。這類鏡射是滿足不中斷營運需求的理想選擇、一般而言、對於定期程序而言、網路效率更高。
+
+深入瞭解：
+
+* link:how-synchronous-mirroring-works.html["非同步鏡射的運作方式"]
+* link:asynchronous-terminology.html["非同步鏡射術語"]
+* link:asynchronous-mirror-status.html["非同步鏡射狀態"]
+* link:volume-ownership-sync.html["Volume擁有權"]
+* link:role-change-of-a-mirror-consistency-group.html["鏡射一致性群組的角色變更"]
+
+
+
+
+== 如何設定非同步鏡射？
+
+您必須使用Unified Manager介面、在陣列之間執行初始鏡射組態。設定好之後、即可在System Manager中管理鏡射配對和一致性群組。
+
+深入瞭解：
+
+* link:requirements-for-using-asynchronous-mirroring.html["使用非同步鏡射的需求"]
+* link:workflow-for-mirroring-a-volume-asynchronously.html["非同步鏡射磁碟區的工作流程"]
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html["建立非同步鏡射配對（在Unified Manager中）"]
+
+
+
+
+== 相關資訊
+
+深入瞭解非同步鏡射的相關概念：
+
+* link:what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html["在建立鏡射一致性群組之前、您需要知道的資訊"]
+* link:asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["在建立鏡射配對之前、您需要知道的資訊"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["非同步鏡射與同步鏡射有何不同"]
+

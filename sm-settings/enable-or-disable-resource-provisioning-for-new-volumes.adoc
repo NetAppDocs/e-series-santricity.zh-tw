@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning, 
+summary: 如果您先前已停用資源資源資源配置的預設功能、可以前往「設定」、針對您所建立的任何新SSD Volume群組或集區重新啟用該功能。您也可以再次停用設定。 
+---
+= 啟用或停用新Volume群組或集區的資源配置
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您先前已停用資源資源資源配置的預設功能、則可針對您所建立的任何新SSD Volume群組或集區重新啟用此功能。您也可以再次停用設定。
+
+資源資源配置是EF300和EF600儲存陣列的一項功能、可讓磁碟區立即投入使用、而無需背景初始化程序。指派給磁碟區的所有磁碟區塊都會進行取消分配（未對應）、這可改善SSD的耗損壽命、並提高最大寫入效能。
+
+
+NOTE: 根據預設、磁碟機支援DULBE的系統會啟用資源配置。
+
+.開始之前
+* 您必須擁有EF300或EF600儲存陣列。
+* 您必須擁有SSD磁碟區群組或集區、其中所有磁碟機都支援NVMe取消分配或未寫入的邏輯區塊錯誤啟用（DULBE）錯誤恢復功能。
+
+
+當您重新啟用新Volume群組或集區的資源配置時、只有新建立的Volume群組和集區才會受到影響。任何已啟用資源資源配置的現有Volume群組和資源池將維持不變。
+
+.步驟
+. 選取功能表：設定[系統]。
+. 向下捲動至*其他設定*、然後按一下*啟用/停用資源配置的Volumes *。
++
+設定說明會指出資源資源資源配置目前已啟用或已停用。
+
+. 在對話方塊中、確認操作。
+
+
+啟用或停用資源配置只會影響您所建立的新SSD資源池或磁碟區群組。現有的集區或Volume群組維持不變。

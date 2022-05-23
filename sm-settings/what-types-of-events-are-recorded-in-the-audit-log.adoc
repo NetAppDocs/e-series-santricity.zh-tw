@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, events, recorded, audit, log, 
+summary: 稽核日誌可記錄修改事件、或同時記錄修改和唯讀事件。 
+---
+= 稽核記錄中記錄了哪些類型的事件？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+稽核日誌可記錄修改事件、或同時記錄修改和唯讀事件。
+
+視原則設定而定、會顯示下列類型的事件：
+
+* *修改事件*：系統管理程式中涉及系統變更（例如資源配置儲存設備）的使用者動作。
+* *修改和唯讀事件*：涉及系統變更的使用者動作、以及涉及檢視或下載資訊的事件、例如檢視磁碟區指派。
+

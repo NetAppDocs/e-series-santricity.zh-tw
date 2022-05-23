@@ -1,0 +1,29 @@
+---
+permalink: sm-storage/rtv-why-dont-i-see-all-my-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, destination, array 
+summary: 在設定遠端儲存功能的匯入時、您可能會注意到某些磁碟區因為區塊大小、容量或磁碟區可用度而未出現在目標候選清單中。 
+---
+= 為什麼我在目的地陣列上看不到所有磁碟區？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在設定遠端儲存功能的匯入時、您可能會注意到某些磁碟區因為區塊大小、容量或磁碟區可用度而未出現在目標候選清單中。
+
+若要顯示在清單中、Volume候選對象必須具備：
+
+* 容量等於或大於遠端Volume。
+* 與遠端磁碟區相同的區塊大小。
+* 最佳化的目前狀態。
+
+
+如果候選磁碟區具有下列項目、則會從清單中排除：
+
+* 下列任一關係：Volume複製、Snapshot或鏡射。
+* 正在進行重新設定作業。
+* 對應至其他裝置（主機或主機叢集）。
+* 已啟用讀取Flash快取。
+

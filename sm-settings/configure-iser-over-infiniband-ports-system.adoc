@@ -1,0 +1,29 @@
+---
+permalink: sm-settings/configure-iser-over-infiniband-ports-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, iser, over, infiniband, ports, 
+summary: 如果您的控制器包含透過InfiniBand連接埠的iSER、您可以設定與主機的網路連線。 
+---
+= 在InfiniBand連接埠上設定iSER
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您的控制器包含透過InfiniBand連接埠的iSER、您可以設定與主機的網路連線。
+
+.開始之前
+* 您的控制器必須在InfiniBand連接埠上包含iSER；否則、System Manager無法使用iSER over InfiniBand設定。
+* 您必須知道主機連線的IP位址。
+
+
+.步驟
+. 選取功能表：設定[系統]。
+. 在* iSER over InfiniBand settings *下、選取* Configure iSER over InfiniBand連接埠*。
+. 按一下要設定的InfiniBand連接埠上的iSER控制器。單擊 * 下一步 * 。
+. 在下拉式清單中、選取您要設定的HIC連接埠、然後輸入主機的IP位址。
+. 單擊*完成*。
+. 按一下* Yes*、即可透過InfiniBand連接埠重設iSER。
+

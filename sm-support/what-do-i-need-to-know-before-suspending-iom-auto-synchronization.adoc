@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, suspend, iom, auto-synchronization 
+summary: 暫停IOM自動同步可防止IOM韌體在下次SANtricity 進行更新時升級、 
+---
+= 在暫停IOM自動同步之前、我需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+暫停IOM自動同步可防止IOM韌體在下次SANtricity 進行更新時升級、
+
+控制器軟體和IOM韌體通常會以套裝組合形式升級。如果您有想保留在機箱上的特殊IOM韌體版本、可以暫停IOM自動同步。否則、下次進行控制器軟體升級時、您將會回復到控制器軟體隨附的IOM韌體。

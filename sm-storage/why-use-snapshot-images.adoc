@@ -1,0 +1,24 @@
+---
+permalink: sm-storage/why-use-snapshot-images.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, images 
+summary: 您可以使用快照來保護資料、避免意外或惡意遺失或毀損。 
+---
+= 為何要使用快照映像？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用快照來保護資料、避免意外或惡意遺失或毀損。
+
+選取稱為Snapshot一致性群組的基礎磁碟區或一組基礎磁碟區、然後以下列一種或多種方式擷取快照映像：
+
+* 您可以建立單一基礎磁碟區的快照映像、或是由多個基礎磁碟區所組成的快照一致性群組。
+* 您可以手動拍攝快照、或為基礎磁碟區或快照一致性群組建立排程、以自動擷取定期快照映像。
+* 您可以建立快照映像的主機存取快照磁碟區。
+* 您可以執行復原作業來還原快照映像。
+
+
+系統會將多個快照映像保留為還原點、您可以在特定時間點將其復原至已知的良好資料集。回溯功能可防止資料意外刪除及資料毀損。

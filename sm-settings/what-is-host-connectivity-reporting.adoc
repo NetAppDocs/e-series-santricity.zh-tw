@@ -1,0 +1,28 @@
+---
+permalink: sm-settings/what-is-host-connectivity-reporting.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, host, connectivity, reporting, 
+summary: 啟用主機連線報告時、儲存陣列會持續監控控制器與已設定主機之間的連線、然後在連線中斷時發出警示。 
+---
+= 什麼是主機連線報告？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+啟用主機連線報告時、儲存陣列會持續監控控制器與已設定主機之間的連線、然後在連線中斷時發出警示。
+
+如果纜線鬆脫、毀損或遺失、或主機發生其他問題、可能會中斷連線。在這些情況下、系統可能會開啟Recovery Guru訊息：
+
+* *主機備援遺失*-如果任一控制器無法與主機通訊、就會開啟。
+* *主機類型不正確*-如果儲存陣列上未正確指定主機類型、就會開啟、這可能會導致容錯移轉問題。
+
+
+在重新啟動控制器所需時間可能超過連線逾時時間的情況下、您可能會想要停用主機連線報告功能。停用此功能會抑制「Recovery Gurus」訊息。
+
+[NOTE]
+====
+停用主機連線報告也會停用自動負載平衡、以監控及平衡控制器資源使用量。不過、如果您重新啟用主機連線報告、則自動負載平衡功能不會自動重新啟用。
+
+====

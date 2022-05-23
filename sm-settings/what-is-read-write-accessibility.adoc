@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/what-is-read-write-accessibility.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, read/write, accessibility, 
+summary: 「磁碟機設定」視窗包含磁碟機安全性屬性的相關資訊。讀取/寫入存取權限是在磁碟機資料已鎖定時顯示的其中一個屬性。 
+---
+= 什麼是讀寫存取能力？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「磁碟機設定」視窗包含磁碟機安全性屬性的相關資訊。「讀取/寫入存取」是在磁碟機資料已鎖定時顯示的其中一個屬性。
+
+若要檢視磁碟機安全性屬性、請前往「硬體」頁面。選取磁碟機、按一下*檢視設定*、然後按一下*顯示更多設定*。在頁面底部、磁碟機解鎖時、讀取/寫入存取屬性值為*是*。磁碟機鎖定時、讀取/寫入存取屬性值為*否、無效的安全金鑰*。您可以匯入安全金鑰來解除鎖定安全磁碟機（前往功能表：設定[系統>解除鎖定安全磁碟機]）。

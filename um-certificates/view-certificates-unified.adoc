@@ -1,0 +1,27 @@
+---
+permalink: um-certificates/view-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, view certificates 
+summary: 您可以檢視憑證的摘要資訊、包括使用憑證的組織、發行憑證的授權單位、有效期間及指紋（唯一識別碼）。 
+---
+= 檢視憑證
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視憑證的摘要資訊、包括使用憑證的組織、發行憑證的授權單位、有效期間及指紋（唯一識別碼）。
+
+您必須以包含安全管理員權限的使用者設定檔登入。否則、不會顯示憑證功能。
+
+.步驟
+. 選擇*憑證管理*。
+. 選取下列其中一個索引標籤：
++
+** *管理*：顯示託管Web服務Proxy之系統的憑證。管理憑證可由憑證授權單位（CA）自行簽署或核准。可安全存取Unified Manager。
+** * Trusted *（受信任的*）-顯示Unified Manager可存取的憑證、以供儲存陣列和其他遠端伺服器（例如LDAP伺服器）使用。這些憑證可以從憑證授權單位（CA）核發、也可以自行簽署。
+
+
+. 若要查看有關憑證的詳細資訊、請選取其列、選取列尾端的省略符號、然後按一下*檢視*或*匯出*。
+

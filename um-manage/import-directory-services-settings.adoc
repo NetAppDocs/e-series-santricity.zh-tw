@@ -1,0 +1,51 @@
+---
+permalink: um-manage/import-directory-services-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, directory, services, settings 
+summary: 您可以將目錄服務組態從一個儲存陣列匯入其他儲存陣列。當您需要在網路中設定多個陣列時、這項批次作業可節省時間。 
+---
+= 匯入目錄服務設定
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以將目錄服務組態從一個儲存陣列匯入其他儲存陣列。當您需要在網路中設定多個陣列時、這項批次作業可節省時間。
+
+.開始之前
+* 目錄服務是在System Manager中針對您要作為來源的儲存陣列進行設定（功能表：設定[Access Management（存取管理）]）。
+* 在System Manager中備份目標儲存陣列的現有組態（功能表：設定[系統>儲存儲存儲存陣列組態]）。
+
+
+匯入的設定包括LDAP（輕量型目錄存取傳輸協定）伺服器的網域名稱和URL、以及LDAP伺服器使用者群組與儲存陣列預先定義角色的對應。
+
+.步驟
+. 在「管理」頁面中、按一下*匯入設定*。
++
+「匯入設定」精靈隨即開啟。
+
+. 在Select Settings（選擇設置）對話框中，選擇* Directory services（*目錄服務）*，然後單擊* Next*（*下一步*）。
++
+此時會開啟一個對話方塊、供您選取來源陣列。
+
+. 在「選取來源」對話方塊中、選取含有您要匯入之設定的陣列、然後按一下「*下一步*」。
+. 在「選取目標」對話方塊中、選取一或多個陣列以接收新設定。
++
+[NOTE]
+====
+韌體低於8.50的儲存陣列無法選取。此外、如果Unified Manager無法與陣列通訊（例如、陣列離線或有憑證、密碼或網路問題）、則陣列不會出現在此對話方塊中。
+
+====
+. 單擊*完成*。
++
+「作業」頁面會顯示匯入作業的結果。如果作業失敗、您可以按一下其列以查看更多資訊。
+
+
+
+
+
+== 結果
+
+現在、目標儲存陣列已設定與來源陣列相同的目錄服務。

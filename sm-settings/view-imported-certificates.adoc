@@ -1,0 +1,52 @@
+---
+permalink: sm-settings/view-imported-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, imported, certificate, information, 
+summary: 在「憑證」頁面中、您可以檢視儲存陣列的憑證類型、發行授權單位及有效的憑證日期範圍。 
+---
+= 檢視匯入的憑證資訊
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在「憑證」頁面中、您可以檢視儲存陣列的憑證類型、發行授權單位及有效的憑證日期範圍。
+
+您必須以包含安全管理員權限的使用者設定檔登入。否則、不會顯示憑證功能。
+
+.步驟
+. 選取功能表：設定[Certicates]。
+. 選取其中一個索引標籤以檢視憑證的相關資訊。
++
+[cols="25h,~"]
+|===
+| 索引標籤 | 說明 
+
+
+ a| 
+陣列管理
+ a| 
+檢視針對每個控制器匯入的CA簽署憑證相關資訊、包括根檔案、中繼檔案和伺服器檔案。
+
+
+
+ a| 
+值得信賴
+ a| 
+檢視所有其他類型的控制器匯入憑證的相關資訊。使用* Show certificates that are ...*（顯示...的憑證）下的篩選欄位、即可檢視使用者安裝或預先安裝的憑證。
+
+** *使用者安裝*：使用者上傳至儲存陣列的憑證、當控制器做為用戶端（而非伺服器）、LDAPS憑證及身分識別聯盟憑證時、可包含信任的憑證。
+** *預先安裝*：儲存陣列隨附的自我簽署憑證。
+
+
+
+
+ a| 
+金鑰管理
+ a| 
+檢視匯入外部金鑰管理伺服器之CA簽署憑證的相關資訊。
+
+|===
+

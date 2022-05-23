@@ -1,0 +1,21 @@
+---
+permalink: um-certificates/why-cant-i-log-in-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, log in, login 
+summary: 如果您在嘗試登入時收到錯誤訊息、請檢閱這些可能的原因。 
+---
+= 為什麼我無法登入？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您在嘗試登入時收到錯誤訊息、請檢閱這些可能的原因。
+
+下列其中一項原因可能導致登入錯誤：
+
+* 您輸入的使用者名稱或密碼不正確。
+* 您的權限不足。
+* 您嘗試多次登入失敗、這會觸發鎖定模式。請等待10分鐘以重新登入。
+

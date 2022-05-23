@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, non-optimal, mode, 
+summary: 處於非最佳模式的儲存系統是因為系統組態狀態無效。儘管處於這種狀態、仍完全支援對現有磁碟區的正常I/O存取、不過System Manager會禁止某些作業。 
+---
+= 為什麼儲存系統處於非最佳模式？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+處於非最佳模式的儲存系統是因為系統組態狀態無效。儘管處於這種狀態、仍完全支援對現有磁碟區的正常I/O存取、不過System Manager會禁止某些作業。
+
+儲存系統可能因為下列其中一項原因而轉換為「無效的系統組態」：
+
+* 控制器不符合法規要求、可能是因為它的子機型ID（SMID）代碼不正確、或是已超過優質功能的限制。
+* 正在進行內部服務作業、例如磁碟機韌體下載。
+* 控制器超過同位元檢查錯誤臨界值、並進入鎖定狀態。
+* 發生一般鎖定狀況。
+

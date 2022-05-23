@@ -1,0 +1,30 @@
+---
+permalink: sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity, mirrored, pair, volume, 
+summary: 一般而言、當您收到鏡射配對的保留容量已滿的警告時、應該增加保留容量。您只能以8 GiB的增量來增加保留容量。 
+---
+= 在增加鏡射配對磁碟區上的保留容量之前、我需要知道什麼？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+一般而言、當您收到鏡射配對的保留容量已滿的警告時、應該增加保留容量。您只能以8 GiB的增量來增加保留容量。
+
+對於非同步鏡射作業、保留容量通常為基礎磁碟區的20%。如果存在下列任一或兩種情況、請選擇較大的容量來保留容量：
+
+* 您打算長期保留鏡射配對。
+* 由於I/O活動頻繁、一線磁碟區上的資料區塊將會有很大比例改變。使用歷史效能資料或其他作業系統公用程式、協助您判斷主要磁碟區的典型I/O活動。
+
+
+您可以執行下列其中一個動作來增加鏡射配對的保留容量：
+
+* 選取功能表：Storage[資源池與磁碟區群組]、然後按一下*保留容量*索引標籤、即可調整鏡射配對磁碟區的容量百分比。
+* 使用資源池或磁碟區群組上可用的可用容量來建立新的磁碟區。
++
+如果任何資源池或磁碟區群組上不存在可用容量、您可以將未設定的容量、以未使用磁碟機的形式新增至資源池或磁碟區群組。
+
+

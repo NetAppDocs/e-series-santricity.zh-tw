@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, volume, import 
+summary: 使用遠端儲存功能時、請注意遠端磁碟區是資料來源。 
+---
+= 匯入時、我需要知道哪些遠端磁碟區的相關資訊？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用遠端儲存功能時、請注意遠端磁碟區是資料來源。
+
+匯入進行中時、資料會從遠端磁碟區傳輸到目的地儲存系統上的目標磁碟區。這兩個磁碟區的區塊大小必須相符。

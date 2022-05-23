@@ -1,0 +1,31 @@
+---
+permalink: sm-hardware/place-controller-online.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, place, controller, online 
+summary: 如果控制器處於離線狀態或處於服務模式、您可以將其重新連線。 
+---
+= 將控制器置於線上
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果控制器處於離線狀態或處於服務模式、您可以將其重新連線。
+
+.步驟
+. 選取*硬體*。
+. 如果圖形顯示磁碟機、請按一下*顯示磁碟櫃背面*。
++
+圖形會變更、以顯示控制器而非磁碟機。
+
+. 按一下處於離線狀態或服務模式的控制器。
++
+此時會出現控制器的內容功能表。
+
+. 選擇*線上放置*、然後確認您要執行此作業。
+
+
+多重路徑驅動程式偵測還原的慣用路徑最多可能需要10分鐘。
+
+當收到每個磁碟區的I/O要求時、此控制器原本擁有的任何磁碟區都會自動移回控制器。在某些情況下、您可能需要使用* redistribute Volumes *命令手動重新分配磁碟區。

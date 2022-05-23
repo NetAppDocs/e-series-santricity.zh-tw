@@ -1,0 +1,73 @@
+---
+permalink: sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, shelf, drawer, loss, protection 
+summary: 若要維護資源池或磁碟區群組的機櫃/藥櫃遺失保護、請使用下表中指定的條件。 
+---
+= 如何維護機櫃/藥櫃遺失保護？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要維護資源池或磁碟區群組的機櫃/藥櫃遺失保護、請使用下表中指定的條件。
+
+[cols="1a,1a,1a"]
+|===
+| 層級 | 機櫃/藥櫃損失保護條件 | 所需的磁碟櫃/藥櫃數量下限 
+
+
+ a| 
+資源池
+ a| 
+如果是磁碟櫃、該資源池必須在單一磁碟櫃中包含兩個以上的磁碟機。
+
+對於藥櫃、該資源池必須包含每個藥櫃的相同磁碟機數量。
+ a| 
+6適用於磁碟櫃
+
+5個用於抽屜
+
+
+
+ a| 
+RAID 6
+ a| 
+磁碟區群組在單一磁碟櫃或磁碟櫃中不含兩個以上的磁碟機。
+ a| 
+3.
+
+
+
+ a| 
+RAID 3或RAID 5
+ a| 
+Volume群組中的每個磁碟機都位於獨立的磁碟櫃或抽屜中。
+ a| 
+3.
+
+
+
+ a| 
+RAID 1
+ a| 
+鏡射配對中的每個磁碟機必須位於獨立的磁碟櫃或磁碟櫃中。
+ a| 
+2.
+
+
+
+ a| 
+RAID 0
+ a| 
+無法達到機櫃/藥櫃遺失保護。
+ a| 
+不適用
+
+|===
+[NOTE]
+====
+如果磁碟機已在集區或磁碟區群組中故障、則無法維護機櫃/藥櫃遺失保護。在這種情況下、失去磁碟機櫃或抽屜的存取權、進而導致集區或磁碟區群組中的另一個磁碟機遺失資料。
+
+====

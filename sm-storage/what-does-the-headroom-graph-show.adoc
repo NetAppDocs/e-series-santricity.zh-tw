@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-does-the-headroom-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, headroom, graph, show, performance, capability 
+summary: 保留空間圖表與儲存陣列控制器的剩餘效能功能有關。此圖表可在「首頁」和「效能」方塊的「實體檢視」索引標籤上看到。 
+---
+= 保留空間圖表顯示什麼內容？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+保留空間圖表與儲存陣列控制器的剩餘效能功能有關。此圖表可在「首頁」和「效能」方塊的「實體檢視」索引標籤上看到。
+
+保留空間圖表顯示儲存系統中實體物件的剩餘效能。將游標停留在圖表上的某個點上、即可檢視控制器A和控制器B的IOPS和MIB/s剩餘容量百分比

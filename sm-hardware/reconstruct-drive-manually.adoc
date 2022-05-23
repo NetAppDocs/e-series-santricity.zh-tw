@@ -1,0 +1,32 @@
+---
+permalink: sm-hardware/reconstruct-drive-manually.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reconstruct, drive, manually, 
+summary: 磁碟機重建通常會在您更換磁碟機後自動開始。如果磁碟機重建未自動開始、您可以手動開始重建。 
+---
+= 手動重建磁碟機
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+磁碟機重建通常會在您更換磁碟機後自動開始。如果磁碟機重建未自動開始、您可以手動開始重建。
+
+[NOTE]
+====
+只有在技術支援或Recovery Guru指示下、才執行此作業。
+
+====
+.步驟
+. 選取*硬體*。
+. 如果圖形顯示控制器、請按一下*顯示機櫃正面*。
++
+圖形會變更、以顯示磁碟機而非控制器。
+
+. 按一下您要手動重建的磁碟機。
++
+此時會出現磁碟機的內容功能表。
+
+. 選取* Reconstronstron*、然後確認您要執行此作業。
+

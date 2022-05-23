@@ -1,0 +1,59 @@
+---
+permalink: sm-mirroring/overview-mirroring-sync.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers, 
+summary: 同步鏡射功能可在遠端距離的儲存陣列之間進行線上即時資料複寫。 
+---
+= 同步鏡射總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+同步鏡射功能可在遠端距離的儲存陣列之間進行線上即時資料複寫。
+
+[NOTE]
+====
+EF600或EF300儲存系統無法使用此功能。
+
+====
+
+
+== 什麼是同步鏡射？
+
+_同步鏡射_即時複寫資料磁碟區、確保持續可用度。儲存陣列控制器可管理鏡射作業、這對主機機器和軟體應用程式而言是透明的。
+
+這類鏡射是業務持續運作（例如災難恢復）的理想選擇。
+
+深入瞭解：
+
+* link:how-asynchronous-mirroring-works.html["同步鏡射的運作方式"]
+* link:synchronous-mirroring-terminology.html["同步鏡射術語"]
+* link:synchronous-mirroring-status.html["同步鏡射狀態"]
+* link:volume-ownership-sync.html["Volume擁有權"]
+* link:role-change-of-volumes-in-a-mirrored-pair.html["鏡射配對中磁碟區之間的角色變更"]
+
+
+
+
+== 如何設定同步鏡射？
+
+您必須使用Unified Manager介面、在陣列之間執行初始鏡射組態。設定好之後、即可在System Manager中管理鏡射配對。
+
+深入瞭解：
+
+* link:requirements-for-using-synchronous-mirroring.html["使用同步鏡射的需求"]
+* link:workflow-for-mirroring-a-volume-synchronously.html["同步鏡射磁碟區的工作流程"]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html["建立同步鏡射配對（在Unified Manager中）"]
+
+
+
+
+== 相關資訊
+
+深入瞭解與同步鏡射相關的概念：
+
+* link:synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["在建立鏡射配對之前、您需要知道的資訊"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["非同步鏡射與同步鏡射有何不同"]
+

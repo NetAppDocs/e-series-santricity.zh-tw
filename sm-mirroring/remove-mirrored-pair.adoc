@@ -1,0 +1,39 @@
+---
+permalink: sm-mirroring/remove-mirrored-pair.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, asynchronous, mirror, relationship, 
+summary: 您可以移除鏡射配對、從本機儲存陣列的主要磁碟區和遠端儲存陣列的次要磁碟區移除鏡射關係。 
+---
+= 移除非同步鏡射關係
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以移除鏡射配對、從本機儲存陣列的主要磁碟區和遠端儲存陣列的次要磁碟區移除鏡射關係。
+
+檢閱下列有關孤立鏡射配對的資訊：
+
+* 當一致性鏡射群組中的成員磁碟區在一端移除（本機儲存陣列端或遠端儲存陣列端）、但在另一端移除時、就會出現孤立的鏡射配對。
+* 當陣列間通訊恢復且鏡射組態協調鏡射參數的兩側時、就會偵測到孤立的鏡射配對。
+* 您可以移除鏡射配對、以修正孤立的鏡射配對狀態。
+
+
+.步驟
+. 選取功能表：Storage[非同步鏡射]。
+. 選取*鏡射配對*索引標籤。
++
+鏡射配對表隨即出現、並顯示與儲存陣列相關的所有鏡射配對。
+
+. 選取您要移除的鏡射配對、然後按一下「*移除*」。
+. 確認您要移除鏡射配對、然後按一下「*移除*」。
+
+
+System Manager會執行下列動作：
+
+* 從本機儲存陣列和遠端儲存陣列上的鏡射一致性群組中移除鏡射關係、並刪除保留的容量。
+* 將主要Volume和次要Volume傳回主機可存取的非鏡射Volume。
+* 移除非同步鏡射配對、以更新「非同步鏡射」動態磚。
+

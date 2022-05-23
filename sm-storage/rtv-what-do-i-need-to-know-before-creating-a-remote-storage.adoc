@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, storage, connection 
+summary: 若要設定遠端儲存功能、您必須透過iSCSI直接連接遠端裝置和目標儲存系統。 
+---
+= 建立遠端儲存連線之前、我需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要設定遠端儲存功能、您必須透過iSCSI直接連接遠端裝置和目標儲存系統。
+
+若要設定iSCSI系統連線、請參閱：
+
+* link:..sm-hardware/configure-iscsi-ports-hardware.html["設定iSCSI連接埠"]
+* https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["遠端儲存技術報告"^]
+

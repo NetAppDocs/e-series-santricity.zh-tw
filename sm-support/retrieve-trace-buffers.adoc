@@ -1,0 +1,36 @@
+---
+permalink: sm-support/retrieve-trace-buffers.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, retrieve, trace, buffers 
+summary: 您可以從控制器擷取追蹤緩衝區、然後將檔案傳送給技術支援部門進行分析。 
+---
+= 擷取追蹤緩衝區
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從控制器擷取追蹤緩衝區、然後將檔案傳送給技術支援部門進行分析。
+
+韌體使用追蹤緩衝區來記錄處理、尤其是例外狀況、這對偵錯可能很有用。您可以擷取追蹤緩衝區、而不會中斷儲存陣列的作業、而且對效能的影響最小。
+
+[NOTE]
+====
+只有在技術支援人員的指示下、才執行此作業。
+
+====
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選擇*擷取追蹤緩衝區*。
+. 選取您要擷取追蹤緩衝區之每個控制器旁的核取方塊。
++
+您可以選擇一個或兩個控制器。如果核取方塊右側的控制器狀態訊息為「失敗」或「停用」、則核取方塊會停用。
+
+. 按一下「*是*」。
++
+檔案會儲存在瀏覽器的「Downloads（下載）」資料夾中、檔案名稱為「跟蹤緩衝區.7z」。
+
+. 請依照技術支援人員提供的指示、將檔案傳送給他們。
+

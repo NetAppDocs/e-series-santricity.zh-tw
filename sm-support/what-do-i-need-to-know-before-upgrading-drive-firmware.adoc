@@ -1,0 +1,22 @@
+---
+permalink: sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, upgrading, drive, firmware 
+summary: 在升級磁碟機韌體之前、請注意以下事項。 
+---
+= 升級磁碟機韌體之前、我需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在升級磁碟機韌體之前、請注意以下事項。
+
+* 為了預防、請使用磁碟對磁碟備份、磁碟區複製（至不受規劃韌體升級影響的磁碟區群組）或遠端鏡像來備份資料。
+* 您可能只想升級幾個磁碟機、以測試新韌體的行為、確保其正常運作。如果新韌體正常運作、請升級其餘磁碟機。
+* 如果您有任何故障磁碟機、請在開始韌體升級之前予以修正。
+* 如果磁碟機可以進行離線升級、請停止與磁碟機相關聯的所有磁碟區的I/O活動。當I/O活動停止時、就不會發生與這些磁碟區相關的組態作業。
+* 升級磁碟機韌體時、請勿移除任何磁碟機。
+* 升級磁碟機韌體時、請勿對儲存陣列進行任何組態變更。
+

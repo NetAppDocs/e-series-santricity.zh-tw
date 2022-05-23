@@ -1,0 +1,42 @@
+---
+permalink: sm-support/retrieve-recovery-support-files.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, retrieve, recovery, support files 
+summary: 技術支援可使用恢復支援檔案來疑難排解問題。System Manager會自動儲存這些檔案。 
+---
+= 擷取恢復支援檔案
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+技術支援可使用恢復支援檔案來疑難排解問題。System Manager會自動儲存這些檔案。
+
+技術支援部門已要求您寄送其他檔案給他們進行疑難排解。
+
+恢復支援檔案包括下列類型的檔案：
+
+* 支援資料檔案
+* 歷史AutoSupport
+* 記錄檔AutoSupport
+* SAS/RLS診斷檔案
+* 恢復設定檔資料
+* 資料庫擷取檔案
+
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選擇*擷取恢復支援檔案*。
++
+對話方塊會列出儲存陣列收集的所有恢復支援檔案。若要尋找特定檔案、您可以在「*篩選*」方塊中排序任何欄或輸入字元。
+
+. 選取檔案、然後按一下*下載*。
++
+檔案會儲存在瀏覽器的「下載」資料夾中。
+
+. 如果您需要儲存其他檔案、請重複上一步。
+. 按一下 * 關閉 * 。
+. 請依照技術支援人員提供的指示、將檔案傳送給他們。
+

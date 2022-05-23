@@ -1,0 +1,49 @@
+---
+permalink: sm-storage/change-the-settings-for-a-host-cluster.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, settings, host, cluster 
+summary: 您可以變更主機叢集名稱、或是新增或移除主機叢集中的主機。 
+---
+= 變更主機叢集的設定
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更主機叢集名稱、或是新增或移除主機叢集中的主機。
+
+.步驟
+. 選取功能表：Storage[hosts]。
+. 選取您要編輯的主機叢集、然後按一下*檢視/編輯設定*。
++
+此時會出現一個對話方塊、顯示目前的主機叢集設定。
+
+. 視需要變更主機叢集的設定。
++
+.欄位詳細資料
+====
+[cols="25h,~"]
+|===
+| 設定 | 說明 
+
+
+ a| 
+名稱
+ a| 
+您可以指定使用者提供的主機叢集名稱。需要指定叢集名稱。
+
+
+
+ a| 
+關聯的主機
+ a| 
+若要新增主機、請按一下*相關聯的主機*方塊、然後從下拉式清單中選取主機名稱。您無法手動輸入主機名稱。
+
+若要刪除主機、請按一下主機名稱旁的* X*。
+
+|===
+====
+. 按一下「 * 儲存 * 」。
+

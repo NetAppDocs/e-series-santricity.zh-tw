@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/how-add-on-features-work.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add-on, features, 
+summary: 附加元件是系統管理員標準組態中未包含的功能、可能需要啟用金鑰。附加功能可以是單一優質功能、也可以是隨附的功能套件。 
+---
+= 附加功能的運作方式
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+附加元件是系統管理員標準組態中未包含的功能、可能需要啟用金鑰。附加功能可以是單一優質功能、也可以是隨附的功能套件。
+
+下列步驟概述啟用優質功能或功能套件：
+
+. 取得下列資訊：
++
+** 機箱序號和功能啟用識別碼、可識別要安裝功能的儲存陣列。這些項目可在System Manager中取得。
+** 功能啟動代碼、您可在購買此功能時從Support網站取得。
+
+
+. 請聯絡您的儲存設備供應商、或存取Premium功能啟動網站、以取得功能金鑰。提供機箱序號、啟用識別碼和啟用功能代碼。
+. 使用System Manager、使用功能金鑰檔案啟用優質功能或功能套件。
+

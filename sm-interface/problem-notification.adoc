@@ -1,0 +1,71 @@
+---
+permalink: sm-interface/problem-notification.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, notifications 
+summary: System Manager使用圖示和其他數種方法來通知您儲存陣列有問題。 
+---
+= 問題通知總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager使用圖示和其他數種方法來通知您儲存陣列有問題。
+
+
+
+== 圖示
+
+System Manager會使用這些圖示來指出儲存陣列及其元件的狀態。
+
+[cols="1a,1a"]
+|===
+| 圖示 | 說明 
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-success.gif[""]
+ a| 
+最佳化
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-failure.gif[""]
+ a| 
+非最佳或故障
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-service.gif[""]
+ a| 
+需要注意或修正
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-caution.gif[""]
+ a| 
+注意
+
+|===
+System Manager會在不同位置顯示這些圖示。
+
+* 首頁上的通知區域會顯示故障圖示和訊息。
+* 導覽區域中的首頁圖示會顯示故障圖示。
+* 在「元件」頁面上、磁碟機和控制器的圖形會顯示故障圖示。
+
+
+
+
+== 警示和LED
+
+此外、System Manager會以其他方式通知您問題。
+
+* System Manager會傳送SNMP通知或電子郵件錯誤訊息。
+* 硬體上的「需要維修行動」LED亮起。
+
+
+當您收到問題通知時、請使用Recovery Guru來協助您解決問題。如有必要、請使用硬體文件和恢復步驟來更換故障的元件。

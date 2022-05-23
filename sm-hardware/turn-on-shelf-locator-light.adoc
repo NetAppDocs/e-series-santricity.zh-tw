@@ -1,0 +1,23 @@
+---
+permalink: sm-hardware/turn-on-shelf-locator-light.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED 
+summary: 若要尋找硬體頁面上顯示的機櫃實體位置、您可以開啟機櫃的定位燈。 
+---
+= 開啟機櫃定位燈
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要尋找硬體頁面上顯示的機櫃實體位置、您可以開啟機櫃的定位燈。
+
+.步驟
+. 選取*硬體*。
+. 選取控制器機櫃或磁碟機機櫃的下拉式清單、然後選取*開啟定位器指示燈*。
++
+機櫃的定位燈會亮起。
+
+. 當您實際找到機櫃時、請返回對話方塊、然後選取* Turn off*。
+

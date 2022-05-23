@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/maximum-number-of-luns.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, maximum, luns 
+summary: 儲存陣列的邏輯單元號碼（LUN）數量上限可用於每個主機。 
+---
+= LUN的最大數量
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+儲存陣列的邏輯單元號碼（LUN）數量上限可用於每個主機。
+
+最大數量取決於主機的作業系統。儲存陣列會追蹤使用的LUN數量。如果您嘗試將磁碟區指派給超過LUN上限的主機、主機將無法存取該磁碟區。

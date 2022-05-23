@@ -1,0 +1,43 @@
+---
+permalink: um-manage/create-storage-array-group.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, create, storage, array, group 
+summary: 您可以建立儲存群組、然後將儲存陣列新增至群組。儲存設備群組會定義哪些磁碟機提供組成磁碟區的儲存設備。 
+---
+= 設定儲存陣列群組
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立儲存群組、然後將儲存陣列新增至群組。
+
+設定群組是兩個步驟的程序。
+
+
+
+== 步驟1：建立群組
+
+您先建立群組。儲存設備群組會定義哪些磁碟機提供組成磁碟區的儲存設備。
+
+.步驟
+. 在「Manage（管理）」頁面中、選取功能表：Manage Groups（管理群組）[ Create storage Array group（建立儲存陣列群組）
+. 在*名稱*欄位中、輸入新群組的名稱。
+. 選取您要新增至新群組的儲存陣列。
+. 按一下「 * 建立 * 」。
+
+
+
+
+== 步驟2：新增儲存陣列至群組
+
+您可以將一個或多個儲存陣列新增至使用者建立的群組。
+
+.步驟
+. 從主檢視畫面選取*管理*、然後選取您要新增儲存陣列的群組。
+. 選取功能表：管理群組[新增儲存陣列至群組]。
+. 選取您要新增至群組的儲存陣列。
+. 按一下「*新增*」
+

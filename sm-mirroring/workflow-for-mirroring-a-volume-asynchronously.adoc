@@ -1,0 +1,43 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, mirroring, asynchronously, 
+summary: 您可以使用下列工作流程來設定非同步鏡射。 
+---
+= 非同步鏡射磁碟區的工作流程
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用下列工作流程來設定非同步鏡射。
+
+[NOTE]
+====
+EF600或EF300儲存系統無法使用此功能。
+
+====
+. 在Unified Manager中執行初始組態：
++
+.. 選取本機儲存陣列作為資料傳輸來源。
+.. 建立或選取現有的鏡射一致性群組、此群組是本機陣列上主要磁碟區的容器、也是遠端陣列上次要磁碟區的容器。主要和次要磁碟區稱為「鏡射配對」。 如果您是第一次建立鏡射一致性群組、請指定要執行手動或排程的同步。
+.. 從本機儲存陣列選取主要磁碟區、然後決定其保留容量。保留容量是指用於複製作業的實體配置容量。
+.. 選取遠端儲存陣列做為傳輸的目的地、次要磁碟區、然後決定其保留容量。
+.. 開始從主要磁碟區傳輸初始資料至次要磁碟區。視磁碟區大小而定、此初始傳輸可能需要數小時的時間。
+
+
+. 檢查初始同步的進度：
++
+.. 在Unified Manager中、啟動本機陣列的System Manager。
+.. 在System Manager中、檢視鏡射作業的狀態。鏡射完成後、鏡射配對的狀態為「最佳」。
+
+
+. *選用：*您可以在System Manager中重新排程或手動執行後續資料傳輸。只有新的和變更的區塊會從主要Volume傳輸到次要Volume。
++
+[NOTE]
+====
+由於非同步複寫是定期的、因此系統可以整合變更的區塊並節省網路頻寬。寫入處理量和寫入延遲的影響最小。
+
+====
+

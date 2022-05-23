@@ -1,0 +1,16 @@
+---
+permalink: sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, verify hardware 
+summary: 如果您在「驗證硬體」對話方塊中沒有看到所有的硬體元件、可能表示磁碟機櫃連接不正確、或儲存陣列中安裝了不相容的磁碟櫃。 
+---
+= 如果我看不到所有的硬體元件、該怎麼辦？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您在「驗證硬體」對話方塊中沒有看到所有的硬體元件、可能表示磁碟機櫃連接不正確、或儲存陣列中安裝了不相容的磁碟櫃。
+
+確認所有磁碟機櫃均已正確連接。如果您不確定哪些磁碟機櫃是否相容、請聯絡技術支援部門。

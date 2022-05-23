@@ -1,0 +1,30 @@
+---
+permalink: sm-storage/access-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access volumes 
+summary: 存取磁碟區是儲存陣列上的原廠設定磁碟區、可透過主機I/O連線與儲存陣列和主機進行通訊。存取磁碟區需要邏輯單元號碼（LUN）。 
+---
+= 存取磁碟區
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+存取磁碟區是儲存陣列上的原廠設定磁碟區、可透過主機I/O連線與儲存陣列和主機進行通訊。存取磁碟區需要邏輯單元號碼（LUN）。
+
+存取磁碟區可用於兩種情況：
+
+* *自動建立主機*：主機內容代理程式（HCA）公用程式會使用存取磁碟區、將主機資訊（名稱、連接埠、主機類型）推送至System Manager、以自動建立主機。
+* *頻內管理*：存取磁碟區用於頻內連線、以管理儲存陣列。只有在使用命令列介面（CLI）管理儲存陣列時、才能這麼做。
++
+[NOTE]
+====
+EF600或EF300儲存系統無法進行頻內管理。
+
+====
+
+
+第一次將磁碟區指派給主機時、就會自動建立存取磁碟區。例如、如果您將Volume（Volume）1和Volume（Volume）2指派給主機、則當您檢視該指派的結果時、會看到三個磁碟區（Volume（Volume）1、Volume（Volume）2和Access（存取））。
+
+如果您不是使用CLI自動建立主機或管理頻內儲存陣列、則不需要存取磁碟區、您可以刪除存取磁碟區來釋放LUN。此動作會移除磁碟區對LUN的指派、以及與主機的任何頻內管理連線。

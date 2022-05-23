@@ -1,0 +1,21 @@
+---
+permalink: sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, 
+summary: 當您選取鏡射配對的主要Volume時、會有一個清單顯示所有符合資格的Volume。 
+---
+= 同步鏡射：為什麼我看不到所有磁碟區？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您選取鏡射配對的主要Volume時、會有一個清單顯示所有符合資格的Volume。
+
+任何不符合使用資格的磁碟區都不會顯示在該清單中。磁碟區可能不符合下列任一原因的資格：
+
+* 此磁碟區為非標準磁碟區、例如快照磁碟區或精簡磁碟區。
+* Volume並非最佳。
+* Volume已參與鏡射關係。
+

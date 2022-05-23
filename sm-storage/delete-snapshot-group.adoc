@@ -1,0 +1,34 @@
+---
+permalink: sm-storage/delete-snapshot-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, group 
+summary: 當您想要永久刪除快照群組的資料並將其從系統中移除時、請刪除該快照群組。刪除快照群組會重新宣告保留容量、以便在集區或磁碟區群組中重複使用。 
+---
+= 刪除快照群組
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您想要永久刪除快照群組的資料並將其從系統中移除時、請刪除該快照群組。刪除快照群組會重新宣告保留容量、以便在集區或磁碟區群組中重複使用。
+
+刪除快照群組時、也會刪除群組中的所有快照映像。
+
+.步驟
+. 選取功能表：Storage[集區與Volume群組]。
+. 按一下*保留容量*索引標籤。
+. 選取您要刪除的快照群組、然後按一下功能表：Uncommon Tasks（非常見工作）[Delete snapshot group（刪除快照群組）]。
++
+此時將出現Confirm Delete Snapshot Group（確認刪除快照組）對話框。
+
+. 鍵入"Delete（刪除）"進行確認。
+
+
+System Manager會執行下列動作：
+
+* 刪除與快照群組相關聯的所有快照映像。
+* 停用與快照群組映像相關聯的任何快照磁碟區。
+* 刪除快照群組的保留容量。
+

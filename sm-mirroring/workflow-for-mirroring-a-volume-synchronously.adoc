@@ -1,0 +1,43 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, mirroring, synchronously, 
+summary: 您可以使用下列工作流程來設定同步鏡射。 
+---
+= 同步鏡射磁碟區的工作流程
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用下列工作流程來設定同步鏡射。
+
+[NOTE]
+====
+EF600或EF300儲存系統無法使用此功能。
+
+====
+. 在Unified Manager中執行初始組態：
++
+.. 選取本機儲存陣列作為資料傳輸來源。
+.. 從本機儲存陣列選取主要磁碟區。
+.. 選取遠端儲存陣列做為資料傳輸的目的地、然後選取次要Volume。
+.. 選取同步與重新同步優先順序。
+.. 開始從主要磁碟區傳輸初始資料至次要磁碟區。視磁碟區大小而定、此初始傳輸可能需要數小時的時間。
+
+
+. 檢查初始同步的進度：
++
+.. 在Unified Manager中、啟動本機陣列的System Manager。
+.. 在System Manager中、檢視鏡射作業的狀態。鏡射完成後、鏡射配對的狀態為「最佳」。 這兩個陣列嘗試透過正常作業保持同步。只有新的和變更的區塊會從主要Volume傳輸到次要Volume。
+
+
+. *選用：*您可以在System Manager中變更同步處理設定。
++
+[NOTE]
+====
+由於同步複寫是持續的、因此這兩個站台之間的複寫連結必須提供足夠的頻寬功能。
+
+====
+

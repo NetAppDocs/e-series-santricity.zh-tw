@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, performance, statistics, 
+summary: 集區和磁碟區群組的統計資料是透過彙總所有磁碟區（包括保留容量磁碟區）來計算。 
+---
+= 個別磁碟區的效能統計資料與總計有何關聯？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+集區和磁碟區群組的統計資料是透過彙總所有磁碟區（包括保留容量磁碟區）來計算。
+
+保留容量是由儲存系統內部使用、以支援精簡磁碟區、快照和非同步鏡射、I/O主機無法看到。因此、集區、控制器和儲存陣列的統計資料可能不會加總成可見磁碟區的總和。
+
+不過、對於應用程式和工作負載統計資料、只會彙總可見的磁碟區。

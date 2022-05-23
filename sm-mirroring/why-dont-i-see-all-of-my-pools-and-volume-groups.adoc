@@ -1,0 +1,21 @@
+---
+permalink: sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, secondary, volume, 
+summary: 當您為非同步鏡射配對建立次要Volume時、系統會顯示該非同步鏡射配對的所有合格資源池和Volume群組清單。任何不符合使用資格的資源池或磁碟區群組、都不會顯示在該清單中。 
+---
+= 為什麼我看不到所有的集區和Volume群組？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您為非同步鏡射配對建立次要Volume時、系統會顯示該非同步鏡射配對的所有合格資源池和Volume群組清單。任何不符合使用資格的資源池或磁碟區群組、都不會顯示在該清單中。
+
+集區或Volume群組可能不符合下列任何理由的資格。
+
+* 集區或Volume群組的安全功能不相符。
+* 集區或磁碟區群組處於非最佳狀態。
+* 集區或Volume群組的容量太小。
+

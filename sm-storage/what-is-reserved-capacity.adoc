@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity 
+summary: 保留容量是指實體配置的容量、用於儲存複製服務物件的資料、例如快照映像、一致性群組成員磁碟區和鏡射配對磁碟區。 
+---
+= 什麼是保留容量？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+保留容量是指實體配置的容量、用於儲存複製服務物件的資料、例如快照映像、一致性群組成員磁碟區和鏡射配對磁碟區。
+
+與複製服務作業相關聯的保留容量Volume位於集區或Volume群組中。您可以從集區或Volume群組建立保留容量。

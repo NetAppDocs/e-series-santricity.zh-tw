@@ -1,0 +1,103 @@
+---
+permalink: sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iscsi 
+summary: 在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。下表列出可用來設定及管理這些iSCSI工作階段的System Manager功能。 
+---
+= 我還需要做什麼才能設定或診斷iSCSI？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。下表列出可用來設定及管理這些iSCSI工作階段的System Manager功能。
+
+[NOTE]
+====
+iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。
+
+====
+
+
+== 設定iSCSI
+
+[cols="1a,1a"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+管理iSCSI設定
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSCSI設定*以檢視所有管理功能。
+
+
+
+
+ a| 
+設定iSCSI連接埠
+ a| 
+. 選取*硬體*。
+. 選擇*顯示櫃背面*。
+. 選取控制器。
+. 選取*設定iSCSI連接埠*。
+
+
+
+
+ a| 
+設定主機CHAP密碼
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSCSI設定*、然後選取*組態驗證*。
+
+
+或
+
+. 選取功能表：Storage[hosts]。
+. 選取主機成員。
+. 按一下功能表：檢視/編輯設定[主機連接埠]索引標籤。
+
+
+|===
+
+
+== 診斷iSCSI
+
+[cols="1a,1a"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+檢視或結束iSCSI工作階段
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSCSI設定*、然後選取*檢視/結束iSCSI工作階段*。
+
+
+或
+
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選取*檢視/結束iSCSI工作階段*。
+
+
+
+
+ a| 
+檢視iSCSI統計資料
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSCSI設定*、然後選取*檢視iSCSI統計資料套件*。
+
+
+或
+
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選取*檢視iSCSI統計資料套件*。
+
+
+|===

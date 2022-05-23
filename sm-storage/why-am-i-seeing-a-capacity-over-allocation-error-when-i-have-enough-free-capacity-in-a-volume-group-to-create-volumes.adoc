@@ -1,0 +1,27 @@
+---
+permalink: sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, capacity, over-allocation, error, 
+summary: 選取的Volume群組可能有一個或多個可用容量區域。可用容量區域是指在建立磁碟區期間、刪除磁碟區或未使用所有可用容量所產生的可用容量。 
+---
+= 當磁碟區群組中有足夠的可用容量來建立磁碟區時、為什麼我看到容量過度配置錯誤？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+選取的Volume群組可能有一個或多個可用容量區域。可用容量區域是指在建立磁碟區期間、刪除磁碟區或未使用所有可用容量所產生的可用容量。
+
+當您在具有一或多個可用容量區域的Volume群組中建立Volume時、該Volume的容量僅限於該Volume群組中最大的可用容量區域。例如、如果某個Volume群組的可用容量總計為15 GiB、而最大的可用容量區域則為10 GiB、則您可以建立的最大磁碟區為10 GiB。
+
+如果Volume群組有可用容量區域、則Volume群組圖表會包含一個連結、指出現有可用容量區域的數量。選取連結以顯示快顯視窗、指出每個區域的容量。
+
+透過整合可用容量、您可以從Volume群組中的可用容量上限建立額外的Volume。您可以使用下列其中一種方法、將現有的可用容量整合到選取的Volume群組：
+
+* 當至少偵測到一個Volume群組的一個可用容量區域時、「通知」區域的首頁會顯示「整合可用容量」建議。按一下「*整合可用容量*」連結以啟動對話方塊。
+* 您也可以選取功能表：資源池和Volume群組[不尋常的工作>整合Volume群組可用容量]以啟動對話方塊。
+
+
+如果您要使用特定的可用容量區域、而非最大的可用容量區域、請使用命令列介面（CLI）。

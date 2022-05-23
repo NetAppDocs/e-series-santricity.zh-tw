@@ -1,0 +1,23 @@
+---
+permalink: sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pool config 
+summary: 是否接受建議的資源池組態取決於幾個因素。 
+---
+= 如何知道我是否應該接受建議的集區組態？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+是否接受建議的資源池組態取決於幾個因素。
+
+回答下列問題、判斷最符合您需求的儲存設備類型：
+
+* 您是否偏好多個容量較小的資源池、而非最大的資源池？
+* 您偏好RAID Volume群組而不偏好集區嗎？
+* 您偏好手動配置磁碟機、而不是建議您使用組態嗎？
+
+
+如果您對上述任何問題回答「是」、請考慮拒絕建議的資源池組態。

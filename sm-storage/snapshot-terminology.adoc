@@ -1,0 +1,96 @@
+---
+permalink: sm-storage/snapshot-terminology.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, terms 
+summary: 瞭解快照術語如何適用於您的儲存陣列。 
+---
+= Snapshot術語
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+瞭解快照術語如何適用於您的儲存陣列。
+
+[cols="25h,~"]
+|===
+| 期限 | 說明 
+
+
+ a| 
+Snapshot功能
+ a| 
+Snapshot功能可用來建立及管理磁碟區的映像。
+
+
+
+ a| 
+Snapshot映像
+ a| 
+Snapshot映像是在特定時間點擷取的Volume資料邏輯複本。如同還原點、Snapshot映像可讓您回復至已知良好的資料集。雖然主機可以存取快照映像、但無法直接讀取或寫入。
+
+
+
+ a| 
+基礎Volume
+ a| 
+基礎Volume是建立快照映像的來源。它可以是厚磁碟區或精簡磁碟區、通常會指派給主機。基礎磁碟區可位於磁碟區群組或磁碟集區中。
+
+
+
+ a| 
+Snapshot Volume
+ a| 
+Snapshot Volume可讓主機存取快照映像中的資料。快照磁碟區包含自己的保留容量、可儲存對基礎磁碟區所做的任何修改、而不會影響原始的快照映像。
+
+
+
+ a| 
+Snapshot群組
+ a| 
+Snapshot群組是來自單一基礎Volume的快照映像集合。
+
+
+
+ a| 
+保留容量Volume
+ a| 
+保留容量磁碟區會追蹤基礎磁碟區的哪些資料區塊會被覆寫、以及這些區塊的保留內容。
+
+
+
+ a| 
+Snapshot排程
+ a| 
+快照排程是建立自動快照映像的時間表。透過排程、您可以控制影像建立的頻率。
+
+
+
+ a| 
+Snapshot一致性群組
+ a| 
+Snapshot一致性群組是建立快照映像時、將其視為單一實體的磁碟區集合。每個磁碟區都有自己的快照映像、但所有映像都會在同一時間點建立。
+
+
+
+ a| 
+Snapshot一致性群組成員磁碟區
+ a| 
+屬於快照一致性群組的每個磁碟區都稱為成員磁碟區。當您將磁碟區新增至快照一致性群組時、System Manager會自動建立與此成員磁碟區相對應的新快照群組。
+
+
+
+ a| 
+復原
+ a| 
+復原是將基礎磁碟區中的資料傳回先前時間點的程序。
+
+
+
+ a| 
+保留容量
+ a| 
+保留容量是指用於任何複製服務作業和儲存物件的實體配置容量。主機無法直接讀取。
+
+|===

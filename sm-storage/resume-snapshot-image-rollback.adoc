@@ -1,0 +1,30 @@
+---
+permalink: sm-storage/resume-snapshot-image-rollback.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, resume, snapshot, image, rollback 
+summary: 如果在快照映像復原作業期間發生錯誤、則作業會自動暫停。您可以恢復處於暫停狀態的復原作業。 
+---
+= 恢復Snapshot映像復原
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果在快照映像復原作業期間發生錯誤、則作業會自動暫停。您可以恢復處於暫停狀態的復原作業。
+
+.步驟
+. 選取功能表：Storage[快照]。
+. 單擊* Snapshot imags*（快照映像*）選項卡。
+. 反白顯示暫停的復原、然後選取功能表：「Rollback（回溯）」[Resumed]（恢復）。
++
+作業隨即恢復。
+
+
+
+System Manager會執行下列動作：
+
+* 如果復原作業恢復成功、您可以在「作業進行中」視窗中檢視復原作業的進度。
+* 如果復原作業不成功、則作業會再次暫停。您可以遵循Recovery Guru程序來修正問題、或聯絡技術支援部門。
+

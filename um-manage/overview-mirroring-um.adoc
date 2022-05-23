@@ -1,0 +1,45 @@
+---
+permalink: um-manage/overview-mirroring-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, mirroring 
+summary: 使用鏡射功能、可在本機儲存陣列與遠端儲存陣列之間、非同步或同步複寫資料。 
+---
+= 鏡射總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用鏡射功能、可在本機儲存陣列與遠端儲存陣列之間、非同步或同步複寫資料。
+
+[NOTE]
+====
+EF600或EF300儲存系統無法使用此功能。
+
+====
+
+
+== 什麼是鏡射？
+
+支援非同步和同步的兩種鏡射類型。SANtricity非同步鏡射會根據需求或排程複製資料磁碟區、如此可將資料毀損或遺失所造成的停機時間減至最少或避免。同步鏡射可即時複寫資料磁碟區、確保持續可用。
+
+深入瞭解：
+
+* link:mirroring-overview.html["鏡射的運作方式"]
+* link:mirroring-terminology.html["鏡射術語"]
+
+
+
+
+== 如何設定鏡射？
+
+您可以在Unified Manager中設定非同步或同步鏡射、然後使用System Manager來管理同步作業。
+
+深入瞭解：
+
+* link:mirroring-configuration-workflow.html["鏡射組態工作流程"]
+* link:requirements-for-using-mirroring.html["使用鏡射的需求"]
+* link:create-asynchronous-mirrored-pair-um.html["建立非同步鏡射配對"]
+* link:create-synchronous-mirrored-pair-um.html["建立同步鏡射配對"]
+

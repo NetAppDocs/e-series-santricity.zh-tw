@@ -1,0 +1,40 @@
+---
+permalink: um-certificates/delete-trusted-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, delete, trusted, certificates 
+summary: 您可以刪除一或多個不再需要的憑證、例如過期的憑證。 
+---
+= 刪除信任的憑證
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以刪除一或多個不再需要的憑證、例如過期的憑證。
+
+請先匯入新的憑證、再刪除舊的憑證。
+
+[CAUTION]
+====
+請注意、刪除根或中繼憑證可能會影響多個儲存陣列、因為這些陣列可以共用相同的憑證檔案。
+
+====
+.步驟
+. 選擇*憑證管理*。
+. 選取*信任的*索引標籤。
+. 在表格中選取一或多個憑證、然後按一下*刪除*。
++
+[NOTE]
+====
+*刪除*功能不適用於預先安裝的憑證。
+
+====
++
+「確認刪除信任的憑證」對話方塊隨即開啟。
+
+. 確認刪除、然後按一下*刪除*。
++
+該憑證會從表格中移除。
+
+

@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/overview-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Alerts, 
+summary: 您可以設定System Manager以透過電子郵件、SNMP設陷和系統記錄訊息傳送儲存陣列警示。 
+---
+= 警示總覽
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以設定System Manager以透過電子郵件、SNMP設陷和系統記錄訊息傳送儲存陣列警示。
+
+
+
+== 什麼是警示？
+
+_alerts_通知系統管理員儲存陣列上發生的重要事件。事件可能包括電池故障、從最佳狀態移至離線狀態的元件、或是控制器中的備援錯誤等問題。所有重大事件都會被視為「警示」、以及一些警告和資訊事件。
+
+深入瞭解：
+
+* link:how-alerts-work.html["警示的運作方式"]
+* link:alerts-terminology.html["警示術語"]
+
+
+
+
+== 如何設定警示？
+
+您可以將警示設定為以訊息形式傳送至一或多個電子郵件地址、作為SNMP設陷傳送至SNMP伺服器、或作為訊息傳送至syslog伺服器。警示組態可從功能表：設定[警示]取得。
+
+深入瞭解：
+
+* link:configure-mail-server-and-recipients-for-alerts.html["設定郵件伺服器和收件者的警示"]
+* link:configure-syslog-server-for-alerts.html["設定系統記錄伺服器以發出警示"]
+* link:configure-snmp-alerts.html["設定SNMP警示"]
+
+
+
+
+== 相關資訊
+
+深入瞭解警示相關概念：
+
+* link:../sm-support/overview-event-log.html["事件記錄總覽"]
+* link:why-are-timestamps-inconsistent-between-the-array-and-alerts.html["時間戳記不一致"]
+

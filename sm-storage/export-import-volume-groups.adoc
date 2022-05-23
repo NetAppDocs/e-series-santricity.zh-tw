@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/export-import-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, export, import, volume group 
+summary: Volume群組移轉可讓您匯出Volume群組、以便將Volume群組匯入不同的儲存陣列。 
+---
+= 匯出/匯入Volume群組
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Volume群組移轉可讓您匯出Volume群組、以便將Volume群組匯入不同的儲存陣列。
+
+不支援「匯出/匯入」功能。SANtricity您必須使用命令列介面（CLI）、將磁碟區群組匯出/匯入至不同的儲存陣列。

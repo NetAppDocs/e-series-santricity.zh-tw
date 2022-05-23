@@ -1,0 +1,34 @@
+---
+permalink: sm-hardware/allow-remote-login.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, login, 
+summary: 遠端登入可讓區域網路外部的使用者啟動SSH工作階段、並變更控制器上的設定。 
+---
+= 允許遠端登入
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+遠端登入可讓區域網路外部的使用者啟動SSH工作階段、並變更控制器上的設定。
+
+[CAUTION]
+====
+*安全風險*：基於安全考量、請啟用遠端登入、僅供技術支援人員使用。
+
+====
+.步驟
+. 選取*硬體*。
+. 如果圖形顯示磁碟機、請按一下*顯示磁碟櫃背面*。
++
+圖形會變更、以顯示控制器而非磁碟機。
+
+. 按一下您要啟用遠端登入的控制器。
++
+此時會出現控制器的內容功能表。
+
+. 選擇*變更遠端登入*、然後確認您要執行此作業。
+
+
+技術支援完成疑難排解後、請依照相同程序停用遠端登入。停用遠端登入會終止任何目前的SSH工作階段、並拒絕任何新的登入要求。

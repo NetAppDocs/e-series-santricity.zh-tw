@@ -1,0 +1,34 @@
+---
+permalink: sm-support/collect-i-o-path-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics 
+summary: 您可以儲存I/O路徑統計資料檔案、並將其傳送至技術支援部門進行分析。 
+---
+= 收集I/O路徑統計資料
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以儲存I/O路徑統計資料檔案、並將其傳送至技術支援部門進行分析。
+
+技術支援人員會使用I/O路徑統計資料來協助診斷效能問題。應用程式效能問題可能是由記憶體使用率、CPU使用率、網路延遲、I/O延遲或其他問題所造成。I/O路徑統計資料會在支援資料收集期間自動收集、您也可以手動收集。此外、AutoSupport 如果您開啟了「支援資料」功能、系統會自動收集I/O路徑統計資料、並將其傳送至技術支援部門。
+
+在您確認要收集I/O路徑統計資料之後、會重設I/O路徑統計資料的計數器。即使您隨後取消作業、計數器仍會重設。控制器重設（重新開機）時、也會重設計數器。
+
+[NOTE]
+====
+只有在技術支援人員的指示下、才執行此作業。
+
+====
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選擇*收集I/O路徑統計資料*。
+. 輸入「collect」（收集）、然後按一下「* collect*（收集*）」、確認您要執行此作業。
++
+檔案會以檔案名稱「IO-path-edatures.7z」儲存在瀏覽器的「下載」資料夾中。
+
+. 請依照技術支援人員提供的指示、將檔案傳送給他們。
+

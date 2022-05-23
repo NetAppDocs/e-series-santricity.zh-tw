@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, host, creation, volume, assignment 
+summary: 下圖說明如何設定主機存取。 
+---
+= 用於建立主機和指派磁碟區的工作流程
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下圖說明如何設定主機存取。
+
+image::../media/sam1130-flw-hosts-create-host.gif[Sam1130 FLW主機可建立主機]

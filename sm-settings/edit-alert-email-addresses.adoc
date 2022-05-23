@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/edit-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, email, addresses, alerts, 
+summary: 您可以變更接收電子郵件警示的收件者電子郵件地址。 
+---
+= 編輯警示的電子郵件地址
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更接收電子郵件警示的收件者電子郵件地址。
+
+您要編輯的電子郵件地址必須在「警示」頁面的「電子郵件」標籤中定義。
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取*電子郵件*索引標籤。
+. 從*電子郵件地址*表格中、選取您要變更的地址、然後按一下最右側的*編輯*（鉛筆）圖示。
++
+該列會變成可編輯的欄位。
+
+. 輸入新地址、然後按一下*「Save*（勾號）」圖示。
++
+[NOTE]
+====
+如果您要取消變更、請選取*取消*（X）圖示。
+
+====
+
+
+「警示」頁面的「電子郵件」索引標籤會顯示更新的電子郵件地址。

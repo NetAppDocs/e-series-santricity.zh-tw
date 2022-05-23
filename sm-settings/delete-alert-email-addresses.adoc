@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/delete-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, mail, server, email, addresses, alerts, 
+summary: 您可以移除先前定義的郵件伺服器、使警示不再傳送至電子郵件地址、或是移除個別的電子郵件地址。 
+---
+= 刪除郵件伺服器或電子郵件地址以取得警示
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以移除先前定義的郵件伺服器、使警示不再傳送至電子郵件地址、或是移除個別的電子郵件地址。
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取*電子郵件*索引標籤。
+. 從表格中、執行下列其中一項：
++
+** 若要移除郵件伺服器、使警示不再傳送至電子郵件地址、請選取郵件伺服器的列。
+** 若要移除電子郵件地址、使警示不再傳送至此地址、請選取您要刪除之電子郵件地址的列。表右上角的*刪除*按鈕可供選擇。
+
+
+. 按一下*刪除*、然後確認作業。
+

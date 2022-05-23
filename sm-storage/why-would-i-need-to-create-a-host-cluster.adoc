@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/why-would-i-need-to-create-a-host-cluster.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, host, cluster 
+summary: 如果您想要讓兩個以上的主機共用同一組磁碟區的存取權、則需要建立主機叢集。一般而言、個別主機上安裝了叢集軟體、以協調磁碟區存取。 
+---
+= 為什麼我需要建立主機叢集？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您想要讓兩個以上的主機共用同一組磁碟區的存取權、則需要建立主機叢集。一般而言、個別主機上安裝了叢集軟體、以協調磁碟區存取。

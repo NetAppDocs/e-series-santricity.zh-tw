@@ -1,0 +1,16 @@
+---
+permalink: sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, 
+summary: 當您識別應用程式時、System Manager會根據應用程式類型、自動建議最佳化儲存設備的Volume組態。 
+---
+= 識別應用程式如何協助我管理儲存陣列？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您識別應用程式時、System Manager會根據應用程式類型、自動建議最佳化儲存設備的Volume組態。
+
+依應用程式最佳化磁碟區可讓資料儲存作業更有效率。磁碟區組態中包含I/O類型、區段大小、控制器擁有權、讀寫快取等特性。此外、您可以依應用程式和工作負載檢視效能資料、以評估應用程式及其相關工作負載的延遲、IOPS和MIB/s。

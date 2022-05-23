@@ -1,0 +1,28 @@
+---
+permalink: sm-storage/snapshot-rollback.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, rollback 
+summary: 復原作業會將基礎磁碟區返回先前的狀態、由選取的快照決定。 
+---
+= Snapshot復原
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+復原作業會將基礎磁碟區返回先前的狀態、由選取的快照決定。
+
+若要進行復原、您可以從下列任一來源選取快照映像：
+
+* * Snapshot映像復原*、可完整還原基礎磁碟區。
+* * Snapshot一致性群組復原*、可用於復原一或多個磁碟區。
+
+
+在復原期間、Snapshot功能會保留群組中的所有快照映像。如果I/O作業需要、也可讓主機在此程序期間存取基礎磁碟區。
+
+啟動復原時、背景程序會掃過基礎磁碟區的邏輯區塊位址（LDBA）、然後在復原快照映像中尋找寫入時複製資料以進行還原。由於基礎磁碟區可由主機存取以供讀取和寫入、而且所有先前寫入的資料都可立即使用、因此保留容量磁碟區必須夠大、足以在復原處理期間容納所有變更。資料傳輸會繼續做為背景作業、直到復原完成為止。
+
+image::../media/sam1130-dwg-snapshots-rollback-overview.gif[Sam1130 dwgs快照復原總覽]
+
+^1^基礎磁碟區；^2^群組中的Snapshot物件；^3^ Snapshot群組保留容量

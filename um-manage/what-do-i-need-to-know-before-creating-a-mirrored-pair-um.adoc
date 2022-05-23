@@ -1,0 +1,30 @@
+---
+permalink: um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, creating, mirrored, pair 
+summary: 在建立鏡射配對之前、請遵循下列準則。 
+---
+= 建立鏡射配對之前、我需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在建立鏡射配對之前、請遵循下列準則。
+
+* 您必須有兩個儲存陣列。
+* 每個儲存陣列都必須有兩個控制器。
+* 這兩個儲存陣列必須在Unified Manager中探索。
+* 主陣列和次陣列中的每個控制器都必須設定乙太網路管理連接埠、而且必須連線至您的網路。
+* 儲存陣列的韌體版本最低為7.84。（每個作業系統都能執行不同的版本。）
+* 您必須知道本機和遠端儲存陣列的密碼。
+* 您必須在遠端儲存陣列上擁有足夠的可用容量、才能建立等於或大於您要鏡射之主要磁碟區的次要磁碟區。
+* 具有光纖通道（FC）或iSCSI主機連接埠的控制器支援非同步鏡射、而同步鏡射僅支援具有FC主機連接埠的控制器。
+
+
+[NOTE]
+====
+EF600或EF300儲存系統無法使用此功能。
+
+====

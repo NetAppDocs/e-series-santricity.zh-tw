@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-the-disabled-state.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disabled, state 
+summary: 處於「已停用」狀態的快照磁碟區目前未指派給快照映像。若要啟用快照磁碟區、您必須使用重新建立作業、將新的快照映像指派給停用的快照磁碟區。 
+---
+= 「停用」狀態為何？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+處於「已停用」狀態的快照磁碟區目前未指派給快照映像。若要啟用快照磁碟區、您必須使用重新建立作業、將新的快照映像指派給停用的快照磁碟區。
+
+快照磁碟區特性是由指派給它的快照映像所定義。在處於「已停用」狀態的快照磁碟區上、讀寫活動會暫停。

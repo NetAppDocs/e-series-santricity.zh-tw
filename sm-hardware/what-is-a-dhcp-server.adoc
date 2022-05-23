@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/what-is-a-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, dhcp, server, configuration, protocol, 
+summary: 動態主機組態傳輸協定（DHCP）是一種傳輸協定、可自動指派網際網路傳輸協定（IP）位址。 
+---
+= 什麼是DHCP伺服器？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+動態主機組態傳輸協定（DHCP）是一種傳輸協定、可自動指派網際網路傳輸協定（IP）位址。
+
+每個連線至TCP/IP網路的裝置都必須指派唯一的IP位址。這些設備包括儲存陣列中的控制器。
+
+如果沒有DHCP、網路管理員會手動輸入這些IP位址。使用DHCP時、當用戶端需要啟動TCP/IP作業時、用戶端會廣播位址資訊要求。DHCP伺服器會接收要求、指派新位址一段指定時間（稱為租用期間）、然後將位址傳送給用戶端。有了DHCP、每次裝置連線到網路時、都可以有不同的IP位址。在某些系統中、即使裝置仍在連線中、裝置的IP位址仍可能變更。

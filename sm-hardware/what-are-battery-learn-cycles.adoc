@@ -1,0 +1,39 @@
+---
+permalink: sm-hardware/what-are-battery-learn-cycles.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, battery, learn, cycle, 
+summary: 學習週期是自動校準智慧型電池電量表的週期。 
+---
+= 什麼是電池學習週期？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+學習週期是自動校準智慧型電池電量表的週期。
+
+學習週期包含下列階段：
+
+* 控制的電池電力耗盡
+* 休息期間
+* 充電
+
+
+電池會排空至預先決定的臨界值。在此階段、電池電量表會經過校準。
+
+學習週期需要下列參數：
+
+* 充飽電的電池
+* 無過熱的電池
+
+
+雙工控制器系統的學習週期會同時發生。對於使用多個電池或一組電池供電的控制器、記憶週期會依序進行。
+
+學習週期會排定在一週中的同一天、以固定的時間間隔自動開始。週期之間的時間間隔以週為單位。
+
+[NOTE]
+====
+學習週期可能需要數小時才能完成。
+
+====

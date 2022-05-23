@@ -1,0 +1,39 @@
+---
+permalink: sm-support/enable-or-disable-autosupport-features.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, disable, autosupport, 
+summary: 您可以在AutoSupport 初始設定期間啟用「支援功能」和個別AutoSupport 的「支援功能」、也可以稍後啟用或停用。 
+---
+= 啟用或停用AutoSupport 功能
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在AutoSupport 初始設定期間啟用「支援功能」和個別AutoSupport 的「支援功能」、也可以稍後啟用或停用。
+
+如果您要啟用AutoSupport 「僅供支援的更新」或「遠端診斷」、AutoSupport 則必須將「提供支援的方法」設為HTTPS。
+
+您可以AutoSupport 隨時停用此功能、但強烈建議您保持啟用狀態。如果AutoSupport 儲存陣列發生問題、啟用「支援功能」可大幅加快問題的判斷與解決速度。
+
+此功能由三項個別功能組成、AutoSupport 您可以分別啟用。
+
+* *基本AutoSupport 版S還原*：可讓儲存陣列自動收集資料、並將資料傳送給技術支援部門。
+* * AutoSupport 《支援需求*》-可讓技術支援部門在AutoSupport 需要時要求重新傳輸先前的故障排除資訊。所有傳輸都是從儲存陣列啟動、而非AutoSupport 從伺服器啟動。儲存陣列會定期與AutoSupport VMware伺服器一起檢查、以判斷是否有任何擱置中的重新傳輸要求、並據此做出回應。
+* *遠端診斷*-可讓技術支援部門在AutoSupport 疑難排解問題時、要求提供最新的更新版的支援。所有傳輸都是從儲存陣列啟動、而非AutoSupport 從伺服器啟動。儲存陣列會定期與AutoSupport VMware伺服器一起檢查、以判斷是否有任何擱置中的新要求、並據此做出回應。
+
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 選取*啟用/停用AutoSupport 功能*。
+. 選取AutoSupport 您要啟用的功能旁的核取方塊。
++
+功能會依對話方塊中項目的縮排所示而彼此相依。例如、AutoSupport 您必須先啟用「更新」功能、才能啟用「遠端診斷」。
+
+. 按一下「 * 儲存 * 」。
++
+如果您停用AutoSupport 不支援功能、首頁會顯示通知。您可以按一下*忽略*來關閉通知。
+
+

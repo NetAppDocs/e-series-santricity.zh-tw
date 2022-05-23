@@ -1,0 +1,75 @@
+---
+permalink: um-certificates/access-management-terminology-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, terminology 
+summary: 瞭解存取管理條款如何套用SANtricity 至《統一化管理程式》。 
+---
+= 存取管理術語
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+瞭解存取管理條款如何適用於Unified Manager。
+
+[cols="25h,~"]
+|===
+| 期限 | 說明 
+
+
+ a| 
+Active Directory
+ a| 
+Active Directory（AD）是一項Microsoft目錄服務、用於Windows網域網路的LDAP。
+
+
+
+ a| 
+連結
+ a| 
+連結作業用於驗證目錄伺服器的用戶端。綁定通常需要帳戶和密碼認證、但有些伺服器允許匿名連結作業。
+
+
+
+ a| 
+CA
+ a| 
+憑證授權單位（CA）是信任的實體、可發行稱為數位憑證的電子文件、以確保網際網路安全。這些憑證可識別網站擁有者、以便在用戶端與伺服器之間進行安全連線。
+
+
+
+ a| 
+憑證
+ a| 
+憑證可識別站台的擁有者、以確保安全性、防止攻擊者模擬站台。憑證包含網站擁有者的相關資訊、以及認證（簽署）此資訊的信任實體身分。
+
+
+
+ a| 
+LDAP
+ a| 
+輕量型目錄存取傳輸協定（LDAP）是用於存取及維護分散式目錄資訊服務的應用程式傳輸協定。此傳輸協定可讓許多不同的應用程式和服務連線至LDAP伺服器、以驗證使用者。
+
+
+
+ a| 
+RBAC
+ a| 
+角色型存取控制（RBAC）是一種根據個別使用者角色來管理電腦或網路資源存取的方法。Unified Manager包含預先定義的角色。
+
+
+
+ a| 
+SSO
+ a| 
+單一登入（SSO）是一種驗證服務、可讓一組登入認證資料存取多個應用程式。
+
+
+
+ a| 
+Web服務Proxy
+ a| 
+Web服務Proxy可透過標準HTTPS機制提供存取、讓系統管理員能夠設定儲存陣列的管理服務。Proxy可安裝在Windows或Linux主機上。Unified Manager介面可與Web Services Proxy搭配使用。
+
+|===

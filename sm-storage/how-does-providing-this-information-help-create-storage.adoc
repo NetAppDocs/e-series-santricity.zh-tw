@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/how-does-providing-this-information-help-create-storage.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workload 
+summary: 工作負載資訊是用來最佳化所選工作負載的磁碟區特性、例如I/O類型、區段大小、讀取/寫入快取。這些最佳化特性決定了工作負載與儲存陣列元件的互動方式。 
+---
+= 提供此資訊如何協助建立儲存設備？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+工作負載資訊是用來最佳化所選工作負載的磁碟區特性、例如I/O類型、區段大小、讀取/寫入快取。這些最佳化特性決定了工作負載與儲存陣列元件的互動方式。
+
+System Manager會根據您提供的工作負載資訊、建立適當的磁碟區、並將其放在系統上目前存在的可用集區或磁碟區群組中。系統會根據您所選工作負載的目前最佳實務做法、建立磁碟區並最佳化其特性。
+
+在您完成為特定工作負載建立磁碟區之前、您可以使用「新增/編輯磁碟區」對話方塊來檢閱建議的磁碟區組態、以及編輯、新增或刪除系統建議的磁碟區和特性。
+
+如需最佳實務做法資訊、請參閱應用程式專屬的文件。

@@ -1,0 +1,43 @@
+---
+permalink: um-certificates/access-management-with-local-user-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, local, user, roles 
+summary: 系統管理員可以使用SANtricity 在NetApp Unified Manager中強制執行的RBAC（角色型存取控制）功能。這些功能稱為本機使用者角色。 
+---
+= 具有本機使用者角色的存取管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+系統管理員可以使用Unified Manager中強制執行的RBAC（角色型存取控制）功能。這些功能稱為「本機使用者角色」。
+
+
+
+== 組態工作流程
+
+本機使用者角色是在系統中預先設定的。若要使用本機使用者角色進行驗證、系統管理員可以執行下列動作：
+
+. 系統管理員使用包含安全管理員權限的使用者設定檔登入Unified Manager。
++
+[NOTE]
+====
+「admin」使用者可完整存取系統中的所有功能。
+
+====
+. 系統管理員會檢閱預先定義且無法修改的使用者設定檔。
+. 系統管理員也可以為每個使用者設定檔指派新密碼。
+. 使用者使用指派的認證登入系統。
+
+
+
+
+== 管理
+
+只使用本機使用者角色進行驗證時、系統管理員可以執行下列管理工作：
+
+* 變更密碼。
+* 設定密碼的最小長度。
+* 允許使用者不使用密碼登入。
+

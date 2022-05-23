@@ -1,0 +1,43 @@
+---
+permalink: sm-settings/configure-syslog-server-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, syslog, server, alerts, 
+summary: 若要設定syslog警示、您必須輸入syslog伺服器位址和udp連接埠。最多允許五部syslog伺服器。 
+---
+= 設定系統記錄伺服器以發出警示
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要設定syslog警示、您必須輸入syslog伺服器位址和udp連接埠。最多允許五部syslog伺服器。
+
+.開始之前
+* 系統記錄伺服器位址必須可用。此位址可以是完整網域名稱、IPv4位址或IPv6位址。
+* 系統記錄伺服器的udp連接埠號碼必須可用。此連接埠通常為514。
+
+
+此工作說明如何輸入syslog伺服器的位址和連接埠、然後測試您輸入的位址。
+
+.步驟
+. 選取功能表：設定[警示]。
+. 選取「*系統記錄*」索引標籤。
++
+如果尚未定義syslog伺服器、「警示」頁面會顯示「新增Syslog伺服器」。
+
+. 按一下「*新增Syslog伺服器*」。
++
+此時會開啟「新增Syslog伺服器」對話方塊。
+
+. 輸入一或多個syslog伺服器的資訊（最多五個）、然後按一下*「Add*（新增*）」。
++
+** *伺服器位址*-輸入完整網域名稱、IPv4位址或IPv6位址。
+** * udp Port*-通常syslog的udp連接埠為514。下表顯示已設定的syslog伺服器。
+
+
+. 若要傳送測試警示至伺服器位址、請選取*測試所有Syslog伺服器*。
+
+
+每當發生警示事件時、事件監控器都會傳送警示至syslog伺服器。

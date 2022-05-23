@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume groups 
+summary: 您無法將磁碟區移至的任何集區或磁碟區群組不會顯示在清單中。 
+---
+= 為什麼我看不到所有的集區和/或磁碟區群組？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您無法將磁碟區移至的任何集區或磁碟區群組不會顯示在清單中。
+
+集區或Volume群組不符合下列任何理由的資格：
+
+* 集區或Volume群組集區的資料保證（DA）功能不相符。
+* 集區或磁碟區群組處於非最佳狀態。
+* 集區或Volume群組的容量太小。
+

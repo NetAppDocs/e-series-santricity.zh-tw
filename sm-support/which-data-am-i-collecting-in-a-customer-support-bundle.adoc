@@ -1,0 +1,16 @@
+---
+permalink: sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, data, collection, autosupport, ASUP 
+summary: 「支援資料收集」功能和手冊可讓您在客戶支援套裝組合中收集資料、以便技術支援人員進行遠端疑難排解和問題分析。AutoSupport 
+---
+= 我要收集哪些資料？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「支援資料收集」功能和手冊可讓您在客戶支援套裝組合中收集資料、以便技術支援人員進行遠端疑難排解和問題分析。AutoSupport
+
+客戶支援服務組合會將儲存陣列的所有類型資訊收集到單一壓縮檔案中。收集的資訊包括實體組態、邏輯組態、版本資訊、事件、記錄檔、 和效能資料。此資訊僅供技術支援人員用來解決儲存陣列的問題。

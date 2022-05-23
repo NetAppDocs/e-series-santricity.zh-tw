@@ -1,0 +1,22 @@
+---
+permalink: sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, host detection 
+summary: 如果您沒有看到連線的主機、則表示自動偵測失敗、主機連線不正確、或是目前沒有連線任何主機。 
+---
+= System Manager未偵測到任何主機。我該怎麼辦？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您沒有看到連線的主機、則表示自動偵測失敗、主機連線不正確、或是目前沒有連線任何主機。
+
+設定完成後、您可以稍後再設定主機。您可以自動或手動建立主機、如下所示：
+
+* 如果您在主機上安裝主機內容代理程式（HCA）、HCA會將主機組態資訊推送至儲存陣列。System Manager會自動設定這些主機、並在*初始設定*精靈中顯示這些主機。（HCA不適用於NVMe over Fabrics主機。）
+* 您可以移至功能表：Storage[hosts]、手動建立主機並關聯適當的主機連接埠識別碼。手動建立的主機也會顯示在*初始設定*精靈中。
+* 目標和主機必須針對主機連接埠類型（例如iSCSI或NVMe over RoCE）進行設定、並在自動偵測開始運作之前、先建立與儲存設備的工作階段。
+

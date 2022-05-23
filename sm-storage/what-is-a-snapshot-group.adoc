@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-a-snapshot-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, group, 
+summary: Snapshot群組是單一關聯基礎Volume的時間點快照映像集合。 
+---
+= 什麼是快照群組？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot群組是單一關聯基礎Volume的時間點快照映像集合。
+
+System Manager會將快照映像整理成_snapshot Groups_。Snapshot群組不需要使用者動作、但您可以隨時調整快照群組的保留容量。此外、當符合下列條件時、系統可能會提示您建立保留容量：
+
+* 只要您對尚未建立快照群組的基礎磁碟區建立快照、System Manager就會自動建立快照群組。這會為用於儲存後續快照映像的基礎磁碟區建立保留容量。
+* 每當您為基礎磁碟區建立快照排程時、System Manager都會自動建立快照群組。
+

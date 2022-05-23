@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, registration, methods,  automatically, supported, iscsi, 
+summary: iSCSI實作可支援網際網路儲存名稱服務（SNSs）探索方法、或使用「傳送目標」命令。 
+---
+= iSCSI自動支援哪些登錄方法？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI實作可支援網際網路儲存名稱服務（SNSs）探索方法、或使用「傳送目標」命令。
+
+透過iSNS方法、可在啟動器（iSCSI主機）和目標（控制器）之間進行iSNS探索。您可以註冊目標控制器、以便為iSNS伺服器提供控制器的iSCSI合格名稱（IQN）和連接埠資訊。
+
+如果未設定iSNS、iSCSI主機可在iSCSI探索工作階段期間傳送「傳送目標」命令。因此、控制器會傳回連接埠資訊（例如、Target IQN、連接埠IP位址、接聽連接埠和目標連接埠群組）。如果您使用的是iSNS、則不需要使用此探索方法、因為主機啟動器可以從iSNS伺服器擷取目標IP。

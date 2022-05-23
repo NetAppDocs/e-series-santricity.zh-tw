@@ -1,0 +1,28 @@
+---
+permalink: sm-support/send-autosupport-dispatches.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, send, autosupport, dispatches 
+summary: System Manager可讓您將AutoSupport 不需等待排定的分派、即可將支援服務發送至技術支援部門。 
+---
+= 傳送AutoSupport 本文件
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager可讓您將AutoSupport 不需等待排定的分派、即可將支援服務發送至技術支援部門。
+
+必須啟用此功能。AutoSupport您可以在AutoSupport 「介紹」頁面上查看是否已啟用此功能。
+
+此作業會收集支援資料並自動傳送給技術支援人員、以便他們疑難排解問題。
+
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 選取*傳送AutoSupport SIDischischis*。
++
+此時AutoSupport 會出現「傳送不一樣的派遣台」對話方塊。
+
+. 選取*傳送*以確認作業。
+

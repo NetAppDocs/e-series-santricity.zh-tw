@@ -1,0 +1,37 @@
+---
+permalink: sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, change, role, volumes, mirrored, pair, 
+summary: 您可以在鏡射配對中的兩個磁碟區之間執行角色反轉、這兩個磁碟區是為了管理目的而參與同步鏡射、或是在本機儲存陣列發生災難時執行。 
+---
+= 變更鏡射配對中磁碟區之間的角色
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在鏡射配對中參與同步鏡射的兩個磁碟區之間執行角色反轉。這項工作可能是為了管理目的、或是在本機儲存陣列發生災難時所需。
+
+您可以將主要磁碟區降級為次要角色、或將次要磁碟區升級為主要角色。任何存取主要磁碟區的主機、都能讀取/寫入該磁碟區。當主要磁碟區變成次要磁碟區時、僅會將主要控制器起始的遠端寫入寫入寫入磁碟區。
+
+.步驟
+. 選取功能表：Storage[同步鏡射]。
+. 選取包含您要變更角色之磁碟區的鏡射配對、然後選取功能表：More（更多）[Change role（變更角色）]。
++
+系統會顯示確認訊息。
+
+. 確認您要變更磁碟區的角色、然後選取*變更角色*。
++
+[NOTE]
+====
+如果本機儲存陣列無法與遠端儲存陣列通訊、系統會在要求變更角色時顯示「無法聯絡儲存陣列」對話方塊、但無法聯絡遠端儲存陣列。按一下「*是*」以強制變更角色。
+
+====
+
+
+System Manager會執行下列動作：
+
+* 如果可以聯絡鏡射配對中的相關Volume、則磁碟區之間的角色會改變。System Manager會將鏡射配對中的次要Volume升級為主要角色、或將鏡射配對中的主要Volume降級為次要角色（視您的選擇而定）。
+

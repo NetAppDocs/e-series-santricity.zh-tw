@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/why-would-i-logically-replace-a-drive.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, logically, replace, drive, 
+summary: 如果某個磁碟機故障、或是您因為其他原因而想要更換它、而且您的儲存陣列中有未指派的磁碟機、您可以邏輯地將故障磁碟機更換為未指派的磁碟機。如果您沒有未指派的磁碟機、您可以更換磁碟機。 
+---
+= 為什麼我要邏輯地更換磁碟機？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果某個磁碟機故障、或是您因為其他原因而想要更換它、而且您的儲存陣列中有未指派的磁碟機、您可以邏輯地將故障磁碟機更換為未指派的磁碟機。如果您沒有未指派的磁碟機、您可以更換磁碟機。
+
+原始磁碟機的資料會複製或重建到替換磁碟機。

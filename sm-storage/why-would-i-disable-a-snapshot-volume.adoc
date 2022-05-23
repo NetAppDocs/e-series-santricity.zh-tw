@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/why-would-i-disable-a-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disable, snapshot, volume 
+summary: 當您想要將不同的快照磁碟區指派給快照映像時、請停用快照磁碟區。您可以保留停用的快照磁碟區供日後使用。 
+---
+= 為什麼要停用快照磁碟區？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您想要將不同的快照磁碟區指派給快照映像時、請停用快照磁碟區。您可以保留停用的快照磁碟區供日後使用。
+
+如果您不再需要快照磁碟區或一致性群組快照磁碟區、而不打算稍後重新建立、則應刪除該磁碟區、而非停用該磁碟區。

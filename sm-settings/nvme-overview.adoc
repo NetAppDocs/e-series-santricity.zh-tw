@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/nvme-overview.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, nvme, 
+summary: 有些控制器包含一個連接埠、可在光纖架構上實作NVMe（非揮發性記憶體Express）。NVMe可在主機與儲存陣列之間進行高效能通訊。 
+---
+= NVMe總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+有些控制器包含一個連接埠、可在光纖架構上實作NVMe（非揮發性記憶體Express）。NVMe可在主機與儲存陣列之間進行高效能通訊。
+
+
+
+== 什麼是NVMe？
+
+_NVM代表「非揮發性記憶體」、是許多儲存裝置類型所使用的持續記憶體。_NVMe（NVM Express）是標準化的介面或傳輸協定、專為高效能的與NVM裝置的多佇列通訊所設計。
+
+
+
+== 什麼是NVMe over Fabrics？
+
+NVMe over Fabrics（NVMe）_是一種技術規格、可讓NVMe訊息型命令和資料在主機電腦和儲存設備之間透過網路傳輸。NVMe儲存陣列（稱為_Subsystem_）可由使用光纖的主機存取。NVMe命令會在主機端和子系統端的傳輸抽象層中啟用和封裝。如此可將高效能NVMe介面端對端從主機延伸至儲存設備、並標準化及簡化命令集。
+
+NVMe儲存設備會以本機區塊儲存設備的形式呈現給主機。磁碟區（稱為_namespacity_）可以像任何其他區塊儲存設備一樣掛載到檔案系統。您可以使用REST API、SMcli或SANtricity Sys以上 系統管理程式、視需要配置儲存設備。
+
+
+
+== 什麼是NVMe合格名稱（NQN）？
+
+NVMe合格名稱（NQN）用於識別遠端儲存目標。儲存陣列的NVMe合格名稱一律由子系統指派、不得修改。整個陣列只有一個NVMe合格名稱。NVMe合格名稱長度上限為223個字元。您可以將其與iSCSI合格名稱進行比較。
+
+
+
+== 什麼是命名空間和命名空間ID？
+
+命名空間相當於SCSI中的邏輯單元、與陣列中的磁碟區相關。命名空間ID（NSID）相當於SCSI中的邏輯單元編號（LUN）。您可以在命名空間建立時建立NSID、並將其設定為1到255之間的值。
+
+
+
+== 什麼是NVMe控制器？
+
+類似於SCSI I-T結點、代表主機啟動器到儲存系統目標的路徑、在主機連線程序期間建立的NVMe控制器可提供主機與儲存陣列中命名空間之間的存取路徑。主機的NQN加上主機連接埠識別碼、可唯一識別NVMe控制器。雖然NVMe控制器只能與單一主機建立關聯、但它可以存取多個命名空間。
+
+您可以設定哪些主機可以存取哪些命名空間、並使用SANtricity 「支援系統管理程式」設定主機的命名空間ID。然後建立NVMe控制器時、會建立NVMe控制器可存取的命名空間ID清單、並用來設定允許的連線。

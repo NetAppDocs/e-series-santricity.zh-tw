@@ -1,0 +1,32 @@
+---
+permalink: sm-settings/view-nvme-over-fabrics-statistics-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, nvme, fabrics, statistics, 
+summary: 您可以檢視儲存陣列的NVMe over Fabrics連線相關資料。 
+---
+= 檢視NVMe over Fabrics統計資料
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視儲存陣列的NVMe over Fabrics連線相關資料。
+
+System Manager會顯示這些類型的NVMe over Fabrics統計資料。所有統計資料均為唯讀、無法設定。
+
+* * NVMe子系統統計資料*-顯示NVMe控制器及其佇列的統計資料。NVMe控制器提供主機與儲存陣列中命名空間之間的存取路徑。您可以檢閱NVMe子系統統計資料、查看連線故障、重設和關機等項目。
+* * RDMA介面統計資料*-提供RDMA介面上所有NVMe over Fabrics連接埠的統計資料、其中包括效能統計資料、以及與每個交換器連接埠相關的連結錯誤資訊。此索引標籤僅會在NVMe over Fabrics連接埠可用時顯示。
+
+
+您可以將每個統計資料檢視為原始統計資料或是基準統計資料。原始統計資料是自控制器啟動以來所收集的所有統計資料。比較基準統計資料是自您設定基準時間以來所收集的時間點統計資料。
+
+.步驟
+. 選取功能表：設定[系統]。
+. 選取*「View NVMe over Fabrics Statistic*」。
+. *選用：*若要設定基準線、請按一下*設定新的基準線*。
++
+設定基準可為統計資料的收集作業設定新的起點。所有NVMe統計資料都使用相同的基準。
+
+

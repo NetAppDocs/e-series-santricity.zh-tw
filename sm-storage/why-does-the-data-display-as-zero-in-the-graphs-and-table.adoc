@@ -1,0 +1,69 @@
+---
+permalink: sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, zero, graphs, table 
+summary: 如果圖表中的資料點顯示零、表示該時間點的物件沒有I/O活動。發生這種情況的原因可能是主機未對該物件起始I/O、或是物件本身發生問題。 
+---
+= 為什麼圖表中的資料顯示為零？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果圖表中的資料點顯示零、表示該時間點的物件沒有I/O活動。發生這種情況的原因可能是主機未對該物件起始I/O、或是物件本身發生問題。
+
+物件的歷史資料仍可供檢視。圖表和表格會在物件的I/O活動開始時顯示非零資料。
+
+下表列出資料點值在任何特定物件中可能為零的最常見原因。
+
+[cols="25h,~"]
+|===
+| 陣列層級物件類型 | 原因資料顯示為零 
+
+
+ a| 
+Volume
+ a| 
+* Volume沒有主機指派。
+
+
+
+
+ a| 
+Volume群組
+ a| 
+* 正在匯入Volume群組。
+* Volume群組不包含指派給主機的磁碟區、*和_* Volume群組不包含任何保留容量。
+
+
+
+
+ a| 
+磁碟機
+ a| 
+* 磁碟機故障。
+* 磁碟機已移除。
+* 磁碟機處於未知狀態。
+
+
+
+
+ a| 
+控制器
+ a| 
+* 控制器離線。
+* 控制器故障。
+* 控制器已移除。
+* 控制器處於未知狀態。
+
+
+
+
+ a| 
+儲存陣列
+ a| 
+* 儲存陣列不包含磁碟區。
+
+
+|===

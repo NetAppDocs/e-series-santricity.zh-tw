@@ -1,0 +1,40 @@
+---
+permalink: sm-settings/enable-premium-feature.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, premium, feature, 
+summary: 進階功能是額外的選項、需要啟用金鑰。 
+---
+= 啟用優質功能
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+進階功能是額外的選項、需要啟用金鑰。
+
+.開始之前
+* 您已取得功能金鑰。如有必要、請聯絡技術支援部門以取得關鍵資訊。
+* 您已在管理用戶端上載入金鑰檔（系統上有瀏覽器可供存取System Manager）。
+
+
+本工作說明如何使用System Manager來啟用優質功能。
+
+[NOTE]
+====
+如果您想要停用優質功能、必須在命令列介面（CLI）中使用停用儲存陣列功能命令（「停用儲存陣列（featurePack | feature=featureAttributeList）」。
+
+====
+.步驟
+. 選取功能表：設定[系統]。
+. 在*附加元件*下、選取*啟用優質功能*。
++
+「啟用優質功能」對話方塊隨即開啟。
+
+. 按一下*瀏覽*、然後選取金鑰檔。
++
+檔案名稱會顯示在對話方塊中。
+
+. 按一下「*啟用*」。
+

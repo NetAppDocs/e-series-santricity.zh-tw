@@ -1,0 +1,48 @@
+---
+permalink: sm-hardware/solid-state-disks-ssds.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, solid, state, disk, SSD 
+summary: 固態磁碟（SSD）是使用固態記憶體（Flash）持續儲存資料的資料儲存裝置。SSD可模擬傳統硬碟機、並與硬碟機使用的介面相同。 
+---
+= 固態磁碟（SSD）
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+固態磁碟（SSD）是使用固態記憶體（Flash）持續儲存資料的資料儲存裝置。SSD可模擬傳統硬碟機、並與硬碟機使用的介面相同。
+
+
+
+== SSD的優勢
+
+SSD優於硬碟的優勢包括：
+
+* 更快啟動（不增加磁碟）
+* 降低延遲
+* 每秒I/O作業次數（IOPS）較高
+* 更高的可靠性、更少的活動零件
+* 降低用電量
+* 產生的熱能較少、所需的冷卻成本較低
+
+
+
+
+== 識別SSD
+
+在「硬體」頁面中、您可以在前機架檢視中找到SSD。尋找顯示閃電圖示的磁碟機支架、表示已安裝SSD。
+
+
+
+== Volume群組
+
+磁碟區群組中的所有磁碟機必須為相同的媒體類型（所有SSD或所有硬碟機）。Volume群組不能混用各種媒體類型或介面類型。
+
+
+
+== 快取
+
+SSD永遠會啟用控制器的寫入快取。寫入快取可改善效能、延長SSD的使用壽命。
+
+除了控制器快取之外、您還可以實作SSD快取功能來改善整體系統效能。在SSD快取中、資料會從磁碟區複製、並儲存在兩個內部RAID磁碟區（每個控制器一個）上。

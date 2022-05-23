@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, IP, addresses, physical, port, 
+summary: EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的。 
+---
+= 為什麼一個實體連接埠有兩個IP位址？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的。
+
+在此組態中、外部HIC會連接至內部輔助HIC。您可以從外部HIC存取的每個實體連接埠、都有一個與內部HIC相關的虛擬連接埠。
+
+若要達到最高200GB效能、您必須為實體和虛擬連接埠指派唯一的IP位址、讓主機能夠建立每個連接埠的連線。如果您未將IP位址指派給虛擬連接埠、HIC將以大約一半的能力速度執行。

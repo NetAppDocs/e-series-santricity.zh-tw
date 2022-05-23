@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity 
+summary: 一般而言、當您收到預留容量可能會變滿的警告時、您應該增加容量。您只能以8 GiB的增量來增加保留容量。 
+---
+= 增加保留容量需要知道什麼？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+一般而言、當您收到預留容量可能會變滿的警告時、您應該增加容量。您只能以8 GiB的增量來增加保留容量。
+
+* 您必須在資源池或磁碟區群組中擁有足夠的可用容量、才能在必要時加以擴充。
++
+如果任何集區或Volume群組上不存在可用容量、您可以將未使用磁碟機的未指派容量新增至集區或Volume群組。
+
+* 集區或磁碟區群組中的磁碟區必須處於最佳狀態、且不得處於任何修改狀態。
+* 可用容量必須存在於您要用來增加容量的資源池或磁碟區群組中。
+* 您無法為唯讀的快照磁碟區增加保留容量。只有讀寫快照磁碟區需要保留容量。
+
+
+對於快照作業、保留容量通常是基礎磁碟區的40%。對於非同步鏡射作業、保留容量通常為基礎磁碟區的20%。如果您認為基礎磁碟區會經歷許多變更、或儲存物件複製服務作業的預估使用壽命將會很長、請使用較高的百分比。

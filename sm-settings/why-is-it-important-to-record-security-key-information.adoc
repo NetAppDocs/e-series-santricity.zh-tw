@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/why-is-it-important-to-record-security-key-information.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, record, security, key, 
+summary: 如果您遺失安全金鑰資訊且沒有備份、則在重新部署啟用安全功能的磁碟機或升級控制器時、可能會遺失資料。您需要安全金鑰才能解除鎖定磁碟機上的資料。 
+---
+= 為何務必記錄安全金鑰資訊？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您遺失安全金鑰資訊且沒有備份、則在重新部署啟用安全功能的磁碟機或升級控制器時、可能會遺失資料。您需要安全金鑰才能解除鎖定磁碟機上的資料。
+
+請務必記錄安全金鑰識別碼、關聯的密碼、以及安全金鑰檔案儲存所在的本機主機位置。

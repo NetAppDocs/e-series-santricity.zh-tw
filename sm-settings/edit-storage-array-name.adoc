@@ -1,0 +1,40 @@
+---
+permalink: sm-settings/edit-storage-array-name.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, storage array, name, 
+summary: 您可以變更SANtricity 出現在「菜單系統管理程式」標題列中的儲存陣列名稱。 
+---
+= 編輯儲存陣列名稱
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更SANtricity 出現在「菜單系統管理程式」標題列中的儲存陣列名稱。
+
+.步驟
+. 選取功能表：設定[系統]。
+. 在「*一般*」下、尋找「*名稱：*」欄位。
++
+如果尚未定義儲存陣列名稱、此欄位會顯示「未知」。
+
+. 按一下儲存陣列名稱旁的*編輯*（鉛筆）圖示。
++
+此欄位將變成可編輯的。
+
+. 輸入新名稱。
++
+名稱可以包含字母、數字和特殊字元、包括底線（_）、破折號（-）和雜湊符號（#）。名稱不得包含空格。名稱的長度上限為30個字元。名稱必須是唯一的。
+
+. 按一下*「Save"（儲存）*（核取標記）圖示。
++
+[NOTE]
+====
+如果您要關閉可編輯欄位而不進行變更、請按一下*取消*（X）圖示。
+
+====
+
+
+這個新名稱會出現在SANtricity 「更新系統管理程式」的標題列中。

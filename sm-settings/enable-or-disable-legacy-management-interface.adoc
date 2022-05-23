@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/enable-or-disable-legacy-management-interface.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, disable, legacy, management, interface, 
+summary: 您可以啟用或停用舊版管理介面（符號）、這是儲存陣列與管理用戶端之間的通訊方法。 
+---
+= 啟用或停用舊版管理介面
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以啟用或停用舊版管理介面（符號）、這是儲存陣列與管理用戶端之間的通訊方法。
+
+根據預設、舊版管理介面為開啟狀態。如果停用、儲存陣列和管理用戶端將使用更安全的通訊方法（REST API over https）；不過、如果停用某些工具和工作、可能會受到影響。
+
+[NOTE]
+====
+對於EF600儲存系統、此功能預設為停用。
+
+====
+此設定會影響下列作業：
+
+* *開啟*（預設）-使用CLI和某些其他工具（例如OCI介面卡）設定鏡像所需的設定。
+* *關*：必要設定、可在儲存陣列與管理用戶端之間的通訊中強制執行機密性、以及存取外部工具。設定目錄伺服器（LDAP）時的建議設定。
+
+
+.步驟
+. 選取功能表：設定[系統]。
+. 向下捲動至*其他設定*、然後按一下*變更管理介面*。
+. 在對話方塊中、按一下* Yes（是）*繼續。
+
