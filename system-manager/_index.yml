@@ -38,7 +38,7 @@ indexpage:
     - title: 同步鏡射
       url: "../sm-mirroring/how-synchronous-mirroring-works.html"
     - title: Snapshot儲存設備
-      url: "../sm-storage/overview-of-snapshot-storage.html"
+      url: "../sm-storage/overview-snapshots.html"
     - title: 遠端儲存設備
       url: "../sm-storage/rtv-how-remote-storage-works.html"
   - title: 診斷
