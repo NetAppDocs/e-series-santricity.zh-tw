@@ -28,7 +28,7 @@ _同步鏡射_即時複寫資料磁碟區、確保持續可用度。儲存陣列
 
 深入瞭解：
 
-* link:how-asynchronous-mirroring-works.html["同步鏡射的運作方式"]
+* link:how-synchronous-mirroring-works.html["同步鏡射的運作方式"]
 * link:synchronous-mirroring-terminology.html["同步鏡射術語"]
 * link:synchronous-mirroring-status.html["同步鏡射狀態"]
 * link:volume-ownership-sync.html["Volume擁有權"]

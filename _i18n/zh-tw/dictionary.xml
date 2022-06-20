@@ -7323,7 +7323,6 @@
   <block id="6ba3fbf7a6558dc81522aedb59e1d590" category="paragraph">_同步鏡射_即時複寫資料磁碟區、確保持續可用度。儲存陣列控制器可管理鏡射作業、這對主機機器和軟體應用程式而言是透明的。</block>
   <block id="beb80eb40ddf731a8581da9d26fa3fbb" category="paragraph">這類鏡射是業務持續運作（例如災難恢復）的理想選擇。</block>
   <block id="056f32c2f708736098c46799ad3bd5e2" category="inline-link-macro">同步鏡射的運作方式</block>
-  <block id="3f87a6fb2bf2e7a865732ffe4b1863ae" category="list-text"><block ref="3f87a6fb2bf2e7a865732ffe4b1863ae" category="inline-link-macro-rx"></block></block>
   <block id="d1df34d340a8d718208af99317ded277" category="list-text"><block ref="d1df34d340a8d718208af99317ded277" category="inline-link-macro-rx"></block></block>
   <block id="91bd7ce763dd044694ea61889c5d7028" category="inline-link-macro">同步鏡射狀態</block>
   <block id="7ceac40f87530ca4b68fb592e3bf164a" category="list-text"><block ref="7ceac40f87530ca4b68fb592e3bf164a" category="inline-link-macro-rx"></block></block>
@@ -8624,4 +8623,5 @@
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">使用陣列憑證</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">管理憑證</block>
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">軟件SANtricity</block>
+  <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
 </blocks>
