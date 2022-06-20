@@ -28,7 +28,7 @@ _非同步鏡射_會在特定時間點擷取主要磁碟區的狀態、並僅複
 
 深入瞭解：
 
-* link:how-synchronous-mirroring-works.html["非同步鏡射的運作方式"]
+* link:how-asynchronous-mirroring-works.html["非同步鏡射的運作方式"]
 * link:asynchronous-terminology.html["非同步鏡射術語"]
 * link:asynchronous-mirror-status.html["非同步鏡射狀態"]
 * link:volume-ownership-sync.html["Volume擁有權"]

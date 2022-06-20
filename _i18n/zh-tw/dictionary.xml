@@ -7371,7 +7371,6 @@
   <block id="a973f9cd883909c4210fa4a3a2a46a57" category="paragraph">_非同步鏡射_會在特定時間點擷取主要磁碟區的狀態、並僅複製自上次映像擷取後變更的資料。主站台可立即更新、而次要站台可在頻寬允許的情況下更新。這些資訊會在網路資源可用時快取並於稍後傳送。</block>
   <block id="40f940a1f2b00ed6e1e16df96cf0cfc1" category="paragraph">非同步鏡射是以每個磁碟區為基礎建立、但在群組層級進行管理、可讓您將不同的遠端鏡射磁碟區與特定儲存陣列上的任何主要磁碟區建立關聯。這類鏡射是滿足不中斷營運需求的理想選擇、一般而言、對於定期程序而言、網路效率更高。</block>
   <block id="d9cb3fe290e19450349d351a42a37ad1" category="inline-link-macro">非同步鏡射的運作方式</block>
-  <block id="4aa0caa4a406c6a3c952fd00f3fcf2a9" category="list-text"><block ref="4aa0caa4a406c6a3c952fd00f3fcf2a9" category="inline-link-macro-rx"></block></block>
   <block id="930384e99f0ce6421c82e7bc4e515d60" category="inline-link-macro">非同步鏡射術語</block>
   <block id="b623d7348c01d58bf6b219d1aeb93232" category="list-text"><block ref="b623d7348c01d58bf6b219d1aeb93232" category="inline-link-macro-rx"></block></block>
   <block id="da639e20353d1045ad281327add6c8ee" category="list-text"><block ref="da639e20353d1045ad281327add6c8ee" category="inline-link-macro-rx"></block></block>
@@ -8624,4 +8623,5 @@
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">管理憑證</block>
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">軟件SANtricity</block>
   <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
+  <block id="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="list-text"><block ref="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="inline-link-macro-rx"></block></block>
 </blocks>
