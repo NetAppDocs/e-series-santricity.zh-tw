@@ -36,7 +36,7 @@ summary: 為了確保複本一致、您可以建立一組多個磁碟區、稱�
 此時將出現Create Snapshot Consistency Group（創建Snapshot一致性組）對話框。
 
 . 選取要新增為成員磁碟區的磁碟區至快照一致性群組。
-. 按一下*下一步*、然後前往 <<Step 2: Reserve capacity for snapshot consistency group>>。
+. 按一下*下一步*、然後前往  2: Reserve capacity for snapshot consistency group。
 
 
 
@@ -66,7 +66,7 @@ summary: 為了確保複本一致、您可以建立一組多個磁碟區、稱�
 
 
 . *選用：*如果您變更預設的保留容量設定、請按一下*重新整理候選項目*、以重新整理您所指定保留容量的候選清單。
-. 按一下*下一步*、然後前往 <<Step 3: Edit settings for snapshot consistency group>>。
+. 按一下*下一步*、然後前往  3: Edit settings for snapshot consistency group。
 
 
 

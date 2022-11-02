@@ -19,6 +19,13 @@ summary: 瞭解存取管理條款如何適用於您的儲存陣列。
 
 
  a| 
+存取權杖
+ a| 
+存取權杖可用來以REST API或命令列介面（CLI）來驗證、取代使用者名稱和密碼。權杖與特定使用者（包括LDAP使用者）相關聯、並包含一組權限和到期日。
+
+
+
+ a| 
 Active Directory
  a| 
 Active Directory（AD）是一項Microsoft目錄服務、用於Windows網域網路的LDAP。

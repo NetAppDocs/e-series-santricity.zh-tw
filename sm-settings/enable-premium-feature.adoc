@@ -23,7 +23,7 @@ summary: 進階功能是額外的選項、需要啟用金鑰。
 
 [NOTE]
 ====
-如果您想要停用優質功能、必須在命令列介面（CLI）中使用停用儲存陣列功能命令（「停用儲存陣列（featurePack | feature=featureAttributeList）」。
+若要停用進階功能、您必須使用停用儲存陣列功能命令 (`disable storageArray) (featurePack | feature=featureAttributeList`）。
 
 ====
 .步驟

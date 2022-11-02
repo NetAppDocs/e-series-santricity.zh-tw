@@ -6,6 +6,7 @@ summary: 使用設定精靈來設定儲存陣列、包括硬體、主機、應�
 ---
 = 設定精靈總覽
 :allow-uri-read: 
+:experimental: 
 :icons: font
 :imagesdir: ../media/
 
@@ -18,6 +19,9 @@ summary: 使用設定精靈來設定儲存陣列、包括硬體、主機、應�
 == 首次設定
 
 第一次開啟System Manager時、會啟動設定精靈。安裝精靈會提示您執行基本的組態工作、例如命名儲存陣列、設定主機、選取應用程式、以及建立儲存資源池。
+
+
+NOTE: 在繼續初始設定之前、請前往升級中心（功能表：Support [Upgrade Center]）、並確定SANtricity 您的作業系統軟體是最新的。如有需要、請升級至最新版本、並重新整理瀏覽器以繼續設定。如需詳細資訊、請參閱 link:../sm-support/overview-upgrade-center.html["升級中心總覽"]。
 
 如果您取消精靈、就無法手動重新啟動精靈。當您開啟System Manager或重新整理瀏覽器時、精靈會自動重新啟動、且至少符合下列條件之一：
 

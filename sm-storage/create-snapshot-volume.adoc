@@ -42,7 +42,7 @@ summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一�
 +
 在「Review Members（檢閱成員）」對話方塊中、檢閱已選取要轉換為快照磁碟區的磁碟區清單、然後按一下「* Next*（*下一步*）」。
 
-. 前往 <<Step 2: Assign snapshot volume to host>>。
+. 前往  2: Assign snapshot volume to host。
 
 
 
@@ -80,8 +80,8 @@ summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一�
 
 . 按一下「*下一步*」、然後執行下列其中一項：
 +
-** 如果您的快照磁碟區是讀取/寫入、則會出現「Review Capacity（檢閱容量）」對話方塊。前往 <<Step 3: Reserve capacity for a snapshot volume>>。
-** 如果您的快照Volume為唯讀、則會出現「編輯優先順序」對話方塊。前往 <<Step 4: Edit settings for a snapshot volume>>。
+** 如果您的快照磁碟區是讀取/寫入、則會出現「Review Capacity（檢閱容量）」對話方塊。前往  3: Reserve capacity for a snapshot volume。
+** 如果您的快照Volume為唯讀、則會出現「編輯優先順序」對話方塊。前往  4: Edit settings for a snapshot volume。
 
 
 
@@ -122,7 +122,7 @@ Volume候選人表格僅顯示支援指定保留容量的候選對象。
 
 
 . *選用：*如果您要為快照一致性群組建立快照磁碟區、「Change候選人」選項會出現在「保留容量候選」表格中。按一下*變更候選對象*以選取備用的保留容量候選對象。
-. 按一下*下一步*、然後前往 <<Step 4: Edit settings for a snapshot volume>>。
+. 按一下*下一步*、然後前往  4: Edit settings for a snapshot volume。
 
 
 

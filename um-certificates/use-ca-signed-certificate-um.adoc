@@ -26,7 +26,7 @@ summary: 您可以取得及匯入CA簽署的憑證、以安全存取裝載Unifie
 
 [NOTE]
 ====
-或者、您也可以使用諸如OpenSSL的工具來產生CSR檔案、然後跳至 <<Step 2: Submit CSR file>>。
+或者、您也可以使用諸如OpenSSL的工具來產生CSR檔案、然後跳至  2: Submit CSR file。
 
 ====
 .步驟
@@ -50,7 +50,7 @@ summary: 您可以取得及匯入CA簽署的憑證、以安全存取裝載Unifie
 
 . 確認主機資訊正確無誤。如果不是、當您嘗試匯入CA時、從CA傳回的憑證將會失敗。
 . 單擊*完成*。
-. 前往 <<Step 2: Submit CSR file>>。
+. 前往  2: Submit CSR file。
 
 
 
@@ -74,7 +74,7 @@ NOTE: E系列系統要求簽署的憑證使用PEm格式（Base64 Ascii編碼）�
 *將CSR檔案提交給CA後、請勿重新產生其他CSR檔案。*每當您產生CSR時、系統會建立私密與公開金鑰配對。公開金鑰是CSR的一部分、而私密金鑰則保留在系統的Keystore中。當您收到簽署的憑證並匯入時、系統會確保私密金鑰和公開金鑰都是原始配對。如果金鑰不符、簽署的憑證將無法運作、您必須向CA要求新的憑證。
 
 ====
-. 當CA傳回簽署的憑證時、請前往 <<Step 3: Import management certificates>>。
+. 當CA傳回簽署的憑證時、請前往  3: Import management certificates。
 
 
 

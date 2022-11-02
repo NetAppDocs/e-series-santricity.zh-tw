@@ -55,7 +55,7 @@ EF600或EF300儲存系統無法使用此功能。
 「建立同步鏡射配對」精靈隨即開啟。
 
 . 從符合資格的Volume清單中、選取您要做為鏡射中主要Volume的Volume。
-. 選擇* Next*並前往 <<Step 2: Select the secondary volume>>。
+. 選擇* Next*並前往  2: Select the secondary volume。
 
 
 
@@ -84,7 +84,7 @@ EF600或EF300儲存系統無法使用此功能。
 如果選擇的次要Volume容量大於主要Volume、則可用容量僅限於主要Volume的大小。
 
 ====
-. 單擊* Next*（下一步*）並轉至 <<Step 3: Select synchronization settings>>。
+. 單擊* Next*（下一步*）並轉至  3: Select synchronization settings。
 
 
 

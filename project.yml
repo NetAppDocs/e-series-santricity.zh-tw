@@ -729,7 +729,7 @@ sidebar:
           url: "/sm-hardware/configure-dns-server-addresses.html"
         - title: 檢視控制器設定
           url: "/sm-hardware/view-controller-settings.html"
-        - title: 允許遠端登入
+        - title: 設定遠端登入（SSH）
           url: "/sm-hardware/allow-remote-login.html"
         - title: 將控制器置於線上
           url: "/sm-hardware/place-controller-online.html"
@@ -1049,6 +1049,8 @@ sidebar:
           url: "/sm-settings/access-management-with-directory-services.html"
         - title: SAML
           url: "/sm-settings/access-management-with-saml.html"
+        - title: 存取權杖
+          url: "/sm-settings/access-management-tokens.html"
       - title: 使用本機使用者角色
         entries:
         - title: 檢視本機使用者角色
@@ -1073,6 +1075,14 @@ sidebar:
           url: "/sm-settings/change-saml-role-mappings.html"
         - title: 匯出SAML服務供應商檔案
           url: "/sm-settings/export-saml-service-provider-files.html"
+      - title: 使用存取權杖
+        entries:
+        - title: 建立存取權杖
+          url: "/sm-settings/access-management-tokens-create.html"
+        - title: 編輯存取權杖設定
+          url: "/sm-settings/access-management-tokens-edit.html"
+        - title: 撤銷存取權杖
+          url: "/sm-settings/access-management-tokens-revoke.html"
       - title: 管理系統記錄
         entries:
         - title: 檢視稽核記錄活動

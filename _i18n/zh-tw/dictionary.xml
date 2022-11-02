@@ -1772,7 +1772,6 @@
   <block id="b1eda43b44b6c7841e28428a185d47f1" category="list-text">4K - 4、096位元組區大小。</block>
   <block id="f61192de093e66446fac109e76f10b37" category="paragraph">指出此磁碟區群組候選磁碟機是否完全由具備安全功能的磁碟機組成、磁碟機可以是全磁碟加密（FDE）磁碟機、也可以是聯邦資訊處理標準（FIPS）磁碟機。</block>
   <block id="938194660756ee8e0ec2e6ff25f1469d" category="list-text">您可以使用磁碟機安全性來保護磁碟區群組、但所有磁碟機都必須具備安全功能才能使用此功能。</block>
-  <block id="f81786effa1738309ce55dd6d13b9b6b" category="list-text">如果您要建立僅FDE磁碟區群組、請在「Secure Capable（安全功能）」欄中尋找* Yes - FDE*。如果您要建立僅限FIPS的Volume群組、請在「Secure Capable（安全功能）」欄中尋找* Yes - FIPS-*。</block>
   <block id="a3655b3b7378daa4a0e080de026cca74" category="list-text">您可以建立由磁碟機組成的磁碟區群組、這些磁碟機可能具有安全功能、也可能不具備安全功能、或是混合了安全性層級。如果磁碟區群組中的磁碟機包含不安全的磁碟機、則無法保護磁碟區群組的安全。</block>
   <block id="b75e12d3bf891eeff4e4a2f5289ab643" category="paragraph">啟用安全性？</block>
   <block id="68e04423a15891d77312197fa4d54090" category="paragraph">提供選項、讓磁碟機安全功能可與安全的磁碟機搭配使用。如果磁碟區群組具備安全功能、而且您已設定安全金鑰、則可選取核取方塊來啟用磁碟機安全性。</block>
@@ -2026,7 +2025,6 @@
   <block id="f42e2811e3ac908eee60f66d1397b5c2" category="list-text">在多重路徑驅動程式重新設定以辨識新路徑之前、磁碟區可能不會使用新的I/O路徑。此動作通常只需不到五分鐘的時間。</block>
   <block id="a4a310633996fa9be3dad1a7e1c6bf6d" category="summary">完整的磁碟區一律是完整配置的、這表示在建立磁碟區時、會配置所有的容量。精簡磁碟區一律精簡配置、這表示在資料寫入磁碟區時、會分配容量。</block>
   <block id="deb88f045b03680286bbcfe06796807a" category="doc">比較厚磁碟區與精簡磁碟區</block>
-  <block id="2efc4be90cd29be539e05d8de3597c6d" category="paragraph">您可以從集區或磁碟區群組建立大型磁碟區。您只能從集區建立精簡磁碟區、而不能從磁碟區群組建立精簡磁碟區。</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">Volume類型</block>
   <block id="69e0ddbfb36c4abd5009e90597425304" category="paragraph">大型磁碟區</block>
   <block id="a77fb91a3a86b9022911d7df936c326c" category="list-text">在使用大型磁碟區的情況下、系統會預先提供大量的儲存空間、以因應未來的儲存需求。</block>
@@ -2777,7 +2775,6 @@
   <block id="a14d3e9fdf5599c64a2a40b7986baf14" category="paragraph">顯示集區中磁碟機可以寫入的區塊大小（磁區大小）。價值可能包括：</block>
   <block id="435543dd5b111649d2821616c83647ce" category="paragraph">指出此候選資源池是否完全由具備安全功能的磁碟機組成、磁碟機可以是全磁碟加密（FDE）磁碟機、也可以是聯邦資訊處理標準（FIPS）磁碟機。</block>
   <block id="080327d2091575570e1def70546d4d65" category="list-text">您可以使用磁碟機安全功能來保護集區、但所有磁碟機都必須具備安全功能才能使用此功能。</block>
-  <block id="d62aa67b163b07ac7261dc3e5f1a1827" category="list-text">如果您想要建立僅FDE集區、請在「Secure Capable（安全功能）」欄中尋找* Yes - FDE*。如果您想要建立僅限FIPS的資源池、請在「Secure Capable（安全功能）」欄中尋找* Yes - FIPS-*。</block>
   <block id="a07e4ec3d35f9d82a516e126157104a3" category="list-text">您可以建立由磁碟機所組成的集區、這些磁碟機可能具有安全功能、也可能不具有安全性、或是混合了安全性層級。如果集區中的磁碟機包含不安全的磁碟機、您就無法確保集區安全無虞。</block>
   <block id="85729c6c15dbbffe9072f1b86eac0746" category="paragraph">提供選項、讓磁碟機安全功能可與安全的磁碟機搭配使用。如果集區具備安全功能、而且您已建立安全金鑰、則可選取核取方塊來啟用安全性。</block>
   <block id="84e59fc152a2578a5896587796bb5232" category="paragraph">啟用「磁碟機安全性」之後、唯一的移除方法是刪除集區並清除磁碟機。</block>
@@ -4505,7 +4502,6 @@
   <block id="3a0270e6dc15e0c2bf5e7d7d192b588b" category="list-text">您已取得功能金鑰。如有必要、請聯絡技術支援部門以取得關鍵資訊。</block>
   <block id="bef93897f05cb630cba87e4a70e4c7d5" category="list-text">您已在管理用戶端上載入金鑰檔（系統上有瀏覽器可供存取System Manager）。</block>
   <block id="b27ff17d22d04a5e1fb46f1de244ba56" category="paragraph">本工作說明如何使用System Manager來啟用優質功能。</block>
-  <block id="16cf844de4d72d82afe3d732f912ab29" category="paragraph">如果您想要停用優質功能、必須在命令列介面（CLI）中使用停用儲存陣列功能命令（「停用儲存陣列（featurePack | feature=featureAttributeList）」。</block>
   <block id="ace177d8ab15f91a9dd69a46b9cecfd5" category="list-text">在*附加元件*下、選取*啟用優質功能*。</block>
   <block id="7e88d18b97e81dbab278fa337f3d3f74" category="paragraph">「啟用優質功能」對話方塊隨即開啟。</block>
   <block id="2323fcc4f645baffed3c764c515b4bd0" category="list-text">按一下*瀏覽*、然後選取金鑰檔。</block>
@@ -4825,7 +4821,6 @@
   <block id="979f20c9c837f4321f136dc2072d208b" category="paragraph">如果您要確保儲存陣列能夠與您輸入的LDAP伺服器組態通訊、請選取此核取方塊。按一下對話方塊底部的*「Add*（新增*）」之後、就會進行測試。如果選取此核取方塊且測試失敗、則不會新增組態。您必須解決錯誤或取消選取核取方塊、才能跳過測試並新增組態。</block>
   <block id="6aa4a1112969a67959eaf8876c01f097" category="paragraph">**權限設定</block>
   <block id="e9cbbf722215efee1b875c13217e2f95" category="paragraph">搜尋基礎DN</block>
-  <block id="2c89f4504fb9c64184ac776dc40830a0" category="paragraph">輸入要搜尋使用者的LDAP內容、通常格式為「CN=Users、DC=cOPC、DC=local」。</block>
   <block id="3ce2098166f1c3743b7e7e8aa017593d" category="paragraph">使用者名稱屬性</block>
   <block id="919d4cd60ae61c2f042a8153bfb10a15" category="paragraph">輸入繫結至使用者ID以進行驗證的屬性。例如：「AMAccountName」。</block>
   <block id="1da4f8c90edff96b5e53bf82f2aaee04" category="paragraph">群組屬性\</block>
@@ -4966,19 +4961,16 @@
   <block id="8807999b3eb8885075982bc45d9d0db2" category="paragraph">此時將打開Directory Server Settings（目錄服務器設置）對話框。</block>
   <block id="87be5a175c6911a35fc8f00390f4c7b4" category="list-text">在伺服器設定索引標籤中、變更所需的設定。</block>
   <block id="5662a226564835ba8715bfdd18a8b0e6" category="paragraph">LDAP伺服器的網域名稱。若為多個網域、請在以逗號分隔的清單中輸入網域。網域名稱用於登入（_username_@_domain_）、以指定要驗證的目錄伺服器。</block>
-  <block id="5d261017762ca93863c318b1613f98ca" category="paragraph">以_LDAP[s]//host:port_格式存取LDAP伺服器的URL。</block>
   <block id="ca910f8da9777b3fa0b507af1550df55" category="paragraph">用於針對LDAP伺服器進行搜尋查詢及在群組內搜尋的唯讀使用者帳戶。</block>
   <block id="b50af5decfbadacc63d4876021755004" category="paragraph">綁定帳戶的密碼。（輸入連結帳戶時、會顯示此欄位。）</block>
   <block id="e3f02ab67b919eec7575b8404b0581dd" category="paragraph">儲存前先測試伺服器連線</block>
   <block id="9d43682c0a653c83ecbb7c1fd62095d1" category="paragraph">檢查儲存陣列是否能與LDAP伺服器組態通訊。在您按一下對話方塊底部的*「Save"（儲存）*之後、就會進行測試。如果選取此核取方塊且測試失敗、則不會變更組態。您必須解決錯誤或取消選取核取方塊、才能跳過測試並重新編輯組態。</block>
   <block id="6e23b42f25cba9a7caedee8bb1a725a4" category="paragraph">*權限設定*</block>
-  <block id="f415b5cb34059586fa23f269aba947f4" category="paragraph">要搜尋使用者的LDAP內容、通常格式為「CN=Users、DC=cOPC、DC=local」。</block>
   <block id="5c95d1ae609281b3530c8e2a0d4002a1" category="paragraph">繫結至使用者ID以進行驗證的屬性。例如：「AMAccountName」。</block>
   <block id="5db46ff79caf5847716884dd12544e60" category="paragraph">群組屬性</block>
   <block id="f0a2b3957d34509cc1c940c02d1a0fdf" category="paragraph">使用者上的群組屬性清單、用於群組對角色對應。例如：「memberof、managedObjects'。</block>
   <block id="6cc77cae0c6b1bdf04aece9941cf91f1" category="list-text">在「角色對應」索引標籤中、變更所需的對應。</block>
   <block id="8dff636149ee4d86d8a3afbc3def4c75" category="paragraph">要對應之LDAP使用者群組的網域名稱。支援規則運算式。如果這些特殊的規則運算式字元不是一般運算式模式的一部分、則必須以反斜槓（'\）轉義：\.[]{}()&lt;&gt;*+-=!?^$|</block>
-  <block id="3bc1640ed113d51e7ab74c9db37565b2" category="paragraph">要對應至群組DN的儲存陣列角色。您必須個別選取要納入此群組的每個角色。必須搭配其他角色來登入SANtricity 「監控」角色才能登入「系統管理程式」。儲存陣列的角色包括：</block>
   <block id="3bf83ae469052abbe83e2ea8b4f6bef1" category="summary">當您執行某些與CA憑證相關的作業（例如匯入憑證）時、可能會看到一個對話方塊、提示您接受第二個控制器的自我簽署憑證。</block>
   <block id="0e6118aad0fc972047356c13887525c8" category="doc">為什麼會出現「無法存取其他控制器」對話方塊？</block>
   <block id="ddc0dbb59ab35307d93df30e53562fd2" category="paragraph">在具有兩個控制器（雙工組態）的儲存陣列中、SANtricity 如果無法與第二個控制器通訊、或是瀏覽器在作業的某個時間點無法接受憑證、有時會出現此對話方塊。</block>
@@ -5585,7 +5577,6 @@
   <block id="5cc49466be193485a01cc1fad4dbb876" category="paragraph">在另一個陣列中重新安裝啟用安全功能的磁碟機後、該陣列會探索磁碟機、並顯示「Needs Attention（需要注意）」狀態、以及「Security Key Needs（需要安全金鑰）」狀態。 若要解除鎖定磁碟機資料、請選取安全金鑰檔案、然後輸入金鑰的密碼。（此密碼與儲存陣列的管理員密碼不同。）</block>
   <block id="67df9e4d8fc6a2a01205045d14761593" category="list-text">在*安全金鑰管理*下、選取*解除鎖定安全磁碟機*。</block>
   <block id="ee9b42f5cc6af3732a1dea7c629905a8" category="summary">在「憑證」頁面中、您可以檢視儲存陣列的憑證類型、發行授權單位及有效的憑證日期範圍。</block>
-  <block id="7db97910fb48f1d9522a0e88a9c48e4d" category="list-text">選取功能表：設定[Certicates]。</block>
   <block id="0c016b999af42b393c4fc12030e15eb2" category="list-text">選取其中一個索引標籤以檢視憑證的相關資訊。</block>
   <block id="e5241d50786820ff1f9844a97ff37ada" category="paragraph">陣列管理</block>
   <block id="f6656152f5238ad783b7f163a09de1cf" category="paragraph">檢視針對每個控制器匯入的CA簽署憑證相關資訊、包括根檔案、中繼檔案和伺服器檔案。</block>
@@ -5974,7 +5965,6 @@
   <block id="934757b9623717972adcc349e85d6283" category="paragraph">您可以從System Manager下載命令列介面（CLI）套件。</block>
   <block id="f0edcadd28eaa53b81b22a31b44b45b9" category="paragraph">CLI提供一種文字型方法、可用來設定及監控儲存陣列。它透過https通訊、並使用與外部安裝管理軟體套件中可用CLI相同的語法。不需要金鑰即可下載CLI。</block>
   <block id="75842716a65060950b20cba161cbac95" category="paragraph">您必須在打算執行CLI命令的管理系統上提供Java執行時間環境（JRE）版本8及更新版本。</block>
-  <block id="9a1a880d549166e9e4d319a6c078b143" category="list-text">選取功能表：設定[系統]。</block>
   <block id="bd5b00551ee618ada817137a1272291f" category="list-text">在*附加元件*下、選取*命令列介面*。</block>
   <block id="bf60a5340d4e0e6baf9e89397fd1ffb3" category="paragraph">下載至瀏覽器的ZIP套件。</block>
   <block id="f98f7c60dd672d6401fc963791cef040" category="list-text">將ZIP檔案儲存至管理系統、以便為儲存陣列執行CLI命令、然後擷取檔案。</block>
@@ -6445,11 +6435,6 @@
   <block id="871c215b16db9ef0e32b6ede330a07dd" category="paragraph">磁碟機通常無法儲存資料、因為它是正在匯出的磁碟區群組的一部分、或正在進行韌體升級。</block>
   <block id="fffb2fe3525452181282c08445bd214a" category="paragraph">磁碟機正常運作。</block>
   <block id="b0e63b5d480c980ed92487704be38394" category="summary">遠端登入可讓區域網路外部的使用者啟動SSH工作階段、並變更控制器上的設定。</block>
-  <block id="5570bb77e631c7eaa9d865ec47fde197" category="doc">允許遠端登入</block>
-  <block id="3042bdde7f2fb8d67b7da434d43af56e" category="paragraph">*安全風險*：基於安全考量、請啟用遠端登入、僅供技術支援人員使用。</block>
-  <block id="e155b5976c9b59fa5adee7c1da877efa" category="list-text">按一下您要啟用遠端登入的控制器。</block>
-  <block id="f4dc63e7d86e041954b7952c6d54fee6" category="list-text">選擇*變更遠端登入*、然後確認您要執行此作業。</block>
-  <block id="8d229d9ea9494d5a63cb40ce02e6b7fb" category="paragraph">技術支援完成疑難排解後、請依照相同程序停用遠端登入。停用遠端登入會終止任何目前的SSH工作階段、並拒絕任何新的登入要求。</block>
   <block id="eef455d740e0e1992e8f897823999e39" category="summary">網際網路控制訊息傳輸協定（ICMP）是TCP/IP套件的其中一種傳輸協定。</block>
   <block id="77631831ed9caaf68539f6f6ff6c48f1" category="doc">什麼是ICMP ping回應？</block>
   <block id="7b55ccc33597e36ab338a7142bcff9df" category="paragraph">「ICMP回應要求」和「ICMP回應回覆」訊息通常稱為「ping」訊息。「Ping」是系統管理員用來手動測試網路裝置之間連線、以及測試網路延遲和封包遺失的疑難排解工具。ping命令會將一個「ICMP回應要求」傳送到網路上的裝置、然後裝置會立即以「ICMP回應回覆」回應。有時候、公司的網路安全原則要求在所有裝置上停用「ping」（「ICMP回應回覆」）、讓未經授權的人員更難發現這些裝置。</block>
@@ -6855,7 +6840,6 @@
   <block id="28511896b85e22b86d14544cc06a3e85" category="paragraph">製造日期</block>
   <block id="ae2a5312f6343d4bf42cb78fb80dd8a1" category="paragraph">顯示磁碟機的建置日期。</block>
   <block id="d7081ae6ff35b1c76e53319442a2ebe9" category="admonition">不適用於NVMe磁碟機。</block>
-  <block id="455e831fcfa4cc78b3de8d9c3f6ad79e" category="paragraph">顯示磁碟機是否具備安全功能（是）（否）。可安全使用的磁碟機可以是全磁碟加密（FDE）磁碟機、也可以是聯邦資訊處理標準（FIPS）磁碟機、在讀取期間加密資料並解密資料。這些磁碟機被視為安全的磁碟機、因為它們可以使用磁碟機安全功能來提高安全性。如果已針對這些磁碟機所使用的磁碟區群組和集區啟用「磁碟機安全性」功能、磁碟機就會變成安全的-_enabled_.</block>
   <block id="c2cb8d8a9628b0449f5fae233f17169b" category="paragraph">安全功能</block>
   <block id="57cac9f7f45fc113fc3e21a7f1926577" category="paragraph">顯示磁碟機是否已啟用安全功能（是）（否）。啟用安全功能的磁碟機可搭配磁碟機安全功能使用。當您啟用「磁碟機安全性」功能、然後將「磁碟機安全性」套用至安全的-_Capable磁碟機上的集區或磁碟區群組時、磁碟機就會變成安全的-_enabled_.讀寫存取只能透過設定正確安全金鑰的控制器來使用。這項新增的安全功能可防止未獲授權存取從儲存陣列實體移除之磁碟機上的資料。</block>
   <block id="a4f2c7a50453a086d2b145d4af5535cf" category="paragraph">具備資料保證（DA）功能</block>
@@ -8292,7 +8276,6 @@
   <block id="60a610051a0ea44e4970777b77bdffb3" category="list-text">在兩個欄位中輸入所選使用者的新密碼。</block>
   <block id="43c89fc5fe5d2c881ed9925877f8a342" category="list-text">在*伺服器設定*索引標籤中、變更所需的設定。</block>
   <block id="6e5ba56be64f15913cd20e36faa56412" category="paragraph">LDAP伺服器的網域名稱。若為多個網域、請在以逗號分隔的清單中輸入網域。網域名稱用於登入（_username_@_domain_）、以指定要驗證的目錄伺服器。</block>
-  <block id="c8038333051e29b98507b8aa9c254820" category="paragraph">以「LDAP[s]//* host*：* port*」形式存取LDAP伺服器的URL。</block>
   <block id="fff46bc324e184ed03a4aa2f6069b8d3" category="paragraph">檢查系統是否能與LDAP伺服器組態通訊。按一下「*儲存*」之後、就會進行測試。如果選取此核取方塊且測試失敗、則不會變更組態。您必須解決錯誤或清除核取方塊、才能跳過測試並重新編輯組態。</block>
   <block id="4b629ca4dac96503c268bcce005e028b" category="paragraph">繫結至使用者ID以進行驗證的屬性。例如：「AMAccountName」。</block>
   <block id="7f5bf943d0251c031e690cc2ca8d13ab" category="paragraph">使用者上的群組屬性清單、用於群組對角色對應。例如：「memberof、managedObjects'。</block>
@@ -8624,4 +8607,110 @@
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">軟件SANtricity</block>
   <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
   <block id="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="list-text"><block ref="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="inline-link-macro-rx"></block></block>
+  <block id="cfcb95dc970984a5b2213167afd26e67" category="list-text">如果您的防火牆封鎖了這些ASUP派單的傳送、請將下列URL新增至您的白名單：<block ref="afb8e6b8ab745bba44a27ba547edbe22" prefix=" " category="inline-code"></block></block>
+  <block id="674d4f257685239817a1d8bbfdbcbf8b" category="list-text">*說明*：事件的其他相關資訊（若適用）。</block>
+  <block id="73052dd870a19b2dc5141930065b6bed" category="list-text">*驗證類型*：類型可以包括本機使用者、LDAP、SAML及存取權杖。</block>
+  <block id="b87bd6aac06ddb237e7299fad93cbef7" category="list-text">*驗證ID*-已驗證工作階段的ID。</block>
+  <block id="2a4d91302090eb8b3301887b79f8856e" category="summary">您可以編輯存取權杖的設定、包括到期時間和建立新權杖的能力。</block>
+  <block id="2edc23268c5348c8fd858ff983534b75" category="doc">編輯存取權杖設定</block>
+  <block id="957a66aaa906bf52b1f835f43429459f" category="list-text">選取*存取權杖*索引標籤。</block>
+  <block id="6de64002a4a878ad911d2bbb8c213d33" category="list-text">選取*檢視/編輯存取權杖設定*。</block>
+  <block id="aa45e8c3ff6b956a24aff0e3db42fa35" category="list-text">在對話方塊中、您可以執行下列一項或兩項工作：</block>
+  <block id="87f085d538f34807c555a0f94bdf9361" category="list-text">啟用或停用權杖建立。</block>
+  <block id="c4068a76b8a5cb9010408f8a2c7a5512" category="list-text">變更現有權杖的到期日。</block>
+  <block id="c9813731b66a3796057b75293ae67f47" category="inline-link-macro">撤銷存取權杖</block>
+  <block id="00f276e6a7902781e780ade93c48c852" category="admonition">當您取消選取「*啟用存取權杖*」設定時、會同時防止建立權杖和權杖驗證。如果您稍後重新啟用此設定、則可重新使用未過期的權杖。如果您想要永久撤銷所有現有的權杖、請參閱 <block ref="9173d4e408bd89ef74172b82bdcf9f04" category="inline-link-macro-rx"></block>。</block>
+  <block id="5bc7ab301074148dc708229c5ad54fc6" category="paragraph">存取權杖</block>
+  <block id="6f3cb47ebfa36fa8ac3a9f5679b4c403" category="paragraph">存取權杖可用來以REST API或命令列介面（CLI）來驗證、取代使用者名稱和密碼。權杖與特定使用者（包括LDAP使用者）相關聯、並包含一組權限和到期日。</block>
+  <block id="de6aae2c7b68f491759670b8732a576f" category="summary">如果您判斷權杖已遭入侵、您可以撤銷所有存取權杖。</block>
+  <block id="a95956e8ba0de7a0a89c175f64ddcc8f" category="paragraph">如果您判斷權杖已遭入侵、或是想要手動執行密碼編譯金鑰輪替用來簽署及驗證存取權杖的密碼編譯金鑰、則可以撤銷所有存取權杖。</block>
+  <block id="3f52e6ce99598b952f44bdcc2c7a4b73" category="paragraph">此作業會重新產生用來簽署權杖的金鑰。金鑰重設後、_all_發行的權杖會立即失效。由於儲存陣列不會追蹤權杖、因此無法撤銷個別權杖。</block>
+  <block id="43118581ed013cd97980f01256f5e60c" category="list-text">選取*撤銷所有存取權杖*。</block>
+  <block id="80d67a7083770a1b1084819306dc6e00" category="list-text">在對話方塊中、按一下*是*。</block>
+  <block id="566aba70ee8c167dfba34cf46cd5939f" category="paragraph">撤銷所有權杖之後、您可以建立新權杖並立即使用。</block>
+  <block id="156fdf1591a1ac1bc4b4707d24c1e3e9" category="summary">您可以建立存取權杖、以用來驗證REST API或命令列介面、取代使用者名稱和密碼。</block>
+  <block id="78fe365b7215dc3071dee1ad6a568023" category="doc">建立存取權杖</block>
+  <block id="f0ac81da904eece28164c559432ff237" category="paragraph">您可以建立存取權杖、以使用REST API或命令列介面（CLI）進行驗證、取代使用者名稱和密碼。</block>
+  <block id="5add4482e702e41a90c793f56fcb47ce" category="admonition">權杖沒有密碼、因此您必須謹慎管理。</block>
+  <block id="1d48b32ebf9d0c0f0f2122a84a33c5c5" category="list-text">選取*檢視/編輯存取權杖設定*。在對話方塊中、確定已選取「*啟用存取權杖*」核取方塊。按一下「*儲存*」以關閉對話方塊。</block>
+  <block id="1e00df7af5fe5ce57b25e6f9a658a33c" category="list-text">選取*建立存取權杖*。</block>
+  <block id="b63461d2e8385412ad04239656a519f1" category="list-text">在對話方塊中、選取令牌有效的持續時間。</block>
+  <block id="6efb72ae14d7c2cc9314283adff1ca19" category="admonition">權杖過期後、使用者的驗證嘗試將會失敗。</block>
+  <block id="2c04837bc2b5608d8f19123cf46c8c67" category="list-text">按一下*「Create」（建立）。*</block>
+  <block id="36ebc70fbfeffeade88051ef9b69ddd7" category="list-text">在對話方塊中、選取下列其中一項：</block>
+  <block id="2dba8efb618d207af93bfd64d173d479" category="list-text">*複製*可將標記文字儲存至剪貼簿。</block>
+  <block id="9e9e48b8d7c618d98f96b7095ecb6f50" category="list-text">*下載*以將權杖文字儲存至檔案。</block>
+  <block id="4d4e6f1520574b22ce00d99e1b8a4ca7" category="admonition">請務必儲存權杖文字。這是您在關閉對話框之前查看文字的唯一機會。</block>
+  <block id="3840e75088e495f363406398fad3bc6d" category="list-text">使用權杖的方式如下：</block>
+  <block id="47fa31dab3c933f3c83037d55525cc6a" category="list-text">* REST API*：若要在REST API要求中使用權杖、請在要求中新增HTTP標頭。例如：<block ref="9c42352c36b63d073d92890853b35bbd" prefix=" " category="inline-code"></block></block>
+  <block id="8b5a7cf4e27871be02ee93599144a198" category="list-text">*安全CLI/*：若要在CLI中使用權杖、請在命令列上新增權杖值、或使用含有權杖值的檔案路徑。例如：</block>
+  <block id="f43c45fc08cea43f01d2982c88607584" category="list-text">命令列上的權杖值：<block ref="ebdcecadce927cbd7a31a272b12a8f17" prefix=" " category="inline-code"></block></block>
+  <block id="aa235bbf879ec5642e22aa5b8121a818" category="list-text">包含權杖值的檔案路徑：<block ref="64e457e61692b8ca9c4bc0d1033604a5" prefix=" " category="inline-code"></block></block>
+  <block id="69030a788cce478a1ecf903ea779fc1a" category="admonition">如果未指定使用者名稱、密碼或權杖、CLI會提示使用者在命令列上輸入存取權杖值。</block>
+  <block id="02a301d53560426dee323587216347d7" category="paragraph">輸入要搜尋使用者的LDAP內容、通常是以的形式<block ref="7e4d0b4bf9fc2e182c9ccd0d40499b8d" prefix=" " category="inline-code"></block>。</block>
+  <block id="919aba9b6fe5a70cb04822df357153da" category="paragraph">若要停用進階功能、您必須使用停用儲存陣列功能命令 <block ref="fae23c33caf7e9db773b027b6b8e523b" prefix="(" category="inline-code"></block>）。</block>
+  <block id="29bdb2810b315de6c9d0e3f0f1d5010f" category="paragraph">以下列形式存取LDAP伺服器的URL<block ref="f930dd2cba3141050b853a2a05bf401c" prefix=" " category="inline-code"></block>。</block>
+  <block id="ae3092ac2757ebc2a4ce9ec66498d3c2" category="paragraph">要搜尋使用者的LDAP內容、通常採用的形式<block ref="7e4d0b4bf9fc2e182c9ccd0d40499b8d" prefix=" " category="inline-code"></block>。</block>
+  <block id="7201af59a06760a88ab299378c7373a4" category="paragraph">要對應至群組DN的儲存陣列角色。您必須個別選取要納入此群組的每個角色。必須搭配其他角色來登入SANtricity 「監控」角色才能登入「系統管理程式」。儲存陣列的角色包括：</block>
+  <block id="7c483dc440b317fcf93c2c430ac79485" category="summary">存取權杖可讓您存取陣列、而不會洩漏使用者名稱和密碼。</block>
+  <block id="3b5b5feef66adc0768f35b724a334827" category="doc">存取權杖</block>
+  <block id="a6c1f1723a51ca1364421411e3f57c62" category="paragraph">存取權杖提供使用REST API或命令列介面（CLI）進行驗證的方法、而不會洩漏使用者名稱和密碼。權杖會與特定使用者（包括LDAP使用者）建立關聯、並包含一組權限和到期日。</block>
+  <block id="3c70e70676017860b98c08b226abab0b" category="section-title">SAML與Json Web權杖存取</block>
+  <block id="4ce5adcc400de93f50c1fec698418c82" category="paragraph">根據預設、啟用SAML的系統不允許存取傳統命令列工具。REST API和CLI實際上無法運作、因為MFA工作流程需要重新導向至身分識別供應商伺服器進行驗證。因此、您必須在System Manager中產生權杖、要求使用者透過MFA驗證。</block>
+  <block id="daf7db4383400d6300a5dcd380ef98fd" category="admonition">無需啟用SAML即可使用Web權杖、但為了達到最高安全等級、建議使用SAML。</block>
+  <block id="14e8b0416072bcfd5e8c62992cbef3a3" category="section-title">建立及使用權杖的工作流程</block>
+  <block id="3e576a5d2c3ca5b6f7525e9cdb121b33" category="list-text">在System Manager中建立權杖、並判斷其到期時間。</block>
+  <block id="75599d4d0e80b9a5a02700ebd13159b4" category="list-text">將權杖文字複製到剪貼簿或下載到檔案、然後將權杖文字儲存在安全的位置。</block>
+  <block id="55e4d55b9613a32db03a926955e032cc" category="list-text"><block ref="55e4d55b9613a32db03a926955e032cc" category="inline-link-macro-rx"></block></block>
+  <block id="1569c9119e1e28e1ec8fab53bfa69339" category="inline-link-macro">編輯存取權杖</block>
+  <block id="8da9b6ad291cf45a101b427e56ca3a4f" category="list-text"><block ref="8da9b6ad291cf45a101b427e56ca3a4f" category="inline-link-macro-rx"></block></block>
+  <block id="9173d4e408bd89ef74172b82bdcf9f04" category="list-text"><block ref="9173d4e408bd89ef74172b82bdcf9f04" category="inline-link-macro-rx"></block></block>
+  <block id="f2b72ee0697939206bbf9a554cc366b7" category="paragraph">*選用：*如果您要設定備份金鑰伺服器、請按一下*新增金鑰伺服器*、然後輸入該伺服器的資訊。如果無法連線至主金鑰伺服器、則會使用第二個金鑰伺服器。請確定每個金鑰伺服器都能存取相同的金鑰資料庫、否則陣列將會張貼錯誤、而且無法使用備份伺服器。</block>
+  <block id="b619226f7496b2687780134401626a39" category="admonition">一次只使用單一金鑰伺服器。如果儲存陣列無法連線至主要金鑰伺服器、陣列將會聯絡備份金鑰伺服器。請注意、您必須在兩部伺服器之間維持同位元檢查、否則可能導致錯誤。</block>
+  <block id="224b075d1cf57e3e4a3b24d3315c1ee7" category="admonition">在繼續初始設定之前、請前往升級中心（功能表：Support [Upgrade Center]）、並確定SANtricity 您的作業系統軟體是最新的。如有需要、請升級至最新版本、並重新整理瀏覽器以繼續設定。如需詳細資訊、請參閱 <block ref="15166618a8636521e84e4608dae61adb" category="inline-link-macro-rx"></block>。</block>
+  <block id="7d9d1232215eb0fc5b42a7bb406367a0" category="paragraph">如果某個磁碟機故障、或是您想要因任何其他原因而更換它、您可以邏輯地將故障磁碟機更換為未指派的磁碟機或完全整合的熱備援磁碟機。</block>
+  <block id="684a1ab32d88cc1d6cea257f63cd8ee4" category="paragraph">當您以邏輯方式更換磁碟機時、磁碟機就會被指派、然後成為相關聯的資源池或磁碟區群組的永久成員。</block>
+  <block id="8f978151ddbea46dd4ea50236a257374" category="paragraph">您可以使用「邏輯置換」選項來取代下列類型的磁碟機：</block>
+  <block id="f3f7e5eecbbda44d56a585304c3a8d15" category="list-text">符合FIPS標準</block>
+  <block id="c3e107c36324a82163304a51fa5593ea" category="list-text">FIPS相容（FIPS 140-2）</block>
+  <block id="7eae2aea23d5d58ac39b011ac209d1fa" category="list-text">FIPS相容（FIPS 140-2）</block>
+  <block id="b8d5514b6c363d7622c4335c65020f0c" category="doc">設定遠端登入（SSH）</block>
+  <block id="9e6a19334017caf037d216fb852a0cb1" category="paragraph">啟用遠端登入後、即可讓區域網路外部的使用者啟動SSH工作階段、並存取控制器上的設定。</block>
+  <block id="c16fb6cb95d73950e6e3ca73e68f735d" category="paragraph">對於版本11.74及更新版本、您也可以要求使用者輸入SSH金鑰及/或SSH密碼、來設定多因素授權（MFA）SANtricity 。對於11.73版及更早版本、此功能不包含使用SSH金鑰和密碼進行多因素授權的選項。SANtricity</block>
+  <block id="a8d6cb3e5e829f59565c2ae11a29f385" category="paragraph">*安全風險*：基於安全考量、只有技術支援人員才應使用遠端登入功能。</block>
+  <block id="72e047012d72d3be15fc0b67e6b50748" category="list-text">按一下您要設定遠端登入的控制器。</block>
+  <block id="d133663ba42583d4ea791fa53d4cf325" category="list-text">選擇*設定遠端登入（SSH）*。（SANtricity 對於11.73版及更早版本、此功能表項目為*變更遠端登入*。）</block>
+  <block id="8c421495a247201568d21ac72172c818" category="paragraph">隨即開啟對話方塊、以啟用遠端登入。</block>
+  <block id="5c6b9cfa64b1b52b01653c007db0beb9" category="list-text">選取「*啟用遠端登入*」核取方塊。</block>
+  <block id="12f73d464940c78f34c49ee4107d6fca" category="paragraph">此設定提供三種授權選項：</block>
+  <block id="9b238e943ae42327cc81d286beee2ebc" category="list-text">*僅限密碼*。對於此選項、您已完成、並可按一下*「Save（儲存）」*。如果您有雙工系統、您可以依照前述步驟、在第二個控制器上啟用遠端登入。</block>
+  <block id="2b4edf147ea6e388f35a2769deb239eb" category="list-text">* SSH金鑰或密碼*。針對此選項、請繼續下一步。</block>
+  <block id="4b198d1968aa0b7689d8f9482868a5b7" category="list-text">*密碼和SSH金鑰*。對於此選項、請選取「*遠端登入需要授權的公開金鑰和密碼*」核取方塊、然後繼續下一步。</block>
+  <block id="fd6717c9d164ca85bdcb18e1514aeed3" category="list-text">填寫*授權公開金鑰*欄位。此欄位包含以OpenSSH *授權金鑰*檔案格式的授權公開金鑰清單。</block>
+  <block id="958ec4c65334ee049c9f9834c989feb4" category="paragraph">填入*授權公開金鑰*欄位時、請注意下列準則：</block>
+  <block id="ecfbb70ca020b3259ca43656f6e0be8b" category="list-text">「*授權公開金鑰*」欄位適用於這兩個控制器、僅需在第一個控制器上設定。</block>
+  <block id="54017d18c038e6138cae1d76925cd244" category="inline-link-macro">設定OpenSSH的授權金鑰</block>
+  <block id="c62037dc11d4f5ac4b4680166d42520c" category="list-text">每行*授權金鑰*檔案只能包含一個金鑰。以#開頭的行和空白行將被忽略。如需檔案格式的詳細資訊、請參閱 <block ref="f5190b101948e797ebcdf38ddcb2f915" category="inline-link-macro-rx"></block>。</block>
+  <block id="064f8e4270ca3b7f5f0f79a2ea06974b" category="list-text">*授權金鑰*檔案應類似下列範例：</block>
+  <block id="ab7f417a2385f56bf831b9902a390400" category="list-text">完成後、請按一下*「Save（儲存）」*。</block>
+  <block id="c3e7db149fe242ddca9997ac42a654c4" category="list-text">對於雙工系統、您可以依照上述步驟、在第二個控制器上啟用遠端登入。如果您同時設定密碼和SSH金鑰選項、請務必再次選取*要求授權的公開金鑰和密碼以進行遠端登入*核取方塊。</block>
+  <block id="f7b0f586152c7d2bba5e5b934a1acc5d" category="list-text">技術支援完成疑難排解後、您可以返回「設定遠端登入」對話方塊、取消選取「*啟用遠端登入*」核取方塊、以停用遠端登入。如果在第二個控制器上啟用遠端登入、則會開啟確認對話方塊、並允許您停用第二個控制器上的遠端登入。</block>
+  <block id="8dadb2c1d4421308bddc6b5aea60ad17" category="paragraph">停用遠端登入會終止任何目前的SSH工作階段、並拒絕任何新的登入要求。</block>
+  <block id="ce65e0f974ee00c841cc8cb04dcc0929" category="paragraph">顯示磁碟機是否具備安全功能（是）（否）。可安全使用的磁碟機可以是全磁碟加密（FDE）磁碟機、也可以是聯邦資訊處理標準（FIPS）磁碟機（層級140-2或140-2）、在讀取期間加密資料。這些磁碟機被視為安全的磁碟機、因為它們可以使用磁碟機安全功能來提高安全性。如果已針對這些磁碟機所使用的磁碟區群組和集區啟用「磁碟機安全性」功能、磁碟機就會變成安全的-_enabled_.</block>
+  <block id="1974aafa112f63127faafcfced06eda0" category="list-text">如果您想要建立僅FDE集區、請在「Secure Capable（安全功能）」欄中尋找* Yes - FDE*。如果您要建立僅限FIPS的集區、請尋找*是- FIPS-或*是- FIPS（混合）*。「混合」表示混合使用140-2和140-2級磁碟機。如果混合使用這些層級、請注意集區將會以較低的安全層級（1402）運作。</block>
+  <block id="e55f799494378d33bdb123bc4ffa27ed" category="list-text">大型磁碟區是從集區或磁碟區群組建立。</block>
+  <block id="52334a81da7547dbe0a5723b5066a830" category="list-text">只能從集區建立精簡磁碟區、而非從磁碟區群組建立。</block>
+  <block id="ea7a3e597c665a39ba483dcd4c6f8800" category="list-text">精簡磁碟區必須是RAID 6。</block>
+  <block id="ab1005edb422f1f2812bee5e6a3ee9b1" category="list-text">您必須使用CLI來建立精簡磁碟區。</block>
+  <block id="16270243643ed7a37cef9de424ab9bde" category="list-text">FIPS磁碟機可以是140-2或140-3級、而層級140-2則是較高的安全層級。如果您混合選擇140-2和140-2層級磁碟機、則集區或Volume群組將會以較低的安全性層級（140-2）運作。</block>
+  <block id="76ef1c27f2bf0b2286bf7a6a58fb852b" category="list-text">如果您要建立僅FDE磁碟區群組、請在「Secure Capable（安全功能）」欄中尋找* Yes - FDE*。如果您要建立僅FIPS的Volume群組、請尋找*是- FIPS-或*是- FIPS（混合）*。「混合」表示混合使用140-2和140-2級磁碟機。如果混合使用這些層級、請注意Volume群組將會以較低的安全性層級（1402）運作。</block>
+  <block id="b2d3e7c610f3962f9a7e3b9baa02c363" category="section-title">11.74版的新功能</block>
+  <block id="158083b77acf87778347dd8cf3138b12" category="paragraph">支援FIPS 140-2</block>
+  <block id="93752d0e76882be98725c8b860259db3" category="paragraph">FIPS 140-2和NVMe型SSD目前支援特定磁碟機使用FIPS 140-2。FIPS 140-2層級SSD磁碟機可與FIPS 140-2層級SSD磁碟機共存、但前提是這些磁碟機均為NVMe型或所有SAS型。在Volume群組和磁碟集區中混合使用這些層級時、請注意群組或集區將會以較低的安全性層級（1402）運作。</block>
+  <block id="3f470942a1817eaa19da47ff83fd59ca" category="paragraph">MFA與SSH支援</block>
+  <block id="272f8c73e52dc0fe2c42cfc42fdbefc9" category="paragraph">針對版本11.74及更新版本、遠端登入功能可讓您設定多因素授權（MFA）、方法是要求使用者輸入SSH金鑰及/或SSH密碼。SANtricity「硬體」區段中的功能表選項已從*變更遠端登入*變更為*設定遠端登入（SSH）*。</block>
+  <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">此版本包含一項新功能、可用來建立存取權杖。這些權杖可讓您使用REST API或命令列介面（CLI）進行驗證、而不會洩漏使用者名稱和密碼。存取管理區段提供此功能。</block>
+  <block id="8eb80b537576ff75cd5bd8c229446b07" category="paragraph">美國政府執行令</block>
+  <block id="7b15a260552ea825bd80b5e7eee74344" category="paragraph">為了遵守執行訂單、本版本包含數項安全性變更。</block>
+  <block id="74f708399a048352be94abc06102bfb9" category="sidebar">使用存取權杖</block>
 </blocks>

@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/access-management-tokens.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, tokens 
+summary: 存取權杖可讓您存取陣列、而不會洩漏使用者名稱和密碼。 
+---
+= 存取權杖
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+存取權杖提供使用REST API或命令列介面（CLI）進行驗證的方法、而不會洩漏使用者名稱和密碼。權杖會與特定使用者（包括LDAP使用者）建立關聯、並包含一組權限和到期日。
+
+
+
+== SAML與Json Web權杖存取
+
+根據預設、啟用SAML的系統不允許存取傳統命令列工具。REST API和CLI實際上無法運作、因為MFA工作流程需要重新導向至身分識別供應商伺服器進行驗證。因此、您必須在System Manager中產生權杖、要求使用者透過MFA驗證。
+
+
+NOTE: 無需啟用SAML即可使用Web權杖、但為了達到最高安全等級、建議使用SAML。
+
+
+
+== 建立及使用權杖的工作流程
+
+. 在System Manager中建立權杖、並判斷其到期時間。
+. 將權杖文字複製到剪貼簿或下載到檔案、然後將權杖文字儲存在安全的位置。
+. 使用權杖的方式如下：
++
+** * REST API*：若要在REST API要求中使用權杖、請在要求中新增HTTP標頭。例如：
+`Authorization: Bearer _<access-token-value>_`
+** *安全CLI/*：若要在CLI中使用權杖、請在命令列上新增權杖值、或使用含有權杖值的檔案路徑。例如：
++
+*** 命令列上的權杖值： `-t _access-token-value_`
+*** 包含權杖值的檔案路徑： `-T _access-token-file_`
+
+
+
+
+
+
+深入瞭解：
+
+* link:access-management-tokens-create.html["建立存取權杖"]
+* link:access-management-tokens-edit.html["編輯存取權杖"]
+* link:access-management-tokens-revoke.html["撤銷存取權杖"]
+

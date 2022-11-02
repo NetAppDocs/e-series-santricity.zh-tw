@@ -31,7 +31,7 @@ summary: 您可以取得CA簽署的憑證、以便在控制器與瀏覽器之間
 
 [NOTE]
 ====
-或者、您也可以使用如OpenSSL的工具來產生CSR檔案、並跳至 <<Step 2: Submit the CSR files>>。
+或者、您也可以使用如OpenSSL的工具來產生CSR檔案、並跳至  2: Submit the CSR files。
 
 ====
 .步驟
@@ -78,7 +78,7 @@ summary: 您可以取得CA簽署的憑證、以便在控制器與瀏覽器之間
 +
 對於單一控制器、一個CSR檔案會下載到您的本機系統。對於雙控制器、會下載兩個CSR檔案。下載的資料夾位置取決於您的瀏覽器。
 
-. 前往 <<Step 2: Submit the CSR files>>。
+. 前往  2: Submit the CSR files。
 
 
 
@@ -96,7 +96,7 @@ summary: 您可以取得CA簽署的憑證、以便在控制器與瀏覽器之間
 *將CSR檔案提交給CA後、請勿重新產生其他CSR檔案。*每當您產生CSR時、系統會建立私密與公開金鑰配對。公開金鑰是CSR的一部分、而私密金鑰則保留在系統的Keystore中。當您收到簽署的憑證並匯入時、系統會確保私密金鑰和公開金鑰都是原始配對。如果金鑰不符、簽署的憑證將無法運作、您必須向CA要求新的憑證。
 
 ====
-. 當CA傳回簽署的憑證時、請前往 <<Step 3: Import signed certificates for controllers>>。
+. 當CA傳回簽署的憑證時、請前往  3: Import signed certificates for controllers。
 
 
 

@@ -51,7 +51,7 @@ LDAP伺服器的網域名稱。若為多個網域、請在以逗號分隔的清�
  a| 
 伺服器URL
  a| 
-以_LDAP[s]//host:port_格式存取LDAP伺服器的URL。
+以下列形式存取LDAP伺服器的URL `ldap[s]://host:port`。
 
 
 
@@ -84,7 +84,7 @@ LDAP伺服器的網域名稱。若為多個網域、請在以逗號分隔的清�
  a| 
 搜尋基礎DN
  a| 
-要搜尋使用者的LDAP內容、通常格式為「CN=Users、DC=cOPC、DC=local」。
+要搜尋使用者的LDAP內容、通常採用的形式 `CN=Users, DC=cpoc, DC=local`。
 
 
 

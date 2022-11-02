@@ -104,7 +104,7 @@ NOTE: 當您在上方輸入連結帳戶時、就會顯示此欄位。
  a| 
 搜尋基礎DN
  a| 
-輸入要搜尋使用者的LDAP內容、通常格式為「CN=Users、DC=cOPC、DC=local」。
+輸入要搜尋使用者的LDAP內容、通常是以的形式 `CN=Users, DC=cpoc, DC=local`。
 
 
 

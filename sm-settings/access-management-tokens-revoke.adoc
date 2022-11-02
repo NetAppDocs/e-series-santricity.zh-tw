@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/access-management-tokens-revoke.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, revoke tokens 
+summary: 如果您判斷權杖已遭入侵、您可以撤銷所有存取權杖。 
+---
+= 撤銷存取權杖
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您判斷權杖已遭入侵、或是想要手動執行密碼編譯金鑰輪替用來簽署及驗證存取權杖的密碼編譯金鑰、則可以撤銷所有存取權杖。
+
+此作業會重新產生用來簽署權杖的金鑰。金鑰重設後、_all_發行的權杖會立即失效。由於儲存陣列不會追蹤權杖、因此無法撤銷個別權杖。
+
+.步驟
+. 選取功能表：設定[Access Management（存取管理）]。
+. 選取*存取權杖*索引標籤。
+. 選取*撤銷所有存取權杖*。
+. 在對話方塊中、按一下*是*。
+
+
+撤銷所有權杖之後、您可以建立新權杖並立即使用。

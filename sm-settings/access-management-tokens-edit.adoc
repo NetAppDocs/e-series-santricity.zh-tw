@@ -1,0 +1,32 @@
+---
+permalink: sm-settings/access-management-tokens-edit.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, edit tokens 
+summary: 您可以編輯存取權杖的設定、包括到期時間和建立新權杖的能力。 
+---
+= 編輯存取權杖設定
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以編輯存取權杖的設定、包括到期時間和建立新權杖的能力。
+
+.步驟
+. 選取功能表：設定[Access Management（存取管理）]。
+. 選取*存取權杖*索引標籤。
+. 選取*檢視/編輯存取權杖設定*。
+. 在對話方塊中、您可以執行下列一項或兩項工作：
++
+** 啟用或停用權杖建立。
+** 變更現有權杖的到期日。
++
+
+NOTE: 當您取消選取「*啟用存取權杖*」設定時、會同時防止建立權杖和權杖驗證。如果您稍後重新啟用此設定、則可重新使用未過期的權杖。如果您想要永久撤銷所有現有的權杖、請參閱 link:access-management-tokens-revoke.html["撤銷存取權杖"]。
+
+
+
+. 按一下「 * 儲存 * 」。
+

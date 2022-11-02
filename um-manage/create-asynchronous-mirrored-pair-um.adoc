@@ -84,7 +84,7 @@ EF600或EF300儲存系統無法使用此功能。
 
 
 
-. 選擇* Next*並前往 <<Step 2: Select the primary volume>>。
+. 選擇* Next*並前往  2: Select the primary volume。
 +
 如果您定義了新的鏡射一致性群組、Unified Manager會先在本機儲存陣列上建立鏡射一致性群組、然後在遠端儲存陣列上建立鏡射一致性群組。您可以針對每個陣列啟動System Manager、以檢視及管理鏡射一致性群組。
 
@@ -121,7 +121,7 @@ EF600或EF300儲存系統無法使用此功能。
 
 
 
-. 選擇* Next*並前往 <<Step 3: Select the secondary volume>>。
+. 選擇* Next*並前往  3: Select the secondary volume。
 
 
 
