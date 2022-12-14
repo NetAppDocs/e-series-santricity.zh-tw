@@ -27,6 +27,7 @@ summary: 在技術支援的指導下或依照Recovery Guru的指示、您可以�
 請僅在Recovery Guru指示下、並在技術支援指導下檢查Volume備援。
 
 ====
+.關於這項工作
 您一次只能在一個集區或磁碟區群組上執行此檢查。磁碟區備援檢查會執行下列動作：
 
 * 掃描RAID 3 Volume、RAID 5 Volume或RAID 6 Volume中的資料區塊、並檢查每個區塊的備援資訊。（RAID 3只能使用命令列介面指派給Volume群組。）
@@ -56,6 +57,7 @@ summary: 在技術支援的指導下或依照Recovery Guru的指示、您可以�
 ** 檢查會在發生任何媒體或同位元檢查錯誤時停止、然後回報錯誤。
 +
 .詳細瞭解備援檢查的狀態
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

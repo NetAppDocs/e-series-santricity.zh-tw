@@ -14,6 +14,7 @@ summary: 如果您的儲存陣列控制器包含透過InfiniBand連接埠的iSER
 [role="lead"]
 如果您的儲存陣列控制器包含透過InfiniBand連接埠的iSER、您可以檢視有關主機連線的資料。
 
+.關於這項工作
 System Manager會顯示下列類型的iSER（相對於InfiniBand統計資料）。所有統計資料均為唯讀、無法設定。
 
 * *本機目標（傳輸協定）統計資料*-提供iSER over InfiniBand目標的統計資料、顯示區塊層級存取其儲存媒體的情形。

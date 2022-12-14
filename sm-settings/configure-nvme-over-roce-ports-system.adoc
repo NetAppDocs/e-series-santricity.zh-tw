@@ -30,6 +30,7 @@ summary: 如果您的控制器包含NVMe over RoCE（透過整合式乙太網路
 
 +
 .欄位詳細資料
+[%collapsible]
 ====
 [cols="1a,1a"]
 |===
@@ -68,6 +69,7 @@ MTU大小（按一下*顯示更多連接埠設定*即可取得）。
 . 自動或手動設定IPv6和/或IPv6設定。
 +
 .欄位詳細資料
+[%collapsible]
 ====
 [cols="1a,1a"]
 |===

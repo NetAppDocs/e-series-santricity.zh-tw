@@ -19,6 +19,7 @@ summary: 支援HTTPS、HTTP和SMTP傳輸協定的功能、AutoSupport 可將Auto
 * 必須在網路中安裝和設定DNS伺服器。DNS伺服器位址必須在系統管理員中設定（此工作可從「硬體」頁面取得）。
 
 
+.關於這項工作
 檢閱不同的傳輸協定：
 
 * * HTTPS *：可讓您使用HTTPS直接連線至目的地技術支援伺服器。如果您要啟用AutoSupport 「僅供支援的更新」或「遠端診斷」、AutoSupport 則必須將「提供支援的方法」設為HTTPS。

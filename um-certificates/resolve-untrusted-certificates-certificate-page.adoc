@@ -27,6 +27,7 @@ summary: 當儲存陣列嘗試建立安全連線至SANtricity NetApp Unified Man
 
 
 
+.關於這項工作
 如果符合下列任一項條件、您可能需要安裝其他信任的CA憑證：
 
 * 您最近新增了儲存陣列。

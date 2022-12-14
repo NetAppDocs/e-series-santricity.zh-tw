@@ -14,8 +14,10 @@ summary: 您可以在AutoSupport 初始設定期間啟用「支援功能」和�
 [role="lead"]
 您可以在AutoSupport 初始設定期間啟用「支援功能」和個別AutoSupport 的「支援功能」、也可以稍後啟用或停用。
 
+.開始之前
 如果您要啟用AutoSupport 「僅供支援的更新」或「遠端診斷」、AutoSupport 則必須將「提供支援的方法」設為HTTPS。
 
+.關於這項工作
 您可以AutoSupport 隨時停用此功能、但強烈建議您保持啟用狀態。如果AutoSupport 儲存陣列發生問題、啟用「支援功能」可大幅加快問題的判斷與解決速度。
 
 此功能由三項個別功能組成、AutoSupport 您可以分別啟用。

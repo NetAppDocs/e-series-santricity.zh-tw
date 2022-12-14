@@ -33,6 +33,7 @@ summary: 您可以刪除資源池或磁碟區群組、以建立更多未指派�
 . 選取功能表：Uncommon Tasks（非正常工作）[Delete（刪除）]並確認。
 
 
+.結果
 System Manager會執行下列動作：
 
 * 刪除集區或Volume群組中的所有資料。

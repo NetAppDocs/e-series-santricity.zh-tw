@@ -14,6 +14,7 @@ summary: 您可以檢視儲存陣列的NVMe over Fabrics連線相關資料。
 [role="lead"]
 您可以檢視儲存陣列的NVMe over Fabrics連線相關資料。
 
+.關於這項工作
 System Manager會顯示這些類型的NVMe over Fabrics統計資料。所有統計資料均為唯讀、無法設定。
 
 * * NVMe子系統統計資料*-顯示NVMe控制器及其佇列的統計資料。NVMe控制器提供主機與儲存陣列中命名空間之間的存取路徑。您可以檢閱NVMe子系統統計資料、查看連線故障、重設和關機等項目。

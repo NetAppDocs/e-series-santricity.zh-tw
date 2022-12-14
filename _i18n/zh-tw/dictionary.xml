@@ -8710,7 +8710,6 @@
   <block id="3f470942a1817eaa19da47ff83fd59ca" category="paragraph">MFA與SSH支援</block>
   <block id="272f8c73e52dc0fe2c42cfc42fdbefc9" category="paragraph">針對版本11.74及更新版本、遠端登入功能可讓您設定多因素授權（MFA）、方法是要求使用者輸入SSH金鑰及/或SSH密碼。SANtricity「硬體」區段中的功能表選項已從*變更遠端登入*變更為*設定遠端登入（SSH）*。</block>
   <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">此版本包含一項新功能、可用來建立存取權杖。這些權杖可讓您使用REST API或命令列介面（CLI）進行驗證、而不會洩漏使用者名稱和密碼。存取管理區段提供此功能。</block>
-  <block id="8eb80b537576ff75cd5bd8c229446b07" category="paragraph">美國政府執行令</block>
-  <block id="7b15a260552ea825bd80b5e7eee74344" category="paragraph">為了遵守執行訂單、本版本包含數項安全性變更。</block>
   <block id="74f708399a048352be94abc06102bfb9" category="sidebar">使用存取權杖</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
 </blocks>
