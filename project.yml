@@ -17,7 +17,7 @@ settings:
   - name: 軟件SANtricity
     url: "/e-series-santricity-115"
     version-number: '11.5'
-  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr
+  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: 資訊11.7文件SANtricity
