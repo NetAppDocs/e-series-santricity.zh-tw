@@ -8712,4 +8712,6 @@
   <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">此版本包含一項新功能、可用來建立存取權杖。這些權杖可讓您使用REST API或命令列介面（CLI）進行驗證、而不會洩漏使用者名稱和密碼。存取管理區段提供此功能。</block>
   <block id="74f708399a048352be94abc06102bfb9" category="sidebar">使用存取權杖</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
+  <block id="17fbe20fbbd5b537dbcef5b0ec0d1dea" category="section-title">11.75 版的新功能</block>
+  <block id="fc663b28a8d6054c2d97e0b897d7291f" category="paragraph">系統必須執行 11.70.5 才能升級至 11.8.x 或更新版本。</block>
 </blocks>
