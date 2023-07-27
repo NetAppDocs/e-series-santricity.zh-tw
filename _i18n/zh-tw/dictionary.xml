@@ -8681,7 +8681,6 @@
   <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">請注意、啟用 SAML 時、您不會移除權限、否則您將無法存取 Unified Manager 。</block>
   <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">按一下欄位、然後選取要對應至屬性的其中一個儲存陣列角色。您必須個別選取要納入此群組的每個角色。必須搭配其他角色使用「監控」角色、才能登入 Unified Manager 。必須將安全管理員角色指派給至少一個群組。對應的角色包括下列權限：</block>
   <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80 的新功能</block>
-  <block id="ee178cd31372157b6b4ef199f32f28e6" category="paragraph">下表說明 SANtricity System Manager 11.8x 的新功能。</block>
   <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">11.80 版的新功能</block>
   <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">增強的 Volume 同位檢查掃描</block>
   <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">Volume 同位元檢查掃描現在可以透過 REST API 或 CLI 作為背景程序啟動。只要需要完成掃描作業、所產生的同位元檢查掃描就會在背景中執行。在控制器重新開機和容錯移轉作業之後、掃描作業仍可繼續執行。</block>
@@ -8716,7 +8715,6 @@
   <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">連接埠識別碼</block>
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">每當發生警示事件時、事件監控器都會傳送警示至syslog伺服器。若要進一步設定稽核記錄的 Syslog 設定、請參閱<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">設定完成後、所有新的稽核記錄都會傳送到syslog伺服器。不會傳輸先前的記錄。若要進一步設定警示的 Syslog 設定、請參閱<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
-  <block id="4bc4384815b2cb7cd1edee10550e5472" category="list-text">_TBD 提供 11.80 版本資訊 _</block>
   <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricity 軟體文件 11.80</block>
   <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">Unified Manager 6 提供多個陣列管理功能</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager （系統管理器） - 一種基於 Web 的界面，用於管理網絡中的單個存儲陣列。</block>
@@ -8725,4 +8723,7 @@
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">磁碟機、控制器和元件檢視</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">若要在前置和後置視圖之間切換、請從最右側選擇 * 磁碟機 * 或 * 控制器與元件 * （顯示的連結取決於目前視圖）。「 * 磁碟機 * 」檢視會顯示磁碟機和任何空磁碟機支架。"* 控制器與元件 * " 檢視會顯示控制器、任何 IOM （ ESM ）模組、電源 / 風扇迴廊或空的控制器托架。在頁面底部、您也可以選取 * 顯示所有磁碟機 * 。</block>
   <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8 文件</block>
+  <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">下表說明 SANtricity 系統管理員 11.8 的新功能。</block>
+  <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80 版本資訊</block>
+  <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
 </blocks>

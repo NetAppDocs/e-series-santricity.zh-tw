@@ -12,7 +12,7 @@ summary: 更新功能。SANtricity
 
 
 [role="lead"]
-下表說明 SANtricity System Manager 11.8x 的新功能。
+下表說明 SANtricity 系統管理員 11.8 的新功能。
 
 
 
