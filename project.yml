@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SANtricity 11.7
+  name: SANtricity 11.8
   internal:
     pdf_enabled: true
   prod:
@@ -10,17 +10,17 @@ settings:
   versions:
   - name: 軟件SANtricity
     url: "/e-series-santricity"
+    version-number: '11.8'
+  - name: 軟件SANtricity
+    url: "/e-series-santricity-117"
     version-number: '11.7'
   - name: 軟件SANtricity
     url: "/e-series-santricity-116"
     version-number: '11.6'
-  - name: 軟件SANtricity
-    url: "/e-series-santricity-115"
-    version-number: '11.5'
   langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: 資訊11.7文件SANtricity
+  - title: SANtricity 11.8 文件
     url: "/index.html"
   - title: 版本資訊
     entries:
@@ -1428,6 +1428,8 @@ sidebar:
           url: "/um-certificates/access-management-with-local-user-roles-unified.html"
         - title: 目錄服務
           url: "/um-certificates/access-management-with-directory-services-unified.html"
+        - title: SAML
+          url: "/um-certificates/access-management-with-saml.html"
       - title: 使用本機使用者角色
         entries:
         - title: 檢視本機使用者角色
@@ -1444,6 +1446,14 @@ sidebar:
           url: "/um-certificates/edit-directory-server-settings-unified.html"
         - title: 移除目錄伺服器
           url: "/um-certificates/remove-directory-server-unified.html"
+      - title: 使用SAML
+        entries:
+        - title: 設定SAML
+          url: "/um-certificates/configure-saml.html"
+        - title: 變更SAML角色對應
+          url: "/um-certificates/change-saml-role-mappings.html"
+        - title: 匯出SAML服務供應商檔案
+          url: "/um-certificates/export-saml-service-provider-files.html"
       - title: 常見問題集
         entries:
         - title: 為什麼我無法登入？
@@ -1452,6 +1462,8 @@ sidebar:
           url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
         - title: 我需要知道哪些關於對應至儲存陣列角色的資訊？
           url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+        - title: 在設定及啟用SAML之前、我需要知道哪些資訊？
+          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
         - title: 什麼是本機使用者？
           url: "/um-certificates/what-are-the-local-users.html"
   - title: 舊版

@@ -2122,9 +2122,7 @@
   <block id="133e870accd4d91c65fa10366ad02af9" category="summary">瞭解在儲存陣列上使用SSD快取時的限制。</block>
   <block id="80f1844d851eb214289c81e17bd44a14" category="doc">SSD快取限制</block>
   <block id="9d72037d37d97e866a871742350e2716" category="list-text">目前、每個儲存陣列僅支援一個SSD快取。</block>
-  <block id="ff5b4e80fe614d519f02e8f224dc2de7" category="list-text">儲存陣列上可用的SSD快取容量上限為5 TB。</block>
   <block id="97b9c6e578c0883e20aadb4f02c00a1e" category="list-text">快照映像不支援SSD快取。</block>
-  <block id="d21445fece9edf99aa401b679ab88404" category="list-text">EF600或EF300儲存系統無法使用SSD快取。</block>
   <block id="e22e0c1392518c21faad5c9ac78068af" category="list-text">如果您匯入或匯出啟用或停用SSD快取的磁碟區、則不會匯入或匯出快取資料。</block>
   <block id="9cc197508cad9634df67cf7b0b11d0bd" category="section-title">磁碟機安全性的限制</block>
   <block id="e1b6a65b182d5e02d3700acd8bb670b8" category="list-text">只有在建立SSD快取時、才能啟用SSD快取的安全功能。稍後您無法像在磁碟區上一樣啟用安全性。</block>
@@ -2388,8 +2386,6 @@
   <block id="982dc39a81f4c08c243979992140a5ae" category="paragraph">Snapshot基礎Volume</block>
   <block id="0f785d041eee7b7907327cd693370cf7" category="paragraph">遠端鏡射主要Volume</block>
   <block id="d3e800228af9a7ced9cadbe31f21cf71" category="paragraph">是：2^</block>
-  <block id="e0918d282f1e0cdbd13a7b9a760e60fa" category="paragraph">在線上複製作業完成之前、您無法使用快照Volume複本。</block>
-  <block id="9a068d1705273de62c0ad27947835884" category="paragraph">^2^如果來源Volume是主要Volume、則目標Volume的容量必須等於或大於來源Volume的可用容量。</block>
   <block id="ab87e62e800671b6098ddf7bc94218b6" category="summary">「自動負載平衡」功能可提供自動化I/O平衡、確保來自主機的傳入I/O流量能在兩個控制器之間動態管理和平衡。</block>
   <block id="a157fdfdfd489a3e346a840af725de72" category="doc">什麼是自動負載平衡？</block>
   <block id="21a7704071eaa17ea0d77b35a438060a" category="paragraph">「自動負載平衡」功能可動態回應一段時間內的負載變更、並自動調整Volume控制器擁有權、以修正工作負載在控制器之間移轉時發生的任何負載不平衡問題、進而改善I/O資源管理。</block>
@@ -2510,8 +2506,6 @@
   <block id="71c81db35fb18aa830a01c8148b7fd9b" category="doc">建立SSD快取</block>
   <block id="a6d73d9dc7f4e71c912136bc15d8eebf" category="paragraph">若要動態加速系統效能、您可以使用SSD快取功能、將最常存取的資料（「熱」資料）快取到較低延遲的固態硬碟（SSD）。SSD快取僅用於主機讀取。</block>
   <block id="a2c0f0ef572025e49612def6abf4cfdb" category="paragraph">您的儲存陣列必須包含某些SSD磁碟機。</block>
-  <block id="173bba3aad3086588981b6c7bec3a84d" category="paragraph">建立SSD快取時、您可以使用單一磁碟機或多個磁碟機。由於讀取快取位於儲存陣列中、因此快取會在所有使用儲存陣列的應用程式之間共享。您可以選取要快取的磁碟區、然後快取會自動且動態地進行。</block>
-  <block id="45860ebbd64c6433eec904e6800eee62" category="paragraph">建立SSD快取時、請遵循下列準則。</block>
   <block id="5d8c9d67963d87b710730ac7aa1ce1c8" category="list-text">您只能在建立SSD快取時啟用安全功能、而不能稍後再啟用。</block>
   <block id="8b7f5cbf32b250b85fce451c90b76efd" category="list-text">每個儲存陣列僅支援一個SSD快取。</block>
   <block id="00a32f960b42cd5c1477c219d9776117" category="list-text">儲存陣列上可用的SSD快取容量上限取決於控制器的主要快取容量。</block>
@@ -3176,7 +3170,6 @@
   <block id="1057d2d359811cab2659d02796e6fb5b" category="paragraph">* Snapshot Volume設定*</block>
   <block id="8f780a4ba90241ab0c838a7800a89097" category="paragraph">指定快照磁碟區的名稱。</block>
   <block id="3a35ff2046f8d1617d34b0b0237b9943" category="paragraph">啟用SSD快取</block>
-  <block id="f89aa75edf68b6cc7c33cb56fcd0571e" category="paragraph">選擇此選項可在SSD上啟用唯讀快取。附註：EF600或EF300儲存系統無法使用此功能。</block>
   <block id="89228fb03fdbc0521cd8249cd8368145" category="paragraph">*僅在讀寫快照磁碟區*中顯示。</block>
   <block id="1d66532a5990ea3c938903ec37256dc8" category="list-text">檢閱Snapshot Volume組態。按一下*上一步*進行任何變更。</block>
   <block id="6be75b87c417c9d3fef58c3d1051e937" category="list-text">當您對快照磁碟區組態感到滿意時、請按一下*完成*。</block>
@@ -3727,7 +3720,6 @@
   <block id="020f28d400689ad48a42682372a8ae0c" category="section-title">SSD快取與主要快取的比較</block>
   <block id="8c4610952d549ec3ac128d217f6d1a1d" category="paragraph">SSD快取的運作方式與主要快取不同：</block>
   <block id="b1811dec2d9e4fc056f1220e1d68ac6a" category="list-text">對於主快取、每個I/O作業都必須透過快取來登入資料、才能執行作業。</block>
-  <block id="28d2b37b49d1a77bcd91b18d5ebb4833" category="list-text">SSD快取僅用於將資料放入快取中、以改善整體系統效能。</block>
   <block id="588aff6b35571bdbf372cbe1fbf8f57b" category="section-title">如何使用SSD快取</block>
   <block id="8f18c80ca098b6360ef9cfc806c65412" category="paragraph">智慧型快取會將資料放在較低延遲的磁碟機中、以便更快回應未來對該資料的要求。如果程式要求快取中的資料（稱為「快取命中率」）、則低延遲磁碟機可以為該交易提供服務。否則、會發生「快取記憶體遺漏」、而且必須從原始、較慢的磁碟機存取資料。隨著快取命中次數增加、整體效能也會提升。</block>
   <block id="32d026a62b1127ef39fc4ad853bb420e" category="paragraph">當主機程式存取儲存陣列的磁碟機時、資料會儲存在SSD快取中。當主機程式再次存取相同的資料時、會從SSD快取讀取、而非從硬碟機讀取。一般存取的資料會儲存在SSD快取中。只有在無法從SSD快取讀取資料時、才能存取硬碟機。</block>
@@ -3909,15 +3901,9 @@
   <block id="ef15fd2f45e6bb5ce57587895ba64f93" category="cell">瀏覽器</block>
   <block id="d0a2e00895462c37efe5227c5b94faae" category="cell">最低版本</block>
   <block id="76868ae832f6c6bd26cadc7d7c269986" category="paragraph">Google Chrome</block>
-  <block id="d1fe173d08e959397adf34b1d77e88d7" category="paragraph">79</block>
   <block id="c70af508e72e2dc32d72f3765abb21b9" category="paragraph">Mozilla Firefox</block>
-  <block id="7cbbc409ec990f19c78c75bd1e06f215" category="paragraph">70</block>
   <block id="50de9bc68c93dc32d8c7c90593471760" category="paragraph">Safari</block>
-  <block id="c20ad4d76fe97759aa27a0c99bff6710" category="paragraph">12.</block>
   <block id="a5c41f715c1b8a880253846c025624e9" category="paragraph">Microsoft Edge</block>
-  <block id="0d5633564f2e86c474c8e4f8c9a8d533" category="paragraph">Microsoft Edge舊版</block>
-  <block id="6f4922f45568161a8cdf4ad2299f6d23" category="paragraph">18</block>
-  <block id="cede765df61358635d71c56c97dfc628" category="paragraph">Microsoft Internet Explorer（MSIE）</block>
   <block id="24bfb1beabc66d9a6a219a39706480f0" category="paragraph">必須安裝Web服務Proxy、並可供瀏覽器使用。</block>
   <block id="c905ab540cd89c88f522731c7c764a87" category="summary">您可以變更用於存取SANtricity 《統一化管理程式（NetApp）管理程式（Cisco Unified Manager）」的管理密碼。</block>
   <block id="644a1b99d39f24449d49b931a61fc964" category="doc">變更管理密碼</block>
@@ -3986,7 +3972,6 @@
   <block id="e592adde2bfcb912261b63a294753016" category="paragraph">目前登入系統的使用者會顯示在介面右上角。</block>
   <block id="216b0b121e6f2408241a848b4595c30c" category="paragraph">如需使用者和密碼的詳細資訊、請參閱：</block>
   <block id="dab914db541126686bbe7301f26a031b" category="list-text"><block ref="dab914db541126686bbe7301f26a031b" category="inline-link-macro-rx"></block></block>
-  <block id="0ce99b430e0880d9c5b01d46d038d4dd" category="summary">統一化管理程式5. SANtricity</block>
   <block id="d424dbef08902607fe74ce66143ded85" category="summary">存取並登入Unified Manager。</block>
   <block id="935157885838ef2e13b906dc3cfa3504" category="doc">存取Unified Manager</block>
   <block id="0fe8e078d723310c7a025dbb49b053a2" category="paragraph">安裝Web服務Proxy之後、您可以存取Unified Manager、在網路型介面中管理多個儲存系統。</block>
@@ -4002,9 +3987,7 @@
   <block id="33f269cc4cd9098419c158473cffe9e4" category="summary">E系列系統包含SANtricity 用於儲存資源配置和其他工作的支援功能。</block>
   <block id="75a9a7dc8aca16de32b785f0f7b9bc1d" category="doc">軟體概述SANtricity</block>
   <block id="ba3a0fdc8434a7821716045b35ac5b56" category="paragraph">本網站說明如何使用下列SANtricity 的資訊管理介面：</block>
-  <block id="43a99cf5380d48020dfc1071e466e3eb" category="list-text">System Manager（系統管理器）-一種Web型介面、用於管理儲存陣列中的一個控制器。</block>
   <block id="4c8fa256f7bb6a36c0dff2d7c9f2a7d3" category="list-text">Unified Manager -網路型介面、用於檢視及管理網路中的所有儲存陣列。</block>
-  <block id="63c27446cbc875ce50da9011ea68f5d7" category="admonition">EF600和EF300儲存陣列不支援鏡射、精簡磁碟區或SSD快取功能。</block>
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">系統管理程式SANtricity</block>
   <block id="12491fe4846acc1919e62f4155149b40" category="paragraph">System Manager是內嵌在每個控制器上的網路型管理軟體。若要存取使用者介面、請將瀏覽器指向控制器的IP位址。設定精靈可協助您開始進行系統組態。</block>
   <block id="e6f420d96363bcc9439b0954a152e61f" category="paragraph">System Manager提供多種管理功能、包括：</block>
@@ -4025,7 +4008,6 @@
   <block id="977cf952b67f04593161910be13ac423" category="paragraph"><block ref="a6a7b63c3e542eaa546ff069c241f75d" category="inline-image-macro-rx" type="image"></block> *支援*</block>
   <block id="7c7aa1597492a4229481882a3be47b81" category="paragraph">檢視診斷資料、管理升級及設定AutoSupport 功能、以監控儲存陣列的健全狀況、並將自動派單傳送給技術支援部門。</block>
   <block id="93abfbfe31ac8cb67502c94e622ee8a8" category="section-title">統一化管理程式SANtricity</block>
-  <block id="1a3e4ccf2425125b19b4d5b3b8b17da4" category="paragraph">Unified Manager是網路型軟體、用於管理整個網域。從中央檢視中、您可以看到所有較新E系列和EF系列陣列的狀態、例如E2800、EF280、EF300、E5700、EF570、 和EF600。您也可以在選定的儲存陣列上執行批次作業。</block>
   <block id="290c862dcfeff5fefc8c9503485b46d9" category="paragraph">Unified Manager與Web Services Proxy一起安裝在管理伺服器上。若要存取Unified Manager、請開啟瀏覽器並輸入指向安裝Web服務Proxy之伺服器的URL。</block>
   <block id="95a409858014f8a46f2239633494b0b4" category="paragraph">Unified Manager提供多種管理功能、包括：</block>
   <block id="ec15df373d2a99afa12ee47320a598ac" category="paragraph"><block ref="8d2259f5e99b0f05cb6565c4c3a18f32" category="inline-image-macro-rx" type="image"></block> *探索儲存陣列*</block>
@@ -4372,65 +4354,7 @@
   <block id="3337fca1f09a5e507012992667f833f6" category="list-text">*如果您想要移除密碼保護*-如果您不想再使用密碼保護命令、請輸入目前的管理員密碼、並將新密碼文字方塊保留空白。</block>
   <block id="e4dc49d2a53d5925837f317bdef933eb" category="paragraph">在儲存陣列上執行組態命令可能會造成嚴重損害、包括資料遺失。因此、您應該永遠為儲存陣列設定管理員密碼。請使用至少15個英數字元的長管理員密碼來提高安全性。</block>
   <block id="7bf44c1a455e947396fedd5ddf411974" category="summary">更新功能。SANtricity</block>
-  <block id="6defcbe1a602cf38299438f5eeae8697" category="doc">更新功能SANtricity</block>
-  <block id="38069ae65990ed9bd66b090a8754bcb1" category="paragraph">下表說明SANtricity 《Sytricity System Manager 11.7》的新功能。</block>
-  <block id="09ebea90b63074ba83d2ad844e89d70c" category="section-title">11.73版的新功能</block>
   <block id="824a3a83a007a97494ec5981cebf67a5" category="cell">新功能</block>
-  <block id="36349de7ac0eb86303bed03895c1dcc2" category="paragraph">資源配置與DULBE支援</block>
-  <block id="16fb65d0cddfe2d4c247fdab06b8cc43" category="paragraph">此版本現在完全支援資源配置功能和DULBE磁碟機功能。這項支援包括讓主機導向的未對應資源配置磁碟區更容易使用。</block>
-  <block id="e3b2852f4ef13c9d9eb1a41a50d744b5" category="paragraph">EF600 SAS（512e）擴充</block>
-  <block id="299fb5bbb23387835d58bf5165cddeba" category="paragraph">此版本支援EF600儲存系統擴充至SAS-3機箱。藉由這項擴充、4KiB-block NVMe SSD可與512e SAS SSD和HDD共存。但是、無法在相同的集區或磁碟區群組中設定具有不同區塊大小的磁碟機。</block>
-  <block id="c73d7f2c67532a6b036251cdeb908f76" category="paragraph">支援qlc SSD</block>
-  <block id="e7049769f502b79dadcc8c63383bd373" category="paragraph">此版本支援ONTAP 目前一代的QLC SSD、該SSD在磁碟機韌體中已設定了一些功能、但沒有完整的E系列專屬功能集。qlc磁碟機（僅限NVMe）成本較低、但寫入效能較低、耐受度較低、因此不應用於寫入密集的工作負載。</block>
-  <block id="854da640a0760b1616bb0284c5ac42aa" category="paragraph">TLS 1.3支援</block>
-  <block id="a1ebc729e73cec123d0c98336b6e1c01" category="paragraph">TLS 1.3現在支援內嵌管理。這項支援適用於System Manager和內嵌式Web服務、可啟用或停用。（在先前的Web服務Proxy和Unified Manager版本中新增了TLS 1.3支援。）</block>
-  <block id="f1f2fd644d915b365b5abb8c91c74bfa" category="paragraph">RAID 1 DDP（至少8個磁碟機）</block>
-  <block id="7b17410dd494661b52f2ac79eab0c721" category="paragraph">在此版本中、RAID 1 DDP不再需要集區中至少11個SSD。如果池中只建立RAID 1磁碟區、則最低容量現在允許8個磁碟機SSD集區。</block>
-  <block id="8b4b67bab63907548f025722a3d981e6" category="paragraph">EKMS金鑰刪除</block>
-  <block id="7aaef9b529c633049aca22e386a95abc" category="paragraph">儲存管理員現在可以要求外部金鑰管理伺服器（EKMS）刪除舊金鑰。金鑰刪除只會在安裝磁碟機有新金鑰之後、於重新金鑰程序期間進行。</block>
-  <block id="1a75366a6d4c821ee7e455bce4cffa25" category="section-title">11.72版的新功能</block>
-  <block id="28b46397fb020adcaf0b119cbfa693b5" category="paragraph">支援v3</block>
-  <block id="a9ed1ee525d0d08488f9de3235270743" category="paragraph">您現在可以在功能表：設定[警示]中設定警示通知、支援使用v3。v3可透過強式驗證和資料加密來提供安全性。</block>
-  <block id="c2e4a04d91c5a3b8fe7446de157eb681" category="paragraph">支援將金鑰複寫至多個金鑰伺服器</block>
-  <block id="292510d91cd4366627aba2eec79ec942" category="paragraph">針對自我加密磁碟機的外部金鑰管理、「建立外部金鑰管理」對話方塊中包含新的選項、可新增多個金鑰伺服器。</block>
-  <block id="68a7548c04bd5ae4d9d965b924cc722e" category="paragraph">更新瀏覽器版本</block>
-  <block id="2d7d47101a0ad5c71e2101ebb7e5f475" category="paragraph">已更新System Manager最低瀏覽器版本。</block>
-  <block id="3c7e7b17dae4906b0da9248a0e7f39e2" category="section-title">11.71版的新功能</block>
-  <block id="9f498a936b91eb825293b845ab4c4a34" category="paragraph">EF300擴充</block>
-  <block id="4cd824b82861a81d3a34355af5534978" category="cell">此版本支援EF300儲存系統擴充至SAS-3機箱。藉由這項擴充、4KiB-block NVMe SSD可與512e SAS SSD和HDD共存。但是、無法在相同的集區或磁碟區群組中設定具有不同區塊大小的磁碟機。</block>
-  <block id="e26cc7c9038cf4d3175e8bf30d816d86" category="paragraph">iSCSI組態中的FEC模式選項</block>
-  <block id="96d538d953209d533cee6c90da4de1a1" category="paragraph">對於使用25GB iSCSI主機介面卡的儲存陣列、當您設定iSCSI連接埠時、可以使用新選項來設定轉送錯誤修正（FEC）模式。</block>
-  <block id="ea9c177239be0bc55bf551920e73ec9e" category="paragraph">遠端儲存磁碟區</block>
-  <block id="4c46d61572ef34b4dbdbc7690d745c3d" category="paragraph">選用的遠端儲存磁碟區功能可讓您使用iSCSI連線、從遠端儲存系統將磁碟區匯入本機E系列儲存系統。遠端儲存設備的品牌可能與您的E系列系統相同、也可能來自不同的儲存設備廠商、只要透過iSCSI即可存取即可。</block>
-  <block id="ae376d8e855c99ce33d3f6e542edc956" category="paragraph">為非FDE磁碟機新增掃用（清除）功能</block>
-  <block id="7113199ede26393de60c4e8d5222d08d" category="paragraph">磁碟機清理功能現在已在程序中包含非FDE磁碟機。在「Hardware（硬體）」頁面中、您可以開啟磁碟機的內容功能表、然後選取「Erase（清除）」（此選項先前為「Secure Erase（安全清除）」）。</block>
-  <block id="e85e5cd7a142a229a3e8752a4502bb6a" category="paragraph">電子郵件警示的安全連線</block>
-  <block id="50c890918fa832fcbdebb84798840bcc" category="paragraph">若要啟用加密電子郵件通知、您可以選擇性地設定傳出電子郵件（警示、ASUP派單）以提供驗證認證。加密類型包括SMTPS和ARTTLS。</block>
-  <block id="a98e92b119d04e5ca0c2e3a8c6cc6159" category="paragraph">補充項目AutoSupport</block>
-  <block id="31d5de0104fd289863adccff1475589e" category="paragraph">若未啟用功能、「通知」區域會出現警示AutoSupport 。</block>
-  <block id="5994d3724fb50db3bc66184d3f47b830" category="paragraph">系統記錄警示格式變更</block>
-  <block id="6972891f094c169717c1d2cc01a9c332" category="paragraph">Syslog警示格式現在支援RFC 5424。</block>
-  <block id="c91b20af8c08d49b519596d358be5e0f" category="section-title">11.70版的新功能</block>
-  <block id="fd6d564757d9bebb4afdcbc6e49ae663" category="paragraph">全新儲存系統機型–EF300</block>
-  <block id="1d9b013014a7b904368939502c5b6aad" category="paragraph">此版本推出EF300低成本All NVMe Flash儲存系統。EF300包括24個NVMe SSD磁碟機、以及每個控制器一個主機介面卡（HIC）。支援的NVMe over Fabrics主機介面包括NVMe over IB、NVMe over RoCE和NVMe over FC。支援的SCSI介面包括FC、IB over iSER和IB over SRP。可在Unified Manager中檢視及管理多個EF300儲存系統和其他E系列儲存系統。</block>
-  <block id="c3164ba2335231fad0057dbe03d6e8dc" category="paragraph">新的資源配置功能（僅限EF300和EF600）</block>
-  <block id="43fc15888e6c15a34af56dfc2d49240a" category="paragraph">EF300和EF600儲存系統的資源配置功能是新功能。資源配置的磁碟區可立即投入使用、無需背景初始化程序。</block>
-  <block id="86fffc443dc49ef49131fe738b172a29" category="paragraph">新增512e區塊大小選項（僅限EF300和EF600）</block>
-  <block id="34e8ca8f8da7ea96f1b8450def8131aa" category="paragraph">對於EF300和EF600儲存系統、可以設定一個磁碟區來支援512位元組或4KiB區塊大小。新增512e功能、可支援iSCSI主機介面和VMware OS。如果可能、System Manager會建議適當的預設值。</block>
-  <block id="97815730af7a32b4bee2bd50133bcc3b" category="paragraph">可AutoSupport 隨需傳送功能不全的更新選項</block>
-  <block id="caf318d779d33bdcaf1cb8e5ddefea9d" category="paragraph">全新的「傳送AutoSupport 支援資料」功能可讓您將資料傳送至技術支援部門、而無需等待排定的派單。此選項可在AutoSupport 支援中心的「支援中心」的「資訊」索引標籤中找到。</block>
-  <block id="7648787a2f72ca73c563621d8f772039" category="paragraph">外部金鑰管理伺服器增強功能</block>
-  <block id="d71804131a489a34d629405530d25a01" category="paragraph">連線至外部金鑰管理伺服器的功能包括下列增強功能：</block>
-  <block id="5ce158a574155a1dbf2c52d1112ea5c9" category="list-text">略過建立備份金鑰的功能。</block>
-  <block id="a83cf593b4f7f5cb340b9eb8c9b13daa" category="list-text">除了用戶端和伺服器憑證之外、請為金鑰管理伺服器選擇中繼憑證。</block>
-  <block id="a41ead92ad6d32095eee6328103a4c8f" category="paragraph">憑證增強功能</block>
-  <block id="734830643da23e9370e728f64d10f308" category="paragraph">此版本可讓您使用外部工具（例如、OpenSSL）來產生憑證簽署要求（CSR）、這也需要您匯入私密金鑰檔案及簽署的憑證。</block>
-  <block id="0d3d43e6247ef530e5466168527ca61c" category="paragraph">Volume群組的全新離線初始化功能</block>
-  <block id="428d905bdf1b0c959591111aad19309d" category="paragraph">對於Volume建立、System Manager提供跳過主機指派步驟的方法、以便離線初始化新建立的Volume。此功能僅適用於SAS磁碟機上的RAID Volume群組（亦即、不適用於動態磁碟集區或EF300和EF600儲存系統中隨附的NVMe SSD）。此功能適用於需要在使用開始時讓磁碟區達到完整效能的工作負載、而非在背景執行初始化。</block>
-  <block id="0587e4aa2345855c1a604c02193816de" category="paragraph">全新的「收集組態資料」功能</block>
-  <block id="3caef3194845d0349b1fde3b790187bf" category="paragraph">這項新功能可儲存控制器的RAID組態資料、其中包含Volume群組和磁碟集區的所有資料（與「儲存陣列dbmDatabase」的CLI命令相同）。此功能已新增至輔助技術支援、位於支援中心的診斷標籤中。</block>
-  <block id="fa255949f43078f9547e0b38d42d3df0" category="paragraph">在12個磁碟機案例中變更磁碟集區的預設保留容量</block>
-  <block id="5a4dc582c4bbb046fe16599fb3458522" category="paragraph">先前建立的12個磁碟機磁碟集區具有足夠的保留（備援）容量、可容納兩個磁碟機。現在、預設值已變更為處理單一磁碟機故障、以提供更具成本效益的小型集區預設值。</block>
   <block id="9f4da2b4288941f8601a6c1564084cce" category="summary">下列條款適用於憑證管理。</block>
   <block id="46e7c93fcec106c8a16c51ad7fe8d443" category="doc">憑證術語</block>
   <block id="3e8d115eb4b32b9e9479f387dbe14ee1" category="paragraph">CA</block>
@@ -4640,7 +4564,6 @@
   <block id="ebed1c095df061a9c27a3a3a99521ad7" category="summary">當儲存陣列傳送警示時、對於接收警示的目標伺服器或主機所在的時區而言、它不正確。相反地、儲存陣列會使用本機時間（GMT）來建立警示記錄所用的時間戳記。因此、您可能會看到儲存陣列與收到警示的伺服器或主機之間的時間戳記不一致。</block>
   <block id="562004c4c73569c2c6fbe088e31b2662" category="doc">為什麼陣列與警示之間的時間戳記不一致？</block>
   <block id="c0ff0a62dfeb02bb133249ac90eaec17" category="paragraph">由於儲存陣列在傳送警示時區不正確、因此警示上的時間戳記為相對於GMT-的時間區偏移值為零。若要計算適合您當地時區的時間戳記、您應該決定小時與時間的時差、然後從時間戳記中新增或減去該值。</block>
-  <block id="e569fca48e28303fa5a664a87dd0ea63" category="paragraph">若要避免此問題、請在儲存陣列控制器上設定網路時間傳輸協定（NTP）。NTP可確保控制器永遠同步至正確的時間。</block>
   <block id="cab59249983512a16860a47500d9eae9" category="summary">最初連接主機時、儲存陣列會使用預設的主機類型。它定義了儲存陣列中的控制器在存取磁碟區時如何與主機作業系統搭配運作。</block>
   <block id="aebec79a9b28f4643e48ca1245871e7e" category="doc">預設主機作業系統類型</block>
   <block id="31a79c20bdc0147b9cd1ba02e22b76c7" category="paragraph">最初連接主機時、儲存陣列會使用預設的主機類型。它定義了儲存陣列中的控制器在存取磁碟區時、如何與主機作業系統搭配運作。</block>
@@ -5348,7 +5271,6 @@
   <block id="19a5094031b18c2dec6848666bb687a6" category="list-text">*伺服器位址*-輸入完整網域名稱、IPv4位址或IPv6位址。</block>
   <block id="30f8e0c6ba6693951068d665bf2d3173" category="list-text">* udp Port*-通常syslog的udp連接埠為514。下表顯示已設定的syslog伺服器。</block>
   <block id="85d48bc46b15b6483d2233aa0f95dca0" category="list-text">若要傳送測試警示至伺服器位址、請選取*測試所有Syslog伺服器*。</block>
-  <block id="5cc10b9f3b813b06de10682b6d0012bb" category="paragraph">每當發生警示事件時、事件監控器都會傳送警示至syslog伺服器。</block>
   <block id="ae8f19f0991a75dbac99ee6e45ba300b" category="summary">您可以在SANtricity 「靜態系統管理程式」中設定逾時、以便在指定時間後中斷使用者的非作用中工作階段連線。</block>
   <block id="0d08d54101084156343832dde6b77679" category="paragraph">您可以在System Manager中設定逾時、以便在指定時間後中斷使用者的非作用中工作階段連線。</block>
   <block id="7e21334170926970f8d92b45e8391954" category="paragraph">依預設、System Manager的工作階段逾時為30分鐘。您可以調整時間、也可以一併停用工作階段逾時。</block>
@@ -6264,8 +6186,6 @@
   <block id="92df48228a5784be945b3cb8b079fab7" category="summary">「硬體」頁面提供排序和篩選功能、讓您更容易找到元件。</block>
   <block id="e019e27b0206a9a09525ee3c5ea9abd6" category="doc">檢視硬體元件</block>
   <block id="9595c9bf4a677eeb685d28aab9324b1e" category="list-text">請使用下表所述的功能來檢視硬體元件。</block>
-  <block id="0297aff6f18d14fbeb4d8ce7aceb5e2e" category="paragraph">正面和背面機櫃檢視</block>
-  <block id="2cb0af9002c804177e2f091e253e25ce" category="paragraph">若要在前櫃和後櫃檢視之間切換、請從最右側選取*顯示櫃背面*或*顯示櫃正面*（顯示的連結取決於目前檢視）。正面視圖顯示磁碟機和任何閒置的磁碟機支架。後視圖顯示控制器、任何IOM（ESm）模組、電源/風扇迴管或閒置的控制器支架。在頁面底部、您也可以選擇*顯示全部正面*或*顯示全部背面*。</block>
   <block id="dd9eb8795a8b5c8464b7a3d3ca7b6909" category="paragraph">磁碟機檢視篩選器</block>
   <block id="c68b13d5571aa4148d77bafcf9db91a8" category="paragraph">如果儲存陣列包含具有不同類型實體和邏輯屬性的磁碟機、則「*硬體*」頁面會包含磁碟機檢視篩選器。這些篩選欄位可限制頁面上顯示的磁碟機類型、協助您快速找到特定的磁碟機。在*顯示磁碟機為...*下、按一下左側的篩選欄位（預設顯示*任何磁碟機類型*）、即可查看實體屬性的下拉式清單（例如容量和速度）。按一下右側的篩選欄位（依預設、會在儲存陣列*的任何位置顯示*）、以查看邏輯屬性的下拉式清單（例如、磁碟區群組指派）。您可以一起或單獨使用這些篩選器。</block>
   <block id="47233d56b660bb9d545f03a3019cc00a" category="paragraph">如果儲存陣列包含所有磁碟機共用相同的實體屬性、則左側的* any磁碟機類型*欄位不會出現。如果磁碟機都位於相同的邏輯位置、則右側的「* Anywhere in the storage array*（*儲存陣列*的任何位置）」欄位不會出現。</block>
@@ -6934,7 +6854,6 @@
   <block id="8cb944903f4a43a3a18cf767c3a47387" category="list-text">控制器超過同位元檢查錯誤臨界值、並進入鎖定狀態。</block>
   <block id="b0d8f535990edb7e2931b325dce7271a" category="list-text">發生一般鎖定狀況。</block>
   <block id="b0e20a5b05a72022c8f53f4a8d3aea80" category="summary">利用此軟件文件、您可以安裝、設定及維護儲存陣列。SANtricity</block>
-  <block id="33fac5e50dba9d05a49bb949dbec339e" category="doc">Unified Manager 5.3提供多重陣列管理功能</block>
   <block id="2677e564e3696a00712811d8d452bc9d" category="summary">建議手動重新同步、因為它可讓您以最佳的方式來管理重新同步程序、以提供最佳的資料恢復機會。</block>
   <block id="be60404b2c56981a6ade529f56c56ade" category="doc">為什麼建議使用手動同步原則？</block>
   <block id="203eb3487092f98bd7739657bd0afb70" category="paragraph">如果您使用自動重新同步原則、且在重新同步期間發生間歇性通訊問題、則次要磁碟區上的資料可能會暫時毀損。重新同步完成後、資料將會修正。</block>
@@ -7047,7 +6966,6 @@
   <block id="33dd1e24349af0b8ee7d623742e70d5a" category="list-text">如果可以聯絡鏡射配對中的相關Volume、則磁碟區之間的角色會改變。System Manager會將鏡射配對中的次要Volume升級為主要角色、或將鏡射配對中的主要Volume降級為次要角色（視您的選擇而定）。</block>
   <block id="09aa31a04bb22f0e3a974409e4760569" category="summary">鏡射是在Unified Manager介面中設定。</block>
   <block id="1f886fa10f9979df037b0e533f029308" category="doc">為什麼我無法存取所選的鏡射功能？</block>
-  <block id="253a07b9e0ccd486d8afabdf8e58cd10" category="paragraph">EF600或EF300儲存陣列無法使用鏡射功能。</block>
   <block id="bf28bf2251d42b0426dd4f0ec93a91cd" category="paragraph">若要啟用及設定兩個陣列之間的鏡射、請確認下列事項：</block>
   <block id="f7fa64ef9537f8a03850d1c113c23923" category="list-text">Web服務Proxy服務必須正在執行。（Unified Manager與Web服務Proxy一起安裝在主機系統上。）</block>
   <block id="262d5c4ea8c35a3f2e6e65685f833785" category="list-text">Unified Manager必須透過HTTPS連線在本機主機上執行。</block>
@@ -7324,7 +7242,6 @@
   <block id="2157e66b9e6c46fccd44e816b920a83e" category="inline-link-macro">非同步鏡射與同步鏡射有何不同</block>
   <block id="3daca167043ca93f9e451c47976f3077" category="list-text"><block ref="3daca167043ca93f9e451c47976f3077" category="inline-link-macro-rx"></block></block>
   <block id="60d7e2cd5292c4fbff9e9a4350dcfbbf" category="summary">如果您打算使用同步鏡射、請謹記下列需求。</block>
-  <block id="74386b26c331181b6a5eadec21dbabdb" category="paragraph">EF300或EF600儲存陣列無法使用鏡射功能。</block>
   <block id="27d2299651367750033b7027a7ecc725" category="paragraph">同步鏡射的通訊僅支援使用光纖通道（FC）主機連接埠的控制器。</block>
   <block id="997916cd9c2054e70af916414c1f152b" category="paragraph">同步鏡射會在本機儲存陣列和遠端儲存陣列上的每個控制器上使用編號最高的主機連接埠。控制器主機匯流排介面卡（HBA）主機連接埠4通常保留用於鏡射資料傳輸。</block>
   <block id="d8759f1fee09e713d512b0884587cacc" category="list-text">在同步鏡射配對的主要和次要磁碟區上、RAID層級、快取參數和區段大小可能會有所不同。</block>
@@ -8150,7 +8067,6 @@
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">EMW（E2700、E5600 / EF560）說明</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
   <block id="90e8ac6688c66ac3fc81de93ba27235a" category="summary">System Manager與Unified Manager SANtricity</block>
-  <block id="e66485fdc97bafe46eca656f0d146144" category="doc">軟件文件11.7 SANtricity</block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">存取管理是一種在SANtricity 功能不全的Manager中設定使用者驗證的方法。</block>
   <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">存取管理是一種在Unified Manager中設定使用者驗證的方法。</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">提供下列驗證方法：</block>
@@ -8215,7 +8131,6 @@
   <block id="7ed1c23fd5825fcffa42b8277d75a176" category="summary">您可以將管理憑證還原為原始的原廠自我簽署狀態。</block>
   <block id="f8da35c36c426cc6f5e85f3b036b8c22" category="paragraph">此工作會從安裝Web服務Proxy和Unified Manager的主機系統刪除目前的管理憑證。重設憑證後、主機系統會恢復使用自我簽署的憑證。</block>
   <block id="e4d7c78f06cfedfb1960a9d1ee053e0a" category="list-text">選擇*憑證管理*。</block>
-  <block id="67c0c3e428d8acbf90125bc09eda87d9" category="list-text">從「Management（管理）」索引標籤中、選取*「Reset*（重設</block>
   <block id="4c670df3c34ee6fe770985c68d612b00" category="paragraph">隨即開啟「確認重設管理憑證」對話方塊。</block>
   <block id="0d976dc17b4640ed74e2e82306ff7154" category="paragraph">系統會從伺服器恢復使用自我簽署的憑證。因此、系統會提示使用者手動接受其工作階段的自我簽署憑證。</block>
   <block id="6537b14ab86690459051b15913eed344" category="summary">當儲存陣列嘗試建立安全連線至SANtricity NetApp Unified Manager、但連線無法確認安全性時、就會發生不受信任的憑證。</block>
@@ -8350,7 +8265,6 @@
   <block id="e9c3b29b15baba5237733178dce80a59" category="paragraph">從「憑證管理」中、您可以設定裝載Unified Manager的管理站台憑證、也可以匯入陣列中控制器的憑證。</block>
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
-  <block id="6328cfb48c2111f6991ccd01603442ab" category="doc">使用System Manager 11.7進行單一陣列管理</block>
   <block id="589c6e07e079f4086ec279a5e83c238d" category="sidebar">利用VMware軟體、您可以將E系列混合式Flash與EF系列All Flash陣列的效能與使用率發揮到極致、適用於繁重的工作負載應用、包括資料分析、視訊監控、以及備份與還原。SANtricity</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager介面</block>
@@ -8413,7 +8327,6 @@
   <block id="0a0b92f036cc63a95b9be8f8ab2008e8" category="sidebar">恢復大師</block>
   <block id="3849340aeaa75e39b4c0086c87286698" category="sidebar">事件記錄</block>
   <block id="06eae2db1d4831c93a0da137df21298c" category="sidebar">恢復支援檔案</block>
-  <block id="3a269e7025c0f60568d7f845d390ff21" category="sidebar">資訊11.7文件SANtricity</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">總覽</block>
   <block id="be4486cc26282ba3c22a297f83977dbe" category="sidebar">支援的瀏覽器與作業系統</block>
@@ -8704,14 +8617,112 @@
   <block id="ab1005edb422f1f2812bee5e6a3ee9b1" category="list-text">您必須使用CLI來建立精簡磁碟區。</block>
   <block id="16270243643ed7a37cef9de424ab9bde" category="list-text">FIPS磁碟機可以是140-2或140-3級、而層級140-2則是較高的安全層級。如果您混合選擇140-2和140-2層級磁碟機、則集區或Volume群組將會以較低的安全性層級（140-2）運作。</block>
   <block id="76ef1c27f2bf0b2286bf7a6a58fb852b" category="list-text">如果您要建立僅FDE磁碟區群組、請在「Secure Capable（安全功能）」欄中尋找* Yes - FDE*。如果您要建立僅FIPS的Volume群組、請尋找*是- FIPS-或*是- FIPS（混合）*。「混合」表示混合使用140-2和140-2級磁碟機。如果混合使用這些層級、請注意Volume群組將會以較低的安全性層級（1402）運作。</block>
-  <block id="b2d3e7c610f3962f9a7e3b9baa02c363" category="section-title">11.74版的新功能</block>
-  <block id="158083b77acf87778347dd8cf3138b12" category="paragraph">支援FIPS 140-2</block>
-  <block id="93752d0e76882be98725c8b860259db3" category="paragraph">FIPS 140-2和NVMe型SSD目前支援特定磁碟機使用FIPS 140-2。FIPS 140-2層級SSD磁碟機可與FIPS 140-2層級SSD磁碟機共存、但前提是這些磁碟機均為NVMe型或所有SAS型。在Volume群組和磁碟集區中混合使用這些層級時、請注意群組或集區將會以較低的安全性層級（1402）運作。</block>
-  <block id="3f470942a1817eaa19da47ff83fd59ca" category="paragraph">MFA與SSH支援</block>
-  <block id="272f8c73e52dc0fe2c42cfc42fdbefc9" category="paragraph">針對版本11.74及更新版本、遠端登入功能可讓您設定多因素授權（MFA）、方法是要求使用者輸入SSH金鑰及/或SSH密碼。SANtricity「硬體」區段中的功能表選項已從*變更遠端登入*變更為*設定遠端登入（SSH）*。</block>
-  <block id="e91c1fbb7ef80926929c6a0e87d2cea2" category="paragraph">此版本包含一項新功能、可用來建立存取權杖。這些權杖可讓您使用REST API或命令列介面（CLI）進行驗證、而不會洩漏使用者名稱和密碼。存取管理區段提供此功能。</block>
   <block id="74f708399a048352be94abc06102bfb9" category="sidebar">使用存取權杖</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
-  <block id="17fbe20fbbd5b537dbcef5b0ec0d1dea" category="section-title">11.75 版的新功能</block>
-  <block id="fc663b28a8d6054c2d97e0b897d7291f" category="paragraph">系統必須執行 11.70.5 才能升級至 11.8.x 或更新版本。</block>
+  <block id="70a5ac954926edc08c5f6fc4c248a4a6" category="section-title">SANtricity 11.7 版</block>
+  <block id="f7b52729af7c7aa177e09390f0afd194" category="list-text"><block ref="f7b52729af7c7aa177e09390f0afd194" category="inline-link-rx"></block></block>
+  <block id="797222f106ff986b71e9f972dd342bc3" category="list-text"><block ref="797222f106ff986b71e9f972dd342bc3" category="inline-link-rx"></block></block>
+  <block id="7647966b7343c29048673252e490f736" category="paragraph">89</block>
+  <block id="f033ab37c30201f73f142449d037028d" category="paragraph">80</block>
+  <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14.</block>
+  <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
+  <block id="1cf9153cf0b1bfe4b703e41b4509763e" category="summary">SANtricity Unified Manager 6.</block>
+  <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">如果使用陣列內嵌的安全聲明標記語言（ SAML ）功能來設定存取管理、則當使用者的 SSO 工作階段達到其上限時、可能會發生工作階段逾時。這可能發生在System Manager工作階段逾時之前。</block>
+  <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">EF600 或 EF300 儲存系統不提供同步鏡射功能。</block>
+  <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">EF600 或 EF300 儲存陣列不提供同步鏡射功能。</block>
+  <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">對於 EF600 和 EF300 控制器、非同步鏡射配對的主要和次要磁碟區必須符合相同的傳輸協定、磁碟匣層級、區段大小、安全類型和 RAID 層級。非合格的非同步鏡射配對不會出現在可用磁碟區清單中。</block>
+  <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">此功能不適用於 EF600 或 EF300 儲存系統上的同步鏡射。</block>
+  <block id="050910c569f1cb9044086ceee795e2f8" category="doc">SANtricity 系統管理員 11.8</block>
+  <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">EF300 或 EF600 儲存陣列不提供同步鏡射功能。</block>
+  <block id="f0d12aaffd9cd7456b0d7640f7b6a727" category="list-text">儲存陣列上可用的 SSD 快取容量上限為 8 TB 。</block>
+  <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">是 ^3^</block>
+  <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^ 目標 Volume 的容量必須等於或大於精簡磁碟區報告的容量。</block>
+  <block id="b7c484278db16efdf320efb752c9d501" category="paragraph">^2^ 在線上複製作業完成之前、您無法使用快照磁碟區複本。</block>
+  <block id="8f5c6f3af41eb39849fa6729edd34ef4" category="paragraph">^3^ 如果來源 Volume 是主要 Volume 、則目標 Volume 的容量必須等於或大於來源 Volume 的可用容量。</block>
+  <block id="fd3f2a4b95649434788760531c5a248c" category="paragraph">建立新的 SSD 快取時、您可以使用單一磁碟機或多個磁碟機。由於讀取快取位於儲存陣列中、因此快取會在所有使用儲存陣列的應用程式之間共享。您可以選取要快取的磁碟區、然後快取會自動且動態地進行。</block>
+  <block id="305cbf1b2e94d5aa38ef0a8ea818a2b4" category="paragraph">建立新的 SSD 快取時、請遵循以下準則。</block>
+  <block id="4a9c782fd503d7426a829b5c98040866" category="list-text">如果只有一個磁碟區啟用 SSD 快取、則會將整個 SSD 快取指派給擁有該磁碟區的控制器。</block>
+  <block id="9e6fb4471f8afc13fc87e4a085a3babb" category="admonition">在變更磁碟區設定時、部分作業可能無法使用</block>
+  <block id="fd00f06afe550f6cfb8040bc3764c3f4" category="list-text">SSD 快取只有在將資料放入快取中以改善整體系統效能時才會使用。</block>
+  <block id="b2e269fa841df7525e9667d4a248ed9a" category="paragraph">選擇此選項可在SSD上啟用唯讀快取。</block>
+  <block id="319de80f12a723289ba5d8bb3571caa8" category="doc">使用 System Manager 11.8 進行單一陣列管理</block>
+  <block id="4da78d22f1b5a94a1c267b5b01354570" category="summary">如有必要、您可以匯出儲存陣列的服務供應商中繼資料、並將檔案重新匯入身分識別供應商（ IDP ）系統。</block>
+  <block id="59fbf0c7e58119d248743b557a6f57e7" category="paragraph">在此工作中、您會從控制器匯出中繼資料。IDP 需要此中繼資料、才能與控制器建立信任關係、並處理驗證要求。檔案包含IDP可用於傳送要求的控制器網域名稱或IP位址等資訊。</block>
+  <block id="7050266ad7bc7b4de9d49fa25a2e04d7" category="list-text">按一下 * 匯出 * 將中繼資料檔案儲存至您的本機系統。</block>
+  <block id="4b09b699877612f901bc1067fb675519" category="paragraph">網域名稱欄位為唯讀。</block>
+  <block id="f12f2a18a7e07620fad6228a36b64f3c" category="list-text">在本機系統中、找出您匯出的 XML 格式服務供應商中繼資料檔案。</block>
+  <block id="075d83a0abd972ce69ef61db38da29be" category="list-text">從 IDP 伺服器匯入服務供應商中繼資料檔案。您可以直接匯入檔案、也可以手動輸入控制器資訊。</block>
+  <block id="7c4628a811708cf3294dac2de4c5f97f" category="list-text">選取 * 設定 &gt; 憑證 * 。</block>
+  <block id="a450e680be3e9f05356e4a72d3b2fd9f" category="list-text">選擇 *Array Management* 選項卡，然後選擇 *Reset* 。</block>
+  <block id="90322e9b8e628209c77e7fcaddff0eb5" category="list-text">您必須知道儲存陣列中控制器的 IP 位址或網域名稱。</block>
+  <block id="a8f3d1d2c981da6e0da6bfa7f0083639" category="list-text">管理員已確保 IDP 伺服器和控制器時鐘同步（透過 NTP 伺服器或調整控制器時鐘設定）。</block>
+  <block id="edb063373054a388d66a9ea66cad93ff" category="list-text">IDP 中繼資料檔案會從 IDP 系統下載、並可在用於存取 Unified Manager 的本機系統上使用。</block>
+  <block id="65c75e5e9737f39188dd8f950fd7e294" category="paragraph">* SAML與目錄服務*。如果您在將目錄服務設定為驗證方法時啟用 SAML 、則 SAML 會取代 Unified Manager 中的目錄服務。如果稍後停用SAML、目錄服務組態會返回其先前的組態。</block>
+  <block id="e24e654c7d8f8545ef57e030be7b8cf7" category="paragraph">若要為儲存陣列提供 IDP 連線資訊、請將 IDP 中繼資料匯入 Unified Manager 。IDP系統需要此中繼資料、才能將驗證要求重新導向至正確的URL、並驗證收到的回應。</block>
+  <block id="874ff81f90fcd240dd1737943885d51f" category="paragraph">若要在IDP與儲存陣列之間建立信任關係、請將服務供應商中繼資料匯入IDP。IDP 需要此中繼資料、才能與控制器建立信任關係、並處理授權要求。檔案包含控制器網域名稱或IP位址等資訊、以便IDP與服務供應商通訊。</block>
+  <block id="3226d8289a8deb232229d8d7f28969a4" category="list-text">在*控制器A*欄位中輸入控制器IP位址或DNS名稱、然後按一下*匯出*將中繼資料檔案儲存至本機系統。</block>
+  <block id="11bb3a019b1d97c8d2090b7bd6cc865b" category="list-text">從 IDP 伺服器匯入服務供應商中繼資料檔案、以建立信任關係。您可以直接匯入檔案、也可以從檔案手動輸入控制器資訊。</block>
+  <block id="9c00debc07d6ffc23d63eccb2ad1b46a" category="paragraph">若要為使用者提供 Unified Manager 的授權和存取權、您必須將 IDP 使用者屬性和群組成員資格對應至儲存陣列的預先定義角色。</block>
+  <block id="57650de481abdd3e6984ef575f0d065b" category="list-text">IDP 中繼資料檔案會匯入 Unified Manager 。</block>
+  <block id="a87844e0bca403edea7d155f83d77bbe" category="list-text">控制器的服務供應商中繼資料檔案會匯入 IDP 系統、以建立信任關係。</block>
+  <block id="3cfa359f6717b966ae713cf6fa57377c" category="list-text">按一下 * 對應 Unified Manager* 角色的連結。</block>
+  <block id="366b335b6c23fde50ab01044a850659a" category="paragraph">按一下欄位、然後選取要對應至屬性的其中一個儲存陣列角色。您必須個別選取要納入的每個角色。必須搭配其他角色使用「監控」角色、才能登入 Unified Manager 。至少一個群組也需要安全管理員角色。</block>
+  <block id="0d22cf04fa574536d6a7e4e17da41aa7" category="paragraph">所有使用者（包括系統管理員）都必須具備「監控」角色。如果沒有「監控」角色、 Unified Manager 將無法為任何使用者正確運作。</block>
+  <block id="ea9355b3b1f3ea6d2bc8bcc028f51b03" category="list-text">SP 中繼資料檔案中的控制器位址正確。</block>
+  <block id="2d0730c519bced2c7da242ac46c546fa" category="list-text">系統管理員使用包含安全管理員權限的使用者設定檔登入 Unified Manager 。</block>
+  <block id="308792f40a61d176822c0c11a84aa062" category="list-text">系統管理員會設定與身分識別供應商（IDP）的通訊。IDP是一種外部系統、用於向使用者要求認證、並判斷使用者是否已成功驗證。若要設定與儲存陣列的通訊、管理員會從 IDP 系統下載 IDP 中繼資料檔案、然後使用 Unified Manager 將檔案上傳至儲存陣列。</block>
+  <block id="db63c0cda0fb44873a76612cd703df33" category="list-text">系統管理員會在服務供應商與IDP之間建立信任關係。服務供應商會控制使用者授權；在此情況下、儲存陣列中的控制器會扮演服務供應商的角色。若要設定通訊、管理員可使用 Unified Manager 匯出控制器的服務供應商中繼資料檔案。接著、系統管理員會從 IDP 系統將中繼資料檔案匯入 IDP 。</block>
+  <block id="a5eff1c83fd4e372756275d4ff8c9e36" category="list-text">系統管理員會將儲存陣列的角色對應至IDP中定義的使用者屬性。為達此目的、管理員使用 Unified Manager 來建立對應。</block>
+  <block id="bfdf20194c6c147257ae9470515b761a" category="list-text">從 Unified Manager 、系統管理員可為儲存陣列啟用 SAML 。</block>
+  <block id="eae9067e764c22587680b3bd3f81d25b" category="paragraph">啟用 SAML 時、使用者無法從舊版 Storage Manager 介面探索或管理該陣列的儲存設備。</block>
+  <block id="c4ed98793479ae08990cae4236b9d508" category="list-text">IDP 中繼資料檔案會從 IDP 系統下載、並可在用於存取 Unified Manager 的本機系統上使用。</block>
+  <block id="b1a127861a67e404225a243a453effd3" category="list-text">您知道儲存陣列中控制器的 IP 位址或網域名稱。</block>
+  <block id="8fced73c31ae4d255ba5500bd98c8d76" category="paragraph">安全聲明標記語言（SAML）是兩個實體之間驗證與授權的XML型標準。SAML允許多因素驗證、使用者必須提供兩個或多個項目來證明身分（例如密碼和指紋）。儲存陣列的內嵌 SAML 功能符合 SAML2.0 標準、可用於識別聲明、驗證及授權。</block>
+  <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">請注意、啟用 SAML 時、您不會移除權限、否則您將無法存取 Unified Manager 。</block>
+  <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">按一下欄位、然後選取要對應至屬性的其中一個儲存陣列角色。您必須個別選取要納入此群組的每個角色。必須搭配其他角色使用「監控」角色、才能登入 Unified Manager 。必須將安全管理員角色指派給至少一個群組。對應的角色包括下列權限：</block>
+  <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80 的新功能</block>
+  <block id="ee178cd31372157b6b4ef199f32f28e6" category="paragraph">下表說明 SANtricity System Manager 11.8x 的新功能。</block>
+  <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">11.80 版的新功能</block>
+  <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">增強的 Volume 同位檢查掃描</block>
+  <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">Volume 同位元檢查掃描現在可以透過 REST API 或 CLI 作為背景程序啟動。只要需要完成掃描作業、所產生的同位元檢查掃描就會在背景中執行。在控制器重新開機和容錯移轉作業之後、掃描作業仍可繼續執行。</block>
+  <block id="b9a173a4a6a7b368e4cd4fde15879372" category="paragraph">Unified Manager 的 SAML 支援</block>
+  <block id="dc505118a542aefe283668ff60bf1633" category="paragraph">Unified Manager 現在支援 SAML （安全聲明標記語言）。啟用 Unified Manager 的 SAML 後、使用者必須針對身分識別提供者使用多因素驗證、才能與使用者介面互動。請注意、在 Unified Manager 上啟用 SAML 之後、只有透過 IDP 驗證要求、才能使用 REST API 。</block>
+  <block id="43a12a9165de329d02388e8e878f20ca" category="paragraph">自動組態功能</block>
+  <block id="ef6a29a31f9fb810c02278975cd6cd39" category="paragraph">現在支援設定 Volume 區塊大小參數的功能、以搭配自動組態功能進行初始陣列設定。此功能僅在 CLI 中以「區塊大小」參數提供。</block>
+  <block id="017965dda869643c4d632c18853208a2" category="paragraph">控制器韌體密碼編譯簽署</block>
+  <block id="f9b1cc083f0890b8fff17a83a0360f47" category="paragraph">控制器韌體經過密碼編譯簽署。在初始下載期間和每個控制器開機時、都會檢查簽名。預期不會對終端使用者造成影響。簽章由 CA 核發的延伸驗證憑證作為後盾。</block>
+  <block id="637780f8b22fe474ce198ef516dd7d6f" category="paragraph">磁碟機韌體密碼編譯簽署</block>
+  <block id="a8c2ab0b22d074faf460a15d6648a3e7" category="paragraph">磁碟機韌體經過密碼編譯簽署。在初始下載期間會檢查簽名、並以 CA 核發的延伸驗證憑證作為後盾。磁碟機韌體內容現在會以 ZIP 檔案形式提供、其中包含舊版的未簽署韌體、以及新簽署的韌體。使用者必須根據目標系統上執行的程式碼發行版本、選擇適當的檔案。</block>
+  <block id="3c65e3636111523111e45a49a80face3" category="paragraph">外部金鑰伺服器管理 - 憑證金鑰大小</block>
+  <block id="406774a2d5f641d5566318ef7eb88033" category="paragraph">新的預設憑證金鑰大小為 3072 位元（ 2048 位元）。支援的金鑰大小最高可達 4096 位元。必須變更 NVSRAM 位元、才能支援非預設金鑰大小。</block>
+  <block id="710e42f1cedbf3e670aace3815d6e451" category="paragraph">使用容量為 512B 區塊的磁碟機、支援更大的動態磁碟集區大小</block>
+  <block id="7a4f6b11e091466663e9c7d3c9480717" category="paragraph">使用版本 1 集區版本類型的客戶現在可以擁有 48 TB 最大容量的磁碟集區。較舊版本最多可支援 24 TB 磁碟集區大小。如果要將現有的磁碟集區轉換成較大的大小、則必須先移除所有磁碟區。存在版本 1 磁碟集區時、降級作業會受到限制。</block>
+  <block id="9a1c6a24950fba4eade84dc9952a77dd" category="paragraph">除非符合最低瀏覽器需求、否則 System Manager 和 Unified Manager 將不會啟動</block>
+  <block id="09a616fc9241625ec6003f2da3c0cff9" category="paragraph">系統管理員或 Unified Manager 啟動前、必須先提供瀏覽器的最低版本。以下是支援的最低版本：</block>
+  <block id="6cdb1f943282038a6441359c5c88f812" category="list-text">Firefox 最低版本 80</block>
+  <block id="773389fc57f11b52dbe4c622adc51a3b" category="list-text">Chrome 最低版本 89</block>
+  <block id="2ac44b1b15c0ea01cbb812f5c6cf9b1e" category="list-text">Edge 最低版本 90</block>
+  <block id="3534d42485ecd595e87248bbb2c6fb1b" category="list-text">Safari 最低版本 14</block>
+  <block id="bb4e0c918ecc32e775e010bc9f6eff59" category="paragraph">支援 FIPS 140-3 NVMe SSD 磁碟機</block>
+  <block id="eca8285b82a553e8fbe1803bfdeced3e" category="paragraph">NetApp 認證的 FIPS 140-3 NVMe SSD 磁碟機現在受到支援。在儲存陣列設定檔和 System Manager 中、這些設定檔將會正確識別。</block>
+  <block id="fb8aaa0a635cb460bcf41d9303fca571" category="paragraph">支援 EF300 和 EF600 上的 SSD 讀取快取</block>
+  <block id="14d2cdc88c041d0313b6c691ee27338f" category="paragraph">使用 SAS 擴充硬碟的 EF300 和 EF600 控制器現在支援 SSD 讀取快取。</block>
+  <block id="8a00db0b101a6946d9caffef7979d8c4" category="paragraph">支援 EF300 和 EF600 上的 iSCSI 和光纖通道非同步遠端鏡射</block>
+  <block id="8ea61c04007ddc1b703be50a63a1b3ee" category="paragraph">採用 NVMe 和 SAS 型磁碟區的 EF300 和 EF600 控制器現在支援非同步遠端鏡射（ ARVM ）。</block>
+  <block id="d99731ca7d5c671cea9d584100385335" category="paragraph">支援 EF300 和 EF600 、不需在基本托盤上安裝磁碟機</block>
+  <block id="65c8d39e2e73985a77ff0c8a61c30608" category="paragraph">現在支援基礎托盤上沒有 NVMe 磁碟機的 EF300 和 EF600 控制器組態。</block>
+  <block id="248bd33e5007bccdca76e9d0459df99c" category="paragraph">已停用所有平台的 USB 連接埠</block>
+  <block id="3ea3899fea5b85d0cc4b9b3bf6291d51" category="paragraph">現在所有平台上的 USB 連接埠都已停用。</block>
+  <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">連接埠識別碼</block>
+  <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">每當發生警示事件時、事件監控器都會傳送警示至syslog伺服器。若要進一步設定稽核記錄的 Syslog 設定、請參閱<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
+  <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">設定完成後、所有新的稽核記錄都會傳送到syslog伺服器。不會傳輸先前的記錄。若要進一步設定警示的 Syslog 設定、請參閱<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
+  <block id="4bc4384815b2cb7cd1edee10550e5472" category="list-text">_TBD 提供 11.80 版本資訊 _</block>
+  <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricity 軟體文件 11.80</block>
+  <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">Unified Manager 6 提供多個陣列管理功能</block>
+  <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager （系統管理器） - 一種基於 Web 的界面，用於管理網絡中的單個存儲陣列。</block>
+  <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600 和 EF300 儲存陣列不支援同步鏡射或精簡磁碟區。</block>
+  <block id="c717e9da08557631ce6af0db7935e837" category="paragraph">Unified Manager是網路型軟體、用於管理整個網域。從中央檢視、您可以看到所有較新 E 系列和 EF 系列陣列的狀態、例如 E2800 、 EF280 、 EF300 、 E5700 、 EF570 、 和 EF600 。您也可以在選定的儲存陣列上執行批次作業。</block>
+  <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">磁碟機、控制器和元件檢視</block>
+  <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">若要在前置和後置視圖之間切換、請從最右側選擇 * 磁碟機 * 或 * 控制器與元件 * （顯示的連結取決於目前視圖）。「 * 磁碟機 * 」檢視會顯示磁碟機和任何空磁碟機支架。"* 控制器與元件 * " 檢視會顯示控制器、任何 IOM （ ESM ）模組、電源 / 風扇迴廊或空的控制器托架。在頁面底部、您也可以選取 * 顯示所有磁碟機 * 。</block>
+  <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8 文件</block>
 </blocks>

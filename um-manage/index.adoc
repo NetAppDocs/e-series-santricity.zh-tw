@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= 統一化管理程式5. SANtricity
+= SANtricity Unified Manager 6.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

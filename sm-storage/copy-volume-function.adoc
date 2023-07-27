@@ -86,7 +86,7 @@ Volume群組中的完整Volume
  a| 
 精簡磁碟區
  a| 
-是的
+是1^
  a| 
 是的
  a| 
@@ -97,7 +97,7 @@ Volume群組中的完整Volume
  a| 
 Snapshot Volume
  a| 
-是1^
+是：2^
  a| 
 否
  a| 
@@ -119,13 +119,15 @@ Snapshot基礎Volume
  a| 
 遠端鏡射主要Volume
  a| 
-是：2^
+是 ^3^
  a| 
 否
  a| 
 是的
 
 |===
-在線上複製作業完成之前、您無法使用快照Volume複本。
+^1^ 目標 Volume 的容量必須等於或大於精簡磁碟區報告的容量。
 
-^2^如果來源Volume是主要Volume、則目標Volume的容量必須等於或大於來源Volume的可用容量。
+^2^ 在線上複製作業完成之前、您無法使用快照磁碟區複本。
+
+^3^ 如果來源 Volume 是主要 Volume 、則目標 Volume 的容量必須等於或大於來源 Volume 的可用容量。

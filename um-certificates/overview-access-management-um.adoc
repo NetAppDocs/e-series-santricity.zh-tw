@@ -21,6 +21,7 @@ summary: 存取管理是一種在SANtricity 功能不全的Manager中設定使�
 
 * *本機使用者角色*-驗證是透過RBAC（角色型存取控制）功能來管理。本機使用者角色包括預先定義的使用者設定檔和具有特定存取權限的角色。
 * *目錄服務*-驗證是透過LDAP（輕量型目錄存取傳輸協定）伺服器和目錄服務（例如Microsoft的Active Directory）來管理。
+* * SAML *-驗證是透過使用SAML 2.0的身分識別供應商（IDP）來管理。
 
 
 深入瞭解：
@@ -28,6 +29,7 @@ summary: 存取管理是一種在SANtricity 功能不全的Manager中設定使�
 * link:how-access-management-works-unified.html["存取管理的運作方式"]
 * link:access-management-terminology-unified.html["存取管理術語"]
 * link:permissions-for-mapped-roles-unified.html["對應角色的權限"]
+* link:access-management-with-saml.html["SAML"]
 
 
 
@@ -40,4 +42,5 @@ summary: 存取管理是一種在SANtricity 功能不全的Manager中設定使�
 
 * link:access-management-with-local-user-roles-unified.html["具有本機使用者角色的存取管理"]
 * link:access-management-with-directory-services-unified.html["使用目錄服務進行存取管理"]
+* link:configure-saml.html["設定SAML"]
 

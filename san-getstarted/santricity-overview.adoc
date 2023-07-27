@@ -15,12 +15,12 @@ E系列系統包含SANtricity 用於儲存資源配置和其他工作的支援�
 
 本網站說明如何使用下列SANtricity 的資訊管理介面：
 
-* System Manager（系統管理器）-一種Web型介面、用於管理儲存陣列中的一個控制器。
+* System Manager （系統管理器） - 一種基於 Web 的界面，用於管理網絡中的單個存儲陣列。
 * Unified Manager -網路型介面、用於檢視及管理網路中的所有儲存陣列。
 
 
 
-NOTE: EF600和EF300儲存陣列不支援鏡射、精簡磁碟區或SSD快取功能。
+NOTE: EF600 和 EF300 儲存陣列不支援同步鏡射或精簡磁碟區。
 
 
 
@@ -92,7 +92,7 @@ image:../media/sam1130_icon_support.gif[""] *支援*
 
 == 統一化管理程式SANtricity
 
-Unified Manager是網路型軟體、用於管理整個網域。從中央檢視中、您可以看到所有較新E系列和EF系列陣列的狀態、例如E2800、EF280、EF300、E5700、EF570、 和EF600。您也可以在選定的儲存陣列上執行批次作業。
+Unified Manager是網路型軟體、用於管理整個網域。從中央檢視、您可以看到所有較新 E 系列和 EF 系列陣列的狀態、例如 E2800 、 EF280 、 EF300 、 E5700 、 EF570 、 和 EF600 。您也可以在選定的儲存陣列上執行批次作業。
 
 Unified Manager與Web Services Proxy一起安裝在管理伺服器上。若要存取Unified Manager、請開啟瀏覽器並輸入指向安裝Web服務Proxy之伺服器的URL。
 

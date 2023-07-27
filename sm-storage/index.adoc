@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= 系統管理程式11.7 SANtricity
+= SANtricity 系統管理員 11.8
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
