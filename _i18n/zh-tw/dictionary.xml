@@ -4094,7 +4094,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
   <block id="cc1ba14f8dc9bd7ba20e2aa654cde10b" category="inline-link">E系列/EF系列SANtricity 的注意事項</block>
-  <block id="2dae7f81af3097152530b0bc519d7eb1" category="paragraph"><block ref="2dae7f81af3097152530b0bc519d7eb1" category="inline-link-rx"></block></block>
   <block id="8c77722d47dc7baa5284da4e4b035b15" category="summary">使用設定精靈來設定儲存陣列、包括硬體、主機、應用程式、工作負載、 資源池、警示和AutoSupport</block>
   <block id="b991b22614a9cc2b043d061094459745" category="doc">設定精靈總覽</block>
   <block id="4c4dcdb568c3c0b84220f8a8e9dfe8c7" category="section-title">首次設定</block>
@@ -8726,4 +8725,6 @@
   <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">下表說明 SANtricity 系統管理員 11.8 的新功能。</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80 版本資訊</block>
   <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
+  <block id="14061ba06990b3ff80809e75e9263c4d" category="admonition">系統必須執行 SANtricity OS 11.70.5 、才能升級至 11.8.x 或更新版本。</block>
+  <block id="df9168fd1981b1464f7c0d38b2207c30" category="paragraph"><block ref="df9168fd1981b1464f7c0d38b2207c30" category="inline-link-rx"></block></block>
 </blocks>
