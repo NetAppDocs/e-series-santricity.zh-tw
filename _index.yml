@@ -1,6 +1,11 @@
 ---
 indexpage:
-  lead: 利用VMware軟體、您可以將E系列混合式Flash與EF系列All Flash陣列的效能與使用率發揮到極致、適用於繁重的工作負載應用、包括資料分析、視訊監控、以及備份與還原。SANtricity
+  title: SANtricity 軟體文件 11.80
+  summary: System Manager與Unified Manager SANtricity
+  keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
+    data analytics
+  lead: SANtricity 11.80 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF
+    系列 All Flash 陣列的最大效能與使用率。
   tiles:
   - title: 開始使用
     links:

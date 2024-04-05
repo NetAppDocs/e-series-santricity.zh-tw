@@ -8260,7 +8260,6 @@
   <block id="e9c3b29b15baba5237733178dce80a59" category="paragraph">從「憑證管理」中、您可以設定裝載Unified Manager的管理站台憑證、也可以匯入陣列中控制器的憑證。</block>
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
-  <block id="589c6e07e079f4086ec279a5e83c238d" category="sidebar">利用VMware軟體、您可以將E系列混合式Flash與EF系列All Flash陣列的效能與使用率發揮到極致、適用於繁重的工作負載應用、包括資料分析、視訊監控、以及備份與還原。SANtricity</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager介面</block>
   <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager介面</block>
@@ -8512,7 +8511,6 @@
   <block id="bc864bcc140c5518082e93d37b396baf" category="sidebar">使用管理主機憑證</block>
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">使用陣列憑證</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">管理憑證</block>
-  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">軟件SANtricity</block>
   <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
   <block id="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="list-text"><block ref="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="inline-link-macro-rx"></block></block>
   <block id="cfcb95dc970984a5b2213167afd26e67" category="list-text">如果您的防火牆封鎖了這些ASUP派單的傳送、請將下列URL新增至您的白名單：<block ref="afb8e6b8ab745bba44a27ba547edbe22" prefix=" " category="inline-code"></block></block>
@@ -8741,4 +8739,5 @@
   <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">磁碟集區改善</block>
   <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">使用執行 11.80 或更高版本的控制器所建立的磁碟集區會是 _Version 1_ 集區、而不是 _Version 0_ 集區。當存在 _Version 1_ 磁碟集區時、降級作業會受到限制。</block>
   <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">磁碟集區的版本可在儲存陣列設定檔中識別。</block>
+  <block id="e7ad6d421850c5694f6bdc4321ac3507" category="sidebar">SANtricity 11.80 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF 系列 All Flash 陣列的最大效能與使用率。</block>
 </blocks>
