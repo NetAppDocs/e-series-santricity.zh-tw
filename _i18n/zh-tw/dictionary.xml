@@ -532,7 +532,6 @@
   <block id="22931e72cfaa1cff23ae92444e5f5793" category="list-text">向下捲動至* iSCSI設定*以檢視所有管理功能。</block>
   <block id="16a52344a123120f641fd6a110b2f58b" category="paragraph">設定iSCSI連接埠</block>
   <block id="78c81ee9fd7e37527fe34ac8a7a9cab4" category="list-text">選取*硬體*。</block>
-  <block id="e6038a402ae0abb10a88b3d49aac8626" category="list-text">選擇*顯示櫃背面*。</block>
   <block id="c32d5dc17f6766968a4d921fc63719ee" category="list-text">選取控制器。</block>
   <block id="dd05978dd856ce80fa8ceb9526c1fc29" category="list-text">選取*設定iSCSI連接埠*。</block>
   <block id="2dd16223444abbda73729680b1568489" category="paragraph">設定主機CHAP密碼</block>
@@ -948,15 +947,10 @@
   <block id="2e28a2ec518f8b6dd7a15c75de06b963" category="inline-link-macro">LUN的最大數量</block>
   <block id="49a5fdf0dde9c4fbb4d98a273c6dfaa3" category="list-text"><block ref="49a5fdf0dde9c4fbb4d98a273c6dfaa3" category="inline-link-macro-rx"></block></block>
   <block id="94ae9116b6459e164cc5b5171dfd5dae" category="section-title">如何設定主機和主機叢集？</block>
-  <block id="b1193881858db0a081f6c45a0dbf4100" category="paragraph">若要定義主機連線、您可以允許主機內容代理程式（HCA）自動偵測主機、也可以前往功能表：Storage[hosts]手動設定主機。如果您想要兩部或多部主機共用同一組磁碟區的存取權、您可以定義叢集、然後將磁碟區指派給該叢集。</block>
-  <block id="1fd5660423c75b4e203c96065e026926" category="inline-link-macro">自動與手動建立主機</block>
-  <block id="792f357ce0f8399f554341958ab1895c" category="list-text"><block ref="792f357ce0f8399f554341958ab1895c" category="inline-link-macro-rx"></block></block>
   <block id="95550c1d2ebfdf000bdf2fc9f19d3ad0" category="inline-link-macro">如何將磁碟區指派給主機和主機叢集</block>
   <block id="c5dcf1788fdf3546412487413910c6bd" category="list-text"><block ref="c5dcf1788fdf3546412487413910c6bd" category="inline-link-macro-rx"></block></block>
   <block id="b18f8412121e9f89606090ae7c79de5d" category="inline-link-macro">用於建立主機和指派磁碟區的工作流程</block>
   <block id="4636937d375f054b1ebd61e182e7c256" category="list-text"><block ref="4636937d375f054b1ebd61e182e7c256" category="inline-link-macro-rx"></block></block>
-  <block id="cf7c57106467824842b109d25ea38ce5" category="inline-link-macro">自動建立主機</block>
-  <block id="fa36f221d65832ea174ce327117ffff8" category="list-text"><block ref="fa36f221d65832ea174ce327117ffff8" category="inline-link-macro-rx"></block></block>
   <block id="f0e0ce722ec3a3c41f0dbc73c527938e" category="inline-link-macro">手動建立主機</block>
   <block id="00811325a7c536efc9bfe82dee93cd0c" category="list-text"><block ref="00811325a7c536efc9bfe82dee93cd0c" category="inline-link-macro-rx"></block></block>
   <block id="4ea4ba466c87798dfcefbc6296847826" category="inline-link-macro">建立主機叢集</block>
@@ -1047,7 +1041,6 @@
   <block id="d9eb0ca8e7c587d83f931dbc0d686c77" category="paragraph">如果您不需要快照排程、則應刪除排程、而非暫停排程。</block>
   <block id="fb40658beb252958ffee2087357c67c7" category="summary">您可以使用複製服務來複製磁碟區、並在磁碟區上執行其他動作。</block>
   <block id="ef72ce97af4d783504adff7908ef6327" category="doc">使用複製服務</block>
-  <block id="158015df88d990434f1a9d713f772baa" category="summary">主機作業系統類型欄位包含主機的作業系統。您可以從下拉式清單中選取建議的主機類型、或允許主機內容代理程式（HCA）設定主機和適當的主機作業系統類型。</block>
   <block id="c99be05276e49867c3c82a7022f31b32" category="doc">如何知道哪種主機作業系統類型正確？</block>
   <block id="e13be85800aed175412a62f5b2b23406" category="paragraph">下拉式清單中顯示的主機類型取決於儲存陣列機型和韌體版本。最新版本會先顯示最常見的選項、最可能是適當的選項。此清單上的外觀並不表示完全支援此選項。</block>
   <block id="e5dc6a32612d72253c0fec9ccbb44c04" category="paragraph">如需主機支援的詳細資訊、請參閱<block ref="8a9cbe245fbeb909e401db80fbaa7bad" category="inline-link-rx"></block>。</block>
@@ -1080,8 +1073,6 @@
   <block id="02677c9d7a9295a0b7ff23da80ed17c2" category="paragraph">支援使用具備3.9或更早核心的Device Mapper多重路徑容錯移轉解決方案的Linux作業系統。</block>
   <block id="e9745a54dc083bc4c6e7adb0ba4a88bf" category="paragraph">叢集式視窗（已過時）</block>
   <block id="ee99f98925e229fb230a1fca830d5dd4" category="paragraph">如果您的主機作業系統類型設定為此值、請改用Windows（叢集式或非叢集式）設定。</block>
-  <block id="c4a63ba39b5ca841704abea6cb2fb44a" category="paragraph">安裝HCA並將儲存設備連接至主機之後、HCA會透過I/O路徑將主機拓撲傳送至儲存控制器。根據主機拓撲、儲存控制器會自動定義主機和相關的主機連接埠、然後設定主機類型。</block>
-  <block id="1ddb6810aa8c1c6572287f48e53a765f" category="paragraph">如果HCA未選取建議的主機類型、您必須手動設定主機類型。</block>
   <block id="382051cd8533d0a1dad00e985495cb23" category="summary">瞭解遠端儲存術語如何適用於您的儲存陣列。</block>
   <block id="322dcc77f846ef04062b3741295fcd63" category="doc">遠端儲存術語</block>
   <block id="cf5f3091e30dee6597885d8c0e0c357f" category="cell">期限</block>
@@ -1598,8 +1589,6 @@
   <block id="62cc6b4b5b00bdf3f5961abbe374db0c" category="list-text">當您建立新的Volume時、請選取資源池或Volume群組（請在「資源池和Volume群組候選項目」表中、尋找「*安全功能*」旁邊的*「是*」）。</block>
   <block id="c840c0758e533a8d2471360454925ac2" category="paragraph">有了磁碟機安全功能、您就能建立安全金鑰、並在儲存陣列中啟用安全功能的磁碟機和控制器之間共用。只要關閉和開啟磁碟機的電源、安全啟用的磁碟機就會變更為安全鎖定狀態、直到控制器套用安全金鑰為止。</block>
   <block id="8a815b2a47535f1623438fab12c61953" category="summary">存取磁碟區是儲存陣列上的原廠設定磁碟區、可透過主機I/O連線與儲存陣列和主機進行通訊。存取磁碟區需要邏輯單元號碼（LUN）。</block>
-  <block id="fa37ac81ba6c0558c81a89769ad24d29" category="paragraph">存取磁碟區可用於兩種情況：</block>
-  <block id="0f409566f0070f570d0b7a4e3f47ccc9" category="list-text">*自動建立主機*：主機內容代理程式（HCA）公用程式會使用存取磁碟區、將主機資訊（名稱、連接埠、主機類型）推送至System Manager、以自動建立主機。</block>
   <block id="da5b269ce13f310ea60da5646f66f4df" category="list-text">*頻內管理*：存取磁碟區用於頻內連線、以管理儲存陣列。只有在使用命令列介面（CLI）管理儲存陣列時、才能這麼做。</block>
   <block id="b07f190bd057ec5ae997cb6fe0661683" category="paragraph">EF600或EF300儲存系統無法進行頻內管理。</block>
   <block id="c77cfe09f0da7405a83c73fb323b653d" category="paragraph">第一次將磁碟區指派給主機時、就會自動建立存取磁碟區。例如、如果您將Volume（Volume）1和Volume（Volume）2指派給主機、則當您檢視該指派的結果時、會看到三個磁碟區（Volume（Volume）1、Volume（Volume）2和Access（存取））。</block>
@@ -1659,7 +1648,6 @@
   <block id="6f77c9c07c72d4718892ec422f4427bc" category="doc">如何將主機連接埠與主機配對？</block>
   <block id="e3603ec100f890e2ef8684fc0f32d90c" category="paragraph">取得此資訊後、請從「Create Host（建立主機）」對話方塊中提供的清單中、選取已登入儲存陣列的主機連接埠識別碼。</block>
   <block id="2bba3e0602cd7a130a9a940ee66aefad" category="paragraph">請務必為您要建立的主機選取適當的主機連接埠識別碼。如果您將錯誤的主機連接埠識別碼關聯起來、可能會導致無法預期地從其他主機存取此資料。</block>
-  <block id="805b5a8d335604839f980870f92238c2" category="paragraph">如果您使用安裝在每個主機上的主機內容代理程式（HCA）自動建立主機、HCA應自動將主機連接埠識別碼與每個主機建立關聯、並適當地進行設定。</block>
   <block id="86d75390633f35f6cb8100c3e237b1a2" category="summary">若要設定遠端儲存功能、您必須透過iSCSI直接連接遠端裝置和目標儲存系統。</block>
   <block id="ff9116c8f7aa25817035844a4f4785a1" category="doc">建立遠端儲存連線之前、我需要知道什麼？</block>
   <block id="d47e87c00140a7992b8877b00c503146" category="paragraph">若要設定iSCSI系統連線、請參閱：</block>
@@ -1914,7 +1902,6 @@
   <block id="a3fbf70a37027c8830528c87bd6fb96f" category="list-text">容量等於或大於Volume群組中磁碟機的已用容量。</block>
   <block id="11843a5fb02517bf0567bd4cee864670" category="paragraph">本工作說明如何從「硬體」頁面手動指派熱備援磁碟機。建議的涵蓋範圍為每個磁碟機集兩個熱備援磁碟機。</block>
   <block id="389b3a398f64e49960371cfcf1b8c961" category="paragraph">也可以從初始設定精靈指派熱備援磁碟機。您可以在「硬體」頁面上尋找以粉色顯示的磁碟機支架、以判斷是否已指派熱備援磁碟機。</block>
-  <block id="e8bd347abf6977ac735fe874c4cc11e5" category="list-text">如果圖形顯示控制器、請按一下*顯示機櫃正面*。</block>
   <block id="9f46405718a05bac139daed811216834" category="paragraph">圖形會變更、以顯示磁碟機而非控制器。</block>
   <block id="eff535db8c89dc02f55ea32c275c30eb" category="list-text">選取您要作為熱備援的未指派磁碟機（以灰色顯示）。</block>
   <block id="649a4eca0e66f1d66ef7975289acd847" category="paragraph">隨即開啟磁碟機的內容功能表。</block>
@@ -2607,7 +2594,6 @@
   <block id="8a15ff5e0d12887df1882a7aeb0a60ca" category="doc">快照可使用哪些類型的磁碟區？</block>
   <block id="81cd7245b414e19cf017f1f314a91a77" category="summary">預設叢集是系統定義的實體、可讓登入儲存陣列的任何未關聯主機連接埠識別碼、存取指派給預設叢集的磁碟區。未關聯的主機連接埠識別碼是與特定主機邏輯上並未關聯的主機連接埠、而是實際安裝在主機上並登入儲存陣列。</block>
   <block id="b8d724212008baee7a5c6030da8fa5bc" category="doc">什麼是預設叢集？</block>
-  <block id="25e62a7d7ce1c399f39e6b9c33a35700" category="paragraph">如果您想讓主機對儲存陣列中的特定磁碟區擁有特定存取權、則必須使用預設叢集。您必須將主機連接埠識別碼與其對應的主機建立關聯。您可以在「建立主機」作業期間手動完成此工作、也可以使用安裝在每個主機上的主機內容代理程式（HCA）自動完成。然後、您可以將磁碟區指派給個別主機或主機叢集。</block>
   <block id="8aaf6fcfecd6296b8804f80ca2e5e8bf" category="paragraph">在外部儲存環境有助於允許所有主機和所有登入主機連接埠識別碼連線至儲存陣列的特殊情況下、您應該僅使用預設叢集（All存取模式）存取所有磁碟區。 而不讓儲存陣列或使用者介面知道主機。</block>
   <block id="c167b87ad97a717ca19e8302324a61d6" category="paragraph">一開始、您只能透過命令列介面（CLI）將磁碟區指派給預設叢集。不過、在您將至少一個Volume指派給預設叢集之後、此實體（稱為預設叢集）會顯示在使用者介面中、您可以在其中管理此實體。</block>
   <block id="806c9eb04f6f0827f44de72f0159549c" category="summary">您可以檢視SSD快取的名義統計資料和詳細統計資料。名義統計資料是詳細統計資料的子集。</block>
@@ -2797,16 +2783,6 @@
   <block id="61655625aef68d839d69c76ebafdd085" category="paragraph">如果刪除主機叢集、系統會執行下列動作：</block>
   <block id="3ca45610bee12bf4af57daa32423ffb0" category="list-text">刪除主機叢集及其相關聯的主機（如果有）。</block>
   <block id="4341cdcc1f68571f27fe9e9ca8be4481" category="list-text">將與主機相關聯的任何主機連接埠識別碼傳回未關聯的狀態。</block>
-  <block id="fb2c7228ff4f7f49c55d0dbee0774136" category="summary">您可以允許主機內容代理程式（HCA）自動偵測主機、然後驗證資訊是否正確。建立主機是讓儲存陣列瞭解其連接的主機、以及允許I/O存取磁碟區所需的步驟之一。</block>
-  <block id="33f46e400f0e24467be7501f40aca60e" category="paragraph">確定主機內容代理程式（HCA）已安裝並在連接至儲存陣列的每個主機上執行。安裝HCA並連線至儲存陣列的主機會自動建立。若要安裝HCA、請在SANtricity 主機上安裝支援資料管理程式、然後選取主機選項。並非所有支援的作業系統都提供HCA。如果無法使用、則必須手動建立主機。</block>
-  <block id="243298cafd2c24c06db7fd141ea7c1c5" category="paragraph">下表列出自動建立的主機。</block>
-  <block id="4519f1c84733049cbbfffe94fa4d88d1" category="list-text">確認HCA提供的資訊正確無誤（名稱、主機類型、主機連接埠識別碼）。</block>
-  <block id="b36dd028d4cc9fd23358d580eca639f1" category="paragraph">如果您需要變更任何資訊、請選取主機、然後按一下「*檢視/編輯設定*」。</block>
-  <block id="29a3e9a0951fdc9732bd94c5bc488227" category="list-text">*選用：*如果您希望自動建立的主機位於叢集中、請建立主機叢集並新增主機。</block>
-  <block id="59850304db1160dcc242d016bfd55435" category="paragraph">自動建立主機之後、系統會在「主機」並排表格中顯示下列項目：</block>
-  <block id="f83da56133b643da9e77e51cd6c5bb60" category="list-text">主機名稱衍生自主機的系統名稱。</block>
-  <block id="ff355485c71c980dad7d2bcc738031e3" category="list-text">與主機相關聯的主機識別碼連接埠。</block>
-  <block id="9216f53a8757b69a9763476f633bafcd" category="list-text">主機的主機作業系統類型。</block>
   <block id="de5319110e9e071755b277907f6afab5" category="summary">您可以針對目前未與工作負載關聯的磁碟區、將一個或多個磁碟區新增至現有或新的工作負載。</block>
   <block id="92f6cc97265026afc81edcc4f0ec3412" category="list-text">選擇* Add to Workload *。</block>
   <block id="18b4abfb3db36ea5c5e8af6b6dd005c4" category="paragraph">此時會出現Select Workload對話方塊。</block>
@@ -3045,8 +3021,6 @@
   <block id="7a2273d7df1757fb204014100c655dac" category="list-text">當您對磁碟區組態感到滿意時、請按一下*完成*。</block>
   <block id="217c7d09ba255e63af061c508473296f" category="paragraph">System Manager會在選取的資源池和磁碟區群組中建立新的磁碟區、然後在「All Volumes（所有磁碟區）」表格中顯示新的磁碟區。</block>
   <block id="27288924eb00279da6258f216a826ce6" category="list-text">在應用程式主機上執行任何必要的作業系統修改、以便應用程式使用該磁碟區。</block>
-  <block id="f4c48f2383ce25f158cf33df12dc65ee" category="list-text">執行主機型的「hot_add」公用程式或作業系統專用的公用程式（可從協力廠商取得）、然後執行「simmdevices」公用程式、將磁碟區名稱與主機儲存陣列名稱建立關聯。</block>
-  <block id="fc689e3fec7436f0795ba215ddaea02c" category="paragraph">「hot_add」公用程式和「Mdevices'公用程式都包含在「Msutils」套件中。「ututils」套件是一組公用程式、用來驗證主機從儲存陣列看到的內容。它是SANtricity 包含在整個軟件安裝過程中的一部分。</block>
   <block id="03fddd98540f2fb2b3e001e4875faa03" category="summary">您可以執行復原作業來變更快照一致性群組成員磁碟區的內容、以符合儲存在快照映像中的內容。</block>
   <block id="8da470ea87e4642b69031e6bee69d9d1" category="doc">針對Snapshot一致性群組成員磁碟區、開始Snapshot映像復原</block>
   <block id="3b253d35122cf960b5bb1ca2bc7f3452" category="paragraph">復原作業不會變更與快照一致性群組相關聯的快照映像內容。</block>
@@ -3491,7 +3465,6 @@
   <block id="dd69aee4a6c48fd78df1aa573f8fe960" category="paragraph">從主機傳送資料至陣列以供儲存時、寫入是「寫入作業」的簡稱。</block>
   <block id="6a61d3de52d532d52422327af09b1527" category="summary">主機匯流排介面卡（HBA）是一種主機板、位於主機中、包含一或多個主機連接埠。主機連接埠是主機匯流排介面卡（HBA）上的連接埠、可提供與控制器的實體連線、並用於I/O作業。</block>
   <block id="a5b0495a61b232c51cb3241c1c42e089" category="doc">什麼是HBA和介面卡連接埠？</block>
-  <block id="cb01833c80ee905e38bc7999a55f4ab4" category="paragraph">HBA上的介面卡連接埠稱為主機連接埠。大多數HBA都有一個或兩個主機連接埠。HBA具有唯一的全球識別碼（WWID）、而且每個HBA主機連接埠都有唯一的WWID。當您透過SANtricity 「支援系統管理程式」手動建立主機、或使用主機內容代理程式自動建立主機時、主機連接埠識別碼可用來將適當的HBA與實體主機建立關聯。</block>
   <block id="a2c6517135cd73db00d8df8b402549d1" category="summary">應用程式專屬工作負載的Volume特性決定了工作負載與儲存陣列元件的互動方式、並有助於在特定組態下判斷環境的效能。</block>
   <block id="9e021ef1d8805a32e4e0a710fa382108" category="doc">應用程式專屬的工作負載如何協助我管理儲存陣列？</block>
   <block id="9bd83d43655c817bb61c901c3ad10b64" category="summary">如果您不再需要從主機或主機叢集存取該磁碟區的I/O、請從主機或主機叢集取消指派磁碟區。</block>
@@ -3564,13 +3537,6 @@
   <block id="ca5b9a6719cb1dd00c961678a1b32fa3" category="paragraph">System Manager會根據您提供的工作負載資訊、建立適當的磁碟區、並將其放在系統上目前存在的可用集區或磁碟區群組中。系統會根據您所選工作負載的目前最佳實務做法、建立磁碟區並最佳化其特性。</block>
   <block id="ef647fbef952eaa014419c2dff15ee4d" category="paragraph">在您完成為特定工作負載建立磁碟區之前、您可以使用「新增/編輯磁碟區」對話方塊來檢閱建議的磁碟區組態、以及編輯、新增或刪除系統建議的磁碟區和特性。</block>
   <block id="c8dbf81f11f7f576cfb284c3a02d54c3" category="paragraph">如需最佳實務做法資訊、請參閱應用程式專屬的文件。</block>
-  <block id="9a962e8a5abc67e37df0a3aa7df94791" category="summary">建立主機是讓儲存陣列瞭解其連接的主機、以及允許I/O存取磁碟區所需的步驟之一。您可以自動或手動建立主機。</block>
-  <block id="3e86fbd5be93bfe30a1740aa050fbb09" category="paragraph">自動建立SCSI型（非NVMe型）主機的主機、是由主機內容代理程式（HCA）啟動。HCA是一個公用程式、您可以在連接至儲存陣列的每個主機上安裝。安裝HCA的每個主機都會透過I/O路徑、將其組態資訊推送至儲存陣列控制器。根據主機資訊、控制器會自動建立主機及相關的主機連接埠、並設定主機類型。如有需要、您可以使用System Manager對主機組態進行任何其他變更。</block>
-  <block id="48c8f4e44353e10f584394624737e25c" category="paragraph">HCA執行自動偵測之後、主機會自動顯示在「主機」頁面中、並具有下列屬性：</block>
-  <block id="ce20270f9f59c29940789eed21ca0ad1" category="paragraph">主機會建立為獨立主機、HCA不會自動建立或新增至主機叢集。</block>
-  <block id="046108b015f0074947d4e2eb1a23795c" category="paragraph">您可能想要手動建立主機、原因如下：</block>
-  <block id="7b7ab16e5bd570af5858b402fe223071" category="list-text">您選擇不在主機上安裝HCA公用程式。</block>
-  <block id="a0ce5d2134e96579558efd58a98cb8fc" category="list-text">您想要確保儲存陣列控制器偵測到的主機連接埠識別碼與主機正確關聯。</block>
   <block id="448039cea8f585edd3148738d15c6270" category="paragraph">在手動建立主機期間、您可以從清單中選取主機連接埠識別碼、或手動輸入識別碼、藉此建立關聯。建立主機之後、如果您打算共用對磁碟區的存取權、可以將磁碟區指派給主機叢集或將其新增至主機叢集。</block>
   <block id="657b70e8c66d59c5eb96a02553896eb0" category="summary">資料保證（DA）實作T10保護資訊（PI）標準、藉由檢查及修正在I/O路徑傳輸資料時可能發生的錯誤、來提升資料完整性。</block>
   <block id="06d9b9b2855d79c63cc7328c4ffd2456" category="doc">什麼是資料保證？</block>
@@ -4187,8 +4153,6 @@
   <block id="fa1b63c4bafe790f2b625d05b15735d8" category="paragraph">當您收到問題通知時、請使用Recovery Guru來協助您解決問題。如有必要、請使用硬體文件和恢復步驟來更換故障的元件。</block>
   <block id="3d371728a27bfe9492e0557bfd5069d2" category="summary">如果您沒有看到連線的主機、則表示自動偵測失敗、主機連線不正確、或是目前沒有連線任何主機。</block>
   <block id="e5455040d4a9ede58061022a5ec57985" category="doc">System Manager未偵測到任何主機。我該怎麼辦？</block>
-  <block id="fb377eca3af06099bbb8b9b85ba5ef2e" category="paragraph">設定完成後、您可以稍後再設定主機。您可以自動或手動建立主機、如下所示：</block>
-  <block id="d3a86cafa599e35921fd0866f49f439b" category="list-text">如果您在主機上安裝主機內容代理程式（HCA）、HCA會將主機組態資訊推送至儲存陣列。System Manager會自動設定這些主機、並在*初始設定*精靈中顯示這些主機。（HCA不適用於NVMe over Fabrics主機。）</block>
   <block id="f7ff4c91fa7860bce0649b5e3d3793d8" category="list-text">您可以移至功能表：Storage[hosts]、手動建立主機並關聯適當的主機連接埠識別碼。手動建立的主機也會顯示在*初始設定*精靈中。</block>
   <block id="50f6912c5df4e3e02e724cdec96987cf" category="list-text">目標和主機必須針對主機連接埠類型（例如iSCSI或NVMe over RoCE）進行設定、並在自動偵測開始運作之前、先建立與儲存設備的工作階段。</block>
   <block id="c5a4e56bb338a4a15f84855c89874dcb" category="summary">首頁提供儀表板檢視、可用於儲存陣列的每日管理。登入System Manager時、首頁會顯示第一個畫面。</block>
@@ -4302,7 +4266,6 @@
   <block id="b47240c91c3c71e6f24291515a38e27e" category="inline-link-macro">變更密碼</block>
   <block id="41b4037cc65a5c02499addb588e46a37" category="list-text"><block ref="41b4037cc65a5c02499addb588e46a37" category="inline-link-macro-rx"></block></block>
   <block id="0cf92f39ed774e6e03907495e7d22aae" category="doc">如果我看不到所有主機、該怎麼辦？</block>
-  <block id="ec3620576cd21fccb2901757fe444980" category="list-text">如果您在主機上安裝主機內容代理程式（HCA）、HCA會將主機組態資訊推送至儲存陣列。System Manager會自動設定這些主機、並在初始設定精靈中顯示這些主機。（HCA不適用於NVMe over Fabrics主機。）</block>
   <block id="7cb5c9b7004163f1a52b20165ecce689" category="summary">Recovery Guru是System Manager的一項元件、可診斷儲存陣列問題、並建議恢復程序來修正問題。</block>
   <block id="097aa9373d1177a905ff25237ef92e64" category="doc">使用Recovery Guru從問題中恢復</block>
   <block id="021f1bb83b28d41e3ee27b42fcb94b13" category="list-text">按一下視窗中上方標有「*從_n_問題中恢復*」的連結。</block>
@@ -6172,7 +6135,6 @@
   <block id="222a9d37505b4c9f8bc0d5edbd57e923" category="list-text">選取可用的號碼、然後按一下「*儲存*」。</block>
   <block id="6f067491edf3a5eb1aa19e9c9212cf77" category="paragraph">根據您選取的編號、磁碟櫃訂單可能會在「硬體」頁面重新排列。如果需要、您可以使用每個機櫃右上角的向上/向下箭頭來重新調整訂單。</block>
   <block id="b075612b05fe68e8a2b0bb6796e4c3c3" category="summary">如果您的控制器包含NVMe over RoCE（透過整合式乙太網路的RDMA）連線、您可以從「Hardware（硬體）」頁面設定NVMe連接埠設定。</block>
-  <block id="f532cbda65733cac2e9c9516b7696ff3" category="list-text">如果圖形顯示磁碟機、請按一下*顯示磁碟櫃背面*。</block>
   <block id="ca9d0b17d1e7de2914f6ee07cf40dc75" category="paragraph">圖形會變更、以顯示控制器而非磁碟機。</block>
   <block id="4cf3762f8185120c4f1aea12e4c02f80" category="list-text">按一下要設定NVMe over RoCE連接埠的控制器。</block>
   <block id="e7750036dcd6a3fe20d6a9d5a321bdb7" category="paragraph">此時會出現控制器的內容功能表。</block>
@@ -6243,7 +6205,6 @@
   <block id="2bcd8d3a9164d3ceabb5e0f406088967" category="list-text">*控制器機櫃*：包含磁碟機、電源/風扇機櫃和控制器。</block>
   <block id="871343182244067d216d1ff4f21bc1d7" category="list-text">*磁碟機櫃*（或*擴充櫃*）-包含磁碟機、電源/風扇迴路、以及兩個輸入/輸出模組（IOM）。IOM也稱為環境服務模組（ESM）、包括將磁碟機櫃連接至控制器機櫃的SAS連接埠。</block>
   <block id="b6e789c840cc2255695d7cb0711606b2" category="paragraph">磁碟櫃有三種尺寸可供選擇、最多容納12、24或60個磁碟機。每個機櫃都有一個ID編號、由控制器韌體指派。ID會顯示在機櫃檢視的左上角。</block>
-  <block id="0979fd40701129089009e540882bfadb" category="paragraph">「硬體」頁面上的機櫃檢視會顯示前端或後端元件。您可以從機櫃檢視的右上角選取*顯示機櫃背面*或*顯示機櫃正面*、在兩個檢視之間切換。您也可以從頁面底部選取*顯示全部正面*或*顯示全部背面*。正面和背面檢視顯示下列項目：</block>
   <block id="9044454a74eabfcbefa9a73c4f244d7b" category="list-text">*前端元件*：磁碟機和閒置磁碟機支架。</block>
   <block id="852eb571be916aedac527a2d75b4f7c5" category="list-text">*後端元件*-控制器和電源/風扇迴路（用於控制器磁碟櫃）或IOM和電源/風扇迴路（用於磁碟機磁碟櫃）。</block>
   <block id="328cd8226e6a34272d00c54b81357435" category="paragraph">您可以執行下列與磁碟櫃相關的功能：</block>
@@ -6450,7 +6411,6 @@
   <block id="849065273b69b6efbdfe1ea2fdac4e4c" category="doc">開啟磁碟機定位指示燈</block>
   <block id="13b775f58b1be768f22c3ef93906a31f" category="paragraph">您可以找到「硬體」頁面上顯示的單一磁碟機或多個磁碟機。</block>
   <block id="57e3e67c952d14e096a1757602f0b317" category="list-text">若要找到一或多個磁碟機、請執行下列其中一項：</block>
-  <block id="7f20ae7ca1a0f7d54b91ad682fb21d72" category="list-text">*單一磁碟機*-從機櫃圖形中、找出您要實際在陣列中找到的磁碟機。（如果圖形顯示控制器、請按一下*顯示機櫃正面*。） 按一下磁碟機以顯示其內容功能表、然後選取*開啟定位器指示燈*。</block>
   <block id="d8635d3279c4d342857bd63d8d8f5d0c" category="paragraph">磁碟機的定位指示燈會亮起。當您實際找到磁碟機後、請返回對話方塊並選取*關閉*。</block>
   <block id="95ac769c86acacd30cb940333689b2ef" category="list-text">*多個磁碟機*-在篩選欄位中、從左下拉式清單中選取實體磁碟機類型、然後從右下拉式清單中選取邏輯磁碟機類型。符合條件的磁碟機數量會顯示在最右側的欄位中。接下來、您可以按一下*開啟定位燈*、或從內容功能表中選取*尋找所有已篩選的磁碟機*。當您實際找到磁碟機後、請返回對話方塊並選取*關閉*。</block>
   <block id="0456788e51a4ac130ff07a0e64dcb50a" category="summary">瞭解硬體條款如何適用於您的儲存陣列。</block>
@@ -6572,7 +6532,6 @@
   <block id="9a9a99c522a19d532bcab6e9e4c35315" category="list-text"><block ref="9a9a99c522a19d532bcab6e9e4c35315" category="inline-link-macro-rx"></block></block>
   <block id="a4bca0746d11626825ef80b9635fd7bc" category="list-text"><block ref="a4bca0746d11626825ef80b9635fd7bc" category="inline-link-macro-rx"></block></block>
   <block id="49cd3e54b89c348bf5db982b053fbe1d" category="section-title">如何檢視硬體元件？</block>
-  <block id="2f80cc63aef8d1020582691018861659" category="paragraph">前往「硬體」頁面、以圖形方式呈現儲存陣列的實體元件。您可以從機櫃檢視的右上角選取*顯示機櫃背面*或*顯示機櫃正面*、在陣列機櫃的正面和背面檢視之間切換。</block>
   <block id="16e01e65d5a4d234931dbe66cd788797" category="list-text"><block ref="16e01e65d5a4d234931dbe66cd788797" category="inline-link-macro-rx"></block></block>
   <block id="4e960806d66346b6be5c334d5b0cdc47" category="inline-link-macro">檢視控制器設定</block>
   <block id="094850bed20148dc9ac96ccbcefc3c5f" category="list-text"><block ref="094850bed20148dc9ac96ccbcefc3c5f" category="inline-link-macro-rx"></block></block>
@@ -6787,8 +6746,6 @@
   <block id="394b991ba1f4e86c568b058bdcb96bb1" category="summary">您可以顯示磁碟機、控制器、風扇和電源供應器的狀態說明。</block>
   <block id="5dfe5f34e0fc6e5409daaf5e688f91cf" category="doc">顯示或隱藏零組件狀態</block>
   <block id="cc340d687aa7564e8089e4691d3d7a87" category="list-text">若要查看背面或正面元件：</block>
-  <block id="bc97c8041e72cf026d54b56202b8d526" category="list-text">如果您想查看控制器和電源/風扇磁碟櫃元件、但顯示磁碟機、請按一下*顯示磁碟櫃背面*。</block>
-  <block id="859e1ac201fdd1ef373fb299a4baa5aa" category="list-text">如果您想查看磁碟機、但顯示控制器和電源/風扇容器元件、請按一下*顯示機櫃正面*。</block>
   <block id="a6c0441d73959c673b8ed021651360d6" category="list-text">若要檢視或隱藏快顯狀態說明：</block>
   <block id="e7b1770492c25d57af375fedccc078ee" category="list-text">若要查看狀態圖示的快顯說明、請按一下機櫃檢視右上角的*顯示狀態圖示詳細資料*（選取此核取方塊）。</block>
   <block id="f3f71b9905dc485091a3196f6d66bdc7" category="list-text">若要隱藏快顯說明、請再次按一下*顯示狀態圖示詳細資料*（清除核取方塊）。</block>
@@ -8045,7 +8002,6 @@
   <block id="b54e5effb0684297a425f4b4d27a0901" category="inline-link">將第二個控制器新增至E2600和E2700</block>
   <block id="8873c4daaa79b4f2a0a76d2d60e0f4d2" category="list-text"><block ref="8873c4daaa79b4f2a0a76d2d60e0f4d2" category="inline-link-rx"></block></block>
   <block id="cc2c4e05a565a41e24830b8e20a407fa" category="inline-link">變更或新增主機傳輸協定</block>
-  <block id="6ef4b2f0ae71e9e178116859d849d637" category="list-text"><block ref="6ef4b2f0ae71e9e178116859d849d637" category="inline-link-rx"></block></block>
   <block id="4a24ac39c4082dcb978a418e7c412751" category="inline-link">從AC轉換為DC電源</block>
   <block id="60d69132ac18e209751d2055249f9499" category="list-text"><block ref="60d69132ac18e209751d2055249f9499" category="inline-link-rx"></block></block>
   <block id="8538359cd0d88b60011df2ea127fcda4" category="section-title">較早版本的軟體文件</block>
@@ -8627,7 +8583,6 @@
   <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">此功能不適用於 EF600 或 EF300 儲存系統上的同步鏡射。</block>
   <block id="050910c569f1cb9044086ceee795e2f8" category="doc">SANtricity 系統管理員 11.8</block>
   <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">EF300 或 EF600 儲存陣列不提供同步鏡射功能。</block>
-  <block id="f0d12aaffd9cd7456b0d7640f7b6a727" category="list-text">儲存陣列上可用的 SSD 快取容量上限為 8 TB 。</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">是 ^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^ 目標 Volume 的容量必須等於或大於精簡磁碟區報告的容量。</block>
   <block id="b7c484278db16efdf320efb752c9d501" category="paragraph">^2^ 在線上複製作業完成之前、您無法使用快照磁碟區複本。</block>
@@ -8740,4 +8695,46 @@
   <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">使用執行 11.80 或更高版本的控制器所建立的磁碟集區會是 _Version 1_ 集區、而不是 _Version 0_ 集區。當存在 _Version 1_ 磁碟集區時、降級作業會受到限制。</block>
   <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">磁碟集區的版本可在儲存陣列設定檔中識別。</block>
   <block id="e7ad6d421850c5694f6bdc4321ac3507" category="sidebar">SANtricity 11.80 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF 系列 All Flash 陣列的最大效能與使用率。</block>
+  <block id="f9c81137922296691747f3cff9a92105" category="list-text"><block ref="f9c81137922296691747f3cff9a92105" category="inline-link-rx"></block></block>
+  <block id="07ed085acfb4f203e63427ca4494f863" category="section-title">11.80.1 版的新功能</block>
+  <block id="65e6e49c7d0840983a93edfc482a4650" category="paragraph"><block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix="" category="inline-code"></block> 參數</block>
+  <block id="2b21cb9530a6c7704a66108d45c196a1" category="inline-link">可下載的SMcli命令列參數</block>
+  <block id="99e522a2649e8eb1047cda09b5e2bbd9" category="paragraph">全新<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> SMCLI 中現在提供參數。此新參數可讓您尋找與儲存陣列相關聯的所有 SCSI 原生區塊裝置。如需詳細資訊、請參閱<block ref="7e8dc17a50219e17a3bfb2effae73889" category="inline-link-rx"></block>。</block>
+  <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">乙太網路核心統計資料</block>
+  <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link">檢視 iSCSI 統計資料套件</block>
+  <block id="4f8a241c3cb470ed44d71b0d64d57b80" category="paragraph">系統管理員的「檢視 iSCSI 統計資料套件」頁面下方現在提供新的「乙太網路核心統計資料」選項。此新選項可讓您檢視 iSCSI 裝置平台核心驅動程式的統計資料。如需詳細資訊、請參閱<block ref="fa652b493edb0147d8d73c9bf12a908b" category="inline-link-rx"></block>。</block>
+  <block id="bf4fed8d63aecfc1a30be488a115892c" category="paragraph">改善系統管理員中未指派和已啟用安全功能的磁碟機篩選功能</block>
+  <block id="22d3d7b49042c93caf0303e50dd503e1" category="paragraph">現在、 System Manager 會在選取手動磁碟機時、篩選出未指派和安全啟用的磁碟機。因此、 System Manager 磁碟機選擇計數現在會符合 CLI 和 REST API 下的自動磁碟機選擇候選清單。獨特的圖示和游標文字現在也會套用至 System Manager 中的 Unassigned 和 Secure Enabled 磁碟機。</block>
+  <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">新增透過 REST API 端點封鎖 IP 位址的功能</block>
+  <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">使用者現在可以透過「設定」端點封鎖特定 IP 位址 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>）。一旦透過「設定」端點進行設定、只有透過白名單指定的 IP 位址才能與儲存設備通訊。這項新功能支援 IPv4 和 IPv6 位址清單。</block>
+  <block id="85873696abedac8fb70b86eef30b99fe" category="paragraph">vCenter Storage 外掛程式</block>
+  <block id="c55dbb17c221990804802e322335dc65" category="paragraph">vCenter Storage 外掛程式已更新、與 E 系列 11.80.1 版本相容。</block>
+  <block id="b2fe36d045fcd0262e37faca678d17c8" category="paragraph">Web 服務 Proxy 已更新至 6.1 版、以與 E 系列 11.80.1 版相容。</block>
+  <block id="e6d11ff06b4fbf2dfe6c6c9c235884bd" category="paragraph">存取 Volume 用於下列執行個體：</block>
+  <block id="ea37b1fb3ab53a251f6e5cadc36a4c25" category="summary">建立主機是讓儲存陣列瞭解其連接的主機、以及允許I/O存取磁碟區所需的步驟之一。您只能手動建立主機。</block>
+  <block id="a3cd72e3a5590e7769cb2590ecd015eb" category="doc">手動建立主機</block>
+  <block id="45c019802faf18ee96c8993d343d29f9" category="paragraph">手動建立主機可確保儲存陣列控制器偵測到的主機連接埠識別碼與主機正確關聯。</block>
+  <block id="79472664be38fd7c7b223579f21cad86" category="list-text">儲存陣列上可用的 SSD 快取容量上限為 10 TB 。</block>
+  <block id="0070214fc679bd47adaf5b6d5c20b09e" category="paragraph">HBA上的介面卡連接埠稱為主機連接埠。大多數HBA都有一個或兩個主機連接埠。HBA具有唯一的全球識別碼（WWID）、而且每個HBA主機連接埠都有唯一的WWID。當您透過 SANtricity 系統管理員手動建立主機時、主機連接埠識別碼可用來將適當的 HBA 與實體主機建立關聯。</block>
+  <block id="c2f830b3f34d22ec65dbae6b999d12ed" category="list-text">如果圖形顯示控制器、請按一下 * 磁碟機 * 索引標籤。</block>
+  <block id="1fdb1b55a6b27265fe3f43c4acb37884" category="list-text">機櫃遺失保護 ^*^</block>
+  <block id="af0a014d8aba14e9d778b3c816304d69" category="list-text">藥屜遺失保護 ^* ^</block>
+  <block id="7ab26ade3db4026954a7f7f091ad7ad8" category="admonition">^*^ 目前、將磁碟機新增至具有機櫃遺失保護或抽屜遺失保護的集區時、不會顯示確認對話方塊。</block>
+  <block id="62228d8b07a6d312ceb27a84cbd3c4aa" category="paragraph">若要定義主機連線、您可以前往功能表： Storage[ 主機 ] 手動設定主機。如果您想要兩部或多部主機共用同一組磁碟區的存取權、您可以定義叢集、然後將磁碟區指派給該叢集。</block>
+  <block id="7dea50abb7ee187f0a7433d57901ec91" category="list-text"><block ref="7dea50abb7ee187f0a7433d57901ec91" category="inline-link-macro-rx"></block></block>
+  <block id="966b5cc0cd53cc056d0a168b8543c134" category="paragraph">如果您想讓主機對儲存陣列中的特定磁碟區擁有特定存取權、則必須使用預設叢集。您必須將主機連接埠識別碼與其對應的主機建立關聯。此工作可在「建立主機」作業期間手動完成。然後、您可以將磁碟區指派給個別主機或主機叢集。</block>
+  <block id="a543598a03d2f4a4c65c995fe07c12e1" category="summary">主機作業系統類型欄位包含主機的作業系統。您可以從下拉式清單中選取建議的主機類型。</block>
+  <block id="8cb031b774a78de2f6be4db3058da109" category="list-text">執行作業系統專屬公用程式（可從協力廠商取得）、然後執行 SMCLI 命令<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 將磁碟區名稱與主機儲存陣列名稱建立關聯。</block>
+  <block id="0af3ac37d01c9873f79f927554ff17b2" category="paragraph">SMCLI 可透過 SANtricity 系統管理員直接取得。可下載的SMcli版本可在EF600、EF300、E5700、EF570、E2800、 和EF280控制器。要在SANtricity 《S161eSystem Manager》中下載SMcli、請選擇*設定*&gt;*系統*和*附加元件*&gt;*命令列介面*。</block>
+  <block id="0ea0a94f9ade478fd556172383edecad" category="admonition">System Manager 中顯示的統計資料類型是根據儲存陣列可用的統計資料而定。</block>
+  <block id="707d82b79d1a69b9d510d00c5aaf1d9e" category="list-text">* 乙太網路核心統計資料 * ：提供 iSCSI 裝置平台核心驅動程式的統計資料。核心統計資料會將類似的網路資料顯示為 TCP/IP 統計資料選項。不過、核心統計資料是從平台核心驅動程式收集、而非直接從 iSCSI 硬體收集。</block>
+  <block id="32555c4aebeed331e68820e3e0ef23ce" category="list-text">選擇 * 控制器與元件 * 標籤。</block>
+  <block id="bc48f74b04ee61dd83366633ad4bf79c" category="paragraph">設定完成後、您可以稍後再設定主機。您可以手動建立主機、如下所示：</block>
+  <block id="e319f0f59e025d2c42a4c475da418de7" category="admonition">如果設定多個 Syslog 伺服器、所有設定的 Syslog 伺服器都會收到稽核記錄。</block>
+  <block id="376f777e2ceea23a208381d1badcdcd7" category="list-text">如果圖形顯示磁碟機、請按一下 * 控制器與元件 * 索引標籤。</block>
+  <block id="8085abc73625dcb3dc6c52c258f46432" category="paragraph">「硬體」頁面上的機櫃檢視會顯示前端或後端元件。您可以從機櫃檢視的右上角選取 * 磁碟機 * 或 * 控制器 * 索引標籤、在兩個檢視之間切換。您也可以從頁面底部選取*顯示全部正面*或*顯示全部背面*。正面和背面檢視顯示下列項目：</block>
+  <block id="5ac9272c9913615b73775d6bb2736ba6" category="list-text">如果您想要查看控制器和電源 / 風扇箱元件、但卻顯示磁碟機、請按一下 * 控制器與元件 * 標籤。</block>
+  <block id="71f3dfbf2b051795606c83f3a9eae5ae" category="list-text">如果您想要查看磁碟機、但顯示控制器和電源 / 風扇箱元件、請按一下 * 磁碟機 * 標籤。</block>
+  <block id="581cfab734318e947b176853c8e56d50" category="paragraph">前往「硬體」頁面、以圖形方式呈現儲存陣列的實體元件。您可以從機櫃檢視的右上角選取 * 磁碟機 * 或 * 控制器 * 索引標籤、在陣列機櫃的前視圖和後視圖之間切換。</block>
+  <block id="c30b45aee772a1884388fa957f41c7d5" category="list-text">*單一磁碟機*-從機櫃圖形中、找出您要實際在陣列中找到的磁碟機。（如果圖形顯示控制器、請按一下 * 磁碟機 * 索引標籤。） 按一下磁碟機以顯示其內容功能表、然後選取 * 開啟定位燈 * 。</block>
 </blocks>

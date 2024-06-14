@@ -28,7 +28,7 @@ summary: 下表列出可用於設定及管理InfiniBand工作階段之iSER的Sys
 在InfiniBand連接埠上設定iSER
  a| 
 . 選取*硬體*。
-. 選擇*顯示櫃背面*。
+. 選擇 * 控制器與元件 * 標籤。
 . 選取控制器。
 . 選取*透過InfiniBand連接埠設定iSER *。
 

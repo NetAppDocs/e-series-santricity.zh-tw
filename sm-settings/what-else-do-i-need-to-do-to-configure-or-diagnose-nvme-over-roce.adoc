@@ -28,7 +28,7 @@ NVMe over RoCE設定僅適用於儲存陣列的控制器包含NVMe over RoCE連�
 設定NVMe over RoCE連接埠
  a| 
 . 選取*硬體*。
-. 選擇*顯示櫃背面*。
+. 選擇 * 控制器與元件 * 標籤。
 . 選取控制器。
 . 選取*透過RoCE連接埠設定NVMe *。
 

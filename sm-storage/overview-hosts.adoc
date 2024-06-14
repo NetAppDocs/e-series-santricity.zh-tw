@@ -31,14 +31,13 @@ _host_是一種伺服器、可將I/O傳送至儲存陣列上的磁碟區。主�
 
 == 如何設定主機和主機叢集？
 
-若要定義主機連線、您可以允許主機內容代理程式（HCA）自動偵測主機、也可以前往功能表：Storage[hosts]手動設定主機。如果您想要兩部或多部主機共用同一組磁碟區的存取權、您可以定義叢集、然後將磁碟區指派給該叢集。
+若要定義主機連線、您可以前往功能表： Storage[ 主機 ] 手動設定主機。如果您想要兩部或多部主機共用同一組磁碟區的存取權、您可以定義叢集、然後將磁碟區指派給該叢集。
 
 深入瞭解：
 
-* link:automatic-versus-manual-host-creation.html["自動與手動建立主機"]
+* link:manual-host-creation.html["手動建立主機"]
 * link:how-volumes-are-assigned-to-hosts-and-host-clusters.html["如何將磁碟區指派給主機和主機叢集"]
 * link:workflow-for-creating-hosts-and-assigning-volumes.html["用於建立主機和指派磁碟區的工作流程"]
-* link:create-host-automatically.html["自動建立主機"]
 * link:create-host-manually.html["手動建立主機"]
 * link:create-host-cluster.html["建立主機叢集"]
 * link:assign-volumes.html["將磁碟區指派給主機"]

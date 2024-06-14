@@ -28,7 +28,7 @@ NVMe over InfiniBand設定只有在儲存陣列的控制器包含NVMe over Infin
 設定NVMe over InfiniBand連接埠
  a| 
 . 選取*硬體*。
-. 選擇*顯示櫃背面*。
+. 選擇 * 控制器與元件 * 標籤。
 . 選取控制器。
 . 選取*透過InfiniBand連接埠設定NVMe *。
 

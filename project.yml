@@ -364,8 +364,8 @@ sidebar:
           url: "/sm-storage/host-terminology.html"
         - title: 用於建立主機和指派磁碟區的工作流程
           url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
-        - title: 自動與手動建立主機
-          url: "/sm-storage/automatic-versus-manual-host-creation.html"
+        - title: 手動建立主機
+          url: "/sm-storage/manual-host-creation.html"
         - title: 如何指派磁碟區
           url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
         - title: 存取磁碟區
@@ -376,8 +376,6 @@ sidebar:
           url: "/sm-settings/default-host-operating-system-type.html"
       - title: 設定主機存取
         entries:
-        - title: 自動建立主機
-          url: "/sm-storage/create-host-automatically.html"
         - title: 手動建立主機
           url: "/sm-storage/create-host-manually.html"
         - title: 建立主機叢集

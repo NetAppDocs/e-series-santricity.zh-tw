@@ -49,3 +49,5 @@ summary: 如果您想要將稽核記錄歸檔到外部syslog伺服器、可以�
 
 .結果
 設定完成後、所有新的稽核記錄都會傳送到syslog伺服器。不會傳輸先前的記錄。若要進一步設定警示的 Syslog 設定、請參閱 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-alerts.html["設定系統記錄伺服器以發出警示"]。
+
+ NOTE: If multiple syslog servers are configured, all configured syslog servers will receive an audit log.

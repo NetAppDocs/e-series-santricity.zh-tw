@@ -43,3 +43,6 @@ summary: 若要設定syslog警示、您必須輸入syslog伺服器位址和udp�
 
 .結果
 每當發生警示事件時、事件監控器都會傳送警示至syslog伺服器。若要進一步設定稽核記錄的 Syslog 設定、請參閱 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-audit-logs.html["設定系統記錄伺服器進行稽核記錄"]。
+
+
+NOTE: 如果設定多個 Syslog 伺服器、所有設定的 Syslog 伺服器都會收到稽核記錄。
