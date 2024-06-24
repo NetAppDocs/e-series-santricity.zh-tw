@@ -2311,12 +2311,7 @@
   <block id="442fc72fb02307d7bb547f3a9e330e5f" category="list-text">如果有多個相同磁碟機類型的集區、則會出現一則訊息、指出System Manager無法自動建議集區的磁碟機。不過、您可以手動將磁碟機新增至現有的集區。</block>
   <block id="cfd5addb3d7e99111f81d8aa18f9a5aa" category="paragraph">若要手動將磁碟機新增至現有的集區：從「集區與磁碟區群組」頁面選取集區、然後按一下「*新增容量*」。</block>
   <block id="499a0602905ccb67c6d649daa6d57413" category="summary">您可以為任何類型的應用程式建立工作負載。</block>
-  <block id="ef722b0d3f28d401f565985f472c4438" category="paragraph">System Manager僅針對下列應用程式類型建議最佳化Volume組態：</block>
-  <block id="f2087899e2afadc125d10b2957ade872" category="list-text">視訊監控</block>
-  <block id="7cfedcca8ce6dbe00da8fe3e6fe966f8" category="list-text">VMware ESXi™（適用於與虛擬機器檔案系統搭配使用的磁碟區）</block>
   <block id="53d52e9f5e84c6e320cab61e6c75088f" category="paragraph">請謹記以下準則：</block>
-  <block id="d5f2262b63d7e86589dbf70c4e5e35b2" category="list-text">_使用應用程式專屬的工作負載_時、系統建議使用最佳化的Volume組態、以將應用程式工作負載I/O與應用程式執行個體的其他流量之間的爭用降至最低。您可以檢閱建議的磁碟區組態、然後使用「新增/編輯磁碟區」對話方塊來編輯、新增或刪除系統建議的磁碟區和特性。</block>
-  <block id="bf4bffd53bcd7e30e99315e12ac6f419" category="list-text">_使用其他應用程式類型_時、您可以使用「新增/編輯磁碟區」對話方塊手動指定磁碟區組態。</block>
   <block id="65d1a857de2802d1a9f3295655aaf36f" category="list-text">選取功能表：Create [Workload。</block>
   <block id="d8b1db89e135bdbc13b725e8d595018b" category="paragraph">此時會出現Create Application Workload對話方塊。</block>
   <block id="c587f872ee4cedc5f46714cc4a3af851" category="list-text">使用下拉式清單選取您要建立工作負載的應用程式類型、然後輸入工作負載名稱。</block>
@@ -8737,4 +8732,7 @@
   <block id="71f3dfbf2b051795606c83f3a9eae5ae" category="list-text">如果您想要查看磁碟機、但顯示控制器和電源 / 風扇箱元件、請按一下 * 磁碟機 * 標籤。</block>
   <block id="581cfab734318e947b176853c8e56d50" category="paragraph">前往「硬體」頁面、以圖形方式呈現儲存陣列的實體元件。您可以從機櫃檢視的右上角選取 * 磁碟機 * 或 * 控制器 * 索引標籤、在陣列機櫃的前視圖和後視圖之間切換。</block>
   <block id="c30b45aee772a1884388fa957f41c7d5" category="list-text">*單一磁碟機*-從機櫃圖形中、找出您要實際在陣列中找到的磁碟機。（如果圖形顯示控制器、請按一下 * 磁碟機 * 索引標籤。） 按一下磁碟機以顯示其內容功能表、然後選取 * 開啟定位燈 * 。</block>
+  <block id="043a86bd47391543c74c9ed90a2dde13" category="admonition">您一次只能將磁碟區容量擴充至 128 TiB 。</block>
+  <block id="82d00f5ad15a08dba27d16e49e8748f1" category="paragraph">工作負載是支援應用程式的儲存物件。您可以針對每個應用程式定義一或多個工作負載或執行個體。</block>
+  <block id="056bd960f994268c2245e42ab49c22b9" category="paragraph">應用程式是SQL Server或Exchange等軟體。您可以定義一或多個工作負載來支援每個應用程式。</block>
 </blocks>
