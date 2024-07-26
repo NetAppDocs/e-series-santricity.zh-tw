@@ -8737,4 +8737,7 @@
   <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">保留容量磁碟區必須與相關的鏡射磁碟區共用相同的磁碟機類型。</block>
   <block id="bf9f60c11f9080af705719592217436d" category="list-text">如果保留容量磁碟區是在 NVMe 磁碟機上建立、則其鏡射磁碟區也必須在 NVMe 磁碟機上建立。</block>
   <block id="402b0811b7e491a20af6474c5296c733" category="list-text">如果在 SAS 磁碟機上建立保留容量磁碟區、則其鏡射磁碟區也必須在 SAS 磁碟機上建立。</block>
+  <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">11.80.1R1 版的新功能</block>
+  <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">增加新自我簽署和 CA 簽署管理憑證的金鑰大小長度。</block>
+  <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity 系統管理員和 Unified Manager 應用程式自我簽署憑證的管理憑證金鑰大小長度已從 2048 位元修改為 3072 位元。此變更適用於新產生的 SANtricity 應用程式自我簽署和 CA 簽署的憑證。金鑰長度是固定的、不受 NVSRAM 中預設金鑰大小定義的影響。</block>
 </blocks>
