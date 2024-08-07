@@ -110,7 +110,7 @@ Snapshot基礎Volume
  a| 
 是的
  a| 
-否
+是的
  a| 
 否
 
@@ -121,9 +121,9 @@ Snapshot基礎Volume
  a| 
 是 ^3^
  a| 
-否
- a| 
 是的
+ a| 
+否
 
 |===
 ^1^ 目標 Volume 的容量必須等於或大於精簡磁碟區報告的容量。
