@@ -8740,4 +8740,5 @@
   <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">11.80.1R1 版的新功能</block>
   <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">增加新自我簽署和 CA 簽署管理憑證的金鑰大小長度。</block>
   <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity 系統管理員和 Unified Manager 應用程式自我簽署憑證的管理憑證金鑰大小長度已從 2048 位元修改為 3072 位元。此變更適用於新產生的 SANtricity 應用程式自我簽署和 CA 簽署的憑證。金鑰長度是固定的、不受 NVSRAM 中預設金鑰大小定義的影響。</block>
+  <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">停用 ARVM</block>
 </blocks>

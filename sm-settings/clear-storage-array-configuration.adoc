@@ -33,6 +33,15 @@ Storage Array（儲存陣列）選項會刪除一些其他設定。
 
 
  a| 
+停用 ARVM
+ a| 
+x
+ a| 
+x
+
+
+
+ a| 
 刪除資源池和Volume群組
  a| 
 x
