@@ -8741,4 +8741,8 @@
   <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">增加新自我簽署和 CA 簽署管理憑證的金鑰大小長度。</block>
   <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity 系統管理員和 Unified Manager 應用程式自我簽署憑證的管理憑證金鑰大小長度已從 2048 位元修改為 3072 位元。此變更適用於新產生的 SANtricity 應用程式自我簽署和 CA 簽署的憑證。金鑰長度是固定的、不受 NVSRAM 中預設金鑰大小定義的影響。</block>
   <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">停用 ARVM</block>
+  <block id="bb81ad14bd710a498f194a6ac67fea61" category="paragraph">複製來源和目標磁碟區必須具有相同的報告主機定址 / 邏輯區塊大小（磁區大小）。</block>
+  <block id="56ce420df3a94d675f30cc6b382c3082" category="paragraph">回報的 Volume 區塊大小為：</block>
+  <block id="6451d4e0b30d3e2a2b45dc3de85ffe6d" category="list-text">* 原生區塊大小 * – Volume 的區塊大小符合磁碟區塊大小（ 512 或 4K ）。</block>
+  <block id="7de7e0688d2ed2bd02ab78f61c88a723" category="list-text">* 模擬 512 區塊大小 * - 磁碟機為 4K 、但回報的區塊大小為 512 。</block>
 </blocks>
