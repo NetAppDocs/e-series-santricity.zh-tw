@@ -104,7 +104,7 @@ System Manager可能會根據您所選的應用程式或工作負載、建議使
 +
 ** 2、048個磁碟區（EF600和E5700系列）
 ** 1、024個磁碟區（EF300）
-** 512個磁碟區（E2800系列）
+** 512 個 Volume （ E4000 和 E2800 系列）
 
 
 * 若要建立啟用Data Assurance（DA）的Volume、您打算使用的主機連線必須支援DA。
@@ -346,6 +346,6 @@ System Manager會在選取的資源池和磁碟區群組中建立新的磁碟區
 * 在應用程式主機上執行任何必要的作業系統修改、以便應用程式使用該磁碟區。
 * 執行作業系統專屬公用程式（可從協力廠商取得）、然後執行 SMCLI 命令 `-identifyDevices` 將磁碟區名稱與主機儲存陣列名稱建立關聯。
 +
-SMCLI 可透過 SANtricity 系統管理員直接取得。可下載的SMcli版本可在EF600、EF300、E5700、EF570、E2800、 和EF280控制器。要在SANtricity 《S161eSystem Manager》中下載SMcli、請選擇*設定*>*系統*和*附加元件*>*命令列介面*。
+SMCLI 可透過 SANtricity 系統管理員直接取得。此 SMCLI 下載版本可在 E4000 ， EF600 ， EF300 ， E5700 ， EF570 ， E2800 及 EF280 控制器上取得。要在SANtricity 《S161eSystem Manager》中下載SMcli、請選擇*設定*>*系統*和*附加元件*>*命令列介面*。
 
 

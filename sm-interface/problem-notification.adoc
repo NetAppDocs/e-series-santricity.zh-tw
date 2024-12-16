@@ -25,28 +25,28 @@ System Manager會使用這些圖示來指出儲存陣列及其元件的狀態。
 
 
  a| 
-image:../media/sam1130-ss-icon-status-success.gif[""]
+image:../media/sam1130-ss-icon-status-success.gif["最佳化"]
  a| 
 最佳化
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-failure.gif[""]
+image:../media/sam1130-ss-icon-status-failure.gif["非最佳或故障"]
  a| 
 非最佳或故障
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-service.gif[""]
+image:../media/sam1130-ss-icon-status-service.gif["需要注意或修正"]
  a| 
 需要注意或修正
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-caution.gif[""]
+image:../media/sam1130-ss-icon-status-caution.gif["注意"]
  a| 
 注意
 

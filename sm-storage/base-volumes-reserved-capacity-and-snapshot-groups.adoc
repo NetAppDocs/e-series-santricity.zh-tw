@@ -23,7 +23,7 @@ Snapshot功能使用基礎磁碟區、保留容量和Snapshot群組。
 
 下圖顯示快照物件與基礎磁碟區之間的關係。
 
-image::../media/sam1130-dwg-snapshots-images-overview.gif[Sam1130 dwgs快照映像總覽]
+image::../media/sam1130-dwg-snapshots-images-overview.gif[Snapshot 物件和基礎 Volume]
 
 ^1^基礎磁碟區；^2^群組中的Snapshot物件（影像和保留容量）；^3^快照群組的保留容量。
 

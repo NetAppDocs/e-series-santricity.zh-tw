@@ -17,6 +17,6 @@ summary: 如果您想要讀取或寫入快照資料、可以建立快照磁碟�
 
 建立唯讀快照磁碟區時、您不需要新增保留容量。建立讀寫快照磁碟區時、您必須新增保留容量以提供寫入存取。
 
-image::../media/sam1130-dwg-snapshots-volumes-overview.gif[Sam1130 dwgs快照磁碟區總覽]
+image::../media/sam1130-dwg-snapshots-volumes-overview.gif[Snapshot Volume 概述]
 
 ^1^基礎磁碟區；^2^主機；^3^唯讀快照磁碟區；^4^讀寫快照磁碟區；^5^保留容量

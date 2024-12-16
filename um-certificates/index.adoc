@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity Unified Manager 6.
+= SANtricity Unified Manager 7.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+「憑證管理」可讓您建立憑證簽署要求（CSR）、匯入憑證、以及管理現有的憑證。

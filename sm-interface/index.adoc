@@ -2,11 +2,13 @@
 permalink: sm-interface/index.html 
 sidebar: sidebar 
 keywords: santricity, system, manager, 
-summary: 系統管理程式11.7 SANtricity 
+summary: SANtricity 系統管理員 11.9 
 ---
-= SANtricity 系統管理員 11.8
+= SANtricity 系統管理員 11.9
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+System Manager是網路型介面、可讓您在單一檢視畫面中管理儲存陣列。

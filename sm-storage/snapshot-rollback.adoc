@@ -23,6 +23,6 @@ summary: 復原作業會將基礎磁碟區返回先前的狀態、由選取的�
 
 啟動復原時、背景程序會掃過基礎磁碟區的邏輯區塊位址（LDBA）、然後在復原快照映像中尋找寫入時複製資料以進行還原。由於基礎磁碟區可由主機存取以供讀取和寫入、而且所有先前寫入的資料都可立即使用、因此保留容量磁碟區必須夠大、足以在復原處理期間容納所有變更。資料傳輸會繼續做為背景作業、直到復原完成為止。
 
-image::../media/sam1130-dwg-snapshots-rollback-overview.gif[Sam1130 dwgs快照復原總覽]
+image::../media/sam1130-dwg-snapshots-rollback-overview.gif[Snapshot 復原總覽]
 
 ^1^基礎磁碟區；^2^群組中的Snapshot物件；^3^ Snapshot群組保留容量

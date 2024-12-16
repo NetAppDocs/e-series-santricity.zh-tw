@@ -13,4 +13,4 @@ summary: 在「系統管理程式」中SANtricity 、AutoSupport 您可以依照
 [role="lead"]
 在System Manager中、AutoSupport 您可以依照下列步驟來設定功能。
 
-image::../media/sam1130-flw-support-asup-setup.gif[Sam1130 FLW支援ASUP設定]
+image::../media/sam1130-flw-support-asup-setup.gif[AutoSupport 工作流程]

@@ -17,10 +17,10 @@ summary: 在System Manager中、您可以依照下列步驟建立快照映像和
 
 == 建立快照映像的工作流程
 
-image::../media/sam1130-flw-snapshots-create-ss-images.gif[Sam1130 FLW快照可建立數個映像]
+image::../media/sam1130-flw-snapshots-create-ss-images.gif[建立 Snapshot Images 工作流程]
 
 
 
 == 建立Snapshot Volume的工作流程
 
-image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[Sam1130 FLW快照可建立數個磁碟區]
+image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[建立 Snapshot Volume 工作流程]

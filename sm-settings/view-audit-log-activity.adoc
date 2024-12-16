@@ -81,7 +81,7 @@ summary: 透過檢視稽核記錄、具有「安全性管理」權限的使用�
  a| 
 顯示/隱藏欄
  a| 
-按一下*顯示/隱藏*欄圖示 image:../media/sam-1140-ss-access-columns.gif[""] 可選擇要在表格中顯示的其他列。其他欄位包括：
+按一下「 * 顯示 / 隱藏 * 」欄圖示image:../media/sam-1140-ss-access-columns.gif["顯示 / 隱藏欄"]，以選取要顯示在表格中的其他欄。其他欄位包括：
 
 ** *方法*：HTTP方法（例如POST、GET、DELETE等）。
 ** *CLI命令已執行*—針對安全CLI要求執行的CLI命令（語法）。
@@ -99,14 +99,14 @@ summary: 透過檢視稽核記錄、具有「安全性管理」權限的使用�
  a| 
 切換欄篩選條件
  a| 
-按一下*切換*圖示 image:../media/sam-1140-ss-access-toggle.gif[""] 開啟每欄的篩選欄位。在欄位中輸入字元、以限制這些字元所顯示的事件。再按一下圖示以關閉篩選欄位。
+按一下 * 切換 * 圖示image:../media/sam-1140-ss-access-toggle.gif["切換"]，開啟每一欄的篩選欄位。在欄位中輸入字元、以限制這些字元所顯示的事件。再按一下圖示以關閉篩選欄位。
 
 
 
  a| 
 復原變更
  a| 
-按一下「*復原*」圖示 image:../media/sam-1140-ss-access-undo.gif[""] 可將表恢復爲默認配置。
+按一下 * 復原 * 圖示image:../media/sam-1140-ss-access-undo.gif["復原"]，將表格恢復為預設組態。
 
 
 

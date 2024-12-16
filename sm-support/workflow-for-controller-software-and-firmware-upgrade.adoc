@@ -13,4 +13,4 @@ summary: 在「系統管理程式」中SANtricity 、您可以依照下列步驟
 [role="lead"]
 在「系統管理程式」中SANtricity 、您可以依照下列步驟來升級控制器軟體和韌體。
 
-image::../media/sam1130-flw-firmware-upgrade.gif[Sam1130 FLW韌體升級]
+image::../media/sam1130-flw-firmware-upgrade.gif[控制器軟體與韌體升級工作流程]

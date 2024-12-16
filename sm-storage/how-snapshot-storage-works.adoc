@@ -30,7 +30,7 @@ Snapshot映像也適用於測試環境。藉由建立資料的虛擬複本、您
 * 建立快照映像時、會完全符合基礎磁碟區。Snapshot功能使用寫入時複製技術。在擷取快照之後、第一次寫入基礎磁碟區上的任何區塊或區塊集、會在將新資料寫入基礎磁碟區之前、將原始資料複製到保留容量。
 * 後續的快照僅包含變更的資料區塊。在基礎磁碟區上覆寫資料之前、Snapshot功能會使用寫入時複製技術、將受影響磁區的必要映像儲存至快照保留容量。
 +
-image::../media/sam1130-dwg-snapshots-cow-overview.gif[Sam1130 dwgW快照概觀]
+image::../media/sam1130-dwg-snapshots-cow-overview.gif[Snapshot 概述]
 
 
 

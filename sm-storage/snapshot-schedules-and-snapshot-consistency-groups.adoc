@@ -33,6 +33,6 @@ summary: 使用快照映像集合排程、並使用快照一致性群組來管�
 
 快照一致性群組中包含的磁碟區稱為成員磁碟區。當您將磁碟區新增至一致性群組時、System Manager會自動建立與該成員磁碟區對應的新保留容量。您可以定義排程來自動建立每個成員磁碟區的快照映像。
 
-image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[Sam1130 dwl快照一致性群組總覽]
+image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[Snapshot 一致性群組概觀]
 
 ^1^保留容量；^2^成員磁碟區；^3^一致性群組快照映像

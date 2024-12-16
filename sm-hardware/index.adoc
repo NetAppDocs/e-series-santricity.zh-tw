@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity 系統管理員 11.8
+= SANtricity 系統管理員 11.9
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+您可以在「硬體」頁面上檢查元件狀態、並執行與這些元件相關的部分功能。

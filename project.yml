@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SANtricity 11.8
+  name: SANtricity 11.9
   internal:
     pdf_enabled: true
   prod:
@@ -8,16 +8,16 @@ settings:
     harmony_enabled: false
   rss_page: whats-new.html
   versions:
-  - version-number: '11.8'
+  - version-number: '11.9'
     url: "/e-series-santricity"
+  - version-number: '11.8'
+    url: "/e-series-santricity-118"
   - version-number: '11.7'
     url: "/e-series-santricity-117"
-  - version-number: '11.6'
-    url: "/e-series-santricity-116"
   langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
   entries:
-  - title: SANtricity 11.8 文件
+  - title: SANtricity 11.9 文件
     url: "/index.html"
   - title: 版本資訊
     entries:

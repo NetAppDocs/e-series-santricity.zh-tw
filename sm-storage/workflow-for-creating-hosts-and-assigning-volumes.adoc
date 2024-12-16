@@ -13,4 +13,4 @@ summary: 下圖說明如何設定主機存取。
 [role="lead"]
 下圖說明如何設定主機存取。
 
-image::../media/sam1130-flw-hosts-create-host.gif[Sam1130 FLW主機可建立主機]
+image::../media/sam1130-flw-hosts-create-host.gif[設定主機工作流程]

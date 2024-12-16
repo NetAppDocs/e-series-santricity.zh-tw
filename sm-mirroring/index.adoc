@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity 系統管理員 11.8
+= SANtricity 系統管理員 11.9
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+您可以透過 SANtricity 系統管理員來管理非同步鏡射和同步鏡射。

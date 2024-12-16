@@ -30,7 +30,7 @@ summary: 非同步鏡射會根據需求或排程複製資料磁碟區、如此�
 
 主動式非同步鏡射工作階段有四個主要步驟。
 
-image::../media/sam-1130-dwg-async-mirroring-session.gif[Sam 1130dwg-非同步鏡射工作階段]
+image::../media/sam-1130-dwg-async-mirroring-session.gif[非同步鏡射工作階段]
 
 . 首先在主磁碟區的儲存陣列上執行寫入作業。
 . 作業狀態會傳回主機。

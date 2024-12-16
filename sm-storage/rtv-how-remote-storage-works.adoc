@@ -24,6 +24,9 @@ summary: 遠端儲存功能可讓您從遠端儲存系統將資料匯入本機E�
 
 遠端儲存功能的使用者指南將進一步說明這些步驟、您可從E系列與SANtricity 版次文件中心取得、網址為 https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html["遠端儲存磁碟區總覽"^]和中的 https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["遠端儲存技術報告"^]。
 
+
+NOTE: E4000 系統目前不支援 SANtricity 遠端儲存磁碟區。
+
 在本機E系列儲存系統上：
 
 . 確保每個控制器都有iSCSI連線至遠端儲存系統。透過此連線、本機E系列系統可做為iSCSI啟動器、並可在遠端系統上設定為主機。

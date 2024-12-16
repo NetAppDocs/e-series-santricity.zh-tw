@@ -21,7 +21,7 @@ summary: 若要配置儲存設備、您可以建立一個集區或磁碟區群�
 
 集區和磁碟區群組是儲存陣列中的最上層儲存單元：它們會將磁碟機的容量劃分為可管理的磁碟區。在這些邏輯區中、是儲存資料的個別磁碟區或LUN。下圖說明此概念。
 
-image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[Sam1130 dwgs磁碟區磁碟機結構集區和磁碟區群組]
+image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[集區和磁碟區群組結構]
 
 ^1^主機LUN；^2^磁碟區；^3^磁碟區群組或集區；^4^ HDD或SSD磁碟機
 

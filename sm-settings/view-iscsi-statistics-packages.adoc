@@ -1,5 +1,5 @@
 ---
-permalink: sm-settings/view-iscsi-statistics-packages-system.html 
+permalink: sm-settings/view-iscsi-statistics-packages.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, view, iscsi, statistics, packages, 
 summary: 您可以檢視與儲存陣列的iSCSI連線相關資料。 

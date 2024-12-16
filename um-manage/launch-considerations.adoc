@@ -21,4 +21,4 @@ System Manager是控制器上的內嵌應用程式、透過乙太網路管理連
 * 透過網頁瀏覽器連線到網路管理用戶端的頻外連線。
 
 
-image::../media/single2800.gif[辛格2800]
+image::../media/single2800.gif[透過網頁瀏覽器連線至網路管理用戶端的頻外連線。]

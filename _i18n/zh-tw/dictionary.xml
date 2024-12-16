@@ -84,22 +84,17 @@
   <block id="0b06dce9e1b3bc7d8372cf18b3a233ff" category="paragraph">如果集區或磁碟區群組支援備援且為最佳、您可以使用「線上」方法來升級磁碟機韌體。當儲存陣列使用這些磁碟機處理I/O時、線上方法會下載韌體_到相關的磁碟區。您不需要使用這些磁碟機來停止相關磁碟區的I/O。這些磁碟機一次升級為與磁碟機相關的磁碟區。如果磁碟機未指派給資源池或磁碟區群組、則可透過「線上」或「離線」方法來更新其韌體。使用線上方法升級磁碟機韌體時、系統效能可能會受到影響。</block>
   <block id="82590f18903227ef866c105265e29c64" category="list-text">*離線*</block>
   <block id="1b6b2f17142a5a59bae91fead9eea84e" category="paragraph">如果集區或磁碟區群組不支援備援（RAID 0）或降級、則您必須使用離線方法來升級磁碟機韌體。只有當所有I/O活動都停止時、「離線」方法才會將韌體升級至使用這些磁碟機的相關磁碟區。您必須使用這些磁碟機來停止所有與任何相關磁碟區的I/O。如果磁碟機未指派給資源池或磁碟區群組、則其韌體可透過「線上」或「離線」方法進行更新。</block>
-  <block id="3962c67157856b85df4c5309ed0a5d1c" category="summary">支援HTTPS、HTTP和SMTP傳輸協定、可將派單傳送至技術支援。AutoSupport</block>
   <block id="37d2d3abeb0c853792589ef5ef3ca6e2" category="doc">設定AutoSupport 供應功能</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
   <block id="951f23f38a775d7b989c10f181c6a5fb" category="list-text">必須啟用此功能。AutoSupport您可以在AutoSupport 「介紹」頁面上查看是否已啟用此功能。</block>
   <block id="eafe9700c0de4e0a4bf96ea8a52637c2" category="list-text">必須在網路中安裝和設定DNS伺服器。DNS伺服器位址必須在系統管理員中設定（此工作可從「硬體」頁面取得）。</block>
   <block id="f869702509af8522ab5a8d9317437a5c" category="paragraph">檢閱不同的傳輸協定：</block>
   <block id="c320b46bad703dba81e017b358d86d07" category="list-text">* HTTPS *：可讓您使用HTTPS直接連線至目的地技術支援伺服器。如果您要啟用AutoSupport 「僅供支援的更新」或「遠端診斷」、AutoSupport 則必須將「提供支援的方法」設為HTTPS。</block>
-  <block id="85f5b44a49dc590cf656c27a9db9e5aa" category="list-text">* HTTP *：可讓您使用HTTP直接連線至目的地技術支援伺服器。</block>
   <block id="5b999ecb8bff8dd3f70944baa491c671" category="list-text">*電子郵件*：可讓您使用電子郵件伺服器作為傳送AutoSupport 功能來傳送非功能性派單。</block>
-  <block id="4b14e85f50ab6574b52c5f3998e5d090" category="paragraph">HTTPS / HTTP與電子郵件方法之間的差異*。使用SMTP的電子郵件傳送方法與HTTPS和HTTP傳送方法有一些重要差異。首先、「電子郵件」方法的派單大小限制為5MB、這表示部分ASUP資料收集將不會派送。第二、AutoSupport 只有在HTPP和HTTPS方法上才能使用「支援即用」功能。</block>
   <block id="ad0299a08f3ae4e0e7821efec30e957c" category="list-text">選取功能表：Support（支援）[Support Center（支援中心）&gt; AutoSupport SESS]索引標籤。</block>
   <block id="d15ef58f591a31679a31fd6a6870c0f9" category="list-text">選擇*設定AutoSupport 「供應方法」*。</block>
   <block id="b0e813c1d02ae767a417776fd8a8e6f9" category="paragraph">此時會出現一個對話方塊、列出分派交付方法。</block>
   <block id="c143b9caf0caf400d47403e99931103b" category="list-text">選取所需的交付方法、然後選取該交付方法的參數。執行下列其中一項：</block>
-  <block id="973964a77df9b69b12f27d0b8d26cc36" category="list-text">如果您選取HTTPS或HTTP、請選取下列其中一個交付參數：</block>
-  <block id="46c1790980160f29ebbcc3dd7c68f99a" category="list-text">*直接*-此交付參數為預設選項。選擇此選項可讓您使用HTTPS或HTTP傳輸協定、直接連線至目的地技術支援系統。</block>
   <block id="9ba064119aa4adae0694381c00680251" category="list-text">*透過Proxy伺服器*-選擇此選項可讓您指定與目的地技術支援系統建立連線所需的HTTP Proxy伺服器詳細資料。您必須指定主機位址和連接埠號碼。不過、您只需在必要時輸入主機驗證詳細資料（使用者名稱和密碼）。</block>
   <block id="6a5001d36e6f16c8e2ba0dd5fc89f8de" category="list-text">*透過Proxy自動組態指令碼（PAC）*-指定Proxy自動組態（PAC）指令碼檔案的位置。PAC檔案可讓系統自動選擇適當的Proxy伺服器、以建立與目的地技術支援系統的連線。</block>
   <block id="88816662b2b289f8f26259414739e64d" category="list-text">如果您選取電子郵件、請輸入下列資訊：</block>
@@ -129,9 +124,6 @@
   <block id="e6f2dc3aa8152d09abac598a55e9366f" category="list-text">如果磁碟機只能進行離線升級、則會停止與磁碟機相關聯之所有磁碟區的I/O活動。</block>
   <block id="a56e70035fdf4b7df936ab775f083aa4" category="list-text">選取功能表：Support[升級中心]。</block>
   <block id="27cbc683bae5b0ae674e1f14b28ba85b" category="list-text">將新檔案從Support網站下載到您的管理用戶端。</block>
-  <block id="1e85b82464e0b22d88d33677019d1e27" category="list-text">在「磁碟機韌體升級」下、按一下「* NetApp支援*」。</block>
-  <block id="7c281e9bad492c4969c4b81a96defe2b" category="list-text">在NetApp支援網站上、按一下* Downloads *（下載*）索引標籤。</block>
-  <block id="15e64f7564367057ae54ac605577e0dc" category="list-text">選擇*磁碟機與韌體對照表*。</block>
   <block id="97ee451d6d95940738f8ea5c329f19b4" category="list-text">請遵循其餘指示。</block>
   <block id="953a296f7b11258e3941c8cf2edc32a6" category="list-text">在「磁碟機韌體升級」下、按一下「*開始升級*」。</block>
   <block id="dc37cd015f10fb7e350ecaeb555ca0c1" category="paragraph">此時會出現一個對話方塊、列出目前使用中的磁碟機韌體檔案。</block>
@@ -290,7 +282,6 @@
   <block id="89e45886f102955a4b94fde5cfd472f2" category="list-text">*控制器NVSRAM*-控制器NVSRAM-是控制器檔案、可指定控制器的預設設定。</block>
   <block id="9a117d24c5148683876d0d0084de9881" category="list-text">* IOM韌體*- I/O模組（IOM）韌體可管理控制器與磁碟機櫃之間的連線。它也會監控元件的狀態。</block>
   <block id="096ea47ee097c078c09c6a83f880a840" category="list-text">*監控軟體*-監控軟體是軟體執行所在控制器上的虛擬機器。</block>
-  <block id="672f902afa2aa052ec3b55b9e3e0dfc2" category="image-alt">Sam1130 dwg.升級韌體位置</block>
   <block id="d44c72698d05ea141ed24d5313992baa" category="paragraph">^1^控制器機櫃；^2^磁碟機機櫃；^3^軟體、控制器韌體、控制器NVSRAM, 監督軟體；^4^磁碟機韌體；^5^ IOM韌體；^6^磁碟機韌體</block>
   <block id="f13ad633a10532a718e640963e25ba41" category="paragraph">您可以在「軟體與韌體詳細目錄」對話方塊中檢視目前的軟體與韌體版本。移至功能表：Support[升級中心]、然後按一下*軟體與韌體庫存*的連結。</block>
   <block id="521132bf11403dff3ed68f00e8e5203a" category="inline-link">NetApp互通性對照表工具</block>
@@ -467,11 +458,9 @@
   <block id="fb7e65669e5874b9e0b75fbd623f7da4" category="paragraph">在線上升級磁碟機韌體期間、如果在快速重建程序期間進行磁碟區傳輸、系統會對傳輸的磁碟區進行完整重建。這項作業可能需要相當長的時間。實際的完整重建時間取決於多個因素、包括重建作業期間發生的I/O活動量、磁碟區群組中的磁碟機數量、重建優先順序設定、以及磁碟機效能。</block>
   <block id="0053cb3da5cd9357da42c9285388e7c5" category="summary">在「系統管理程式」中SANtricity 、您可以依照下列步驟來升級控制器軟體和韌體。</block>
   <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">控制器軟體與韌體升級的工作流程</block>
-  <block id="361638f3fa2ab614b999cb442c3951ea" category="image-alt">Sam1130 FLW韌體升級</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">在「系統管理程式」中SANtricity 、AutoSupport 您可以依照下列步驟來設定「功能性」。</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">功能的工作流程AutoSupport</block>
   <block id="fa1ad6ca18787ce10b28e8361e9f1ad1" category="paragraph">在System Manager中、AutoSupport 您可以依照下列步驟來設定功能。</block>
-  <block id="3bd2ffe663bb769bb020a0e8f968a73a" category="image-alt">Sam1130 FLW支援ASUP設定</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">停用AutoSupport 「還原維護」視窗、以便在發生錯誤事件時自動建立問題單。停用「還原維護」時、如果發生問題、儲存陣列會使用「支援」來開啟個案。AutoSupport AutoSupport</block>
   <block id="ccc1efeb0dcf8c187a812dfc3c4f8ac1" category="doc">停用AutoSupport 還原維護所需時間</block>
   <block id="0da69218a13ebfac913ebb21ce1861f6" category="list-text">選擇*停用AutoSupport 「還原維護」視窗*。</block>
@@ -602,10 +591,8 @@
   <block id="6b82b68ee8e8a0e879e030cb59f06c65" category="list-text">當您選取要升級的檔案時、會顯示檔案名稱和大小。</block>
   <block id="b4d85d3d8454e416a479e3769d949502" category="list-text">*選用：*如果您選擇SANtricity 要升級的支援功能作業系統軟體檔案、您可以選擇*立即傳輸檔案、但不要升級（稍後啟動升級）*核取方塊、將檔案傳輸至控制器、而不啟動檔案。</block>
   <block id="ea05f78407f270e18e03bc081fe2f071" category="paragraph">您可以在升級前的狀況檢查期間取消作業、但在傳輸或啟動期間無法取消。</block>
-  <block id="46b89af2910d7de7887ff8b8413a9c3c" category="summary">支援HTTPS、HTTP和SMTP傳輸協定的功能、AutoSupport 可將AutoSupport 不支援的項目傳送給技術支援人員。</block>
   <block id="bc878a19fc67131e8323da1e755255c2" category="doc">我要如何設定AutoSupport 供應方法以使用「不知道」功能？</block>
   <block id="3419a57dc78279b5f8f98de3be93468b" category="list-text">*選用；如果您要執行組態測試。* AutoSupport 當系統收到測試派單時、會傳送確認訊息的電子郵件地址。</block>
-  <block id="e35d3866f0babedb61a0f1ba9102cafd" category="doc">系統管理程式11.7 SANtricity</block>
   <block id="86a5e8630ff2e8e28a803ee84068ba6d" category="summary">您可以向控制器指出、已採取修正行動、從錯誤的線路狀況中恢復。</block>
   <block id="78806e8c631b37f7ad8cf035c7be2eac" category="doc">重新啟用磁碟機連接埠</block>
   <block id="fb3b0604ba7738bb6c94dfbfcd5c4174" category="list-text">選取*重新啟用磁碟機連接埠*、然後確認您要執行此作業。</block>
@@ -933,9 +920,7 @@
   <block id="f42ab20723d88e6ffea883aa8f45d665" category="summary">在System Manager中、您可以依照下列步驟建立快照映像和快照磁碟區。</block>
   <block id="b4dcc45d10b6e6d4ae1dc448b727db43" category="doc">建立快照映像與快照磁碟區的工作流程</block>
   <block id="a97efe42ec88f5615739c5ebf0085fd8" category="section-title">建立快照映像的工作流程</block>
-  <block id="ef8bf440f203714f31690f3269f2a3be" category="image-alt">Sam1130 FLW快照可建立數個映像</block>
   <block id="bb41f61d9b53608a25e359fed048aa2f" category="section-title">建立Snapshot Volume的工作流程</block>
-  <block id="12da876cc8c4d30e71fe2566936ae1bc" category="image-alt">Sam1130 FLW快照可建立數個磁碟區</block>
   <block id="c104faa4e49e8bffe70f2b9aac16e76f" category="summary">您可以設定主機和主機叢集、以定義儲存陣列與資料伺服器之間的連線。</block>
   <block id="cd811d42b4b9e088e08c83bbb519cbf3" category="doc">主機與主機叢集總覽</block>
   <block id="2db1b7a20809af794fad4aa6fe91958b" category="section-title">什麼是主機和主機叢集？</block>
@@ -969,7 +954,6 @@
   <block id="2d14e3e7721fd1f9209015ea0e5f0a3d" category="doc">Snapshot Volume</block>
   <block id="65ecf2a2337dcf0c18a07aebad2467c3" category="paragraph">建立快照磁碟區時、您可以將其指定為_read-onl_y或_read-write accessure_。</block>
   <block id="6fae9866cf5b41c3c43499004314830d" category="paragraph">建立唯讀快照磁碟區時、您不需要新增保留容量。建立讀寫快照磁碟區時、您必須新增保留容量以提供寫入存取。</block>
-  <block id="0826f71e74c63bde050daa130916d6c1" category="image-alt">Sam1130 dwgs快照磁碟區總覽</block>
   <block id="9532d122b8f06dcd16ac244c1dc2cf91" category="paragraph">^1^基礎磁碟區；^2^主機；^3^唯讀快照磁碟區；^4^讀寫快照磁碟區；^5^保留容量</block>
   <block id="0119bd5e8a06e57edb9b364c59ac94ab" category="summary">當SSD磁碟機的一部分容量未配置時、其壽命將更長、寫入效能將更高。</block>
   <block id="f220b79cc4513584ba7d4bae43c90357" category="doc">集區的最佳化容量為何？</block>
@@ -1284,7 +1268,6 @@
   <block id="0f5df647ca5dab4ee03a26732709068f" category="list-text">集區中允許的最大磁碟區數取決於儲存系統機型：</block>
   <block id="4c54c92d3510c01a7395053d83e94ed9" category="list-text">2、048個磁碟區（EF600和E5700系列）</block>
   <block id="aff83888aa4f8769518fc32e759fbbe3" category="list-text">1、024個磁碟區（EF300）</block>
-  <block id="bbacc09876e48d4a13adc409b0903156" category="list-text">512個磁碟區（E2800系列）</block>
   <block id="05b93f6f166f69fe87a016a1bfa75578" category="list-text">如果集區或磁碟區群組包含所有具有安全功能的磁碟機、請僅新增具備安全功能的磁碟機、以繼續使用具有安全功能的磁碟機的加密功能。</block>
   <block id="3cebaa2c5445065ae59be02b02aebe90" category="paragraph">安全的磁碟機可以是全磁碟加密（FDE）磁碟機、也可以是聯邦資訊處理標準（FIPS）磁碟機。</block>
   <block id="f62b6a7943693e0c4263ed7095ad9c21" category="paragraph">對於集區、一次最多可新增60個磁碟機。對於Volume群組、一次最多可新增兩個磁碟機。如果您需要新增的磁碟機數量超過上限、請重複此程序。（集區所包含的磁碟機數量不得超過儲存系統的上限。）</block>
@@ -1534,7 +1517,6 @@
   <block id="cb3a5458bc09e67d6ef6ce205d17d738" category="paragraph">以_基礎Volume _為快照映像的來源磁碟區。基礎磁碟區可以是厚磁碟區或精簡磁碟區、而且可以位於集區或磁碟區群組中。</block>
   <block id="1720719bd157b93b853ddc78630f4791" category="paragraph">若要擷取基礎磁碟區的快照、您可以隨時建立即時映像、或是定義快照的定期排程來自動化程序。</block>
   <block id="60d9df749d5dab9aa5752ca06b11d535" category="paragraph">下圖顯示快照物件與基礎磁碟區之間的關係。</block>
-  <block id="3c42e408027c4d66c652218a672a0fe9" category="image-alt">Sam1130 dwgs快照映像總覽</block>
   <block id="949c7d49ab9f67bc9d5777be798b8db7" category="paragraph">^1^基礎磁碟區；^2^群組中的Snapshot物件（影像和保留容量）；^3^快照群組的保留容量。</block>
   <block id="1e6dcc27b41dd29b57867b26a6a96089" category="section-title">保留容量與快照群組</block>
   <block id="26ec84fa5045ca48c0f10d38ca70a090" category="paragraph">System Manager會將快照映像整理成_snapshot Groups_。系統管理程式建立快照群組時、會自動建立相關的_reserved capity_、以保留群組的快照映像、並追蹤後續對其他快照所做的變更。</block>
@@ -1558,7 +1540,6 @@
   <block id="dc5cedd32cc74ed1dd3f0b48fe2065c3" category="paragraph">您可以從*資源池和Volume群組*變更保留容量。選取您要編輯的資源池。按一下「*檢視/編輯設定*」、然後選取「*設定*」索引標籤。</block>
   <block id="5f1d6366c7ffd99ff1b7c5f05e692914" category="paragraph">保留容量會指定為多個磁碟機、即使實際保留容量會分散在集區中的磁碟機上。</block>
   <block id="46c0ce9f7787b7e7378014c3a3284d40" category="summary">下圖說明如何設定主機存取。</block>
-  <block id="5b21f20110107659dd5875988b3409f2" category="image-alt">Sam1130 FLW主機可建立主機</block>
   <block id="122f46bed4564e906a8313a3e36d3a7f" category="summary">選取的Volume群組可能有一個或多個可用容量區域。可用容量區域是指在建立磁碟區期間、刪除磁碟區或未使用所有可用容量所產生的可用容量。</block>
   <block id="829adcf34027420aed066d1231af1c87" category="doc">當磁碟區群組中有足夠的可用容量來建立磁碟區時、為什麼我看到容量過度配置錯誤？</block>
   <block id="5d3f0d326f2cb1c02cf46b35d7f72e22" category="paragraph">當您在具有一或多個可用容量區域的Volume群組中建立Volume時、該Volume的容量僅限於該Volume群組中最大的可用容量區域。例如、如果某個Volume群組的可用容量總計為15 GiB、而最大的可用容量區域則為10 GiB、則您可以建立的最大磁碟區為10 GiB。</block>
@@ -3367,7 +3348,6 @@
   <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">監控精簡磁碟區</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">在「系統管理程式」中SANtricity 、您可以依照下列步驟建立磁碟區。</block>
   <block id="26eaac99fa3741d6e7305e93cad51def" category="paragraph">在System Manager中、您可以依照下列步驟建立磁碟區。</block>
-  <block id="8774cdb9b7bf373fd360b697dfc73074" category="image-alt">Sam1130 FLW磁碟區建立</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">您可以將新的成員磁碟區新增至現有的快照一致性群組。新增成員磁碟區時、您也必須保留成員磁碟區的容量。</block>
   <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">將成員磁碟區新增至快照一致性群組</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">成員Volume必須處於最佳狀態。</block>
@@ -3702,14 +3682,12 @@
   <block id="c256ddae26373a7f962ae46e150c1562" category="list-text">* Snapshot一致性群組復原*、可用於復原一或多個磁碟區。</block>
   <block id="29012892288d1b7c8f199a16332574cb" category="paragraph">在復原期間、Snapshot功能會保留群組中的所有快照映像。如果I/O作業需要、也可讓主機在此程序期間存取基礎磁碟區。</block>
   <block id="de283d7a9098bcc219049cc5e14d0cc8" category="paragraph">啟動復原時、背景程序會掃過基礎磁碟區的邏輯區塊位址（LDBA）、然後在復原快照映像中尋找寫入時複製資料以進行還原。由於基礎磁碟區可由主機存取以供讀取和寫入、而且所有先前寫入的資料都可立即使用、因此保留容量磁碟區必須夠大、足以在復原處理期間容納所有變更。資料傳輸會繼續做為背景作業、直到復原完成為止。</block>
-  <block id="5daf01f3f17796b27d7771d6cb582f2c" category="image-alt">Sam1130 dwgs快照復原總覽</block>
   <block id="743f86d79c37270dc505fe437c1f1c6c" category="paragraph">^1^基礎磁碟區；^2^群組中的Snapshot物件；^3^ Snapshot群組保留容量</block>
   <block id="b351750a3483384d9ab2a934dc160e1e" category="summary">若要配置儲存設備、您可以建立一個集區或磁碟區群組、其中包含您要在儲存陣列中使用的硬碟機（HDD）或固態磁碟（SSD）磁碟機。</block>
   <block id="b2a1cbc18a64861cce318c44b2aa52f9" category="paragraph">實體硬體已配置至邏輯元件、以便組織及輕鬆擷取資料。支援兩種群組類型：</block>
   <block id="283176e6feb211f8532b2c7c9263cd08" category="list-text">資源池</block>
   <block id="90b66a5ef079dd6fe113e4666b593730" category="list-text">RAID Volume群組</block>
   <block id="6b4c11beddbb9d9050898c59e3a7253a" category="paragraph">集區和磁碟區群組是儲存陣列中的最上層儲存單元：它們會將磁碟機的容量劃分為可管理的磁碟區。在這些邏輯區中、是儲存資料的個別磁碟區或LUN。下圖說明此概念。</block>
-  <block id="bde5bcac86e6435e52adb5ab2ea9b873" category="image-alt">Sam1130 dwgs磁碟區磁碟機結構集區和磁碟區群組</block>
   <block id="102f77a09364193fdbcfe0eb0664ecdb" category="paragraph">^1^主機LUN；^2^磁碟區；^3^磁碟區群組或集區；^4^ HDD或SSD磁碟機</block>
   <block id="9bb34d4088b730e51b652e6baa391ce1" category="paragraph">部署儲存系統時、第一步是透過下列方式、將可用的磁碟機容量呈現給各個主機：</block>
   <block id="161f7520d335e2bd5a9c12746d44848c" category="list-text">建立具有足夠容量的集區或Volume群組</block>
@@ -3780,7 +3758,6 @@
   <block id="cf1d844a7c0925859af01a6a7723042e" category="paragraph">建立快照時、Snapshot功能會儲存映像資料、如下所示：</block>
   <block id="4d597b8796cba4c28f3bbfe445110674" category="list-text">建立快照映像時、會完全符合基礎磁碟區。Snapshot功能使用寫入時複製技術。在擷取快照之後、第一次寫入基礎磁碟區上的任何區塊或區塊集、會在將新資料寫入基礎磁碟區之前、將原始資料複製到保留容量。</block>
   <block id="9dacefe95d818773369a9797ff2a929a" category="list-text">後續的快照僅包含變更的資料區塊。在基礎磁碟區上覆寫資料之前、Snapshot功能會使用寫入時複製技術、將受影響磁區的必要映像儲存至快照保留容量。</block>
-  <block id="1886962b4901912e6cd5b15cf8ec8801" category="image-alt">Sam1130 dwgW快照概觀</block>
   <block id="939b092d6e7a8a3b4a205c55c9e2ae72" category="paragraph">^1^基礎磁碟區（實體磁碟容量）；^2^快照（邏輯磁碟容量）；^3^保留容量（實體磁碟容量）</block>
   <block id="d47ce171ec06ec6f652ca0dd7e6f39ae" category="list-text">保留容量會將原始資料區塊儲存在擷取快照後已變更的基礎磁碟區部分、並包含追蹤變更的索引。一般而言、保留容量的大小預設為基礎Volume的40%。（如果您需要更多保留容量、可以增加保留容量。）</block>
   <block id="4049e112b53e70c18a06540b7b2c149e" category="list-text">Snapshot影像會根據時間戳記、以特定順序儲存。只有基礎磁碟區的最舊快照映像可供手動刪除。</block>
@@ -3817,7 +3794,6 @@
   <block id="0df2c1ef0ce0fbcc26d3b077b4376a4c" category="paragraph">如果您想要自動為基礎磁碟區擷取快照、可以建立排程。例如、您可以定義排程、以便在每週六午夜、每月第一天或您決定的任何日期和時間拍攝快照影像。在單一排程達到最多32個快照之後、您可以暫停排程的快照、建立更多保留容量、或是刪除快照。您可以手動刪除快照、或是將刪除程序自動化。刪除快照映像之後、就可以再使用其他保留容量。</block>
   <block id="2698e3159f430fff009f6ab0419d150a" category="paragraph">您可以建立快照一致性群組、以確保快照映像同時在多個磁碟區上擷取。Snapshot映像動作會在整個Snapshot一致性群組上執行。例如、您可以使用相同的時間戳記來排程所有磁碟區的同步快照。Snapshot一致性群組非常適合橫跨多個磁碟區的應用程式、例如將記錄儲存在一個磁碟區上的資料庫應用程式、以及儲存在另一個磁碟區上的資料庫檔案。</block>
   <block id="17963740167151a850181d7e3b2adbf4" category="paragraph">快照一致性群組中包含的磁碟區稱為成員磁碟區。當您將磁碟區新增至一致性群組時、System Manager會自動建立與該成員磁碟區對應的新保留容量。您可以定義排程來自動建立每個成員磁碟區的快照映像。</block>
-  <block id="6e72b0870329f5e5695688a38e389963" category="image-alt">Sam1130 dwl快照一致性群組總覽</block>
   <block id="6e30b92634e631be134cb29b1703e5d9" category="paragraph">^1^保留容量；^2^成員磁碟區；^3^一致性群組快照映像</block>
   <block id="1d4472085ff5c57f99260a8d83a61773" category="summary">一般而言、如果磁碟區是以錯誤的參數或容量建立、不再符合儲存組態需求、或是不再需要用於備份或應用程式測試的快照映像、就會刪除磁碟區。</block>
   <block id="2a5d42c6975b7c52552f8b0c2c053b53" category="doc">刪除Volume</block>
@@ -3952,38 +3928,23 @@
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">系統管理程式SANtricity</block>
   <block id="12491fe4846acc1919e62f4155149b40" category="paragraph">System Manager是內嵌在每個控制器上的網路型管理軟體。若要存取使用者介面、請將瀏覽器指向控制器的IP位址。設定精靈可協助您開始進行系統組態。</block>
   <block id="e6f420d96363bcc9439b0954a152e61f" category="paragraph">System Manager提供多種管理功能、包括：</block>
-  <block id="37e0eabe0db7567f83a15c51cfc7f62b" category="paragraph"><block ref="61a24b2f3f51ec993b798d3c93abc9a9" category="inline-image-macro-rx" type="image"></block> *效能*</block>
   <block id="49ef72f729cb2500435ef1d7e5672053" category="paragraph">檢視長達30天的效能資料、包括I/O延遲、IOPS、CPU使用率和處理量。</block>
-  <block id="d077770f6c426b33d25496bb584152ca" category="paragraph"><block ref="2b8e9400dd2a90490b7f2301bce6baac" category="inline-image-macro-rx" type="image"></block> *儲存設備*</block>
   <block id="987074589fc47a7aa68d608c3464d41a" category="paragraph">使用資源池或磁碟區群組來配置儲存設備、並建立應用程式工作負載。</block>
-  <block id="ef25e758b013c77d331d54b5a937ca65" category="paragraph"><block ref="e82b0a1e1e2827556ee65463ed3047a4" category="inline-image-macro-rx" type="image"></block> *資料保護*</block>
   <block id="ec407aec27145b4ff02c44781ce9e135" category="paragraph">使用快照、磁碟區複製和遠端鏡像來執行備份和災難恢復。</block>
-  <block id="980c8bebfcdb099cc91097e43759f417" category="paragraph"><block ref="1cfcec4b7f25019c12aee363ce7c9444" category="inline-image-macro-rx" type="image"></block> *硬體*</block>
   <block id="3a6878cac28e93bf631464503ea3e934" category="paragraph">檢查元件狀態、並執行與這些元件相關的部分功能、例如指派熱備援磁碟機。</block>
-  <block id="f5c518a85015755d3396b4026585e075" category="paragraph"><block ref="7ff49474879db117ddc1b65a56fce106" category="inline-image-macro-rx" type="image"></block> *警示*</block>
   <block id="ddd62c374f39f4ab4e5a47f8712f1c7f" category="paragraph">通知系統管理員儲存陣列上發生的重要事件。警示可透過電子郵件、SNMP設陷和系統記錄傳送。</block>
-  <block id="298faae53f1ac6f667f02b9eb9f5db62" category="paragraph"><block ref="8b3d1866c22370963ba5ee92059dde1f" category="inline-image-macro-rx" type="image"></block> *存取管理*</block>
   <block id="1647e643a86377bf1183456ade80f147" category="paragraph">設定使用者驗證、要求使用者以指派的認證登入系統。</block>
-  <block id="2181e90bce3fbba0064bba8979a73785" category="paragraph"><block ref="d7bb0967f8390bbd248bce2a64a154c4" category="inline-image-macro-rx" type="image"></block> *系統設定*</block>
   <block id="ad036b77d0c0303ed4cd8909da482696" category="paragraph">設定其他系統效能功能、例如SSD快取和自動負載平衡。</block>
-  <block id="977cf952b67f04593161910be13ac423" category="paragraph"><block ref="a6a7b63c3e542eaa546ff069c241f75d" category="inline-image-macro-rx" type="image"></block> *支援*</block>
   <block id="7c7aa1597492a4229481882a3be47b81" category="paragraph">檢視診斷資料、管理升級及設定AutoSupport 功能、以監控儲存陣列的健全狀況、並將自動派單傳送給技術支援部門。</block>
   <block id="93abfbfe31ac8cb67502c94e622ee8a8" category="section-title">統一化管理程式SANtricity</block>
   <block id="290c862dcfeff5fefc8c9503485b46d9" category="paragraph">Unified Manager與Web Services Proxy一起安裝在管理伺服器上。若要存取Unified Manager、請開啟瀏覽器並輸入指向安裝Web服務Proxy之伺服器的URL。</block>
   <block id="95a409858014f8a46f2239633494b0b4" category="paragraph">Unified Manager提供多種管理功能、包括：</block>
-  <block id="ec15df373d2a99afa12ee47320a598ac" category="paragraph"><block ref="8d2259f5e99b0f05cb6565c4c3a18f32" category="inline-image-macro-rx" type="image"></block> *探索儲存陣列*</block>
   <block id="7f20599d33f14ce1ff7f9b70fb7b73be" category="paragraph">在組織網路中尋找並新增您要管理的儲存陣列。然後、您可以從單一頁面檢視所有儲存陣列的狀態。</block>
-  <block id="b75af52589fb3d827f749ab189b58662" category="paragraph"><block ref="89f556efb7ed2a89297bc4c82965906f" category="inline-image-macro-rx" type="image"></block> *發表*</block>
   <block id="3fde700fe4a62ce78ac2289fa0a5e46e" category="paragraph">開啟System Manager執行個體、在特定儲存陣列上執行個別管理作業。</block>
-  <block id="b6be670ccf213da236af7b81b5bfb3d2" category="paragraph"><block ref="3dffbd5d736527ecd51b6202313920e7" category="inline-image-macro-rx" type="image"></block> *匯入設定*</block>
   <block id="6343245a56c402a6a6194f98f3011e1c" category="paragraph">從一個儲存陣列執行批次匯入至多個陣列、包括警示、AutoSupport 還原和目錄服務的設定。</block>
-  <block id="6e9864cc30786ef1aa9a05b3bcbc1f77" category="paragraph"><block ref="e82b0a1e1e2827556ee65463ed3047a4" category="inline-image-macro-rx" type="image"></block> *鏡射*</block>
   <block id="b3bcc5301536e767580cb521ea8a9168" category="paragraph">在兩個儲存陣列之間設定非同步或同步鏡射配對。</block>
-  <block id="1bd3e4c10268fad374e342773a76ebe0" category="paragraph"><block ref="264f7a0a6d9627b72e0ff1e75bd955e1" category="inline-image-macro-rx" type="image"></block> *管理群組*</block>
   <block id="909ebd15eb02815e3d2963dd3edfd9f6" category="paragraph">將儲存陣列組織成多個群組、以利管理。</block>
-  <block id="5e703a60d5f347789f2f9c95020041b5" category="paragraph"><block ref="948395b1a333fdf5713da99763fb9a82" category="inline-image-macro-rx" type="image"></block> *升級中心*</block>
   <block id="cadb34e6a3f0b6fef8b65f6b4f83fbd0" category="paragraph">升級SANtricity 多個儲存陣列上的支援功能。</block>
-  <block id="f2debbf0049c9d07a452e7b8f7f8512e" category="paragraph"><block ref="8e9d51ab38f1ad95d1018824362f594b" category="inline-image-macro-rx" type="image"></block> *證書*</block>
   <block id="d4d6f2044fbcdd351a413cab792d2d9c" category="paragraph">建立憑證簽署要求（CSR）、匯入憑證、以及管理多個儲存陣列的現有憑證。</block>
   <block id="121cd24338b48712373ab15539868779" category="paragraph">設定使用者驗證、要求使用者以指派的認證登入Unified Manager。</block>
   <block id="2267c82d1c72461539c8aaceb4073489" category="summary">可從多種瀏覽器和作業系統中存取。SANtricity</block>
@@ -4130,12 +4091,8 @@
   <block id="8f67973007158337346584551b093be8" category="section-title">圖示</block>
   <block id="e59947ee445b1ddcb1b36e841922561d" category="paragraph">System Manager會使用這些圖示來指出儲存陣列及其元件的狀態。</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">圖示</block>
-  <block id="01e8bed710d86952b17238abf140b392" category="paragraph"><block ref="01e8bed710d86952b17238abf140b392" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2a8cf90c6e77913075cd51690f39183a" category="paragraph"><block ref="2a8cf90c6e77913075cd51690f39183a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e6219fae40a2fc5edda2e7d21837dd11" category="paragraph">非最佳或故障</block>
-  <block id="8b05fcd83de6b1289431c5434b4cd1e4" category="paragraph"><block ref="8b05fcd83de6b1289431c5434b4cd1e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e5e827d704d9b760ff1b338673a2c44" category="paragraph">需要注意或修正</block>
-  <block id="026dd9b4d4767dc7f75d65a335da0f71" category="paragraph"><block ref="026dd9b4d4767dc7f75d65a335da0f71" category="inline-image-macro-rx" type="image"></block></block>
   <block id="764a2caff05993fc0d3eff5de7b225e9" category="paragraph">注意</block>
   <block id="dab64d84f160f1ff1bd1dd11088b61a0" category="paragraph">System Manager會在不同位置顯示這些圖示。</block>
   <block id="9acd806686dd3234546b1446cdcad0cf" category="list-text">首頁上的通知區域會顯示故障圖示和訊息。</block>
@@ -4203,7 +4160,6 @@
   <block id="38fdb2afc81bf942bd8dcf4208c5c967" category="summary">若要存取AutoSupport 有關供應功能的組態工作、請前往Support（支援）&gt; Support Center（支援中心）、然後按一下AutoSupport 「還原」索引標籤。</block>
   <block id="6d145ddbb4b39d9e20b73518a03bfc4f" category="doc">我要如何設定AutoSupport 供應方法以利執行？</block>
   <block id="cf5b6a8826dfd986bff2c61c9d14df01" category="paragraph">若要存取AutoSupport 有關供應功能的組態工作、請前往功能表：Support（支援中心）、然後按一下* AutoSupport 《*》索引標籤。</block>
-  <block id="825eddaaf48335688b9a86b051806f05" category="paragraph">支援下列傳輸協定：HTTPS、HTTP和SMTP。</block>
   <block id="96830edba2b0d20286d9e38c88f41f0d" category="summary">如果您在「驗證硬體」對話方塊中沒有看到所有的硬體元件、可能表示磁碟機櫃連接不正確、或儲存陣列中安裝了不相容的磁碟櫃。</block>
   <block id="7a3b89af3b52c55d1f98c18d0f91e932" category="doc">如果我看不到所有的硬體元件、該怎麼辦？</block>
   <block id="9446f92493638ff7ef1aefbdc315bdba" category="paragraph">如果您在「驗證硬體」對話方塊中沒有看到所有的硬體元件、可能表示磁碟機櫃連接不正確、或儲存陣列中安裝了不相容的磁碟櫃。</block>
@@ -5261,7 +5217,6 @@
   <block id="4a3f946a5d672e0a36f3e78716d815a7" category="list-text"><block ref="4a3f946a5d672e0a36f3e78716d815a7" category="inline-link-macro-rx"></block></block>
   <block id="a337faa8760a049e5437a14ea0619b53" category="list-text"><block ref="a337faa8760a049e5437a14ea0619b53" category="inline-link-macro-rx"></block></block>
   <block id="6a2301b626e4d2e000e656bf3239c947" category="section-title">如何設定簽署的憑證？</block>
-  <block id="df65c54a9ec9667bc0283e4aa5ad95a8" category="paragraph">您首先會從System Manager產生簽署要求、然後將檔案傳送到CA。一旦CA傳回憑證檔案、您就可以使用System Manager匯入這些檔案。</block>
   <block id="07b1dc7e9a4e74582b63a798f9592f98" category="inline-link-macro">控制器使用CA簽署的憑證</block>
   <block id="f30ef1f319818cb54733253443bc4c9a" category="list-text"><block ref="f30ef1f319818cb54733253443bc4c9a" category="inline-link-macro-rx"></block></block>
   <block id="b84682914017c3d657e4a2beaf4a9364" category="paragraph">深入瞭解與憑證相關的工作：</block>
@@ -5470,7 +5425,6 @@
   <block id="3f6d42cf2d512ac8441835feb20c48df" category="list-text">在「*連線至金鑰伺服器*」下、於下列欄位中輸入資訊。</block>
   <block id="e65d78a6632588942ba1e69897ae60a7" category="list-text">*金鑰管理連接埠號碼*-輸入KMIP通訊所使用的連接埠號碼。用於金鑰管理伺服器通訊的最常見連接埠號碼為5696。</block>
   <block id="faad8801d23a759f57b190bd195325f9" category="list-text">*選擇用戶端憑證*-按一下第一個*瀏覽*按鈕、選取儲存陣列控制器的憑證檔案。</block>
-  <block id="d73961b3c6886eb5d1b015bae50f3a4a" category="list-text">*選擇金鑰管理伺服器的伺服器憑證*-按第二個*瀏覽*按鈕、選取金鑰管理伺服器的憑證檔案。您可以為金鑰管理伺服器選擇根、中繼或伺服器憑證。</block>
   <block id="eb604adb06c0a47290c764815fd73159" category="list-text">在「*建立/備份金鑰*」下、您可以建立備份金鑰以確保安全。</block>
   <block id="41706d1306339861705180e1825b2d9a" category="list-text">（建議）若要建立備份金鑰、請保持核取方塊為選取狀態、然後輸入並確認密碼。此值可包含8到32個字元、且必須包含下列各項：</block>
   <block id="f8ee8cbfde4d939a5c373bfa17a57502" category="paragraph">*請務必記錄您的輸入項目以供日後使用*。如果您需要從儲存陣列中移除已啟用安全功能的磁碟機、您必須知道解鎖磁碟機資料的密碼。</block>
@@ -5587,7 +5541,6 @@
   <block id="a3fabc0295d776f26ee76798f5e7eecb" category="paragraph">您必須先產生憑證簽署要求（CSR）檔案、然後使用CSR向金鑰管理伺服器信任的憑證授權單位（CA）要求簽署的用戶端憑證。您也可以使用下載的CSR檔案、從金鑰管理伺服器建立及下載用戶端憑證。用戶端憑證會驗證儲存陣列的控制器、因此金鑰管理伺服器可以信任其金鑰管理互通性傳輸協定（KMIP）要求。</block>
   <block id="ee0d5d80706867e431096b62cf3c5e2a" category="list-text">從「金鑰管理」索引標籤中、選取*完整的csr*。</block>
   <block id="2c80d3f5692bbddd81bc83e7968f3387" category="list-text">輸入下列資訊：</block>
-  <block id="06c5a678917197769985500f5054ae39" category="list-text">*一般名稱*-識別此CSR的名稱、例如儲存陣列名稱、將顯示在憑證檔案中。</block>
   <block id="f234c3b12dba6166f60bac9c363f54cc" category="list-text">*組織*：貴公司或組織的完整法定名稱。包括尾碼、例如Inc.或Corp.</block>
   <block id="69ac902b56aa279ba18618b1e6a972ae" category="list-text">*組織單位（選用）*：您組織處理憑證的部門。</block>
   <block id="f6a05afe4452342eb12066e4700bb036" category="list-text">*城市/地區*：貴組織所在的城市或地區。</block>
@@ -5595,7 +5548,6 @@
   <block id="0210750d504f0f88eaea1d4942a4d806" category="list-text">*國家/地區ISO代碼*-兩位數ISO（國際標準化組織）代碼、例如貴組織所在的美國。</block>
   <block id="66d341303806090714534fa743e9440f" category="list-text">按一下*下載*。</block>
   <block id="9dfff367ea9fa51616b265ac4bd0119b" category="paragraph">CSR檔案會儲存至本機系統。</block>
-  <block id="edc5180b61662fc1be0150bd95564929" category="list-text">從金鑰管理伺服器信任的CA要求已簽署的用戶端憑證。</block>
   <block id="d95c637329a7d9e40b647471e048deee" category="list-text">當您擁有用戶端憑證時、請前往 <block ref="1f166b6040d8c5a8d4907b35fb575af0" category="inline-xref-macro-rx"></block>。</block>
   <block id="1603855b9dc7554f1873c8164f918999" category="section-title">步驟2：匯入金鑰管理伺服器的憑證</block>
   <block id="06c92dfc8076f143375a4f0958f180b2" category="paragraph">下一步是匯入憑證、以便在儲存陣列與金鑰管理伺服器之間進行驗證。憑證有兩種類型：用戶端憑證會驗證儲存陣列的控制器、而金鑰管理伺服器憑證則會驗證伺服器。您必須同時載入控制器的用戶端憑證檔案、以及金鑰管理伺服器的伺服器憑證檔案。</block>
@@ -5727,7 +5679,6 @@
   <block id="90370a06b1b0571260a5d4550fabea3e" category="paragraph">單一登入（SSO）是一種驗證服務、可讓一組登入認證資料存取多個應用程式。</block>
   <block id="e78959343eccc5753e5a6f69aa17e104" category="summary">對於外部金鑰管理、您可以匯入兩種類型的憑證、以便在儲存陣列和金鑰管理伺服器之間進行驗證、讓兩個實體彼此信任。</block>
   <block id="6bb1fc83f2153c8e3dfddfa5b556e792" category="doc">如何知道需要將哪些憑證上傳至System Manager以進行外部金鑰管理？</block>
-  <block id="21e61b7b89892f01884cffafc8c86a9c" category="paragraph">用戶端憑證會驗證儲存陣列的控制器、因此金鑰管理伺服器可以信任其金鑰管理互通性傳輸協定（KMIP）要求。若要取得用戶端憑證、請使用System Manager為儲存陣列完成CSR。然後、您可以將CSR上傳至金鑰管理伺服器、然後從該伺服器產生用戶端憑證。取得用戶端憑證後、請將該檔案複製到您要存取System Manager的主機。</block>
   <block id="9a4b083823a7c4b7786c0328f4a16e2a" category="paragraph">金鑰管理伺服器憑證會驗證金鑰管理伺服器、因此儲存陣列可以信任其IP位址。從金鑰管理伺服器擷取伺服器憑證檔案、然後將該檔案複製到您正在存取System Manager的主機。</block>
   <block id="6157bc386a497dae1351826703950791" category="summary">如果您想要將稽核記錄歸檔到外部syslog伺服器、可以設定該伺服器與儲存陣列之間的通訊。建立連線之後、稽核記錄會自動儲存至syslog伺服器。</block>
   <block id="fbd96b600f11b3fec9c557321a19ac3a" category="list-text">如果您的伺服器使用安全傳輸協定（例如TLS）、則您的本機系統必須具備憑證授權單位（CA）憑證。CA憑證可識別網站擁有者、以確保伺服器與用戶端之間的安全連線。</block>
@@ -5867,7 +5818,6 @@
   <block id="99bed7435706b520211df81bb3b833a1" category="paragraph">刪除事件</block>
   <block id="60adb5288f069f5a086cbcc875d0a4de" category="paragraph">選取*刪除*可開啟對話方塊、讓您從頁面移除舊事件。</block>
   <block id="9ae16d2c540a91f8169558ca56bb3a04" category="paragraph">顯示/隱藏欄</block>
-  <block id="0e5d8c77f64632d6949531c8786c2900" category="paragraph">按一下*顯示/隱藏*欄圖示 <block ref="95c275e82bb68f68f11a49bb34fc239c" category="inline-image-macro-rx" type="image"></block> 可選擇要在表格中顯示的其他列。其他欄位包括：</block>
   <block id="6e66f767222daf4c98d3fd8561adf903" category="list-text">*方法*：HTTP方法（例如POST、GET、DELETE等）。</block>
   <block id="456081dd7e5bfc028ec74475ecf409dc" category="list-text">*CLI命令已執行*—針對安全CLI要求執行的CLI命令（語法）。</block>
   <block id="add1a37a426dc01049dba656a8fa8040" category="list-text">* CLI傳回狀態*：CLI狀態代碼或用戶端輸入檔的要求。</block>
@@ -5876,9 +5826,7 @@
   <block id="2528c31e6b6280eb42137297929a7451" category="list-text">* SSH工作階段PID*- SSH工作階段的處理序ID編號。</block>
   <block id="15b03dee8798d7cc05994bcb42c31990" category="list-text">* SSH工作階段持續時間*-使用者登入的秒數。</block>
   <block id="510092612bcfdb2a09c7d8e879ec8e66" category="paragraph">切換欄篩選條件</block>
-  <block id="43608f7f822df1b119fb2f0861752bd0" category="paragraph">按一下*切換*圖示 <block ref="c402d3ee0f3c0bdb6f04456c65416b8c" category="inline-image-macro-rx" type="image"></block> 開啟每欄的篩選欄位。在欄位中輸入字元、以限制這些字元所顯示的事件。再按一下圖示以關閉篩選欄位。</block>
   <block id="f15903c586acb55eceb753ce38b6087a" category="paragraph">復原變更</block>
-  <block id="8c9faddbe29c40713a51a79ae22b6638" category="paragraph">按一下「*復原*」圖示 <block ref="d42b2137813f4ca554a17d50c37e9052" category="inline-image-macro-rx" type="image"></block> 可將表恢復爲默認配置。</block>
   <block id="0095a9fa74d1713e43e370a7d7846224" category="paragraph">匯出</block>
   <block id="4f5e62673b0e203ba449b54b3ace5662" category="paragraph">按一下「*匯出*」、將表格資料儲存至以逗號分隔的值（CSV）檔案。</block>
   <block id="9ceb93faef5937a33e4566da3d171696" category="summary">對於存取管理、系統管理員可以使用儲存陣列中強制執行的RBAC（角色型存取控制）功能。這些功能稱為本機使用者角色。</block>
@@ -6236,7 +6184,6 @@
   <block id="ef8d855bb7b58eb13043f4697e633ed7" category="paragraph">如果控制器無法在指定的網路連接埠上取得DHCP位址、則會還原為預設IP位址、可能需要3分鐘的時間。預設IP位址如下：</block>
   <block id="9dfbd8583086cdf43b044681817c83b8" category="paragraph">指派IP位址時：</block>
   <block id="798c19059ebbea34781e20114772d59b" category="list-text">保留控制器上的連接埠2以供客戶支援使用。請勿變更預設網路設定（啟用DHCP）。</block>
-  <block id="85a4e345071b9de80c11ae8d3fd44e88" category="list-text">若要設定E2800和E5700控制器的靜態IP位址、請使用SANtricity 「系統管理程式」。若要設定E2700和E5600控制器的靜態IP位址、請使用SANtricity 《支援儲存管理程式》。設定靜態IP位址之後、它會透過所有的連線中斷/啟動事件保持設定。</block>
   <block id="631b8d83c6e19c17a00f6c995f136262" category="list-text">若要使用DHCP來指派控制器的IP位址、請將控制器連接至可處理DHCP要求的網路。使用永久DHCP租用。</block>
   <block id="f0e8cd249b17b159ca6279e1cb49e5e9" category="paragraph">預設位址不會在連結中斷事件之間持續存在。當控制器上的網路連接埠設定為使用DHCP時、控制器會嘗試在每個連結啟動事件上取得DHCP位址、包括插入纜線、重新開機和重新開機。每當DHCP嘗試失敗時、就會使用該連接埠的預設靜態IP位址。</block>
   <block id="792ded78d469f211955781b362cd4a6c" category="summary">您可以使用「Erase（清除）」選項、準備從系統中移除未指派的磁碟機。此程序會永久移除資料、確保無法再次讀取資料。</block>
@@ -6638,7 +6585,6 @@
   <block id="4ed64ffa453acd1e92cad2b525ddd94d" category="paragraph">在您將磁碟機故障之前、請務必先複製磁碟機的內容。如果您未先複製磁碟機的內容、可能會遺失相關資源池或磁碟區群組上的所有資料或資料備援、視您的組態而定。</block>
   <block id="586a5fdfcf92424d25f4b58cb312a532" category="paragraph">複製選項可讓磁碟機恢復速度比重建快、並可降低在複製作業期間、如果另一個磁碟機發生故障、磁碟區故障的可能性。</block>
   <block id="6f82e7d1008117fb1e1468824b0d9db5" category="list-text">確認您要使磁碟機故障。</block>
-  <block id="d2f974d9ab2113f12a2d0912cae37b90" category="paragraph">磁碟機故障後、請等待至少30秒後再將其移除。</block>
   <block id="0508fea0fd0869ac2976db620ff91876" category="summary">有些問題需要重設控制器（重新開機）。即使您沒有實體存取權、也可以重設控制器。</block>
   <block id="27c04524901764e9aff1f2a6d71b4680" category="doc">重設（重新開機）控制器</block>
   <block id="75d907cbe87bbf0b6955b5a1da1c4aac" category="paragraph">有些問題需要重設控制器（重新開機）。即使您沒有實體存取權限、也可以重設控制器。</block>
@@ -7297,7 +7243,6 @@
   <block id="6170b65edb40652e04798be920528567" category="section-title">非同步鏡射工作階段</block>
   <block id="8fb8d903583a69bb2f7020ec24064893" category="paragraph">非同步鏡射會在特定時間點擷取主要磁碟區的狀態、並只複製自上次擷取映像以來所變更的資料。非同步鏡射可讓主要站台立即更新、並在頻寬允許的情況下更新次要站台。這些資訊會在網路資源可用時快取並於稍後傳送。</block>
   <block id="19b4bf527badd2db202d583a7bd23286" category="paragraph">主動式非同步鏡射工作階段有四個主要步驟。</block>
-  <block id="834ed858f1d2c14d8ca3f69c81de7838" category="image-alt">Sam 1130dwg-非同步鏡射工作階段</block>
   <block id="ea9236b1994427da950532ff1ad6ef63" category="list-text">首先在主磁碟區的儲存陣列上執行寫入作業。</block>
   <block id="1d85d4b999c9737e96173727c950997a" category="list-text">作業狀態會傳回主機。</block>
   <block id="97a3671a1a3bdec2619c9f84dcfc1dcb" category="list-text">系統會記錄並追蹤主要Volume上的所有變更。</block>
@@ -7367,7 +7312,6 @@
   <block id="319b2d26a90387684f3c24237199e24b" category="paragraph">同步鏡射關係是由主磁碟區和獨立儲存陣列上的次要磁碟區所組成。包含主磁碟區的儲存陣列通常位於主站台、並為作用中主機提供服務。包含次要磁碟區的儲存陣列通常位於次要站台、並擁有資料的複本。如果主要磁碟區的儲存陣列因為完全停電、火災或主要站台的硬體故障而無法使用、則會使用次要磁碟區。</block>
   <block id="bac2102a46114a248b31ff7c2e7e56c2" category="section-title">同步鏡射工作階段</block>
   <block id="e4c003afc3c4a600e425c7d2982c0d93" category="paragraph">同步鏡射組態程序涉及將磁碟區組態為成對。建立鏡射配對（由一個儲存陣列上的主要磁碟區和另一個儲存陣列上的次要磁碟區組成）之後、即可啟動同步鏡射。同步鏡射的步驟如下所示。</block>
-  <block id="15714a7f65c412a1a54f4b69a47c096c" category="image-alt">Sam 1130dwg-同步鏡射工作階段</block>
   <block id="c491a6ad496588e8cb371fbe517667c6" category="list-text">寫入來自主機。</block>
   <block id="f2ad71987234926489fc2a10094f0944" category="list-text">寫入作業會提交至主要磁碟區、傳播至遠端系統、然後提交至次要磁碟區。</block>
   <block id="a6f33bea3a5bd85d4e296fd8831b9442" category="list-text">主磁碟區的儲存陣列會在成功完成兩個寫入作業後、將I/O完成訊息傳送至主機系統_after。</block>
@@ -7738,7 +7682,6 @@
   <block id="d2bf6cf91aae10964c05d43904777ddb" category="inline-link-macro">E系列硬體總覽</block>
   <block id="44a8ec873829128f9b89b9d2c859f732" category="list-text">此處列出的陣列機型之一： <block ref="c0f66568c89b9be3af203a2398d42823" category="inline-link-macro-rx"></block></block>
   <block id="ec9c3d4f5f976606ad31387919bcffe8" category="list-text">透過網頁瀏覽器連線到網路管理用戶端的頻外連線。</block>
-  <block id="cc4ea9328a87a53029aea9916fc48ae4" category="image-alt">辛格2800</block>
   <block id="64ad5e94a74bf470353e65e27ff90866" category="summary">若要管理儲存資源、您必須先探索網路中的儲存陣列。</block>
   <block id="8c9906e9b68ac5cbea9bc2e08121491c" category="doc">探索總覽</block>
   <block id="9fd8f65508c1b98e29663a63890ced71" category="section-title">如何探索陣列？</block>
@@ -8012,7 +7955,6 @@
   <block id="fb725bcb780ec50b3fff7a6fcb931c54" category="list-text"><block ref="fb725bcb780ec50b3fff7a6fcb931c54" category="inline-link-rx"></block></block>
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">EMW（E2700、E5600 / EF560）說明</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
-  <block id="90e8ac6688c66ac3fc81de93ba27235a" category="summary">System Manager與Unified Manager SANtricity</block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">存取管理是一種在SANtricity 功能不全的Manager中設定使用者驗證的方法。</block>
   <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">存取管理是一種在Unified Manager中設定使用者驗證的方法。</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">提供下列驗證方法：</block>
@@ -8212,28 +8154,6 @@
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
-  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager介面</block>
-  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager介面</block>
-  <block id="e95315401141b931451e32ea694b6d92" category="sidebar">軟體資料表SANtricity</block>
-  <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E系列文件</block>
-  <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">E系列系統文件</block>
-  <block id="06e7eb701ce804d46bd8c25ab5b395f0" category="sidebar">命令列介面（CLI）參考</block>
-  <block id="8a47162648ffc3ff0cf630036d36f2d6" category="sidebar">資訊API SANtricity</block>
-  <block id="92850b78bdc20bc1df259e9c026d1744" category="sidebar">Web服務</block>
-  <block id="e925850eee1d36b9012f5887fe6721da" category="sidebar">vCenter的外掛程式</block>
-  <block id="b7d21f40b4f600f6d264e065bfc2ef45" category="sidebar">SMI-S供應商</block>
-  <block id="4ad3ac8fcad31828ef9c8a0f6e3612d1" category="sidebar">效能應用程式附加元件</block>
-  <block id="340bde3d9f9d57bac1774835ed1203cb" category="sidebar">Splunk Enterprise適用的應用程式SANtricity</block>
-  <block id="a9a95fb3e7f3ac479078e21d446253a8" category="sidebar">Splunk技術附加SANtricity 元件、適用於</block>
-  <block id="bb86e40f418d08cd8d7bbeec844246ad" category="sidebar">效能分析器搭配E系列+ Grafana</block>
-  <block id="78108480bada28e46fb2b45e1f33a4db" category="sidebar">E系列效能分析器的部落格</block>
-  <block id="958ff83dbf7d0240d610b02eded954cd" category="sidebar">適用於SE</block>
-  <block id="181d79a3e511e53525d453c7bfd76b1e" category="sidebar">E系列/EF系列技術訓練（需登入）</block>
-  <block id="5274593635fc2a3195c85eefd393e7e6" category="sidebar">EF300總覽與技術詳細資料（需登入）</block>
-  <block id="b7d6c20f0b34e1cb56ec4c6629bb1d94" category="sidebar">NetApp Fusion 產品（需登入）</block>
-  <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">工具支援</block>
-  <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">（需要登入）Active IQ</block>
-  <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E系列/SANtricity下載（需要登入）</block>
   <block id="b191593bc602ff910417b3f85bb496ca" category="sidebar">設定</block>
   <block id="ba21515573d28200c3e7eae976812e72" category="sidebar">設定管理密碼</block>
   <block id="80b15187c4cef3c7dc145b12616a0357" category="sidebar">探索陣列</block>
@@ -8570,13 +8490,11 @@
   <block id="f033ab37c30201f73f142449d037028d" category="paragraph">80</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14.</block>
   <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
-  <block id="1cf9153cf0b1bfe4b703e41b4509763e" category="summary">SANtricity Unified Manager 6.</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">如果使用陣列內嵌的安全聲明標記語言（ SAML ）功能來設定存取管理、則當使用者的 SSO 工作階段達到其上限時、可能會發生工作階段逾時。這可能發生在System Manager工作階段逾時之前。</block>
   <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">EF600 或 EF300 儲存系統不提供同步鏡射功能。</block>
   <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">EF600 或 EF300 儲存陣列不提供同步鏡射功能。</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">對於 EF600 和 EF300 控制器、非同步鏡射配對的主要和次要磁碟區必須符合相同的傳輸協定、磁碟匣層級、區段大小、安全類型和 RAID 層級。非合格的非同步鏡射配對不會出現在可用磁碟區清單中。</block>
   <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">此功能不適用於 EF600 或 EF300 儲存系統上的同步鏡射。</block>
-  <block id="050910c569f1cb9044086ceee795e2f8" category="doc">SANtricity 系統管理員 11.8</block>
   <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">EF300 或 EF600 儲存陣列不提供同步鏡射功能。</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">是 ^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^ 目標 Volume 的容量必須等於或大於精簡磁碟區報告的容量。</block>
@@ -8588,7 +8506,6 @@
   <block id="9e6fb4471f8afc13fc87e4a085a3babb" category="admonition">在變更磁碟區設定時、部分作業可能無法使用</block>
   <block id="fd00f06afe550f6cfb8040bc3764c3f4" category="list-text">SSD 快取只有在將資料放入快取中以改善整體系統效能時才會使用。</block>
   <block id="b2e269fa841df7525e9667d4a248ed9a" category="paragraph">選擇此選項可在SSD上啟用唯讀快取。</block>
-  <block id="319de80f12a723289ba5d8bb3571caa8" category="doc">使用 System Manager 11.8 進行單一陣列管理</block>
   <block id="4da78d22f1b5a94a1c267b5b01354570" category="summary">如有必要、您可以匯出儲存陣列的服務供應商中繼資料、並將檔案重新匯入身分識別供應商（ IDP ）系統。</block>
   <block id="59fbf0c7e58119d248743b557a6f57e7" category="paragraph">在此工作中、您會從控制器匯出中繼資料。IDP 需要此中繼資料、才能與控制器建立信任關係、並處理驗證要求。檔案包含IDP可用於傳送要求的控制器網域名稱或IP位址等資訊。</block>
   <block id="7050266ad7bc7b4de9d49fa25a2e04d7" category="list-text">按一下 * 匯出 * 將中繼資料檔案儲存至您的本機系統。</block>
@@ -8623,52 +8540,16 @@
   <block id="8fced73c31ae4d255ba5500bd98c8d76" category="paragraph">安全聲明標記語言（SAML）是兩個實體之間驗證與授權的XML型標準。SAML允許多因素驗證、使用者必須提供兩個或多個項目來證明身分（例如密碼和指紋）。儲存陣列的內嵌 SAML 功能符合 SAML2.0 標準、可用於識別聲明、驗證及授權。</block>
   <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">請注意、啟用 SAML 時、您不會移除權限、否則您將無法存取 Unified Manager 。</block>
   <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">按一下欄位、然後選取要對應至屬性的其中一個儲存陣列角色。您必須個別選取要納入此群組的每個角色。必須搭配其他角色使用「監控」角色、才能登入 Unified Manager 。必須將安全管理員角色指派給至少一個群組。對應的角色包括下列權限：</block>
-  <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80 的新功能</block>
-  <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">11.80 版的新功能</block>
-  <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">增強的 Volume 同位檢查掃描</block>
-  <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">Volume 同位元檢查掃描現在可以透過 REST API 或 CLI 作為背景程序啟動。只要需要完成掃描作業、所產生的同位元檢查掃描就會在背景中執行。在控制器重新開機和容錯移轉作業之後、掃描作業仍可繼續執行。</block>
-  <block id="b9a173a4a6a7b368e4cd4fde15879372" category="paragraph">Unified Manager 的 SAML 支援</block>
-  <block id="dc505118a542aefe283668ff60bf1633" category="paragraph">Unified Manager 現在支援 SAML （安全聲明標記語言）。啟用 Unified Manager 的 SAML 後、使用者必須針對身分識別提供者使用多因素驗證、才能與使用者介面互動。請注意、在 Unified Manager 上啟用 SAML 之後、只有透過 IDP 驗證要求、才能使用 REST API 。</block>
-  <block id="43a12a9165de329d02388e8e878f20ca" category="paragraph">自動組態功能</block>
-  <block id="ef6a29a31f9fb810c02278975cd6cd39" category="paragraph">現在支援設定 Volume 區塊大小參數的功能、以搭配自動組態功能進行初始陣列設定。此功能僅在 CLI 中以「區塊大小」參數提供。</block>
-  <block id="017965dda869643c4d632c18853208a2" category="paragraph">控制器韌體密碼編譯簽署</block>
-  <block id="f9b1cc083f0890b8fff17a83a0360f47" category="paragraph">控制器韌體經過密碼編譯簽署。在初始下載期間和每個控制器開機時、都會檢查簽名。預期不會對終端使用者造成影響。簽章由 CA 核發的延伸驗證憑證作為後盾。</block>
-  <block id="637780f8b22fe474ce198ef516dd7d6f" category="paragraph">磁碟機韌體密碼編譯簽署</block>
-  <block id="a8c2ab0b22d074faf460a15d6648a3e7" category="paragraph">磁碟機韌體經過密碼編譯簽署。在初始下載期間會檢查簽名、並以 CA 核發的延伸驗證憑證作為後盾。磁碟機韌體內容現在會以 ZIP 檔案形式提供、其中包含舊版的未簽署韌體、以及新簽署的韌體。使用者必須根據目標系統上執行的程式碼發行版本、選擇適當的檔案。</block>
-  <block id="3c65e3636111523111e45a49a80face3" category="paragraph">外部金鑰伺服器管理 - 憑證金鑰大小</block>
-  <block id="406774a2d5f641d5566318ef7eb88033" category="paragraph">新的預設憑證金鑰大小為 3072 位元（ 2048 位元）。支援的金鑰大小最高可達 4096 位元。必須變更 NVSRAM 位元、才能支援非預設金鑰大小。</block>
-  <block id="9a1c6a24950fba4eade84dc9952a77dd" category="paragraph">除非符合最低瀏覽器需求、否則 System Manager 和 Unified Manager 將不會啟動</block>
-  <block id="09a616fc9241625ec6003f2da3c0cff9" category="paragraph">系統管理員或 Unified Manager 啟動前、必須先提供瀏覽器的最低版本。以下是支援的最低版本：</block>
-  <block id="6cdb1f943282038a6441359c5c88f812" category="list-text">Firefox 最低版本 80</block>
-  <block id="773389fc57f11b52dbe4c622adc51a3b" category="list-text">Chrome 最低版本 89</block>
-  <block id="2ac44b1b15c0ea01cbb812f5c6cf9b1e" category="list-text">Edge 最低版本 90</block>
-  <block id="3534d42485ecd595e87248bbb2c6fb1b" category="list-text">Safari 最低版本 14</block>
-  <block id="bb4e0c918ecc32e775e010bc9f6eff59" category="paragraph">支援 FIPS 140-3 NVMe SSD 磁碟機</block>
-  <block id="eca8285b82a553e8fbe1803bfdeced3e" category="paragraph">NetApp 認證的 FIPS 140-3 NVMe SSD 磁碟機現在受到支援。在儲存陣列設定檔和 System Manager 中、這些設定檔將會正確識別。</block>
-  <block id="fb8aaa0a635cb460bcf41d9303fca571" category="paragraph">支援 EF300 和 EF600 上的 SSD 讀取快取</block>
-  <block id="14d2cdc88c041d0313b6c691ee27338f" category="paragraph">使用 SAS 擴充硬碟的 EF300 和 EF600 控制器現在支援 SSD 讀取快取。</block>
-  <block id="8a00db0b101a6946d9caffef7979d8c4" category="paragraph">支援 EF300 和 EF600 上的 iSCSI 和光纖通道非同步遠端鏡射</block>
-  <block id="8ea61c04007ddc1b703be50a63a1b3ee" category="paragraph">採用 NVMe 和 SAS 型磁碟區的 EF300 和 EF600 控制器現在支援非同步遠端鏡射（ ARVM ）。</block>
-  <block id="d99731ca7d5c671cea9d584100385335" category="paragraph">支援 EF300 和 EF600 、不需在基本托盤上安裝磁碟機</block>
-  <block id="65c8d39e2e73985a77ff0c8a61c30608" category="paragraph">現在支援基礎托盤上沒有 NVMe 磁碟機的 EF300 和 EF600 控制器組態。</block>
-  <block id="248bd33e5007bccdca76e9d0459df99c" category="paragraph">已停用所有平台的 USB 連接埠</block>
-  <block id="3ea3899fea5b85d0cc4b9b3bf6291d51" category="paragraph">現在所有平台上的 USB 連接埠都已停用。</block>
   <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">連接埠識別碼</block>
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">每當發生警示事件時、事件監控器都會傳送警示至syslog伺服器。若要進一步設定稽核記錄的 Syslog 設定、請參閱<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">設定完成後、所有新的稽核記錄都會傳送到syslog伺服器。不會傳輸先前的記錄。若要進一步設定警示的 Syslog 設定、請參閱<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
-  <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricity 軟體文件 11.80</block>
-  <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">Unified Manager 6 提供多個陣列管理功能</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager （系統管理器） - 一種基於 Web 的界面，用於管理網絡中的單個存儲陣列。</block>
   <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600 和 EF300 儲存陣列不支援同步鏡射或精簡磁碟區。</block>
-  <block id="c717e9da08557631ce6af0db7935e837" category="paragraph">Unified Manager是網路型軟體、用於管理整個網域。從中央檢視、您可以看到所有較新 E 系列和 EF 系列陣列的狀態、例如 E2800 、 EF280 、 EF300 、 E5700 、 EF570 、 和 EF600 。您也可以在選定的儲存陣列上執行批次作業。</block>
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">磁碟機、控制器和元件檢視</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">若要在前置和後置視圖之間切換、請從最右側選擇 * 磁碟機 * 或 * 控制器與元件 * （顯示的連結取決於目前視圖）。「 * 磁碟機 * 」檢視會顯示磁碟機和任何空磁碟機支架。"* 控制器與元件 * " 檢視會顯示控制器、任何 IOM （ ESM ）模組、電源 / 風扇迴廊或空的控制器托架。在頁面底部、您也可以選取 * 顯示所有磁碟機 * 。</block>
-  <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8 文件</block>
-  <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">下表說明 SANtricity 系統管理員 11.8 的新功能。</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80 版本資訊</block>
   <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
   <block id="14061ba06990b3ff80809e75e9263c4d" category="admonition">系統必須執行 SANtricity OS 11.70.5 、才能升級至 11.8.x 或更新版本。</block>
-  <block id="df9168fd1981b1464f7c0d38b2207c30" category="paragraph"><block ref="df9168fd1981b1464f7c0d38b2207c30" category="inline-link-rx"></block></block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -8677,32 +8558,7 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
-  <block id="deab0ae4ee87e153ce15a1182bf91617" category="paragraph">金鑰大小選擇值如下：</block>
-  <block id="92c9cd6ce879c70c929395d49566fca3" category="list-text">預設值 = 0</block>
-  <block id="91d66be9b353d488558a2fc87f866263" category="list-text">長度 2048 = 1</block>
-  <block id="60f95b27118522aa50716737cc578a39" category="list-text">長度 3072 = 2</block>
-  <block id="46b1448aca55d48c198834955f8e6b6a" category="list-text">長度 4096 = 3</block>
-  <block id="80b104f769b8bbef5d4b39ffe2efd816" category="paragraph">若要透過 SMcli 將金鑰大小變更為 4096 ：</block>
-  <block id="7f1a49e026d5afc827c5a0184af45fe0" category="paragraph"><block ref="53d52ccae7296ad3c52a5cc86881da22" prefix="" category="inline-code"></block><block ref="52baead6a42dd6532784cc33f69d8d94" prefix=" " category="inline-code"></block></block>
-  <block id="ad7ca0ac2dce92cb837bf072818ce860" category="paragraph">詢問金鑰大小：</block>
-  <block id="dc8f09004148c8853414b2fe2f19c503" category="paragraph"><block ref="5dfae352b2be729a121ea8024c5dc604" prefix="" category="inline-code"></block></block>
-  <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">磁碟集區改善</block>
-  <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">使用執行 11.80 或更高版本的控制器所建立的磁碟集區會是 _Version 1_ 集區、而不是 _Version 0_ 集區。當存在 _Version 1_ 磁碟集區時、降級作業會受到限制。</block>
-  <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">磁碟集區的版本可在儲存陣列設定檔中識別。</block>
-  <block id="e7ad6d421850c5694f6bdc4321ac3507" category="sidebar">SANtricity 11.80 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF 系列 All Flash 陣列的最大效能與使用率。</block>
   <block id="f9c81137922296691747f3cff9a92105" category="list-text"><block ref="f9c81137922296691747f3cff9a92105" category="inline-link-rx"></block></block>
-  <block id="07ed085acfb4f203e63427ca4494f863" category="section-title">11.80.1 版的新功能</block>
-  <block id="65e6e49c7d0840983a93edfc482a4650" category="paragraph"><block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix="" category="inline-code"></block> 參數</block>
-  <block id="2b21cb9530a6c7704a66108d45c196a1" category="inline-link">可下載的SMcli命令列參數</block>
-  <block id="99e522a2649e8eb1047cda09b5e2bbd9" category="paragraph">全新<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> SMCLI 中現在提供參數。此新參數可讓您尋找與儲存陣列相關聯的所有 SCSI 原生區塊裝置。如需詳細資訊、請參閱<block ref="7e8dc17a50219e17a3bfb2effae73889" category="inline-link-rx"></block>。</block>
-  <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">乙太網路核心統計資料</block>
-  <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link">檢視 iSCSI 統計資料套件</block>
-  <block id="4f8a241c3cb470ed44d71b0d64d57b80" category="paragraph">系統管理員的「檢視 iSCSI 統計資料套件」頁面下方現在提供新的「乙太網路核心統計資料」選項。此新選項可讓您檢視 iSCSI 裝置平台核心驅動程式的統計資料。如需詳細資訊、請參閱<block ref="fa652b493edb0147d8d73c9bf12a908b" category="inline-link-rx"></block>。</block>
-  <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">新增透過 REST API 端點封鎖 IP 位址的功能</block>
-  <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">使用者現在可以透過「設定」端點封鎖特定 IP 位址 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>）。一旦透過「設定」端點進行設定、只有透過白名單指定的 IP 位址才能與儲存設備通訊。這項新功能支援 IPv4 和 IPv6 位址清單。</block>
-  <block id="85873696abedac8fb70b86eef30b99fe" category="paragraph">vCenter Storage 外掛程式</block>
-  <block id="c55dbb17c221990804802e322335dc65" category="paragraph">vCenter Storage 外掛程式已更新、與 E 系列 11.80.1 版本相容。</block>
-  <block id="b2fe36d045fcd0262e37faca678d17c8" category="paragraph">Web 服務 Proxy 已更新至 6.1 版、以與 E 系列 11.80.1 版相容。</block>
   <block id="e6d11ff06b4fbf2dfe6c6c9c235884bd" category="paragraph">存取 Volume 用於下列執行個體：</block>
   <block id="ea37b1fb3ab53a251f6e5cadc36a4c25" category="summary">建立主機是讓儲存陣列瞭解其連接的主機、以及允許I/O存取磁碟區所需的步驟之一。您只能手動建立主機。</block>
   <block id="a3cd72e3a5590e7769cb2590ecd015eb" category="doc">手動建立主機</block>
@@ -8718,7 +8574,6 @@
   <block id="966b5cc0cd53cc056d0a168b8543c134" category="paragraph">如果您想讓主機對儲存陣列中的特定磁碟區擁有特定存取權、則必須使用預設叢集。您必須將主機連接埠識別碼與其對應的主機建立關聯。此工作可在「建立主機」作業期間手動完成。然後、您可以將磁碟區指派給個別主機或主機叢集。</block>
   <block id="a543598a03d2f4a4c65c995fe07c12e1" category="summary">主機作業系統類型欄位包含主機的作業系統。您可以從下拉式清單中選取建議的主機類型。</block>
   <block id="8cb031b774a78de2f6be4db3058da109" category="list-text">執行作業系統專屬公用程式（可從協力廠商取得）、然後執行 SMCLI 命令<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 將磁碟區名稱與主機儲存陣列名稱建立關聯。</block>
-  <block id="0af3ac37d01c9873f79f927554ff17b2" category="paragraph">SMCLI 可透過 SANtricity 系統管理員直接取得。可下載的SMcli版本可在EF600、EF300、E5700、EF570、E2800、 和EF280控制器。要在SANtricity 《S161eSystem Manager》中下載SMcli、請選擇*設定*&gt;*系統*和*附加元件*&gt;*命令列介面*。</block>
   <block id="0ea0a94f9ade478fd556172383edecad" category="admonition">System Manager 中顯示的統計資料類型是根據儲存陣列可用的統計資料而定。</block>
   <block id="707d82b79d1a69b9d510d00c5aaf1d9e" category="list-text">* 乙太網路核心統計資料 * ：提供 iSCSI 裝置平台核心驅動程式的統計資料。核心統計資料會將類似的網路資料顯示為 TCP/IP 統計資料選項。不過、核心統計資料是從平台核心驅動程式收集、而非直接從 iSCSI 硬體收集。</block>
   <block id="32555c4aebeed331e68820e3e0ef23ce" category="list-text">選擇 * 控制器與元件 * 標籤。</block>
@@ -8737,12 +8592,109 @@
   <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">保留容量磁碟區必須與相關的鏡射磁碟區共用相同的磁碟機類型。</block>
   <block id="bf9f60c11f9080af705719592217436d" category="list-text">如果保留容量磁碟區是在 NVMe 磁碟機上建立、則其鏡射磁碟區也必須在 NVMe 磁碟機上建立。</block>
   <block id="402b0811b7e491a20af6474c5296c733" category="list-text">如果在 SAS 磁碟機上建立保留容量磁碟區、則其鏡射磁碟區也必須在 SAS 磁碟機上建立。</block>
-  <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">11.80.1R1 版的新功能</block>
-  <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">增加新自我簽署和 CA 簽署管理憑證的金鑰大小長度。</block>
-  <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity 系統管理員和 Unified Manager 應用程式自我簽署憑證的管理憑證金鑰大小長度已從 2048 位元修改為 3072 位元。此變更適用於新產生的 SANtricity 應用程式自我簽署和 CA 簽署的憑證。金鑰長度是固定的、不受 NVSRAM 中預設金鑰大小定義的影響。</block>
   <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">停用 ARVM</block>
   <block id="bb81ad14bd710a498f194a6ac67fea61" category="paragraph">複製來源和目標磁碟區必須具有相同的報告主機定址 / 邏輯區塊大小（磁區大小）。</block>
   <block id="56ce420df3a94d675f30cc6b382c3082" category="paragraph">回報的 Volume 區塊大小為：</block>
-  <block id="6451d4e0b30d3e2a2b45dc3de85ffe6d" category="list-text">* 原生區塊大小 * – Volume 的區塊大小符合磁碟區塊大小（ 512 或 4K ）。</block>
-  <block id="7de7e0688d2ed2bd02ab78f61c88a723" category="list-text">* 模擬 512 區塊大小 * - 磁碟機為 4K 、但回報的區塊大小為 512 。</block>
+  <block id="a5739ed07187fa97fb95b86ca98419fc" category="inline-link">控制器升級指南 - 舊版控制器機型</block>
+  <block id="819e472be532c198f4428448f644516b" category="list-text"><block ref="819e472be532c198f4428448f644516b" category="inline-link-rx"></block></block>
+  <block id="056179e9e794d5023a226430ee4efb8d" category="section-title">SANtricity 11.8 版</block>
+  <block id="d16a613e55f21678f189a2fe147619f8" category="list-text"><block ref="d16a613e55f21678f189a2fe147619f8" category="inline-link-rx"></block></block>
+  <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
+  <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90 版本資訊</block>
+  <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
+  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
+  <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block>* 效能 *</block>
+  <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block>* 儲存 *</block>
+  <block id="21a1e68164f738b8be1dae11d5a694b3" category="inline-image-macro">資料保護</block>
+  <block id="48101fc47c99f4be00100bd0e24fa482" category="paragraph"><block ref="cf60c16dfd9a457f7706628c1f3e2cf5" category="inline-image-macro-rx" type="image"></block>* 資料保護 *</block>
+  <block id="cc3a54aae413901b7935f06eb0747fb4" category="paragraph"><block ref="6b9b5b4553280096034f55188a5b3e0f" category="inline-image-macro-rx" type="image"></block>* 硬體 *</block>
+  <block id="59cb2f7d30c6e815131b958e5caaa07f" category="paragraph"><block ref="4fb44adb8f67b036fd76de34524b3216" category="inline-image-macro-rx" type="image"></block>* 警示 *</block>
+  <block id="5dfe8f7b6636e4f45a5e95a77c0529da" category="paragraph"><block ref="bdb34cfbec72a80b17a14942fe759070" category="inline-image-macro-rx" type="image"></block>* 存取管理 *</block>
+  <block id="e4709a73a287a5f033f5b1b5142cb74d" category="inline-image-macro">系統設定</block>
+  <block id="de8011abde4e4344c82af51912b3ce19" category="paragraph"><block ref="2bce2265bb1e82bb0d0858adf2dafedf" category="inline-image-macro-rx" type="image"></block>* 系統設定 *</block>
+  <block id="9dcfdd4141be874fb7eb13880a5fd525" category="paragraph"><block ref="1cb7eabea009b4b9cfe98093989eadbf" category="inline-image-macro-rx" type="image"></block>* 支援 *</block>
+  <block id="a06a26693ca66f654ff2c2dcecc3e13f" category="paragraph">Unified Manager是網路型軟體、用於管理整個網域。從中央檢視，您可以看到所有較新 E 系列和 EF 系列陣列的狀態，例如 E4000 ， E2800 ， EF280 ， EF300 ， E5700 ， EF570 和 EF600 。您也可以在選定的儲存陣列上執行批次作業。</block>
+  <block id="bb426997d075117a34b0e82e716e9988" category="inline-image-macro">探索儲存陣列</block>
+  <block id="49e4791fdcd34bdf6b59ed172268d67f" category="paragraph"><block ref="9ff56b9b0514866913bcdc835ac16829" category="inline-image-macro-rx" type="image"></block>* 探索儲存陣列 *</block>
+  <block id="9506f0fd0f7f1b07960b15b4c9e68d1a" category="inline-image-macro">上市</block>
+  <block id="dd5912f8cf835c33b2a3b61d5e141ff0" category="paragraph"><block ref="59d02cad0b7ca821298861a148459521" category="inline-image-macro-rx" type="image"></block>* 發表 *</block>
+  <block id="352a228c155779f9e34542d5c4e945ce" category="inline-image-macro">匯入設定</block>
+  <block id="3a7809dfe80b7e55e290a69762b376b0" category="paragraph"><block ref="293657c6f46812024123d05cfacb8f5d" category="inline-image-macro-rx" type="image"></block>* 匯入設定 *</block>
+  <block id="e55d5139e241eec51cb53b8725b111ae" category="paragraph"><block ref="1d994cafa90bd8534dce98204298c26f" category="inline-image-macro-rx" type="image"></block>* 鏡像 *</block>
+  <block id="aba9f7d7443652e858969bfc280690b1" category="inline-image-macro">管理群組</block>
+  <block id="8ab578a8eab9df734659a9bbad8fed32" category="paragraph"><block ref="ed1eedd0a4592b9eb8bd506e1ade1b98" category="inline-image-macro-rx" type="image"></block>* 管理群組 *</block>
+  <block id="54f78baeb56f558141400626a8f1d3e3" category="inline-image-macro">升級中心</block>
+  <block id="0d3ce623d8cdbb3fa0594ad836176dcd" category="paragraph"><block ref="35ec5ccd35af7c00f6a01e92abb155fc" category="inline-image-macro-rx" type="image"></block>* 升級中心 *</block>
+  <block id="74d5c3d79c00ee94f3d157db1001315d" category="paragraph"><block ref="8fe9c4eb7bbe7403b10e873dc7e654f9" category="inline-image-macro-rx" type="image"></block>* 證書 *</block>
+  <block id="db8b7299d08cc04191bf7a98173078ef" category="list-text">若要設定 E4000 ， E2800 和 E5700 控制器的靜態 IP 位址，請使用 SANtricity 系統管理員。若要設定E2700和E5600控制器的靜態IP位址、請使用SANtricity 《支援儲存管理程式》。設定靜態IP位址之後、它會透過所有的連線中斷/啟動事件保持設定。</block>
+  <block id="42004a862976ffc8afcece88d3ed14b7" category="paragraph">磁碟機故障後、請等待至少60秒後再將其移除。</block>
+  <block id="27ed3c2f0cc271f3ffd55cef1621928d" category="doc">SANtricity 系統管理員 11.9</block>
+  <block id="d85604754e30b3e09626f9f9fdbd8c6f" category="paragraph">支援下列通訊協定： HTTPS 和 SMTP 。</block>
+  <block id="ab468c035d308f2a8c552c4d5aac08f7" category="paragraph"><block ref="ab468c035d308f2a8c552c4d5aac08f7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2c792e44ea1f01accfca106a5f980c33" category="paragraph"><block ref="2c792e44ea1f01accfca106a5f980c33" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3ef647d9c4d52f37e6e8692049489f5" category="paragraph"><block ref="e3ef647d9c4d52f37e6e8692049489f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae04b8c08989c6922154b7c875f1ed28" category="paragraph"><block ref="ae04b8c08989c6922154b7c875f1ed28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa089d11d37f87ad34ea6d956fa1fae8" category="paragraph">您可以透過 SANtricity 系統管理員來管理非同步鏡射和同步鏡射。</block>
+  <block id="b3ff8e795b3d80ba68cbe1156469a2cb" category="list-text">* 選擇私鑰文件 * -- 如果需要，請單擊第二個 *Browse* 按鈕，爲存儲陣列的控制器選擇一個私鑰文件。</block>
+  <block id="ee01112415d197728f20c99202d37eb2" category="list-text">* 選取金鑰管理伺服器的伺服器憑證 * -- 按一下第三個 * 瀏覽 * 按鈕來選取金鑰管理伺服器的憑證檔案。您可以為金鑰管理伺服器選擇根、中繼或伺服器憑證。</block>
+  <block id="54c0574306f4d58143114e2e0861640f" category="paragraph">用戶端憑證會驗證儲存陣列的控制器、因此金鑰管理伺服器可以信任其金鑰管理互通性傳輸協定（KMIP）要求。</block>
+  <block id="66093664d0d43a7f4fc3ddbad78f691c" category="paragraph">若要取得用戶端憑證、請使用System Manager為儲存陣列完成CSR。您也可以使用私密和公開金鑰配對從外部產生 CSR 。</block>
+  <block id="ff58caf5069b4eb4a200d0205926b16c" category="paragraph">然後、您可以將CSR上傳至金鑰管理伺服器、然後從該伺服器產生用戶端憑證。取得用戶端憑證後、請將該檔案複製到您要存取System Manager的主機。</block>
+  <block id="5378e651b013c9c6feff8ff6044d166f" category="list-text">或者，您也可以使用私密與公開金鑰配對，從外部產生憑證簽署要求。</block>
+  <block id="63a0114594ce428e6c9715084a3200f4" category="paragraph">您可以使用私密和公開金鑰配對，從 System Manager 或外部產生簽署要求。簽署要求會傳送至 CA 以產生憑證檔案。一旦CA傳回憑證檔案、您就可以使用System Manager匯入這些檔案。</block>
+  <block id="69d858803139fe61364ff86d43e771de" category="admonition">透過私密和公開金鑰配對從外部產生的 CSR 檔案，可透過「建立外部安全金鑰」對話方塊匯入。如需匯入外部產生的 CSR 檔案的詳細資訊，請參閱<block ref="699b0ddfb388ee73fa0bfd41ac82336b" category="inline-link-rx"></block>。</block>
+  <block id="29d1ee766954d56ae8238b1059bfafc4" category="list-text">* 通用名稱 * - 用於識別用戶端的名稱。一般做法是將一般名稱中的內容與 KMS 伺服器對用戶端憑證命名慣例的要求相符。一般名稱通常有助於 KMS 在握手時識別用戶端的憑證。</block>
+  <block id="92808c67abdc13e7ad24a7cf2c99f924" category="list-text">從 CA 要求簽署的用戶端憑證，該憑證受金鑰管理伺服器信任。</block>
+  <block id="b40c23ca4af2991caf4a498caf524281" category="admonition">金鑰管理伺服器通常會有一個工具直接產生簽署的憑證，因為它是自己的 CA 。</block>
+  <block id="5582a122966615aecf1a59ee9608f3ed" category="list-text">如果您使用私用與公開金鑰配對從外部產生憑證檔案，請按一下 * 選取私密金鑰檔案 * 旁的 * 瀏覽 * 按鈕，以選取儲存陣列控制器的憑證檔案。</block>
+  <block id="6f3c867468bb7d88038060f63957303e" category="inline-image-macro">顯示 / 隱藏欄</block>
+  <block id="c8624a2d0591434eb4c7d02347e97100" category="paragraph">按一下「 * 顯示 / 隱藏 * 」欄圖示<block ref="258072d6c284064dc6fedf3bcab73fc0" category="inline-image-macro-rx" type="image"></block>，以選取要顯示在表格中的其他欄。其他欄位包括：</block>
+  <block id="a8875bbe4272c0bdd786cfaaedf77921" category="inline-image-macro">切換</block>
+  <block id="18a403c983fe9e6fd1b3f6e2ed1177f8" category="paragraph">按一下 * 切換 * 圖示<block ref="90b70f76e2d4e07fe074ad83e4b0a4f3" category="inline-image-macro-rx" type="image"></block>，開啟每一欄的篩選欄位。在欄位中輸入字元、以限制這些字元所顯示的事件。再按一下圖示以關閉篩選欄位。</block>
+  <block id="1cdc076b28f70afac5fcedadf99fa119" category="inline-image-macro">復原</block>
+  <block id="942c04fb3e852a849078bbedc2c563ad" category="paragraph">按一下 * 復原 * 圖示<block ref="12a3278132f7a92b9e1a0a36d87097d1" category="inline-image-macro-rx" type="image"></block>，將表格恢復為預設組態。</block>
+  <block id="649c33cda48fb6cab9b779732e33f798" category="list-text">512 個 Volume （ E4000 和 E2800 系列）</block>
+  <block id="9bfa157f06e0cd4bf23f4d7c3522a973" category="image-alt">Snapshot 物件和基礎 Volume</block>
+  <block id="f1683bd5111055cff52f3434b437bc43" category="admonition">預設的媒體掃描週期設為 120 天。</block>
+  <block id="630fb851299f40643b158fbf236a2e8c" category="list-text">* 原生區塊大小 * –磁碟區的區塊大小與磁碟區塊大小（ 512 或 4K ）相符。</block>
+  <block id="f6c667584c393a129ba0a1a453306311" category="list-text">* 模擬 512 區塊大小 * - 磁碟機為 4K ，但回報的區塊大小為 512 。</block>
+  <block id="478ac1c2fc93cbde8a7f38011e1743e9" category="paragraph">SMCLI 可透過 SANtricity 系統管理員直接取得。此 SMCLI 下載版本可在 E4000 ， EF600 ， EF300 ， E5700 ， EF570 ， E2800 及 EF280 控制器上取得。要在SANtricity 《S161eSystem Manager》中下載SMcli、請選擇*設定*&gt;*系統*和*附加元件*&gt;*命令列介面*。</block>
+  <block id="8372cda02b92707718d83873eed70eff" category="image-alt">集區和磁碟區群組結構</block>
+  <block id="861b7c78b853932749bb7fa53551562a" category="image-alt">Snapshot 概述</block>
+  <block id="454b39575eef78952a66832d854eb9a8" category="paragraph">您可以透過 SANtricity 系統管理員來管理系統儲存設備。</block>
+  <block id="ae002d1d58a31e011d63e5c65fdaab56" category="admonition">E4000 系統目前不支援 SANtricity 遠端儲存磁碟區。</block>
+  <block id="9b14c33fdc0efe4872fc1eb7154525a9" category="image-alt">Snapshot 復原總覽</block>
+  <block id="2f0854f7b2eefd5175e0f07fb053bd67" category="image-alt">Snapshot 一致性群組概觀</block>
+  <block id="499c45c544b6972f515b13489cac00c4" category="image-alt">Snapshot Volume 概述</block>
+  <block id="21bf9a718f1db52f3473f81edb06fb86" category="image-alt">設定主機工作流程</block>
+  <block id="6cb1f4545b0ac1779e5099bf499e2257" category="image-alt">建立 Snapshot Images 工作流程</block>
+  <block id="d664803ea5bcb8c4b3e5252c810dd7ae" category="image-alt">建立 Snapshot Volume 工作流程</block>
+  <block id="00ae53caaeaab10fa6daf374082ce7c1" category="image-alt">建立 Volume 工作流程</block>
+  <block id="8f0db69b076bbcdb3c8760d4e3e98835" category="summary">AutoSupport 功能支援 HTTPS 和 SMTP 通訊協定，可將派單傳送給技術支援。</block>
+  <block id="f519381eb9350988ee8b5119c9b920f9" category="paragraph">HTTPS 和電子郵件方法之間的差異 * 。使用 SMTP 的電子郵件傳送方法與 HTTPS 傳送方法有一些重要差異。首先、「電子郵件」方法的派單大小限制為5MB、這表示部分ASUP資料收集將不會派送。其次， AutoSupport 隨選功能僅適用於 HTTPS 交付方法。</block>
+  <block id="16ecd48fe399a494ac52761b115bd8e9" category="list-text">如果您選取 HTTPS ，請選取下列其中一個傳送參數：</block>
+  <block id="0a71943276accb62215252f71d3e55e4" category="list-text">*直接*-此交付參數為預設選項。選擇此選項可讓您使用 HTTPS 通訊協定直接連線到目的地技術支援系統。</block>
+  <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport 功能支援 HTTPS 和 SMTP 通訊協定，可將 AutoSupport 派遣單傳送給技術支援。</block>
+  <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">升級韌體位置</block>
+  <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupport 工作流程</block>
+  <block id="0ceabfdc68af97f8a0c7393faf135de8" category="image-alt">控制器軟體與韌體升級工作流程</block>
+  <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity Unified Manager 7.</block>
+  <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">您可以設定透過 SANtricity Unified Manager 使用的設定。</block>
+  <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">透過網頁瀏覽器連線至網路管理用戶端的頻外連線。</block>
+  <block id="3ea0f7b73838fea25dfb4ff6da50f43a" category="doc">SANtricity OS 11.90 的新功能</block>
+  <block id="e6575254726c9c37843a559ef72300fd" category="paragraph">下表說明 SANtricity 系統管理員 11.9 的新功能。</block>
+  <block id="a9ce161f80e5e22b8b95f7f9ca5f67ed" category="section-title">11.90 版的新功能</block>
+  <block id="0d49c2d5fa6db45e427d9c6ca6839ac7" category="paragraph">全新儲存系統機型–E4000</block>
+  <block id="f79f2d98fb02cd051399681f3101fbb8" category="paragraph">此版本推出 E4000 低成本儲存系統。E4000 支援每個控制器 12 個和 60 個磁碟機，以及單一主機介面卡（ HIC ）。在初始版本中，支援的主機介面卡包括 iSCSI 和 Fibre Channel 。E4000 儲存系統和其他 E 系列儲存系統可在 Unified Manager 中檢視和管理。</block>
+  <block id="0d05e82ffcabd1bd655a97084285e90d" category="paragraph">增加動態磁碟集區的容量</block>
+  <block id="372fa8b3c2d2e776e7b288a3b8bbd7da" category="paragraph">只要集區中每個個別磁碟機的容量大於 23 TB ，動態磁碟集區（ DDP ）的容量就會增加至 12 PB 。如果個別磁碟機容量小於 23 TB ，則 DDP 容量為 6 PB 。</block>
+  <block id="47366514f1926a1d18e6b7ee9660d7f5" category="paragraph">預設媒體掃描設定已增加</block>
+  <block id="9b21ddbc5c4f3b0196cbd88ac900622e" category="paragraph">預設的媒體掃描速率已增加至 120 天。</block>
+  <block id="545cf0306f91cc802f72bee950711b04" category="paragraph">現在已接受外部金鑰管理的私密金鑰</block>
+  <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">透過私密金鑰和公開金鑰配對從外部產生的憑證簽署要求（ CSR ）檔案，現在可以透過 System Manager 匯入。</block>
+  <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">Web 服務現在可使用登入鎖定功能</block>
+  <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">只能透過 REST API 進行設定，內嵌式和 Proxy Web Services 現在可以使用新的登入鎖定設定。</block>
+  <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">使用 System Manager 11.9 進行單一陣列管理</block>
+  <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">Unified Manager 7 提供多個陣列管理功能</block>
+  <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9 文件</block>
 </blocks>

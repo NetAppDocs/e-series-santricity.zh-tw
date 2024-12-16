@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity 系統管理員 11.8
+= SANtricity 系統管理員 11.9
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+「支援」頁面可讓您存取技術支援資源。

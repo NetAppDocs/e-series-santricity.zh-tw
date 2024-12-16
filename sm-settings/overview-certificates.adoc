@@ -29,7 +29,7 @@ _Certificates_是數位檔案、可識別網站和伺服器等線上實體、以
 
 == 如何設定簽署的憑證？
 
-您首先會從System Manager產生簽署要求、然後將檔案傳送到CA。一旦CA傳回憑證檔案、您就可以使用System Manager匯入這些檔案。
+您可以使用私密和公開金鑰配對，從 System Manager 或外部產生簽署要求。簽署要求會傳送至 CA 以產生憑證檔案。一旦CA傳回憑證檔案、您就可以使用System Manager匯入這些檔案。
 
 深入瞭解：
 

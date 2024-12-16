@@ -33,7 +33,7 @@ summary: 使用升級中心下載最新的軟體和韌體、並升級儲存陣�
 * *監控軟體*-監控軟體是軟體執行所在控制器上的虛擬機器。
 
 
-image::../media/sam1130-dwg-upgrade-firmware-locations.gif[Sam1130 dwg.升級韌體位置]
+image::../media/sam1130-dwg-upgrade-firmware-locations.gif[升級韌體位置]
 
 ^1^控制器機櫃；^2^磁碟機機櫃；^3^軟體、控制器韌體、控制器NVSRAM, 監督軟體；^4^磁碟機韌體；^5^ IOM韌體；^6^磁碟機韌體
 
