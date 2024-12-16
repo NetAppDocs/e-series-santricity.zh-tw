@@ -8697,4 +8697,29 @@
   <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">使用 System Manager 11.9 進行單一陣列管理</block>
   <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">Unified Manager 7 提供多個陣列管理功能</block>
   <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9 文件</block>
+  <block id="320344fc6d13f7639d2b2c90f55506fa" category="sidebar">SANtricity 11.90 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF 系列 All Flash 陣列的最大效能與使用率。</block>
+  <block id="b26c3f1c1c8d9eb65323b2750c4c349d" category="sidebar">SANtricity 軟體文件 11.90</block>
+  <block id="90e8ac6688c66ac3fc81de93ba27235a" category="sidebar">System Manager與Unified Manager SANtricity</block>
+  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager介面</block>
+  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager介面</block>
+  <block id="e95315401141b931451e32ea694b6d92" category="sidebar">軟體資料表SANtricity</block>
+  <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E系列文件</block>
+  <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">E系列系統文件</block>
+  <block id="06e7eb701ce804d46bd8c25ab5b395f0" category="sidebar">命令列介面（CLI）參考</block>
+  <block id="8a47162648ffc3ff0cf630036d36f2d6" category="sidebar">資訊API SANtricity</block>
+  <block id="92850b78bdc20bc1df259e9c026d1744" category="sidebar">Web服務</block>
+  <block id="e925850eee1d36b9012f5887fe6721da" category="sidebar">vCenter的外掛程式</block>
+  <block id="b7d21f40b4f600f6d264e065bfc2ef45" category="sidebar">SMI-S供應商</block>
+  <block id="4ad3ac8fcad31828ef9c8a0f6e3612d1" category="sidebar">效能應用程式與附加元件</block>
+  <block id="340bde3d9f9d57bac1774835ed1203cb" category="sidebar">Splunk Enterprise適用的應用程式SANtricity</block>
+  <block id="a9a95fb3e7f3ac479078e21d446253a8" category="sidebar">Splunk技術附加SANtricity 元件、適用於</block>
+  <block id="bb86e40f418d08cd8d7bbeec844246ad" category="sidebar">效能分析器搭配E系列+ Grafana</block>
+  <block id="78108480bada28e46fb2b45e1f33a4db" category="sidebar">E系列效能分析器的部落格</block>
+  <block id="958ff83dbf7d0240d610b02eded954cd" category="sidebar">適用於SE</block>
+  <block id="181d79a3e511e53525d453c7bfd76b1e" category="sidebar">E系列/EF系列技術訓練（需登入）</block>
+  <block id="5274593635fc2a3195c85eefd393e7e6" category="sidebar">EF300總覽與技術詳細資料（需登入）</block>
+  <block id="b7d6c20f0b34e1cb56ec4c6629bb1d94" category="sidebar">NetApp Fusion 產品（需登入）</block>
+  <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">工具與支援</block>
+  <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">（需要登入）Active IQ</block>
+  <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E系列/SANtricity下載（需要登入）</block>
 </blocks>

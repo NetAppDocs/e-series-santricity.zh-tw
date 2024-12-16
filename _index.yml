@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: SANtricity 軟體文件 11.80
+  title: SANtricity 軟體文件 11.90
   summary: System Manager與Unified Manager SANtricity
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: SANtricity 11.80 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF
+  lead: SANtricity 11.90 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF
     系列 All Flash 陣列的最大效能與使用率。
   tiles:
   - title: 開始使用
@@ -29,7 +29,7 @@ indexpage:
       url: https://docs.netapp.com/us-en/e-series/vcenter-plugin/san-spvc-ic-overview.html
     - title: SMI-S供應商
       url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
-  - title: 效能應用程式附加元件
+  - title: 效能應用程式與附加元件
     links:
     - title: Splunk Enterprise適用的應用程式SANtricity
       url: https://splunkbase.splunk.com/app/1932/
@@ -47,7 +47,7 @@ indexpage:
       url: https://fieldportal.netapp.com/content/1417672
     - title: NetApp Fusion 產品（需登入）
       url: https://fusion.netapp.com/
-  - title: 工具支援
+  - title: 工具與支援
     links:
     - title: NetApp 互通性對照表
       url: http://mysupport.netapp.com/matrix/
