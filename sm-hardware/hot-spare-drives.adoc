@@ -11,7 +11,7 @@ summary: 熱備援磁碟機在System Manager的RAID 1、RAID 5或RAID 6磁碟區
 
 
 [role="lead"]
-熱備援磁碟機在System Manager的RAID 1、RAID 5或RAID 6磁碟區群組中扮演待命磁碟機的角色。
+熱備援磁碟機在 SANtricity 系統管理員的 RAID 1 ， RAID 5 或 RAID 6 磁區群組中扮演待命磁碟機的角色。
 
 它們是功能完整的磁碟機、不含任何資料。如果磁碟機在Volume群組中故障、控制器會自動將故障磁碟機的資料重新建構至指派為熱備援磁碟機的磁碟機。
 

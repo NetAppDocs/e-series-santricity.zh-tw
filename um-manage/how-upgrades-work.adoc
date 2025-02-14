@@ -12,7 +12,7 @@ summary: 您可以使用Unified Manager將SANtricity 同類型的多個儲存陣
 
 
 [role="lead"]
-您可以使用Unified Manager將SANtricity 同類型的多個儲存陣列上的支援升級為較新版本。
+您可以使用SANtricity 支援支援功能的支援功能、將SANtricity 同類型的多個儲存陣列上的支援功能升級至新版本。
 
 
 

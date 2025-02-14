@@ -9,9 +9,9 @@ indexpage:
   tiles:
   - title: 開始使用
     links:
-    - title: System Manager介面
+    - title: SANtricity 系統管理員介面
       url: /sm-interface/overview-interface-sam.html"
-    - title: Unified Manager介面
+    - title: SANtricity Unified Manager 介面
       url: "/um-admin/overview-interface-unified.html"
     - title: 軟體資料表SANtricity
       url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf

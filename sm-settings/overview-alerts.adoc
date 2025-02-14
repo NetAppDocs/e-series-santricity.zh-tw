@@ -12,7 +12,7 @@ summary: 您可以設定System Manager以透過電子郵件、SNMP設陷和系�
 
 
 [role="lead"]
-您可以設定System Manager以透過電子郵件、SNMP設陷和系統記錄訊息傳送儲存陣列警示。
+您可以將 SANtricity 系統管理員設定為透過電子郵件， SNMP 設陷和系統記錄訊息來傳送儲存陣列警示。
 
 
 

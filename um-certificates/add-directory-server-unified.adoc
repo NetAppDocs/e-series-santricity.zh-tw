@@ -11,7 +11,7 @@ summary: 若要設定存取管理驗證、您需要在LDAP伺服器和執行Web 
 
 
 [role="lead"]
-若要設定存取管理驗證、您需要在LDAP伺服器和執行Unified Manager Web Services Proxy的主機之間建立通訊。然後將LDAP使用者群組對應至本機使用者角色。
+若要設定存取管理驗證、您需要在LDAP伺服器和執行Web Services Proxy for SANtricity the Unified Manager的主機之間建立通訊。然後將LDAP使用者群組對應至本機使用者角色。
 
 .開始之前
 * 您必須以包含安全管理員權限的使用者設定檔登入。否則、就不會顯示存取管理功能。

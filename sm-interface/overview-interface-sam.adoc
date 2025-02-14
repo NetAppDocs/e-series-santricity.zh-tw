@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, 
 summary: 您可以瀏覽主介面、以存取System Manager的功能和工作。 
 ---
-= System Manager介面總覽
+= SANtricity 系統管理員介面概觀
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-System Manager是網路型介面、可讓您在單一檢視畫面中管理儲存陣列。
+SANtricity 系統管理員是網路型介面，可讓您在單一檢視中管理儲存陣列。
 
 
 

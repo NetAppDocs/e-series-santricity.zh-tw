@@ -12,7 +12,7 @@ summary: System Manager可讓您將AutoSupport 不需等待排定的分派、即
 
 
 [role="lead"]
-System Manager可讓您將AutoSupport 不需等待排定的分派、即可將支援服務發送至技術支援部門。
+SANtricity 系統管理員可讓您將 AutoSupport 派單傳送至技術支援，而無需等待排程的派單。
 
 .開始之前
 必須啟用此功能。AutoSupport您可以在AutoSupport 「介紹」頁面上查看是否已啟用此功能。

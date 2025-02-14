@@ -11,7 +11,7 @@ summary: 您可以設定SANtricity 適用於NetApp的逾時時間、以便在指
 
 
 [role="lead"]
-您可以設定Unified Manager的逾時、讓使用者在指定時間後中斷非作用中工作階段的連線。
+您可以設定 SANtricity Unified Manager 的逾時時間，讓使用者在指定時間後中斷非作用中工作階段的連線。
 
 .關於這項工作
 Unified Manager的工作階段逾時預設為30分鐘。您可以調整時間、也可以一併停用工作階段逾時。

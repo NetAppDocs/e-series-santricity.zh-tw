@@ -11,7 +11,7 @@ summary: 瞭解存取管理條款如何套用SANtricity 至《統一化管理程
 
 
 [role="lead"]
-瞭解存取管理條款如何適用於Unified Manager。
+瞭解存取管理條款如何套用SANtricity 至《統一化管理程式》。
 
 [cols="25h,~"]
 |===

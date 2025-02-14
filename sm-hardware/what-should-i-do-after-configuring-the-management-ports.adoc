@@ -12,7 +12,7 @@ summary: 如果您變更了儲存陣列的IP位址、您可能會想要更新SAN
 
 
 [role="lead"]
-如果變更儲存陣列的IP位址、您可能會想要在Unified Manager中更新全域陣列檢視。
+如果您變更了儲存陣列的IP位址、您可能會想要更新SANtricity 《統一化管理程式（Cisco Unified Manager）」中的全域陣列檢視。
 
 若要在Unified Manager中更新全域陣列檢視、請開啟介面、然後前往功能表：「Manage（管理）」[Discover（探索）。
 

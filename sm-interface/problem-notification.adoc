@@ -11,7 +11,7 @@ summary: System Manager使用圖示和其他數種方法來通知您儲存陣列
 
 
 [role="lead"]
-System Manager使用圖示和其他數種方法來通知您儲存陣列有問題。
+SANtricity 系統管理員會使用圖示和其他數種方法，通知您儲存陣列存在問題。
 
 
 

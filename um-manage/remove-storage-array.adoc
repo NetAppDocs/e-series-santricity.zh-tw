@@ -12,7 +12,7 @@ summary: 如果您不想再從SANtricity NetApp Unified Manager進行管理、�
 
 
 [role="lead"]
-如果您不想再從Unified Manager進行管理、可以移除一或多個儲存陣列。
+如果您不想再從SANtricity NetApp Unified Manager進行管理、可以移除一或多個儲存陣列。
 
 .關於這項工作
 您無法存取任何您移除的儲存陣列。不過、您可以將瀏覽器直接指向任何移除的儲存陣列IP位址或主機名稱、藉此建立連線至任何移除的儲存陣列。

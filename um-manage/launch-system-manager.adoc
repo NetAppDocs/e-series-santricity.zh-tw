@@ -11,7 +11,7 @@ summary: 當SANtricity 您想要執行管理作業時、可以使用「Launch」
 
 
 [role="lead"]
-當您想要執行管理作業時、可以使用「Launch」（啟動）選項來開啟一或多個儲存陣列的瀏覽器型系統管理員。
+當SANtricity 您想要執行管理作業時、可以使用「Launch」（啟動）選項、為一或多個儲存陣列開啟瀏覽器型的《SywSystem Manager》（系統管理程式）。
 
 .步驟
 . 從「Manage（管理）」頁面中、選取您要管理的一或多個儲存陣列。

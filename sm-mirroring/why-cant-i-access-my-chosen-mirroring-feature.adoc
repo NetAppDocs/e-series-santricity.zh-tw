@@ -11,7 +11,7 @@ summary: 鏡射是在Unified Manager介面中設定。
 
 
 [role="lead"]
-鏡射是在Unified Manager介面中設定。
+鏡射是在 SANtricity Unified Manager 介面中設定。
 
 [NOTE]
 ====

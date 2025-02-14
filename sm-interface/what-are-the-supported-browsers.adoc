@@ -11,7 +11,7 @@ summary: System Manager支援這些瀏覽器版本。
 
 
 [role="lead"]
-System Manager支援這些瀏覽器版本。
+SANtricity 系統管理員支援這些瀏覽器版本。
 
 [cols="1a,1a"]
 |===

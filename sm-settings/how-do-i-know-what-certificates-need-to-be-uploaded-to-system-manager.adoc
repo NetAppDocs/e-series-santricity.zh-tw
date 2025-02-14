@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, external, key, management, 
 summary: 對於外部金鑰管理、您可以匯入兩種類型的憑證、以便在儲存陣列和金鑰管理伺服器之間進行驗證、讓兩個實體彼此信任。 
 ---
-= 如何知道需要將哪些憑證上傳至System Manager以進行外部金鑰管理？
+= 如何知道需要上傳哪些憑證到 SANtricity 系統管理員才能進行外部金鑰管理？
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

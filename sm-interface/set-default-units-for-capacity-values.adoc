@@ -12,7 +12,7 @@ summary: System Manager可顯示容量值、單位為吉字節（GiB）或tebiby
 
 
 [role="lead"]
-System Manager可顯示容量值、單位為吉字節（GiB）或tebibytes（TiB）。
+SANtricity 系統管理員可以顯示以 GB （ GiB ）或 tebibytes （ TiB ）為單位的容量值。
 
 偏好設定會儲存在瀏覽器的本機儲存設備中、讓所有使用者都能擁有自己的設定。
 

@@ -11,7 +11,7 @@ summary: 在System Manager中、您可以依照下列步驟建立快照映像和
 
 
 [role="lead"]
-在System Manager中、您可以依照下列步驟建立快照映像和快照磁碟區。
+在 SANtricity 系統管理員中，您可以依照下列步驟建立快照映像和快照磁碟區。
 
 
 

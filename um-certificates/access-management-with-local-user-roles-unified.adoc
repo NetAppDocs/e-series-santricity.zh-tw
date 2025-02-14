@@ -11,7 +11,7 @@ summary: 系統管理員可以使用SANtricity 在NetApp Unified Manager中強�
 
 
 [role="lead"]
-系統管理員可以使用Unified Manager中強制執行的RBAC（角色型存取控制）功能。這些功能稱為「本機使用者角色」。
+系統管理員可以使用SANtricity 在NetApp Unified Manager中強制執行的RBAC（角色型存取控制）功能。這些功能稱為「本機使用者角色」。
 
 
 

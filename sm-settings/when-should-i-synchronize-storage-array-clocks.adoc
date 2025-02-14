@@ -11,7 +11,7 @@ summary: 如果您注意到System Manager中顯示的時間戳記與管理用戶
 
 
 [role="lead"]
-如果您注意到System Manager中顯示的時間戳記與管理用戶端（透過瀏覽器存取System Manager的電腦）中顯示的時間戳記不一致、則應手動同步儲存陣列中的控制器時鐘。只有在System Manager中未啟用NTP（網路時間傳輸協定）時、才需要執行此工作。
+如果您注意到 SANtricity 系統管理員中顯示的時間戳記與管理用戶端（透過瀏覽器存取 SANtricity 系統管理員的電腦）中顯示的時間戳記不一致，則應手動同步儲存陣列中的控制器時鐘。只有在 SANtricity 系統管理員中未啟用 NTP （網路時間傳輸協定）時，才需要執行此工作。
 
 [NOTE]
 ====

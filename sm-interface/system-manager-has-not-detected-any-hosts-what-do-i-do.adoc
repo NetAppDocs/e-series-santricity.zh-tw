@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host detection 
 summary: 如果您沒有看到連線的主機、則表示自動偵測失敗、主機連線不正確、或是目前沒有連線任何主機。 
 ---
-= System Manager未偵測到任何主機。我該怎麼辦？
+= SANtricity 系統管理員未偵測到任何主機。我該怎麼辦？
 :allow-uri-read: 
 :experimental: 
 :icons: font

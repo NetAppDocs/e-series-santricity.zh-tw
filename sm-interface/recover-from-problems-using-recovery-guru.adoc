@@ -11,7 +11,7 @@ summary: Recovery Guru是System Manager的一項元件、可診斷儲存陣列�
 
 
 [role="lead"]
-Recovery Guru是System Manager的一項元件、可診斷儲存陣列問題、並建議恢復程序來修正問題。
+Recovery Guru 是 SANtricity 系統管理員的元件，可診斷儲存陣列問題，並建議恢復程序來修正問題。
 
 .步驟
 . 選擇*主頁*。

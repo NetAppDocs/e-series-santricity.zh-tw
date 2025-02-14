@@ -12,7 +12,7 @@ summary: 下表列出可用於設定及管理InfiniBand工作階段之iSER的Sys
 
 
 [role="lead"]
-下表列出可用於設定及管理InfiniBand工作階段之iSER的System Manager功能。
+下表列出 SANtricity 系統管理員功能，可用於在 InfiniBand 工作階段上設定及管理 iSER 。
 
 [NOTE]
 ====

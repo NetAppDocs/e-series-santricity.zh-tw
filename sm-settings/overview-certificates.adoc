@@ -11,7 +11,7 @@ summary: 您可以使用System Manager來建立憑證簽署要求（CSR）、匯
 
 
 [role="lead"]
-您可以使用System Manager來建立憑證簽署要求（CSR）、匯入憑證、以及管理現有的憑證。
+您可以使用 SANtricity 系統管理員來建立憑證簽署要求（ CSR ），匯入憑證，以及管理現有的憑證。
 
 
 

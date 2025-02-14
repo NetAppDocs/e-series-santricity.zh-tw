@@ -11,7 +11,7 @@ summary: 您可以在Unified Manager介面中設定鏡射配對、然後在Syste
 
 
 [role="lead"]
-您可以在Unified Manager介面中設定鏡射配對、然後在System Manager中管理配對。
+您可以在 SANtricity Unified Manager 介面中設定鏡射配對，然後在 SANtricity 系統管理員中管理這些配對。
 
 建立鏡射配對之前、請遵循下列準則：
 

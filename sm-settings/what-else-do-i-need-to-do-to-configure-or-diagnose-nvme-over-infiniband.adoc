@@ -12,7 +12,7 @@ summary: 下表列出可用於設定及管理InfiniBand上NVMe工作階段的Sys
 
 
 [role="lead"]
-下表列出可用於設定及管理InfiniBand上NVMe工作階段的System Manager功能。
+下表列出 SANtricity 系統管理員功能，可用於設定和管理 InfiniBand 工作階段上的 NVMe 。
 
 [NOTE]
 ====

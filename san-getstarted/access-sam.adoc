@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access System Manager 
 summary: 若要存取System Manager使用者介面、請將瀏覽器指向控制器的IP位址。設定精靈可協助您開始進行系統組態。 
 ---
-= 存取系統管理員
+= 存取SANtricity 《系統管理程式》
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -12,7 +12,7 @@ summary: 若要存取System Manager使用者介面、請將瀏覽器指向控制
 
 
 [role="lead"]
-若要存取System Manager使用者介面、請將瀏覽器指向控制器的IP位址。設定精靈可協助您開始進行系統組態。
+若要存取 SANtricity 系統管理員使用者介面，請將瀏覽器指向控制器的 IP 位址。設定精靈可協助您開始進行系統組態。
 
 .開始之前
 * 安裝及設定硬體、如快速組態指南之一所述：

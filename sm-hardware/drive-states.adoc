@@ -11,7 +11,7 @@ summary: System Manager會報告磁碟機的各種狀態。
 
 
 [role="lead"]
-System Manager會報告磁碟機的各種狀態。
+SANtricity 系統管理員會報告磁碟機的各種狀態。
 
 
 

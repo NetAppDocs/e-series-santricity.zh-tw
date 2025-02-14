@@ -11,7 +11,7 @@ summary: Unified Manager提供SANtricity 支援鏡射功能的組態選項、可
 
 
 [role="lead"]
-Unified Manager提供SANtricity 支援鏡射功能的組態選項、可讓系統管理員在兩個儲存陣列之間複寫資料、以保護資料。
+SANtricity Unified Manager 包含 SANtricity 鏡射功能的組態選項，可讓系統管理員在兩個儲存陣列之間複寫資料，以保護資料。
 
 [NOTE]
 ====

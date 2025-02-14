@@ -12,7 +12,7 @@ summary: System Manager會自動建立AutoSupport 一份預設的時間表、以
 
 
 [role="lead"]
-System Manager會自動建立AutoSupport 一份預設的時間表、以供進行不一致的派單。如果您願意、可以指定自己的排程。
+SANtricity 系統管理員會自動建立 AutoSupport 派單的預設排程。如果您願意、可以指定自己的排程。
 
 .開始之前
 必須啟用此功能。AutoSupport您可以在AutoSupport 「介紹」頁面上查看是否已啟用此功能。

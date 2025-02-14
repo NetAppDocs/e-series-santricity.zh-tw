@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
 summary: 您可以選擇一或多個儲存陣列、並在SANtricity 您想要設定及管理儲存陣列時、使用「Launch」（啟動）選項來開啟「精選系統管理程式」。 
 ---
-= 存取System Manager的考量事項
+= 存取SANtricity 《系統管理程式》的考量
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以選取一或多個儲存陣列、並在想要設定及管理儲存陣列時、使用「啟動」選項來開啟System Manager。
+您可以選擇一或多個儲存陣列、並在SANtricity 您想要設定及管理儲存陣列時、使用「Launch」（啟動）選項來開啟「精選系統管理程式」。
 
 System Manager是控制器上的內嵌應用程式、透過乙太網路管理連接埠連線至網路。它包含所有陣列型功能。
 

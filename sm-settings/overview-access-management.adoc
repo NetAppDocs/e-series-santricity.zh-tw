@@ -12,7 +12,7 @@ summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建
 
 
 [role="lead"]
-存取管理是在System Manager中建立使用者驗證的方法。
+存取管理是SANtricity 一種在《Sytricity System Manager》中建立使用者驗證的方法。
 
 
 

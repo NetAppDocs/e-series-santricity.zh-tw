@@ -11,7 +11,7 @@ summary: 您可以單獨使用鍵盤瀏覽System Manager。
 
 
 [role="lead"]
-您可以單獨使用鍵盤瀏覽System Manager。
+您可以單獨使用鍵盤瀏覽 SANtricity 系統管理員。
 
 
 

@@ -11,4 +11,4 @@ summary:
 
 
 [role="lead"]
-您可以針對某些一般陣列設定和附加功能來設定System Manager。
+您可以針對某些一般陣列設定和附加功能，設定 SANtricity 系統管理員。

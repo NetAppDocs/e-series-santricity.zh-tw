@@ -11,7 +11,7 @@ summary: 可從多種瀏覽器存取支援的支援功能。SANtricity
 
 
 [role="lead"]
-Unified Manager可從多種瀏覽器存取。
+可從多種瀏覽器存取支援的支援功能。SANtricity
 
 支援下列瀏覽器和版本。
 

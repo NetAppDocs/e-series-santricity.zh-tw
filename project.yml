@@ -31,9 +31,9 @@ sidebar:
       url: "/san-getstarted/santricity-overview.html"
     - title: 支援的瀏覽器與作業系統
       url: "/san-getstarted/supported-browsers-os.html"
-    - title: System Manager設定
+    - title: SANtricity 系統管理員設定
       entries:
-      - title: 存取系統管理員
+      - title: 存取SANtricity 《系統管理程式》
         url: "/san-getstarted/access-sam.html"
       - title: 設定精靈總覽
         url: "/sm-interface/setup-wizard-overview.html"
@@ -51,20 +51,20 @@ sidebar:
           url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
         - title: 如何知道我是否應該接受建議的集區組態？
           url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-        - title: System Manager未偵測到任何主機。我該怎麼辦？
+        - title: SANtricity 系統管理員未偵測到任何主機。我該怎麼辦？
           url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
-    - title: Unified Manager設定
+    - title: SANtricity Unified Manager 設定
       entries:
-      - title: 安裝Unified Manager
+      - title: 安裝 SANtricity Unified Manager
         url: "/san-getstarted/install-um.html"
-      - title: 存取Unified Manager
+      - title: 存取 SANtricity Unified Manager
         url: "/san-getstarted/login-um.html"
-  - title: 系統管理員
+  - title: 系統管理程式SANtricity
     url: "/system-manager/index.html"
     entries:
     - title: 主介面
       entries:
-      - title: System Manager介面總覽
+      - title: SANtricity 系統管理員介面概觀
         url: "/sm-interface/overview-interface-sam.html"
       - title: 檢視效能資料
         entries:
@@ -1140,7 +1140,7 @@ sidebar:
         entries:
         - title: 為什麼會出現「無法存取其他控制器」對話方塊？
           url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
-        - title: 如何知道需要將哪些憑證上傳至System Manager以進行外部金鑰管理？
+        - title: 如何知道需要上傳哪些憑證到 SANtricity 系統管理員才能進行外部金鑰管理？
           url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
         - title: 關於憑證撤銷檢查、我需要知道什麼？
           url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
@@ -1244,12 +1244,12 @@ sidebar:
           url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
         - title: 如何選擇要執行的升級類型？
           url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
-  - title: Unified Manager
+  - title: 統一化管理程式SANtricity
     url: "/unified-manager/index.html"
     entries:
     - title: 主介面
       entries:
-      - title: Unified Manager介面總覽
+      - title: SANtricity Unified Manager 介面總覽
         url: "/um-admin/overview-interface-unified.html"
       - title: 支援的瀏覽器
         url: "/um-admin/supported-browsers-unified.html"
@@ -1267,7 +1267,7 @@ sidebar:
         entries:
         - title: 探索陣列的考量事項
           url: "/um-manage/considerations-for-discovering-arrays.html"
-        - title: 存取System Manager的考量事項
+        - title: 存取SANtricity 《系統管理程式》的考量
           url: "/um-manage/launch-considerations.html"
       - title: 探索陣列
         entries:
@@ -1279,7 +1279,7 @@ sidebar:
         entries:
         - title: 檢視陣列狀態
           url: "/um-manage/storage-array-status.html"
-        - title: 啟動System Manager
+        - title: 管理個別的儲存陣列
           url: "/um-manage/launch-system-manager.html"
         - title: 變更陣列密碼
           url: "/um-admin/change-storage-array-passwords.html"

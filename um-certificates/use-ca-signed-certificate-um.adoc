@@ -12,7 +12,7 @@ summary: 您可以取得及匯入CA簽署的憑證、以安全存取裝載Unifie
 
 
 [role="lead"]
-您可以取得及匯入CA簽署的憑證、以安全存取裝載Unified Manager的管理系統。
+您可以取得及匯入 CA 簽署的憑證，以安全存取託管 SANtricity Unified Manager 的管理系統。
 
 .開始之前
 您必須以包含安全管理員權限的使用者設定檔登入。否則、不會顯示憑證功能。

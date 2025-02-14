@@ -12,7 +12,7 @@ summary: 當儲存陣列嘗試建立安全連線至SANtricity NetApp Unified Man
 
 
 [role="lead"]
-當儲存陣列嘗試建立與Unified Manager的安全連線、但連線無法確認為安全時、就會發生不受信任的憑證。
+當儲存陣列嘗試建立安全連線至SANtricity NetApp Unified Manager、但連線無法確認安全性時、就會發生不受信任的憑證。
 
 從「憑證」頁面、您可以從儲存陣列匯入自我簽署的憑證、或匯入由信任的第三方所核發的憑證授權單位（CA）憑證、藉此解決不受信任的憑證。
 

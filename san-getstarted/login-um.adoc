@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, log in Unified Manager 
 summary: 存取並登入Unified Manager。 
 ---
-= 存取Unified Manager
+= 存取 SANtricity Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-安裝Web服務Proxy之後、您可以存取Unified Manager、在網路型介面中管理多個儲存系統。
+安裝 Web 服務 Proxy 之後，您可以存取 SANtricity Unified Manager ，在網路型介面中管理多個儲存系統。
 
 
 NOTE: 如需支援的瀏覽器、請參閱 link:supported-browsers-os.html["支援的瀏覽器和作業系統"]。

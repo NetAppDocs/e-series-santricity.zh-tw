@@ -11,7 +11,7 @@ summary: 在您使用Unified Manager升級多個儲存陣列之前、請先在�
 
 
 [role="lead"]
-在您使用Unified Manager升級多個儲存陣列之前、請先在規劃過程中檢閱重要考量事項。
+在您使用SANtricity NetApp統一化管理程式來升級多個儲存陣列之前、請先檢閱規劃時的重要考量事項。
 
 
 

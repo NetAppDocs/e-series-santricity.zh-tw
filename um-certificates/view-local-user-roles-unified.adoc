@@ -11,7 +11,7 @@ summary: 從本機使用者角色索引標籤、您可以檢視使用者與預�
 
 
 [role="lead"]
-從本機使用者角色索引標籤、您可以檢視使用者與預設角色之間的對應。這些對應是在Unified Manager的Web Services Proxy中強制執行的RBAC（角色型存取控制）的一部分。
+從本機使用者角色索引標籤、您可以檢視使用者與預設角色之間的對應。這些對應是在Web Services Proxy for SANtricity the Unified Manager中強制執行的RBAC（角色型存取控制）的一部分。
 
 .開始之前
 您必須以包含安全管理員權限的使用者設定檔登入。否則、就不會顯示存取管理功能。

@@ -12,7 +12,7 @@ summary: 您可以從System Manager下載命令列介面（CLI）套件。
 
 
 [role="lead"]
-您可以從System Manager下載命令列介面（CLI）套件。
+您可以從 SANtricity 系統管理員下載命令列介面（ CLI ）套件。
 
 CLI提供一種文字型方法、可用來設定及監控儲存陣列。它透過https通訊、並使用與外部安裝管理軟體套件中可用CLI相同的語法。不需要金鑰即可下載CLI。
 

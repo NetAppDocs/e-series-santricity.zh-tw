@@ -11,7 +11,7 @@ summary: 使用存取管理功能、在SANtricity 《統一化管理程式》中
 
 
 [role="lead"]
-使用Access Management在Unified Manager中建立使用者驗證。
+使用存取管理功能、在SANtricity 《統一化管理程式》中建立使用者驗證。
 
 
 

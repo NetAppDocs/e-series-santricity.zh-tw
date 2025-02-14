@@ -12,7 +12,7 @@ summary: 如果您在SANtricity 無法由支援系統管理程式管理的舊儲
 
 
 [role="lead"]
-如果您在無法由System Manager管理的舊版儲存陣列上建立主要磁碟區、您可以使用System Manager在此陣列上建立次要磁碟區。
+如果您在SANtricity 無法由NetApp系統管理程式管理的舊儲存陣列上建立主磁碟區、您可以使用SANtricity 此Array上的「支援系統管理程式」來建立次磁碟區。
 
 .關於這項工作
 您可以在使用不同介面的舊陣列與可由System Manager管理的新陣列之間執行非同步鏡像。

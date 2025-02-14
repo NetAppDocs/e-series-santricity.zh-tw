@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Unified Manager installation 
 summary: Unified Manager安裝總覽 
 ---
-= 安裝Unified Manager
+= 安裝 SANtricity Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Unified Manager隨附於Web Services Proxy、這是一款REST風格的API伺服器、可分別安裝在主機系統上、以管理NetApp E系列儲存系統。
+SANtricity Unified Manager 隨附於 Web 服務 Proxy 中，這是一種 RESTful API 伺服器，可分別安裝在主機系統上，以管理 NetApp E 系列儲存系統。
 
 若要安裝Web服務Proxy和Unified Manager、請參閱E系列和SANtricity 支援中心的下列指示：
 

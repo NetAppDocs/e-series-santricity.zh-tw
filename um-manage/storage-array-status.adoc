@@ -11,7 +11,7 @@ summary: Unified Manager會顯示每個已探索儲存陣列的狀態。
 
 
 [role="lead"]
-Unified Manager會顯示每個已探索儲存陣列的狀態。
+SANtricity Unified Manager 會顯示已探索到的每個儲存陣列的狀態。
 
 前往*管理-全部*頁面。在此頁面中、您可以檢視Web服務Proxy與該儲存陣列之間的連線狀態。
 
