@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: SANtricity 軟體文件 11.90
+  title: SANtricity 軟體 11.9 文件
   summary: System Manager與Unified Manager SANtricity
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: SANtricity 11.90 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF
+  lead: SANtricity 軟體 11.9 可讓您為繁重工作負載應用程式（包括資料分析，視訊監控，備份與還原），實現 E 系列混合式 Flash 和 EF
     系列 All Flash 陣列的最大效能與使用率。
   tiles:
   - title: 開始使用

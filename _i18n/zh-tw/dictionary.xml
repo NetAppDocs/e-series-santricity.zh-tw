@@ -8651,9 +8651,6 @@
   <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">透過私密金鑰和公開金鑰配對從外部產生的憑證簽署要求（ CSR ）檔案，現在可以透過 System Manager 匯入。</block>
   <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">Web 服務現在可使用登入鎖定功能</block>
   <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">只能透過 REST API 進行設定，內嵌式和 Proxy Web Services 現在可以使用新的登入鎖定設定。</block>
-  <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9 文件</block>
-  <block id="320344fc6d13f7639d2b2c90f55506fa" category="sidebar">SANtricity 11.90 軟體可讓您為繁重的工作負載應用程式（包括資料分析、視訊監控、備份與還原）、實現 E 系列混合式 Flash 和 EF 系列 All Flash 陣列的最大效能與使用率。</block>
-  <block id="b26c3f1c1c8d9eb65323b2750c4c349d" category="sidebar">SANtricity 軟體文件 11.90</block>
   <block id="90e8ac6688c66ac3fc81de93ba27235a" category="sidebar">System Manager與Unified Manager SANtricity</block>
   <block id="e95315401141b931451e32ea694b6d92" category="sidebar">軟體資料表SANtricity</block>
   <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E系列文件</block>
@@ -8742,4 +8739,7 @@
   <block id="4895fd90ba99a1644bbfaaa77bf80a43" category="sidebar">使用 SANtricity Unified Manager 7 進行多個陣列管理</block>
   <block id="3089984c7abf64387bdc035943beae57" category="sidebar">SANtricity 系統管理員設定</block>
   <block id="61ed698df3699989d8d782fe430d2755" category="sidebar">SANtricity Unified Manager 設定</block>
+  <block id="3ff0cf51d8c2e66a61c1a36c2258ffb7" category="sidebar">SANtricity 軟體 11.9 可讓您為繁重工作負載應用程式（包括資料分析，視訊監控，備份與還原），實現 E 系列混合式 Flash 和 EF 系列 All Flash 陣列的最大效能與使用率。</block>
+  <block id="18ca0e475e67b79b5c1367dc3fece234" category="sidebar">SANtricity 軟體 11.9 文件</block>
+  <block id="1bde2299408b1369159daef73cb92e8b" category="sidebar">SANtricity 軟體 11.9 文件</block>
 </blocks>
