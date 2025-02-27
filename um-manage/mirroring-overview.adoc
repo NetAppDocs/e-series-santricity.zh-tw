@@ -15,7 +15,7 @@ SANtricity Unified Manager 包含 SANtricity 鏡射功能的組態選項，可�
 
 [NOTE]
 ====
-EF600 或 EF300 儲存系統不提供同步鏡射功能。
+EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡射功能。
 
 ====
 

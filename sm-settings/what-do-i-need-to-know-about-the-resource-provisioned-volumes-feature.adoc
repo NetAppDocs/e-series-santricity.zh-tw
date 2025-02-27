@@ -2,7 +2,7 @@
 permalink: sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, resource-provisioned, volumes, feature, 
-summary: 資源資源配置是EF300和EF600儲存陣列的一項功能、可讓磁碟區立即投入使用、而無需背景初始化程序。 
+summary: 資源配置是 EF300 ， EF300C ， EF600 和 EF600C 儲存陣列中的一項功能，可讓磁碟區立即投入使用，無需背景初始化程序。 
 ---
 = 關於資源配置的Volume功能、我需要知道什麼？
 :allow-uri-read: 
@@ -19,3 +19,6 @@ summary: 資源資源配置是EF300和EF600儲存陣列的一項功能、可讓�
 資源配置的磁碟區僅支援SSD磁碟區群組和集區、群組或集區中的所有磁碟機都支援NVMe取消分配或未寫入的邏輯區塊錯誤啟用（DULBE）錯誤恢復功能。建立資源配置的Volume時、會取消分配指派給該磁碟區的所有磁碟區塊（未對應）。此外、主機可以使用NVMe資料集管理命令或SCSI取消對應命令、取消分配磁碟區中的邏輯區塊。取消分配區塊可改善SSD的耗損壽命、並提高最大寫入效能。每個磁碟機機型和容量的改善程度各不相同。
 
 預設會在磁碟機支援DULBE的系統上啟用資源配置。您可以從*資源池與磁碟區群組*停用該預設設定。
+
+
+NOTE: EF300C 或 EF600C 儲存陣列目前不支援 DULBE 。

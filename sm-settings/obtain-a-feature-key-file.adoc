@@ -27,9 +27,6 @@ summary: 若要在儲存陣列上啟用優質功能或功能套件、您必須�
 . 在System Manager中、找到「啟用功能識別碼」。移至功能表：設定[系統]、然後向下捲動至*附加元件*。尋找*功能啟用識別碼*。記錄功能啟用識別碼的編號。
 . 找出並記錄功能啟動的程式碼。對於功能套件、此程式碼會在執行轉換的適當指示中提供。
 +
-如需NetApp指示、請參閱 https://www.netapp.com/support-and-training/documentation/eseries-santricity/["NetApp E系列系統文件中心"^]。
-
-+
 如需進階功能、您可以從Support網站存取啟動代碼、如下所示：
 
 +

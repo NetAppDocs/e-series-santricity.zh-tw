@@ -911,7 +911,6 @@
   <block id="02d56cf7754ce16d7ce0193fbca7c90a" category="paragraph">快取</block>
   <block id="01875a0a0c6c489daebdf2da47822bf8" category="paragraph">顯示快取設定、您可以變更此設定、以影響磁碟區的整體I/O效能。</block>
   <block id="f7fad94692941472b9a76c2ba57c020c" category="paragraph">SSD快取</block>
-  <block id="04bbd2c132c1093db28e447b3653bb4f" category="admonition">EF600或EF300儲存系統無法使用此功能。</block>
   <block id="0ac6cd8987ecb9501395a6c2fed923c4" category="paragraph">顯示SSD快取設定、您可以在相容磁碟區上啟用此設定、藉此提升唯讀效能。如果磁碟區共用相同的磁碟機安全性和資料保證功能、則磁碟區會相容。</block>
   <block id="d0c8df7335fd09690d17fec5d12d8ec8" category="paragraph">* SSD快取功能使用單一或多個固態磁碟（SSD）來實作讀取快取*。由於SSD的讀取時間較短、因此應用程式效能有所提升。由於讀取快取位於儲存陣列中、因此快取會在所有使用儲存陣列的應用程式之間共享。只要選取您要快取的磁碟區、就能自動動態快取。</block>
   <block id="f106bbc08b77d5e3fe5f9f78801fa7d1" category="paragraph">System Manager會根據您的選擇來變更Volume的設定。</block>
@@ -1314,7 +1313,6 @@
   <block id="2b6dfac4c2ee1e0fccb3ed18c1e9e715" category="list-text">設定當精簡磁碟區接近最大分配容量限制時、將警示（超過警告臨界值）傳送至首頁通知區域的百分比點。</block>
   <block id="641704c0841951140a62999ce85bfaeb" category="paragraph">若要增加精簡磁碟區的容量、請增加報告的容量。</block>
   <block id="b427c469cec42cd76c840d0e5107a920" category="paragraph">System Manager不提供建立精簡磁碟區的選項。如果要建立精簡磁碟區、請使用命令列介面（CLI）。</block>
-  <block id="5b48e77fd7668c15e4d278280b54ae19" category="paragraph">EF600或EF300儲存系統無法使用精簡磁碟區。</block>
   <block id="50d09ee94af23ca7be0ea0bd72392ef1" category="summary">主機是一種伺服器、可將I/O傳送至儲存陣列上的磁碟區。主機叢集是一組主機。您可以建立主機叢集、以便輕鬆將相同的磁碟區指派給多個主機。</block>
   <block id="72180ea1a91065ba958b5dd4237a8c86" category="paragraph">您可以分別定義主機。它可以是獨立實體、也可以新增至主機叢集。您可以將磁碟區指派給個別主機、或是主機叢集的一部或多部主機、與主機叢集中的其他主機共用一個或多個磁碟區的存取權。</block>
   <block id="e4fe3b05ff25fac2ac46ef009d413f46" category="paragraph">主機叢集是SANtricity 您在《支援系統》中建立的邏輯實體。您必須先將主機新增至主機叢集、才能指派磁碟區。</block>
@@ -1570,7 +1568,6 @@
   <block id="c840c0758e533a8d2471360454925ac2" category="paragraph">有了磁碟機安全功能、您就能建立安全金鑰、並在儲存陣列中啟用安全功能的磁碟機和控制器之間共用。只要關閉和開啟磁碟機的電源、安全啟用的磁碟機就會變更為安全鎖定狀態、直到控制器套用安全金鑰為止。</block>
   <block id="8a815b2a47535f1623438fab12c61953" category="summary">存取磁碟區是儲存陣列上的原廠設定磁碟區、可透過主機I/O連線與儲存陣列和主機進行通訊。存取磁碟區需要邏輯單元號碼（LUN）。</block>
   <block id="da5b269ce13f310ea60da5646f66f4df" category="list-text">*頻內管理*：存取磁碟區用於頻內連線、以管理儲存陣列。只有在使用命令列介面（CLI）管理儲存陣列時、才能這麼做。</block>
-  <block id="b07f190bd057ec5ae997cb6fe0661683" category="paragraph">EF600或EF300儲存系統無法進行頻內管理。</block>
   <block id="c77cfe09f0da7405a83c73fb323b653d" category="paragraph">第一次將磁碟區指派給主機時、就會自動建立存取磁碟區。例如、如果您將Volume（Volume）1和Volume（Volume）2指派給主機、則當您檢視該指派的結果時、會看到三個磁碟區（Volume（Volume）1、Volume（Volume）2和Access（存取））。</block>
   <block id="1f7334c99cc83f3bab939dd30e1ec973" category="paragraph">如果您不是使用CLI自動建立主機或管理頻內儲存陣列、則不需要存取磁碟區、您可以刪除存取磁碟區來釋放LUN。此動作會移除磁碟區對LUN的指派、以及與主機的任何頻內管理連線。</block>
   <block id="728d21c326005f9487f28f6b53df62a5" category="summary">區段是儲存陣列移至等量磁碟區（RAID群組）中的下一個磁碟機之前、儲存在磁碟機上的資料量（千位元組）。區段大小僅適用於磁碟區群組、而非資源池。</block>
@@ -1752,7 +1749,6 @@
   <block id="497f98df0a65d45702bbb213f94ad2f9" category="paragraph">機櫃損失保護</block>
   <block id="583c0f2e390971cb9f4ba4ce9747868e" category="paragraph">顯示機櫃遺失保護是否可用。機櫃遺失保護功能可確保在磁碟區群組中的磁碟區資料能夠在發生與機櫃通訊完全中斷時存取。</block>
   <block id="ccadd3c23eb718337466208415f3437d" category="paragraph">藥櫃遺失保護</block>
-  <block id="fd12b513859f856de91f86c6941047de" category="paragraph">顯示藥櫃遺失保護功能是否可用、僅當您使用含有藥櫃的磁碟機櫃時才會提供此功能。如果磁碟櫃中的單一藥櫃發生通訊完全中斷、藥櫃遺失保護可確保磁碟區群組中磁碟區上的資料可存取。</block>
   <block id="26fd2333265af0bb99ce6e49214a7444" category="paragraph">支援的Volume區塊大小（僅限EF300和EF600）</block>
   <block id="145bb60ec8160f7c202bcdea28c6a17a" category="paragraph">顯示可為群組中的磁碟區建立的區塊大小：</block>
   <block id="71c479418a6ac59e90760be894a1c19b" category="list-text">512n -原生512位元組。</block>
@@ -2397,7 +2393,6 @@
   <block id="23509c39f2453599ca0877d32956ae09" category="list-text">建立磁碟區時、會配置厚磁碟區的容量。</block>
   <block id="5310bc5e64d1f64e025eb1c642e2bba8" category="list-text">精簡磁碟區的容量會在寫入磁碟區時、以資料形式分配。</block>
   <block id="059801af7cde1a87cf3c098887a187f9" category="paragraph">資源隨需配置有助於避免浪費分配的容量、並可節省企業前期儲存成本。不過、完整資源配置的優點是延遲較短、因為在建立大型磁碟區時、所有儲存設備都會一次分配。</block>
-  <block id="e2b8fbf01b4ff47fbb96c92ac379ea78" category="paragraph">EF600和EF300儲存系統不支援精簡配置。</block>
   <block id="089e479d3dc64139ab1266d151b32d32" category="section-title">磁碟區的特性</block>
   <block id="796dfd432b6f644d61e91352515bb6d2" category="paragraph">集區或磁碟區群組中的每個磁碟區都可以根據儲存在其中的資料類型、擁有各自的特性。這些特性包括：</block>
   <block id="7c1d052253e33c65465a5eb406bb3dc2" category="list-text">*區段大小*-區段是儲存陣列移至磁碟區（RAID群組）中下一個磁碟機之前、儲存在磁碟機上的資料量（千位元組）、以千位元組（KiB）為單位。區段大小等於或小於Volume群組的容量。區段大小是固定的、無法變更集區的區段大小。</block>
@@ -5826,8 +5821,6 @@
   <block id="2ab0aa4e6f963bdda6156f57930e7a34" category="list-text">在System Manager中、找出並記錄機箱序號。您可以將滑鼠游標移到「Support Center（支援中心）」方塊上方、以檢視此序號。</block>
   <block id="d8ab4f4f4bd758e305ce24ae089739e7" category="list-text">在System Manager中、找到「啟用功能識別碼」。移至功能表：設定[系統]、然後向下捲動至*附加元件*。尋找*功能啟用識別碼*。記錄功能啟用識別碼的編號。</block>
   <block id="1e892535381bacc3eae14862eb515b1a" category="list-text">找出並記錄功能啟動的程式碼。對於功能套件、此程式碼會在執行轉換的適當指示中提供。</block>
-  <block id="b7c76db9b2472e615129452598c32a70" category="inline-link">NetApp E系列系統文件中心</block>
-  <block id="19c1dae7ed1abf9eb3b6c5146df9b1d5" category="paragraph">如需NetApp指示、請參閱<block ref="da76044833cc021823434c8291982304" category="inline-link-rx"></block>。</block>
   <block id="ead7d7ce373cd886b6b7a1a60db53284" category="paragraph">如需進階功能、您可以從Support網站存取啟動代碼、如下所示：</block>
   <block id="e7626dadbaccf1c6de0466c8e9271bce" category="list-text">登入<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>。</block>
   <block id="78e85ed9fdf2fdf631f1825f112c9596" category="list-text">請前往*您產品的軟體授權*。</block>
@@ -8448,11 +8441,7 @@
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14.</block>
   <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">如果使用陣列內嵌的安全聲明標記語言（ SAML ）功能來設定存取管理、則當使用者的 SSO 工作階段達到其上限時、可能會發生工作階段逾時。這可能發生在System Manager工作階段逾時之前。</block>
-  <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">EF600 或 EF300 儲存系統不提供同步鏡射功能。</block>
-  <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">EF600 或 EF300 儲存陣列不提供同步鏡射功能。</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">對於 EF600 和 EF300 控制器、非同步鏡射配對的主要和次要磁碟區必須符合相同的傳輸協定、磁碟匣層級、區段大小、安全類型和 RAID 層級。非合格的非同步鏡射配對不會出現在可用磁碟區清單中。</block>
-  <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">此功能不適用於 EF600 或 EF300 儲存系統上的同步鏡射。</block>
-  <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">EF300 或 EF600 儲存陣列不提供同步鏡射功能。</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">是 ^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^ 目標 Volume 的容量必須等於或大於精簡磁碟區報告的容量。</block>
   <block id="b7c484278db16efdf320efb752c9d501" category="paragraph">^2^ 在線上複製作業完成之前、您無法使用快照磁碟區複本。</block>
@@ -8501,7 +8490,6 @@
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">每當發生警示事件時、事件監控器都會傳送警示至syslog伺服器。若要進一步設定稽核記錄的 Syslog 設定、請參閱<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>。</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">設定完成後、所有新的稽核記錄都會傳送到syslog伺服器。不會傳輸先前的記錄。若要進一步設定警示的 Syslog 設定、請參閱<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>。</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager （系統管理器） - 一種基於 Web 的界面，用於管理網絡中的單個存儲陣列。</block>
-  <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600 和 EF300 儲存陣列不支援同步鏡射或精簡磁碟區。</block>
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">磁碟機、控制器和元件檢視</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">若要在前置和後置視圖之間切換、請從最右側選擇 * 磁碟機 * 或 * 控制器與元件 * （顯示的連結取決於目前視圖）。「 * 磁碟機 * 」檢視會顯示磁碟機和任何空磁碟機支架。"* 控制器與元件 * " 檢視會顯示控制器、任何 IOM （ ESM ）模組、電源 / 風扇迴廊或空的控制器托架。在頁面底部、您也可以選取 * 顯示所有磁碟機 * 。</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80 版本資訊</block>
@@ -8570,7 +8558,6 @@
   <block id="e4709a73a287a5f033f5b1b5142cb74d" category="inline-image-macro">系統設定</block>
   <block id="de8011abde4e4344c82af51912b3ce19" category="paragraph"><block ref="2bce2265bb1e82bb0d0858adf2dafedf" category="inline-image-macro-rx" type="image"></block>* 系統設定 *</block>
   <block id="9dcfdd4141be874fb7eb13880a5fd525" category="paragraph"><block ref="1cb7eabea009b4b9cfe98093989eadbf" category="inline-image-macro-rx" type="image"></block>* 支援 *</block>
-  <block id="a06a26693ca66f654ff2c2dcecc3e13f" category="paragraph">Unified Manager是網路型軟體、用於管理整個網域。從中央檢視，您可以看到所有較新 E 系列和 EF 系列陣列的狀態，例如 E4000 ， E2800 ， EF280 ， EF300 ， E5700 ， EF570 和 EF600 。您也可以在選定的儲存陣列上執行批次作業。</block>
   <block id="bb426997d075117a34b0e82e716e9988" category="inline-image-macro">探索儲存陣列</block>
   <block id="49e4791fdcd34bdf6b59ed172268d67f" category="paragraph"><block ref="9ff56b9b0514866913bcdc835ac16829" category="inline-image-macro-rx" type="image"></block>* 探索儲存陣列 *</block>
   <block id="9506f0fd0f7f1b07960b15b4c9e68d1a" category="inline-image-macro">上市</block>
@@ -8615,7 +8602,6 @@
   <block id="f1683bd5111055cff52f3434b437bc43" category="admonition">預設的媒體掃描週期設為 120 天。</block>
   <block id="630fb851299f40643b158fbf236a2e8c" category="list-text">* 原生區塊大小 * –磁碟區的區塊大小與磁碟區塊大小（ 512 或 4K ）相符。</block>
   <block id="f6c667584c393a129ba0a1a453306311" category="list-text">* 模擬 512 區塊大小 * - 磁碟機為 4K ，但回報的區塊大小為 512 。</block>
-  <block id="478ac1c2fc93cbde8a7f38011e1743e9" category="paragraph">SMCLI 可透過 SANtricity 系統管理員直接取得。此 SMCLI 下載版本可在 E4000 ， EF600 ， EF300 ， E5700 ， EF570 ， E2800 及 EF280 控制器上取得。要在SANtricity 《S161eSystem Manager》中下載SMcli、請選擇*設定*&gt;*系統*和*附加元件*&gt;*命令列介面*。</block>
   <block id="8372cda02b92707718d83873eed70eff" category="image-alt">集區和磁碟區群組結構</block>
   <block id="861b7c78b853932749bb7fa53551562a" category="image-alt">Snapshot 概述</block>
   <block id="454b39575eef78952a66832d854eb9a8" category="paragraph">您可以透過 SANtricity 系統管理員來管理系統儲存設備。</block>
@@ -8742,4 +8728,25 @@
   <block id="3ff0cf51d8c2e66a61c1a36c2258ffb7" category="sidebar">SANtricity 軟體 11.9 可讓您為繁重工作負載應用程式（包括資料分析，視訊監控，備份與還原），實現 E 系列混合式 Flash 和 EF 系列 All Flash 陣列的最大效能與使用率。</block>
   <block id="18ca0e475e67b79b5c1367dc3fece234" category="sidebar">SANtricity 軟體 11.9 文件</block>
   <block id="1bde2299408b1369159daef73cb92e8b" category="sidebar">SANtricity 軟體 11.9 文件</block>
+  <block id="bea9b4f39c26a537662fed44c4b4ab7e" category="admonition">EF600/EF600C 和 EF300/EF300C 儲存陣列不支援同步鏡射或精簡磁碟區。</block>
+  <block id="07ceb34078b6425ead2bdf25c28b4765" category="paragraph">Unified Manager是網路型軟體、用於管理整個網域。從中央檢視，您可以看到所有較新 E 系列和 EF 系列陣列的狀態，例如 E4000 ， E2800 ， EF280 ， EF300 ， E5700 ， EF570 ， EF600 ， EF300C 和 EF600C 。您也可以在選定的儲存陣列上執行批次作業。</block>
+  <block id="a8d536a226bc5040b931337a7644185d" category="paragraph">EF600/EF600C 或 EF300/EF300C 儲存陣列不提供同步鏡射功能。</block>
+  <block id="68d28abd2b869bd5795d298dfa9e846e" category="paragraph">EF600/EF600C 或 EF300/EF300C 儲存系統無法使用此功能。</block>
+  <block id="465143b73392c408d4e639ff6ed7cf18" category="paragraph">EF300/EF300C 或 EF600/EF600C 儲存陣列不提供同步鏡射功能。</block>
+  <block id="c1ef781eafa3554e3ab8e8623b4e5a71" category="paragraph">EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡射功能。</block>
+  <block id="5a7b6df104eae510976ebef6d294bbc2" category="paragraph">此功能不適用於 EF600/EF600C 或 EF300/EF300C 儲存系統上的同步鏡射。</block>
+  <block id="b9e88ad6836c4f5d794f382de8f1f2c9" category="admonition">EF300C 或 EF600C 儲存陣列目前不支援 DULBE 。</block>
+  <block id="4b8add2dc8ff6506b02ecbd9ce368929" category="summary">資源配置是 EF300 ， EF300C ， EF600 和 EF600C 儲存陣列中的一項功能，可讓磁碟區立即投入使用，無需背景初始化程序。</block>
+  <block id="90992e53bcf79cefee988e4147be01b6" category="paragraph">E4000 ， EF600/EF600C 或 EF300/EF300C 儲存系統無法使用存取磁碟區的頻內管理。</block>
+  <block id="16ebf1283fdb23275c2211d15a82e2cd" category="list-text">EF600/EF600C 或 EF300/EF300C 儲存系統不提供精簡磁碟區。</block>
+  <block id="1ac9fe85275ed11ba0a95e5559f5af80" category="paragraph">顯示藥櫃遺失保護功能是否可用、僅當您使用含有藥櫃的磁碟機櫃時才會提供此功能。如果磁碟櫃中的單一藥櫃發生通訊完全中斷、藥櫃遺失保護可確保磁碟區群組中磁碟區上的資料可存取。</block>
+  <block id="d1395fc90f77b84babf353a6d9d715db" category="list-text">2 ， 048 冊（ EF600 ， EF600C 和 E5700 系列）</block>
+  <block id="896a61fe313f0f38c6a4575f53d2958d" category="list-text">1 ， 024 冊（ EF300 和 EF300C ）</block>
+  <block id="61c9873f4f28e9fd9310c86bf6f0e33f" category="paragraph">SMCLI 可透過 SANtricity 系統管理員直接取得。SMCLI 的下載版本可在 E4000 ， EF600 ， EF600C ， EF300 ， EF300C ， E5700 ， EF570 ， E2800 和 EF280 控制器上取得。要在SANtricity 《S161eSystem Manager》中下載SMcli、請選擇*設定*&gt;*系統*和*附加元件*&gt;*命令列介面*。</block>
+  <block id="4f0494c1ee4d34a0be2e413265889dcb" category="paragraph">EF600/EF600C 和 EF300/EF300C 儲存系統不支援精簡配置。</block>
+  <block id="baee5b8c18b240b4edfcc1ae3fe154f0" category="section-title">11.90R1 版的新功能</block>
+  <block id="efe2c9d7be92af10ac48d790dd8ccfed" category="paragraph">全新儲存系統機型– EF300C 和 EF600C</block>
+  <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">此版本推出 EF300C 和 EF600C 所有 Flash NVMe 儲存系統。EF300C 和 EF600C 是現有 EF300 和 EF600 儲存系統的高容量 Flash 版本。EF300C 和 EF600C 支援 30TB 或 60TB 大小的高容量 NVMe SSD 磁碟機。EF300C/EF600C 僅相容於動態磁碟集區使用，不支援傳統 RAID 。</block>
+  <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">EF4000 支援 12Gb SAS 介面</block>
+  <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000 控制器現在支援 12Gb SAS 主機介面卡。</block>
 </blocks>
