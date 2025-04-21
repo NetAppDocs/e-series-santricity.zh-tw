@@ -456,8 +456,6 @@
   <block id="a68e42f8ba6fef756332c8e2507bd688" category="summary">韌體升級進度取決於系統的整體負載。</block>
   <block id="182309e939480b1bc525560bbc942506" category="doc">我的韌體升級為什麼進展緩慢？</block>
   <block id="fb7e65669e5874b9e0b75fbd623f7da4" category="paragraph">在線上升級磁碟機韌體期間、如果在快速重建程序期間進行磁碟區傳輸、系統會對傳輸的磁碟區進行完整重建。這項作業可能需要相當長的時間。實際的完整重建時間取決於多個因素、包括重建作業期間發生的I/O活動量、磁碟區群組中的磁碟機數量、重建優先順序設定、以及磁碟機效能。</block>
-  <block id="0053cb3da5cd9357da42c9285388e7c5" category="summary">在「系統管理程式」中SANtricity 、您可以依照下列步驟來升級控制器軟體和韌體。</block>
-  <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">控制器軟體與韌體升級的工作流程</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">在「系統管理程式」中SANtricity 、AutoSupport 您可以依照下列步驟來設定「功能性」。</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">功能的工作流程AutoSupport</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">停用AutoSupport 「還原維護」視窗、以便在發生錯誤事件時自動建立問題單。停用「還原維護」時、如果發生問題、儲存陣列會使用「支援」來開啟個案。AutoSupport AutoSupport</block>
@@ -7394,11 +7392,7 @@
   <block id="78d46085734b1546832159391eb2b467" category="list-text">選取功能表：管理群組[新增儲存陣列至群組]。</block>
   <block id="875510c22480d2f647cff890742474ab" category="list-text">選取您要新增至群組的儲存陣列。</block>
   <block id="5289185cda6b3fc469161fc0d841232d" category="list-text">按一下「*新增*」</block>
-  <block id="7d63fa7b66beb048adb4cb5412f78f29" category="summary">您可以使用Unified Manager將SANtricity 同類型的多個儲存陣列上的支援升級為較新版本。</block>
-  <block id="35a02fabedaff63c9eea49354c0479c7" category="doc">升級的運作方式</block>
   <block id="5b416e1633d16aad217a2e0fc2d097f8" category="section-title">升級工作流程</block>
-  <block id="37e1222cab25890a0cd0d01b19f4489d" category="paragraph">下列步驟提供執行軟體升級的高層級工作流程：</block>
-  <block id="bc2ada3b24f486f7b98ff3159828f426" category="list-text">您可從SANtricity Support網站下載最新的支援作業系統軟體檔案（如需連結、請參閱* Support*頁面上的Unified Manager）。將檔案儲存在管理主機系統（您在瀏覽器中存取Unified Manager的主機）上、然後解壓縮檔案。</block>
   <block id="a200f8c4b71a38169e50e4e1757c92f0" category="list-text">在Unified Manager中、您可以將SANtricity Sesome作業系統軟體檔案和NVSRAM/檔案載入儲存庫（儲存檔案的Web Services Proxy伺服器區域）。您可以從功能表：Upgrade Center[升級SANtricity 支援中心軟體或從Upgrade Center &gt; Manage Software儲存庫]新增檔案。</block>
   <block id="d1ba3ebc5172c097a542cb59c46118f4" category="list-text">在檔案載入儲存庫之後、您可以選取要用於升級的檔案。從「Upgrade SANtricity EOSOS」（升級版作業系統）軟體頁面（功能表：Upgrade Center[升級SANtricity 版作業系統軟體]）中、選取SANtricity 「EOSR」軟體檔案和「NVSRAM/」檔案。選取軟體檔案後、相容儲存陣列的清單就會出現在此頁面上。然後選擇要使用新軟體升級的儲存陣列。（您無法選取不相容的陣列。）</block>
   <block id="d07fed7a91e9b5ecf1b7a376a13d3c4e" category="list-text">接著您可以立即開始軟體傳輸和啟動、也可以選擇稍後將檔案登入以進行啟動。在升級過程中、Unified Manager會執行下列工作：</block>
@@ -8620,7 +8614,6 @@
   <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport 功能支援 HTTPS 和 SMTP 通訊協定，可將 AutoSupport 派遣單傳送給技術支援。</block>
   <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">升級韌體位置</block>
   <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupport 工作流程</block>
-  <block id="0ceabfdc68af97f8a0c7393faf135de8" category="image-alt">控制器軟體與韌體升級工作流程</block>
   <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity Unified Manager 7.</block>
   <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">您可以設定透過 SANtricity Unified Manager 使用的設定。</block>
   <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">透過網頁瀏覽器連線至網路管理用戶端的頻外連線。</block>
@@ -8713,7 +8706,6 @@
   <block id="f0254fcd04a8e1df1dc8c778e6189b01" category="paragraph">您可以取得及匯入 CA 簽署的憑證，以安全存取託管 SANtricity Unified Manager 的管理系統。</block>
   <block id="c5f9375676cadbc97263ea339c65e0df" category="paragraph">在支援顯示及管理儲存資源之前、必須先探索您要在組織網路中管理的儲存陣列。SANtricity您可以探索多個陣列、也可以探索單一陣列。</block>
   <block id="8205965c706fda540f0df394d1fd7df5" category="paragraph">您可以使用SANtricity 支援整合管理程式、將設定從一個儲存陣列匯入多個儲存陣列。匯入設定功能是批次作業、可在需要在網路中設定多個陣列時節省時間。</block>
-  <block id="2b8e903f9231328c5dd4ac194fe0ed99" category="paragraph">您可以使用SANtricity 支援支援功能的支援功能、將SANtricity 同類型的多個儲存陣列上的支援功能升級至新版本。</block>
   <block id="c5cdef1d414ec599aa9b2d1f28c67d4b" category="doc">存取SANtricity 《系統管理程式》的考量</block>
   <block id="cdaae564ece8b6f3561a5e657337c464" category="paragraph">您可以在 SANtricity Unified Manager 中設定非同步或同步鏡射，然後使用 SANtricity 系統管理員來管理同步處理。</block>
   <block id="69ffe5f70c823700a785fa58e3fbca15" category="paragraph">SANtricity Unified Manager 包含 SANtricity 鏡射功能的組態選項，可讓系統管理員在兩個儲存陣列之間複寫資料，以保護資料。</block>
@@ -8749,4 +8741,7 @@
   <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">此版本推出 EF300C 和 EF600C 所有 Flash NVMe 儲存系統。EF300C 和 EF600C 是現有 EF300 和 EF600 儲存系統的高容量 Flash 版本。EF300C 和 EF600C 支援 30TB 或 60TB 大小的高容量 NVMe SSD 磁碟機。EF300C/EF600C 僅相容於動態磁碟集區使用，不支援傳統 RAID 。</block>
   <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">EF4000 支援 12Gb SAS 介面</block>
   <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000 控制器現在支援 12Gb SAS 主機介面卡。</block>
+  <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">11.90R2 版的新功能</block>
+  <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">E 系列 11.90 版本資訊</block>
+  <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">此版本僅包含輕微變更，且沒有新功能。有關此版本變更的詳細資訊，請參閱<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>。</block>
 </blocks>
