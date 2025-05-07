@@ -8744,4 +8744,6 @@
   <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">11.90R2 版的新功能</block>
   <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">E 系列 11.90 版本資訊</block>
   <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">此版本僅包含輕微變更，且沒有新功能。有關此版本變更的詳細資訊，請參閱<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>。</block>
+  <block id="9f9aad17803bf869c53f2fdb3d1834b0" category="section-title">啟用 SAML 的連線能力有限</block>
+  <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">只要啟用 SAML ，下列儲存陣列功能就會限制與 JSON Web Token 驗證的連線。</block>
 </blocks>
