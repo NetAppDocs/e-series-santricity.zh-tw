@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, limit, drive, view, 
 summary: 如果儲存陣列包含具有不同類型實體和邏輯屬性的磁碟機、「硬體」頁面會提供篩選欄位、協助您限制磁碟機檢視並找出特定的磁碟機。 
 ---
-= 限制磁碟機檢視
+= 在 SANtricity System Manager 中篩選磁碟機視圖
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

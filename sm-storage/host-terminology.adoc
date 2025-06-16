@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host, terms 
 summary: 瞭解主機條款如何適用於您的儲存陣列。 
 ---
-= 主機術語
+= 了解 SANtricity 軟體中的主機術語
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

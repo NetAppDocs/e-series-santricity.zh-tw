@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Recovery Guru 
 summary: Recovery Guru是System Manager的一項元件、可診斷儲存陣列問題、並建議恢復程序來修正問題。 
 ---
-= 使用Recovery Guru從問題中恢復
+= 使用 SANtricity System Manager Recovery Guru 復原問題
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, change, saml, role, mappings, 
 summary: 如果您先前已針對存取管理設定SAML、則可以變更IDP群組與儲存陣列預先定義角色之間的角色對應。 
 ---
-= 變更SAML角色對應
+= 在 SANtricity Unified Manager 中變更 SAML 角色映射
 :allow-uri-read: 
 :experimental: 
 :icons: font

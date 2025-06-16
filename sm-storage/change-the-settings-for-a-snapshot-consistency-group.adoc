@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, snapshot, consistency group 
 summary: 若要變更快照一致性群組的名稱、自動刪除設定或允許的最大快照映像數、請變更該群組的設定。 
 ---
-= 變更快照一致性群組的設定
+= 在 SANtricity System Manager 中變更快照一致性群組的設置
 :allow-uri-read: 
 :experimental: 
 :icons: font

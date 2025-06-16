@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, saml, 
 summary: 若要設定存取管理的驗證、您可以使用儲存陣列內嵌的安全聲明標記語言（SAML）功能。此組態會在身分識別供應商與儲存供應商之間建立連線。 
 ---
-= 設定SAML
+= 在 SANtricity System Manager 中配置 SAML
 :allow-uri-read: 
 :experimental: 
 :icons: font

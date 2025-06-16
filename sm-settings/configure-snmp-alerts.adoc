@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, snmp, alerts, 
 summary: 若要設定簡單網路管理傳輸協定（SNMP）警示、您必須至少識別一部伺服器、讓儲存陣列的事件監視器能夠傳送SNMP設陷。此組態需要社群名稱或使用者名稱、以及伺服器的IP位址。 
 ---
-= 設定SNMP警示
+= 在 SANtricity System Manager 中設定 SNMP 警報
 :allow-uri-read: 
 :experimental: 
 :icons: font

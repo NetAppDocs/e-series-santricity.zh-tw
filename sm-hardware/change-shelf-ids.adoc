@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, shelf, ids, 
 summary: 機櫃ID是唯一識別儲存陣列中機櫃的編號。磁碟櫃會以每個機櫃檢視左上角的00或01開始連續編號。 
 ---
-= 變更機櫃ID
+= 在 SANtricity System Manager 中變更架子 ID
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

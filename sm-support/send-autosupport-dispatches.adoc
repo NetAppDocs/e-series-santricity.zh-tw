@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, send, autosupport, dispatches 
 summary: System Manager可讓您將AutoSupport 不需等待排定的分派、即可將支援服務發送至技術支援部門。 
 ---
-= 傳送AutoSupport 本文件
+= 在 SANtricity System Manager 中傳送 AutoSupport 調度
 :allow-uri-read: 
 :experimental: 
 :icons: font

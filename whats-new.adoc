@@ -16,6 +16,21 @@ summary: 更新功能。SANtricity
 
 
 
+== 11.90R3 版的新功能
+
+[cols="35h,~"]
+|===
+| 新功能 | 說明 
+
+
+ a| 
+SANtricity 作業系統對 IOM12C 和 DCM3 的支持
+ a| 
+控制器韌體版本 11.90R3 或更高版本現已支援 IOM12C 和 DCM3 SAS-3 磁碟架。 IOM12C和 DCM3 磁碟架將取代 IOM12B 和 DCM2 磁碟架。
+
+|===
+
+
 == 11.90R2 版的新功能
 
 此版本僅包含輕微變更，且沒有新功能。有關此版本變更的詳細資訊，請參閱 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["E 系列 11.90 版本資訊"^]。

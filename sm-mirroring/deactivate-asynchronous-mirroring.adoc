@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, deactivate, asynchronous, mirroring, remote, 
 summary: 您可以停用本機和遠端儲存陣列上的非同步鏡像、以重新建立儲存陣列上專用連接埠的正常使用。 
 ---
-= 停用非同步鏡射
+= 在 SANtricity System Manager 中停用非同步鏡像
 :allow-uri-read: 
 :experimental: 
 :icons: font

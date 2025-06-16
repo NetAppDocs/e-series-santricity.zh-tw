@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring 
 summary: 使用鏡射功能、可在本機儲存陣列與遠端儲存陣列之間、非同步或同步複寫資料。 
 ---
-= 鏡射總覽
+= 了解 SANtricity Unified Manager 中的鏡像
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

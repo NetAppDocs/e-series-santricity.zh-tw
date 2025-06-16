@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, retrieve, recovery, support files 
 summary: 技術支援可使用恢復支援檔案來疑難排解問題。System Manager會自動儲存這些檔案。 
 ---
-= 擷取恢復支援檔案
+= 在 SANtricity System Manager 中檢索復原支援文件
 :allow-uri-read: 
 :experimental: 
 :icons: font

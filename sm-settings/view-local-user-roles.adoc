@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, local, user, roles, 
 summary: 從「本機使用者角色」索引標籤、您可以檢視使用者設定檔與預設角色的對應。這些對應是儲存陣列中強制執行的RBAC（角色型存取控制）的一部分。 
 ---
-= 檢視本機使用者角色
+= 在 SANtricity System Manager 中查看本機使用者角色
 :allow-uri-read: 
 :experimental: 
 :icons: font

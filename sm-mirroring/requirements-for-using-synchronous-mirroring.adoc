@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, synchronous, mirroring, 
 summary: 如果您打算使用同步鏡射、請謹記下列需求。 
 ---
-= 使用同步鏡射的需求
+= 在 SANtricity 軟體中使用同步鏡像的要求
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, setup wizard 
 summary: 使用設定精靈來設定儲存陣列、包括硬體、主機、應用程式、工作負載、 資源池、警示和AutoSupport 
 ---
-= 設定精靈總覽
+= 了解 SANtricity System Manager 安裝精靈
 :allow-uri-read: 
 :experimental: 
 :icons: font

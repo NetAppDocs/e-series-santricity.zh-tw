@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workload, settings 
 summary: 您可以變更工作負載的名稱、並檢視其相關的應用程式類型。當目前名稱不再有意義或適用時、請變更工作負載名稱。 
 ---
-= 變更工作負載設定
+= 在 SANtricity System Manager 中變更工作負載設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

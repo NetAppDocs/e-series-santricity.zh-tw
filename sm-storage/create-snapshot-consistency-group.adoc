@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency group 
 summary: 為了確保複本一致、您可以建立一組多個磁碟區、稱為快照一致性群組。 
 ---
-= 建立Snapshot一致性群組
+= 在 SANtricity System Manager 中建立快照一致性群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

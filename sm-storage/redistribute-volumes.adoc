@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, redistribute, volumes 
 summary: 您可以重新分配磁碟區、將磁碟區移回其偏好的控制器擁有者。通常、當主機與儲存陣列之間的資料路徑發生問題時、多重路徑驅動程式會將磁碟區從其偏好的控制器擁有者移出。 
 ---
-= 重新分配磁碟區
+= 在 SANtricity System Manager 中重新指派磁碟區
 :allow-uri-read: 
 :experimental: 
 :icons: font

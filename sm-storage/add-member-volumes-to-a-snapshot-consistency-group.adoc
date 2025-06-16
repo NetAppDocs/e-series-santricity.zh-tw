@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, member, volume, snapshot consistency group 
 summary: 您可以將新的成員磁碟區新增至現有的快照一致性群組。新增成員磁碟區時、您也必須保留成員磁碟區的容量。 
 ---
-= 將成員磁碟區新增至快照一致性群組
+= 在 SANtricity System Manager 中將成員磁碟區新增至快照一致性群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

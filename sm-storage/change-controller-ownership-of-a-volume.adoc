@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, controller ownership, volume 
 summary: 您可以變更磁碟區的慣用控制器擁有權、以便透過新路徑引導主機應用程式的I/O。 
 ---
-= 變更磁碟區的控制器擁有權
+= 在 SANtricity System Manager 中變更磁碟區的控制器所有權
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, show, hide, component, status, 
 summary: 您可以顯示磁碟機、控制器、風扇和電源供應器的狀態說明。 
 ---
-= 顯示或隱藏零組件狀態
+= 在 SANtricity System Manager 中顯示或隱藏元件狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, configuration, workflow 
 summary: 您可以在Unified Manager中設定非同步或同步鏡射、然後使用System Manager來管理同步作業。 
 ---
-= 鏡射組態工作流程
+= 鏡像 SANtricity 配置工作流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

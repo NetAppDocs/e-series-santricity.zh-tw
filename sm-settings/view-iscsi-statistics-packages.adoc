@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iscsi, statistics, packages, 
 summary: 您可以檢視與儲存陣列的iSCSI連線相關資料。 
 ---
-= 檢視iSCSI統計資料套件
+= 在 SANtricity System Manager 中查看 iSCSI 統計資料包
 :allow-uri-read: 
 :experimental: 
 :icons: font

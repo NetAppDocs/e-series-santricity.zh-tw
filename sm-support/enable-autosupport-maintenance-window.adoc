@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, autosupport, ASUP, maintenance window 
 summary: 啟用AutoSupport 「還原維護」視窗、可在發生錯誤事件時禁止自動建立問題單。在正常操作模式下、如果AutoSupport 發生問題、儲存陣列會使用支援功能來開啟案例。 
 ---
-= 啟用AutoSupport 還原維護所需時間
+= 在 SANtricity System Manager 中啟用 AutoSupport 維護窗口
 :allow-uri-read: 
 :experimental: 
 :icons: font

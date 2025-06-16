@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, snapshot, image, settings 
 summary: 您可以檢視指派給每個快照映像的內容、狀態、保留容量及相關物件。 
 ---
-= 檢視快照映像設定
+= 在 SANtricity System Manager 中查看快照映像設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

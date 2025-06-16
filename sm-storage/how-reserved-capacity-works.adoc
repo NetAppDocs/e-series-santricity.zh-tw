@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved, capacity, 
 summary: 當為磁碟區提供快照或非同步鏡射作業等複本服務作業時、系統會自動建立保留容量。 
 ---
-= 保留容量的運作方式
+= SANtricity 軟體中的預留容量運作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

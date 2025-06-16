@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reconstruct, drive, manually, 
 summary: 磁碟機重建通常會在您更換磁碟機後自動開始。如果磁碟機重建未自動開始、您可以手動開始重建。 
 ---
-= 手動重建磁碟機
+= 在 SANtricity System Manager 中手動重建磁碟機
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

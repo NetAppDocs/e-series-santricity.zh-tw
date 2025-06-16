@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, revoke tokens 
 summary: 如果您判斷權杖已遭入侵、您可以撤銷所有存取權杖。 
 ---
-= 撤銷存取權杖
+= 撤銷 SANtricity System Manager 中的存取令牌
 :allow-uri-read: 
 :experimental: 
 :icons: font

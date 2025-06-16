@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, status, 
 summary: 同步鏡射配對的狀態會指出主磁碟區和次要磁碟區上的資料是否同步。鏡射狀態與鏡射配對中磁碟區的元件狀態無關。 
 ---
-= 同步鏡射狀態
+= 了解 SANtricity System Manager 中的同步鏡像狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

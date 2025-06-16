@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, hardware, components, filtering, 
 summary: 「硬體」頁面提供排序和篩選功能、讓您更容易找到元件。 
 ---
-= 檢視硬體元件
+= 在 SANtricity System Manager 中查看硬體元件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

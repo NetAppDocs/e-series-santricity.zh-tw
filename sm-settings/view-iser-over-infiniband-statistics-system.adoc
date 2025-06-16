@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniBand, statistics, 
 summary: 如果您的儲存陣列控制器包含透過InfiniBand連接埠的iSER、您可以檢視有關主機連線的資料。 
 ---
-= 檢視InfiniBand統計資料的iSER
+= 在 SANtricity System Manager 中查看 InfiniBand 上的 iSER 統計數據
 :allow-uri-read: 
 :experimental: 
 :icons: font

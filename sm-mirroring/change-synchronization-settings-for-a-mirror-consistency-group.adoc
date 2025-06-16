@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, synchronization, settings, mirror, consistency, group, 
 summary: 您可以變更本機儲存陣列上鏡射一致性群組在資料初始同步或資料在非同步鏡射作業期間重新同步時所使用的同步處理設定和警告臨界值。 
 ---
-= 變更鏡射一致性群組的同步處理設定
+= 在 SANtricity System Manager 中變更鏡像一致性群組的同步設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

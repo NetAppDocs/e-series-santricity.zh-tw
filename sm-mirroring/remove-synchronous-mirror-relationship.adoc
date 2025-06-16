@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, synchronous, mirror, relationship, 
 summary: 您可以移除鏡射配對、從本機儲存陣列的主要磁碟區和遠端儲存陣列的次要磁碟區移除鏡射關係。 
 ---
-= 移除同步鏡射關係
+= 在 SANtricity System Manager 中刪除同步鏡像關係
 :allow-uri-read: 
 :experimental: 
 :icons: font

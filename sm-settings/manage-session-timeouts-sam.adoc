@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, manage, session, timeouts, 
 summary: 您可以在SANtricity 「靜態系統管理程式」中設定逾時、以便在指定時間後中斷使用者的非作用中工作階段連線。 
 ---
-= 管理工作階段逾時
+= 在 SANtricity System Manager 中管理會話逾時
 :allow-uri-read: 
 :experimental: 
 :icons: font

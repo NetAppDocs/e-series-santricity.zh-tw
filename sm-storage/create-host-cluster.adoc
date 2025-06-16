@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, host, cluster 
 summary: 當兩個或多個主機需要I/O存取相同的磁碟區時、您可以建立主機叢集。 
 ---
-= 建立主機叢集
+= 在 SANtricity System Manager 中建立主機集群
 :allow-uri-read: 
 :experimental: 
 :icons: font

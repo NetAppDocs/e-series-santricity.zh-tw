@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, graphical, performance, 
 summary: 您可以檢視邏輯物件、實體物件、應用程式和工作負載的圖形化效能資料。 
 ---
-= 檢視圖形化效能資料
+= 在 SANtricity System Manager 中查看圖形效能數據
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

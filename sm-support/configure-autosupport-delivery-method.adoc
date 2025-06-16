@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, autosupport, ASUP, delivery, method 
 summary: AutoSupport 功能支援 HTTPS 和 SMTP 通訊協定，可將派單傳送給技術支援。 
 ---
-= 設定AutoSupport 供應功能
+= 在 SANtricity System Manager 中設定 AutoSupport 交付方法
 :allow-uri-read: 
 :experimental: 
 :icons: font

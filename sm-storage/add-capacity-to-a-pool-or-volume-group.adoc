@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, capacity, pool, volume, group 
 summary: 您可以新增磁碟機、以擴充現有資源池或磁碟區群組中的可用容量。 
 ---
-= 新增容量至資源池或磁碟區群組
+= 在 SANtricity System Manager 中為池或磁碟區組新增容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

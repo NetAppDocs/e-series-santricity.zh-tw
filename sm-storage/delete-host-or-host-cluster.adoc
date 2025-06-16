@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, host, host cluster 
 summary: 您可以刪除主機或主機叢集。 
 ---
-= 刪除主機或主機叢集
+= 在 SANtricity System Manager 中刪除主機或主機集群
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, base, volume 
 summary: 您可以執行復原作業來變更基礎磁碟區的內容、以符合儲存在快照映像中的內容。復原作業不會變更與基礎磁碟區相關聯的快照映像內容。 
 ---
-= 為基礎磁碟區開始Snapshot映像復原
+= 在 SANtricity System Manager 中啟動基本磁碟區的快照映像回滾
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, home page 
 summary: 首頁提供儀表板檢視、可用於儲存陣列的每日管理。登入System Manager時、首頁會顯示第一個畫面。 
 ---
-= 首頁
+= 了解 SANtricity System Manager 主頁
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

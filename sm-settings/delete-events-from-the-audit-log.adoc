@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, events, audit, log, 
 summary: 您可以清除舊事件的稽核記錄、以便更容易管理事件搜尋。您可以選擇在刪除時將舊事件儲存至CSV（以逗號分隔的值）檔案。 
 ---
-= 從稽核記錄刪除事件
+= 從 SANtricity System Manager 中的審核日誌中刪除事件
 :allow-uri-read: 
 :experimental: 
 :icons: font

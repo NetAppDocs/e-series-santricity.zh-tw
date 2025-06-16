@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, group 
 summary: 當您想要永久刪除快照群組的資料並將其從系統中移除時、請刪除該快照群組。刪除快照群組會重新宣告保留容量、以便在集區或磁碟區群組中重複使用。 
 ---
-= 刪除快照群組
+= 在 SANtricity System Manager 中刪除快照群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

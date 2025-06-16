@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, services 
 summary: 您可以使用複製服務來複製磁碟區、並在磁碟區上執行其他動作。 
 ---
-= 使用複製服務
+= 使用 SANtricity System Manager 中的複製服務
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

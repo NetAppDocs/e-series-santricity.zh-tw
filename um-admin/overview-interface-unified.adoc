@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, interface, GUI 
 summary: Unified Manager是網路型介面、可讓您在單一檢視畫面中管理多個儲存陣列。 
 ---
-= SANtricity Unified Manager 介面總覽
+= 了解 SANtricity Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

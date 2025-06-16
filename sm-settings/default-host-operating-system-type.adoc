@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, default, host, operating, system, 
 summary: 最初連接主機時、儲存陣列會使用預設的主機類型。它定義了儲存陣列中的控制器在存取磁碟區時如何與主機作業系統搭配運作。 
 ---
-= 預設主機作業系統類型
+= 了解 SANtricity 軟體中的預設主機作業系統類型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

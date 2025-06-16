@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, autosupport, 
 summary: 您可以在AutoSupport 初始設定期間啟用「支援功能」和個別AutoSupport 的「支援功能」、也可以稍後啟用或停用。 
 ---
-= 啟用或停用AutoSupport 功能
+= 在 SANtricity System Manager 中啟用或停用 AutoSupport 功能
 :allow-uri-read: 
 :experimental: 
 :icons: font

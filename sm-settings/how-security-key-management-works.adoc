@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, security, key, management, 
 summary: 當您實作磁碟機安全功能時、啟用安全功能的磁碟機（FIPS或FDE）需要安全金鑰才能存取資料。安全金鑰是一串字元、可在這些類型的磁碟機和儲存陣列中的控制器之間共用。 
 ---
-= 安全金鑰管理的運作方式
+= SANtricity System Manager 中的安全金鑰管理工作原理
 :allow-uri-read: 
 :experimental: 
 :icons: font

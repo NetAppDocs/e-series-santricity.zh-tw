@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, application, workloads, volume, 
 summary: 建立磁碟區時、您可以選取工作負載來自訂特定應用程式的儲存陣列組態。 
 ---
-= 工作負載的運作方式
+= SANtricity 軟體中的工作負載運作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

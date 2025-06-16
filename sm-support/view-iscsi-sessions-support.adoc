@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iscsi, sessions 
 summary: 您可以檢視iSCSI與儲存陣列連線的詳細資訊。在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。 
 ---
-= 檢視iSCSI工作階段
+= 在 SANtricity System Manager 中查看 iSCSI 會話
 :allow-uri-read: 
 :experimental: 
 :icons: font

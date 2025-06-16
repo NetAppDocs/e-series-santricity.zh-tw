@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access volumes 
 summary: 存取磁碟區是儲存陣列上的原廠設定磁碟區、可透過主機I/O連線與儲存陣列和主機進行通訊。存取磁碟區需要邏輯單元號碼（LUN）。 
 ---
-= 存取磁碟區
+= 存取 SANtricity System Manager 中的捲
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

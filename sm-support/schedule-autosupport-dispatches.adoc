@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, schedule, autosupport, dispatches 
 summary: System Manager會自動建立AutoSupport 一份預設的時間表、以供進行不一致的派單。如果您願意、可以指定自己的排程。 
 ---
-= 排程AutoSupport 資訊派單
+= 在 SANtricity System Manager 中安排 AutoSupport 調度
 :allow-uri-read: 
 :experimental: 
 :icons: font

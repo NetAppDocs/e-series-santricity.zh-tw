@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, software, repository 
 summary: 軟體儲存庫會列出與Web服務Proxy相關的所有軟體檔案。 
 ---
-= 管理軟體儲存庫
+= 在 Unified Manager 中管理 SANtricity 軟體儲存庫
 :allow-uri-read: 
 :experimental: 
 :icons: font

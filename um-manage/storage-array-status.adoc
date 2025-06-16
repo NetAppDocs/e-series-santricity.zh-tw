@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, storage, array, status, communication, 
 summary: Unified Manager會顯示每個已探索儲存陣列的狀態。 
 ---
-= 檢視儲存陣列狀態
+= 在 SANtricity Unified Manager 中查看儲存陣列狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

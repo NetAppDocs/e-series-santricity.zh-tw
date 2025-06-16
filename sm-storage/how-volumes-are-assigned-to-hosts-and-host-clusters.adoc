@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes, assigned, hosts, clusters 
 summary: 若要讓主機或主機叢集將I/O傳送至磁碟區、您必須將磁碟區指派給主機或主機叢集。 
 ---
-= 如何將磁碟區指派給主機和主機叢集
+= 如何在 SANtricity 軟體中將磁碟區指派給主機和主機叢集
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

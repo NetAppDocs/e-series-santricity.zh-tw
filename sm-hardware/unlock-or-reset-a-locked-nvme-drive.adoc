@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unlock, reset, locked, fips, nvme, drives, 
 summary: 如果您將一個或多個鎖定的NVMe或FIPS磁碟機插入儲存陣列、您可以新增與磁碟機相關的安全金鑰檔案、以解除鎖定磁碟機資料。如果您沒有安全金鑰、可以輸入實體安全ID（PSID）來重設每個鎖定的磁碟機、以重設其安全屬性並清除磁碟機資料。 
 ---
-= 解除鎖定或重設鎖定的NVMe或FIPS磁碟機
+= 在 SANtricity System Manager 中解鎖或重設鎖定的 NVMe 或 FIPS 磁碟機
 :allow-uri-read: 
 :experimental: 
 :icons: font

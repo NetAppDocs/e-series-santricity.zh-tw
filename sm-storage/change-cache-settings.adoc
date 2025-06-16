@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cache settings 
 summary: 您可以變更讀取快取和寫入快取設定、以影響磁碟區的整體I/O效能。 
 ---
-= 變更磁碟區的快取設定
+= 在 SANtricity System Manager 中變更磁碟區的快取設置
 :allow-uri-read: 
 :experimental: 
 :icons: font

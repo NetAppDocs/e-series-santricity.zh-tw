@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, operations in progress 
 summary: 「作業進行中」頁面可讓您檢視目前正在執行或處於暫停、停止或失敗狀態的長期執行作業清單。您可以針對特定類型的作業採取行動。 
 ---
-= 「營運進行中」頁面
+= 了解 SANtricity System Manager 操作進度頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

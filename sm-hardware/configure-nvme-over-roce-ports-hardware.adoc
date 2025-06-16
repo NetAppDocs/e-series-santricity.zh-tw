@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, nvme, over, roce, ports 
 summary: 如果您的控制器包含NVMe over RoCE（透過整合式乙太網路的RDMA）連線、您可以從「Hardware（硬體）」頁面設定NVMe連接埠設定。 
 ---
-= 設定NVMe over RoCE連接埠
+= 在 SANtricity System Manager 中配置 NVMe over RoCE 連接埠
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

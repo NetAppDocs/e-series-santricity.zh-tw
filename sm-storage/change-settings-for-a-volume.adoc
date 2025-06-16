@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, volume 
 summary: 您可以變更磁碟區的設定、例如名稱、主機指派、區段大小、修改優先順序、快取、 等等。 
 ---
-= 變更Volume的設定
+= 變更 SANtricity System Manager 中的磁碟區設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, page, 
 summary: 您可以在「硬體」頁面上檢查元件狀態、並執行與這些元件相關的部分功能。 
 ---
-= 硬體元件總覽
+= 在 SANtricity System Manager 中檢視和管理硬體元件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

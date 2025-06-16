@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, create tokens 
 summary: 您可以建立存取權杖、以用來驗證REST API或命令列介面、取代使用者名稱和密碼。 
 ---
-= 建立存取權杖
+= 在 SANtricity System Manager 中建立存取令牌
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, system settings 
 summary: 您可以針對某些一般陣列設定和附加功能來設定System Manager。 
 ---
-= 設定總覽
+= 了解 SANtricity System Manager 中的設定概述
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, export, certificates 
 summary: 您可以匯出憑證以檢視其完整詳細資料。 
 ---
-= 匯出憑證
+= 在 SANtricity Unified Manager 中匯出憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

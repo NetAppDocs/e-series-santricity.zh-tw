@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, 
 summary: 可從多種瀏覽器和作業系統中存取。SANtricity 
 ---
-= 支援的瀏覽器和作業系統
+= SANtricity 軟體瀏覽器和作業系統支援
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

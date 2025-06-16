@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, deactivate, synchronous, mirroring, adapter, host, bus, 
 summary: 您可以停用儲存陣列上的同步鏡射功能、以重新建立主機匯流排介面卡（HBA）主機連接埠4的正常使用、此連接埠是保留用於鏡射資料傳輸的。 
 ---
-= 停用同步鏡射
+= 在 SANtricity System Manager 中停用同步鏡像
 :allow-uri-read: 
 :experimental: 
 :icons: font

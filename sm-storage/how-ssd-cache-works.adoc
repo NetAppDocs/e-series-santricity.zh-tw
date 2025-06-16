@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd cache, 
 summary: SSD快取功能是以控制器為基礎的解決方案、可將最常存取的資料（「熱」資料）快取到較低延遲的固態磁碟機（SSD）、以動態加速系統效能。SSD快取僅用於主機讀取。 
 ---
-= SSD快取的運作方式
+= SSD 快取在 SANtricity 軟體中的工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

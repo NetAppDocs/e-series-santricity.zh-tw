@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, mirror, consistency group, primary, secondary 
 summary: 您可以變更鏡射一致性群組之間的角色、以便進行管理或在本機儲存陣列發生災難時使用。 
 ---
-= 將鏡射一致性群組角色變更為主要或次要角色
+= 在 SANtricity System Manager 中將鏡像一致性群組角色變更為主或輔助
 :allow-uri-read: 
 :experimental: 
 :icons: font

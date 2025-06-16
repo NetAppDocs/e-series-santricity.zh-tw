@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, consistency, group 
 summary: 您可以刪除不再需要的快照一致性群組。 
 ---
-= 刪除Snapshot一致性群組
+= 在 SANtricity System Manager 中刪除快照一致性群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

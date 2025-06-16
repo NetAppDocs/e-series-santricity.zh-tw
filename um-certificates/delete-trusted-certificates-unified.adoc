@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, trusted, certificates 
 summary: 您可以刪除一或多個不再需要的憑證、例如過期的憑證。 
 ---
-= 刪除信任的憑證
+= 在 SANtricity Unified Manager 中刪除受信任的憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

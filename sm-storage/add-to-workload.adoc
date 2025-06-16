@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add workload, volume 
 summary: 您可以針對目前未與工作負載關聯的磁碟區、將一個或多個磁碟區新增至現有或新的工作負載。 
 ---
-= 新增磁碟區至工作負載
+= 在 SANtricity System Manager 中將磁碟區新增至工作負載
 :allow-uri-read: 
 :experimental: 
 :icons: font

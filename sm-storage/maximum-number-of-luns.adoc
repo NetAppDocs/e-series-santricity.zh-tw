@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, maximum, luns 
 summary: 儲存陣列的邏輯單元號碼（LUN）數量上限可用於每個主機。 
 ---
-= LUN的最大數量
+= 了解 SANtricity 軟體中的最大 LUN 數量
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

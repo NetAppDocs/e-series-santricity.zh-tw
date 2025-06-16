@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, drive, status, settings, media, 
 summary: 您可以檢視磁碟機的狀態和設定、例如媒體類型、介面類型和容量。 
 ---
-= 檢視磁碟機狀態和設定
+= 在 SANtricity System Manager 中查看磁碟機狀態和設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

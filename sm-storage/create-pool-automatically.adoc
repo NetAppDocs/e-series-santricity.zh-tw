@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, pool, automatically 
 summary: 當System Manager偵測到儲存陣列中未指派的磁碟機時、會自動啟動資源池建立。您可以使用自動建立集區、將儲存陣列中所有未指派的磁碟機輕鬆設定為一個集區、並將磁碟機新增至現有的集區。 
 ---
-= 自動建立集區
+= 在 SANtricity System Manager 中自動建立池
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hot, spare, drives, raid1, raid6, raid5 
 summary: 熱備援磁碟機在System Manager的RAID 1、RAID 5或RAID 6磁碟區群組中扮演待命磁碟機的角色。 
 ---
-= 熱備援磁碟機總覽
+= 了解 SANtricity System Manager 中的熱備用驅動器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

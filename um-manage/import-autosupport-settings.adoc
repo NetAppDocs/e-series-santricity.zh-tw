@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, autosupport, settings 
 summary: 您可以將AutoSupport 一個物件組態從一個儲存陣列匯入到其他儲存陣列。當您需要在網路中設定多個陣列時、這項批次作業可節省時間。 
 ---
-= 匯入AutoSupport 還原設定
+= 在 SANtricity Unified Manager 中匯入 AutoSupport 設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

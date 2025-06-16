@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics 
 summary: 您可以儲存I/O路徑統計資料檔案、並將其傳送至技術支援部門進行分析。 
 ---
-= 收集I/O路徑統計資料
+= 在 SANtricity System Manager 中收集 I/O 路徑統計資訊
 :allow-uri-read: 
 :experimental: 
 :icons: font

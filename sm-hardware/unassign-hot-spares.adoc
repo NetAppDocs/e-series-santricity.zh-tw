@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, hot, spare, unassign, 
 summary: 您可以將熱備援磁碟機變更回未指派的磁碟機。 
 ---
-= 取消指派熱備援磁碟機
+= 在 SANtricity System Manager 中取消分配熱備用
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

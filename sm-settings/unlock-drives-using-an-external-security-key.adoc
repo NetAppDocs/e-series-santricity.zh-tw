@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unlock, drives, external, key, management, 
 summary: 如果您已設定外部金鑰管理、之後再將啟用安全功能的磁碟機從一個儲存陣列移至另一個儲存陣列、則必須重新指派安全金鑰給新的儲存陣列、才能存取磁碟機上的加密資料。 
 ---
-= 使用外部金鑰管理時解除鎖定磁碟機
+= 在 SANtricity System Manager 中使用外部金鑰管理時解鎖磁碟機
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, check, volume, redundancy 
 summary: 在技術支援的指導下或依照Recovery Guru的指示、您可以檢查集區或磁碟區群組中磁碟區的備援、以判斷該磁碟區上的資料是否一致。如果資源池或磁碟區群組中的某個磁碟機故障、備援資料可用於快速重建替換磁碟機上的資訊。 
 ---
-= 檢查磁碟區備援
+= 在 SANtricity System Manager 中檢查磁碟區冗餘
 :allow-uri-read: 
 :experimental: 
 :icons: font

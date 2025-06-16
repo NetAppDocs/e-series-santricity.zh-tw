@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, using, mirroring 
 summary: 如果您打算設定鏡射、請謹記下列需求。 
 ---
-= 使用鏡射的需求
+= 在 SANtricity Unified Manager 中使用鏡像的要求
 :allow-uri-read: 
 :experimental: 
 :icons: font

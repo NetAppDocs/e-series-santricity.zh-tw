@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, turn, drive, locator, light, LEDs 
 summary: 在「Hardware（硬體）」頁面中、您可以開啟定位器指示燈、找出儲存陣列中磁碟機的實體位置。 
 ---
-= 開啟磁碟機定位指示燈
+= 在 SANtricity System Manager 中開啟磁碟機定位器指示燈
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

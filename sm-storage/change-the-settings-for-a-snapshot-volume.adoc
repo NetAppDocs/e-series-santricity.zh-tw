@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, settings, snapshot, volume 
 summary: 您可以變更快照磁碟區或快照一致性群組快照磁碟區的設定、以重新命名、啟用或停用SSD快取、或變更主機、主機叢集或邏輯單元編號（LUN）指派。 
 ---
-= 變更快照Volume的Volume設定
+= 在 SANtricity System Manager 中變更快照磁碟區的磁碟區設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

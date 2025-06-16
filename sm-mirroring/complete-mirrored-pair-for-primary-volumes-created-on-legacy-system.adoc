@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, complete, mirrored, pair, volumes, created, legacy, 
 summary: 如果您在SANtricity 無法由支援系統管理程式管理的舊儲存陣列上建立主磁碟區、您可以使用System Manager在此陣列上建立次磁碟區。 
 ---
-= 為舊系統上建立的主要磁碟區建立完整鏡射配對
+= 在 SANtricity System Manager 中完成在舊系統上建立的主磁碟區的鏡像對
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, ntp, server, addresses, network, time, protocol, 
 summary: 您可以設定網路時間傳輸協定（NTP）伺服器的連線、以便控制器定期查詢NTP伺服器、以更新其內部時間時鐘。 
 ---
-= 設定NTP伺服器位址
+= 在 SANtricity System Manager 中設定 NTP 伺服器位址
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, host, cluster 
 summary: 您可以變更主機叢集名稱、或是新增或移除主機叢集中的主機。 
 ---
-= 變更主機叢集的設定
+= 在 SANtricity System Manager 中變更主機叢集的設置
 :allow-uri-read: 
 :experimental: 
 :icons: font

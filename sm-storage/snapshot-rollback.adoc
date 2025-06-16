@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, rollback 
 summary: 復原作業會將基礎磁碟區返回先前的狀態、由選取的快照決定。 
 ---
-= Snapshot復原
+= 了解 SANtricity 軟體中的快照回滾
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

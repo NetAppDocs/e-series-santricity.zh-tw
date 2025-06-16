@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, capacity, pool, ssd cache 
 summary: 您可以移除磁碟機、以降低現有資源池或SSD快取的容量。 
 ---
-= 移除資源池或SSD快取的容量
+= 從 SANtricity System Manager 中的池或 SSD 快取中刪除容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

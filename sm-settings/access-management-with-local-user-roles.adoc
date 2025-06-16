@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, local, user, roles, 
 summary: 對於存取管理、系統管理員可以使用儲存陣列中強制執行的RBAC（角色型存取控制）功能。這些功能稱為本機使用者角色。 
 ---
-= 具有本機使用者角色的存取管理
+= 在 SANtricity System Manager 中使用本機使用者角色設定存取管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, snmp, mib, variables, 
 summary: 對於SNMP警示、您可以選擇性地設定出現在SNMP設陷中的管理資訊庫（MIB）變數。這些變數可傳回儲存陣列名稱、陣列位置及聯絡人。 
 ---
-= 設定SNMP mib變數
+= 在 SANtricity System Manager 中設定 SNMP MIB 變數
 :allow-uri-read: 
 :experimental: 
 :icons: font

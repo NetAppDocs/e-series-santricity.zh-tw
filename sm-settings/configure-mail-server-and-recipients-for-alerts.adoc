@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, mail, server, recipients, alerts, 
 summary: 若要設定電子郵件警示、您必須指定警示收件者的郵件伺服器位址和電子郵件位址。最多允許20個電子郵件地址。 
 ---
-= 設定郵件伺服器和收件者的警示
+= 在 SANtricity System Manager 中設定郵件伺服器和警報收件者
 :allow-uri-read: 
 :experimental: 
 :icons: font

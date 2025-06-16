@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, offline, 
 summary: 如果系統指示您這麼做、您可以將控制器離線。 
 ---
-= 使控制器離線
+= 在 SANtricity System Manager 中將控制器置於離線狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, imported, certificate, information, 
 summary: 在「憑證」頁面中、您可以檢視儲存陣列的憑證類型、發行授權單位及有效的憑證日期範圍。 
 ---
-= 檢視匯入的憑證資訊
+= 在 SANtricity System Manager 中查看導入的憑證信息
 :allow-uri-read: 
 :experimental: 
 :icons: font

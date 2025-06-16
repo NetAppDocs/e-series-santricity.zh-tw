@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, snapshot, group 
 summary: 您可以變更快照群組的設定、以變更其名稱、自動刪除設定、允許的最大快照映像數、系統管理員傳送保留容量警示通知的百分比點、或是保留容量達到其定義的最大百分比時所使用的原則。 
 ---
-= 變更快照群組的保留容量設定
+= 在 SANtricity System Manager 中變更快照群組的預留容量設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

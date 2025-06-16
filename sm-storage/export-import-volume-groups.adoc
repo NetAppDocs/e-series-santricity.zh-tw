@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, import, volume group 
 summary: Volume群組移轉可讓您匯出Volume群組、以便將Volume群組匯入不同的儲存陣列。 
 ---
-= 匯出/匯入Volume群組
+= 在 SANtricity CLI 中匯出/匯入磁碟區組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

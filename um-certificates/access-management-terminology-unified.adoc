@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, terminology 
 summary: 瞭解存取管理條款如何套用SANtricity 至《統一化管理程式》。 
 ---
-= 存取管理術語
+= 了解 SANtricity Unified Manager 存取管理術語
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

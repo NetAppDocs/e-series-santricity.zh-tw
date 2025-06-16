@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d61bdae6b2aeb5c287102c8d9569da95" category="summary">使用支援中心執行技術支援可能要求的診斷、還原及資訊收集作業。</block>
-  <block id="9852644c4378fe1c292ec7f7c830685e" category="doc">支援總覽</block>
   <block id="ec20c5bdec49e7bf8220a764bf8308f8" category="paragraph">「支援」頁面可讓您存取技術支援資源。</block>
   <block id="fe4495fbc98f543d58b2992973cab2a5" category="section-title">有哪些支援工作可用？</block>
   <block id="fd22b478e0779c1faf10bbfeb4b2d9c3" category="paragraph">在Support中、您可以檢視技術支援聯絡人、執行診斷、設定AutoSupport 、檢視事件記錄、以及執行軟體升級。</block>
@@ -332,7 +331,6 @@
   <block id="885ebf97ecde4b9932e7e13cf4bfb89d" category="list-text">*每週派單*-在使用者可自行設定的時間間隔和日期內、每週傳送一次。包括組態和系統狀態資訊。</block>
   <block id="a6c4aa53de15f85413261c13ee0e36bf" category="list-text">* AutoSupport 《隨需與遠端診斷》派單*</block>
   <block id="9bfa3639bc53d9fb06b3d5a34dd361ba" category="summary">您可以檢視儲存陣列的設定檔、以及儲存陣列中每個元件的韌體版本。</block>
-  <block id="c679b506735784c7add4a25b6870f8ab" category="doc">檢視儲存陣列資訊</block>
   <block id="c4ce7d01b79eaee9292daa129a642307" category="paragraph">您可以檢視儲存陣列的設定檔、以及儲存陣列中每個元件的韌體版本。</block>
   <block id="4abeb578b363f44144000527bdaabd0d" category="summary">在升級控制器的軟體和韌體之前、請注意以下事項。</block>
   <block id="5c7e6b00e34ca5a9745761f8b63dd9f3" category="doc">升級SANtricity 完《不知如何」的《不知如何？</block>
@@ -369,7 +367,6 @@
   <block id="c0a9b28d11d68616fb79e051fb5e09ff" category="doc">在暫停IOM自動同步之前、我需要知道什麼？</block>
   <block id="26459f8e39f6f9c5a61209c666270f09" category="paragraph">控制器軟體和IOM韌體通常會以套裝組合形式升級。如果您有想保留在機箱上的特殊IOM韌體版本、可以暫停IOM自動同步。否則、下次進行控制器軟體升級時、您將會回復到控制器軟體隨附的IOM韌體。</block>
   <block id="9bff0a52d07123acc65d79466ad99166" category="summary">您可以檢閱不可讀取的磁區記錄、重新啟用磁碟機連接埠、以及清除還原模式、以對目前儲存陣列的狀態採取行動。</block>
-  <block id="7ca3e291db0767443f0a1deecc6e4357" category="doc">針對儲存陣列狀態採取恢復行動</block>
   <block id="47c365409e53a20cd64997e83455ba87" category="paragraph">您可以檢閱不可讀取的磁區記錄、重新啟用磁碟機連接埠、以及清除還原模式、藉此對目前儲存陣列的狀態採取行動。</block>
   <block id="9963750fa29cf1c51603894979061ccd" category="summary">您可以檢視儲存陣列的NVMe over Fabrics連線相關資料。</block>
   <block id="073c45d3e9123012b597c98a659c03cf" category="doc">檢視NVMe over Fabrics統計資料</block>
@@ -563,7 +560,6 @@
   <block id="a8fdcab87c50d1c3326d999ec15dd4d9" category="list-text">選取*傳送*以確認作業。</block>
   <block id="e35fea426d01b061b9410a2b28b185d7" category="doc">這個功能有什麼AutoSupport 作用？</block>
   <block id="80b1c491a2f0b6a862407e5388529f37" category="summary">您可以升級儲存陣列的軟體、也可以選擇性地升級IOM韌體和非揮發性靜態隨機存取記憶體（NVSRAM）、以確保您擁有所有最新的功能和錯誤修復。</block>
-  <block id="b151384749d99be9519acbb3ad2c2b88" category="doc">升級控制器軟體與韌體</block>
   <block id="d6bd09aab8b7ead5f95174655184e159" category="paragraph">您可以升級儲存陣列的軟體、也可以選擇性地升級IOM韌體和非揮發性靜態隨機存取記憶體（NVSRAM）、以確保您擁有所有最新的功能和錯誤修復。</block>
   <block id="481afbfd60141becd23d9826b22cd01c" category="paragraph">一般而言、您應該同時升級所有元件。不過、如果您不想將IOM韌體升級為SANtricity 更新版的一部分、或是技術支援部門指示您降級IOM韌體（您只能使用命令列介面降級韌體）、則可能會決定不升級IOM韌體。</block>
   <block id="d39fe55fd710f94de48358cb3a9684a9" category="list-text">您知道現在或之後是否要啟動作業系統升級。</block>
@@ -647,7 +643,6 @@
   <block id="075e5f5e3effee4ba8e827827c488091" category="list-text">選取您要結束的工作階段</block>
   <block id="bd6a44ecaf818d9ed042334cbe10542c" category="list-text">按一下*結束工作階段*、然後確認您要執行此作業。</block>
   <block id="690752e5e5c1eec2845ab13481f63056" category="summary">您可以檢視事件記錄、其中提供儲存陣列上發生事件的歷史記錄。</block>
-  <block id="19e7e9857ac1181d5199cfeeca027e31" category="doc">使用事件記錄檢視事件</block>
   <block id="f935bb769c237afb304f2eb94055b212" category="list-text">選取功能表：Support[事件記錄]。</block>
   <block id="6711a7f27c9fa223bbe0e85b65da8385" category="paragraph">此時會出現「事件記錄」頁面。</block>
   <block id="b45b43dbc109060db4497aaa37ef5e72" category="example-title">頁面詳細資料</block>
@@ -736,7 +731,6 @@
   <block id="e278e6437347ba1b8b43475dafb1ed84" category="inline-link">11.50版本資訊</block>
   <block id="7d69ef318412295725664b5711e60b81" category="list-text"><block ref="7d69ef318412295725664b5711e60b81" category="inline-link-rx"></block></block>
   <block id="563af0d23fd85448336d877b26d56bcc" category="summary">對於快照排程、您可以變更自動收集時間或收集頻率。</block>
-  <block id="2e9f67d336204b527f0e5c0482695e84" category="doc">變更快照排程的設定</block>
   <block id="c770e0557e37eec1175c5e132b5573ad" category="paragraph">您可以從現有的快照排程匯入設定、也可以視需要修改設定。</block>
   <block id="abcf9709de55788d69010451f394baa5" category="paragraph">由於快照排程與快照群組或快照一致性群組相關聯、因此保留容量可能會受到排程設定變更的影響。</block>
   <block id="f9f5e05fdd7630083b26cd44a4934403" category="list-text">選取功能表：Storage[快照]。</block>
@@ -812,7 +806,6 @@
   <block id="01ce1e5eb2298600379f23c5d99bf65e" category="paragraph">*額外的最佳化容量*（僅限EF600和EF300陣列）-建立集區時、會產生建議的最佳化容量、以平衡可用容量與效能、以及磁碟機使用壽命。您可以將滑桿移至右側、以獲得更佳的效能和更長的使用壽命、同時犧牲更高的可用容量、或是將滑桿移至左側以增加可用容量、同時犧牲更好的效能和更長的使用壽命。</block>
   <block id="27b4db9e4e549f9fa6783d94bcc723e0" category="paragraph">當SSD磁碟機的一部分容量未配置時、其壽命將更長、寫入效能將更高。對於與集區相關聯的磁碟機、未分配的容量由集區的保留容量、可用容量（磁碟區未使用的容量）以及保留為額外最佳化容量的可用容量所組成。額外的最佳化容量可藉由減少可用容量來確保最小程度的最佳化容量、因此無法建立磁碟區。</block>
   <block id="0835be6e2acd3996689e567944a98681" category="summary">「效能」頁面可讓您輕鬆監控儲存陣列的效能。</block>
-  <block id="f264455563ca8b26d0daffb627e42c00" category="doc">效能總覽</block>
   <block id="64b261aec0cde83064ccb3ba601ea7f3" category="section-title">我可以從效能資料中學到什麼？</block>
   <block id="ebe09fa67ff6dd58475ee86e46acd288" category="paragraph">效能圖表和表格會以近乎即時的方式顯示效能資料、協助您判斷儲存陣列是否發生問題。您也可以儲存效能資料、以建構儲存陣列的歷史檢視、並識別問題發生的時間或原因。</block>
   <block id="d21d53b8aa24ab7ba645bc9127a88d36" category="inline-link-macro">效能圖表與準則</block>
@@ -832,7 +825,6 @@
   <block id="0df991de7620dc5a14fb4b20b2af6425" category="paragraph">CPU圖表會顯示每個控制器（控制器A和控制器B）的處理容量統計資料。CPU是_Central處理器單元_的縮寫。在首頁上、此圖表會顯示儲存陣列的統計資料。在「Performance（效能）」方塊的「Physical View（實體檢視）」索引標籤上、此圖表會顯示儲存陣列和磁碟機的統計資料。</block>
   <block id="9c34bb79f49d9e803ab6b7dbbd4dfc48" category="paragraph">CPU圖表顯示陣列上的作業所使用的CPU處理容量百分比。即使沒有發生外部I/O、CPU使用率百分比也可能非零、因為儲存作業系統可能正在執行背景作業和監控。將游標停留在圖表上的某個點上、即可檢視當時使用的處理能力百分比。</block>
   <block id="ec427217874a4925059f42a4cc0d10c9" category="summary">在使用遠端儲存功能之前、請先檢閱下列需求與限制。</block>
-  <block id="61d69856278e90dda2a782558c4d13fc" category="doc">遠端儲存功能需求</block>
   <block id="c84d4278eb32c7a089aea86ebf95ad39" category="section-title">支援的傳輸協定</block>
   <block id="8967f1758ff8784982c669fc54020cd1" category="paragraph">支援下列通訊協定：</block>
   <block id="e4e1c13bb0b14f6cb7608cbecea948ef" category="list-text">iSCSI</block>
@@ -859,7 +851,6 @@
   <block id="396018b82f5e5162a0d44ba918ce385e" category="list-text">不支援VMware資料存放區。</block>
   <block id="93e0cdf967f3e69ef1184bc37a06a347" category="list-text">當存在匯入配對時、一次只能升級關係/匯入配對中的一個儲存系統。</block>
   <block id="e298ddbac0c7e8b508debaf62613efd2" category="summary">您可以變更磁碟區的設定、例如名稱、主機指派、區段大小、修改優先順序、快取、 等等。</block>
-  <block id="0ea9de1cbb76e2ac6dd6551040dc4481" category="doc">變更Volume的設定</block>
   <block id="8a9d122d42d84ec02591e2da50b53190" category="paragraph">您可以變更磁碟區的設定、例如名稱、主機指派、區段大小、修改優先順序、快取、 等等。</block>
   <block id="b768d698f525e9b46e91718351cad1a3" category="paragraph">您要變更的Volume處於最佳狀態。</block>
   <block id="bbf46f9beb7cca84a6bd9b9ad7a9d701" category="list-text">選取功能表：Storage[磁碟區]。</block>
@@ -914,11 +905,9 @@
   <block id="f106bbc08b77d5e3fe5f9f78801fa7d1" category="paragraph">System Manager會根據您的選擇來變更Volume的設定。</block>
   <block id="7d4d06d4d7f18d34e58915011308eea8" category="paragraph">選取功能表：首頁[檢視進行中的作業]以檢視目前針對所選磁碟區執行的變更作業進度。</block>
   <block id="f42ab20723d88e6ffea883aa8f45d665" category="summary">在System Manager中、您可以依照下列步驟建立快照映像和快照磁碟區。</block>
-  <block id="b4dcc45d10b6e6d4ae1dc448b727db43" category="doc">建立快照映像與快照磁碟區的工作流程</block>
   <block id="a97efe42ec88f5615739c5ebf0085fd8" category="section-title">建立快照映像的工作流程</block>
   <block id="bb41f61d9b53608a25e359fed048aa2f" category="section-title">建立Snapshot Volume的工作流程</block>
   <block id="c104faa4e49e8bffe70f2b9aac16e76f" category="summary">您可以設定主機和主機叢集、以定義儲存陣列與資料伺服器之間的連線。</block>
-  <block id="cd811d42b4b9e088e08c83bbb519cbf3" category="doc">主機與主機叢集總覽</block>
   <block id="2db1b7a20809af794fad4aa6fe91958b" category="section-title">什麼是主機和主機叢集？</block>
   <block id="e2def4f23961d4c427b0cdfd416ff103" category="paragraph">_host_是一種伺服器、可將I/O傳送至儲存陣列上的磁碟區。主機叢集_是一組主機、您可以建立這些主機、將相同的磁碟區指派給多個主機。</block>
   <block id="d34984bf887ed8157bf3724c05cf6310" category="inline-link-macro">主機術語</block>
@@ -957,7 +946,6 @@
   <block id="45c5490b8f9ad55e093507d717bd2f32" category="paragraph">建立集區時、會產生建議的最佳化容量、以平衡效能、磁碟機耗損壽命和可用容量。「資源池設定」對話方塊中的「其他最佳化容量」滑桿可調整資源池的最佳化容量。調整滑桿可提高效能、延長使用壽命、同時犧牲可用容量或額外可用容量、同時犧牲效能和磁碟機使用壽命。</block>
   <block id="ba85db8eaa03f65889fdd8e78af14efd" category="paragraph">額外最佳化容量滑桿僅適用於EF600和EF300儲存系統。</block>
   <block id="2d5e16304d23da14ecd4f0009bac1f3b" category="summary">您可以移除磁碟機、以降低現有資源池或SSD快取的容量。</block>
-  <block id="c8f3c0a42a2cd9bb18813868125e869f" category="doc">移除資源池或SSD快取的容量</block>
   <block id="ac3397ae43dda551f36c38a71bab9e59" category="paragraph">移除磁碟機之後、集區或SSD快取的每個磁碟區中的資料會重新分配到其餘磁碟機。移除的磁碟機將會變成未指派磁碟機、其容量將成為儲存陣列總可用容量的一部分。</block>
   <block id="99a58673d1a25ca7a256d2223185c373" category="paragraph">移除容量時、請遵循下列準則：</block>
   <block id="293009b86e54802418f98f60625ac2a7" category="list-text">您必須先刪除SSD快取、才能移除SSD快取中的最後一個磁碟機。</block>
@@ -1012,7 +1000,6 @@
   <block id="624a1dff311bc4d163f1158fdd79e3bb" category="list-text">保留容量無法從主機直接讀取或寫入。</block>
   <block id="fa6e0c909e3145f51bfdd46bf738d97b" category="list-text">每個讀寫快照磁碟區、快照群組、一致性群組成員磁碟區和鏡射配對磁碟區都有保留容量。</block>
   <block id="d8bd7fd2f9375aab50b9c8238587ef00" category="summary">您可以找到磁碟機、以實體方式識別組成所選集區、磁碟區群組或SSD快取的所有磁碟機。所選集區、Volume群組或SSD快取中的每個磁碟機上都會亮起LED指示燈。</block>
-  <block id="f07ad8c9bf3a486f836a1089919b0053" category="doc">開啟資源池、磁碟區群組或SSD快取中的定位器指示燈</block>
   <block id="dd622c0178d6ffaeb6d3c17389a4d397" category="list-text">選取您要尋找的資源池、磁碟區群組或SSD快取、然後按一下功能表：More（更多）[開啟定位器指示燈]。</block>
   <block id="da01e7e2a730ad7efb5964db19366480" category="paragraph">此時會出現一個對話方塊、指出包含所選集區、磁碟區群組或SSD快取的磁碟機亮起。</block>
   <block id="7ce5899000f51ae10c4246754e3e2d5f" category="list-text">成功找到磁碟機後、按一下*「Turn off*（關閉*）」。</block>
@@ -1020,7 +1007,6 @@
   <block id="dbade4fd0f8d3ab8fc0fbd0de49aa5f6" category="doc">為什麼要暫停快照排程？</block>
   <block id="d9eb0ca8e7c587d83f931dbc0d686c77" category="paragraph">如果您不需要快照排程、則應刪除排程、而非暫停排程。</block>
   <block id="fb40658beb252958ffee2087357c67c7" category="summary">您可以使用複製服務來複製磁碟區、並在磁碟區上執行其他動作。</block>
-  <block id="ef72ce97af4d783504adff7908ef6327" category="doc">使用複製服務</block>
   <block id="c99be05276e49867c3c82a7022f31b32" category="doc">如何知道哪種主機作業系統類型正確？</block>
   <block id="e13be85800aed175412a62f5b2b23406" category="paragraph">下拉式清單中顯示的主機類型取決於儲存陣列機型和韌體版本。最新版本會先顯示最常見的選項、最可能是適當的選項。此清單上的外觀並不表示完全支援此選項。</block>
   <block id="e5dc6a32612d72253c0fec9ccbb44c04" category="paragraph">如需主機支援的詳細資訊、請參閱<block ref="8a9cbe245fbeb909e401db80fbaa7bad" category="inline-link-rx"></block>。</block>
@@ -1043,8 +1029,6 @@
   <block id="961886d373243f3f3f779b008441b5d2" category="paragraph">支援使用Atto Technology、Inc.、多重路徑驅動程式的Mac OS版本。</block>
   <block id="d93a7355c7e5ae529cbbd1c7386ef236" category="paragraph">Windows（Atto）</block>
   <block id="1cef5a0ae504a39c3c685c81bb227bcc" category="paragraph">支援使用Atto Technology、Inc.、多重路徑驅動程式的Windows作業系統。</block>
-  <block id="fae9863ad38cf7cb4abba55837a6958e" category="paragraph">僅限部分（ALUA）FlexArray</block>
-  <block id="80a4b6a6aea0733712df8ece7feeb565" category="paragraph">支援使用FlexArray ALUA進行多重路徑的NetApp支援系統。</block>
   <block id="448462a9364fed0f780b5871c1332348" category="paragraph">IBM服務</block>
   <block id="ba5b374a9253be7b2e7ff414763a91ee" category="paragraph">支援IBM SAN Volume Controller組態。</block>
   <block id="fb83a625e5852c1ba47fe358f2d50ffc" category="paragraph">原廠預設值</block>
@@ -1071,7 +1055,6 @@
   <block id="bd7a9717d29c5ddcab1bc175eda1e298" category="paragraph">Volume</block>
   <block id="5529f79a50b85422a46f2851156e97bf" category="paragraph">儲存資料的容器。它是為主機所建立的邏輯元件、可用來存取資料。</block>
   <block id="2ff923561cb245799c176b2d77152327" category="summary">若要變更主機連接埠識別碼上的使用者標籤、新增主機連接埠識別碼至主機、或從主機刪除主機連接埠識別碼、請變更主機連接埠識別碼。</block>
-  <block id="a308e6a2b194d75951c509482417c35a" category="doc">變更主機的主機連接埠識別碼</block>
   <block id="60e563cf5063894ea19b6f99c9c3535c" category="paragraph">變更主機連接埠識別碼時、請謹記下列準則：</block>
   <block id="a7bff65d0ed51d740a39f731e7d8021b" category="list-text">*新增*-新增主機連接埠時、您要將主機連接埠識別碼與您建立的主機建立關聯、以便連線至儲存陣列。您可以使用主機匯流排介面卡（HBA）公用程式手動輸入連接埠資訊。</block>
   <block id="f2d3620c344a28c110b23aa6b6f1ce14" category="list-text">*編輯*：您可以編輯主機連接埠、以便將主機連接埠移至（關聯）其他主機。您可能已將主機匯流排介面卡或iSCSI啟動器移至其他主機、因此必須將主機連接埠（建立關聯）移至新主機。</block>
@@ -1146,7 +1129,6 @@
   <block id="f77d46565f9ece5538465e8ec4285c4c" category="list-text">*恢復*-選擇*恢復*以從停止或失敗的程序開始。接著、將優先順序套用至「恢復」作業、然後按一下「*確定*」。此作業不會從頭開始重新啟動匯入。如果要從頭開始重新啟動程序、您必須選取*中斷連線*、然後透過匯入遠端儲存精靈重新建立匯入。</block>
   <block id="ec5fafc6d1940ad203fabc6f088db6a7" category="list-text">*中斷連線*-針對停止、完成或失敗的匯入作業、選取*中斷連線*以中斷來源與目的地磁碟區之間的關係。</block>
   <block id="28777dded0f4b7a62c3138973e35582c" category="summary">您可以使用「降低容量」選項來減少下列儲存物件的保留容量：Snapshot群組、Snapshot Volume和一致性群組成員Volume。您只能減少保留容量、以增加容量所需的金額為準。</block>
-  <block id="fd9b60620868f54114ba56d583ad7b0e" category="doc">減少保留容量</block>
   <block id="115acc53492ff3d71c7e0717c01220a6" category="paragraph">您可以使用「降低容量」選項來減少下列儲存物件的保留容量：Snapshot群組、Snapshot Volume和一致性群組成員Volume。您只能減少保留容量、以增加容量所需的金額為準。</block>
   <block id="1d76cca7e5eb092d02723fdb9a2c1272" category="list-text">儲存物件必須包含多個保留容量Volume。</block>
   <block id="7015a6ebdf4b0f5c526b2ffa6971a905" category="list-text">儲存物件不得為鏡射配對Volume。</block>
@@ -1403,7 +1385,6 @@
   <block id="7372bf22ccef83db912c883687d647ff" category="paragraph">如果容量減少、磁碟區備援遺失、或由於RAID層級變更而失去機櫃/藥櫃遺失保護、則會出現確認對話方塊。選擇* Yes*繼續；否則請按* No*。</block>
   <block id="4a3f3854fb9436d01f6ec731304fbf88" category="paragraph">如果您變更Volume群組的RAID層級、System Manager會變更組成Volume群組之每個Volume的RAID層級。在作業期間、效能可能會稍微受到影響。</block>
   <block id="44102ff30b0cb1313132dfbfa6ab2510" category="summary">您可以為集區或磁碟區群組啟用「磁碟機安全性」、以防止未獲授權存取集區或磁碟區群組中磁碟機上的資料。磁碟機的讀寫存取只能透過設定安全金鑰的控制器來使用。</block>
-  <block id="1a3d83a11843bc2c9a2b5405af4f8e34" category="doc">啟用集區或Volume群組的安全性</block>
   <block id="1e98917a750bb72ac7b04ed7333f6e91" category="list-text">必須啟用磁碟機安全功能。</block>
   <block id="320b2cf951a0d3e1ee72e1da68af376c" category="list-text">必須建立安全金鑰。</block>
   <block id="c78f7c076825f99339326a7adfb29dab" category="list-text">集區或磁碟區群組必須處於最佳狀態。</block>
@@ -1420,7 +1401,6 @@
   <block id="b84e85e7db7f8a3d2c3833ca5a766938" category="list-text">建立快照映像時、會完全符合基礎磁碟區。快照完成後、當基礎磁碟區上的任何區塊或區塊集發生第一次寫入要求時、原始資料會複製到快照保留容量、然後再將新資料寫入基礎磁碟區。</block>
   <block id="15e7467dc499e6bd623850837ffbc81c" category="list-text">後續的快照僅包含自建立第一個快照映像以來已變更的資料區塊。後續的寫入時複製作業會將基礎磁碟區上即將覆寫的原始資料、儲存至快照保留容量、然後再將新資料寫入基礎磁碟區。</block>
   <block id="33d4af9dc0c0fc34b7caf0a6ce97ce1c" category="summary">您可以變更主機的名稱、主機作業系統類型及相關的主機叢集。</block>
-  <block id="c9b3985cba1edece3f25972cb1d707fb" category="doc">變更主機的設定</block>
   <block id="81f7602d508495d45605b46b5bb92187" category="list-text">選取您要編輯的主機、然後按一下「*檢視/編輯設定*」。</block>
   <block id="356644152a8ce764e09fdec4e9212fb9" category="list-text">如果尚未選取、請按一下「*內容*」索引標籤。</block>
   <block id="dc4c397fe7e85b41f4983bddd8fc0f3d" category="list-text">視需要變更設定。</block>
@@ -1584,7 +1564,6 @@
   <block id="b56a5fd4bbd3253eb632e0d3225c6ba4" category="paragraph">此時會出現Snapshot Image Settings（Snapshot映像設置）對話框。</block>
   <block id="3f32c7ad02124299dfc7c01e16cc558b" category="list-text">檢視快照映像的設定。</block>
   <block id="f949e1c1c71d48680d0ee072b23da4ff" category="summary">您可以檢視進行中的複製Volume作業、以及停止、變更優先順序、重新複製或清除複製Volume作業。</block>
-  <block id="d4975b7496eff162cc5471de7875c6f0" category="doc">對複製Volume作業採取行動</block>
   <block id="2a960fa11f5217be7b07c29c966c7d36" category="list-text">選取功能表：首頁[檢視進行中的作業]。</block>
   <block id="1cab632814d61fafc9d8700dfb3e6bb1" category="paragraph">此時會出現「作業進行中」對話方塊。</block>
   <block id="75324fe07b5254b86eb250d33e9a267f" category="list-text">找到您要對其採取行動的複製Volume作業、然後按一下「*動作*」欄中的連結、執行下列其中一項動作。</block>
@@ -1774,7 +1753,6 @@
   <block id="49787430e749b7be5c4be79c25cd1f33" category="summary">支援下列媒體類型：硬碟機（HDD）和固態磁碟（SSD）。</block>
   <block id="5667801c9d485200cee1dd727cd1ab29" category="doc">磁碟機支援哪些媒體類型？</block>
   <block id="6460199a09a62534a5d7285029145977" category="summary">您可以在現有的資源池或Volume群組上啟用或停用資源資源配置。</block>
-  <block id="3ce165f9ea33b7373022aacde38c9ee1" category="doc">啟用或停用現有磁碟區群組和集區上的資源配置</block>
   <block id="45626cd18cb972bec9636194a3ad449c" category="paragraph">對於任何具有DULBE功能的磁碟機、您可以在資源池或磁碟區群組中的現有磁碟區上啟用或停用資源資源配置。</block>
   <block id="af4e386f4a0bfa6defdb867cccb5c066" category="paragraph">資源資源配置是EF300和EF600儲存陣列的一項功能、可讓磁碟區立即投入使用、而無需背景初始化程序。指派給磁碟區的所有磁碟區塊都會進行取消分配（未對應）、這可改善SSD的耗損壽命、並提高最大寫入效能。</block>
   <block id="5c6c27c561cdd8551b9bc0d3f459a366" category="paragraph">根據預設、磁碟機支援DULBE的系統會啟用資源配置。除非您先前已停用資源資源配置、否則不需要啟用資源配置。</block>
@@ -1812,7 +1790,6 @@
   <block id="157d8626e7c0e956049c8fc68e4a427c" category="list-text">寫入時間：</block>
   <block id="68fa8b7b3ad4153e40edc17f213b5e90" category="list-text">平均I/O大小。</block>
   <block id="6456c5d9623d0552182ab9c769536295" category="summary">您可以建立磁碟區做為容器、以供應用程式、資料庫和檔案系統儲存資料。建立磁碟區時、您也可以選取工作負載來自訂特定應用程式的儲存陣列組態。</block>
-  <block id="5f071533fa069e07259fb1f7bf088815" category="doc">Volume與工作負載總覽</block>
   <block id="1a2c232ecac5bfbc4ed165b1096d2713" category="section-title">什麼是磁碟區和工作負載？</block>
   <block id="5fe500941776af205fa8b309710f70b6" category="paragraph">_volume是以特定容量建立的邏輯元件、可供主機存取。雖然磁碟區可能包含多個磁碟機、但磁碟區會顯示為主機的一個邏輯元件。定義磁碟區之後、您可以將其新增至工作負載。_Workload _是支援應用程式（例如SQL Server或Exchange）的儲存物件、您可以使用它來最佳化該應用程式的儲存設備。</block>
   <block id="23b0f40602cea8fa2a8a698ef1dd5e05" category="inline-link-macro">磁碟區的運作方式</block>
@@ -1904,7 +1881,6 @@
   <block id="88b6d510c50bcb1b16c968fd91477174" category="paragraph">此時會出現「複製Volume」對話方塊、提示您選取目標。</block>
   <block id="9427d6397f3d0799cd0eff4c90af378a" category="list-text">選取要用作複製目的地的目標磁碟區、然後按一下*完成*。</block>
   <block id="3ffd5f0322b1320cb436208a96cd164d" category="summary">您可以變更主機叢集名稱、或是新增或移除主機叢集中的主機。</block>
-  <block id="e5534c43699ab3c35211fa76c37373c6" category="doc">變更主機叢集的設定</block>
   <block id="51d60eae66c9543a949b6c5741bec4c2" category="list-text">選取您要編輯的主機叢集、然後按一下*檢視/編輯設定*。</block>
   <block id="6e1d2ef0ede0098f422178e7c2f227ef" category="paragraph">此時會出現一個對話方塊、顯示目前的主機叢集設定。</block>
   <block id="ea082987b476f935cb21974d95545371" category="list-text">視需要變更主機叢集的設定。</block>
@@ -1976,7 +1952,6 @@
   <block id="a9757954a2578775621a228a654b9c0d" category="section-title">磁碟機安全功能</block>
   <block id="d5b07097b4cf49d7e93bb597224de2c3" category="paragraph">若要在同時使用磁碟機安全性（已啟用安全功能）的磁碟區上使用SSD快取、則磁碟區的磁碟機安全功能和SSD快取必須相符。如果不相符、磁碟區將無法安全啟用。</block>
   <block id="718def83cc27de3ea7c791559cbfb9e4" category="summary">您可以變更磁碟區的慣用控制器擁有權、以便透過新路徑引導主機應用程式的I/O。</block>
-  <block id="8bad42f2b42e9d79e4385df87c170d96" category="doc">變更磁碟區的控制器擁有權</block>
   <block id="72b5db057b884e837900cd46506f3406" category="paragraph">如果您不使用多重路徑驅動程式、則必須關閉目前使用磁碟區的所有主機應用程式。此動作可防止I/O路徑變更時發生應用程式錯誤。</block>
   <block id="1a193d87a118a7b0ea8d2329908ebc62" category="paragraph">您可以變更集區或磁碟區群組中一或多個磁碟區的控制器擁有權。</block>
   <block id="055de6d23ba3feacf68acd0dece439fc" category="list-text">選取任何Volume、然後選取功能表：More（更多）[Change所有權]（變更所有權）。</block>
@@ -1985,7 +1960,6 @@
   <block id="f7465e26f6da9199ea364328d17635d9" category="list-text">System Manager會變更磁碟區的控制器擁有權。磁碟區的I/O現在會透過此I/O路徑導向。</block>
   <block id="f42e2811e3ac908eee60f66d1397b5c2" category="list-text">在多重路徑驅動程式重新設定以辨識新路徑之前、磁碟區可能不會使用新的I/O路徑。此動作通常只需不到五分鐘的時間。</block>
   <block id="a4a310633996fa9be3dad1a7e1c6bf6d" category="summary">完整的磁碟區一律是完整配置的、這表示在建立磁碟區時、會配置所有的容量。精簡磁碟區一律精簡配置、這表示在資料寫入磁碟區時、會分配容量。</block>
-  <block id="deb88f045b03680286bbcfe06796807a" category="doc">比較厚磁碟區與精簡磁碟區</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">Volume類型</block>
   <block id="69e0ddbfb36c4abd5009e90597425304" category="paragraph">大型磁碟區</block>
   <block id="a77fb91a3a86b9022911d7df936c326c" category="list-text">在使用大型磁碟區的情況下、系統會預先提供大量的儲存空間、以因應未來的儲存需求。</block>
@@ -2032,7 +2006,6 @@
   <block id="c9a9f655057c31cee78def41182ef8f6" category="list-text">如果儲存物件包含一或多個相關的快照映像、</block>
   <block id="9945a680db325b61ee52dcb6a86bb0b0" category="paragraph">您只能以新增磁碟區的相反順序、移除保留容量的磁碟區。</block>
   <block id="54fe116a46ee3e8514431de0788db1c9" category="summary">Snapshot功能可讓您建立儲存陣列磁碟區的時間點映像、以便用於備份或測試。</block>
-  <block id="bb4db1d940ba3861734fd6e971f7bb5f" category="doc">Snapshot總覽</block>
   <block id="dac8f68c8cc49e828f74e9df79d8fb47" category="section-title">什麼是快照映像？</block>
   <block id="91fba19e613b7cbd444bf6ea2426015d" category="paragraph">_snapshot image_是在特定時間點擷取的Volume資料邏輯複本。如同還原點、Snapshot映像可讓您回復至已知良好的資料集。雖然主機可以存取快照映像、但無法直接讀取或寫入。</block>
   <block id="c587bef8eac8648f03d8c4557de37bee" category="inline-link-macro">Snapshot儲存設備的運作方式</block>
@@ -2151,7 +2124,6 @@
   <block id="00c9f8995e9e372b1b21f15fc0c9001b" category="list-text">指派的磁碟區會收到下一個可用的LUN號碼。主機使用LUN編號來存取磁碟區。</block>
   <block id="4faf06e0466760e50f45759abdf2041c" category="list-text">使用者提供的Volume名稱會出現在與主機相關聯的Volume清單中。如果適用、原廠設定的存取Volume也會顯示在與主機相關的Volume清單中。</block>
   <block id="380cbfd4d1cf37c4bcab258a95fa8770" category="summary">您可以變更快照群組的設定、以變更其名稱、自動刪除設定、允許的最大快照映像數、系統管理員傳送保留容量警示通知的百分比點、或是保留容量達到其定義的最大百分比時所使用的原則。</block>
-  <block id="c716bcf2eb04bf6a1997371363f29aa7" category="doc">變更快照群組的保留容量設定</block>
   <block id="461d4d6aff9437cf486bde4465e94358" category="paragraph">在建立快照群組期間、系統會建立保留容量、以儲存群組中所有快照映像的資料。</block>
   <block id="8c6fc876d654fd1d7f379afba14dabae" category="list-text">選取您要編輯的快照群組、然後按一下「*檢視/編輯設定*」。</block>
   <block id="3726b7f0267ff56f9f5c771bd06c30b7" category="paragraph">此時將出現Snapshot Group Settings（快照組設置）對話框。</block>
@@ -2314,7 +2286,6 @@
   <block id="18747fc1783ea0c8be337cee42135fc8" category="list-text">集區或磁碟區群組處於非最佳狀態。</block>
   <block id="a1b139d59112cf92af4c10f50fb6dec0" category="list-text">集區或Volume群組的容量太小。</block>
   <block id="129c375677986f0df558d98865d15561" category="summary">複製Volume功能可讓您在同一個儲存陣列上建立兩個獨立的磁碟區、即來源磁碟區和目標磁碟區、藉此建立磁碟區的時間點複本。</block>
-  <block id="cc448d01360c44d3867d40054ad4b2c2" category="doc">複製Volume總覽</block>
   <block id="751451b42f5feb38b0ab9a5355f2a886" category="paragraph">此功能會從來源磁碟區逐位元組複製到目標磁碟區、使目標磁碟區上的資料與來源磁碟區上的資料相同。</block>
   <block id="76227302cc2a921713b76d05f4eb63b5" category="section-title">資料複製功能可提供更高的存取權限</block>
   <block id="0772a60b3b09eb3a9507aee6a3c3e0e8" category="paragraph">隨著磁碟區的儲存需求改變、您可以使用複製磁碟區功能、將使用較小容量磁碟機的資源池或磁碟區群組中的資料複製到使用較大容量磁碟機的資源池或磁碟區群組。例如、您可以使用複製Volume功能來執行下列動作：</block>
@@ -2361,7 +2332,6 @@
   <block id="e2b55cbf1da587ab432dea10ed7793a4" category="list-text">您可以在「Volumes」（磁碟區）並排顯示區中選取「* Applications &amp; Workload *」（*應用程式與工作負載*）索引標籤、以檢視儲存陣列的磁碟區、並依工作負載和工作負載相關的應用程式類型進行分組。</block>
   <block id="ac18a6a26f564a918149353f318b2d9d" category="list-text">您可以在「效能」方塊中選取*應用程式與工作負載*索引標籤、以檢視邏輯物件的效能指標（延遲、IOPS和MB）。物件會依應用程式和相關工作負載進行分組。藉由定期收集此效能資料、您可以建立基準測量並分析趨勢、協助您調查與I/O效能相關的問題。</block>
   <block id="8bc8cf41f208c93a13a5a656ec48608d" category="summary">您可以執行復原作業來變更基礎磁碟區的內容、以符合儲存在快照映像中的內容。復原作業不會變更與基礎磁碟區相關聯的快照映像內容。</block>
-  <block id="46e96478d0dd921c2f8fadb327d3e23d" category="doc">為基礎磁碟區開始Snapshot映像復原</block>
   <block id="235ad21d209038d7e95be805248f929d" category="paragraph">您可以執行復原作業來變更基礎磁碟區的內容、以符合儲存在快照映像中的內容。</block>
   <block id="e29010bd175ff4270aad98626de4bc9b" category="paragraph">復原作業不會變更與基礎磁碟區相關聯的快照映像內容。</block>
   <block id="353702e361f6771e184a1ca4ac7a6084" category="list-text">有足夠的保留容量可供開始復原作業。</block>
@@ -2401,9 +2371,7 @@
   <block id="cefe54bdb4dc0e23367eaf8ba8f61a93" category="list-text">*描述性名稱*：您可以任意命名Volume、但我們建議您將名稱描述成描述性名稱。</block>
   <block id="5a31ba315f9216d623d8fe03f601e49d" category="paragraph">在磁碟區建立期間、每個磁碟區都會被分配容量、並指派名稱、區段大小（僅限磁碟區群組）、控制器擁有權、以及磁碟區對主機指派。磁碟區資料會視需要在不同的控制器之間自動進行負載平衡。</block>
   <block id="88e56411e6f3d7df385eece8002ee7c8" category="summary">您可以管理應用程式和工作負載、以檢視儲存陣列上所有現有的磁碟區、並依工作負載名稱和應用程式類型進行分組。您也可以新增磁碟區至現有或新的工作負載、變更現有工作負載的設定、以及建立新的磁碟區和工作負載。</block>
-  <block id="9067d3a54424613d49086a0043247788" category="doc">管理應用程式與工作負載</block>
   <block id="aff417c0d45c728410c40abfb161ecba" category="summary">您可以執行離線複製磁碟區作業或線上複製磁碟區作業。離線作業會從來源磁碟區讀取資料、然後將其複製到目標磁碟區。線上作業使用快照磁碟區做為來源、並將其資料複製到目標磁碟區。</block>
-  <block id="915b7d2a3b458225c1ee16363230c039" category="doc">複製Volume作業的類型</block>
   <block id="0de58aa88d06dff3650182cac9a226ee" category="paragraph">您可以執行「離線複製磁碟區」作業或「線上複製磁碟區」作業。離線作業會從來源磁碟區讀取資料、然後將其複製到目標磁碟區。線上作業使用快照磁碟區做為來源、並將其資料複製到目標磁碟區。</block>
   <block id="9b7155c0a3b16c4282d1395e582dcbc6" category="paragraph">為確保資料完整性、在任一類型的複製Volume作業期間、所有至目標Volume的I/O活動都會暫停。此暫停的原因是、在程序完成之前、目標Volume上的資料狀態不一致。</block>
   <block id="3606eaf10e2f51e455289fe4dd10c4a2" category="paragraph">離線和線上複製Volume作業如下所述。</block>
@@ -2438,7 +2406,6 @@
   <block id="7a3c0387ff8d671f116d2f97ed8afcbc" category="list-text">由於保留容量磁碟區會將原始資料的複本儲存在這些資料區塊中、因此對這些資料區塊的進一步變更只會寫入來源磁碟區。</block>
   <block id="ab36a8aa582f02cd458d8bff21889ed0" category="list-text">線上複製作業所使用的磁碟空間比完整實體複本少、因為保留容量磁碟區中儲存的資料區塊僅限自快照時間起變更的區塊。</block>
   <block id="6bb3a46b3932d69f74f52e1d3c942756" category="summary">如果您有遠端儲存功能、可以從遠端儲存系統匯入資料。</block>
-  <block id="18fcb008ceda8b1cf63c0444c17bf801" category="doc">遠端儲存功能總覽</block>
   <block id="51bdb07cd734dc156aa5d6485d1ba3b7" category="paragraph">如果您有遠端儲存功能、可以將資料從遠端儲存系統匯入儲存陣列。</block>
   <block id="bef81a1a0d24aa88775efd48898250b6" category="section-title">什麼是遠端儲存功能？</block>
   <block id="18d20e16fed95134da8259eee46d6a8c" category="paragraph">「遠端儲存設備」功能可讓您從遠端儲存系統將資料匯入本機E系列儲存系統。遠端系統可以是另一個E系列系統、也可以是其他廠商的系統。當您想要簡化資料移轉作業並將停機時間降至最低（例如設備升級期間）時、這項功能非常實用。</block>
@@ -2487,7 +2454,6 @@
   <block id="e92822017f1499ec305fe9f75ac19f24" category="list-text">將SSD快取與要實作SSD讀取快取的磁碟區建立關聯。若要立即在相容磁碟區上啟用SSD快取、請選取「在對應至主機*的現有相容磁碟區上啟用SSD快取」核取方塊。</block>
   <block id="13d1cd9af96a1d87ee43e665e1d42520" category="paragraph">如果磁碟區共用相同的磁碟機安全性和DA功能、則磁碟區會相容。</block>
   <block id="7329ad3e94c5d71f625111f13a005dd0" category="summary">您可以變更快照磁碟區或快照一致性群組快照磁碟區的設定、以重新命名、啟用或停用SSD快取、或變更主機、主機叢集或邏輯單元編號（LUN）指派。</block>
-  <block id="aa02f147ca4603af8538063bab5ad6f3" category="doc">變更快照Volume的Volume設定</block>
   <block id="d919aeec90292c7d8f9643574269233b" category="list-text">按一下「* Snapshot Volumes *（* Snapshot磁碟區*）</block>
   <block id="39b0b41d458e8522460af500eecf9350" category="list-text">選取您要變更的快照磁碟區、然後按一下「*檢視/編輯設定*」。</block>
   <block id="2f9d9b50df8f9db67b6e81d9055d4ed9" category="paragraph">此時將出現Snapshot Volume Settings（Snapshot Volume設置）對話框。</block>
@@ -2521,7 +2487,6 @@
   <block id="8c06bc91bc7e972275b25c6600652afc" category="list-text">選取您要刪除的快照排程、然後確認作業。</block>
   <block id="2ca2521bd984988b62fd46e21768a1c2" category="paragraph">系統會移除基礎磁碟區或快照一致性群組中的所有排程屬性。</block>
   <block id="f504b91fc7b2daed13ef594e9760a84e" category="summary">您可以從現有的快照一致性群組中移除成員磁碟區。</block>
-  <block id="6cc9b327f7942c0c8762960f3aafeed1" category="doc">從快照一致性群組中移除成員磁碟區</block>
   <block id="aedcc7652c31273f99b946fb9bb5a005" category="paragraph">從快照一致性群組中移除成員磁碟區時、System Manager會自動刪除與該成員磁碟區相關聯的快照物件。</block>
   <block id="0eed47d2d90cdb3e448151fdaa730703" category="list-text">單擊* Snapshot Consistency Group*（*快照一致性組*）選</block>
   <block id="b36f040a3cd2052fc1f5b6bbcf96df1b" category="list-text">選取要修改的快照一致性群組旁邊的加號（+）、以展開該群組。</block>
@@ -2620,7 +2585,6 @@
   <block id="5a4ca6fb7be75476f7fc96c9b0de9ae2" category="paragraph">使用者資料位元組</block>
   <block id="78cad8caffd843a6d8697519b35e65a7" category="paragraph">SSD快取中包含基礎磁碟區資料的已分配位元組數。可用位元組、已分配位元組和使用者資料位元組、用於計算快取分配百分比和快取使用率百分比。</block>
   <block id="6d9c06e04d17d85325a8e4070ca61f69" category="summary">您可以在需要節省儲存空間時、暫時暫停已排程的快照映像集合。此方法比刪除快照排程及稍後重新建立快照排程更有效率。</block>
-  <block id="95ed951f7d9cd2c1975eca4c10627134" category="doc">啟動並暫停快照排程</block>
   <block id="02f81331c3946fa42ca877f31aa7f324" category="paragraph">快照排程的狀態會一直暫停、直到您使用* Activate*選項來恢復排程的快照活動為止。</block>
   <block id="8d45993d556f77ec18873c6a4b16eb10" category="list-text">如果尚未顯示、請按一下*排程*索引標籤。</block>
   <block id="be49673abd6a2cf7d744954864471e5d" category="paragraph">排程會列在頁面上。</block>
@@ -2632,7 +2596,6 @@
   <block id="53062af7844d00791beae2fb84050613" category="paragraph">集區可免除系統管理員監控每個主機使用量的需求、以判斷何時可能耗盡儲存空間、並避免傳統的磁碟調整大小停機。當集區即將耗盡時、可在不中斷營運的情況下將額外的磁碟機新增至集區、而且容量成長對主機而言是透明的。</block>
   <block id="dd0e8a0621012aa59cfaf7797e25bdec" category="paragraph">有了資源池、資料會自動重新分散、以維持平衡。透過將同位元檢查資訊和備用容量分散到整個集區、集區中的每個磁碟機都可用來重建故障磁碟機。此方法不使用專用的熱備援磁碟機、而是保留（備用）整個資源池的容量。磁碟機故障時、會讀取其他磁碟機上的區段以重新建立資料。然後選擇新的磁碟機來寫入故障磁碟機上的每個區段、以便維持磁碟機之間的資料發佈。</block>
   <block id="46854b5aaaf89d735acaec0bcdeb09bd" category="summary">對於能夠隨需分配空間的精簡磁碟區、您可以變更限制精簡磁碟區可自動擴充之已分配容量的限制。</block>
-  <block id="1fbb7853291c978c3052e717082eb546" category="doc">變更精簡磁碟區的已配置容量限制</block>
   <block id="b961845efa38e1910c96d89f52483649" category="paragraph">當精簡磁碟區接近分配的容量限制時、您也可以變更將警示（超過警告臨界值）傳送至首頁通知區域的百分比點。您可以選擇啟用或停用此警示通知。</block>
   <block id="07e54d5f26326212e25b6c584bb84fc5" category="paragraph">系統會根據已分配的容量上限、自動擴充已分配的容量。分配的容量上限可讓您將精簡磁碟區的自動成長限制在報告容量以下。當寫入的資料量接近分配的容量時、您可以變更分配的容量上限。</block>
   <block id="3b0375020af2deacca4406d460303f32" category="paragraph">變更精簡型磁碟區的已分配容量限制和警告臨界值時、您必須同時考量磁碟區使用者資料和複製服務資料所需的空間。</block>
@@ -2764,7 +2727,6 @@
   <block id="875e2406f706886f5e31ebae30c66343" category="list-text">檢閱您要新增至所選工作負載的磁碟區。</block>
   <block id="fc6cffe9c819ec03322fb7efb1566961" category="list-text">當您對工作負載組態感到滿意時、請按一下*完成*。</block>
   <block id="c48bbb13d6635029a8b99e9a931ff354" category="summary">若要變更快照一致性群組的名稱、自動刪除設定或允許的最大快照映像數、請變更該群組的設定。</block>
-  <block id="9522cd3e7661068ccb781f02a4c49819" category="doc">變更快照一致性群組的設定</block>
   <block id="87445d8a23c0a915645b18393869c861" category="list-text">選取您要編輯的快照一致性群組、然後按一下「*檢視/編輯設定*」。</block>
   <block id="1b0b0b2ea99e7a5e685e2d755b7587b6" category="paragraph">此時將出現Snapshot Consistency Group（Snapshot一致性組設置）對話框。</block>
   <block id="a5edde860d12a7d25fb1cb5d8673482b" category="list-text">視需要變更快照一致性群組的設定。</block>
@@ -3065,7 +3027,6 @@
   <block id="36601f5a928c82791cf21ecbc0723503" category="list-text">刪除所有成員的Snapshot Volume（適用於Snapshot一致性群組快照Volume）。</block>
   <block id="a2b27b5d771bd78822a79ed2704060b6" category="list-text">移除所有相關的主機指派。</block>
   <block id="5da2165026df97efab8cfd791810840d" category="summary">您可以建立快照磁碟區、讓主機存取磁碟區或快照一致性群組的快照映像。您可以將快照磁碟區指定為唯讀或讀寫。</block>
-  <block id="358172bf51e596cc00b38fb652fc1cae" category="doc">建立Snapshot Volume</block>
   <block id="07592b4775149598cb0771e1bcf08ce6" category="paragraph">快照磁碟區建立順序可讓您從快照映像建立快照磁碟區、並在磁碟區為讀取/寫入時提供分配保留容量的選項。快照磁碟區可指定為下列其中一項：</block>
   <block id="981b97fa3f8db8779eb41f8fdc4f6ac3" category="list-text">唯讀快照磁碟區可讓主機應用程式讀取快照映像所含資料的複本、但無法修改快照映像。唯讀快照磁碟區沒有相關的保留容量。</block>
   <block id="ca5adb3ef8700f58c307c7a7f5de50ba" category="list-text">讀寫快照磁碟區可讓主機應用程式對快照映像中所含資料的複本擁有寫入存取權。它有自己的保留容量、可用來將主機應用程式後續所做的任何修改儲存到基礎磁碟區、而不會影響參考的快照映像。</block>
@@ -3149,7 +3110,6 @@
   <block id="072001db08ae65e793389aff41f4b0bf" category="list-text">掃描RAID 3 Volume、RAID 5 Volume或RAID 6 Volume中的資料區塊、然後檢查每個區塊的備援資訊。（RAID 3只能使用命令列介面指派給Volume群組。）</block>
   <block id="022d29d5236acf6a0c4d3252c8c98061" category="list-text">如果控制器韌體判定資料不一致、則傳回備援錯誤。</block>
   <block id="fde13dc4c7d1b0763b56c795eb2b46f0" category="summary">您可以變更一致性群組成員磁碟區的設定、以調整系統管理員在成員磁碟區的保留容量即將滿時傳送警示通知的百分比點、並變更保留容量達到其定義上限時所使用的原則 百分比。</block>
-  <block id="e25d069a4234a38f71cfd3676a1aaddd" category="doc">變更一致性群組成員磁碟區的保留容量設定</block>
   <block id="42d96921ced5ab0fbb41eb81dc92775b" category="paragraph">變更個別成員磁碟區的保留容量設定、也會變更與一致性群組相關聯之所有成員磁碟區的保留容量設定。</block>
   <block id="23cfe12358ab8744880b94ca23e606a2" category="list-text">選取您要編輯的一致性群組成員磁碟區、然後按一下「*檢視/編輯設定*」。</block>
   <block id="e889be2a32c09b0c39094fb6e3b75a28" category="paragraph">「成員Volume保留容量設定」對話方塊隨即出現。</block>
@@ -3337,10 +3297,8 @@
   <block id="83c7f11da626486e05121420cf17839f" category="doc">為什麼要停用快照磁碟區？</block>
   <block id="c53922217115bc2415decc6b2d5c447f" category="paragraph">如果您不再需要快照磁碟區或一致性群組快照磁碟區、而不打算稍後重新建立、則應刪除該磁碟區、而非停用該磁碟區。</block>
   <block id="8707cd376e4a4e2b7f02a71e6a1b1009" category="summary">您可以監控精簡磁碟區的空間、並產生適當的警示、以防止容量不足的情況發生。</block>
-  <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">監控精簡磁碟區</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">在「系統管理程式」中SANtricity 、您可以依照下列步驟建立磁碟區。</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">您可以將新的成員磁碟區新增至現有的快照一致性群組。新增成員磁碟區時、您也必須保留成員磁碟區的容量。</block>
-  <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">將成員磁碟區新增至快照一致性群組</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">成員Volume必須處於最佳狀態。</block>
   <block id="cf3a19215e7df2fb275b6b3c21d48915" category="list-text">快照一致性群組必須少於允許的最大磁碟區數（如組態所定義）。</block>
   <block id="56190e6346f498a50676bb624c6f75f2" category="list-text">每個保留容量磁碟區都必須具有與相關成員磁碟區相同的資料保證（DA）和安全性設定。</block>
@@ -3354,7 +3312,6 @@
   <block id="39ced869eb85919b61985a5bc99facb5" category="paragraph">使用此建議選項、以預設設定分配成員磁碟區的保留容量。</block>
   <block id="c35c2abaa4f0a8645eb9e3cf99b41d28" category="list-text">按一下「*完成*」以新增成員磁碟區。</block>
   <block id="3178f2fce0cfe05b9683b4c79ba0d25d" category="summary">您可以使用資源池或磁碟區群組中可用的可用容量、來增加磁碟區的報告容量（報告給主機的容量）。</block>
-  <block id="5993d1f87afbdf33ef7997a1099d3924" category="doc">增加磁碟區的容量</block>
   <block id="7cf61abe29c59213c314036c21f30dcc" category="list-text">磁碟區相關聯的資源池或磁碟區群組中有足夠的可用容量可用。</block>
   <block id="6a3ddd06148d23567ce3abf9f3ade114" category="list-text">磁碟區是最佳的、不會處於任何修改狀態。</block>
   <block id="55c07879d5779d730d66f74982752968" category="list-text">精簡磁碟區的報告容量上限為256 TiB。</block>
@@ -3370,7 +3327,6 @@
   <block id="8ae12a3324de65c82a5ac7ad0063817b" category="list-text">System Manager會根據您的選擇來增加磁碟區的容量。</block>
   <block id="4557785dd414b53e7a78f3927e297868" category="list-text">選取功能表：首頁[檢視進行中的作業]以檢視目前針對所選磁碟區執行的增加容量作業進度。這項作業可能會耗費大量時間、並可能影響系統效能。</block>
   <block id="0af080eb4432df13d727dd507e77884c" category="summary">您可以變更鏡射配對磁碟區的設定、以調整當鏡射配對磁碟區的保留容量即將滿時、系統管理員傳送警示通知的百分比點。</block>
-  <block id="e7ef70291c1af1df5f8e0c7b25c4b18a" category="doc">變更鏡射配對Volume的保留容量設定</block>
   <block id="cb2a61edc8e473df065e2a7ce71b2262" category="list-text">選取您要編輯的鏡射配對Volume、然後按一下*檢視/編輯設定*。</block>
   <block id="20a01fbfbd4cbdbac22c8c5194e23a2a" category="paragraph">「鏡射配對Volume保留容量設定」對話方塊隨即出現。</block>
   <block id="551f32821ade9970a4092e53eb39a01b" category="list-text">視需要變更鏡射配對磁碟區的保留容量設定。</block>
@@ -3378,7 +3334,6 @@
   <block id="04be1c22ba2d746eea4640f9d00c1cb4" category="paragraph">當鏡射配對的保留容量超過指定臨界值時、System Manager會傳送警示、讓您有時間增加保留容量。</block>
   <block id="464ce565ecc7dfb188c20fcce8d6f3f6" category="admonition">變更一個鏡射配對的警示設定、會變更屬於同一個鏡射一致性群組之所有鏡射配對的警示設定。</block>
   <block id="1f536fe23a59e190feeb33e8ecd98fe8" category="summary">您可以將資料從一個磁碟區複製到同一個儲存陣列中的另一個磁碟區、然後建立來源磁碟區的實體時間點複製（複製）。</block>
-  <block id="203be19949d87fdda022d7246e69e8ef" category="doc">複製Volume</block>
   <block id="bd04500ae279c04533f73dd99effa989" category="list-text">必須停止來源Volume和目標Volume的所有I/O活動。</block>
   <block id="6656a654889546874aa0ab1a423f37c5" category="list-text">必須卸載來源Volume和目標Volume上的任何檔案系統。</block>
   <block id="27e98c64528360c8659c6a8d4ec829a8" category="list-text">如果您之前曾在複製Volume作業中使用過目標Volume、則不再需要該資料或已備份資料。</block>
@@ -3448,7 +3403,6 @@
   <block id="ca4985f26b2a7c22b1593e6d3e788a34" category="doc">什麼是偏好的控制器擁有權？</block>
   <block id="ea83d1418120e9e91a66317ff177d3e7" category="paragraph">例如、如果某個控制器主要讀取大型連續資料區塊、而另一個控制器則有較小的資料區塊、而且經常讀取和寫入、則負載會截然不同。瞭解哪些磁碟區包含哪種資料類型、可讓您在兩個控制器上平均平衡I/O傳輸。</block>
   <block id="84d58ff791c5fbcc9cb54d00a50888a1" category="summary">您可以變更快照磁碟區的設定、以調整當快照磁碟區的保留容量即將滿時、系統傳送警示通知的百分比點。</block>
-  <block id="6ef1ef03a9cb47223d884b7236b4d377" category="doc">變更快照磁碟區的保留容量設定</block>
   <block id="98215322bdcac7fbd2c48c18bde56b01" category="list-text">選取您要編輯的快照磁碟區、然後按一下「*檢視/編輯設定*」。</block>
   <block id="15bf92ab00f4899c0356a7e83271a31e" category="paragraph">此時會出現Snapshot Volume保留容量設定對話方塊。</block>
   <block id="f7e34e1b95ad3b2fa36099a9eded3e0e" category="list-text">視需要變更快照磁碟區的保留容量設定。</block>
@@ -3509,7 +3463,6 @@
   <block id="d935b7857bb2c4f1f726e074a0257467" category="paragraph">「資料保證」功能的一般用途是檢查控制器與磁碟機之間I/O路徑的部分。在資源池和Volume群組層級提供DA功能。</block>
   <block id="0056cb971070f5193e490ed7ab5a3504" category="paragraph">請務必使用能夠執行DA的I/O介面、將這些啟用DA的磁碟區指派給主機。具備DA功能的I/O介面包括光纖通道、SAS、TCP/IP iSCSI、NVMe / FC、NVMe / IB、 適用於InfiniBand的NVMe/RoCE和iSER（適用於RDMA/IB的iSCSI擴充功能）。SRP不支援DA over InfiniBand。</block>
   <block id="c4dbc322f8fed9347675a66b0b7eded0" category="summary">媒體掃描是一種背景作業、可掃描磁碟區中的所有資料和備援資訊。使用此選項可啟用或停用一或多個Volume的媒體掃描設定、或變更掃描持續時間。</block>
-  <block id="eba02f58bb95b7598b213e615adf7b73" category="doc">變更Volume的媒體掃描設定</block>
   <block id="b36060959ab5d66ad4193551f206d2c9" category="paragraph">瞭解下列事項：</block>
   <block id="cb059b974bb61025fe4edad6039d467d" category="list-text">媒體掃描會根據要掃描的容量和掃描持續時間、以固定的速度持續執行。背景掃描可能會由較高優先順序的背景工作（例如重建）暫停、但會以相同的固定速率繼續。</block>
   <block id="28e0e6fb79d81dae9a7cd88e5491dd77" category="list-text">如果掃描期間發生無法恢復的媒體錯誤、資料將會使用備援資訊（如果有）進行修復。</block>
@@ -3565,7 +3518,6 @@
   <block id="dfad59f259bd19c4bbe8d41389dea242" category="list-text">停用已刪除快照映像的所有相關快照磁碟區。</block>
   <block id="330b4727b35dfca76c06e8679c323e28" category="list-text">從快照一致性群組刪除中、將與刪除的快照映像相關聯的任何成員磁碟區移至「已停止」狀態。</block>
   <block id="446e9dc96f223018043e91de7859bdc0" category="summary">您可以從儲存陣列中未指派磁碟機的子集建立邏輯儲存容量。此邏輯容量可以採用集區或磁碟區群組的形式、視環境需求而定。</block>
-  <block id="fde7554b5a76754e6a7fb65ca073ef13" category="doc">資源池和Volume群組總覽</block>
   <block id="bbbc93a5179e0a5db81686a5f04b5dd6" category="section-title">什麼是資源池和磁碟區群組？</block>
   <block id="aeabd274c18c6c90a45e3413fd087752" category="paragraph">_Pool_是一組邏輯分組的磁碟機。_ Volume群組_是具有共享特性之磁碟區的容器。您可以使用集區或磁碟區群組來建立可讓主機存取的磁碟區。</block>
   <block id="7843d404cc351a960aef89e5b45e876b" category="inline-link-macro">資源池和Volume群組的運作方式</block>
@@ -3700,7 +3652,6 @@
   <block id="fa002b0af386f45f34ae2b96bcffcce3" category="paragraph">您無法混用不同的磁碟機技術（HDD和SSD磁碟機）。RAID 3、5和6最多限制為30個磁碟機。RAID 1和RAID 10使用鏡射、因此這些磁碟區群組必須擁有偶數個磁碟。</block>
   <block id="3c2733e7ec6d8837ce8fe0f8a3ca792f" category="paragraph">磁碟區群組使用熱備援磁碟機做為待命、以防磁碟機在磁碟區群組所包含的RAID 1/10、RAID 3、RAID 5或RAID 6磁碟區中故障。熱備援磁碟機不含資料、可為儲存陣列新增另一個層級的備援功能。</block>
   <block id="90e9cfe5f85a5320a3128c2e7a0bcd46" category="summary">您可以變更讀取快取和寫入快取設定、以影響磁碟區的整體I/O效能。</block>
-  <block id="6b533b182f72d231c83305bb1fa4e9ee" category="doc">變更磁碟區的快取設定</block>
   <block id="49393d42007c814eb7498554843e9a99" category="paragraph">變更磁碟區的快取設定時、請謹記以下準則：</block>
   <block id="93513d11c804d486194905555dbcf3f4" category="list-text">開啟「變更快取設定」對話方塊之後、您可能會看到所選快取內容旁顯示的圖示。此圖示表示控制器已暫停快取作業。</block>
   <block id="cf72f8d286e9d569a846c3b337018393" category="paragraph">當新電池正在充電、控制器已移除、或控制器偵測到快取大小不相符時、可能會發生此動作。清除條件之後、對話方塊中選取的快取內容就會變成作用中。如果所選的快取內容未啟用、請聯絡技術支援部門。</block>
@@ -3814,7 +3765,6 @@
   <block id="dbac463794ca526bfd22ed135f4c5075" category="list-text">寫入作業數。</block>
   <block id="7dfb3cdb10c11c047007d5ba193bc8ec" category="list-text">合併的讀寫作業總計。</block>
   <block id="8f2804311a0084d47f6c63f97e6d6ced" category="summary">您可以更新SANtricity 使用於檢視及存取儲存陣列的密碼、以利在NetApp統一化管理程式中檢視及存取儲存陣列。</block>
-  <block id="2aebbeed1009439a37c2d8cc2d3c3b8c" category="doc">變更儲存陣列密碼</block>
   <block id="3e06700262909cb379674ee849478971" category="list-text">您必須以包含Storage管理權限的使用者設定檔登入。</block>
   <block id="6200b57bba4734c357cfd4a38fa16a12" category="list-text">您必須知道在System Manager中設定的儲存陣列目前密碼。</block>
   <block id="5d0efaa3695cc3970597a53c9f03654a" category="paragraph">在此工作中、您可以輸入儲存陣列的目前密碼、以便在Unified Manager中存取。如果在System Manager中變更陣列密碼、現在也必須在Unified Manager中變更該密碼、則可能需要這麼做。</block>
@@ -3905,7 +3855,6 @@
   <block id="95226cb0501c56de0568ff86c86bcedc" category="paragraph">密碼最多可包含30個字元。</block>
   <block id="c921ab82c25550633b7e359a45a16dda" category="paragraph">如需使用者和密碼的詳細資訊、請參閱 <block ref="5c922583ae248325086bab7f2768b014" category="inline-link-macro-rx"></block>。</block>
   <block id="33f269cc4cd9098419c158473cffe9e4" category="summary">E系列系統包含SANtricity 用於儲存資源配置和其他工作的支援功能。</block>
-  <block id="75a9a7dc8aca16de32b785f0f7b9bc1d" category="doc">軟體概述SANtricity</block>
   <block id="ba3a0fdc8434a7821716045b35ac5b56" category="paragraph">本網站說明如何使用下列SANtricity 的資訊管理介面：</block>
   <block id="4c8fa256f7bb6a36c0dff2d7c9f2a7d3" category="list-text">Unified Manager -網路型介面、用於檢視及管理網路中的所有儲存陣列。</block>
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">系統管理程式SANtricity</block>
@@ -4099,7 +4048,6 @@
   <block id="8b266c9fb3238ab21cdfb65ae66f6d31" category="list-text">*儲存階層*</block>
   <block id="c141888590eec4af951b9533399cbef4" category="paragraph">「儲存階層」區域提供由儲存陣列管理之各種硬體元件和儲存物件的組織檢視。按一下下拉式箭頭、對該硬體元件或儲存物件執行特定動作。</block>
   <block id="d77e0997337cdb24d489418a010b13ee" category="summary">「作業進行中」頁面可讓您檢視目前正在執行或處於暫停、停止或失敗狀態的長期執行作業清單。您可以針對特定類型的作業採取行動。</block>
-  <block id="f53bb3610199ab61220a8a29d54748a8" category="doc">「營運進行中」頁面</block>
   <block id="c3008c8558711ff7e85fd87a8cce8608" category="paragraph">長時間執行的作業可能會影響系統效能。對於某些作業、您可以選擇停止作業或變更其優先順序、以便更重要的作業先完成。</block>
   <block id="197a8788fa0424578c05d8a3be986388" category="paragraph">「作業進行中」頁面上顯示的作業包括：</block>
   <block id="2a78ed76450c3cb42320882b3e055b31" category="cell">營運</block>
@@ -4278,7 +4226,6 @@
   <block id="c90221339a5b1309cf424327a6bbe8d2" category="list-text">向下捲動至* iSER over InfiniBand settings *、然後選取* Configure iSER over InfiniBand Ports*。</block>
   <block id="2839d8ea86224b685168d2c05ffce9f3" category="list-text">向下捲動至「InfiniBand設定*上的* iSER」、然後選取「View iSER over InfiniBand Statistics *」。</block>
   <block id="ec57f2fa289bc747a7897a18f6547022" category="summary">安全金鑰管理可從「系統」頁面取得。</block>
-  <block id="37b34993d227de4a91e53824714524f7" category="doc">磁碟機安全性總覽</block>
   <block id="897908eea79f29e91d7292b997bc12d1" category="paragraph">您可以從「安全金鑰管理」頁面設定磁碟機安全性和金鑰管理。</block>
   <block id="fec993e10529507628b292e7d6deca91" category="section-title">什麼是磁碟機安全性？</block>
   <block id="ea7b0217aecb7e56b0a9606cdab88856" category="paragraph">_Drive Security_是一項功能、可在從儲存陣列移除時、防止未獲授權存取啟用安全功能之磁碟機上的資料。這些磁碟機可以是全磁碟加密（FDE）磁碟機、也可以是聯邦資訊處理標準（FIPS）磁碟機。當FDE或FIPS磁碟機從陣列中實際移除時、除非安裝在另一個陣列中、否則無法運作、此時磁碟機將處於安全鎖定狀態、直到提供正確的安全金鑰為止。_安全金鑰_是一串字元、可在這些類型的磁碟機與儲存陣列中的控制器之間共用。</block>
@@ -4309,7 +4256,6 @@
   <block id="a2467421bb681e973079977a499e1d7a" category="inline-link-macro">備份安全金鑰</block>
   <block id="7ec1b2a1590a2956cdb73e6afbd94583" category="list-text"><block ref="7ec1b2a1590a2956cdb73e6afbd94583" category="inline-link-macro-rx"></block></block>
   <block id="2c7fb2471bd7df4416b402b1548cad3c" category="summary">進階功能是額外的選項、需要啟用金鑰。</block>
-  <block id="9d0ac4bbba0c69c357757a2cd0500ed1" category="doc">啟用優質功能</block>
   <block id="3a0270e6dc15e0c2bf5e7d7d192b588b" category="list-text">您已取得功能金鑰。如有必要、請聯絡技術支援部門以取得關鍵資訊。</block>
   <block id="bef93897f05cb630cba87e4a70e4c7d5" category="list-text">您已在管理用戶端上載入金鑰檔（系統上有瀏覽器可供存取System Manager）。</block>
   <block id="b27ff17d22d04a5e1fb46f1de244ba56" category="paragraph">本工作說明如何使用System Manager來啟用優質功能。</block>
@@ -4362,7 +4308,6 @@
   <block id="3ac3febbb07afc0d4f4391a215e8c883" category="paragraph">選取此選項、然後在欄位中輸入靜態位址。（如有需要、您可以剪下地址並貼到欄位中。） 對於IPV4、請加入網路子網路遮罩和閘道。對於IPv6、請包含可路由的IP位址和路由器IP位址。如果您要使用支援200GB HIC的EF600儲存陣列、此對話方塊會顯示兩組網路參數欄位、一個用於實體連接埠（外部）、另一個用於虛擬連接埠（內部）。您應該為兩個連接埠指派獨特的參數。這些設定可讓主機在每個連接埠之間建立路徑、並讓HIC達到最大效能。如果您未將IP位址指派給虛擬連接埠、HIC將以大約一半的能力速度執行。</block>
   <block id="1859e92122e266181cafb9c13d7400a0" category="list-text">單擊*完成*。</block>
   <block id="ddb5573c6f39b580321b3833c2d21c1a" category="summary">您可以編輯v3設陷的使用者定義。</block>
-  <block id="9c5a0af90c3e3ad4fd7235f9a512c375" category="doc">編輯使用者設定的v3設陷</block>
   <block id="e6ae1cef6f540818bd9a9f5d26d5b552" category="paragraph">必須為v3設陷建立使用者。</block>
   <block id="4dc1e0718a071b0cde9dafee55e930d8" category="list-text">選取功能表：設定[警示]。</block>
   <block id="e184a1e2b514901f3669384a849c6dc6" category="list-text">選取「* SNMP *」索引標籤。</block>
@@ -4382,7 +4327,6 @@
   <block id="860fa57c2a839ecf264232c1dc1cc54f" category="list-text">在下拉式清單中、選取您要設定的HIC連接埠、然後輸入主機的IP位址。</block>
   <block id="8e736fec560076a8a802b9a2abdd1d1c" category="list-text">按一下* Yes*、即可透過InfiniBand連接埠重設iSER。</block>
   <block id="7a643bfd7d74cfc9288d1a6c4575f766" category="summary">您最多可以新增256個SNMP v2c設陷的社群名稱。</block>
-  <block id="60924fb1e46ce4c636901833aee8eb00" category="doc">新增SNMP v2c設陷的社群</block>
   <block id="1180049f414c1d532d596ff26d6bb31b" category="paragraph">陷阱目的地和社群名稱會出現在表格中。</block>
   <block id="41aa6c264fff7b9445944dbc3fe04b55" category="list-text">選擇*設定社群*。</block>
   <block id="12a4520eec64566b7d5dc03c69238b65" category="paragraph">「設定社群」對話方塊隨即開啟。</block>
@@ -4405,7 +4349,6 @@
   <block id="3d73ecabe16509dfb4f836c89276d92e" category="list-text">Volume群組和集區必須完全由具有安全功能的磁碟機所組成。（對於需要FIPS支援的磁碟區、請僅使用FIPS磁碟機。在磁碟區群組或集區中混合使用FIPS和FDE磁碟機、將會將所有磁碟機視為FDE磁碟機。此外、FDE磁碟機無法新增至All FIPS Volume群組或Pool、也無法作為備援磁碟機使用。）</block>
   <block id="ace1e3f5e8d6992cf9c192305b9648cb" category="list-text">Volume群組和集區必須處於最佳狀態。</block>
   <block id="90916bbd1b8d2573b5bd4f3d51ce55a9" category="summary">您可以移除SNMP v2c設陷的社群名稱。</block>
-  <block id="2907ece77f76e4e322a7857f6d0c4d91" category="doc">移除SNMP v2c設陷的社群</block>
   <block id="1e756147ce4505bb60ff641cfe702fd6" category="paragraph">陷阱目的地和社群名稱會顯示在*警示*頁面上。</block>
   <block id="c1a8313c012bc9367233c0a268384bf5" category="list-text">選取您要刪除的社群名稱、然後按一下最右側的*移除*（X）圖示。</block>
   <block id="ee9a8270acba54fdc3b4acd21016d46b" category="paragraph">如果設陷目的地與此社群名稱相關聯、「確認移除社群」對話方塊會顯示受影響的設陷目的地位址。</block>
@@ -4461,7 +4404,6 @@
   <block id="06d463f1b4468e76ca6ea50d3655ad0d" category="list-text">如果大多數連線的主機都有不同的作業系統、請將主機類型變更為出廠預設值。</block>
   <block id="8d7acc04293681c4a5dfb82015b79f68" category="paragraph">例如、如果您要將八個不同的主機連線至儲存陣列、而其中兩個主機執行Windows作業系統、則有三個主機執行VMware作業系統、 另外三種作業系統是執行Linux作業系統、您必須選取「Factory Default」作為預設主機作業系統類型。</block>
   <block id="9e8302a402f611baf05e75aa5256b369" category="summary">您可以變更接收電子郵件警示的收件者電子郵件地址。</block>
-  <block id="5d96e90268b8dc01886a9903ef24a4ce" category="doc">編輯警示的電子郵件地址</block>
   <block id="cb31780dfc8015f0a5d6c54c59554fbf" category="paragraph">您要編輯的電子郵件地址必須在「警示」頁面的「電子郵件」標籤中定義。</block>
   <block id="60a5a62ee9c308b3343d07931360961b" category="list-text">選取*電子郵件*索引標籤。</block>
   <block id="e66bc582c9f51271bf48e285b2a48a0d" category="list-text">從*電子郵件地址*表格中、選取您要變更的地址、然後按一下最右側的*編輯*（鉛筆）圖示。</block>
@@ -4568,7 +4510,6 @@
   <block id="8186ebeae82f8ea44af9bbdb7fd857ad" category="list-text">在安全位置記錄您的通關密碼、然後按一下*關閉*。</block>
   <block id="86583299199fa25d2e5f2c718a47ccd3" category="paragraph">您應該驗證備份安全金鑰。</block>
   <block id="1cb92a094f657907ebfe15ea818cbde2" category="summary">您可以移除使用者的v3設陷。</block>
-  <block id="13093ea77b77a3071ebc264547e699e2" category="doc">移除使用者的v3設陷</block>
   <block id="f4be2e6b3e26af76d95ad241b79a4b53" category="paragraph">設陷目的地和使用者名稱會出現在警示頁面上。</block>
   <block id="66522d59029a20235048bc90785a4653" category="list-text">選取*設定使用者*。</block>
   <block id="aa8f46bfe960559cff7b9631e969d2e7" category="paragraph">此時將打開Configure v3 Users（配置v3用戶）對話框。</block>
@@ -4736,7 +4677,6 @@
   <block id="c2a4e4fe8f441d56f50bdc8ffaeb0b77" category="doc">如何設定SNMP或syslog警示？</block>
   <block id="062b9a1905e78f03b8da6f29da2a9d7f" category="paragraph">若要設定SNMP或syslog警示、請前往功能表：設定[警示]。</block>
   <block id="d07cc924ea2d447f0cb70624e22edde6" category="summary">對於存取管理、系統管理員可以使用陣列內嵌的安全聲明標記語言（SAML）2.0功能。</block>
-  <block id="0fb95b26d48595a0ce2232035938d6a4" category="doc">使用SAML進行存取管理</block>
   <block id="ee4737a99df1f82d6dbc164235a6ae68" category="section-title">組態工作流程</block>
   <block id="b1579259042d74dcb20047d27930fa64" category="paragraph">SAML組態運作方式如下：</block>
   <block id="6253fb6ca7c7846b2dee57fe550b9234" category="list-text">系統管理員使用包含「安全性管理」權限的使用者設定檔登入System Manager。</block>
@@ -4788,7 +4728,6 @@
   <block id="3d2c8a5d3944c8c3b63ef7f887bb008d" category="list-text">使用不同的瀏覽器類型來存取此控制器、接受憑證並繼續。</block>
   <block id="f7fcbeafdbe4f79dff275e0025dd7e03" category="list-text">使用System Manager存取第二個控制器、接受自我簽署的憑證、然後返回第一個控制器並繼續。</block>
   <block id="da7d003e1593bb562d551eb1e55a64ea" category="summary">您最多可新增20個電子郵件警示收件者。</block>
-  <block id="71cb574ff3f32e8696a2fb5eb9584ebe" category="doc">新增警示的電子郵件地址</block>
   <block id="f1bed1c4054ab2b65b0f31b051808bc7" category="list-text">在空白欄位中、輸入新的電子郵件地址。如果您要新增多個地址、請選取*新增其他電子郵件*以開啟另一個欄位。</block>
   <block id="1257fce62eb03c6b8995e654752c5e22" category="paragraph">「警示」頁面的「電子郵件」索引標籤會顯示新的電子郵件地址。</block>
   <block id="20f880099619c2c57feb8a3562b1b1ad" category="summary">對於SNMP警示、您可以選擇性地設定出現在SNMP設陷中的管理資訊庫（MIB）變數。這些變數可傳回儲存陣列名稱、陣列位置及聯絡人。</block>
@@ -4815,7 +4754,6 @@
   <block id="b1b4292f8c54378861577eefdaf3b8d4" category="list-text">*聯絡人*：mib變數「最短聯絡人」的值。例如、輸入負責儲存陣列的管理員。</block>
   <block id="f725e6cad4396bb7c44eabb138c4b8c0" category="paragraph">這些值會出現在儲存陣列警示的SNMP設陷訊息中。</block>
   <block id="eb05c3171faac77659ea33cda512ebb3" category="summary">對於儲存陣列中的所有磁碟區、您可以調整快取記憶體設定、以供排清和區塊大小。</block>
-  <block id="4c33c4ee994a00b2cee56434ebffd95f" category="doc">變更儲存陣列的快取設定</block>
   <block id="9f5b90f341ce11d3d4d32f7059325a23" category="paragraph">快取記憶體是控制器上暫用揮發性儲存設備的區域、其存取時間比磁碟機媒體快。若要調整快取效能、您可以調整下列設定：</block>
   <block id="d9ee8e898e5a26c66bd18ee5b230abca" category="paragraph">開始需求快取排清</block>
   <block id="cef5629de51936d53c62b360313ecbdb" category="paragraph">Start demand快取排清指定快取中觸發快取排清（寫入磁碟）的未寫入資料百分比。根據預設、當未寫入的資料達到80%容量時、快取排清功能就會啟動。較高的百分比是主要執行寫入作業的環境的理想選擇、因此新的寫入要求可透過快取處理、而無需移至磁碟。較低的設定值較佳、因為I/O不穩定（使用資料突發）、因此系統會在資料突發之間頻繁清除快取。不過、低於80%的開始百分比可能會導致效能降低。</block>
@@ -4847,7 +4785,6 @@
   <block id="ca73cc8db153dd5b0efaf1565bdbc00e" category="paragraph">請勿使用HTML或其他標記標記進行格式化。</block>
   <block id="3a307fc4bdd3676da308751d9de7980b" category="paragraph">下次使用者登入System Manager時、會在對話方塊中開啟文字。使用者必須按一下「*確定*」以繼續登入畫面。</block>
   <block id="ffbd2cbf28a13c1c03306bc44664af69" category="summary">您可以變更用於電子郵件警示的郵件伺服器位址和電子郵件寄件者位址。</block>
-  <block id="94b47ae93998bc943ef52046200ea393" category="doc">編輯郵件伺服器以取得警示</block>
   <block id="ff152714aa004530881bd00f6af3b073" category="paragraph">您要變更的郵件伺服器位址必須是可用的。位址可以是IPV4或IPV6位址、也可以是完整網域名稱。</block>
   <block id="9127c89ba843a181a8200c1f416d1814" category="list-text">編輯郵件伺服器位址、寄件者資訊及聯絡資訊。</block>
   <block id="88a41b6ced70f1be2e411b53a29392fa" category="list-text">*郵件伺服器位址*-編輯郵件伺服器的完整網域名稱、IPv4位址或IPv6位址。</block>
@@ -5056,7 +4993,6 @@
   <block id="bec4155c254e8a1ee324fec9a88e4082" category="list-text">您嘗試多次登入失敗、這會觸發鎖定模式。請等待10分鐘再登入一次。</block>
   <block id="435953d3081ef0990c37ecab65084fce" category="list-text">控制器上使用的用戶端連線數量已達上限。檢查多個使用者或用戶端。</block>
   <block id="a5b14ab0ae015507696b26a4ce8b4466" category="summary">您可以移除先前定義的郵件伺服器、使警示不再傳送至電子郵件地址、或是移除個別的電子郵件地址。</block>
-  <block id="aa6cbbd3d438ad7442c3b187f2724299" category="doc">刪除郵件伺服器或電子郵件地址以取得警示</block>
   <block id="3b1afccbf6f27ee23548336b80972c58" category="list-text">從表格中、執行下列其中一項：</block>
   <block id="a9603b39c08090693785be87b26331a8" category="list-text">若要移除郵件伺服器、使警示不再傳送至電子郵件地址、請選取郵件伺服器的列。</block>
   <block id="aa611d3c0ccadaf84c619f4f49b6f3e5" category="list-text">若要移除電子郵件地址、使警示不再傳送至此地址、請選取您要刪除之電子郵件地址的列。表右上角的*刪除*按鈕可供選擇。</block>
@@ -5066,7 +5002,6 @@
   <block id="104e995b71d005ce9591fed237349989" category="paragraph">透過iSNS方法、可在啟動器（iSCSI主機）和目標（控制器）之間進行iSNS探索。您可以註冊目標控制器、以便為iSNS伺服器提供控制器的iSCSI合格名稱（IQN）和連接埠資訊。</block>
   <block id="86f5e054028caf77425a701d42d4cdfc" category="paragraph">如果未設定iSNS、iSCSI主機可在iSCSI探索工作階段期間傳送「傳送目標」命令。因此、控制器會傳回連接埠資訊（例如、Target IQN、連接埠IP位址、接聽連接埠和目標連接埠群組）。如果您使用的是iSNS、則不需要使用此探索方法、因為主機啟動器可以從iSNS伺服器擷取目標IP。</block>
   <block id="058a7c81942e7505aaa4be7ef91dd0a3" category="summary">您最多可以新增10部伺服器來傳送SNMP設陷。</block>
-  <block id="10c9deef8acbf32aa279bc401d72e2bd" category="doc">新增SNMP警示的設陷目的地</block>
   <block id="b029585d541e79f3acc44c44dd600882" category="list-text">您要新增的網路伺服器必須使用SNMP服務應用程式進行設定。您需要此伺服器的網路位址（無論是IPv4或IPv6位址）、事件監控器才能將陷阱訊息傳送到該位址。您可以使用多部伺服器（最多允許10部伺服器）。</block>
   <block id="215cf6beecf479adb3a867d26fc744da" category="list-text">管理資訊庫（mib）檔案已複製並使用SNMP服務應用程式在伺服器上編譯。此mib檔案定義要監控和管理的資料。</block>
   <block id="21bfc3076ecd20e3a23a918418d483cc" category="paragraph">如果您沒有mib檔案、可以從NetApp支援網站取得：</block>
@@ -5232,7 +5167,6 @@
   <block id="f0adc5d000173927e6565b7796988e8b" category="doc">我要如何解讀InfiniBand統計資料的iSER？</block>
   <block id="594b7f21d6afec5d61bcd2260307666a" category="list-text">* InfiniBand介面統計資料* iSER：提供InfiniBand介面上所有InfiniBand連接埠的iSER統計資料、其中包括效能統計資料、以及與每個交換器連接埠相關的連結錯誤資訊。</block>
   <block id="d7fe3f61b8fba1e2ea84b40274c848f3" category="summary">您可以編輯用於接收系統記錄警示的伺服器位址。</block>
-  <block id="64562268c827f0db0ec460162eaac269" category="doc">編輯系統記錄伺服器以取得警示</block>
   <block id="2bca2faba0332e87a3a5db7e0da917a4" category="list-text">從表中選取syslog伺服器位址、然後按一下最右側的*編輯*（鉛筆）圖示。</block>
   <block id="c0d48f16bbf961ebeb5a2ccf7771595c" category="list-text">編輯伺服器位址和udp連接埠號碼、然後按一下*「Save*（勾選）」圖示。</block>
   <block id="1224cd55e66bf33c9c36c852dce9afca" category="paragraph">更新的伺服器位址會出現在表格中。</block>
@@ -5477,7 +5411,6 @@
   <block id="12decb6d47cbe5ebea1f00fff603f92c" category="paragraph">隨即開啟「確認刪除信任的憑證」對話方塊。</block>
   <block id="81ef15858bb7abedf63272c9049c38e7" category="list-text">在欄位中輸入「刪除」、然後按一下「*刪除*」。</block>
   <block id="c2560c880c403f33bc716c921a1ec329" category="summary">您可以刪除syslog伺服器、使其不再接收警示。</block>
-  <block id="349fec05f43bb6a34ba71c7a20d4dfd5" category="doc">刪除系統記錄伺服器以取得警示</block>
   <block id="9c6b300fa1de4b841871bf58b17c8809" category="list-text">選取syslog伺服器位址、然後按一下右上角的*移除*。</block>
   <block id="c33bcdfe4272e80436d6b538ab8fb9cf" category="paragraph">「確認刪除Syslog伺服器」對話方塊隨即開啟。</block>
   <block id="4b0847badf4df2f436372c3f65ecd674" category="paragraph">您移除的伺服器不再從事件監視器接收警示。</block>
@@ -5533,7 +5466,6 @@
   <block id="e4ca0be6435e2cb971783f45129d42f6" category="list-text">按一下*匯入*。</block>
   <block id="1e4cb43cb642ff327628d52937282424" category="paragraph">檔案會上傳並驗證。</block>
   <block id="71f232032bd481ebdb62001be98a76cf" category="summary">瞭解附加功能條款如何適用於您的儲存陣列。</block>
-  <block id="26463becbcaafd1f526129b3b127c573" category="doc">附加功能術語</block>
   <block id="31b4a364897c36d8d86eb53596e63747" category="paragraph">功能啟用識別碼</block>
   <block id="f4ecdf07fa67bd4159a126ebe16589cc" category="paragraph">功能啟用識別碼是識別特定儲存陣列的唯一字串。此識別碼可確保當您取得優質功能時、該識別碼僅與該特定儲存陣列相關聯。此字串會顯示在「系統」頁面的「附加元件」下方。</block>
   <block id="71433dcd2b078a8dadba8b448709c553" category="paragraph">功能金鑰檔案</block>
@@ -5543,7 +5475,6 @@
   <block id="92c7a0b0dc7bd2705e86edc5d4b8e179" category="paragraph">優質功能</block>
   <block id="911fca3a0018d17235161560de04d3fc" category="paragraph">進階功能是額外的選項、需要一把鑰匙才能啟用。系統管理程式的標準組態並未包含此功能。</block>
   <block id="54d13fdb52c1af4f0ea502e17d746841" category="summary">如果您先前已停用資源資源資源配置的預設功能、可以前往「設定」、針對您所建立的任何新SSD Volume群組或集區重新啟用該功能。您也可以再次停用設定。</block>
-  <block id="bb3181b0820e0259475417cded293509" category="doc">啟用或停用新Volume群組或集區的資源配置</block>
   <block id="5d639ec8780dcddc091c86db5b4b6620" category="paragraph">如果您先前已停用資源資源資源配置的預設功能、則可針對您所建立的任何新SSD Volume群組或集區重新啟用此功能。您也可以再次停用設定。</block>
   <block id="9a63d29eb59a567bebc60ad0d414dc51" category="admonition">根據預設、磁碟機支援DULBE的系統會啟用資源配置。</block>
   <block id="a38277bd3ef4476562c7f78e16a79230" category="list-text">您必須擁有SSD磁碟區群組或集區、其中所有磁碟機都支援NVMe取消分配或未寫入的邏輯區塊錯誤啟用（DULBE）錯誤恢復功能。</block>
@@ -5552,7 +5483,6 @@
   <block id="d1d57051db2f0063e28d60e9b8a86053" category="paragraph">設定說明會指出資源資源資源配置目前已啟用或已停用。</block>
   <block id="887d69360071ae6164479e435fa40e66" category="paragraph">啟用或停用資源配置只會影響您所建立的新SSD資源池或磁碟區群組。現有的集區或Volume群組維持不變。</block>
   <block id="360137c4d8e71902073c583e9c903b6b" category="summary">您最多可以新增256位使用者來使用v3設陷。</block>
-  <block id="a756b861ea03f2a916bb96099828d9ef" category="doc">新增使用者以使用v3設陷</block>
   <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">選取*「Add*」。</block>
   <block id="f336fad62f61742c47732eac6eb13cba" category="list-text">輸入下列資訊、然後按一下「*新增*」。</block>
   <block id="26a9ffa25fc94b0d705e109541130f71" category="summary">若要設定存取管理的驗證、您可以使用儲存陣列內嵌的安全聲明標記語言（SAML）功能。此組態會在身分識別供應商與儲存供應商之間建立連線。</block>
@@ -5607,7 +5537,6 @@
   <block id="5426403fa8c8b91049e91083a4befabc" category="list-text">輸入SSO登入測試的使用者認證資料。</block>
   <block id="02e136814c7c9eacb4cbd1eac60dba3b" category="paragraph">系統啟用SAML之後、會終止所有作用中工作階段、並開始透過SAML驗證使用者。</block>
   <block id="19380508f9149606321ac832a3c00e8a" category="summary">存取管理是SANtricity 一種在《Sytricity System Manager》中建立使用者驗證的方法。驗證方法包括RBAC（角色型存取控制）、目錄服務和安全聲明標記語言（SAML）2.0。</block>
-  <block id="8a85e54e2f698ad0de66d093245f2e66" category="doc">存取管理總覽</block>
   <block id="ed5fe7f66e9072ed2fe64e1c8ad6737d" category="section-title">有哪些驗證方法可用？</block>
   <block id="1f5e202c614a1661cfc9d511376773ed" category="paragraph">驗證方法包括RBAC（角色型存取控制）、目錄服務和安全聲明標記語言（SAML）：</block>
   <block id="4b8217cf8d756a89a1dc65298ed13a9a" category="list-text">* RBAC /本機使用者角色*-驗證是透過儲存陣列中強制執行的RBAC功能來管理。本機使用者角色包括預先定義的使用者設定檔和具有特定存取權限的角色。</block>
@@ -5812,7 +5741,6 @@
   <block id="232702c653cde09c07912e338d3eacd8" category="list-text">設定密碼的最小長度。</block>
   <block id="b19f31a8ba2f57c8e0ce96c8e5fe2bfa" category="list-text">允許使用者不使用密碼登入。</block>
   <block id="23c4474ad0e8ba1b6378929ff6dc6eb8" category="summary">若要在儲存陣列上啟用優質功能或功能套件、您必須先取得功能金鑰檔案。金鑰僅與一個儲存陣列相關聯。</block>
-  <block id="8482c34bfd5355d2325c43299e3b4a22" category="doc">取得功能金鑰檔案</block>
   <block id="01fccb238136cadbbda6282b2738a082" category="paragraph">本工作說明如何收集功能的必要資訊、然後傳送功能金鑰檔案的要求。必要資訊包括：</block>
   <block id="1fe0bc7459693232ff7ad04999b73597" category="list-text">機箱序號</block>
   <block id="aaa7a3624a97859ee3583f71dde90af3" category="list-text">功能啟動代碼</block>
@@ -5854,7 +5782,6 @@
   <block id="87d57c85c7f6ca214148876b1643fde9" category="list-text">覆寫原則設定（可從*檢視/編輯設定*取得）不會影響使用syslog伺服器組態來管理記錄的方式。</block>
   <block id="07edc16c0199dba3dfc82b49414795e9" category="list-text">稽核記錄遵循RFC 5424訊息格式。</block>
   <block id="69afef839468847d18d8eadd707e6a28" category="summary">您最多可以新增五部伺服器來執行系統記錄警示。</block>
-  <block id="aac82b32d41c8e77515563d0fe18c57f" category="doc">新增系統記錄伺服器以供警示</block>
   <block id="3fcdca939850c517b014f7754b186fbb" category="list-text">系統記錄伺服器的udp連接埠號碼必須可用。此連接埠通常為514。</block>
   <block id="eab662577e265093fe68fbab56f250cd" category="list-text">選擇* Add Syslog Servers*（添加Syslog服務器*）。</block>
   <block id="531dc8110d95adeeb11a6700bb787aab" category="list-text">選取*新增其他syslog伺服器*。</block>
@@ -5866,7 +5793,6 @@
   <block id="079344e24125661a235311c4af323831" category="doc">關於資源配置的Volume功能、我需要知道什麼？</block>
   <block id="9742fedd4fc70f86711709c96aad31ad" category="paragraph">預設會在磁碟機支援DULBE的系統上啟用資源配置。您可以從*資源池與磁碟區群組*停用該預設設定。</block>
   <block id="51a446719a3a2b36bb69b274d84caafe" category="summary">您可以編輯SNMP v2c設陷的社群名稱。</block>
-  <block id="ebfa9a5a9908878d795861499f7a332e" category="doc">編輯SNMP v2c陷阱的社群</block>
   <block id="b87c0a131c7bdafd2d279917218a6018" category="paragraph">必須建立社群名稱。</block>
   <block id="cbf670d81fafbb8fa880baa729d7866b" category="list-text">選取功能表：設定[警示]。</block>
   <block id="ab9def0af719c7b8ed09ed8862c29272" category="list-text">輸入新的社群名稱、然後按一下「*儲存*」。社群名稱只能由可列印的Ascii字元組成。</block>
@@ -5930,7 +5856,6 @@
   <block id="cd8c3a2f7a727372face69f091644a22" category="paragraph">若要將儲存的儲存陣列組態載入其他儲存陣列、請使用SANtricity 含有「-f」選項的指令行介面（SMcli）來套用「.cfg」檔案。</block>
   <block id="7e2d04fef276358bb38ed34e48ef401a" category="paragraph">您也可以使用Unified Manager介面將儲存陣列組態載入其他儲存陣列（選取功能表：「Manage（匯入設定）」）。</block>
   <block id="8976aaeac0280efd1bd19cc334bc43da" category="summary">您可以設定System Manager以透過電子郵件、SNMP設陷和系統記錄訊息傳送儲存陣列警示。</block>
-  <block id="4aee0ec85903fa611e90b218d8118753" category="doc">警示總覽</block>
   <block id="a69dc0934864b8119dbde4916baf39c6" category="section-title">什麼是警示？</block>
   <block id="18a2e3de7a2db6968bb6142af86b9d9f" category="paragraph">_alerts_通知系統管理員儲存陣列上發生的重要事件。事件可能包括電池故障、從最佳狀態移至離線狀態的元件、或是控制器中的備援錯誤等問題。所有重大事件都會被視為「警示」、以及一些警告和資訊事件。</block>
   <block id="546ed1b56927d6cbf8f51ec81e7e7afc" category="inline-link-macro">警示的運作方式</block>
@@ -6108,7 +6033,6 @@
   <block id="0182db1190dd0cc7c4a95253b5ac91fb" category="paragraph">後視圖顯示控制器/ IOM和電源風扇迴轉器。前視圖顯示磁碟機。</block>
   <block id="14f5e94d7b72896c2abbcdce16d4f926" category="list-text">您也可以選擇*顯示全部正面*或*顯示全部背面*、位於頁面底部。</block>
   <block id="1e399fb7e0446b765c8a9c5ad88d6886" category="summary">「硬體」頁面以圖形方式呈現儲存陣列的實體元件。您可以從這裡檢查元件狀態、並執行與這些元件相關的部分功能。</block>
-  <block id="7c5cb0a97002dad77ccc4f997a12379c" category="doc">硬體頁面與元件</block>
   <block id="ba74e32f98742b3a572dc18f74c22928" category="paragraph">Hardware（硬體）頁面提供儲存陣列實體元件的圖形化描述。您可以從這裡檢查元件狀態、並執行與這些元件相關的部分功能。</block>
   <block id="bb53c62475a4f28295dfd71302a53a3d" category="section-title">磁碟櫃</block>
   <block id="27c69af256cdb21fcf9cf6708cce8e21" category="paragraph">機櫃是一個元件、其中包含儲存陣列（控制器、電源/風扇容器和磁碟機）的硬體。磁碟櫃有兩種類型：</block>
@@ -6430,7 +6354,6 @@
   <block id="4a2833218ca50e72920f4fc85ded87b5" category="doc">為什麼我要邏輯地更換磁碟機？</block>
   <block id="846859675e7484942f2482e86b021b52" category="paragraph">原始磁碟機的資料會複製或重建到替換磁碟機。</block>
   <block id="30902da97f6a0bc1b43189f22930bf3b" category="summary">您可以在「硬體」頁面上檢查元件狀態、並執行與這些元件相關的部分功能。</block>
-  <block id="46249b2092a182e085410a7b6cba0fcd" category="doc">硬體元件總覽</block>
   <block id="a2e9b38da1058670eeec01bcaf0ff494" category="section-title">我可以管理哪些元件？</block>
   <block id="d040c419785e5dde6f78f0ca7643c722" category="paragraph">您可以檢查元件狀態、並執行與這些元件相關的部分功能：</block>
   <block id="d01cd128d6abf4d7933f8a2639098e20" category="list-text">*機櫃*：_機櫃_是包含儲存陣列（控制器、電源/風扇機櫃和磁碟機）硬體的元件。磁碟櫃有三種尺寸可供選擇、最多容納12、24或60個磁碟機。</block>
@@ -6674,7 +6597,6 @@
   <block id="f94609c94eb181d6647a3e787902e8f5" category="admonition">如果變更IP位址組態、您將失去儲存陣列的管理路徑。如果您使用SANtricity NetApp統一化管理程式來全域管理網路中的陣列、請開啟使用者介面、然後前往功能表：「Manage（管理）」「Discover（探索）」。如果您使用SANtricity 的是「靜態儲存管理員」、則必須從「企業管理」視窗（EMW）移除該裝置、然後選取功能表：「編輯」（Add Storage Array）、再輸入新的IP位址、將其重新新增至EMW。</block>
   <block id="f74ec7352e7eeb86c5de4e638147f9ca" category="paragraph">管理連接埠組態會顯示在「控制器設定」的「管理連接埠」索引標籤中。</block>
   <block id="74b96ad1072c9d815991a81d9452df10" category="summary">如果儲存陣列包含具有不同類型實體和邏輯屬性的磁碟機、「硬體」頁面會提供篩選欄位、協助您限制磁碟機檢視並找出特定的磁碟機。</block>
-  <block id="14df5b731d4997d2ee71cdf4bc523bf9" category="doc">限制磁碟機檢視</block>
   <block id="facdfcb4bee682dfd1eb4f0e17ccc7c2" category="paragraph">磁碟機篩選器可將檢視範圍限制在特定邏輯位置（例如Volume Group 1）的特定類型實體磁碟機（例如、All SAS）、並具有特定的安全屬性（例如、安全功能）。您可以一起或單獨使用這些篩選器。</block>
   <block id="1a87e1a07850c1c707a3888ab74e5f5c" category="paragraph">如果所有磁碟機共用相同的實體屬性、則不會顯示*顯示磁碟機為...*篩選欄位。如果所有磁碟機都共用相同的邏輯屬性、則不會出現「* Anywhere in the storage array* filter」（*儲存陣列*篩選器的任何位置）欄位。</block>
   <block id="c0045c6c284d1fa7245572a2659fa923" category="list-text">在第一個篩選欄位（在*顯示磁碟機為...*下）中、按一下下拉式箭頭以顯示可用的磁碟機類型和安全性屬性。</block>
@@ -6717,7 +6639,6 @@
   <block id="be60404b2c56981a6ade529f56c56ade" category="doc">為什麼建議使用手動同步原則？</block>
   <block id="203eb3487092f98bd7739657bd0afb70" category="paragraph">如果您使用自動重新同步原則、且在重新同步期間發生間歇性通訊問題、則次要磁碟區上的資料可能會暫時毀損。重新同步完成後、資料將會修正。</block>
   <block id="8201c629dd6551605c1fa4b163a76d37" category="summary">您可以移除鏡射配對、從本機儲存陣列的主要磁碟區和遠端儲存陣列的次要磁碟區移除鏡射關係。</block>
-  <block id="1ead2f5a8f8bd71a04f291e529419db7" category="doc">移除非同步鏡射關係</block>
   <block id="1954b1434c37f1e6720d7e7c0db08530" category="paragraph">檢閱下列有關孤立鏡射配對的資訊：</block>
   <block id="a54e8bbbb036b83f8181f0c77eaaf906" category="list-text">當一致性鏡射群組中的成員磁碟區在一端移除（本機儲存陣列端或遠端儲存陣列端）、但在另一端移除時、就會出現孤立的鏡射配對。</block>
   <block id="250696e24a4e70ab9003d34e160b476c" category="list-text">當陣列間通訊恢復且鏡射組態協調鏡射參數的兩側時、就會偵測到孤立的鏡射配對。</block>
@@ -6731,7 +6652,6 @@
   <block id="b6dc45978281b0c6a7a333fdf4706295" category="list-text">將主要Volume和次要Volume傳回主機可存取的非鏡射Volume。</block>
   <block id="4fc9176a629b2df5d3c531937e01e5cc" category="list-text">移除非同步鏡射配對、以更新「非同步鏡射」動態磚。</block>
   <block id="7508e4442d535a8c1b39528432dc19f0" category="summary">您可以檢視本機儲存陣列和遠端儲存陣列上鏡射一致性群組之間的未同步資料量。當鏡射一致性群組處於非同步狀態時、不會發生鏡射活動。</block>
-  <block id="2ac29e19a0ce69edb4f3fe082c088a5e" category="doc">檢視鏡射一致性群組之間的非同步資料量</block>
   <block id="0977cf4a58da9cc581a6745cfcdc48b5" category="paragraph">當選取的鏡射一致性群組包含鏡射配對、且同步處理目前未進行時、您可以執行此工作。</block>
   <block id="bd65b5e01459a4f61664d873f3e319a3" category="list-text">選取*鏡射一致性群組*索引標籤。</block>
   <block id="33bb4394bc47c9dcf94b889b4047ed3b" category="paragraph">「Mirror Consistency Group」（鏡射一致性群組）表格隨即出現、並顯示與儲存陣列相關的所有鏡射一致性群組。</block>
@@ -6784,7 +6704,6 @@
   <block id="54abd49eba72d75970404acd8a2a3512" category="list-text">如果特定儲存物件的複製服務作業壽命很長、</block>
   <block id="3b965b7599e93263ee7ae3b2db7bf7ae" category="list-text">如果由於I/O活動頻繁、基礎磁碟區上的資料區塊百分比會大幅變動。使用歷史效能資料或其他作業系統公用程式、協助您判斷基礎磁碟區的典型I/O活動。</block>
   <block id="3e4b41fe7dfdb67ca16165cc983793d6" category="summary">您可以變更本機儲存陣列上鏡射一致性群組在資料初始同步或資料在非同步鏡射作業期間重新同步時所使用的同步處理設定和警告臨界值。</block>
-  <block id="75fd01b8a28d9721b74ead8d141aa67a" category="doc">變更鏡射一致性群組的同步處理設定</block>
   <block id="f14d90a64d3831669d5b98f32911dcf3" category="paragraph">變更同步設定會影響鏡射一致性群組中所有鏡射配對的同步作業。</block>
   <block id="ad54f4dec93f6fc649f047145fb0821c" category="paragraph">「鏡射一致性群組」表格隨即出現、並顯示與儲存陣列相關的所有鏡射一致性群組。</block>
   <block id="065ebbde71ee0c6eaf6ce2c26e199767" category="list-text">選取您要編輯的鏡射一致性群組、然後選取功能表：更多[編輯設定]。</block>
@@ -6813,7 +6732,6 @@
   <block id="425a64e0d583694b7183474b36985728" category="list-text">您已安裝Web服務Proxy和Unified Manager。在Unified Manager介面中設定鏡射配對。</block>
   <block id="fe99edff93d55843d1bd3a7d39d7dbcd" category="list-text">這兩個儲存陣列都是在Unified Manager中發現的。</block>
   <block id="a1dc8dcd0ef0c3f9c09c995746bd9eaa" category="summary">您可以在鏡射配對中的兩個磁碟區之間執行角色反轉、這兩個磁碟區是為了管理目的而參與同步鏡射、或是在本機儲存陣列發生災難時執行。</block>
-  <block id="33e1d4955d1ad338432d061228de9d23" category="doc">變更鏡射配對中磁碟區之間的角色</block>
   <block id="82deb6e7c6ccf745d601a8e410473414" category="paragraph">您可以在鏡射配對中參與同步鏡射的兩個磁碟區之間執行角色反轉。這項工作可能是為了管理目的、或是在本機儲存陣列發生災難時所需。</block>
   <block id="a94d228d4ea6bacf24f30d98d435d32e" category="paragraph">您可以將主要磁碟區降級為次要角色、或將次要磁碟區升級為主要角色。任何存取主要磁碟區的主機、都能讀取/寫入該磁碟區。當主要磁碟區變成次要磁碟區時、僅會將主要控制器起始的遠端寫入寫入寫入磁碟區。</block>
   <block id="ab473df4e0c88c723409554d7d88c823" category="list-text">選取功能表：Storage[同步鏡射]。</block>
@@ -6962,7 +6880,6 @@
   <block id="354f62801910dd1edac18a317f02d0a4" category="doc">為什麼我在表格中看到無法使用的值？</block>
   <block id="352674da3b0347b2fa94309f9852e20b" category="paragraph">若要顯示遠端儲存陣列資料、請從Unified Manager啟動System Manager。</block>
   <block id="adfb05f5a886a855a1779bccd4b6cada" category="summary">您可以暫停或恢復鏡射一致性群組中所有鏡射配對上的資料同步、這比暫停或恢復個別鏡射配對的同步效率更高。</block>
-  <block id="c879a001efd3881d2569005752912018" category="doc">暫停或恢復鏡射一致性群組的同步</block>
   <block id="9cec334a78447d6e341bcef3c11881ed" category="paragraph">暫停及恢復群組的同步、有助於降低對主機應用程式的任何效能影響、這種情況可能發生在本機儲存陣列上的任何變更資料複製到遠端儲存陣列時。</block>
   <block id="392f6877a53502f73249bbd61d4efe50" category="paragraph">鏡射一致性群組及其鏡射配對的狀態會保持暫停、直到您使用「恢復」選項繼續同步活動為止。</block>
   <block id="34c538d2963ff874f6435e6d75fe33df" category="list-text">選取您要暫停或恢復的鏡射一致性群組、然後選取功能表：「More（更多）」[Suspend]（暫停）或功能表：「More（更多）[Resuming]（恢復）」。</block>
@@ -7002,7 +6919,6 @@
   <block id="03636572249dd9880006378f3c1755fe" category="paragraph">在建立鏡射配對之前、請遵循下列準則。</block>
   <block id="b6287b731648fdf0c4197b5b53ed2e5b" category="list-text">您的儲存陣列必須包含至少一個鏡射一致性群組。您可以在「建立鏡射配對」精靈的Unified Manager中建立一致性群組。</block>
   <block id="f7282d43a3db8918076ecd180e1a78d6" category="summary">您可以變更鏡射配對用來在通訊中斷後完成重新同步作業的同步優先順序和重新同步原則。</block>
-  <block id="7c86ac8b3b5787fd4006c745e9ba0096" category="doc">變更鏡射配對的同步處理設定</block>
   <block id="375ffdc3425d89c8ef73212975a6b3e7" category="paragraph">您只能在包含主Volume的儲存陣列上編輯鏡射配對的同步設定。</block>
   <block id="f8931812e14da4f685be124ecc0cc2a6" category="list-text">選取您要編輯的鏡射配對、然後選取功能表：更多[編輯設定]。</block>
   <block id="c76c168d6f92b3d43a9c641ff6f6588e" category="paragraph">系統會顯示「檢視/編輯設定」對話方塊。</block>
@@ -7017,7 +6933,6 @@
   <block id="60a8997705970e5b5155e1b481e80795" category="list-text">*自動*-選取此選項可在將通訊還原至鏡射配對後自動開始重新同步。</block>
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">選擇*保存*。</block>
   <block id="d3f1b71e636e25d3c076afa38de86758" category="summary">您可以使用「暫停」選項和「恢復」選項、來控制何時同步主磁碟區上的資料、以及鏡射配對中的次磁碟區。</block>
-  <block id="080ac0ce499cae0f7a11f6aefb54366c" category="doc">暫停並恢復鏡射配對的同步</block>
   <block id="c8d55b18a2a5b14a5326912fac53e808" category="paragraph">如果手動暫停鏡射配對、鏡射配對將不會同步、直到手動恢復為止。</block>
   <block id="b1c5adbd547b9b89120cf4881fa399f3" category="list-text">選取您要暫停或恢復的鏡射配對、然後選取功能表：More（更多）[Suspend]（暫停）或功能表：More（更多）[Resuming]（恢復）。</block>
   <block id="210b94ecc118560463c7b43e50e61a01" category="list-text">暫停或恢復鏡射配對之間的資料傳輸、而不移除鏡射關係。</block>
@@ -7043,7 +6958,6 @@
   <block id="94d12e4ecfa0727a21dceabd94e97cb4" category="paragraph">鏡射配對的次要Volume通常位於次要站台、並保留資料的複本。</block>
   <block id="454c65346b592d2a6ddcf6e6cd91d9b3" category="paragraph">同步</block>
   <block id="1b6781f9766328ee7f0960dbe05f98bf" category="paragraph">在本機儲存陣列與遠端儲存陣列之間進行初始同步時、便會進行同步。當主要和次要磁碟區在通訊中斷後變成非同步時、也會發生同步。當通訊連結再次運作時、任何未複寫的資料都會同步至次要Volume的儲存陣列。</block>
-  <block id="bc514fe3893b353f46136dbb9ea4696a" category="doc">移除同步鏡射關係</block>
   <block id="a04fd3cfecf107e93638020cde5f1c20" category="paragraph">您也可以移除鏡射配對、以修正孤立的鏡射配對狀態。檢閱下列有關孤立鏡射配對的資訊：</block>
   <block id="c2e6998877daef719281db11f254cf4d" category="list-text">當某個成員磁碟區已從一端移除（本機/遠端）、但未在另一端移除時、就會出現孤立的鏡射配對。</block>
   <block id="5a667fb8b9ee512c9f723f5ec2645421" category="list-text">還原陣列間通訊時、會偵測到孤立的鏡射配對。</block>
@@ -7079,7 +6993,6 @@
   <block id="d7e48014036e048990b33b96292bcc91" category="paragraph">具有變更IP位址的儲存陣列會傳送訊息給與鏡射一致性群組相關聯的每個遠端儲存陣列、這些群組已設定為透過iSCSI連線鏡射。接收此訊息的儲存陣列會自動更新遠端目標IP位址。</block>
   <block id="dc1ea033fdb960bfcd0b3b66b9d46b86" category="paragraph">如果IP位址變更的儲存陣列無法將陣列間訊息傳送至遠端儲存陣列、系統會傳送連線問題警示給您。使用更新遠端IP位址選項、重新建立與本機儲存陣列的連線。</block>
   <block id="9298215bd55bd7c3aa8a21b50a88e28e" category="summary">同步鏡射功能可在遠端距離的儲存陣列之間進行線上即時資料複寫。</block>
-  <block id="460f1e8c3e603bf77d64ce3d701324a5" category="doc">同步鏡射總覽</block>
   <block id="10d68dbaa5a809daf171f782598d85b7" category="section-title">什麼是同步鏡射？</block>
   <block id="6ba3fbf7a6558dc81522aedb59e1d590" category="paragraph">_同步鏡射_即時複寫資料磁碟區、確保持續可用度。儲存陣列控制器可管理鏡射作業、這對主機機器和軟體應用程式而言是透明的。</block>
   <block id="beb80eb40ddf731a8581da9d26fa3fbb" category="paragraph">這類鏡射是業務持續運作（例如災難恢復）的理想選擇。</block>
@@ -7120,13 +7033,11 @@
   <block id="3875f01f6cc1fb12c8699d458b4605d5" category="doc">為什麼我會看到多個保留容量的候選對象？</block>
   <block id="285f1744664f2e1e4e361e7f0569d4b0" category="paragraph">您可以變更要保留在基礎磁碟區上進行複製服務作業的實體磁碟機空間百分比、以重新整理建議的候選磁碟機清單。根據您的選擇、將會顯示最佳的候選對象。</block>
   <block id="14c0b5c11cec183cae5b026de83be26c" category="summary">您可以停用儲存陣列上的同步鏡射功能、以重新建立主機匯流排介面卡（HBA）主機連接埠4的正常使用、此連接埠是保留用於鏡射資料傳輸的。</block>
-  <block id="959b6f8aa08631615c9cc167221f7e2f" category="doc">停用同步鏡射</block>
   <block id="c50acb6fde75a12cb1d95875bbe42db2" category="paragraph">您必須刪除所有同步鏡射關係。驗證是否已從儲存陣列刪除所有鏡射配對。</block>
   <block id="443d8eab9aa73f1f60c6b8ccbb939d68" category="list-text">選取功能表：非常見工作[停用]。</block>
   <block id="455c19a3e2e0ae204aaae455a94dc139" category="list-text">控制器的HBA主機連接埠4專門用於同步鏡射通訊、現在可以接受主機讀取和寫入要求。</block>
   <block id="c8795d54a85ef60634d6af6928100837" category="list-text">儲存陣列上的保留容量磁碟區即會刪除。</block>
   <block id="e01d2c972c8675c34dc83aee38224fdb" category="summary">非同步鏡射功能提供控制器層級的韌體架構、可在本機儲存陣列與遠端儲存陣列之間進行資料複寫。</block>
-  <block id="95f005b7a0d89bd52b50e36428f03fa7" category="doc">非同步鏡射總覽</block>
   <block id="1c8f32949aacae037e67973d36640f81" category="section-title">什麼是非同步鏡射？</block>
   <block id="a973f9cd883909c4210fa4a3a2a46a57" category="paragraph">_非同步鏡射_會在特定時間點擷取主要磁碟區的狀態、並僅複製自上次映像擷取後變更的資料。主站台可立即更新、而次要站台可在頻寬允許的情況下更新。這些資訊會在網路資源可用時快取並於稍後傳送。</block>
   <block id="40f940a1f2b00ed6e1e16df96cf0cfc1" category="paragraph">非同步鏡射是以每個磁碟區為基礎建立、但在群組層級進行管理、可讓您將不同的遠端鏡射磁碟區與特定儲存陣列上的任何主要磁碟區建立關聯。這類鏡射是滿足不中斷營運需求的理想選擇、一般而言、對於定期程序而言、網路效率更高。</block>
@@ -7144,7 +7055,6 @@
   <block id="90c1d6c4247630bca80fcc961ffb6449" category="list-text"><block ref="90c1d6c4247630bca80fcc961ffb6449" category="inline-link-macro-rx"></block></block>
   <block id="baba612c4896ebae31a1baa788fda3da" category="list-text"><block ref="baba612c4896ebae31a1baa788fda3da" category="inline-link-macro-rx"></block></block>
   <block id="4591b231c875be60e18e7b60fc60f4f3" category="summary">您可以停用本機和遠端儲存陣列上的非同步鏡像、以重新建立儲存陣列上專用連接埠的正常使用。</block>
-  <block id="65c90a169ddaeb6811b328b7407a851f" category="doc">停用非同步鏡射</block>
   <block id="a2d99b2e8addfdbf20505041bd540a00" category="list-text">您必須刪除所有鏡射關係。確認已從本機和遠端儲存陣列刪除所有鏡射一致性群組和鏡射配對。</block>
   <block id="11f121101dafcc279245e9342d94d033" category="list-text">本機儲存陣列和遠端儲存陣列必須透過光纖通道架構或iSCSI介面來連接。</block>
   <block id="30d5f99b08c30d1e8e4982b11716da78" category="paragraph">停用非同步鏡射時、本機和遠端儲存陣列上不會發生鏡射活動。</block>
@@ -7159,7 +7069,6 @@
   <block id="fa98027accb9c3a7375a77d355bbb4d5" category="list-text">如果主磁碟區已啟用DA、則必須啟用次要磁碟區DA。</block>
   <block id="835f4291909c19a4a71fd5963dcd860e" category="list-text">如果主要Volume未啟用DA、則次要Volume不得啟用DA。</block>
   <block id="15737c83a1c51b25b3b62b657bafc663" category="summary">您可以變更鏡射一致性群組之間的角色、以便進行管理或在本機儲存陣列發生災難時使用。</block>
-  <block id="0c2bc54478b89c06870df9e2e1c1477d" category="doc">將鏡射一致性群組角色變更為主要或次要角色</block>
   <block id="b8c2d9c9ed5f27ec4715a24adb21bc4d" category="paragraph">在本機儲存陣列上建立的鏡射一致性群組、扮演主要角色。在遠端儲存陣列上建立的鏡像一致性群組、則扮演次要角色。您可以將本機鏡射一致性群組降級為次要角色、或將遠端鏡射一致性群組提升為主要角色。</block>
   <block id="1ec9b4e27e4b84ae42787d68143b9a8c" category="list-text">選取您要變更角色的鏡射一致性群組、然後選取功能表：更多[將角色變更為&lt;主要|次要&gt;]*。</block>
   <block id="c4a3a534bd315144fdc6a57f6ad7f518" category="list-text">確認您要變更鏡射一致性群組的角色、然後按一下*變更角色*。</block>
@@ -7167,7 +7076,6 @@
   <block id="a812fe9d2d7e7584ce14a32b80394dd5" category="list-text">「鏡射一致性群組」表格會在正在進行角色變更的鏡射一致性群組旁顯示「擱置中」或「進行中」狀態。您可以按一下表格儲存格中的*取消*連結、取消擱置中的角色變更作業。</block>
   <block id="322e1ee3a38a8457e7323b149fbb8184" category="list-text">如果可以聯繫相關的鏡射一致性群組、則鏡射一致性群組之間的角色會變更。System Manager會將次要鏡射一致性群組升級為主要角色、或將主要鏡射一致性群組降級為次要角色（視您的選擇而定）。角色變更會影響所選鏡射一致性群組中的所有鏡射配對。</block>
   <block id="37290e22c9fa8eb0f62c0192041dffed" category="summary">您可以手動開始重新同步鏡射一致性群組中的所有鏡射配對。</block>
-  <block id="d8ce60567538c1954ac3b7c707d1d197" category="doc">手動重新同步鏡射一致性群組</block>
   <block id="527b920dffed09a344bb3e1c877b207f" category="list-text">選取您要重新同步的鏡射一致性群組、然後選取功能表：More（更多）[手動重新同步]。</block>
   <block id="958b076f7e1539852bedf91e5fe7a516" category="paragraph">系統會執行下列動作：</block>
   <block id="3636b9fe2c9d12c05e8f6d081984ef71" category="list-text">在所選鏡射一致性群組中、對所有鏡射配對上的資料進行重新同步。</block>
@@ -7235,7 +7143,6 @@
   <block id="65024c2cda9e330342e42e99eab931fc" category="summary">瞭解非同步鏡射術語如何適用於您的儲存陣列。</block>
   <block id="cffa7e4fcd460690ec5261eba8312305" category="paragraph">在非同步鏡射中、鏡射配對一律屬於鏡射一致性群組。寫入作業會先執行至主要磁碟區、然後複寫至次要磁碟區。鏡射一致性群組中的每個鏡射配對都會共用相同的同步處理設定。</block>
   <block id="e35d546a90affeef6c848766d7755ffe" category="summary">您可以測試本機儲存陣列與遠端儲存陣列之間的通訊、以診斷參與同步鏡射的鏡射配對可能發生的通訊問題。</block>
-  <block id="0777661b9ea84c315de5f0180e7f413a" category="doc">測試同步鏡射的通訊</block>
   <block id="70e0638c198c3a893ece352f33b3be87" category="paragraph">執行兩種不同的測試：</block>
   <block id="7276375972d4aa97011944003f7b649a" category="list-text">*通訊*：驗證兩個儲存陣列是否有通訊路徑。通訊測試會驗證本機儲存陣列是否能與遠端儲存陣列通訊、以及遠端儲存陣列是否存在與鏡射配對相關的次要Volume。</block>
   <block id="28a3f7ed92b888a430054f2ed5ae29a6" category="list-text">*延遲*：將SCSI測試單元命令傳送至遠端儲存陣列上與鏡射配對相關的次要磁碟區、以測試最小、平均和最大延遲。</block>
@@ -7297,7 +7204,6 @@
   <block id="26777ce8c704996442046f566567fcb0" category="paragraph">當某個成員磁碟區已從一端移除（主端或次要端）、但未在另一端移除時、就會出現孤立的鏡射配對磁碟區。</block>
   <block id="3495d24d327284018c764d189eb19ebe" category="doc">同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
   <block id="00488bd7829540f62dd4bd6dfe0f675b" category="summary">您可以測試通訊連結、以診斷本機儲存陣列與與鏡射一致性群組相關的遠端儲存陣列之間可能發生的通訊問題。</block>
-  <block id="fbc6a2ea09bb34bc0a93d790d9514315" category="doc">測試鏡射一致性群組的通訊</block>
   <block id="e68fe7f4465c0b23ebfd3e9388a30c38" category="paragraph">您要測試的鏡射一致性群組必須存在於本機和遠端儲存陣列上。</block>
   <block id="4e8203c0bd1e1113b52a2a0fb197d539" category="paragraph">您可以執行四種不同的測試：</block>
   <block id="d49d15e557b8dae791f5e3e35d9c3034" category="list-text">*連線能力*：驗證兩個控制器是否有通訊路徑。連線測試會在儲存陣列之間傳送陣列間訊息、然後驗證遠端儲存陣列上對應的鏡射一致性群組是否存在。它也會驗證遠端儲存陣列上鏡射一致性群組的成員磁碟區是否符合本機儲存陣列上鏡射一致性群組的成員磁碟區。</block>
@@ -7321,7 +7227,6 @@
   <block id="a24004d7b0e54b0b506d0ebf5c2c53e6" category="paragraph">通訊測試完成後、此對話方塊會顯示「正常」狀態、「通過」狀態或「失敗」狀態。</block>
   <block id="e6d46f3189edf0f711bc9c710e28f8e4" category="paragraph">如果通訊測試傳回「失敗」狀態、則會在您關閉此對話方塊之後繼續執行測試、直到鏡射一致性群組之間的通訊恢復為止。</block>
   <block id="25be04f8f564d75f005e7d91ec561532" category="summary">使用鏡射功能、可在本機儲存陣列與遠端儲存陣列之間、非同步或同步複寫資料。</block>
-  <block id="8eaa7d8cc17d8c089c43d2f928c8775f" category="doc">鏡射總覽</block>
   <block id="7e5302b1c4eac0373046e5e48d74febc" category="section-title">什麼是鏡射？</block>
   <block id="b1aebc00c1bc1dfce2ff8962832bfb5c" category="paragraph">支援非同步和同步的兩種鏡射類型。SANtricity非同步鏡射會根據需求或排程複製資料磁碟區、如此可將資料毀損或遺失所造成的停機時間減至最少或避免。同步鏡射可即時複寫資料磁碟區、確保持續可用。</block>
   <block id="277f48ac3dd713f3c93952544ad55a9e" category="inline-link-macro">鏡射的運作方式</block>
@@ -7430,7 +7335,6 @@
   <block id="e1cfa79dbec62347a6be30a50cfa9692" category="doc">建立鏡射配對之前、我需要知道什麼？</block>
   <block id="afb89ed7edef0cc7dc3ef4d41d3887c2" category="list-text">具有光纖通道（FC）或iSCSI主機連接埠的控制器支援非同步鏡射、而同步鏡射僅支援具有FC主機連接埠的控制器。</block>
   <block id="9732d74959a323e59d6e9160b809f0a2" category="summary">在您使用Unified Manager升級多個儲存陣列之前、請先在規劃過程中檢閱重要考量事項。</block>
-  <block id="4a77379e9fcc01e35b7933a91b02a2bb" category="doc">升級考量</block>
   <block id="6371e5ddbbe5c848ab1144dfd8b50449" category="section-title">目前版本</block>
   <block id="063e4a905654baf6a3df919bc5acac65" category="paragraph">您可以SANtricity 從Unified Manager的「管理」頁面、針對每個探索到的儲存陣列、檢視目前的版本。版本會顯示在SANtricity 「更新OS軟體」欄位中。當您按一SANtricity 下每列的「還原OS版本」時、控制器韌體和NVSRAM資訊 會出現在快顯對話方塊中。</block>
   <block id="83a51c77c243b9672984451585e9ad2f" category="section-title">其他需要升級的元件</block>
@@ -7510,7 +7414,6 @@
   <block id="6d2693ac93f6085397ef92c9a73ba5b5" category="summary">保留容量通常是基礎磁碟區的20%、用於非同步鏡射作業。通常這種容量是足夠的。</block>
   <block id="039949ec150f284be8ac989b11a63eed" category="paragraph">所需的容量會因寫入基礎磁碟區的頻率和大小、以及您打算使用儲存物件複製服務作業的時間而有所不同。一般而言、如果存在下列其中一項或兩項條件、請為保留容量選擇較大的百分比：</block>
   <block id="c79b141d0d17696705c99b794b11901a" category="summary">在「管理群組」頁面中、您可以建立一組儲存陣列群組、以利管理。</block>
-  <block id="a1279915a8f9251c8e26db088b087beb" category="doc">群組總覽</block>
   <block id="55c21421b0b49c72e4ecf5d969ddc7ef" category="section-title">什麼是陣列群組？</block>
   <block id="1f153ce693a76088e1bcf184fb041fda" category="paragraph">您可以將一組儲存陣列分組、來管理實體與虛擬化的基礎架構。您可能想要將儲存陣列分組、以便更輕鬆地執行監控或報告工作。</block>
   <block id="6c17c1b173211258ec0ec9985189d2a5" category="paragraph">群組有兩種類型：</block>
@@ -7569,7 +7472,6 @@
   <block id="cda4530cc29b73a2848e3ee73549537a" category="paragraph">移至System Manager並選取功能表：首頁[檢視進行中的作業]以檢視同步鏡射作業的進度。這項作業可能會耗費大量時間、並可能影響系統效能。</block>
   <block id="839a15232e75363abd83283c12dccb75" category="summary">如果某個集區或Volume群組中有多個Volume符合您為儲存物件選取的容量百分比量、您就會看到多個候選磁碟區。</block>
   <block id="c80a3b4054f1065c5ed2862c799574d3" category="summary">您可以將設定從一個儲存陣列匯入到另一個儲存陣列、包括警示、AutoSupport 還原和目錄服務。</block>
-  <block id="364bdf677eee1ef74394eade4142e858" category="doc">設定匯入總覽</block>
   <block id="6d2afd33fd55f01ede09873e95c44962" category="paragraph">匯入設定功能可讓您執行批次作業、將設定從一個陣列匯入多個陣列。當您需要在網路中設定多個陣列時、此功能可節省時間。</block>
   <block id="1ce28fccbd059af9ebab85e5f644e942" category="section-title">可以匯入哪些設定？</block>
   <block id="c60d96f37d31d58ac863067912c7f98b" category="paragraph">您可以匯入警示方法、AutoSupport 支援各種功能的組態、目錄服務組態、儲存組態（例如磁碟區群組和集區）、以及系統設定（例如自動負載平衡）。</block>
@@ -7639,7 +7541,6 @@
   <block id="44a8ec873829128f9b89b9d2c859f732" category="list-text">此處列出的陣列機型之一： <block ref="c0f66568c89b9be3af203a2398d42823" category="inline-link-macro-rx"></block></block>
   <block id="ec9c3d4f5f976606ad31387919bcffe8" category="list-text">透過網頁瀏覽器連線到網路管理用戶端的頻外連線。</block>
   <block id="64ad5e94a74bf470353e65e27ff90866" category="summary">若要管理儲存資源、您必須先探索網路中的儲存陣列。</block>
-  <block id="8c9906e9b68ac5cbea9bc2e08121491c" category="doc">探索總覽</block>
   <block id="9fd8f65508c1b98e29663a63890ced71" category="section-title">如何探索陣列？</block>
   <block id="317e394dfc22c08fcca81a40f804affa" category="paragraph">使用「新增/探索」頁面、尋找並新增您要在組織網路中管理的儲存陣列。您可以探索多個陣列、也可以探索單一陣列。若要這麼做、請輸入網路IP位址、然後Unified Manager會嘗試個別連線至該範圍內的每個IP位址。</block>
   <block id="a308cde70025b17fe6c5cd5adaa155f3" category="list-text"><block ref="a308cde70025b17fe6c5cd5adaa155f3" category="inline-link-macro-rx"></block></block>
@@ -7669,7 +7570,6 @@
   <block id="ea9c669c9aa64371894dddb0505a0325" category="paragraph">儲存陣列會新增至Unified Manager、如果指定、也會新增至您所選的群組。</block>
   <block id="03bc500f3c11ae20134e43b6b586e119" category="paragraph">如果啟用自動支援資料收集功能、系統會自動為您新增的儲存陣列收集支援資料。</block>
   <block id="f9c9e13a8e7b9326b088117f9ce357a6" category="summary">當目前名稱不再有意義或適用時、您可以變更儲存陣列群組的名稱。</block>
-  <block id="49db6539f30cd17d190fa960d343e280" category="doc">重新命名儲存陣列群組</block>
   <block id="9f4f8b73149dd133619a2463d69040cb" category="paragraph">請謹記這些準則。</block>
   <block id="7d5522de49a0c89cafe3acd8d5cca909" category="list-text">名稱可以包含字母、數字和特殊字元、例如底線（_）、連字號（-）和井號（#）。如果您選擇任何其他字元、則會出現錯誤訊息。系統會提示您選擇其他名稱。</block>
   <block id="6705fbda2e6abf3c06911a7e187adac6" category="list-text">名稱上限為30個字元。名稱中的任何前置和後置空格都會刪除。</block>
@@ -7775,7 +7675,6 @@
   <block id="608bd8a074ef68196b2b16c389892b52" category="section-title">升級前需要知道哪些資訊？</block>
   <block id="c62a746e301ad31c4b84a7bf74763687" category="paragraph">在升級多個儲存陣列之前、請先檢閱規劃中的重要考量事項。</block>
   <block id="1f7336346d3723051fe725fd0d8b6f52" category="summary">如果您不想再從特定儲存群組進行管理、可以從群組中移除一或多個託管儲存陣列。</block>
-  <block id="81f419d8ee97055bcd7f59cc96299594" category="doc">從群組中移除儲存陣列</block>
   <block id="5f482ae5ff29923bd82a3447b4f3b55f" category="paragraph">從群組中移除儲存陣列並不會以任何方式影響儲存陣列或其資料。如果您的儲存陣列是由System Manager管理、您仍然可以使用瀏覽器來管理。如果不小心從群組中移除儲存陣列、則可以再次新增。</block>
   <block id="9711f8dab32ef33485d895e69337fc1b" category="list-text">從「Manage（管理）」頁面、選取功能表：「Manage Groups [Remove storage Array from group（管理群組[從群組移除儲存陣列]</block>
   <block id="597fbec95d8471a7f75703abb91ab8df" category="list-text">從下拉式清單中、選取包含您要移除之儲存陣列的群組、然後按一下您要從群組中移除之每個儲存陣列旁的核取方塊。</block>
@@ -7845,7 +7744,6 @@
   <block id="64d8b9dd1b95fd9e366edc1b59a6394b" category="paragraph">同步鏡射不使用鏡射一致性群組。</block>
   <block id="fc0fc4bcfa8e77ccbe825eb40749b735" category="paragraph">這些磁碟區是必要的、因此控制器可以持續儲存必要的資訊、以維持鏡射在作業狀態。其中包含差異記錄和寫入時複製資料等資訊。</block>
   <block id="b64dc90c0d8c8af7e5c1414038e1a206" category="summary">您可以移除一或多個不再需要的儲存陣列群組。</block>
-  <block id="1075451261ff01d866ffbf5c0de96768" category="doc">刪除儲存陣列群組</block>
   <block id="8904110eedca9801c2f064ef59eb1b3f" category="paragraph">此作業只會刪除儲存陣列群組。與刪除群組相關聯的儲存陣列仍可透過「管理全部」檢視或與其相關聯的任何其他群組存取。</block>
   <block id="2d77764408426ef7cc12ec0cb8bab868" category="list-text">從「Manage（管理）」頁面、選取功能表：Manage Groups（管理群組）[Delete storage Array group（刪除儲存陣列群組）]</block>
   <block id="df88e1007319fd66fb452b699b950fb9" category="list-text">選取您要刪除的一或多個儲存陣列群組。</block>
@@ -8746,4 +8644,410 @@
   <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">此版本僅包含輕微變更，且沒有新功能。有關此版本變更的詳細資訊，請參閱<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>。</block>
   <block id="9f9aad17803bf869c53f2fdb3d1834b0" category="section-title">啟用 SAML 的連線能力有限</block>
   <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">只要啟用 SAML ，下列儲存陣列功能就會限制與 JSON Web Token 驗證的連線。</block>
+  <block id="afd690b4a6f8f723237e406e691e1994" category="doc">瞭解 SANtricity 軟體</block>
+  <block id="55efb1bea2303063bea2fdc03480bf5d" category="doc">SANtricity 軟體瀏覽器和作業系統支援</block>
+  <block id="e696b5c8159d83bd1e0c9466e8dc6569" category="doc">在 SANtricity System Manager 中設定遠端登入 (SSH)</block>
+  <block id="791192eba5e6ba25fcb3f4d4787bdd42" category="doc">在 SANtricity System Manager 中指派熱備件</block>
+  <block id="2a179d4ca17916b1724afc04dabd8796" category="doc">在 SANtricity System Manager 中變更架子 ID</block>
+  <block id="3efe7542ac804d872e4cb32668bdcd0b" category="doc">變更 SANtricity System Manager 中架子的視圖順序</block>
+  <block id="0f25f1493e996ca8c9fe406f75014e5b" category="doc">在 SANtricity System Manager 中設定 DNS 伺服器位址</block>
+  <block id="6fec971fb5688583e3ae938ea6635252" category="doc">在 SANtricity System Manager 中配置 iSCSI 連接埠</block>
+  <block id="647bd57aa89ba480c449b7af20bcdb4b" category="doc">在 SANtricity System Manager 中配置 iSER over InfiniBand 連接埠</block>
+  <block id="818b0e2fc3aea06067d74bb4f780f6b9" category="doc">在 SANtricity System Manager 中設定管理連接埠</block>
+  <block id="942b826e8bf81247277dd17294833adb" category="doc">在 SANtricity System Manager 中設定 NTP 伺服器位址</block>
+  <block id="ed71508096ddf105f7a66756aaa909a1" category="doc">在 SANtricity System Manager 中配置 NVMe over InfiniBand 連接埠</block>
+  <block id="139a4bc3ba2ed00c3628e46a02eaec8e" category="doc">在 SANtricity System Manager 中配置 NVMe over RoCE 連接埠</block>
+  <block id="a5b238fa2c3059fafa096070c01245a3" category="doc">了解 E 系列控制器的 IP 位址分配</block>
+  <block id="84e1a7e377374cd578c829ac734ca1b1" category="doc">了解 SANtricity System Manager 中的控制器狀態</block>
+  <block id="3e4ca6f5f42e0015e4c9dfee09a5dcc0" category="doc">了解 SANtricity System Manager 中的磁碟機狀態</block>
+  <block id="0ff6204b4922a614f054cf74d19b5033" category="doc">在 SANtricity System Manager 中擦除磁碟機</block>
+  <block id="4a14bf0b2df804251e27c193a6a0765f" category="doc">在 SANtricity System Manager 中手動關閉磁碟機</block>
+  <block id="4e93b8b944e5c04bea9b9d1730a25d24" category="doc">SANtricity System Manager 硬體頁面和元件</block>
+  <block id="4dc44f8dbe6ad59382a81af1f307e488" category="doc">了解 SANtricity 軟體中使用的硬體術語</block>
+  <block id="acaa93f0c47521f4f2f9398239806b48" category="doc">了解 SANtricity System Manager 中的熱備用驅動器</block>
+  <block id="a4db80cf14327a39f06d517d526b499b" category="doc">在 SANtricity System Manager 中初始化（格式化）磁碟機</block>
+  <block id="f59aa10f5efd30da7726822e94f66de3" category="doc">在 SANtricity System Manager 中篩選磁碟機視圖</block>
+  <block id="3d1cf52a63b21d443e1cf92f6943bea9" category="doc">在 SANtricity System Manager 中檢視和管理硬體元件</block>
+  <block id="bc002fb1c00b485cb67eb27376711964" category="doc">在 SANtricity System Manager 中將控制器置於服務模式</block>
+  <block id="baa8f21cf13b83a225b1c7853c8625cb" category="doc">在 SANtricity System Manager 中將控制器置於離線狀態</block>
+  <block id="d2f436ef9eb00d0e92e11a9d418eadc8" category="doc">在 SANtricity System Manager 中將控制器置於線上狀態</block>
+  <block id="c3b7a3c7230a12b101d55060d1570cca" category="doc">在 SANtricity System Manager 中手動重建磁碟機</block>
+  <block id="569a85590c4c73a17007b1bde319b3b8" category="doc">在 SANtricity System Manager 中邏輯取代磁碟機</block>
+  <block id="625d3b8a8a0203cf44e0f6efaf6a34ea" category="doc">在 SANtricity System Manager 中重置（重新啟動）控制器</block>
+  <block id="e51433051a984f5e19002bc90747281b" category="doc">在 SANtricity System Manager 中顯示或隱藏元件狀態</block>
+  <block id="4e9beac4b22e622f0d3183b6f9575a00" category="doc">了解 SANtricity System Manager 中的固態磁碟 (SSD)</block>
+  <block id="650a82d4acfd7f1b8552e6a97a27a62b" category="doc">在 SANtricity System Manager 中顯示正面和背面視圖</block>
+  <block id="fbcb1ff48c181cd2172f9bbafd85feef" category="doc">在 SANtricity System Manager 中開啟磁碟機定位器指示燈</block>
+  <block id="2efbaccdd317d40351cbd3b0078ba4e5" category="doc">在 SANtricity System Manager 中開啟機架定位燈</block>
+  <block id="27524250c330c0c3b3e4d14953ab61ba" category="doc">在 SANtricity System Manager 中取消分配熱備用</block>
+  <block id="006fe7517749b9bc8c427c28d3a5fd5d" category="doc">在 SANtricity System Manager 中解鎖或重設鎖定的 NVMe 或 FIPS 磁碟機</block>
+  <block id="af1c7ebf693b4b6f684fcbcf0bad3fe0" category="doc">在 SANtricity System Manager 中更新電池學習週期</block>
+  <block id="3b154a12ff75488de9bffb20316dc845" category="doc">在 SANtricity System Manager 中查看控制器設定</block>
+  <block id="019cd8fdd410c8e21ac8e48aa82391f2" category="doc">在 SANtricity System Manager 中查看磁碟機狀態和設定</block>
+  <block id="c524d0a4d62606457b777ef541ea9347" category="doc">在 SANtricity System Manager 中查看硬體元件</block>
+  <block id="9e9cedf03a8665e4bad051e08cd66766" category="doc">在 SANtricity System Manager 中查看機架組件狀態和設定</block>
+  <block id="69985995523c2d426b66408d7daed125" category="doc">在 SANtricity System Manager 中管理密碼保護</block>
+  <block id="19f7c1453dbda42210e85ff75ce6eff2" category="doc">了解 SANtricity System Manager 主頁</block>
+  <block id="5c32253d600042425394ed5980d9be38" category="doc">了解 SANtricity System Manager 操作進度頁面</block>
+  <block id="58a34f657d81d7edfbaed6401bb0f515" category="doc">了解 SANtricity System Manager 介面</block>
+  <block id="33e2da76f04b079e476aa9cac594b266" category="doc">了解 SANtricity System Manager 問題通知</block>
+  <block id="84c667f2d1e6dc3b9cfc907f53006d6b" category="doc">使用 SANtricity System Manager Recovery Guru 復原問題</block>
+  <block id="547886ecd6f44d1e94d51c7a824cdf5c" category="doc">在 SANtricity System Manager 中設定效能圖的預設時間範圍</block>
+  <block id="32fc217fc1fed4d84d398e41c515b71d" category="doc">在 SANtricity System Manager 中設定容量值的預設單位</block>
+  <block id="427aa43b9cdc2defe80f26a9b8201921" category="doc">了解 SANtricity System Manager 安裝精靈</block>
+  <block id="cdc0f9266381611530583b5dbc95a241" category="doc">檢視並執行 SANtricity System Manager 中正在進行的操作</block>
+  <block id="da92aaa9d58d31bf3512ac56ae148a38" category="doc">在 SANtricity System Manager 中查看儲存層次結構</block>
+  <block id="f9b276c09a9e51a75340fb1dfc3ed5b3" category="doc">在 SANtricity System Manager 中查看非同步鏡像狀態</block>
+  <block id="b20236a95c5f1bc7346a4ac7f1eebdd7" category="doc">了解 SANtricity 軟體中的非同步鏡像術語</block>
+  <block id="27c9d2020a7ee9c9a172785caee2aa42" category="doc">在 SANtricity System Manager 中將鏡像一致性群組角色變更為主或輔助</block>
+  <block id="17823d78ef73f722cb5ec83d77a0f31e" category="doc">在 SANtricity System Manager 中變更鏡像對中磁碟區之間的角色</block>
+  <block id="e344db326042f633dec679fb389ca0e4" category="doc">在 SANtricity System Manager 中變更鏡像一致性群組的同步設定</block>
+  <block id="b571c7942921f56e38dc2234119600d8" category="doc">在 SANtricity System Manager 中變更鏡像對的同步設定</block>
+  <block id="af90f6617180555848d0d0edc437d6e1" category="doc">在 SANtricity System Manager 中變更鏡像對磁碟區的預留容量設定</block>
+  <block id="b052df0a73bcccc6ed7511b3380c1c60" category="doc">在 SANtricity System Manager 中完成在舊系統上建立的主磁碟區的鏡像對</block>
+  <block id="5e5c7541af958458f1ac268b6712c5b5" category="doc">在 SANtricity System Manager 中停用非同步鏡像</block>
+  <block id="b92bbd05d370531c1aa6532c3519f954" category="doc">在 SANtricity System Manager 中停用同步鏡像</block>
+  <block id="2ce490e8da130e3ad278fad4b8eee537" category="doc">在 SANtricity System Manager 中刪除鏡像一致性群組</block>
+  <block id="81b2556e4fd871f9ea682e69a232b804" category="doc">非同步鏡像在 SANtricity System Manager 中的工作方式</block>
+  <block id="e9d5efeaff5fce51394bba9ee3af6eac" category="doc">SANtricity System Manager 中的同步鏡像運作原理</block>
+  <block id="026ccf050237d46deb2637acd910f852" category="doc">增加 SANtricity System Manager 中的預留容量</block>
+  <block id="b2cce2e99d90dba951300d4a07acdb14" category="doc">了解 SANtricity 軟體中的非同步鏡像</block>
+  <block id="0f972a72bd5aee334d59e1b29c5fab31" category="doc">了解 SANtricity 軟體中的同步鏡像</block>
+  <block id="7926a1ac9382d00cfc6590c0c80ef6be" category="doc">在 SANtricity System Manager 中手動重新同步鏡像一致性群組</block>
+  <block id="f1c3f1483418f4843025c78102b16af4" category="doc">在 SANtricity System Manager 中刪除非同步鏡像關係</block>
+  <block id="288e2c16d3025c5aeb7ddfdcf7e12576" category="doc">在 SANtricity System Manager 中刪除同步鏡像關係</block>
+  <block id="7c24c58ebddc7ce4f60ae6f4686a8cc1" category="doc">在 SANtricity 軟體中使用非同步鏡像的要求</block>
+  <block id="2d0b5b4cae00ca0b94335defe5fc08fe" category="doc">在 SANtricity 軟體中使用同步鏡像的要求</block>
+  <block id="842e6d9c2ca7e55947da010574d7e7c1" category="doc">在 SANtricity 軟體中變更鏡像一致性群組角色</block>
+  <block id="0d1b357841241bc8e28cae55f9a67ffd" category="doc">了解 SANtricity 軟體中鏡像對中的捲角色變化</block>
+  <block id="cc26556700cde643f7a4998ca0976a84" category="doc">在 SANtricity System Manager 中暫停和恢復鏡像對的同步</block>
+  <block id="792c6be07e358d94fe968a169f79db04" category="doc">在 SANtricity System Manager 中暫停或復原鏡像一致性群組的同步</block>
+  <block id="9212fc74e3a656c3e279ca35e552e4b8" category="doc">了解 SANtricity System Manager 中的同步鏡像狀態</block>
+  <block id="4f8462d7e51cbebb3142f0e3ef3307d5" category="doc">了解 SANtricity 軟體中的同步鏡像術語</block>
+  <block id="43a0f9d96717dc640a9f5807452d5629" category="doc">在 SANtricity System Manager 中測試鏡像一致性群組的通訊</block>
+  <block id="440e769d8cd1305095a160989cbe81dc" category="doc">在 SANtricity System Manager 中測試同步鏡像的通訊</block>
+  <block id="515576da6c365e178e990e12007bd60f" category="doc">在 SANtricity System Manager 中更新遠端儲存陣列 IP 位址</block>
+  <block id="8d7b05b34155e2c1e475071247cd76bf" category="doc">在 SANtricity System Manager 中檢視鏡像一致性群組之間不同步的資料量</block>
+  <block id="2362f7bbc535b1dc6072c22c675c861e" category="doc">了解 SANtricity 軟體中非同步鏡像的捲所有權</block>
+  <block id="91eafc3e8b902bfe2e658f3494dadf73" category="doc">了解 SANtricity 軟體中同步鏡像的捲所有權</block>
+  <block id="8a5d4160ce799475585f4a484b087ea4" category="doc">在 SANtricity 軟體中非同步鏡像卷</block>
+  <block id="6269a17f543c70330eed460dfbeb80cf" category="doc">在 SANtricity 軟體中同步鏡像卷</block>
+  <block id="a8fbfce67e03a9242f79c779433628dd" category="doc">了解 SANtricity 軟體中的存取管理術語</block>
+  <block id="7e99fcc276ed873dd7e2a3253d7cb578" category="doc">在 SANtricity System Manager 中建立存取令牌</block>
+  <block id="bfb6bcf04fa0010ea3a31baca8a4c547" category="doc">在 SANtricity System Manager 中編輯存取權杖設定</block>
+  <block id="a8e01fd75b10b5cf4680125403fa6462" category="doc">撤銷 SANtricity System Manager 中的存取令牌</block>
+  <block id="98e180b1b51e3a769b6b400a853b4fee" category="doc">了解存取權杖和 SANtricity 軟體</block>
+  <block id="12ef56ab57abceebe446bc84df46db66" category="doc">使用 SANtricity System Manager 中的目錄服務設定存取管理</block>
+  <block id="651d31373dfaa6016c9970348683a4e2" category="doc">在 SANtricity System Manager 中使用本機使用者角色設定存取管理</block>
+  <block id="f89df32ddf89eeb4831e3ce927641b0d" category="doc">在 SANtricity System Manager 中使用 SAML 設定存取管理</block>
+  <block id="f385220cdc8e60569df92b9d7eabb4c8" category="doc">在 SANtricity System Manager 中新增警報的電子郵件地址</block>
+  <block id="9f2b00c7fbe58a2fc27cd5892bd6e8e1" category="doc">在 SANtricity System Manager 中為 SNMPv2c 陷阱新增社區</block>
+  <block id="2996b5d1f418841877ba521f22a1ac71" category="doc">在 SANtricity System Manager 中新增 LDAP 目錄伺服器</block>
+  <block id="1add2c602a73f70727dcc02ebc0183e3" category="doc">了解 SANtricity 軟體中的附加功能術語</block>
+  <block id="5ed0f81554ae0eabdac354f2903435d3" category="doc">在 SANtricity System Manager 中新增用於警報的系統日誌伺服器</block>
+  <block id="b852b03f5700ffec0f5633999d44ad03" category="doc">在 SANtricity System Manager 中為 SNMP 警報新增陷阱目標</block>
+  <block id="a624afafd42ea61e954286a8478cdcb4" category="doc">在 SANtricity System Manager 中為 SNMPv3 陷阱新增用戶</block>
+  <block id="1384d2ebe5e4c835b00521b4dd55cb63" category="doc">了解 SANtricity 軟體中的警報術語</block>
+  <block id="cde20b00c713a71024aaf6b91fb3a41f" category="doc">了解 SANtricity 軟體中的自動負載平衡</block>
+  <block id="de4e7575d8ffa712788e75757d5fa706" category="doc">在 SANtricity System Manager 中備份安全性金鑰</block>
+  <block id="27960f0a7db696fb979bb30c1917b6b0" category="doc">了解 SANtricity 軟體中的憑證術語</block>
+  <block id="9133825713be9d2a3ddcdaa373e14c01" category="doc">在 SANtricity System Manager 中變更儲存陣列快取設置</block>
+  <block id="bbecc1006f2bb4546d102f8a67203b01" category="doc">在 SANtricity System Manager 中變更預設主機類型</block>
+  <block id="88eb4f592a68d5776107d8c99a7066ce" category="doc">在 SANtricity System Manager 中變更本機使用者密碼設定</block>
+  <block id="51cbce9ae4c6738cdb655b2add2d3463" category="doc">在 SANtricity System Manager 中變更密碼</block>
+  <block id="5dc76fd987aab3a3fbf897b0ec2a80aa" category="doc">在 SANtricity System Manager 中變更 SAML 角色映射</block>
+  <block id="f974f2a8ea64ba654368b13b359c8e80" category="doc">在 SANtricity System Manager 中變更安全性金鑰</block>
+  <block id="c3b02d54822be7ed1b1a37dca62e2a89" category="doc">在 SANtricity System Manager 中清除儲存陣列配置</block>
+  <block id="d311e680ec4a09af5d99abdf07494585" category="admonition">儲存陣列將進入復原模式。您必須先清除復原模式，然後才能使用儲存陣列。如需詳細資訊、請參閱<block ref="2001d2a7db4dcda6fdf0cd414d6f8462" category="inline-link-rx"></block> 。</block>
+  <block id="f907479db49f2301fb89eb887513c6c4" category="doc">在 SANtricity System Manager 中設定 iSCSI 驗證</block>
+  <block id="9129e2c71e39b1808fe77d677121f39d" category="doc">在 SANtricity System Manager 中配置登入橫幅</block>
+  <block id="c819a7dac222c0c592d7eeaffa79fd13" category="doc">在 SANtricity System Manager 中設定郵件伺服器和警報收件者</block>
+  <block id="75f3ae3f8c17bc63af094f2dbf71af02" category="doc">在 SANtricity System Manager 中配置 SAML</block>
+  <block id="440dec11d54b9a34e0e895e508ec1828" category="doc">在 SANtricity System Manager 中設定 SNMP 警報</block>
+  <block id="91edc2da7832cd81e8040e979a904659" category="doc">在 SANtricity System Manager 中設定 SNMP MIB 變數</block>
+  <block id="078ea06e0d382d047e720a212443d871" category="doc">在 SANtricity System Manager 中設定 syslog 伺服器以接收警報</block>
+  <block id="304d676949c7e0155bcb685b1c2fb796" category="doc">在 SANtricity System Manager 中為稽核日誌配置 syslog 伺服器</block>
+  <block id="c0183ac54c5bccbeed16642ac6b34e07" category="doc">在 SANtricity System Manager 中建立外部安全性金鑰</block>
+  <block id="6b6193161b48b7cde8c03b98217111a7" category="doc">在 SANtricity System Manager 中建立內部安全性金鑰</block>
+  <block id="8161c0ee73ae73fc37314c652c79df73" category="doc">了解 SANtricity 軟體中的預設主機作業系統類型</block>
+  <block id="3613e7f17ca120b9580d1049fd30f81f" category="doc">在 SANtricity System Manager 中定義稽核日誌策略</block>
+  <block id="79a30833cf9264cdbc802ba226109b82" category="doc">在 SANtricity System Manager 中刪除警報的郵件伺服器或電子郵件地址</block>
+  <block id="cdc405abaf604313bed59282a1203e8c" category="doc">從 SANtricity System Manager 中的審核日誌中刪除事件</block>
+  <block id="45537ac2660f470d89198d9cced18fe9" category="doc">刪除 SANtricity System Manager 中警報的系統日誌伺服器</block>
+  <block id="4e6256ca8c4fa71022d3eaeee97b3b8c" category="doc">在 SANtricity System Manager 中刪除陷阱目標</block>
+  <block id="f619b095ff69ee2e39492981fab79a75" category="doc">在 SANtricity System Manager 中刪除受信任的憑證</block>
+  <block id="a51e02ec23d44482ee35f52a6cee39df" category="doc">下載 SANtricity 命令列介面 (CLI)</block>
+  <block id="2f525b8539b39a67b470766447ab5bca" category="doc">了解 SANtricity 軟體中的磁碟機安全性術語</block>
+  <block id="ccef233b8aa60591e10f80e9a07fa49b" category="doc">在 SANtricity System Manager 中編輯警報的電子郵件地址</block>
+  <block id="1f3d1096e329e5b75789b8b8e9ea9a0d" category="doc">在 SANtricity System Manager 中編輯 SNMPv2c 陷阱的社群</block>
+  <block id="e4fb8c940c30270291074c679a4c023e" category="doc">在 SANtricity System Manager 中編輯目錄伺服器設定和角色映射</block>
+  <block id="578a2b0614cfa178dd5cbacd04b5fb2d" category="doc">在 SANtricity System Manager 中編輯金鑰管理伺服器設定</block>
+  <block id="3823a38109a4335d2c849eec94137fb7" category="doc">在 SANtricity System Manager 中編輯警報郵件伺服器</block>
+  <block id="d9542b18a89159e096db1016f8d829c3" category="doc">在 SANtricity System Manager 中編輯儲存陣列名稱</block>
+  <block id="c9ba2e77e2a82fcac91ea09c7c958050" category="doc">在 SANtricity System Manager 中編輯稽核日誌記錄的 syslog 伺服器設置</block>
+  <block id="a8119e85bf377d3c639c56a0a32f52ba" category="doc">在 SANtricity System Manager 中編輯警報的系統日誌伺服器</block>
+  <block id="fd73f1b2be5817f542818738ca756ac3" category="doc">在 SANtricity System Manager 中編輯 SNMPv3 陷阱的使用者設置</block>
+  <block id="cd6772c520ae61b2688e50ac62b1a1d2" category="doc">在 SANtricity System Manager 中啟用憑證撤銷檢查</block>
+  <block id="6dc937bc5628a4386cadff95dc13abbf" category="doc">在 SANtricity System Manager 中啟用功能包</block>
+  <block id="a6e39f09e3f79f9b3c4efeca18492765" category="doc">在 SANtricity System Manager 中啟用 iSCSI 發現設置</block>
+  <block id="95d8541a159451a64c0bdb938e4bcf77" category="doc">在 SANtricity System Manager 中啟用或停用舊式管理介面</block>
+  <block id="10aff6802167a5ac9452c8b14db4242c" category="doc">在 SANtricity System Manager 中啟用或停用新磁碟區組或池的資源配置</block>
+  <block id="0abacd1ccd573c3fe9da6489ccb14a34" category="doc">在 SANtricity System Manager 中啟用進階功能</block>
+  <block id="d58c9e6d59208ed869a5a6027d70f7f1" category="doc">在 SANtricity System Manager 中結束 iSCSI 會話</block>
+  <block id="6f498623a1b6cc1d1ed3a98feb04e6c4" category="doc">在 SANtricity System Manager 中匯出金鑰管理伺服器憑證</block>
+  <block id="94637ab9cad9908845d1b9eb4a7a3f5b" category="doc">在 SANtricity System Manager 中匯出 SAML 服務提供者文件</block>
+  <block id="ee5e02e3e6430426582311b05aa6660c" category="doc">SANtricity System Manager 中的存取管理工作原理</block>
+  <block id="328c77bafebc1309c9997752d43bbd57" category="doc">SANtricity System Manager 中的附加功能如何運作</block>
+  <block id="1d3bc635d79ab3544cca66f6b35fc8a7" category="doc">SANtricity System Manager 中的警報工作原理</block>
+  <block id="2d08c425e5df039556cb7f8b1cf9b3ff" category="doc">憑證在 SANtricity System Manager 中的工作方式</block>
+  <block id="27bdf3ead650486aebb952ecf83b0f4a" category="doc">SANtricity System Manager 中的安全金鑰管理工作原理</block>
+  <block id="0127eb4ceb8184bc8788f2f8e705e869" category="doc">SANtricity System Manager 中的磁碟機安全功能如何運作</block>
+  <block id="a0deb44d63d5f738f7550059d305633f" category="doc">在 SANtricity System Manager 中充當客戶端時導入控制器的憑證</block>
+  <block id="acb821d135d279a55a79fc28435f0e27" category="doc">在 SANtricity System Manager 中管理會話逾時</block>
+  <block id="5f822c60893c9bb2c258abe33195c314" category="doc">了解 NVMe 和 SANtricity 軟體</block>
+  <block id="90e38527b9b59d98d9e61a2e9b208145" category="doc">在 SANtricity System Manager 中取得功能金鑰文件</block>
+  <block id="394c8ed9f3c223f9bcf489a180184e41" category="doc">了解 SANtricity System Manager 中的存取管理</block>
+  <block id="e7d845895b4a8391f704543dddac2b30" category="doc">了解 SANtricity System Manager 中的警報</block>
+  <block id="4e0705446c75aaa8c722d01477add263" category="doc">了解 SANtricity System Manager 中的憑證</block>
+  <block id="2cacee96f6e579cecc30bd9716d2b304" category="doc">了解 SANtricity System Manager 中的磁碟機安全性</block>
+  <block id="ae48cd923fae951bb620af759c7d55b2" category="doc">了解 SANtricity System Manager 中的設定概述</block>
+  <block id="18edfcf681469261c28a2bea1990ea7c" category="doc">了解 SANtricity System Manager 中映射角色的權限</block>
+  <block id="fbf1a8e12861c428c9880acfae54cb14" category="doc">在 SANtricity System Manager 中刪除 SNMPv2c 陷阱的社群</block>
+  <block id="f4e6a2ce83fceea85080a8b1da16b11b" category="doc">在 SANtricity System Manager 中刪除目錄伺服器</block>
+  <block id="0e0b711e14d848611081dd0c7c5bfd84" category="doc">在 SANtricity System Manager 中刪除 SNMPv3 陷阱的用戶</block>
+  <block id="c93553d53b7594a2f55ac551dee2a7cd" category="doc">在 SANtricity System Manager 中重置管理憑證</block>
+  <block id="22df0766fabfc3aa8c477941ae92c9d1" category="doc">在 SANtricity System Manager 中儲存儲存陣列配置</block>
+  <block id="9250977b6fc74e450587fba1db99f008" category="doc">在 SANtricity System Manager 中設定自動負載平衡</block>
+  <block id="4e70ce522d6b7b255672b9f2b7f05e54" category="doc">在 SANtricity System Manager 中設定主機連線報告</block>
+  <block id="00777c3320e115287926e31250ef4795" category="doc">在 SANtricity System Manager 中從外部金鑰管理切換到內部金鑰管理</block>
+  <block id="6920c227f5515cf38df838a7fe711fbb" category="doc">在 SANtricity System Manager 中同步儲存陣列時鐘</block>
+  <block id="d39867f534eecef2c702a868fff1675b" category="doc">在 SANtricity System Manager 中開啟儲存陣列定位器燈</block>
+  <block id="64b2495c2fe314d34754523613020356" category="doc">在 SANtricity System Manager 中使用外部金鑰管理時解鎖磁碟機</block>
+  <block id="390e79029af21ff41137881f05857435" category="doc">在 SANtricity System Manager 中使用內部金鑰管理時解鎖磁碟機</block>
+  <block id="dab3bfe38b7f2554e1401a2ef31824e9" category="doc">使用 CA 簽章憑證透過 SANtricity System Manager 中的金鑰管理伺服器進行驗證</block>
+  <block id="bdae02098d2024cc99f583c8528a34e0" category="doc">在 SANtricity System Manager 中為控制器使用 CA 簽署的憑證</block>
+  <block id="ac84474de686243b90bb777f8ce6e019" category="doc">在 SANtricity System Manager 中驗證安全性金鑰</block>
+  <block id="838be43bb8157a4382de7c0df9a5848e" category="doc">在 SANtricity System Manager 中查看稽核日誌活動</block>
+  <block id="39362ae8f84d6584f46edbb1ea9c559a" category="doc">在 SANtricity System Manager 中查看導入的憑證信息</block>
+  <block id="aff17649c80932061abc5a42b1abbe5f" category="doc">在 SANtricity System Manager 中查看 iSCSI 會話</block>
+  <block id="847baa2f24dccef8116075c271dc72e7" category="doc">在 SANtricity System Manager 中查看 iSCSI 統計資料包</block>
+  <block id="6358465b52f1825fa1da1a26df55562a" category="doc">在 SANtricity System Manager 中查看 InfiniBand 上的 iSER 統計數據</block>
+  <block id="d38bece8b648942330106166d2cdf120" category="doc">在 SANtricity System Manager 中查看本機使用者角色</block>
+  <block id="d5e080d237b212ab36f7152eaca280fe" category="doc">在 SANtricity System Manager 中查看 NVMe over Fabrics 統計資料</block>
+  <block id="3d537bd80e746a786e54f263aba798db" category="doc">存取 SANtricity System Manager 中的捲</block>
+  <block id="7ae0437fb66cb1d11d9ba880d1855d4c" category="doc">您可以在 SANtricity System Manager 中對磁碟區執行的操作</block>
+  <block id="ba8875d55ed38186f452f0779c05022c" category="doc">在 SANtricity System Manager 中啟動和暫停快照計劃</block>
+  <block id="12646556c051d8afb3253ce36273ad1c" category="doc">在 SANtricity System Manager 中為池或磁碟區組新增容量</block>
+  <block id="c5a40eee53e3a6a046bdea74e93f749f" category="doc">在 SANtricity System Manager 中將成員磁碟區新增至快照一致性群組</block>
+  <block id="c82d281f4a42668c59b407c5439f7041" category="doc">在 SANtricity System Manager 中將磁碟區新增至工作負載</block>
+  <block id="346683dc1d86ee2232d45a02874e70f6" category="doc">在 SANtricity System Manager 中將磁碟區指派給主機</block>
+  <block id="509488a264daaa2f4c25a1fa7afa1f46" category="doc">了解 SANtricity System Manager 中的自動池建立與手動池建立</block>
+  <block id="80764ae4bac51ce96a179980b0272cd5" category="doc">取消 SANtricity System Manager 中的待處理快照映像</block>
+  <block id="a5f504929c631626bde694e07e40402f" category="doc">在 SANtricity System Manager 中取消快照映像回滾</block>
+  <block id="f6451e9b8258e70783f6678ce4a78412" category="doc">如何在 SANtricity System Manager 中指派磁碟區容量</block>
+  <block id="a22bf3ba1965f4018179bbe16740c08b" category="doc">了解 SANtricity 軟體中的容量術語</block>
+  <block id="9e7606366310838bc01463b6e40b71cf" category="doc">在 SANtricity System Manager 中變更精簡磁碟區的分配容量限制</block>
+  <block id="ba7d755ec0c4f655c206cd6915083206" category="doc">在 SANtricity System Manager 中變更磁碟區的快取設置</block>
+  <block id="876346aa2afb1152de2f75b929ce9a97" category="doc">在 SANtricity System Manager 中變更池的配置設定</block>
+  <block id="8771cd1871dc7f6b5ea1555fac615482" category="doc">在 SANtricity System Manager 中變更卷宗組的配置設定</block>
+  <block id="5d7ac761a2adcb6471bc2396180e6cd7" category="doc">在 SANtricity System Manager 中變更磁碟區的控制器所有權</block>
+  <block id="9d0eef6ca8a369214dae3893a569a26d" category="doc">在 SANtricity System Manager 中變更主機的主機連接埠標識符</block>
+  <block id="976d5b100c8bb46a978d025d54df9db7" category="doc">在 SANtricity System Manager 中變更磁碟區的媒體掃描設置</block>
+  <block id="32106203ac6ae6e19b181aff1dbd5ed2" category="doc">變更 SANtricity System Manager 中的磁碟區設定</block>
+  <block id="d93ede7c0a9199ba535682cd36adfd6b" category="doc">在 SANtricity System Manager 中變更 SSD 快取設置</block>
+  <block id="322aaec0ca97fbcb9472361aaa86b9bb" category="doc">在 SANtricity System Manager 中變更一致性群組成員磁碟區的預留容量設定</block>
+  <block id="2129449eac2f1abcf7571dadc500ed44" category="doc">在 SANtricity System Manager 中變更快照群組的預留容量設定</block>
+  <block id="1a58763a2cba36bf2c96c197a7468796" category="doc">在 SANtricity System Manager 中變更快照磁碟區的預留容量設定</block>
+  <block id="ae19203212746b298487caffc894114f" category="doc">在 SANtricity System Manager 中變更主機叢集的設置</block>
+  <block id="8a7e1ef4bbc2211e7f5a82552f991017" category="doc">在 SANtricity System Manager 中變更主機的設置</block>
+  <block id="027bd5c8f9103029b8be80e9fbb4c8f8" category="doc">在 SANtricity System Manager 中變更快照一致性群組的設置</block>
+  <block id="02c61f2208b07fccaf99cf3021683fca" category="doc">變更 SANtricity System Manager 中的快照計畫設定</block>
+  <block id="2d7b65b82c1f0b9693bcaec90915566b" category="doc">在 SANtricity System Manager 中變更快照磁碟區的磁碟區設定</block>
+  <block id="2bbf6db559a55a9597ef3a1331156b4b" category="doc">在 SANtricity System Manager 中變更工作負載設定</block>
+  <block id="7b593eeadba9048e035e5e95858a4f3f" category="doc">在 SANtricity System Manager 中檢查磁碟區冗餘</block>
+  <block id="0097a0f3241434bae78043e2c521dcb5" category="doc">了解 SANtricity 軟體中的厚捲和薄卷</block>
+  <block id="9483c72f80e16ad2a8994ff6242b6fbf" category="doc">在 SANtricity System Manager 中整合卷宗組的可用容量</block>
+  <block id="cebf235e245ac1727a4fb08543606201" category="doc">在 SANtricity System Manager 中將快照磁碟區轉換為讀寫模式</block>
+  <block id="94e367453c588ed2953d8cdaf12bd179" category="doc">在 SANtricity System Manager 中複製快照卷</block>
+  <block id="e28693570486edcbf19eae6d1bf4e000" category="doc">了解 SANtricity System Manager 中的複製卷</block>
+  <block id="cb4d76dfabd71388f81783d1f6683914" category="doc">在 SANtricity System Manager 中複製卷</block>
+  <block id="45ee11bb89ac8fecb5fedf3c63bca9ae" category="doc">在 SANtricity System Manager 中建立主機集群</block>
+  <block id="d5a35385e3c41cf9fd9e2f0a4a94c813" category="doc">在 SANtricity System Manager 中手動建立主機</block>
+  <block id="9469b5d2a997e9b9a4959b3cd44efbda" category="doc">在 SANtricity System Manager 中自動建立池</block>
+  <block id="f6d986e7a4c8c449c4df2c55a996b739" category="doc">在 SANtricity System Manager 中手動建立池</block>
+  <block id="385f418e214bdb6723032ee80bc9d225" category="doc">在 SANtricity System Manager 中建立快照一致性群組</block>
+  <block id="96f6bbb92838490ba4cfd5e4fdb34676" category="doc">在 SANtricity System Manager 中建立快照映像</block>
+  <block id="092ce361ed9559ba823bac0c5c8c97be" category="doc">在 SANtricity System Manager 中建立快照卷</block>
+  <block id="eb3abb20820606d928fae99a14f6f642" category="doc">在 SANtricity System Manager 中建立 SSD 快取</block>
+  <block id="241d4844735147be96e18c62745d0aba" category="doc">在 SANtricity System Manager 中建立磁碟區組</block>
+  <block id="d70d3c3654f0dc1516e419e794c4e634" category="doc">在 SANtricity System Manager 中建立磁碟區</block>
+  <block id="ee8139e7a79d1303ae381079df78417a" category="doc">在 SANtricity System Manager 中建立工作負載</block>
+  <block id="9e8f2d62c9dcd77c3af552f4dc422803" category="doc">了解 SANtricity 軟體中捲的資料完整性和資料安全性</block>
+  <block id="a972ddc2555e0c0f6f4250942ecf95ce" category="doc">了解 SANtricity 軟體中的池和卷組</block>
+  <block id="37e9db9b7a1415532978e5e59b0e1792" category="doc">減少 SANtricity System Manager 中的預留容量</block>
+  <block id="0f065244a3565fda62f0c2976c388d92" category="doc">在 SANtricity System Manager 中刪除主機或主機集群</block>
+  <block id="c5c9cf2ee2dcd4d87d04772b62b322f4" category="doc">在 SANtricity System Manager 中刪除池或磁碟區組</block>
+  <block id="09ddd2005bda93faab1279791c1ad740" category="doc">在 SANtricity System Manager 中刪除快照一致性群組</block>
+  <block id="35a797765daa950b34d70d1b300689a5" category="doc">在 SANtricity System Manager 中刪除快照群組</block>
+  <block id="9e77eb00cb754a6a026e090b87e2b312" category="doc">在 SANtricity System Manager 中刪除快照映像</block>
+  <block id="bed6e6ab9580560abff8902133b2d790" category="doc">在 SANtricity System Manager 中刪除快照計劃</block>
+  <block id="bb911c27080e432d25f5cd8fb82c2f19" category="doc">在 SANtricity System Manager 中刪除快照磁碟區</block>
+  <block id="699d3c8de2c6b58221acff3442153e07" category="doc">在 SANtricity System Manager 中刪除磁碟區</block>
+  <block id="eb78bb0efa13b98850811f7037ae0248" category="doc">在 SANtricity System Manager 中啟用或停用現有磁碟區組和池的資源配置</block>
+  <block id="1c92a73211bcb188f3b5f2030d1a25ec" category="doc">在 SANtricity System Manager 中停用快照卷</block>
+  <block id="acca3d436b0bbe84c91c35c048a92083" category="doc">在 SANtricity System Manager 中為池或磁碟區組啟用安全性</block>
+  <block id="fbca024c709800ed9d79d8d98711710e" category="doc">在 SANtricity CLI 中匯出/匯入磁碟區組</block>
+  <block id="784971b82053a9ec4e8b050ed269b12e" category="doc">了解 SANtricity 軟體中的主機術語</block>
+  <block id="72a46a8edc58469b2f88fda748ddd4bb" category="doc">池和卷組在 SANtricity 軟體中的工作原理</block>
+  <block id="e262c7061ccf9614b315a45f2b000f9e" category="doc">SANtricity 軟體中的預留容量運作原理</block>
+  <block id="9266af538e0dac8d3b6cac89f8d44f98" category="doc">SANtricity 軟體中的快照儲存運作原理</block>
+  <block id="3238be27f78645ac1292e42c24181394" category="doc">SSD 快取在 SANtricity 軟體中的工作原理</block>
+  <block id="c5e2b4d9edd295e4401e7a8af50e8885" category="doc">如何在 SANtricity 軟體中將磁碟區指派給主機和主機叢集</block>
+  <block id="2cf3377f31335a0a3de5985e36ada500" category="doc">SANtricity 軟體中的磁碟區工作原理</block>
+  <block id="b5737f8b0357274da1616dd64fdf26d9" category="doc">SANtricity 軟體中的工作負載運作原理</block>
+  <block id="f9ab1379c579b2393b9bf8aba288559d" category="doc">增加 SANtricity System Manager 中捲的容量</block>
+  <block id="fe02b7fc1c3f72ac227996fa4fd0227a" category="doc">在 SANtricity System Manager 中初始化卷</block>
+  <block id="9d4b81d6353945511bba44b53f060178" category="doc">解讀 SANtricity System Manager 中的效能數據</block>
+  <block id="b8f664f5fc973a8d1f414e6e339615b0" category="doc">在 SANtricity System Manager 中管理應用程式和工作負載</block>
+  <block id="ad45b02bb613f89a36807319b8b1c991" category="doc">了解 SANtricity System Manager 中的手動主機建立</block>
+  <block id="341c80e43a8a914f71a2e7ad4a5f7fda" category="doc">了解 SANtricity 軟體中的最大 LUN 數量</block>
+  <block id="5910120f88b026d84ccb959f3e061afb" category="doc">在 SANtricity System Manager 中監控精簡卷</block>
+  <block id="dd0d36753dad2d9b708f3e0143f81e15" category="doc">了解 SANtricity 軟體中的主機和主機集群</block>
+  <block id="84606dd9cabb3b19867d6f645fd8c8a8" category="doc">了解 SANtricity System Manager 中的效能概述</block>
+  <block id="6153428cf786fb4d7b2d14144b207d2d" category="doc">了解 SANtricity System Manager 中的池和磁碟區組</block>
+  <block id="31599231d5b8254d0d62975d0cdbf117" category="doc">了解 SANtricity System Manager 中的遠端儲存功能</block>
+  <block id="c208bf91e8a0df25bb7b48152e8204a5" category="doc">了解 SANtricity System Manager 中的快照</block>
+  <block id="b5a3371dc2d8a29f4873f495b92d247a" category="doc">了解 SANtricity System Manager 中的磁碟區和工作負載</block>
+  <block id="731e43a989aca6062649b6099aea7cd9" category="doc">了解 SANtricity System Manager 中的效能圖表和指南</block>
+  <block id="d3c3d5c671cfe29f288d108c475d0cea" category="doc">了解 SANtricity 軟體中的效能術語</block>
+  <block id="e47dd25f85e15805b5f310c947b42bca" category="doc">在 SANtricity System Manager 中重新建立快照磁碟區</block>
+  <block id="70474cf06dc73d58a01a97006cd687ed" category="doc">在 SANtricity System Manager 中重新指派磁碟區</block>
+  <block id="1f5cc0774a4c5896a1fb25c090efb928" category="doc">從 SANtricity System Manager 中的池或 SSD 快取中刪除容量</block>
+  <block id="da30c6e6de44aadac9f61229e5115658" category="doc">從 SANtricity System Manager 中的快照一致性群組中刪除成員卷</block>
+  <block id="f2db3cbe9a176b268ceff67072def08d" category="doc">SANtricity System Manager 中的快照需求和指南</block>
+  <block id="532efc960c239d58c30eb4d8254f3ac4" category="doc">在 SANtricity System Manager 中還原快照映像回滾</block>
+  <block id="83e9ff341dfee574c32441ab8b662616" category="doc">遠端儲存在 SANtricity 軟體中的工作原理</block>
+  <block id="e6ac89d8f6549854ff238879c90d974e" category="doc">在 SANtricity System Manager 中導入遠端存儲</block>
+  <block id="a5a3cec422c98a6055cafd0fbb1884d1" category="doc">在 SANtricity System Manager 中管理遠端儲存導入的進度</block>
+  <block id="7f5129743a0f50bc41a8c9a062a8bab5" category="doc">在 SANtricity System Manager 中修改遠端儲存的連線設定</block>
+  <block id="2e2d253f7cd81ceb6bcba438c519b2ee" category="doc">了解 SANtricity 軟體中的遠端儲存功能要求</block>
+  <block id="f7776c2d857931b11f315d9f567809aa" category="doc">了解 SANtricity 軟體中的遠端儲存卷要求</block>
+  <block id="fccbb682788c68809a3443edfb4277e8" category="doc">在 SANtricity System Manager 中刪除遠端儲存對象</block>
+  <block id="9bbd2c41600fb135b12ce4e029570cb3" category="doc">了解 SANtricity 軟體中的遠端儲存術語</block>
+  <block id="9995bb9afc99d41ab721f7f8cd86534a" category="doc">在 SANtricity System Manager 中安排快照映像</block>
+  <block id="c0b569d8ce87ac810947f22fb4605077" category="doc">了解 SANtricity 軟體中的快照回滾</block>
+  <block id="f8e23923415fcce5a7cdcdc2257e6d85" category="doc">了解 SANtricity System Manager 中的快照規劃和快照一致性群組</block>
+  <block id="b69d32f5fb8ab10915adbba619c0017e" category="doc">了解 SANtricity 軟體中的快照術語</block>
+  <block id="d1ed0fc7b9cdd69553d3bb787eec62b7" category="doc">了解 SANtricity 軟體中的快照卷</block>
+  <block id="6e9294ea12dc5399b02d69ef241e9fa9" category="doc">了解 SANtricity 軟體中的 SSD 快取和卷</block>
+  <block id="5d33e25c1d367155f7d3cae11424abaa" category="doc">了解 SANtricity 軟體中的 SSD 快取限制</block>
+  <block id="77f06e6fcf7554f7eea00f34f27b1301" category="doc">在 SANtricity System Manager 中啟動基本磁碟區的快照映像回滾</block>
+  <block id="d598aebdbf681a329fb0199bc184638c" category="doc">在 SANtricity System Manager 中啟動快照一致性群組成員磁碟區的快照映像回滾</block>
+  <block id="f148978799622908e86625a1be990510" category="doc">在 SANtricity System Manager 中對複製磁碟區操作採取行動</block>
+  <block id="21a1be4e8d1df5431436d38683ed51b8" category="doc">了解 SANtricity 軟體中的精簡捲監控</block>
+  <block id="70bac6cb7596a1c5682c0b4051f0160e" category="doc">在 SANtricity System Manager 中開啟池、磁碟區組或 SSD 快取中的定位器燈</block>
+  <block id="fa7759509da8c7c79ae9fb63775d856a" category="doc">了解 SANtricity 軟體中的複製卷操作類型</block>
+  <block id="d6e8360b2cb0d8e3e14484b82709a35a" category="doc">在 SANtricity System Manager 中取消分配卷</block>
+  <block id="83fc0ebc2ad61a3e97ce59f4fb9047f9" category="doc">在 SANtricity System Manager 中檢視並儲存表格效能數據</block>
+  <block id="797fb1139409c1127dd559f83c0bbe6b" category="doc">在 SANtricity System Manager 中查看圖形效能數據</block>
+  <block id="84d5b685a37be079a60f4b95f43b316a" category="doc">在 SANtricity System Manager 中查看快照映像設定</block>
+  <block id="9b6b546777e9f0c4bf77147600a53b2b" category="doc">在 SANtricity System Manager 中查看 SSD 快取統計資訊</block>
+  <block id="150d59a7387353231504faf7bf859a37" category="doc">了解 SANtricity 軟體中的捲術語</block>
+  <block id="03d6e8dbe8844e33147500a449a64865" category="doc">使用 SANtricity System Manager 中的複製服務</block>
+  <block id="b39156053f03ed44af37d8f2f50fb255" category="doc">SANtricity System Manager 中的主機建立和磁碟區分配的工作原理</block>
+  <block id="718da838e465d1abdbb88f3d4afe63d1" category="doc">如何在 SANtricity System Manager 中建立快照映像和快照卷</block>
+  <block id="9d122974ba94e0669b60b1256ad34bfd" category="doc">如何在 SANtricity System Manager 中建立卷</block>
+  <block id="2a6f1c9883df4f32f0e0cce228054d30" category="doc">在 SANtricity System Manager 中啟動控制器軟體和韌體</block>
+  <block id="dcc654c03fdd53146e27ae86d2a8d251" category="doc">了解 E 系列的 AutoSupport</block>
+  <block id="9e2da9890d81f2a3a0fd3c5aa502bbc2" category="doc">SANtricity 軟體中的清除復原模式</block>
+  <block id="cad307494928a47597a4d3f3f22e0549" category="doc">在 SANtricity System Manager 中收集配置數據</block>
+  <block id="4d610ec1d8da57ef3d3cb976ca9964e6" category="doc">在 SANtricity System Manager 中收集 I/O 路徑統計資訊</block>
+  <block id="3031fc1b7e95f47d5b6e408a1fe1da82" category="doc">在 SANtricity System Manager 中手動收集支援數據</block>
+  <block id="204c361119e43c0e1f9b8100678a1eb8" category="doc">在 SANtricity System Manager 中設定 AutoSupport 交付方法</block>
+  <block id="c533a68f4d1b6bd3604cb9c9d7f3efe6" category="doc">在 SANtricity System Manager 中停用 AutoSupport 維護窗口</block>
+  <block id="ceb37a3d20b732f1e9e18a021af8b44d" category="doc">在 SANtricity System Manager 中啟用 AutoSupport 維護窗口</block>
+  <block id="e6293a2da1040683d4c217a73bcaded8" category="doc">在 SANtricity System Manager 中啟用或停用 AutoSupport 功能</block>
+  <block id="03445e0c39174a97cf2215c8d7b43557" category="doc">在 SANtricity System Manager 中結束 iSCSI 會話</block>
+  <block id="2ef1bc8a31b44790bfa2373dac614173" category="doc">了解 SANtricity 軟體中的事件日誌</block>
+  <block id="2c3df2acde9fe7176be03c82187c5d37" category="doc">取得 SANtricity System Manager 支持</block>
+  <block id="6c247fdcaa3825d5dc1ae46f09e8ee20" category="doc">瞭解如何升級 SANtricity 軟體</block>
+  <block id="1df40413268ea802e8842361f2930e29" category="doc">在 SANtricity System Manager 中重新啟用磁碟機連接埠</block>
+  <block id="7463122a32a40f3e04176a4eb5ff44c2" category="doc">在 SANtricity System Manager 中檢索健康影像</block>
+  <block id="f030d9e0f32f240f816b1c3efb5a9eb0" category="doc">在 SANtricity System Manager 中檢索復原支援文件</block>
+  <block id="a4004de8d3a6553f6f7b5a30da919b92" category="doc">在 SANtricity System Manager 中檢索追蹤緩衝區</block>
+  <block id="44a6cbe3df16b1a1e8d0858832567f21" category="doc">了解 SANtricity 軟體和韌體升級錯誤</block>
+  <block id="0da414b6db8ea25737e4addb928b7678" category="doc">在 SANtricity System Manager 中安排 AutoSupport 調度</block>
+  <block id="f11e0d8e9c3ee108d5252105d6b3d146" category="doc">在 SANtricity System Manager 中傳送 AutoSupport 調度</block>
+  <block id="34b42367166dc58389323853b131ce17" category="doc">在 SANtricity System Manager 中對儲存陣列狀態採取復原作業</block>
+  <block id="9a7c99285024fd1a971ebff677e7e761" category="doc">在 SANtricity System Manager 中升級控制器軟體和韌體</block>
+  <block id="e732b095ef437b5257ca69ef28418fcd" category="doc">在 SANtricity System Manager 中升級磁碟機韌體</block>
+  <block id="22874b3b9dac20031165078a5de90f4d" category="doc">在 SANtricity System Manager 中查看 AutoSupport 日誌</block>
+  <block id="22fa42db986406a5c66610591a3e22dd" category="doc">在 SANtricity System Manager 中查看 AutoSupport 狀態</block>
+  <block id="8b33eabd8c76e2ac31fa5f17bd0e4fff" category="doc">使用 SANtricity System Manager 中的事件日誌檢視事件</block>
+  <block id="aa3d88e1e49082ff6c7c1cca8a8eac5d" category="doc">在 SANtricity System Manager 中查看軟體和韌體清單</block>
+  <block id="664d03b3e0f7be60fce96082fc9602bd" category="doc">在 SANtricity System Manager 中查看儲存陣列的信息</block>
+  <block id="526671aab5a269160910a134da3e3986" category="doc">在 SANtricity System Manager 中查看儲存陣列的設定檔</block>
+  <block id="f1ff77b3a9e0132d7bc42edd71e852cd" category="doc">查看 SANtricity System Manager 中不可讀磁區日誌</block>
+  <block id="599923004690b0c1117d7b708d7321cb" category="doc">在 SANtricity System Manager 中配置 AutoSupport</block>
+  <block id="3cd4b94b1c1fffe404c8c018c1791943" category="doc">了解 SANtricity Unified Manager 中的管理員密碼保護</block>
+  <block id="464b12e0772bcfed1c42bfa46f879dca" category="doc">在 SANtricity Unified Manager 中變更管理員密碼</block>
+  <block id="3438015d59c89bd0f7e2cad7ee17b809" category="doc">在 SANtricity Unified Manager 中變更儲存陣列密碼</block>
+  <block id="1204125f1034038b68d1105bbee4cd9a" category="doc">在 SANtricity Unified Manager 中管理會話逾時</block>
+  <block id="a54710832ee5a423064fca5395cf9042" category="doc">了解 SANtricity Unified Manager</block>
+  <block id="d8dd5de41b5b3a9fcb4c3b7a0881087b" category="doc">SANtricity Unified Manager 支援的瀏覽器</block>
+  <block id="d851bcacf6cd800c089a36d64d74a181" category="doc">了解 SANtricity Unified Manager 存取管理術語</block>
+  <block id="c130faf5f75c80684c1dcc31ac0d6406" category="doc">使用 SANtricity Unified Manager 中的目錄服務進行存取管理</block>
+  <block id="82a7b453e318f7a3bdf4692ba422e535" category="doc">SANtricity Unified Manager 中的本機使用者角色存取管理</block>
+  <block id="24656b3bd6cf5e93077f7198a4d813e8" category="doc">使用 SANtricity Unified Manager 中的 SAML 進行存取管理</block>
+  <block id="955cd4a17806922c8ca0dd3c53f0e180" category="doc">在 SANtricity Unified Manager 中新增目錄伺服器</block>
+  <block id="678fed422fa391c5a10436bb093756a0" category="doc">了解 SANtricity Unified Manager 中的憑證術語</block>
+  <block id="61127992be34b32f41d73f18997a8364" category="doc">在 SANtricity Unified Manager 中變更本機使用者密碼設定</block>
+  <block id="f7423e9d4df8d8e9084556e1c1ff38d9" category="doc">在 SANtricity Unified Manager 中變更本機使用者設定檔的密碼</block>
+  <block id="63476dfab5a207f15f6c7bc98ba041c7" category="doc">在 SANtricity Unified Manager 中變更 SAML 角色映射</block>
+  <block id="d0a4a6c7d15aa5527d6ff89876367125" category="doc">在 SANtricity Unified Manager 中設定 SAML</block>
+  <block id="3dcf9c1dd1b4202a536110fd5cce94a2" category="doc">在 SANtricity Unified Manager 中刪除受信任的憑證</block>
+  <block id="5a69d2b6ebb82e6f7ad7755f5d37f944" category="doc">在 SANtricity Unified Manager 中編輯目錄伺服器設定和角色映射</block>
+  <block id="c15e67f959fadc8aa0624cbde86d1a89" category="doc">在 SANtricity Unified Manager 中匯出憑證</block>
+  <block id="28af642d77e8f77cd9cbf0e0d8cfa319" category="doc">在 SANtricity Unified Manager 中匯出 SAML 服務提供者文件</block>
+  <block id="20771dd38b257635ef7043fb622c67b8" category="doc">SANtricity Unified Manager 中的存取管理工作原理</block>
+  <block id="2614871f4374ac34f686ead68cda088f" category="doc">憑證在 SANtricity Unified Manager 中的工作方式</block>
+  <block id="1c355b31500b8b7696a674f8e62e67fc" category="doc">在 SANtricity Unified Manager 中匯入陣列憑證</block>
+  <block id="921508962263d063ddb6cce204ce2579" category="doc">了解 SANtricity Unified Manager 存取管理</block>
+  <block id="91e41a40a4eb6b5380197bea8ac2abe6" category="doc">在 SANtricity Unified Manager 中啟動暫存作業系統軟體</block>
+  <block id="65c137fb34cd8343c6d0449542e02aa3" category="doc">清除 SANtricity Unified Manager 中的暫存作業系統軟體</block>
+  <block id="77b366da5cb379384d566c9e6549b813" category="doc">了解如何在 SANtricity Unified Manager 中發現儲存陣列</block>
+  <block id="44c75ca7aa3ade1a526c6fc1c7801b15" category="doc">在 SANtricity Unified Manager 中建立非同步鏡像對</block>
+  <block id="f704e986cac2a5d3d1355ea085884cae" category="doc">在 SANtricity Unified Manager 中設定儲存陣列群組</block>
+  <block id="c3d5dfbb534fb862e47732fe36583be8" category="doc">在 SANtricity Unified Manager 中建立同步鏡像對</block>
+  <block id="b8721ad259aeca37ccbc3dc6adcbab4f" category="doc">在 SANtricity Unified Manager 中刪除儲存陣列群組</block>
+  <block id="d64eea73e524455b96174c2f6402dc79" category="doc">在 SANtricity Unified Manager 中發現多個儲存陣列</block>
+  <block id="200b55ecf44e01b07228d86f14ac18a0" category="doc">在 SANtricity Unified Manager 中發現單一陣列</block>
+  <block id="fc93d33343fdfc3c73cfca172ffd6ebf" category="doc">了解如何在 SANtricity Unified Manager 中設定多個儲存陣列</block>
+  <block id="af25a8f324b7dbf97f90f90c3c71a997" category="doc">在 SANtricity Unified Manager 中匯入警報設定</block>
+  <block id="29d52818815ba6dd7c7a7c74d86c558a" category="doc">在 SANtricity Unified Manager 中匯入 AutoSupport 設定</block>
+  <block id="eb3fd545a78e3ee552c4a85ea9ea5aa0" category="doc">在 SANtricity Unified Manager 中匯入儲存配置設定</block>
+  <block id="83ab137f66017a61135aa46894ec318d" category="doc">在 SANtricity Unified Manager 中匯入系統設定</block>
+  <block id="0a853dc1023f2caadb8bfa27e8ad1273" category="doc">了解如何從 Unified Manager 存取 SANtricity System Manager</block>
+  <block id="88f73e2cd5f762edce7e3e3d70975b13" category="doc">在 SANtricity Unified Manager 中管理單一儲存陣列</block>
+  <block id="0397a3a58d5821945f8530d856fc1c18" category="doc">在 Unified Manager 中管理 SANtricity 軟體儲存庫</block>
+  <block id="dab3ba4d78fb907a2b857b70cff46835" category="doc">鏡像 SANtricity 配置工作流程</block>
+  <block id="3c093e9fa11cb83fdb4558d0ecf2443c" category="doc">了解 SANtricity 鏡像</block>
+  <block id="3b359f38e087517c0d02b105333d690f" category="doc">了解 SANtricity Unified Manager 中的鏡像術語</block>
+  <block id="273afb9794fcb75bd1b190680990764e" category="doc">了解如何在 SANtricity Unified Manager 中匯入儲存陣列設定</block>
+  <block id="782dea5f0e7d506c6ba4bafc90640252" category="doc">了解 SANtricity Unified Manager 中的群組概述</block>
+  <block id="746efcb7e933a3cf8db78361deec9a15" category="doc">了解 SANtricity Unified Manager 中的鏡像</block>
+  <block id="97a8edd259940a20fd1ace7cf0af3dfc" category="doc">了解 SANtricity Unified Manager 中的發現</block>
+  <block id="3a486a444a7e994002a2a326de7c9715" category="doc">了解 SANtricity Unified Manager 中的升級中心</block>
+  <block id="5abc1d0156d65f17f8756eb333623b9a" category="doc">在 SANtricity Unified Manager 中執行升級前健康檢查</block>
+  <block id="f79baa1058b14f4b32dc00bdc8d2ceda" category="doc">從 SANtricity Unified Manager 中的群組中刪除儲存陣列</block>
+  <block id="d63d0c7dfdc8a7552901436cde5658ab" category="doc">在 SANtricity Unified Manager 中重新命名儲存陣列群組</block>
+  <block id="a79c2f9262b82d53fa0ea61bc945844c" category="doc">在 SANtricity Unified Manager 中複製儲存陣列配置的要求</block>
+  <block id="fe015c845a17ffd8b3ccded4f1c7ec14" category="doc">在 SANtricity Unified Manager 中使用鏡像的要求</block>
+  <block id="ce0f43f0cff59f79cef9d24182d1c24b" category="doc">了解 SANtricity Unified Manager 中的儲存陣列群組</block>
+  <block id="76dc6c9aa3960fe34656b2f144f48c06" category="doc">在 SANtricity Unified Manager 中查看儲存陣列狀態</block>
+  <block id="9da51a1302e75e343632d510bb4cc161" category="doc">了解如何使用 SANtricity Unified Manager 升級多個儲存陣列</block>
+  <block id="de782f8cc63656476de5f5cd91b93ecb" category="doc">升級 SANtricity 作業系統</block>
+  <block id="a10a0fef1a8b50d16443976fedae1e16" category="section-title">11.90R3 版的新功能</block>
+  <block id="c78544d43a065eb825edb9e16bf0e9ad" category="paragraph">SANtricity 作業系統對 IOM12C 和 DCM3 的支持</block>
+  <block id="94d90ce4793f949687897ec062d97b9c" category="paragraph">控制器韌體版本 11.90R3 或更高版本現已支援 IOM12C 和 DCM3 SAS-3 磁碟架。 IOM12C和 DCM3 磁碟架將取代 IOM12B 和 DCM2 磁碟架。</block>
 </blocks>

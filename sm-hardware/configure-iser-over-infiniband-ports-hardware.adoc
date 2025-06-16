@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, iser, infiniband, ports, 
 summary: 如果您的控制器包含透過InfiniBand連接埠的iSER、您可以設定與主機的網路連線。 
 ---
-= 在InfiniBand連接埠上設定iSER
+= 在 SANtricity System Manager 中配置 iSER over InfiniBand 連接埠
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

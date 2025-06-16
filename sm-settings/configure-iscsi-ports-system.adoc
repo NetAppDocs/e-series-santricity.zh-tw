@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, iSCSI, ports, systems 
 summary: 如果您的控制器包含iSCSI主機連線、您可以從「System（系統）」頁面設定iSCSI連接埠設定。 
 ---
-= 設定iSCSI連接埠
+= 在 SANtricity System Manager 中配置 iSCSI 連接埠
 :allow-uri-read: 
 :experimental: 
 :icons: font

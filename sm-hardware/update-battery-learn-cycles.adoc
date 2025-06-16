@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, update, battery, learn, cycles 
 summary: 學習週期是自動校準智慧型電池電量表的週期。週期會排定在8週時間內（每個控制器）、於同一天和時間自動開始。如果您想要設定不同的排程、可以調整學習週期。 
 ---
-= 更新電池記憶週期
+= 在 SANtricity System Manager 中更新電池學習週期
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

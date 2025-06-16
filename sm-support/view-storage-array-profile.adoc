@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, storage, array, profile 
 summary: 儲存陣列設定檔提供儲存陣列所有元件和內容的說明。 
 ---
-= 檢視儲存陣列設定檔
+= 在 SANtricity System Manager 中查看儲存陣列的設定檔
 :allow-uri-read: 
 :experimental: 
 :icons: font

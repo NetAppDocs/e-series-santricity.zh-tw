@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, volumes 
 summary: 如果您想要讀取或寫入快照資料、可以建立快照磁碟區並將其指派給主機。快照磁碟區與基礎磁碟區具有相同的特性（RAID層級、I/O特性等）。 
 ---
-= Snapshot Volume
+= 了解 SANtricity 軟體中的快照卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

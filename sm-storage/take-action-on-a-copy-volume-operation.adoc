@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: 您可以檢視進行中的複製Volume作業、以及停止、變更優先順序、重新複製或清除複製Volume作業。 
 ---
-= 對複製Volume作業採取行動
+= 在 SANtricity System Manager 中對複製磁碟區操作採取行動
 :allow-uri-read: 
 :experimental: 
 :icons: font

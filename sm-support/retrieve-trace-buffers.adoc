@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, retrieve, trace, buffers 
 summary: 您可以從控制器擷取追蹤緩衝區、然後將檔案傳送給技術支援部門進行分析。 
 ---
-= 擷取追蹤緩衝區
+= 在 SANtricity System Manager 中檢索追蹤緩衝區
 :allow-uri-read: 
 :experimental: 
 :icons: font

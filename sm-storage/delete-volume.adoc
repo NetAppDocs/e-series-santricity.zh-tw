@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, volume 
 summary: 一般而言、如果磁碟區是以錯誤的參數或容量建立、不再符合儲存組態需求、或是不再需要用於備份或應用程式測試的快照映像、就會刪除磁碟區。 
 ---
-= 刪除Volume
+= 在 SANtricity System Manager 中刪除磁碟區
 :allow-uri-read: 
 :experimental: 
 :icons: font

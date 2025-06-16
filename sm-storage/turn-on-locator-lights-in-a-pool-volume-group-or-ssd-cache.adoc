@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, lights, LEDs 
 summary: 您可以找到磁碟機、以實體方式識別組成所選集區、磁碟區群組或SSD快取的所有磁碟機。所選集區、Volume群組或SSD快取中的每個磁碟機上都會亮起LED指示燈。 
 ---
-= 開啟資源池、磁碟區群組或SSD快取中的定位器指示燈
+= 在 SANtricity System Manager 中開啟池、磁碟區組或 SSD 快取中的定位器燈
 :allow-uri-read: 
 :experimental: 
 :icons: font

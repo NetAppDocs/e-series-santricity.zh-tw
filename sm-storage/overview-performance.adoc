@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, performance 
 summary: 「效能」頁面可讓您輕鬆監控儲存陣列的效能。 
 ---
-= 效能總覽
+= 了解 SANtricity System Manager 中的效能概述
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

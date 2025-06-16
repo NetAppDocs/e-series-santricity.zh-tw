@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, consolidate, free capacity, volume group 
 summary: 使用「整合可用容量」選項、將現有的可用範圍整合到選取的Volume群組中。執行此動作、即可從Volume群組中的可用容量上限建立額外的Volume。 
 ---
-= 整合Volume群組的可用容量
+= 在 SANtricity System Manager 中整合卷宗組的可用容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

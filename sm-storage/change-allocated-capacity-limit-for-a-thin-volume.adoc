@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, allocated capacity, thin volume 
 summary: 對於能夠隨需分配空間的精簡磁碟區、您可以變更限制精簡磁碟區可自動擴充之已分配容量的限制。 
 ---
-= 變更精簡磁碟區的已配置容量限制
+= 在 SANtricity System Manager 中變更精簡磁碟區的分配容量限制
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, clear, staged, os, software 
 summary: 您可以移除分段作業系統軟體、以確保稍後不會意外啟動擱置的版本。移除分段作業系統軟體不會影響儲存陣列上目前執行的版本。 
 ---
-= 清除分段作業系統軟體
+= 清除 SANtricity Unified Manager 中的暫存作業系統軟體
 :allow-uri-read: 
 :experimental: 
 :icons: font

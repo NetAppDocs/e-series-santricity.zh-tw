@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, center 
 summary: 從升級中心、您可以管理SANtricity 多個儲存陣列的支援功能、包括作業系統的功能和NVSRAM升級。 
 ---
-= 升級中心總覽
+= 了解 SANtricity Unified Manager 中的升級中心
 :allow-uri-read: 
 :experimental: 
 :icons: font

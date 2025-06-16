@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirror, status, consistency, group, 
 summary: 鏡射狀態定義鏡射一致性群組和鏡射Volume配對的狀態。 
 ---
-= 非同步鏡射狀態
+= 在 SANtricity System Manager 中查看非同步鏡像狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

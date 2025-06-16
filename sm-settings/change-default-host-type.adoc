@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, default, host, type, 
 summary: 使用變更預設主機作業系統設定、可變更儲存陣列層級的預設主機類型。一般而言、在將主機連線至儲存陣列或連接其他主機之前、您會先變更預設的主機類型。 
 ---
-= 變更預設主機類型
+= 在 SANtricity System Manager 中變更預設主機類型
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs, 
 summary: 如果您想要將稽核記錄歸檔到外部syslog伺服器、可以設定該伺服器與儲存陣列之間的通訊。建立連線之後、稽核記錄會自動儲存至syslog伺服器。 
 ---
-= 設定系統記錄伺服器進行稽核記錄
+= 在 SANtricity System Manager 中為稽核日誌配置 syslog 伺服器
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, alerts, 
 summary: 若要設定syslog警示、您必須輸入syslog伺服器位址和udp連接埠。最多允許五部syslog伺服器。 
 ---
-= 設定系統記錄伺服器以發出警示
+= 在 SANtricity System Manager 中設定 syslog 伺服器以接收警報
 :allow-uri-read: 
 :experimental: 
 :icons: font

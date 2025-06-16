@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage 
 summary: 如果您有遠端儲存功能、可以從遠端儲存系統匯入資料。 
 ---
-= 遠端儲存功能總覽
+= 了解 SANtricity System Manager 中的遠端儲存功能
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, login, 
 summary: 遠端登入可讓區域網路外部的使用者啟動SSH工作階段、並變更控制器上的設定。 
 ---
-= 設定遠端登入（SSH）
+= 在 SANtricity System Manager 中設定遠端登入 (SSH)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

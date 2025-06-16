@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy volume 
 summary: 您可以將資料從一個磁碟區複製到同一個儲存陣列中的另一個磁碟區、然後建立來源磁碟區的實體時間點複製（複製）。 
 ---
-= 複製Volume
+= 在 SANtricity System Manager 中複製卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

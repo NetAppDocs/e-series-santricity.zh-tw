@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, clear, storage, array, configuration, 
 summary: 若要從儲存陣列刪除所有集區、磁碟區群組、磁碟區、主機定義和主機指派、請使用「清除組態」作業。 
 ---
-= 清除儲存陣列組態
+= 在 SANtricity System Manager 中清除儲存陣列配置
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -108,4 +108,8 @@ x
 .結果
 * 刪除目前的組態、會破壞儲存陣列上的所有現有資料。
 * 所有磁碟機均未指派。
++
+
+NOTE: 儲存陣列將進入復原模式。您必須先清除復原模式，然後才能使用儲存陣列。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/e-series-santricity/sm-support/clear-recovery-mode.html["清除恢復模式"^] 。
+
 

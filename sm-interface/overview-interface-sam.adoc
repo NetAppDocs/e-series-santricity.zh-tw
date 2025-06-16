@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, 
 summary: 您可以瀏覽主介面、以存取System Manager的功能和工作。 
 ---
-= SANtricity 系統管理員介面概觀
+= 了解 SANtricity System Manager 介面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

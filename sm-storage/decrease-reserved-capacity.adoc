@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, decrease, reserved, capacity 
 summary: 您可以使用「降低容量」選項來減少下列儲存物件的保留容量：Snapshot群組、Snapshot Volume和一致性群組成員Volume。您只能減少保留容量、以增加容量所需的金額為準。 
 ---
-= 減少保留容量
+= 減少 SANtricity System Manager 中的預留容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

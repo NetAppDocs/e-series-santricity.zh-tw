@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, initialize, format, drive, 
 summary: 如果您將指派的磁碟機從一個儲存陣列移至另一個儲存陣列、則必須先初始化（格式化）磁碟機、才能在新的儲存陣列中使用。 
 ---
-= 初始化（格式化）磁碟機
+= 在 SANtricity System Manager 中初始化（格式化）磁碟機
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

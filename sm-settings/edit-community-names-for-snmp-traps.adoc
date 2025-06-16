@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, communities, smpv2c, traps, 
 summary: 您可以編輯SNMP v2c設陷的社群名稱。 
 ---
-= 編輯SNMP v2c陷阱的社群
+= 在 SANtricity System Manager 中編輯 SNMPv2c 陷阱的社群
 :allow-uri-read: 
 :experimental: 
 :icons: font

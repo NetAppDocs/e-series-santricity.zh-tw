@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, os, operating system 
 summary: 使用最新的軟體和NVSRAM,升級一或多個儲存陣列以確保您擁有所有最新的功能和錯誤修復。控制器NVSRAM-是控制器檔案、可指定控制器的預設設定。 
 ---
-= 升級SANtricity 作業系統
+= 升級 SANtricity 作業系統
 :allow-uri-read: 
 :experimental: 
 :icons: font

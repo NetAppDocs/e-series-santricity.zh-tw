@@ -84,13 +84,6 @@ Windows（Atto）
 
 
  a| 
-僅限部分（ALUA）FlexArray
- a| 
-支援使用FlexArray ALUA進行多重路徑的NetApp支援系統。
-
-
-
- a| 
 IBM服務
  a| 
 支援IBM SAN Volume Controller組態。

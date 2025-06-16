@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, system, security, key, management, 
 summary: 安全金鑰管理可從「系統」頁面取得。 
 ---
-= 磁碟機安全性總覽
+= 了解 SANtricity System Manager 中的磁碟機安全性
 :allow-uri-read: 
 :experimental: 
 :icons: font

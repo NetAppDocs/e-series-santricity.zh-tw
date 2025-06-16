@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add-on, features, 
 summary: 附加元件是系統管理員標準組態中未包含的功能、可能需要啟用金鑰。附加功能可以是單一優質功能、也可以是隨附的功能套件。 
 ---
-= 附加功能的運作方式
+= SANtricity System Manager 中的附加功能如何運作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

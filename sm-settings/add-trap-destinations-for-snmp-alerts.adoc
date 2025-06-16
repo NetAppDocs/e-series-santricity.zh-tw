@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, trap, destinations, SNMP, alerts, 
 summary: 您最多可以新增10部伺服器來傳送SNMP設陷。 
 ---
-= 新增SNMP警示的設陷目的地
+= 在 SANtricity System Manager 中為 SNMP 警報新增陷阱目標
 :allow-uri-read: 
 :experimental: 
 :icons: font

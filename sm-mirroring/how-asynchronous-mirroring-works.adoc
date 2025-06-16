@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, 
 summary: 非同步鏡射會根據需求或排程複製資料磁碟區、如此可將資料毀損或遺失所造成的停機時間減至最少或避免。 
 ---
-= 非同步鏡射的運作方式
+= 非同步鏡像在 SANtricity System Manager 中的工作方式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

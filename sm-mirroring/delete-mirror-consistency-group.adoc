@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, mirror, consistency, group, 
 summary: 您可以刪除本機儲存陣列和遠端儲存陣列上不再需要的鏡射一致性群組。 
 ---
-= 刪除鏡射一致性群組
+= 在 SANtricity System Manager 中刪除鏡像一致性群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

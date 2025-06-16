@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, end, iSCSI, session, 
 summary: 您可以結束不再需要的iSCSI工作階段。在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。 
 ---
-= 結束iSCSI工作階段
+= 在 SANtricity System Manager 中結束 iSCSI 會話
 :allow-uri-read: 
 :experimental: 
 :icons: font

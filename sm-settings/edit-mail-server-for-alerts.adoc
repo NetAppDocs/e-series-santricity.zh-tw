@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, mail, server, alerts, 
 summary: 您可以變更用於電子郵件警示的郵件伺服器位址和電子郵件寄件者位址。 
 ---
-= 編輯郵件伺服器以取得警示
+= 在 SANtricity System Manager 中編輯警報郵件伺服器
 :allow-uri-read: 
 :experimental: 
 :icons: font

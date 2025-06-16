@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, key, management, server, certificates, 
 summary: 您可以將金鑰管理伺服器的憑證儲存到本機機器。 
 ---
-= 匯出金鑰管理伺服器憑證
+= 在 SANtricity System Manager 中匯出金鑰管理伺服器憑證
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, single, array 
 summary: 使用「新增/探索單一儲存陣列」選項、手動探索及新增單一儲存陣列至組織的網路。 
 ---
-= 探索單一陣列
+= 在 SANtricity Unified Manager 中發現單一陣列
 :allow-uri-read: 
 :experimental: 
 :icons: font

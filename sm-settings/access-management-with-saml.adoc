@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, saml 
 summary: 對於存取管理、系統管理員可以使用陣列內嵌的安全聲明標記語言（SAML）2.0功能。 
 ---
-= 使用SAML進行存取管理
+= 在 SANtricity System Manager 中使用 SAML 設定存取管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

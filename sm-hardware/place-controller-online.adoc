@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, online 
 summary: 如果控制器處於離線狀態或處於服務模式、您可以將其重新連線。 
 ---
-= 將控制器置於線上
+= 在 SANtricity System Manager 中將控制器置於線上狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

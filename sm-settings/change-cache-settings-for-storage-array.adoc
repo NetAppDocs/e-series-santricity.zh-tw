@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, cache, settings, 
 summary: 對於儲存陣列中的所有磁碟區、您可以調整快取記憶體設定、以供排清和區塊大小。 
 ---
-= 變更儲存陣列的快取設定
+= 在 SANtricity System Manager 中變更儲存陣列快取設置
 :allow-uri-read: 
 :experimental: 
 :icons: font

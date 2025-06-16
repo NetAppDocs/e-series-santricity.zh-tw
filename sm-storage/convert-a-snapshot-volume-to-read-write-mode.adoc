@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, convert, snapshot, volume, read-write mode 
 summary: 您可以視需要將唯讀快照磁碟區或快照一致性群組快照磁碟區轉換為讀寫模式。 
 ---
-= 將Snapshot Volume轉換為讀寫模式
+= 在 SANtricity System Manager 中將快照磁碟區轉換為讀寫模式
 :allow-uri-read: 
 :experimental: 
 :icons: font

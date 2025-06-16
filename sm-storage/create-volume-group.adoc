@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, volume, group 
 summary: 您可以使用Volume群組來建立一或多個可供主機存取的磁碟區。Volume群組是一個容器、用於具有RAID層級和容量等共享特性的磁碟區。 
 ---
-= 建立Volume群組
+= 在 SANtricity System Manager 中建立磁碟區組
 :allow-uri-read: 
 :experimental: 
 :icons: font

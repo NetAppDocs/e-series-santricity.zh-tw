@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, update, remote, ip, address, connection, 
 summary: 您可以更新遠端儲存陣列的iSCSI IP位址、以重新建立與本機儲存陣列的連線。 
 ---
-= 更新遠端IP位址
+= 在 SANtricity System Manager 中更新遠端儲存陣列 IP 位址
 :allow-uri-read: 
 :experimental: 
 :icons: font

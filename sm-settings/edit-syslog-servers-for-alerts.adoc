@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, syslog, servers, alerts, 
 summary: 您可以編輯用於接收系統記錄警示的伺服器位址。 
 ---
-= 編輯系統記錄伺服器以取得警示
+= 在 SANtricity System Manager 中編輯警報的系統日誌伺服器
 :allow-uri-read: 
 :experimental: 
 :icons: font

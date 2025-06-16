@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, external, security, key, 
 summary: 若要將磁碟機安全功能搭配金鑰管理伺服器使用、您必須建立外部金鑰、並由金鑰管理伺服器和儲存陣列中具有安全功能的磁碟機共用。 
 ---
-= 建立外部安全金鑰
+= 在 SANtricity System Manager 中建立外部安全性金鑰
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, certificate, terminology 
 summary: 下列條款適用於憑證管理。 
 ---
-= 憑證術語
+= 了解 SANtricity Unified Manager 中的憑證術語
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

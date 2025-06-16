@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, iscsi, discovery, settings, 
 summary: 您可以在iSCSI網路中啟用與探索儲存裝置相關的設定。 
 ---
-= 啟用iSCSI探索設定
+= 在 SANtricity System Manager 中啟用 iSCSI 發現設置
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, front, back, views, shelves 
 summary: 「硬體」頁面可顯示機櫃的正面檢視或背面檢視。 
 ---
-= 切換前後視圖
+= 在 SANtricity System Manager 中顯示正面和背面視圖
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

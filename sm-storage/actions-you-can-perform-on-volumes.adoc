@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes 
 summary: 您可以在磁碟區上執行許多不同的動作：增加容量、刪除、複製、初始化、重新分配、 變更擁有權、變更快取設定、以及變更媒體掃描設定。 
 ---
-= 您可以在磁碟區上執行的動作
+= 您可以在 SANtricity System Manager 中對磁碟區執行的操作
 :allow-uri-read: 
 :experimental: 
 :icons: font

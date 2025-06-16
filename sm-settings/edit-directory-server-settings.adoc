@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, directory, server, settings, role, mappings, 
 summary: 如果您先前在Access Management中設定了目錄伺服器、則可以隨時變更其設定。設定包括伺服器連線資訊和群組對角色對應。 
 ---
-= 編輯目錄伺服器設定和角色對應
+= 在 SANtricity System Manager 中編輯目錄伺服器設定和角色映射
 :allow-uri-read: 
 :experimental: 
 :icons: font

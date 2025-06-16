@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, trap, destinations, 
 summary: 您可以刪除設陷目的地位址、使儲存陣列的事件監視器不再將SNMP設陷傳送到該位址。 
 ---
-= 刪除設陷目的地
+= 在 SANtricity System Manager 中刪除陷阱目標
 :allow-uri-read: 
 :experimental: 
 :icons: font

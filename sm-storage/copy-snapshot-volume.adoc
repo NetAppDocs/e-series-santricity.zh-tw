@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume 
 summary: 您可以在快照磁碟區或快照一致性群組快照磁碟區上執行「複製磁碟區」程序。 
 ---
-= 複製Snapshot Volume
+= 在 SANtricity System Manager 中複製快照卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

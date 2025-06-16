@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, terms 
 summary: 瞭解存取管理條款如何適用於您的儲存陣列。 
 ---
-= 存取管理術語
+= 了解 SANtricity 軟體中的存取管理術語
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

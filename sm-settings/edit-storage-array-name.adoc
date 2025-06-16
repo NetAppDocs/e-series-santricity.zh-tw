@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, storage array, name, 
 summary: 您可以變更SANtricity 出現在「菜單系統管理程式」標題列中的儲存陣列名稱。 
 ---
-= 編輯儲存陣列名稱
+= 在 SANtricity System Manager 中編輯儲存陣列名稱
 :allow-uri-read: 
 :experimental: 
 :icons: font

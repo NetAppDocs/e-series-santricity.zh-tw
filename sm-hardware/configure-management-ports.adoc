@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, management, port, 
 summary: 控制器包含用於系統管理的乙太網路連接埠。如有必要、您可以變更其傳輸參數和IP位址。 
 ---
-= 設定管理連接埠
+= 在 SANtricity System Manager 中設定管理連接埠
 :allow-uri-read: 
 :experimental: 
 :icons: font

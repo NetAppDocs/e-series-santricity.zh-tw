@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume groups 
 summary: 您可以從儲存陣列中未指派磁碟機的子集建立邏輯儲存容量。此邏輯容量可以採用集區或磁碟區群組的形式、視環境需求而定。 
 ---
-= 資源池和Volume群組總覽
+= 了解 SANtricity System Manager 中的池和磁碟區組
 :allow-uri-read: 
 :experimental: 
 :icons: font

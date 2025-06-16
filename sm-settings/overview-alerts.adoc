@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Alerts, 
 summary: 您可以設定System Manager以透過電子郵件、SNMP設陷和系統記錄訊息傳送儲存陣列警示。 
 ---
-= 警示總覽
+= 了解 SANtricity System Manager 中的警報
 :allow-uri-read: 
 :experimental: 
 :icons: font

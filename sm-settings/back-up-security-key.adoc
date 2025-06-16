@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, backup, security, key, 
 summary: 建立或變更安全性金鑰之後、您可以建立金鑰檔的備份複本、以防原始檔案毀損。 
 ---
-= 備份安全金鑰
+= 在 SANtricity System Manager 中備份安全性金鑰
 :allow-uri-read: 
 :experimental: 
 :icons: font

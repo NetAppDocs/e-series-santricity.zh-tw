@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronize, storage, array, clocks, 
 summary: 如果未啟用網路時間傳輸協定（NTP）、您可以手動設定控制器上的時鐘、使其與管理用戶端（用來執行瀏覽器以存取SANtricity 《系統管理程式》的系統）同步。 
 ---
-= 同步儲存陣列時鐘
+= 在 SANtricity System Manager 中同步儲存陣列時鐘
 :allow-uri-read: 
 :experimental: 
 :icons: font

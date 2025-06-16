@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, email, addresses, alerts, 
 summary: 您可以變更接收電子郵件警示的收件者電子郵件地址。 
 ---
-= 編輯警示的電子郵件地址
+= 在 SANtricity System Manager 中編輯警報的電子郵件地址
 :allow-uri-read: 
 :experimental: 
 :icons: font

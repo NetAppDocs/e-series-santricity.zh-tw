@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, re-synchronize, mirror, consistency, group, manually, 
 summary: 您可以手動開始重新同步鏡射一致性群組中的所有鏡射配對。 
 ---
-= 手動重新同步鏡射一致性群組
+= 在 SANtricity System Manager 中手動重新同步鏡像一致性群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

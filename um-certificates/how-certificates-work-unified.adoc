@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, ca certificates, csr file, 
 summary: 憑證是數位檔案、可識別網站和伺服器等線上實體、以便在網際網路上進行安全通訊。 
 ---
-= 憑證的運作方式
+= 憑證在 SANtricity Unified Manager 中的工作方式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

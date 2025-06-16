@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
 summary: 您可以刪除syslog伺服器、使其不再接收警示。 
 ---
-= 刪除系統記錄伺服器以取得警示
+= 刪除 SANtricity System Manager 中警報的系統日誌伺服器
 :allow-uri-read: 
 :experimental: 
 :icons: font

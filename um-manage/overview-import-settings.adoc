@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, settings 
 summary: 您可以將設定從一個儲存陣列匯入到另一個儲存陣列、包括警示、AutoSupport 還原和目錄服務。 
 ---
-= 設定匯入總覽
+= 了解如何在 SANtricity Unified Manager 中匯入儲存陣列設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

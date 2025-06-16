@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, automatic, load, balancing, 
 summary: 自動負載平衡功能可動態回應一段時間內的負載變更、並自動調整Volume控制器擁有權、以修正工作負載在控制器之間移動時發生的任何負載不平衡問題、進而改善I/O資源管理。 
 ---
-= 自動負載平衡總覽
+= 了解 SANtricity 軟體中的自動負載平衡
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

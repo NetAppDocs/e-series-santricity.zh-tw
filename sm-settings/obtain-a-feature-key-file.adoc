@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, obtain, feature, key, file, 
 summary: 若要在儲存陣列上啟用優質功能或功能套件、您必須先取得功能金鑰檔案。金鑰僅與一個儲存陣列相關聯。 
 ---
-= 取得功能金鑰檔案
+= 在 SANtricity System Manager 中取得功能金鑰文件
 :allow-uri-read: 
 :experimental: 
 :icons: font

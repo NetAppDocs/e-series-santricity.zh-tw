@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, software, firmware, upgrade, errors 
 summary: 控制器軟體升級或磁碟機韌體升級期間可能發生錯誤。 
 ---
-= 檢閱可能的軟體和韌體升級錯誤
+= 了解 SANtricity 軟體和韌體升級錯誤
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

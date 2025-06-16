@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, certificate, revocation checking, 
 summary: 您可以啟用撤銷憑證的自動檢查、讓線上憑證狀態傳輸協定（OCSP）伺服器封鎖使用者建立不安全的連線。 
 ---
-= 啟用憑證撤銷檢查
+= 在 SANtricity System Manager 中啟用憑證撤銷檢查
 :allow-uri-read: 
 :experimental: 
 :icons: font

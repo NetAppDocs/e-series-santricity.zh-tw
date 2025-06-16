@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, users, snmpv3, traps, 
 summary: 您最多可以新增256位使用者來使用v3設陷。 
 ---
-= 新增使用者以使用v3設陷
+= 在 SANtricity System Manager 中為 SNMPv3 陷阱新增用戶
 :allow-uri-read: 
 :experimental: 
 :icons: font

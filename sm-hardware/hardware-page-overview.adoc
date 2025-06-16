@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, page, components, 
 summary: 「硬體」頁面以圖形方式呈現儲存陣列的實體元件。您可以從這裡檢查元件狀態、並執行與這些元件相關的部分功能。 
 ---
-= 硬體頁面與元件
+= SANtricity System Manager 硬體頁面和元件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

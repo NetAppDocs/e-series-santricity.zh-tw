@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, asynchronous, mirrored, pair 
 summary: 若要設定非同步鏡射、您可以建立鏡射配對、其中包含本機陣列上的主要磁碟區、以及遠端陣列上的次要磁碟區。 
 ---
-= 建立非同步鏡射配對
+= 在 SANtricity Unified Manager 中建立非同步鏡像對
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, retrieve, health, image 
 summary: 您可以檢閱控制器的健全狀況映像。健全狀況映像是控制器處理器記憶體的原始資料傾印、技術支援可用來診斷控制器的問題。 
 ---
-= 擷取健全狀況映像
+= 在 SANtricity System Manager 中檢索健康影像
 :allow-uri-read: 
 :experimental: 
 :icons: font

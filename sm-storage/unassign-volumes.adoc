@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unassign, volumes 
 summary: 如果您不再需要從主機或主機叢集存取該磁碟區的I/O、請從主機或主機叢集取消指派磁碟區。 
 ---
-= 取消指派磁碟區
+= 在 SANtricity System Manager 中取消分配卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

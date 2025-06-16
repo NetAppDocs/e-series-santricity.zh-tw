@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, save, storage array, configuration, 
 summary: 您可以將儲存陣列的組態資訊儲存在指令碼檔案中、以節省設定相同組態的其他儲存陣列所需的時間。 
 ---
-= 儲存儲存陣列組態
+= 在 SANtricity System Manager 中儲存儲存陣列配置
 :allow-uri-read: 
 :experimental: 
 :icons: font

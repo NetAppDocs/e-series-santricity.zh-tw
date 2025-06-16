@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, snapshot, volume 
 summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一致性群組的快照映像。您可以將快照磁碟區指定為唯讀或讀寫。 
 ---
-= 建立Snapshot Volume
+= 在 SANtricity System Manager 中建立快照卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

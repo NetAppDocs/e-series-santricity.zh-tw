@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, create, volumes 
 summary: 在「系統管理程式」中SANtricity 、您可以依照下列步驟建立磁碟區。 
 ---
-= 建立Volume的工作流程
+= 如何在 SANtricity System Manager 中建立卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

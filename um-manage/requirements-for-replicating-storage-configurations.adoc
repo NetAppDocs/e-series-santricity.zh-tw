@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, replicating, storage, configurations 
 summary: 在將儲存組態從一個儲存陣列匯入另一個儲存陣列之前、請先檢閱相關要求和準則。 
 ---
-= 複寫儲存組態的需求
+= 在 SANtricity Unified Manager 中複製儲存陣列配置的要求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

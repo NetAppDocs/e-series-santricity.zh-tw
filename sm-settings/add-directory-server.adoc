@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, directory, server, 
 summary: 若要設定存取管理驗證、您可以在儲存陣列與LDAP伺服器之間建立通訊、然後將LDAP使用者群組對應至陣列的預先定義角色。 
 ---
-= 新增LDAP目錄伺服器
+= 在 SANtricity System Manager 中新增 LDAP 目錄伺服器
 :allow-uri-read: 
 :experimental: 
 :icons: font

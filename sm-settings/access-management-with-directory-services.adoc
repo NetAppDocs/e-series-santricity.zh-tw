@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, directory services, 
 summary: 對於存取管理、系統管理員可以使用LDAP（輕量型目錄存取傳輸協定）伺服器和目錄服務、例如Microsoft的Active Directory。 
 ---
-= 使用目錄服務進行存取管理
+= 使用 SANtricity System Manager 中的目錄服務設定存取管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

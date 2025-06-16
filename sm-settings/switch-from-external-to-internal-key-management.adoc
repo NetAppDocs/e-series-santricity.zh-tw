@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, external, internal, key, management, 
 summary: 您可以將磁碟機安全性的管理方法從外部金鑰伺服器變更為儲存陣列所使用的內部方法。先前為外部金鑰管理所定義的安全金鑰、將用於內部金鑰管理。 
 ---
-= 從外部金鑰管理切換至內部金鑰管理
+= 在 SANtricity System Manager 中從外部金鑰管理切換到內部金鑰管理
 :allow-uri-read: 
 :experimental: 
 :icons: font

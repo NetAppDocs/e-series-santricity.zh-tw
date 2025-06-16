@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, tokens 
 summary: 存取權杖可讓您存取陣列、而不會洩漏使用者名稱和密碼。 
 ---
-= 存取權杖
+= 了解存取權杖和 SANtricity 軟體
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume group, 
 summary: 若要配置儲存設備、您可以建立一個集區或磁碟區群組、其中包含您要在儲存陣列中使用的硬碟機（HDD）或固態磁碟（SSD）磁碟機。 
 ---
-= 資源池和Volume群組的運作方式
+= 池和卷組在 SANtricity 軟體中的工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

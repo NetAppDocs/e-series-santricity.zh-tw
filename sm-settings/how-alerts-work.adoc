@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, alarm, alerts, 
 summary: 警示會通知系統管理員儲存陣列上發生的重要事件。警示可透過電子郵件、SNMP設陷和系統記錄傳送。 
 ---
-= 警示的運作方式
+= SANtricity System Manager 中的警報工作原理
 :allow-uri-read: 
 :experimental: 
 :icons: font

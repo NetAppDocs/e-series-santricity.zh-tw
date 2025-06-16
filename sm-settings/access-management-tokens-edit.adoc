@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, edit tokens 
 summary: 您可以編輯存取權杖的設定、包括到期時間和建立新權杖的能力。 
 ---
-= 編輯存取權杖設定
+= 在 SANtricity System Manager 中編輯存取權杖設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

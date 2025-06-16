@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, drive, firmware 
 summary: 您可以升級磁碟機的韌體、以確保擁有所有最新的功能和錯誤修復。 
 ---
-= 升級磁碟機韌體
+= 在 SANtricity System Manager 中升級磁碟機韌體
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, terms 
 summary: 瞭解遠端儲存術語如何適用於您的儲存陣列。 
 ---
-= 遠端儲存術語
+= 了解 SANtricity 軟體中的遠端儲存術語
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

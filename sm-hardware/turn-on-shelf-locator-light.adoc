@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED 
 summary: 若要尋找硬體頁面上顯示的機櫃實體位置、您可以開啟機櫃的定位燈。 
 ---
-= 開啟機櫃定位燈
+= 在 SANtricity System Manager 中開啟機架定位燈
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

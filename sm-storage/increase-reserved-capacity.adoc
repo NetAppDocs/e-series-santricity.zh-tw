@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, increase, reserved, capacity 
 summary: 您可以增加保留容量、這是實體配置的容量、用於儲存物件上的任何複製服務作業。 
 ---
-= 增加保留容量
+= 增加 SANtricity System Manager 中的預留容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

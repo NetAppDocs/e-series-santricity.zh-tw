@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, data, integrity, security, volumes 
 summary: 您可以讓磁碟區使用資料保證（DA）功能和磁碟機安全功能。這些功能會顯示在集區和Volume群組層級。 
 ---
-= 磁碟區的資料完整性與資料安全性
+= 了解 SANtricity 軟體中捲的資料完整性和資料安全性
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

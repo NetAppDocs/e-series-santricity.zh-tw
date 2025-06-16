@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, image 
 summary: 您可以刪除快照映像、從快照群組或快照一致性群組中清除最舊的快照映像。 
 ---
-= 刪除快照映像
+= 在 SANtricity System Manager 中刪除快照映像
 :allow-uri-read: 
 :experimental: 
 :icons: font

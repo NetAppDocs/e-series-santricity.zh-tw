@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes 
 summary: 您可以建立磁碟區做為容器、以供應用程式、資料庫和檔案系統儲存資料。建立磁碟區時、您也可以選取工作負載來自訂特定應用程式的儲存陣列組態。 
 ---
-= Volume與工作負載總覽
+= 了解 SANtricity System Manager 中的磁碟區和工作負載
 :allow-uri-read: 
 :experimental: 
 :icons: font

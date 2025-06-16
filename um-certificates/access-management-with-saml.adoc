@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, saml 
 summary: 對於存取管理、系統管理員可以使用陣列內嵌的安全聲明標記語言（SAML）2.0功能。 
 ---
-= 使用SAML進行存取管理
+= 使用 SANtricity Unified Manager 中的 SAML 進行存取管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

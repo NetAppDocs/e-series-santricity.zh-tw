@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, syslog, server, settings, audit, log, records, 
 summary: 您可以變更用於歸檔稽核記錄的syslog伺服器設定、也可以上傳伺服器的新憑證授權單位（CA）憑證。 
 ---
-= 編輯稽核記錄的syslog伺服器設定
+= 在 SANtricity System Manager 中編輯稽核日誌記錄的 syslog 伺服器設置
 :allow-uri-read: 
 :experimental: 
 :icons: font

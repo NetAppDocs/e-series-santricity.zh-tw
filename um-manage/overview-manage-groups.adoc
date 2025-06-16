@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, groups 
 summary: 在「管理群組」頁面中、您可以建立一組儲存陣列群組、以利管理。 
 ---
-= 群組總覽
+= 了解 SANtricity Unified Manager 中的群組概述
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

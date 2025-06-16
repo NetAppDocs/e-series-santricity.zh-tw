@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, locator, lights, 
 summary: 若要在機櫃中找到儲存陣列的實體位置、您可以開啟其定位器（LED）指示燈。 
 ---
-= 開啟儲存陣列定位器指示燈
+= 在 SANtricity System Manager 中開啟儲存陣列定位器燈
 :allow-uri-read: 
 :experimental: 
 :icons: font

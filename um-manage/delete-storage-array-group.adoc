@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, storage, array, group 
 summary: 您可以移除一或多個不再需要的儲存陣列群組。 
 ---
-= 刪除儲存陣列群組
+= 在 SANtricity Unified Manager 中刪除儲存陣列群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

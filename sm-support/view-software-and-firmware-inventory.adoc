@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, software, firmware, inventory 
 summary: 軟體與韌體詳細目錄會列出儲存陣列中每個元件的韌體版本。 
 ---
-= 檢視軟體與韌體庫存
+= 在 SANtricity System Manager 中查看軟體和韌體清單
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reset, reboot, controller 
 summary: 有些問題需要重設控制器（重新開機）。即使您沒有實體存取權、也可以重設控制器。 
 ---
-= 重設（重新開機）控制器
+= 在 SANtricity System Manager 中重置（重新啟動）控制器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

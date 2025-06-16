@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, security, pool, volume group 
 summary: 您可以為集區或磁碟區群組啟用「磁碟機安全性」、以防止未獲授權存取集區或磁碟區群組中磁碟機上的資料。磁碟機的讀寫存取只能透過設定安全金鑰的控制器來使用。 
 ---
-= 啟用集區或Volume群組的安全性
+= 在 SANtricity System Manager 中為池或磁碟區組啟用安全性
 :allow-uri-read: 
 :experimental: 
 :icons: font

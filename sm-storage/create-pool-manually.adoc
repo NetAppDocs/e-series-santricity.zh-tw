@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, pool, manually 
 summary: 如果Pool Auto Configuration功能未提供符合需求的集區、您可以手動（從一組候選項目建立）建立集區。 
 ---
-= 手動建立資源池
+= 在 SANtricity System Manager 中手動建立池
 :allow-uri-read: 
 :experimental: 
 :icons: font

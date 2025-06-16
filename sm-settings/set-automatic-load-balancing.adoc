@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, set, automatic, load, balancing, 
 summary: 「自動負載平衡」功能可確保來自主機的傳入I/O流量、能夠在兩個控制器之間動態管理及平衡。此功能預設為啟用、但您可以從System Manager停用此功能。 
 ---
-= 設定自動負載平衡
+= 在 SANtricity System Manager 中設定自動負載平衡
 :allow-uri-read: 
 :experimental: 
 :icons: font

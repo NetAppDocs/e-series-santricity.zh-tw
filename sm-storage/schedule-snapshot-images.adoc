@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, schedule, snapshot, images 
 summary: 您可以建立快照排程、以便在基礎磁碟區發生問題時進行還原、並執行排程備份。您可以在每日、每週或每月的排程中、隨時建立基礎磁碟區或快照一致性群組的快照。 
 ---
-= 排程快照映像
+= 在 SANtricity System Manager 中安排快照映像
 :allow-uri-read: 
 :experimental: 
 :icons: font

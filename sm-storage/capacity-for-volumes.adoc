@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity, volumes, 
 summary: 儲存陣列中的磁碟機可為您的資料提供實體儲存容量。在開始儲存資料之前、您必須先將分配的容量設定為稱為資源池或磁碟區群組的邏輯元件。您可以使用這些儲存物件來設定、儲存、維護及保留儲存陣列上的資料。 
 ---
-= 如何分配容量給磁碟區
+= 如何在 SANtricity System Manager 中指派磁碟區容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

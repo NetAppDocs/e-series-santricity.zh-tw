@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, copy, 
 summary: Volume是資料容器、可管理及組織儲存陣列上的儲存空間。 
 ---
-= 磁碟區的運作方式
+= SANtricity 軟體中的磁碟區工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

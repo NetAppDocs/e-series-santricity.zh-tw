@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, supported, browsers 
 summary: 可從多種瀏覽器存取支援的支援功能。SANtricity 
 ---
-= 支援的瀏覽器
+= SANtricity Unified Manager 支援的瀏覽器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

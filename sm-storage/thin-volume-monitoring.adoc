@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, thin, volume, monitoring 
 summary: 您可以監控精簡磁碟區是否有空間、並產生適當的警示、以避免容量不足的情況。 
 ---
-= 精簡磁碟區監控
+= 了解 SANtricity 軟體中的精簡捲監控
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, syslog, servers, alerts, 
 summary: 您最多可以新增五部伺服器來執行系統記錄警示。 
 ---
-= 新增系統記錄伺服器以供警示
+= 在 SANtricity System Manager 中新增用於警報的系統日誌伺服器
 :allow-uri-read: 
 :experimental: 
 :icons: font

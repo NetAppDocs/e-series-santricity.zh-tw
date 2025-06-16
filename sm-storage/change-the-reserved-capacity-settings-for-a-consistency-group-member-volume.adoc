@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, consistency group, member volume 
 summary: 您可以變更一致性群組成員磁碟區的設定、以調整系統管理員在成員磁碟區的保留容量即將滿時傳送警示通知的百分比點、並變更保留容量達到其定義上限時所使用的原則 百分比。 
 ---
-= 變更一致性群組成員磁碟區的保留容量設定
+= 在 SANtricity System Manager 中變更一致性群組成員磁碟區的預留容量設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

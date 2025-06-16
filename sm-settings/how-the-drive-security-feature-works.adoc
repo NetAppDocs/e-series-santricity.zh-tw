@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Drive Security, 
 summary: 磁碟機安全性是一項儲存陣列功能、可透過全磁碟加密（FDE）磁碟機或聯邦資訊處理標準（FIPS）磁碟機提供額外的安全層級。 
 ---
-= 磁碟機安全功能的運作方式
+= SANtricity System Manager 中的磁碟機安全功能如何運作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

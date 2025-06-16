@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configuration settings, pool 
 summary: 您可以編輯資源池的設定、包括其名稱、容量警示設定、修改優先順序及保留容量。 
 ---
-= 變更集區的組態設定
+= 在 SANtricity System Manager 中變更池的配置設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

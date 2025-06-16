@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, define, audit, log, policies, 
 summary: 您可以變更覆寫原則及稽核記錄中記錄的事件類型。 
 ---
-= 定義稽核記錄原則
+= 在 SANtricity System Manager 中定義稽核日誌策略
 :allow-uri-read: 
 :experimental: 
 :icons: font

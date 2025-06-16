@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, unreadable, sectors, log 
 summary: 您可以儲存無法讀取的磁區記錄、並將檔案傳送給技術支援部門進行分析。 
 ---
-= 檢視無法讀取的磁區記錄
+= 查看 SANtricity System Manager 中不可讀磁區日誌
 :allow-uri-read: 
 :experimental: 
 :icons: font

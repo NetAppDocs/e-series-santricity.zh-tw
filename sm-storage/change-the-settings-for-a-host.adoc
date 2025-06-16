@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, host 
 summary: 您可以變更主機的名稱、主機作業系統類型及相關的主機叢集。 
 ---
-= 變更主機的設定
+= 在 SANtricity System Manager 中變更主機的設置
 :allow-uri-read: 
 :experimental: 
 :icons: font

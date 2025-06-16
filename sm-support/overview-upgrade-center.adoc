@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, center 
 summary: 使用升級中心下載最新的軟體和韌體、並升級儲存陣列以取得最新功能和錯誤修正。 
 ---
-= 升級中心總覽
+= 瞭解如何升級 SANtricity 軟體
 :allow-uri-read: 
 :experimental: 
 :icons: font

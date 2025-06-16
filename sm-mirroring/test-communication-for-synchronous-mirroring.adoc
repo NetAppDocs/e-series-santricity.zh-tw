@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, synchronous, mirroring, 
 summary: 您可以測試本機儲存陣列與遠端儲存陣列之間的通訊、以診斷參與同步鏡射的鏡射配對可能發生的通訊問題。 
 ---
-= 測試同步鏡射的通訊
+= 在 SANtricity System Manager 中測試同步鏡像的通訊
 :allow-uri-read: 
 :experimental: 
 :icons: font

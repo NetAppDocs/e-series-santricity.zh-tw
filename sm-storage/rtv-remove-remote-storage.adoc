@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, remote, storage, 
 summary: 匯入完成後、如果您不想再在本機和遠端裝置之間複製資料、可以移除遠端儲存物件。 
 ---
-= 移除遠端儲存物件
+= 在 SANtricity System Manager 中刪除遠端儲存對象
 :allow-uri-read: 
 :experimental: 
 :icons: font

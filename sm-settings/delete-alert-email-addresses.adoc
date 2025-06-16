@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, mail, server, email, addresses, alerts, 
 summary: 您可以移除先前定義的郵件伺服器、使警示不再傳送至電子郵件地址、或是移除個別的電子郵件地址。 
 ---
-= 刪除郵件伺服器或電子郵件地址以取得警示
+= 在 SANtricity System Manager 中刪除警報的郵件伺服器或電子郵件地址
 :allow-uri-read: 
 :experimental: 
 :icons: font

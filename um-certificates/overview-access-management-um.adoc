@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, authentication 
 summary: 存取管理是一種在SANtricity 功能不全的Manager中設定使用者驗證的方法。 
 ---
-= 存取管理總覽
+= 了解 SANtricity Unified Manager 存取管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

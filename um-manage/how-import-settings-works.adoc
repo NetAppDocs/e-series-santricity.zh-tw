@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, settings, 
 summary: 您可以使用Unified Manager將設定從一個儲存陣列匯入至多個儲存陣列。匯入設定功能是批次作業、可在需要在網路中設定多個陣列時節省時間。 
 ---
-= 匯入設定的運作方式
+= 了解如何在 SANtricity Unified Manager 中設定多個儲存陣列
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

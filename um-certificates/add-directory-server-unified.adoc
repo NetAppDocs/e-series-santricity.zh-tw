@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, add, directory, server 
 summary: 若要設定存取管理驗證、您需要在LDAP伺服器和執行Web Services Proxy for SANtricity the Unified Manager的主機之間建立通訊。然後將LDAP使用者群組對應至本機使用者角色。 
 ---
-= 新增目錄伺服器
+= 在 SANtricity Unified Manager 中新增目錄伺服器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, volumes 
 summary: 您可以將磁碟區新增至SSD快取、以提升唯讀效能。SSD快取包含一組固態磁碟（SSD）磁碟機、您可以在儲存陣列中以邏輯方式將這些磁碟機分組。 
 ---
-= SSD快取與磁碟區
+= 了解 SANtricity 軟體中的 SSD 快取和卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, terminology 
 summary: 瞭解鏡射術語如何適用於您的儲存陣列。 
 ---
-= 鏡射術語
+= 了解 SANtricity Unified Manager 中的鏡像術語
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

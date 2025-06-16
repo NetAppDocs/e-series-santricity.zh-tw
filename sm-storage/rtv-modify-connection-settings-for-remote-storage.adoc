@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, modify, connection, settings, remote, storage 
 summary: 您可以透過「檢視/編輯設定」選項來編輯、新增或刪除任何遠端儲存組態的連線設定。 
 ---
-= 修改遠端儲存設備的連線設定
+= 在 SANtricity System Manager 中修改遠端儲存的連線設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

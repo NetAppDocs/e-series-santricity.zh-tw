@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, configuration data 
 summary: 您可以從控制器儲存RAID組態資料、其中包含磁碟區群組和磁碟集區的所有資料。然後、您可以聯絡技術支援部門、以取得還原資料的協助。 
 ---
-= 收集組態資料
+= 在 SANtricity System Manager 中收集配置數據
 :allow-uri-read: 
 :experimental: 
 :icons: font

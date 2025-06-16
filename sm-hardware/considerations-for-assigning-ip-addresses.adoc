@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, considerations, assigning, ip, addresses 
 summary: 依預設、控制器會在兩個網路連接埠上都啟用DHCP。您可以指派靜態IP位址、使用預設的靜態IP位址、或使用DHCP指派的IP位址。您也可以使用IPv6無狀態自動組態。 
 ---
-= 指派IP位址的考量
+= 了解 E 系列控制器的 IP 位址分配
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

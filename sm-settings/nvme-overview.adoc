@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, nvme, 
 summary: 有些控制器包含一個連接埠、可在光纖架構上實作NVMe（非揮發性記憶體Express）。NVMe可在主機與儲存陣列之間進行高效能通訊。 
 ---
-= NVMe總覽
+= 了解 NVMe 和 SANtricity 軟體
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

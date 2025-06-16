@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, save, tabular, performance, 
 summary: 您可以以表格格式檢視及儲存效能圖表資料。這可讓您篩選要顯示的資料。 
 ---
-= 檢視及儲存表格式效能資料
+= 在 SANtricity System Manager 中檢視並儲存表格效能數據
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

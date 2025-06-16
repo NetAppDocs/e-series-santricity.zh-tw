@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, assign, hot, spares, raid, 
 summary: 您可以將熱備援磁碟指派為待命磁碟機、以便在RAID 1、RAID 5或RAID 6 Volume群組中提供額外的資料保護。如果其中一個磁碟機故障、控制器會將故障磁碟機的資料重新建構至熱備援磁碟機。 
 ---
-= 指派熱備援磁碟機
+= 在 SANtricity System Manager 中指派熱備件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

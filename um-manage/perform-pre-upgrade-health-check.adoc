@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, perform, pre-upgrade, health, check 
 summary: 健全狀況檢查會在升級程序中執行、但您也可以在開始之前分別執行健全狀況檢查。健全狀況檢查會評估儲存陣列的元件、以確保升級能夠繼續進行。 
 ---
-= 執行升級前健全狀況檢查
+= 在 SANtricity Unified Manager 中執行升級前健康檢查
 :allow-uri-read: 
 :experimental: 
 :icons: font

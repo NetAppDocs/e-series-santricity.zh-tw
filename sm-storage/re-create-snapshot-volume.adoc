@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, re-create, snapshot, volume 
 summary: 您可以重新建立先前停用的快照磁碟區或快照一致性群組快照磁碟區。重新建立快照磁碟區所需的時間比建立新快照磁碟區少。 
 ---
-= 重新建立Snapshot Volume
+= 在 SANtricity System Manager 中重新建立快照磁碟區
 :allow-uri-read: 
 :experimental: 
 :icons: font

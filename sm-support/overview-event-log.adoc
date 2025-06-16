@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, event, log 
 summary: 使用事件記錄檢視儲存陣列上發生的變更和事件歷史記錄。 
 ---
-= 事件記錄總覽
+= 了解 SANtricity 軟體中的事件日誌
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

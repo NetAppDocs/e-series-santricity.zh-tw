@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, email, addresses, alerts, 
 summary: 您最多可新增20個電子郵件警示收件者。 
 ---
-= 新增警示的電子郵件地址
+= 在 SANtricity System Manager 中新增警報的電子郵件地址
 :allow-uri-read: 
 :experimental: 
 :icons: font

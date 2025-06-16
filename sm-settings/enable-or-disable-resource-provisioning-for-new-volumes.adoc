@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning, 
 summary: 如果您先前已停用資源資源資源配置的預設功能、可以前往「設定」、針對您所建立的任何新SSD Volume群組或集區重新啟用該功能。您也可以再次停用設定。 
 ---
-= 啟用或停用新Volume群組或集區的資源配置
+= 在 SANtricity System Manager 中啟用或停用新磁碟區組或池的資源配置
 :allow-uri-read: 
 :experimental: 
 :icons: font

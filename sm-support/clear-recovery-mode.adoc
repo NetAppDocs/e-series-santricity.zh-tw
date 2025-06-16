@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, clear, recovery, mode 
 summary: 還原儲存陣列組態之後、請使用清除恢復模式作業恢復儲存陣列上的I/O、並將其恢復為正常作業。 
 ---
-= 清除恢復模式
+= SANtricity 軟體中的清除復原模式
 :allow-uri-read: 
 :experimental: 
 :icons: font

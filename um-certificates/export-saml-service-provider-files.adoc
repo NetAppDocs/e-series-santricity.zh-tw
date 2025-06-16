@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, export, saml, Service Provider, files, 
 summary: 如有必要、您可以匯出儲存陣列的服務供應商中繼資料、並將檔案重新匯入身分識別供應商（ IDP ）系統。 
 ---
-= 匯出SAML服務供應商檔案
+= 在 SANtricity Unified Manager 中匯出 SAML 服務提供者文件
 :allow-uri-read: 
 :experimental: 
 :icons: font

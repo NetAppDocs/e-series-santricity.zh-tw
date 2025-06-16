@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access, management, 
 summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建立使用者驗證的方法。驗證方法包括RBAC（角色型存取控制）、目錄服務和安全聲明標記語言（SAML）2.0。 
 ---
-= 存取管理總覽
+= 了解 SANtricity System Manager 中的存取管理
 :allow-uri-read: 
 :experimental: 
 :icons: font

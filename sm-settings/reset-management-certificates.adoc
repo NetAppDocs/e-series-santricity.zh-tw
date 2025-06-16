@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reset, management, certificates, 
 summary: 您可以將控制器上的憑證從使用CA簽署的憑證還原為原廠設定的自我簽署憑證。 
 ---
-= 重設管理憑證
+= 在 SANtricity System Manager 中重置管理憑證
 :allow-uri-read: 
 :experimental: 
 :icons: font

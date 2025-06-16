@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, 
 summary: 同步鏡射可即時複寫資料磁碟區、確保持續可用。 
 ---
-= 同步鏡射的運作方式
+= SANtricity System Manager 中的同步鏡像運作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

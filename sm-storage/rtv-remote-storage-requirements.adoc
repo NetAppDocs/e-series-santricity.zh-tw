@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, requirements 
 summary: 在使用遠端儲存功能之前、請先檢閱下列需求與限制。 
 ---
-= 遠端儲存功能需求
+= 了解 SANtricity 軟體中的遠端儲存功能要求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

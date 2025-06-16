@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, activate, staged, os, software 
 summary: 您可以選擇立即啟動軟體檔案、或等到更方便的時間再啟動。此程序假設您選擇稍後啟動軟體檔案。 
 ---
-= 啟動分段作業系統軟體
+= 在 SANtricity Unified Manager 中啟動暫存作業系統軟體
 :allow-uri-read: 
 :experimental: 
 :icons: font

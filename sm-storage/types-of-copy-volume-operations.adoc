@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: 您可以執行離線複製磁碟區作業或線上複製磁碟區作業。離線作業會從來源磁碟區讀取資料、然後將其複製到目標磁碟區。線上作業使用快照磁碟區做為來源、並將其資料複製到目標磁碟區。 
 ---
-= 複製Volume作業的類型
+= 了解 SANtricity 軟體中的複製卷操作類型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

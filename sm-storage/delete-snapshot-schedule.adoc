@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, schedule 
 summary: 如果您不想再收集快照映像、可以刪除現有的快照排程。 
 ---
-= 刪除快照排程
+= 在 SANtricity System Manager 中刪除快照計劃
 :allow-uri-read: 
 :experimental: 
 :icons: font

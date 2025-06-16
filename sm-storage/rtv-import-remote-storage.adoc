@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, import, remote, storage 
 summary: 若要從遠端系統將儲存設備匯入本機E系列儲存系統、請使用匯入遠端儲存精靈。 
 ---
-= 匯入遠端儲存設備
+= 在 SANtricity System Manager 中導入遠端存儲
 :allow-uri-read: 
 :experimental: 
 :icons: font

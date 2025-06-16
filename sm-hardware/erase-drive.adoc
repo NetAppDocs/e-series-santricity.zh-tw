@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, erase, drives, removal, 
 summary: 您可以使用「Erase（清除）」選項、準備從系統中移除未指派的磁碟機。此程序會永久移除資料、確保無法再次讀取資料。 
 ---
-= 清除磁碟機
+= 在 SANtricity System Manager 中擦除磁碟機
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, ssd cache, statistics 
 summary: 您可以檢視SSD快取的統計資料、例如讀取、寫入、快取命中率、快取分配百分比、 和快取使用率百分比。 
 ---
-= 檢視SSD快取統計資料
+= 在 SANtricity System Manager 中查看 SSD 快取統計資訊
 :allow-uri-read: 
 :experimental: 
 :icons: font

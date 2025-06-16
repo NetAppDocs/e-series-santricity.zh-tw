@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, volumes 
 summary: 您可以建立磁碟區、將儲存容量新增至應用程式專屬的工作負載、並使建立的磁碟區對特定主機或主機叢集可見。此外、磁碟區建立順序也提供選項、可將特定容量分配給您要建立的每個磁碟區。 
 ---
-= 建立磁碟區
+= 在 SANtricity System Manager 中建立磁碟區
 :allow-uri-read: 
 :experimental: 
 :icons: font

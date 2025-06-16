@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cancel, snapshot, image, rollback 
 summary: 您可以取消進行中的作用中復原（主動複製資料）、擱置中的復原（在等待資源啟動的等待佇列中）、或是因為錯誤而暫停的復原。 
 ---
-= 取消快照映像復原
+= 在 SANtricity System Manager 中取消快照映像回滾
 :allow-uri-read: 
 :experimental: 
 :icons: font

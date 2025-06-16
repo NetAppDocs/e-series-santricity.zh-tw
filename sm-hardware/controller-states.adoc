@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, controller, states, 
 summary: 您可以將控制器置於三種不同狀態：線上、離線及服務模式。 
 ---
-= 控制器狀態
+= 了解 SANtricity System Manager 中的控制器狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

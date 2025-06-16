@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, synchronization, settings, mirrored, pair, 
 summary: 您可以變更鏡射配對用來在通訊中斷後完成重新同步作業的同步優先順序和重新同步原則。 
 ---
-= 變更鏡射配對的同步處理設定
+= 在 SANtricity System Manager 中變更鏡像對的同步設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

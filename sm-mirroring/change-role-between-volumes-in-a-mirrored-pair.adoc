@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, role, volumes, mirrored, pair, 
 summary: 您可以在鏡射配對中的兩個磁碟區之間執行角色反轉、這兩個磁碟區是為了管理目的而參與同步鏡射、或是在本機儲存陣列發生災難時執行。 
 ---
-= 變更鏡射配對中磁碟區之間的角色
+= 在 SANtricity System Manager 中變更鏡像對中磁碟區之間的角色
 :allow-uri-read: 
 :experimental: 
 :icons: font

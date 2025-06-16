@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, increase, capacity, volume 
 summary: 您可以使用資源池或磁碟區群組中可用的可用容量、來增加磁碟區的報告容量（報告給主機的容量）。 
 ---
-= 增加磁碟區的容量
+= 增加 SANtricity System Manager 中捲的容量
 :allow-uri-read: 
 :experimental: 
 :icons: font

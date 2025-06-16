@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirrored, pair, 
 summary: 您可以使用「暫停」選項和「恢復」選項、來控制何時同步主磁碟區上的資料、以及鏡射配對中的次磁碟區。 
 ---
-= 暫停並恢復鏡射配對的同步
+= 在 SANtricity System Manager 中暫停和恢復鏡像對的同步
 :allow-uri-read: 
 :experimental: 
 :icons: font

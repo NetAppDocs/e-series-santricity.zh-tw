@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, mirror, consistency, groups, 
 summary: 您可以測試通訊連結、以診斷本機儲存陣列與與鏡射一致性群組相關的遠端儲存陣列之間可能發生的通訊問題。 
 ---
-= 測試鏡射一致性群組的通訊
+= 在 SANtricity System Manager 中測試鏡像一致性群組的通訊
 :allow-uri-read: 
 :experimental: 
 :icons: font

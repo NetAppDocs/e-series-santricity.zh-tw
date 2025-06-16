@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configuration settings, volume group 
 summary: 您可以編輯Volume群組的設定、包括其名稱和RAID層級。 
 ---
-= 變更Volume群組的組態設定
+= 在 SANtricity System Manager 中變更卷宗組的配置設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

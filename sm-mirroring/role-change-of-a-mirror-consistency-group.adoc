@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, role, change, mirror, consistency, group, secondary, mirror, consistency, group, 
 summary: 您可以變更鏡射一致性群組中鏡射配對之間的角色。您可以將主要鏡像一致性群組降級為次要角色、或將次要鏡像一致性群組提升為主要角色、以達成此目標。 
 ---
-= 鏡射一致性群組的角色變更
+= 在 SANtricity 軟體中變更鏡像一致性群組角色
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

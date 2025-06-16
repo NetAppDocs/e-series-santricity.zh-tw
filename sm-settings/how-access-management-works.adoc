@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, authentication, users, roles, access, Management, 
 summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建立使用者驗證的方法。 
 ---
-= 存取管理的運作方式
+= SANtricity System Manager 中的存取管理工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

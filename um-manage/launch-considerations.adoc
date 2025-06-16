@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
 summary: 您可以選擇一或多個儲存陣列、並在SANtricity 您想要設定及管理儲存陣列時、使用「Launch」（啟動）選項來開啟「精選系統管理程式」。 
 ---
-= 存取SANtricity 《系統管理程式》的考量
+= 了解如何從 Unified Manager 存取 SANtricity System Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

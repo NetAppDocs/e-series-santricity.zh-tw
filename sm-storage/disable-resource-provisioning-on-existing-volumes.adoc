@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, resource provisioning, 
 summary: 您可以在現有的資源池或Volume群組上啟用或停用資源資源配置。 
 ---
-= 啟用或停用現有磁碟區群組和集區上的資源配置
+= 在 SANtricity System Manager 中啟用或停用現有磁碟區組和池的資源配置
 :allow-uri-read: 
 :experimental: 
 :icons: font

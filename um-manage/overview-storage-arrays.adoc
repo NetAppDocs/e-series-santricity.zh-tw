@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays 
 summary: 若要管理儲存資源、您必須先探索網路中的儲存陣列。 
 ---
-= 探索總覽
+= 了解 SANtricity Unified Manager 中的發現
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

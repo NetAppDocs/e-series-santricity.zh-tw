@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, storage, array, group 
 summary: 您可以建立儲存群組、然後將儲存陣列新增至群組。儲存設備群組會定義哪些磁碟機提供組成磁碟區的儲存設備。 
 ---
-= 設定儲存陣列群組
+= 在 SANtricity Unified Manager 中設定儲存陣列群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

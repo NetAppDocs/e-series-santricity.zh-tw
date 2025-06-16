@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, legacy, management, interface, 
 summary: 您可以啟用或停用舊版管理介面（符號）、這是儲存陣列與管理用戶端之間的通訊方法。 
 ---
-= 啟用或停用舊版管理介面
+= 在 SANtricity System Manager 中啟用或停用舊式管理介面
 :allow-uri-read: 
 :experimental: 
 :icons: font

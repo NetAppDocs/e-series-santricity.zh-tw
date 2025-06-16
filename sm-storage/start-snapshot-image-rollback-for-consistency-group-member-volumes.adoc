@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, snapshot, consistency, group, member, volumes 
 summary: 您可以執行復原作業來變更快照一致性群組成員磁碟區的內容、以符合儲存在快照映像中的內容。 
 ---
-= 針對Snapshot一致性群組成員磁碟區、開始Snapshot映像復原
+= 在 SANtricity System Manager 中啟動快照一致性群組成員磁碟區的快照映像回滾
 :allow-uri-read: 
 :experimental: 
 :icons: font

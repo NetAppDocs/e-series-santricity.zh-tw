@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, security, key, 
 summary: 您隨時都可以用新的金鑰來取代安全性金鑰。如果您的公司可能發生安全漏洞、而且想要確保未獲授權的人員無法存取磁碟機的資料、您可能需要變更安全金鑰。 
 ---
-= 變更安全金鑰
+= 在 SANtricity System Manager 中變更安全性金鑰
 :allow-uri-read: 
 :experimental: 
 :icons: font

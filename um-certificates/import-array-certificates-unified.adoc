@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, certificates, arrays 
 summary: 如有必要、您可以匯入儲存陣列的憑證、以便使用裝載SANtricity 了VMware Unified Manager的系統進行驗證。憑證可以由憑證授權單位（CA）簽署、也可以自行簽署。 
 ---
-= 匯入陣列的憑證
+= 在 SANtricity Unified Manager 中匯入陣列憑證
 :allow-uri-read: 
 :experimental: 
 :icons: font

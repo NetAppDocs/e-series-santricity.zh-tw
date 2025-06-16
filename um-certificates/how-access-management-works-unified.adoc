@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, authentication, users, roles, access management 
 summary: 使用存取管理功能、在SANtricity 《統一化管理程式》中建立使用者驗證。 
 ---
-= 存取管理的運作方式
+= SANtricity Unified Manager 中的存取管理工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

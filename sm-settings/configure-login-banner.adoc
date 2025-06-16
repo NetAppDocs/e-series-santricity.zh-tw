@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, login, banner, 
 summary: 您可以建立登入橫幅、在使用SANtricity 者在「系統管理程式」中建立工作階段之前、先向使用者出示登入橫幅。橫幅可包含建議事項通知和同意訊息。 
 ---
-= 設定登入橫幅
+= 在 SANtricity System Manager 中配置登入橫幅
 :allow-uri-read: 
 :experimental: 
 :icons: font

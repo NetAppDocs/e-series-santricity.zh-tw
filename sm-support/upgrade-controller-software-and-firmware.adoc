@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, software, firmware 
 summary: 您可以升級儲存陣列的軟體、也可以選擇性地升級IOM韌體和非揮發性靜態隨機存取記憶體（NVSRAM）、以確保您擁有所有最新的功能和錯誤修復。 
 ---
-= 升級控制器軟體與韌體
+= 在 SANtricity System Manager 中升級控制器軟體和韌體
 :allow-uri-read: 
 
 

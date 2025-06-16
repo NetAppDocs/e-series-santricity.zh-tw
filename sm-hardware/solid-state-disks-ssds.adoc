@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, solid, state, disk, SSD 
 summary: 固態磁碟（SSD）是使用固態記憶體（Flash）持續儲存資料的資料儲存裝置。SSD可模擬傳統硬碟機、並與硬碟機使用的介面相同。 
 ---
-= 固態磁碟（SSD）
+= 了解 SANtricity System Manager 中的固態磁碟 (SSD)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

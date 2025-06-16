@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage 
 summary: 遠端儲存功能可讓您從遠端儲存系統將資料匯入本機E系列儲存系統。當您想要簡化資料移轉作業並將停機時間降至最低（例如設備升級期間）時、這項功能非常實用。 
 ---
-= 遠端儲存設備的運作方式
+= 遠端儲存在 SANtricity 軟體中的工作原理
 :allow-uri-read: 
 :experimental: 
 :icons: font

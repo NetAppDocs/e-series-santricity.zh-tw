@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, autosupport, log 
 summary: 此資料檔提供有關供應過程中所遇到的狀態、派單記錄和錯誤的資訊。AutoSupport AutoSupport 
 ---
-= 檢視AutoSupport 資訊記錄
+= 在 SANtricity System Manager 中查看 AutoSupport 日誌
 :allow-uri-read: 
 :experimental: 
 :icons: font

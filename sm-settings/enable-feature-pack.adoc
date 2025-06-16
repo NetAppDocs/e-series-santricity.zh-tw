@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, feature, pack, 
 summary: 功能套件是變更儲存陣列屬性的套件組合（例如、將傳輸協定從Fibre Channel變更為iSCSI）。功能套件需要特殊的金鑰才能啟用。 
 ---
-= 啟用功能套件
+= 在 SANtricity System Manager 中啟用功能包
 :allow-uri-read: 
 :experimental: 
 :icons: font

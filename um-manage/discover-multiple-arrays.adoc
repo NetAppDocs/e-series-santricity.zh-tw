@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, multiple, storage, arrays 
 summary: 您會發現多個陣列、偵測管理伺服器所在子網路上的所有儲存陣列、並自動將探索到的陣列新增至管理網域。 
 ---
-= 探索多個儲存陣列
+= 在 SANtricity Unified Manager 中發現多個儲存陣列
 :allow-uri-read: 
 :experimental: 
 :icons: font

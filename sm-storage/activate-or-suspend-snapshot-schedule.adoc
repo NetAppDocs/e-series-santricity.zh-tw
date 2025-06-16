@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot schedule 
 summary: 您可以在需要節省儲存空間時、暫時暫停已排程的快照映像集合。此方法比刪除快照排程及稍後重新建立快照排程更有效率。 
 ---
-= 啟動並暫停快照排程
+= 在 SANtricity System Manager 中啟動和暫停快照計劃
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshots 
 summary: Snapshot功能可讓您建立儲存陣列磁碟區的時間點映像、以便用於備份或測試。 
 ---
-= Snapshot總覽
+= 了解 SANtricity System Manager 中的快照
 :allow-uri-read: 
 :experimental: 
 :icons: font

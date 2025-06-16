@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups 
 summary: 使用快照映像集合排程、並使用快照一致性群組來管理多個基礎磁碟區。 
 ---
-= Snapshot排程和Snapshot一致性群組
+= 了解 SANtricity System Manager 中的快照規劃和快照一致性群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

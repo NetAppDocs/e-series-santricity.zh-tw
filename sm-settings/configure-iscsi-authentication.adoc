@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, iscsi, authentication, 
 summary: 為了加強iSCSI網路的安全性、您可以在控制器（目標）和主機（啟動器）之間設定驗證。 
 ---
-= 設定iSCSI驗證
+= 在 SANtricity System Manager 中設定 iSCSI 驗證
 :allow-uri-read: 
 :experimental: 
 :icons: font

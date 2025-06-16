@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, internal, security, key, 
 summary: 若要使用「磁碟機安全性」功能、您可以建立內部安全金鑰、由儲存陣列中的控制器和具有安全功能的磁碟機共用。內部金鑰會保留在控制器的持續記憶體上。 
 ---
-= 建立內部安全金鑰
+= 在 SANtricity System Manager 中建立內部安全性金鑰
 :allow-uri-read: 
 :experimental: 
 :icons: font

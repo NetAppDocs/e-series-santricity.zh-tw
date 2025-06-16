@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, automatic, manual, pool 
 summary: 您可以自動或手動建立資源池、以便將實體儲存設備分組、然後視需要動態配置。建立集區時、您可以新增實體磁碟機。 
 ---
-= 自動與手動建立資源池
+= 了解 SANtricity System Manager 中的自動池建立與手動池建立
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

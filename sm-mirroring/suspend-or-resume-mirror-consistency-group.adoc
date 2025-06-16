@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirror, consistency, group, 
 summary: 您可以暫停或恢復鏡射一致性群組中所有鏡射配對上的資料同步、這比暫停或恢復個別鏡射配對的同步效率更高。 
 ---
-= 暫停或恢復鏡射一致性群組的同步
+= 在 SANtricity System Manager 中暫停或復原鏡像一致性群組的同步
 :allow-uri-read: 
 :experimental: 
 :icons: font

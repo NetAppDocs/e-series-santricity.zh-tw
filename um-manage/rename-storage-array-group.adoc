@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, rename, storage, array, group 
 summary: 當目前名稱不再有意義或適用時、您可以變更儲存陣列群組的名稱。 
 ---
-= 重新命名儲存陣列群組
+= 在 SANtricity Unified Manager 中重新命名儲存陣列群組
 :allow-uri-read: 
 :experimental: 
 :icons: font

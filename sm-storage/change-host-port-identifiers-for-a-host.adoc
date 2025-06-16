@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host port, identifiers, host 
 summary: 若要變更主機連接埠識別碼上的使用者標籤、新增主機連接埠識別碼至主機、或從主機刪除主機連接埠識別碼、請變更主機連接埠識別碼。 
 ---
-= 變更主機的主機連接埠識別碼
+= 在 SANtricity System Manager 中變更主機的主機連接埠標識符
 :allow-uri-read: 
 :experimental: 
 :icons: font

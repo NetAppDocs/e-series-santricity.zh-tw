@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, member volume, snapshot, consistency group 
 summary: 您可以從現有的快照一致性群組中移除成員磁碟區。 
 ---
-= 從快照一致性群組中移除成員磁碟區
+= 從 SANtricity System Manager 中的快照一致性群組中刪除成員卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

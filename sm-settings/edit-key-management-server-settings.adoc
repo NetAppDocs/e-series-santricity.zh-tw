@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, key, management, server, settings, 
 summary: 如果您已設定外部金鑰管理、則可以隨時檢視及編輯金鑰管理伺服器設定。 
 ---
-= 編輯金鑰管理伺服器設定
+= 在 SANtricity System Manager 中編輯金鑰管理伺服器設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

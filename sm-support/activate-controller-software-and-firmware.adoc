@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, activate, controller, software, firmware 
 summary: 您可以選擇立即啟動升級檔案、或等到更方便的時間再啟動。 
 ---
-= 啟動控制器軟體和韌體
+= 在 SANtricity System Manager 中啟動控制器軟體和韌體
 :allow-uri-read: 
 :experimental: 
 :icons: font

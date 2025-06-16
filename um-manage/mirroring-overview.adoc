@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, 
 summary: Unified Manager提供SANtricity 支援鏡射功能的組態選項、可讓系統管理員在兩個儲存陣列之間複寫資料、以保護資料。 
 ---
-= 鏡射的運作方式
+= 了解 SANtricity 鏡像
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

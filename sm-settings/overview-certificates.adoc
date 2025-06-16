@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, 
 summary: 您可以使用System Manager來建立憑證簽署要求（CSR）、匯入憑證、以及管理現有的憑證。 
 ---
-= 憑證總覽
+= 了解 SANtricity System Manager 中的憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

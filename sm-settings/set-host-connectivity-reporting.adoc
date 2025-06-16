@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, set, host, connectivity, reporting, 
 summary: 您可以啟用主機連線報告功能、讓儲存陣列持續監控控制器與已設定主機之間的連線、然後在連線中斷時發出警示。此功能預設為啟用。 
 ---
-= 設定主機連線報告
+= 在 SANtricity System Manager 中設定主機連線報告
 :allow-uri-read: 
 :experimental: 
 :icons: font

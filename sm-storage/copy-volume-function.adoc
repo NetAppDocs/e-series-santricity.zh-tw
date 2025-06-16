@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume, 
 summary: 複製Volume功能可讓您在同一個儲存陣列上建立兩個獨立的磁碟區、即來源磁碟區和目標磁碟區、藉此建立磁碟區的時間點複本。 
 ---
-= 複製Volume總覽
+= 了解 SANtricity System Manager 中的複製卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

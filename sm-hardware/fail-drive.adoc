@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, fail, drive, 
 summary: 如果有指示、您可以手動將磁碟機故障。 
 ---
-= 故障磁碟機
+= 在 SANtricity System Manager 中手動關閉磁碟機
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, storage 
 summary: Snapshot功能使用寫入時複製技術來儲存快照映像、並使用已分配的保留容量。 
 ---
-= Snapshot儲存設備的運作方式
+= SANtricity 軟體中的快照儲存運作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

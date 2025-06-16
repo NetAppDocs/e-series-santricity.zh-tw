@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, initialize, volumes 
 summary: 第一次建立磁碟區時、就會自動初始化該磁碟區。不過、Recovery Guru可能會建議您手動初始化磁碟區、以便從某些故障情況中恢復。請僅在技術支援的指導下使用此選項。您可以選取一個或多個要初始化的磁碟區。 
 ---
-= 初始化磁碟區
+= 在 SANtricity System Manager 中初始化卷
 :allow-uri-read: 
 :experimental: 
 :icons: font

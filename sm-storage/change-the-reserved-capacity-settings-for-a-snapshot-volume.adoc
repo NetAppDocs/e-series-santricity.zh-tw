@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, snapshot, volume 
 summary: 您可以變更快照磁碟區的設定、以調整當快照磁碟區的保留容量即將滿時、系統傳送警示通知的百分比點。 
 ---
-= 變更快照磁碟區的保留容量設定
+= 在 SANtricity System Manager 中變更快照磁碟區的預留容量設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

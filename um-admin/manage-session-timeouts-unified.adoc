@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, session, timeouts 
 summary: 您可以設定SANtricity 適用於NetApp的逾時時間、以便在指定時間後中斷使用者的非作用中工作階段連線。 
 ---
-= 管理工作階段逾時
+= 在 SANtricity Unified Manager 中管理會話逾時
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

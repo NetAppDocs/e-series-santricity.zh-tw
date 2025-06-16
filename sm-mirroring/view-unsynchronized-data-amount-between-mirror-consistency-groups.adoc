@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, unsynchronized, data, mirror, consistency, groups, 
 summary: 您可以檢視本機儲存陣列和遠端儲存陣列上鏡射一致性群組之間的未同步資料量。當鏡射一致性群組處於非同步狀態時、不會發生鏡射活動。 
 ---
-= 檢視鏡射一致性群組之間的非同步資料量
+= 在 SANtricity System Manager 中檢視鏡像一致性群組之間不同步的資料量
 :allow-uri-read: 
 :experimental: 
 :icons: font

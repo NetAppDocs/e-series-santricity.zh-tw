@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, storage hierarchy 
 summary: 主介面上的「儲存階層」可讓您以組織方式檢視儲存陣列所管理的各種硬體元件和儲存物件。 
 ---
-= 檢視儲存階層架構
+= 在 SANtricity System Manager 中查看儲存層次結構
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

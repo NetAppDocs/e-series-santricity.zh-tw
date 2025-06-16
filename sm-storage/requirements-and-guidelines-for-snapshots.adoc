@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, guidelines, snapshots 
 summary: 建立及使用快照時、請檢閱下列需求與準則。 
 ---
-= 快照的要求與準則
+= SANtricity System Manager 中的快照需求和指南
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

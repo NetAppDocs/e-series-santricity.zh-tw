@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, user, settings, snmpv3, traps, 
 summary: 您可以編輯v3設陷的使用者定義。 
 ---
-= 編輯使用者設定的v3設陷
+= 在 SANtricity System Manager 中編輯 SNMPv3 陷阱的使用者設置
 :allow-uri-read: 
 :experimental: 
 :icons: font
