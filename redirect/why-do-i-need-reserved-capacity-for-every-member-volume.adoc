@@ -1,0 +1,8 @@
+---
+permalink: sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html 
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html 
+---
+= 
+:allow-uri-read: 
+
+

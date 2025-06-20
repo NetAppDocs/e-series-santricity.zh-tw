@@ -1,0 +1,8 @@
+---
+permalink: sm-support/what-is-a-health-image.html 
+redirect: e-series-santricity/sm-support/faq-autosupport.html 
+---
+= 
+:allow-uri-read: 
+
+

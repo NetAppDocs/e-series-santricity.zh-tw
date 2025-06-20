@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, base volumes, reserved capacity, snapshot groups 
 summary: Snapshot功能使用基礎磁碟區、保留容量和Snapshot群組。 
 ---
-= 基礎磁碟區、保留容量及快照群組
+= 了解 SANtricity System Manager 中的基本磁碟區、預留容量和快照群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -1,0 +1,8 @@
+---
+permalink: sm-hardware/why-would-i-logically-replace-a-drive.html 
+redirect: e-series-santricity/sm-storage/faq-storage-drives.html 
+---
+= 
+:allow-uri-read: 
+
+

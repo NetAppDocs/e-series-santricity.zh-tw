@@ -1,0 +1,8 @@
+---
+permalink: sm-interface/where-can-i-find-more-information-about-display-preferences.html 
+redirect: e-series-santricity/sm-interface/faq-management-interface.html 
+---
+= 
+:allow-uri-read: 
+
+

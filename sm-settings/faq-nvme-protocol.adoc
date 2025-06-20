@@ -1,0 +1,129 @@
+---
+permalink: sm-settings/faq-nvme-protocol.html 
+sidebar: sidebar 
+keywords:  
+summary: 如果您只是想要快速回答問題、這個常見問題集就能幫上忙。 
+---
+= SANtricity System Manager 的 NVMe 協定常見問題解答
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您只是想要快速回答問題、這個常見問題集就能幫上忙。
+
+
+
+== 如何解讀NVMe over Fabrics統計資料？
+
+「View NVMe over Fabrics Statistics」（檢視NVMe over Fabrics統計資料）對話方塊會顯示NVMe子系統和RDMA介面的統計資料。所有統計資料均為唯讀、無法設定。
+
+* * NVMe子系統統計資料*-顯示NVMe控制器及其佇列的統計資料。NVMe控制器提供主機與儲存陣列中命名空間之間的存取路徑。您可以檢閱NVMe子系統統計資料、查看連線故障、重設和關機等項目。如需這些統計資料的詳細資訊、請按一下*檢視表格標題的圖例*。
+* * RDMA介面統計資料*-提供RDMA介面上所有NVMe over Fabrics連接埠的統計資料、其中包括效能統計資料、以及與每個交換器連接埠相關的連結錯誤資訊。此索引標籤僅會在NVMe over Fabrics連接埠可用時顯示。如需統計資料的詳細資訊、請按一下*檢視表格標題的圖例*。
+
+
+您可以將每個統計資料檢視為原始統計資料或是基準統計資料。原始統計資料是自控制器啟動以來所收集的所有統計資料。比較基準統計資料是自您設定基準時間以來所收集的時間點統計資料。
+
+
+
+== 我還需要如何透過InfiniBand來設定或診斷NVMe？
+
+下表列出 SANtricity 系統管理員功能，可用於設定和管理 InfiniBand 工作階段上的 NVMe 。
+
+[NOTE]
+====
+NVMe over InfiniBand設定只有在儲存陣列的控制器包含NVMe over InfiniBand連接埠時才能使用。
+
+====
+[cols="35h,~"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+設定NVMe over InfiniBand連接埠
+ a| 
+. 選取*硬體*。
+. 選擇 * 控制器與元件 * 標籤。
+. 選取控制器。
+. 選取*透過InfiniBand連接埠設定NVMe *。
+
+
+或
+
+. 選取功能表：設定[系統]。
+. 向下捲動至* NVMe over InfiniBand設定*、然後選取* Configure NVMe over InfiniBand Ports*。
+
+
+
+
+ a| 
+檢視NVMe over InfiniBand統計資料
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* NVMe over InfiniBand設定*、然後選取* View NVMe over Fabrics Statistic*。
+
+
+|===
+
+
+== 我還需要做什麼才能透過RoCE來設定或診斷NVMe？
+
+您可以從「硬體與設定」頁面設定及管理NVMe over RoCE。
+
+[NOTE]
+====
+NVMe over RoCE設定僅適用於儲存陣列的控制器包含NVMe over RoCE連接埠的情況。
+
+====
+[cols="35h,~"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+設定NVMe over RoCE連接埠
+ a| 
+. 選取*硬體*。
+. 選擇 * 控制器與元件 * 標籤。
+. 選取控制器。
+. 選取*透過RoCE連接埠設定NVMe *。
+
+
+或
+
+. 選取功能表：設定[系統]。
+. 向下捲動至* NVMe over roce設定*、然後選取* Configure NVMe over roce Ports*。
+
+
+
+
+ a| 
+檢視NVMe over Fabrics統計資料
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* NVMe over roce設定*、然後選取* View NVMe over Fabrics Statistic*。
+
+
+|===
+
+
+== 為什麼一個實體連接埠有兩個IP位址？
+
+EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的。
+
+在此組態中、外部HIC會連接至內部輔助HIC。您可以從外部HIC存取的每個實體連接埠、都有一個與內部HIC相關的虛擬連接埠。
+
+若要達到最高200GB效能、您必須為實體和虛擬連接埠指派唯一的IP位址、讓主機能夠建立每個連接埠的連線。如果您未將IP位址指派給虛擬連接埠、HIC將以大約一半的能力速度執行。
+
+
+
+== 為什麼一個實體連接埠有兩組參數？
+
+EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的。
+
+在此組態中、外部HIC會連接至內部輔助HIC。您可以從外部HIC存取的每個實體連接埠、都有一個與內部HIC相關的虛擬連接埠。
+
+若要達到最高200GB效能、您必須為實體和虛擬連接埠指派參數、讓主機能夠建立每個連接。如果您未將參數指派給虛擬連接埠、HIC將以大約一半的能力速度執行。

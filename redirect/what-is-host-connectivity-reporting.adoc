@@ -1,0 +1,8 @@
+---
+permalink: sm-settings/what-is-host-connectivity-reporting.html 
+redirect: e-series-santricity/sm-storage/faq-systems-clusters.html 
+---
+= 
+:allow-uri-read: 
+
+

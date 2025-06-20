@@ -332,7 +332,6 @@
   <block id="a6c4aa53de15f85413261c13ee0e36bf" category="list-text">* AutoSupport 《隨需與遠端診斷》派單*</block>
   <block id="9bfa3639bc53d9fb06b3d5a34dd361ba" category="summary">您可以檢視儲存陣列的設定檔、以及儲存陣列中每個元件的韌體版本。</block>
   <block id="c4ce7d01b79eaee9292daa129a642307" category="paragraph">您可以檢視儲存陣列的設定檔、以及儲存陣列中每個元件的韌體版本。</block>
-  <block id="4abeb578b363f44144000527bdaabd0d" category="summary">在升級控制器的軟體和韌體之前、請注意以下事項。</block>
   <block id="5c7e6b00e34ca5a9745761f8b63dd9f3" category="doc">升級SANtricity 完《不知如何」的《不知如何？</block>
   <block id="335d86aaca8c114cdd7c918669e77b31" category="paragraph">在升級控制器的軟體和韌體之前、請注意以下事項。</block>
   <block id="00d0f215b8edbde21b482165efb63f25" category="list-text">您已閱讀文件和「readme.txt"檔案、並決定要進行升級。</block>
@@ -359,7 +358,6 @@
   <block id="73c40dbedb58622a5addb484bcb2b74f" category="list-text">選擇*排程AutoSupport *。</block>
   <block id="3c5e6b5527da0fa55b93f5dd6c1ee2f7" category="paragraph">「排程AutoSupport 畫面」顯示「派遣」精靈。</block>
   <block id="8afcf107cdd07f6a765c949ecd297794" category="list-text">請依照精靈中的步驟進行。</block>
-  <block id="ba3213bbbf9e5128613954ca4db4e5ee" category="summary">健全狀況映像是控制器處理器記憶體的原始資料傾印、技術支援可用來診斷控制器的問題。</block>
   <block id="4e3f3d52a16affbf4b062a79c89574da" category="doc">什麼是健全狀況映像？</block>
   <block id="793d79923fdf757cef5c422780f3772b" category="paragraph">健全狀況映像是控制器處理器記憶體的原始資料傾印、技術支援可用來診斷控制器的問題。</block>
   <block id="ce263fa58d4fdb3ad71f24d93430faf6" category="paragraph">韌體偵測到特定錯誤時、會自動產生健全狀況映像。在某些疑難排解案例中、技術支援人員可能會要求您擷取健全狀況映像檔並將其傳送給他們。</block>
@@ -504,7 +502,6 @@
   <block id="91dbe600e65db881ab696db75fb0c577" category="summary">「支援資料收集」功能和手冊可讓您在客戶支援套裝組合中收集資料、以便技術支援人員進行遠端疑難排解和問題分析。AutoSupport</block>
   <block id="0c0abab82c0a4d319b8e472ca9976625" category="doc">我要收集哪些資料？</block>
   <block id="8d1df5e3923cb2221d6d97c979f4a6a9" category="paragraph">客戶支援服務組合會將儲存陣列的所有類型資訊收集到單一壓縮檔案中。收集的資訊包括實體組態、邏輯組態、版本資訊、事件、記錄檔、 和效能資料。此資訊僅供技術支援人員用來解決儲存陣列的問題。</block>
-  <block id="068ea21c39695d9df18e79ea4abf66e1" category="summary">在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。下表列出可用來設定及管理這些iSCSI工作階段的System Manager功能。</block>
   <block id="c31a63fbfe62247245f55d6b792ad9e1" category="doc">我還需要做什麼才能設定或診斷iSCSI？</block>
   <block id="0d97aebcf5431f90d47b2257e5c9ad96" category="paragraph">iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。</block>
   <block id="28f21ae88e9953ac3d80686cfb49832b" category="section-title">設定iSCSI</block>
@@ -820,7 +817,6 @@
   <block id="8c455a82b904ae8cb2ac4f38aa62b51c" category="list-text"><block ref="8c455a82b904ae8cb2ac4f38aa62b51c" category="inline-link-macro-rx"></block></block>
   <block id="c8b683caf010ac698a90dd897620ec5a" category="inline-link-macro">解讀效能資料</block>
   <block id="c08474664a89e996c5ba900acd208685" category="list-text"><block ref="c08474664a89e996c5ba900acd208685" category="inline-link-macro-rx"></block></block>
-  <block id="ef7ae095d51a83215900fcb4d6a8da70" category="summary">CPU圖表會顯示每個控制器（控制器A和控制器B）的處理容量統計資料。CPU是中央處理器（Central Processing）的縮寫。在首頁上、此圖表會顯示儲存陣列的統計資料。在「Performance（效能）」方塊的「Physical View（實體檢視）」索引標籤上、此圖表會顯示儲存陣列和磁碟機的統計資料。</block>
   <block id="9af8e70c2152ca5e60b42c567ce33fa9" category="doc">CPU圖表顯示什麼？</block>
   <block id="0df991de7620dc5a14fb4b20b2af6425" category="paragraph">CPU圖表會顯示每個控制器（控制器A和控制器B）的處理容量統計資料。CPU是_Central處理器單元_的縮寫。在首頁上、此圖表會顯示儲存陣列的統計資料。在「Performance（效能）」方塊的「Physical View（實體檢視）」索引標籤上、此圖表會顯示儲存陣列和磁碟機的統計資料。</block>
   <block id="9c34bb79f49d9e803ab6b7dbbd4dfc48" category="paragraph">CPU圖表顯示陣列上的作業所使用的CPU處理容量百分比。即使沒有發生外部I/O、CPU使用率百分比也可能非零、因為儲存作業系統可能正在執行背景作業和監控。將游標停留在圖表上的某個點上、即可檢視當時使用的處理能力百分比。</block>
@@ -1107,7 +1103,6 @@
   <block id="8d63b58086a957abb733872e91b25917" category="list-text">如果集區或磁碟區群組包含所有資料保證（DA）功能的磁碟機、且集區或磁碟區群組中至少有一個啟用DA的磁碟區、則不符合不具備DA功能的磁碟機資格、因此無法將其新增至該集區或磁碟區群組。不過、如果集區或Volume群組中沒有啟用DA的磁碟區、則無法將無法使用DA的磁碟機新增至該集區或Volume群組。如果您決定混合使用這些磁碟機、請記住、您無法建立任何啟用DA的磁碟區。</block>
   <block id="26fc92dce88a2f2b7f6d311212b712a2" category="paragraph">您可以新增磁碟機、或刪除資源池或磁碟區群組、來增加儲存陣列的容量。</block>
   <block id="821c127bf32c0d6d510d581384bfdc89" category="summary">在設定遠端儲存功能的匯入時、您可能會注意到某些磁碟區因為區塊大小、容量或磁碟區可用度而未出現在目標候選清單中。</block>
-  <block id="d4538d3e9457b3332037137becb531c2" category="doc">為什麼我在目的地陣列上看不到所有磁碟區？</block>
   <block id="d57fac41eaeaf7a84370871910e0f6d2" category="paragraph">若要顯示在清單中、Volume候選對象必須具備：</block>
   <block id="69cc506297892e5a506e7d183cf03227" category="list-text">容量等於或大於遠端Volume。</block>
   <block id="b9152e2a19a205f565f107c733485374" category="list-text">與遠端磁碟區相同的區塊大小。</block>
@@ -1508,9 +1503,7 @@
   <block id="4acd7b5d7792ddea4992339cc611b8fa" category="doc">匯出/匯入Volume群組</block>
   <block id="e518bc03dbcd1762ba4d30c8c6626427" category="paragraph">不支援「匯出/匯入」功能。SANtricity您必須使用命令列介面（CLI）、將磁碟區群組匯出/匯入至不同的儲存陣列。</block>
   <block id="3bfd2179043341e09a4fc1cfd720d6ff" category="summary">此工作負載由一組使用命令列介面（CLI）建立的磁碟區、或是從不同儲存陣列移轉（匯入/匯出）的磁碟區組成。因此、此工作負載中的磁碟區不會與應用程式專屬的工作負載相關聯、因此無法刪除工作負載。</block>
-  <block id="91d388ab2a6ac649e3e39aa1f5535eef" category="doc">為何無法刪除選取的工作負載？</block>
   <block id="3cedad73b5b33c8b0c2b8d5beeed5264" category="summary">如果您已在所有可用容量上建立磁碟區、則可能無法增加保留容量。</block>
-  <block id="87b59aa4fc1f0d0f5aac88efb29545be" category="doc">為什麼我無法增加保留容量？</block>
   <block id="71396049ff539200dbba1007ca0cbc94" category="paragraph">保留容量是指為支援潛在磁碟機故障而保留在集區上的容量（磁碟機數量）。建立集區時、系統會根據集區中的磁碟機數量、自動保留預設的保留容量。如果您已在所有可用容量上建立磁碟區、則無法透過新增磁碟機或刪除磁碟區、來增加保留容量、而不將容量新增至資源池。</block>
   <block id="dc5cedd32cc74ed1dd3f0b48fe2065c3" category="paragraph">您可以從*資源池和Volume群組*變更保留容量。選取您要編輯的資源池。按一下「*檢視/編輯設定*」、然後選取「*設定*」索引標籤。</block>
   <block id="5f1d6366c7ffd99ff1b7c5f05e692914" category="paragraph">保留容量會指定為多個磁碟機、即使實際保留容量會分散在集區中的磁碟機上。</block>
@@ -1661,7 +1654,6 @@
   <block id="579111952277df3df9fa742ea446a46e" category="paragraph">必須初始化新建立的磁碟區。系統可以使用兩種模式之一來初始化它們：立即可用的格式（IAF）背景初始化程序或離線程序。</block>
   <block id="b1c4b88d281bea242ba9cbb2fc92f27f" category="paragraph">將磁碟區對應到主機時、會強制該群組中任何初始化的磁碟區轉換成背景初始化。此背景初始化程序可同時執行主機I/O、有時可能會耗費大量時間。</block>
   <block id="4eca01072b181a01596e3bbd4352155a" category="paragraph">如果未對應磁碟區群組中的任何磁碟區、則會執行離線初始化。離線程序比背景程序快得多。</block>
-  <block id="0c6710fd70e8f6dfb7dc7c5ef665fd39" category="summary">在磁碟區建立期間、系統會提示您提供工作負載使用的相關資訊。系統會使用此資訊為您建立最佳Volume組態、並可視需要加以編輯。您也可以在磁碟區建立順序中跳過此步驟。</block>
   <block id="b5a3b95a88ff3f89275ca18c4736d4b8" category="doc">我所選的工作負載如何影響磁碟區建立？</block>
   <block id="313e2c8f533507666d0259a50f56b9d4" category="paragraph">在磁碟區建立期間、系統會提示您提供工作負載使用的相關資訊。系統會使用此資訊為您建立最佳Volume組態、並可視需要加以編輯。您也可以在磁碟區建立順序中跳過此步驟。</block>
   <block id="ab699fec90fd6cda5e110bb5189e9178" category="paragraph">工作負載是支援應用程式的儲存物件。您可以針對每個應用程式定義一或多個工作負載或執行個體。對於某些應用程式、系統會將工作負載設定為包含具有類似基礎Volume特性的磁碟區。這些Volume特性是根據工作負載所支援的應用程式類型而最佳化。例如、如果您建立支援Microsoft SQL Server應用程式的工作負載、然後為該工作負載建立磁碟區、則基礎磁碟區特性會最佳化以支援Microsoft SQL Server。</block>
@@ -1672,7 +1664,6 @@
   <block id="9e58bf91c4db2768afe12a38561fb7ee" category="list-text">VMware ESXi™（適用於與虛擬機器檔案系統搭配使用的磁碟區）</block>
   <block id="978ec6001b2172ad0515b162a6b92721" category="paragraph">您可以使用「新增/編輯磁碟區」對話方塊來檢閱建議的磁碟區組態、以及編輯、新增或刪除系統建議的磁碟區和特性。</block>
   <block id="2f80ce597e2c0c00e53a627a39a89400" category="list-text">*其他*（或不支援特定磁碟區建立的應用程式）- 其他工作負載則使用Volume組態、您必須手動指定何時要建立與特定應用程式無關的工作負載、或是儲存陣列上未針對您要使用的應用程式進行內建最佳化。您必須使用「新增/編輯磁碟區」對話方塊手動指定磁碟區組態。</block>
-  <block id="bbe3b633d8eb778210704db7ffbfa4f0" category="summary">容量警示會指出何時要將磁碟機新增至資源池。集區需要足夠的可用容量、才能成功執行儲存陣列作業。您可以設定System Manager在資源池的可用容量達到或超過指定百分比時傳送警示、以避免這些作業中斷。</block>
   <block id="b66879679e0a456d131df0dfbdb9fb95" category="doc">容量警示為何重要？</block>
   <block id="36b833228459c54e9caad4c4ebad3dad" category="paragraph">使用* Pool自動組態*選項或*建立集區*選項建立集區時、您可以設定此百分比。如果您選擇自動選項、預設設定會自動決定何時收到警示通知。如果您選擇手動建立集區、可以決定警示通知設定；如果您願意、也可以接受預設設定。您稍後可以在功能表：設定[警示]中調整這些設定。</block>
   <block id="2e7fdb8bc40f6a8c60ac3763b5af0b1d" category="paragraph">當集區中的可用容量達到指定百分比時、系統會使用您在警示組態中指定的方法傳送警示通知。</block>
@@ -1766,8 +1757,6 @@
   <block id="3e5cc3257f1985b382415a4fab7c65d9" category="list-text">選擇* Uncommon Tasks *（不常見任務），然後選擇* Enable resources Provisioning（*啓用資源配置）*或* Disable resources Provisioning（*禁用資源配置）*。</block>
   <block id="057fd6d85219203435ea065ff7eeca02" category="list-text">在對話方塊中、確認操作。</block>
   <block id="a12dd8ae911fabfd99caece66bd2bab2" category="admonition">*如果您重新啟用DULBE*-在背景作業完成之後、您可能需要重新啟動主機、使其偵測DULBE組態變更、然後重新掛載所有檔案系統。</block>
-  <block id="13681cec74a14e3099d5f047f880fe52" category="summary">具有啟用DA基礎磁碟區的Snapshot Volume不符合指派給不具備Data Assurance（DA）功能的主機的資格。您必須先停用基礎磁碟區上的DA、才能將快照磁碟區指派給不具備DA功能的主機。」</block>
-  <block id="1940b3e4d69d728f35065944d4986514" category="doc">為什麼我看不到所有的磁碟區、主機或主機叢集？</block>
   <block id="f956e41235aa6de0ef7cf1901fa9a994" category="paragraph">具有啟用DA基礎磁碟區的Snapshot Volume不符合指派給不具備Data Assurance（DA）功能的主機的資格。您必須先停用基礎磁碟區上的DA、才能將快照磁碟區指派給不具備DA功能的主機。</block>
   <block id="92fc66f9534d94b4859793638454d6ee" category="paragraph">請針對您要指派快照磁碟區的主機、考慮下列準則：</block>
   <block id="934321fee1dda599a0c218c9b94c7e4e" category="list-text">如果主機透過不支援DA的I/O介面連接至儲存陣列、則該主機將無法執行DA功能。</block>
@@ -1863,7 +1852,6 @@
   <block id="da2f488d54ebbc0f82f7d3a45c729f04" category="list-text">檢閱對話方塊中的文字、然後確認操作。</block>
   <block id="bc4936c78429e0f85dfa04f979250b01" category="paragraph">磁碟機在「Hardware（硬體）」頁面上以粉色顯示、表示它現在是熱備援磁碟機。</block>
   <block id="0573d9ce089aa1db49a5c1452140a569" category="paragraph">如果RAID 1、RAID 5或RAID 6磁碟區群組內的磁碟機故障、控制器會自動使用備援資料、將故障磁碟機的資料重建為熱備援磁碟機。</block>
-  <block id="e3745a2a50cbf1b7fb00b47442215710" category="summary">對於EF300和EF600系統、可以設定一個磁碟區來支援512位元組或4KiB區塊大小（也稱為「磁碟區大小」）。您必須在建立磁碟區期間設定正確的值。如果可能、系統會建議適當的預設值。</block>
   <block id="fb5754cb7d8aec1ca725e7242d365730" category="doc">我需要知道哪些關於主機區塊大小需求的資訊？</block>
   <block id="e5e425d8ab1cbef0e34a067f0d88d470" category="paragraph">對於EF300和EF600系統、可以設定一個磁碟區來支援512位元組或4KiB區塊大小（也稱為「磁碟區大小」）。您必須在建立磁碟區期間設定正確的值。如果可能、系統會建議適當的預設值。</block>
   <block id="f4aa667b118a0a334c4fa467de995fc8" category="paragraph">設定Volume區塊大小之前、請先閱讀下列限制與準則。</block>
@@ -1998,7 +1986,6 @@
   <block id="e681a3b45989b468533c4b90ee960bf9" category="paragraph">不適用</block>
   <block id="22d03e4758985a5a5d12b6ba4e387311" category="paragraph">如果磁碟機已在集區或磁碟區群組中故障、則無法維護機櫃/藥櫃遺失保護。在這種情況下、失去磁碟機櫃或抽屜的存取權、進而導致集區或磁碟區群組中的另一個磁碟機遺失資料。</block>
   <block id="726550ac9f3a3c80815ec14c73720e62" category="summary">您只能減少保留容量、以增加容量的金額為準。成員磁碟區的保留容量只能以新增的相反順序移除。</block>
-  <block id="a30ad4433e63d5f3d62023d4c6a44eef" category="doc">為什麼我不能選擇其他金額來減少？</block>
   <block id="54880ee7dd93a5e304efe90ee14790cf" category="paragraph">如果存在下列任一情況、您就無法減少儲存物件的保留容量：</block>
   <block id="34210320456ed09a6b7ab3fd7cd515d2" category="list-text">如果儲存物件是鏡射的配對磁碟區。</block>
   <block id="df7cb77dac6de30904215f9c98b0ee50" category="list-text">如果儲存物件僅包含一個保留容量的磁碟區。儲存物件必須包含至少兩個保留容量的磁碟區。</block>
@@ -2262,7 +2249,6 @@
   <block id="d8b1db89e135bdbc13b725e8d595018b" category="paragraph">此時會出現Create Application Workload對話方塊。</block>
   <block id="c587f872ee4cedc5f46714cc4a3af851" category="list-text">使用下拉式清單選取您要建立工作負載的應用程式類型、然後輸入工作負載名稱。</block>
   <block id="c6f5742708364491211254845c51e364" category="paragraph">您已準備好將儲存容量新增至所建立的工作負載。使用* Create Volume*（建立磁碟區）選項可為應用程式建立一或多個磁碟區、並將特定容量分配給每個磁碟區。</block>
-  <block id="1bf2df1e11004707e4b12d626138d3e1" category="summary">System Manager可設定從集區移除多少個磁碟機的限制。</block>
   <block id="dc0cac4fc3fe8b65f61e8ceff382e740" category="doc">我可以從集區移除的磁碟機數量是否有限制？</block>
   <block id="7dbebcef358c2bbdbe834522ce3e1c62" category="list-text">如果資源池中沒有足夠的可用容量來容納移除磁碟機中的資料、則當該資料重新分配到資源池中的其餘磁碟機時、您就無法移除磁碟機。</block>
   <block id="913831c401c62c45e925dfafa5eb7b3c" category="list-text">一次最多可移除60個磁碟機。如果您選取超過60個磁碟機、「移除磁碟機」選項會停用。如果您需要移除超過60個磁碟機、請重複「移除磁碟機」作業。</block>
@@ -2280,7 +2266,6 @@
   <block id="dbcdd670d3898db57d1e0ec2779c6fe2" category="list-text">接受或指定快照磁碟區的適當設定、然後選取*完成*以轉換快照磁碟區。</block>
   <block id="c116e4cd3509742bd600cdb3e070db3e" category="paragraph">當快照磁碟區的保留容量超過指定臨界值時、系統會傳送警示、讓您有時間增加保留容量或刪除不必要的物件。</block>
   <block id="7268cb410294effa0119ff2325fdb4e1" category="summary">您無法將磁碟區移至的任何集區或磁碟區群組不會顯示在清單中。</block>
-  <block id="947a640f864857e2aadd36576eb50dd7" category="doc">為什麼我看不到所有的集區和/或磁碟區群組？</block>
   <block id="7840c3770de62c2567d5278bd0c6c7f2" category="paragraph">集區或Volume群組不符合下列任何理由的資格：</block>
   <block id="766dcd4dd0eb0d198d9b6bf6f1cd4d55" category="list-text">集區或Volume群組集區的資料保證（DA）功能不相符。</block>
   <block id="18747fc1783ea0c8be337cee42135fc8" category="list-text">集區或磁碟區群組處於非最佳狀態。</block>
@@ -2513,7 +2498,6 @@
   <block id="0427c1ca9e66629018bc1d6fa5ff6417" category="list-text">Snapshot Volume或Snapshot一致性群組的Snapshot Volume參數與先前停用的Volume參數相同。</block>
   <block id="6896e6ca3e93c9dff70ec981ac73d86b" category="list-text">保留快照磁碟區或快照一致性群組快照磁碟區的原始名稱。</block>
   <block id="95ddff89f7e76cf544c140d3f049b138" category="summary">如果磁碟區是使用命令列介面（CLI）建立、或是已從不同的儲存陣列移轉（匯入/匯出）、則不會與工作負載建立關聯。</block>
-  <block id="7589dd9416261212740c49b4796da6dc" category="doc">為什麼這些磁碟區與工作負載無關？</block>
   <block id="ad680ef054ae9c24e26f464447c727bc" category="summary">您可以建立快照一致性群組、以確保快照映像同時在多個磁碟區上擷取。</block>
   <block id="0812ae221b625e1b60c1dcf2e54e93f9" category="doc">為什麼要建立Snapshot一致性群組？</block>
   <block id="77213d4c9f32e500a181f1b66278d8d8" category="paragraph">例如、由多個磁碟區所組成的資料庫、如果需要維持一致的恢復目的、則需要快照一致性群組來收集所有磁碟區的協調快照、並使用它們來還原整個資料庫。</block>
@@ -2609,7 +2593,6 @@
   <block id="24b6bceb168a0ddb2cf25241783ddf1d" category="paragraph">提醒我... （警告臨界值）</block>
   <block id="ca8835a1cc4339de05fe2c0e92464d5a" category="paragraph">如果您希望系統在精簡磁碟區接近分配的容量限制時產生警示、請選取此核取方塊。警示會傳送至首頁上的通知區域。此臨界值是磁碟區報告容量大小的百分比。</block>
   <block id="a7f1a3b7c091f0b1860cb0371affd5b6" category="paragraph">清除核取方塊以停用警告臨界值警示通知。</block>
-  <block id="d5099898b83b97d11acb716788257093" category="summary">如果您在連接至儲存陣列的任何iSCSI主機上設定Challenge Handshake驗證傳輸協定（CHAP）驗證、則必須為每個iSCSI主機重新輸入該啟動器CHAP密碼。</block>
   <block id="ecc4042eed7652f76dd879b570b57e11" category="doc">如何建立CHAP機密？</block>
   <block id="17e37321365996a91a4f11718b601987" category="paragraph">如果您在連接至儲存陣列的任何iSCSI主機上設定Challenge Handshake驗證傳輸協定（CHAP）驗證、則必須為每個iSCSI主機重新輸入該啟動器CHAP密碼。</block>
   <block id="3e9a4afaef61b4b0b728e7809d2fe707" category="paragraph">若要這麼做、您可以將System Manager做為「建立主機」作業的一部分、或是透過「檢視/編輯設定」選項來使用。</block>
@@ -3958,9 +3941,7 @@
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="paragraph">AutoSupport</block>
   <block id="9436a2a20c8f8554799cfa7493891181" category="paragraph">儲存系統硬體包括儲存陣列、控制器和磁碟機。</block>
   <block id="f741797da5e817b0054ef9c0eaf6e202" category="paragraph">物件是任何邏輯或實體儲存元件。邏輯物件包括磁碟區群組、集區和磁碟區。實體物件包括儲存陣列、陣列控制器、主機和磁碟機。</block>
-  <block id="646754995935d94c046a920e98aed63b" category="summary">System Manager支援這些瀏覽器版本。</block>
   <block id="a260cf8ad6a1291b0978385144000e3c" category="doc">支援哪些瀏覽器？</block>
-  <block id="8dec1efe38001f4587b49af677d444ac" category="summary">您可以單獨使用鍵盤瀏覽System Manager。</block>
   <block id="f44c2e0b9af76e9f2722f52a08c25e93" category="doc">什麼是鍵盤快速鍵？</block>
   <block id="ae9a8db5f7710f133e0083741b19cfe0" category="section-title">整體導覽</block>
   <block id="89fd3695e7d8c39822cbec979aa00be3" category="cell">鍵盤快速鍵</block>
@@ -4009,7 +3990,6 @@
   <block id="8417d057d3b11e2b4066c9ed49c5d09d" category="paragraph">控制/命令+結束</block>
   <block id="c35d713def8372dd160b0ae180ceadb9" category="paragraph">關閉日期選擇器而不選取任何項目。</block>
   <block id="013ec032d3460d4be4431c6ab1f8f224" category="paragraph">逃離</block>
-  <block id="a4001dd61d7d9d8ea94055a6907f80f9" category="summary">您可以在下列說明主題中找到可用顯示選項的相關資訊。</block>
   <block id="d8a6ba9a5ef05e84deee23f14a28ab46" category="doc">哪裡可以找到更多有關顯示偏好設定的資訊？</block>
   <block id="dae44576c7b1e063ed5da830d3a4f9f9" category="paragraph">若要尋找可用顯示選項的相關資訊：</block>
   <block id="313d3ca857aa69d9e4d7383aa98504b6" category="inline-link-macro">設定容量值的預設單位</block>
@@ -4085,11 +4065,8 @@
   <block id="cd580062773964aabd2ab607e90c3879" category="paragraph">磁碟機清除</block>
   <block id="974bdee2f58c358dff43f3629257cd84" category="paragraph">遠端儲存設備匯入</block>
   <block id="42ae25231906c83927831e0ef7c317ac" category="list-text">中斷連線</block>
-  <block id="38fdb2afc81bf942bd8dcf4208c5c967" category="summary">若要存取AutoSupport 有關供應功能的組態工作、請前往Support（支援）&gt; Support Center（支援中心）、然後按一下AutoSupport 「還原」索引標籤。</block>
   <block id="6d145ddbb4b39d9e20b73518a03bfc4f" category="doc">我要如何設定AutoSupport 供應方法以利執行？</block>
   <block id="cf5b6a8826dfd986bff2c61c9d14df01" category="paragraph">若要存取AutoSupport 有關供應功能的組態工作、請前往功能表：Support（支援中心）、然後按一下* AutoSupport 《*》索引標籤。</block>
-  <block id="96830edba2b0d20286d9e38c88f41f0d" category="summary">如果您在「驗證硬體」對話方塊中沒有看到所有的硬體元件、可能表示磁碟機櫃連接不正確、或儲存陣列中安裝了不相容的磁碟櫃。</block>
-  <block id="7a3b89af3b52c55d1f98c18d0f91e932" category="doc">如果我看不到所有的硬體元件、該怎麼辦？</block>
   <block id="9446f92493638ff7ef1aefbdc315bdba" category="paragraph">如果您在「驗證硬體」對話方塊中沒有看到所有的硬體元件、可能表示磁碟機櫃連接不正確、或儲存陣列中安裝了不相容的磁碟櫃。</block>
   <block id="b372dad273bfadf640e39fc6f3e8aff4" category="paragraph">確認所有磁碟機櫃均已正確連接。如果您不確定哪些磁碟機櫃是否相容、請聯絡技術支援部門。</block>
   <block id="b3e03781499b79199f562eb4ac600854" category="summary">主介面上的「儲存階層」可讓您以組織方式檢視儲存陣列所管理的各種硬體元件和儲存物件。</block>
@@ -4142,7 +4119,6 @@
   <block id="b44cc8f2227561bd5c9166d7540d3bf7" category="list-text"><block ref="b44cc8f2227561bd5c9166d7540d3bf7" category="inline-link-macro-rx"></block></block>
   <block id="b47240c91c3c71e6f24291515a38e27e" category="inline-link-macro">變更密碼</block>
   <block id="41b4037cc65a5c02499addb588e46a37" category="list-text"><block ref="41b4037cc65a5c02499addb588e46a37" category="inline-link-macro-rx"></block></block>
-  <block id="0cf92f39ed774e6e03907495e7d22aae" category="doc">如果我看不到所有主機、該怎麼辦？</block>
   <block id="7cb5c9b7004163f1a52b20165ecce689" category="summary">Recovery Guru是System Manager的一項元件、可診斷儲存陣列問題、並建議恢復程序來修正問題。</block>
   <block id="097aa9373d1177a905ff25237ef92e64" category="doc">使用Recovery Guru從問題中恢復</block>
   <block id="021f1bb83b28d41e3ee27b42fcb94b13" category="list-text">按一下視窗中上方標有「*從_n_問題中恢復*」的連結。</block>
@@ -4159,7 +4135,6 @@
   <block id="e08bea33d06f32222715e3fdc7fa8842" category="summary">對於網路中的某些應用程式（例如SQL Server或Exchange）、您可以定義工作負載來最佳化該應用程式的儲存設備。</block>
   <block id="6404d6af6f191a945c98c6e22bb8a302" category="doc">什麼是工作負載？</block>
   <block id="0f00e158c95683733d5268cd23a15139" category="paragraph">在Volume建立期間、系統會提示您回答有關工作負載使用的問題。例如、如果您要為Microsoft Exchange建立磁碟區、系統會詢問您需要多少信箱、平均信箱容量需求為何、以及您想要的資料庫複本數量。系統會使用此資訊為您建立最佳Volume組態、並可視需要加以編輯。</block>
-  <block id="4343a245fb510b33d199f2e5fae7a540" category="summary">當您識別應用程式時、System Manager會根據應用程式類型、自動建議最佳化儲存設備的Volume組態。</block>
   <block id="c56a19e88f72c77c4ab3e3911e485975" category="doc">識別應用程式如何協助我管理儲存陣列？</block>
   <block id="e8d880726c1e775bd5008cff6e09ad34" category="paragraph">依應用程式最佳化磁碟區可讓資料儲存作業更有效率。磁碟區組態中包含I/O類型、區段大小、控制器擁有權、讀寫快取等特性。此外、您可以依應用程式和工作負載檢視效能資料、以評估應用程式及其相關工作負載的延遲、IOPS和MIB/s。</block>
   <block id="720fa4ee2f7b9beaa1e33c121c9216e8" category="summary">System Manager可顯示容量值、單位為吉字節（GiB）或tebibytes（TiB）。</block>
@@ -4218,7 +4193,6 @@
   <block id="45cd485cdbe2710a251414286fe4b24b" category="paragraph">自行簽署的憑證由實體擁有者驗證。此資料檔案包含私密金鑰、可確保資料以加密形式透過HTTPS連線在伺服器與用戶端之間傳送。其中也包含由字母和數字組成的數位簽名。自我簽署的憑證不會使用與CA簽署憑證相同的信任鏈結、因此最常用於測試環境。也稱為「預先安裝」憑證。</block>
   <block id="da60f79907700d2e72e415264e4c359f" category="paragraph">伺服器憑證</block>
   <block id="7d2ec4b7897de79a42594fe0b806fedf" category="paragraph">伺服器憑證位於憑證鏈結的底部。它會識別您的特定實體、例如網站或其他裝置。儲存系統中的每個控制器都需要個別的伺服器憑證。</block>
-  <block id="3356c7ecaf79b816577caeabeb922c52" category="summary">下表列出可用於設定及管理InfiniBand工作階段之iSER的System Manager功能。</block>
   <block id="cbe7bc079476646f06b8968551839760" category="doc">在InfiniBand上設定或診斷iSER還需要做什麼？</block>
   <block id="34e1ef42c23e055b03535998dc9a10ea" category="paragraph">僅當儲存陣列的控制器在InfiniBand主機管理連接埠上包含iSER時、才能使用iSER over InfiniBand設定。</block>
   <block id="2bb0ddaccd7b20c12f4ac0ca303c3645" category="paragraph">在InfiniBand連接埠上設定iSER</block>
@@ -4333,7 +4307,6 @@
   <block id="43d98acc1f21987fc8fb29231b237901" category="list-text">選取*新增其他社群*。</block>
   <block id="5e4cda4efb19475c15e558484ccd344c" category="list-text">輸入新的社群名稱、然後按一下「*儲存*」。</block>
   <block id="b043d095facd375f83cfb984bc617519" category="paragraph">新的社群名稱會出現在「警示」頁面的SNMP索引標籤中。</block>
-  <block id="02b62fe21218b105202354e3ea442287" category="summary">EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的。</block>
   <block id="2e82a1559209519df8d86c81aa9d6198" category="doc">為什麼一個實體連接埠有兩組參數？</block>
   <block id="efae713b5876ddd9d5278ed17ac910d8" category="paragraph">EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的。</block>
   <block id="8db062752d20414202ee8dcfe8b79167" category="paragraph">在此組態中、外部HIC會連接至內部輔助HIC。您可以從外部HIC存取的每個實體連接埠、都有一個與內部HIC相關的虛擬連接埠。</block>
@@ -4979,8 +4952,6 @@
   <block id="31f7661c9d292dbdf3fe50fc1b901b4c" category="paragraph">DCBX PFC狀態</block>
   <block id="944a7b1c0168a6d53cf9a53188e63035" category="paragraph">特定連接埠的優先順序型流量控制（PFC）狀態。此值為啟用或停用。</block>
   <block id="c8a0ab123e3cad5a7b689f89639753e6" category="admonition">您可以在狀態擷取檔案中找到其他DCBX TLV統計資料。</block>
-  <block id="ad7b6f0b788abb4027a97020a34740d3" category="summary">如果您在嘗試登入System Manager時收到錯誤訊息、請檢閱這些可能的原因。</block>
-  <block id="b6026ee3aca4cc03c6a1bf51a326a2d1" category="doc">為什麼我無法登入？</block>
   <block id="b9197487d195b0270141242d84cef938" category="paragraph">系統管理員可能會因為下列其中一項原因而發生登入錯誤：</block>
   <block id="d1ac1dfa34b7d51990947002ee6adb2d" category="list-text">您輸入的使用者名稱或密碼不正確。</block>
   <block id="7c5ba619c861a80ef986b7207b06fe08" category="list-text">您的權限不足。</block>
@@ -5373,7 +5344,6 @@
   <block id="079ca23dfe46ca9964db968e31f50d58" category="paragraph">如果您的系統執行的是Red Hat Enterprise Linux 6或SUSE Linux Enterprise Server 11、請聯絡技術支援部門。</block>
   <block id="21004bc9953099033e5395c4fc593d98" category="list-text">更新並設定「/etc/multipath.conf檔案」。</block>
   <block id="b21eb279fc105b8614fd3cf19e7fee68" category="list-text">請確認適用廠商和產品的「目錄附加裝置處理常式」和「目錄優先」都設為「是」、或使用預設設定。</block>
-  <block id="e6f9c55029196b7648834c36ed0e3472" category="summary">如果您注意到System Manager中顯示的時間戳記與管理用戶端（透過瀏覽器存取System Manager的電腦）中顯示的時間戳記不一致、則應手動同步儲存陣列中的控制器時鐘。只有在System Manager中未啟用NTP（網路時間傳輸協定）時、才需要執行此工作。</block>
   <block id="d0e1c48d259a397068da011bc9e48355" category="doc">何時應該同步儲存陣列時鐘？</block>
   <block id="f9a315def8f285bce635c80c1bf7c96d" category="paragraph">我們強烈建議您使用NTP伺服器、而非手動同步時鐘。NTP會使用SNTP（簡易網路時間傳輸協定）、自動將時鐘與外部伺服器同步。</block>
   <block id="f7c2a6279f30ed31e705988dae3b0a7a" category="paragraph">您可以從「系統」頁面上的「同步儲存陣列時鐘」對話方塊中、檢查同步狀態。如果對話方塊中顯示的時間不相符、請執行同步處理。您可以定期檢視此對話方塊、以指出控制器時鐘的時間顯示是否已偏離並不再同步。</block>
@@ -5395,7 +5365,6 @@
   <block id="9e98d98388e5e090ae8059025905090d" category="summary">如果您遺失安全金鑰資訊且沒有備份、則在重新部署啟用安全功能的磁碟機或升級控制器時、可能會遺失資料。您需要安全金鑰才能解除鎖定磁碟機上的資料。</block>
   <block id="8f325c9d4a8f4fb18367ff5b96e3ca31" category="doc">為何務必記錄安全金鑰資訊？</block>
   <block id="3e6a61893d1333f5d128659f56bee74d" category="paragraph">請務必記錄安全金鑰識別碼、關聯的密碼、以及安全金鑰檔案儲存所在的本機主機位置。</block>
-  <block id="f2ebc677a5b447998da1a046adcc46f0" category="summary">儲存陣列的控制器會將快取組織成區塊、區塊大小可為8、16、32 KiB。儲存系統上的所有磁碟區都共用相同的快取空間、因此磁碟區只能有一個快取區塊大小。</block>
   <block id="16fa5803900906142586eefc2643c7e8" category="doc">什麼是快取區塊大小？</block>
   <block id="e49b598ec0d819934f021980302ed36e" category="paragraph">儲存陣列的控制器將其快取組織成「區塊」、這是大小可為8、16、32 KiB的記憶體區塊。儲存系統上的所有磁碟區都共用相同的快取空間、因此磁碟區只能有一個快取區塊大小。</block>
   <block id="3a60a217f8b5d35351731337da2590da" category="paragraph">應用程式使用不同的區塊大小、可能會影響儲存效能。根據預設、System Manager中的區塊大小為32 KiB、但您可以將值設為8、16、32 KiB。較小的尺寸是檔案系統或資料庫應用程式的理想選擇。對於需要大量資料傳輸、連續I/O或高頻寬（例如多媒體）的應用程式而言、較大的規模是理想的選擇。</block>
@@ -5434,7 +5403,6 @@
   <block id="7c5ee15e4160328ac534662fe8dca0f5" category="list-text">如果您將傳輸協定變更為安全TLS傳輸協定（從UDP或TCP）、請按一下*匯入信任的憑證*上傳CA憑證。</block>
   <block id="770dce1cc3b932ae22d1e055da6efb57" category="list-text">若要測試與儲存陣列的新連線、請選取*「Test All（測試全部）」*。</block>
   <block id="0a81e8f050a6c392eeb7e801c574d17a" category="paragraph">設定完成後、所有新的稽核記錄都會傳送到syslog伺服器。不會傳輸先前的記錄。</block>
-  <block id="a8e2e2e6f94a627dfb39ec0a4930c961" category="summary">「磁碟機設定」視窗包含磁碟機安全性屬性的相關資訊。讀取/寫入存取權限是在磁碟機資料已鎖定時顯示的其中一個屬性。</block>
   <block id="acd4d22fedd48d49e5eaf65df648efcf" category="doc">什麼是讀寫存取能力？</block>
   <block id="08e4cde4dec18bcf34720085b135053b" category="paragraph">「磁碟機設定」視窗包含磁碟機安全性屬性的相關資訊。「讀取/寫入存取」是在磁碟機資料已鎖定時顯示的其中一個屬性。</block>
   <block id="5d0ace8d3a4aed739aa36c5cfff181ca" category="paragraph">若要檢視磁碟機安全性屬性、請前往「硬體」頁面。選取磁碟機、按一下*檢視設定*、然後按一下*顯示更多設定*。在頁面底部、磁碟機解鎖時、讀取/寫入存取屬性值為*是*。磁碟機鎖定時、讀取/寫入存取屬性值為*否、無效的安全金鑰*。您可以匯入安全金鑰來解除鎖定安全磁碟機（前往功能表：設定[系統&gt;解除鎖定安全磁碟機]）。</block>
@@ -5593,7 +5561,6 @@
   <block id="c218ac303723dc9e5238aefa1b3a7ff7" category="summary">使用變更預設主機作業系統設定、可變更儲存陣列層級的預設主機類型。一般而言、在將主機連線至儲存陣列或連接其他主機之前、您會先變更預設的主機類型。</block>
   <block id="f13b8836ca590f08dc665390028349e3" category="list-text">向下捲動至*其他設定*、然後按一下*變更預設主機作業系統類型*。</block>
   <block id="ea158c98dbcda1af17cc1edde6ce9882" category="list-text">選取您要做為預設值的主機作業系統類型。</block>
-  <block id="621f5a5f95be39f6dfd96721467576f1" category="summary">當快取中的未寫入資料量達到特定層級時、控制器會定期將快取資料寫入磁碟機。此寫入程序稱為「排清」。</block>
   <block id="2913e0bdf47a84de45d1801f60bd03ec" category="doc">什麼是快取排清？</block>
   <block id="995e13919b56bf032eea1b80b032776e" category="paragraph">當快取中的未寫入資料量達到特定層級時、控制器會定期將快取資料寫入磁碟機。此寫入程序稱為「排清」。</block>
   <block id="b722587f8397c4f92f14a10a2d19a73d" category="paragraph">控制器使用兩種演算法來排清快取：需求型與年齡型。控制器使用需求型演算法、直到快取資料量降至快取清除臨界值以下為止。根據預設、當80%的快取正在使用時、就會開始排清。</block>
@@ -5661,7 +5628,6 @@
   <block id="109aa3a3a3d05949e97d84d0b42bb0ca" category="list-text">按一下*瀏覽*按鈕、先選取根和中繼憑證檔案、然後選取控制器的每個伺服器憑證。兩個控制器的根和中間檔案相同。每個控制器只有伺服器憑證是唯一的。如果您是從外部工具產生CSR、也必須匯入與CSR一起建立的私密金鑰檔案。</block>
   <block id="5b65c7f3e78be7ecbb752287c80522ff" category="paragraph">檔案名稱會顯示在對話方塊中。</block>
   <block id="8b37291827ebe2e6f281d76aa03af478" category="paragraph">工作階段會自動終止。您必須重新登入、憑證才能生效。當您再次登入時、新的CA簽署憑證會用於您的工作階段。</block>
-  <block id="6f0a8cf9a1855b3b4a97c825f0dc2353" category="summary">當您在System Manager中進行某些變更（例如切換管理介面或使用SAML進行驗證方法）時、部分外部工具和功能可能會受到限制、無法使用。</block>
   <block id="6c447bc20946705a74ecd7374bbfb3d9" category="doc">哪些外部管理工具可能會受此變更影響？</block>
   <block id="f54dbfa752935857fdfec4346eb4879a" category="section-title">管理介面</block>
   <block id="d4b335926e3028e39907d1a8db8d868b" category="paragraph">直接與舊版管理介面（符號）通訊的工具（例如SANtricity 、功能完善的SESSMI-S Provider或OnCommand Insight 功能完善的OCI（OCI））、除非已啟用「舊版管理介面」設定、否則無法運作。此外、如果停用此設定、則無法使用舊版CLI命令或執行鏡射作業。</block>
@@ -5680,7 +5646,6 @@
   <block id="c0d224a4fed485c51514cc07cc810891" category="list-text">如果未設定本機使用者密碼的最小密碼長度、您可以勾選此方塊、要求選取的使用者輸入密碼以存取儲存陣列、然後輸入所選使用者的新密碼。</block>
   <block id="582cfc64006cc5e7b3b25ffe837b384c" category="list-text">輸入您的本機系統管理員密碼、然後按一下*變更*。</block>
   <block id="8f67454616784ed58a0ed5a40e3b22e9" category="paragraph">如果使用者目前登入、密碼變更會導致使用者的作用中工作階段終止。</block>
-  <block id="a6f7affe4dc5be0cadf5dc1e51b4de98" category="summary">下表列出可用於設定及管理InfiniBand上NVMe工作階段的System Manager功能。</block>
   <block id="f579a5c2bbaa968b2ae0227f6d61ee8b" category="doc">我還需要如何透過InfiniBand來設定或診斷NVMe？</block>
   <block id="f354dc8aa2d80d21ecf46a214b9dc749" category="paragraph">NVMe over InfiniBand設定只有在儲存陣列的控制器包含NVMe over InfiniBand連接埠時才能使用。</block>
   <block id="a03fb9ed3e23d41ff2ce19057c3e8d50" category="list-text">選取*透過InfiniBand連接埠設定NVMe *。</block>
@@ -5797,7 +5762,6 @@
   <block id="cbf670d81fafbb8fa880baa729d7866b" category="list-text">選取功能表：設定[警示]。</block>
   <block id="ab9def0af719c7b8ed09ed8862c29272" category="list-text">輸入新的社群名稱、然後按一下「*儲存*」。社群名稱只能由可列印的Ascii字元組成。</block>
   <block id="828a1a17714ff7fbe66b286e64f2e8e2" category="paragraph">「警示」頁面的「SNMP」索引標籤會顯示更新的社群名稱。</block>
-  <block id="911b263427c2a3d45b55258250b4f85d" category="summary">System Manager可讓您使用線上憑證狀態傳輸協定（OCSP）伺服器來檢查撤銷的憑證、而非上傳憑證撤銷清單（CRL）。</block>
   <block id="e1338191b3f39c31a394336c2fb52f36" category="doc">關於憑證撤銷檢查、我需要知道什麼？</block>
   <block id="fb43529f07beddec07e39c4b3a09bd7c" category="paragraph">撤銷的憑證不應再受到信任。憑證可能會因數種原因而遭撤銷；例如、如果憑證授權單位（CA）未適當核發憑證、私密金鑰遭洩漏、或是識別的實體未遵守原則要求。</block>
   <block id="0fb970899dcd3fadfd680340b731758b" category="paragraph">在System Manager中建立OCSP伺服器的連線之後、儲存陣列會在連線至AutoSupport 某個伺服器、外部金鑰管理伺服器（EKMS）、SSL上的輕量型目錄存取傳輸協定（LDAPS）伺服器或Syslog伺服器時、執行撤銷檢查。儲存陣列會嘗試驗證這些伺服器的憑證、以確保這些憑證尚未撤銷。然後伺服器會傳回該憑證的「好」、「已撤銷」或「未知」值。如果憑證已撤銷、或陣列無法聯絡OCSP伺服器、則連線會遭到拒絕。</block>
@@ -6065,7 +6029,6 @@
   <block id="2418af550cb63dc05a2e61b1e1914d6a" category="list-text">指派或取消指派熱備援磁碟。</block>
   <block id="82c2216ff8483a5753f647df799d5573" category="list-text">清除磁碟機。</block>
   <block id="bbe66c4be17769c6d4513643761ffdc8" category="summary">每當修改或升級伺服器時、請重新整理DHCP伺服器、而且與目前儲存陣列和您要使用的儲存陣列相關的DHCP資訊已變更。</block>
-  <block id="94788b711f7e65635e443787fd7a4d64" category="doc">何時應該從DHCP伺服器重新整理連接埠組態或iSNS伺服器？</block>
   <block id="9b0798ee6300bf2c7b2901a68b97fe16" category="paragraph">具體而言、當您知道DHCP伺服器將指派不同的位址時、請重新整理DHCP伺服器的連接埠組態或iSNS伺服器。</block>
   <block id="ed5f3843db7d9e3eef32391affc01b48" category="paragraph">重新整理連接埠組態會破壞該連接埠上的所有iSCSI連線。</block>
   <block id="a3e48a58e140d82f16be4f08bc7cda9e" category="summary">依預設、控制器會在兩個網路連接埠上都啟用DHCP。您可以指派靜態IP位址、使用預設的靜態IP位址、或使用DHCP指派的IP位址。您也可以使用IPv6無狀態自動組態。</block>
@@ -6622,12 +6585,9 @@
   <block id="e292f5857d049f6cadc79561b997df69" category="paragraph">多重路徑驅動程式偵測還原的慣用路徑最多可能需要10分鐘。</block>
   <block id="b8fcbf83107c708efa791bdefc4d5b14" category="paragraph">當收到每個磁碟區的I/O要求時、此控制器原本擁有的任何磁碟區都會自動移回控制器。在某些情況下、您可能需要使用* redistribute Volumes *命令手動重新分配磁碟區。</block>
   <block id="6173d078b9110f3bc6b143913e3eb5c3" category="summary">網路組態的預設方法是動態主機組態傳輸協定（DHCP）。除非您的網路沒有DHCP伺服器、否則請務必使用此選項。</block>
-  <block id="8bc7a4f0cccf7a456c1c5e4160d10f9a" category="doc">我應該選擇哪一項—DHCP或手動設定？</block>
-  <block id="71c3af242ccaa8ae2337b0f30267ab9c" category="summary">使用頻外管理時、您必須為每個控制器設定網路組態、包括其網際網路傳輸協定（IP）位址、子網路遮罩（子網路遮罩）和閘道。</block>
   <block id="2f7ce553a41c640f56c7844a348637c6" category="doc">為何需要變更控制器網路組態？</block>
   <block id="5e835244a570835c8ccafca9cbc311c0" category="paragraph">使用頻外管理時、您必須為每個控制器設定網路組態、包括其網際網路傳輸協定（IP）位址、子網路遮罩（子網路遮罩）和閘道。</block>
   <block id="c9c710b8643a9328d401dbe32e5382d0" category="paragraph">您可以使用動態主機組態傳輸協定（DHCP）伺服器來設定網路組態。如果您不使用DHCP伺服器、則必須手動輸入網路組態。</block>
-  <block id="89e384381ed0570ab577beaf9c2e601b" category="summary">處於非最佳模式的儲存系統是因為系統組態狀態無效。儘管處於這種狀態、仍完全支援對現有磁碟區的正常I/O存取、不過System Manager會禁止某些作業。</block>
   <block id="574d0bc88edf7298a47d4aa1e588a886" category="doc">為什麼儲存系統處於非最佳模式？</block>
   <block id="4daa9d5961d8e3a7d375183df715a565" category="paragraph">儲存系統可能因為下列其中一項原因而轉換為「無效的系統組態」：</block>
   <block id="87db37c136e3231b71d5b7b9a2777a60" category="list-text">控制器不符合法規要求、可能是因為它的子機型ID（SMID）代碼不正確、或是已超過優質功能的限制。</block>
@@ -6696,7 +6656,6 @@
   <block id="7b9ce18ef057f72de83e1ebbee094643" category="paragraph">非同步鏡射作業無法正常運作、因為主要磁碟區、次要磁碟區或鏡射保留容量發生故障。</block>
   <block id="af437ac3df15f94bfea509017c51f1aa" category="paragraph">當兩個儲存陣列之間的通訊恢復、以及鏡射組態協調鏡射參數的兩側時、就會偵測到孤立的鏡射配對磁碟區。</block>
   <block id="02450c956f6e4f0ee6eb09e6d2e2940b" category="paragraph">鏡射配對處於停止狀態、因為鏡射一致性群組處於系統暫停狀態。</block>
-  <block id="b3fd593fc883dfb95bb20995275cb9a2" category="summary">保留容量通常是基礎磁碟區的40%、用於快照作業、20%的基礎磁碟區用於非同步鏡射作業。通常這種容量是足夠的。</block>
   <block id="9e5663f73d80960408415d0ced12887a" category="doc">為什麼要變更這個百分比？</block>
   <block id="fe1327f33625d09259d474174d0735ed" category="paragraph">保留容量通常是基礎磁碟區的40%、用於快照作業、20%的基礎磁碟區用於非同步鏡射作業。</block>
   <block id="7ef46edfdc71263097118ce1f1a8a2c2" category="paragraph">通常這種容量是足夠的。所需的容量會因寫入基礎磁碟區的頻率和大小、以及您打算使用儲存物件複製服務作業的時間而有所不同。</block>
@@ -6719,7 +6678,6 @@
   <block id="84b8f6a301b359842aa2361f6749354b" category="list-text">**遠端還原點*：設定時間限制、之後System Manager會傳送警示、指出遠端儲存陣列上的還原點資料已超過您定義的時間限制。定義上次更新結束後的時間限制。</block>
   <block id="3f5765f676e00ae9e68055c88a7402d2" category="list-text">**保留容量臨界值*：定義保留容量量、系統管理員會在該容量量即將達到保留容量臨界值時發出警示。依剩餘容量百分比定義臨界值。</block>
   <block id="d388a5a56fc0f21659f7e385913b7385" category="paragraph">System Manager會變更鏡射一致性群組中每個鏡射配對的同步處理設定。</block>
-  <block id="b47b71858322e411094e44ec1a37135c" category="summary">您可以在Unified Manager介面中設定鏡射配對、然後在System Manager中管理配對。</block>
   <block id="65377e804f196feceee3ad92b112155f" category="doc">同步鏡射-建立鏡射配對之前、我需要知道什麼？</block>
   <block id="00e8b06da64441679d15d4f0ec472c62" category="paragraph">建立鏡射配對之前、請遵循下列準則：</block>
   <block id="974faf4582be88d5166f32c03cc6e7c8" category="list-text">您必須有兩個儲存陣列。</block>
@@ -6741,8 +6699,6 @@
   <block id="e6eee9d75412719ac4162bfeb0bae72e" category="paragraph">如果本機儲存陣列無法與遠端儲存陣列通訊、系統會在要求變更角色時顯示「無法聯絡儲存陣列」對話方塊、但無法聯絡遠端儲存陣列。按一下「*是*」以強制變更角色。</block>
   <block id="f13bfae77b9e3fa6ae100d6085b12771" category="paragraph">System Manager會執行下列動作：</block>
   <block id="33dd1e24349af0b8ee7d623742e70d5a" category="list-text">如果可以聯絡鏡射配對中的相關Volume、則磁碟區之間的角色會改變。System Manager會將鏡射配對中的次要Volume升級為主要角色、或將鏡射配對中的主要Volume降級為次要角色（視您的選擇而定）。</block>
-  <block id="09aa31a04bb22f0e3a974409e4760569" category="summary">鏡射是在Unified Manager介面中設定。</block>
-  <block id="1f886fa10f9979df037b0e533f029308" category="doc">為什麼我無法存取所選的鏡射功能？</block>
   <block id="bf28bf2251d42b0426dd4f0ec93a91cd" category="paragraph">若要啟用及設定兩個陣列之間的鏡射、請確認下列事項：</block>
   <block id="f7fa64ef9537f8a03850d1c113c23923" category="list-text">Web服務Proxy服務必須正在執行。（Unified Manager與Web服務Proxy一起安裝在主機系統上。）</block>
   <block id="262d5c4ea8c35a3f2e6e65685f833785" category="list-text">Unified Manager必須透過HTTPS連線在本機主機上執行。</block>
@@ -6791,7 +6747,6 @@
   <block id="1e25cceb69d635cc8209010eaf1067e3" category="list-text">*選用：*您可以在System Manager中重新排程或手動執行後續資料傳輸。只有新的和變更的區塊會從主要Volume傳輸到次要Volume。</block>
   <block id="fc77b013c096ad100da05dcf6981f28b" category="paragraph">由於非同步複寫是定期的、因此系統可以整合變更的區塊並節省網路頻寬。寫入處理量和寫入延遲的影響最小。</block>
   <block id="9a40e4909c217e4f4c325f3a320ac93a" category="summary">當您為非同步鏡射配對建立次要Volume時、系統會顯示該非同步鏡射配對的所有合格資源池和Volume群組清單。任何不符合使用資格的資源池或磁碟區群組、都不會顯示在該清單中。</block>
-  <block id="15f94db58250536332ae255a199d8cc3" category="doc">為什麼我看不到所有的集區和Volume群組？</block>
   <block id="c55e0fc2f650b6c29bee97d6d925791c" category="paragraph">集區或Volume群組可能不符合下列任何理由的資格。</block>
   <block id="38c3daa178b71dd0ef1047cd80837346" category="list-text">集區或Volume群組的安全功能不相符。</block>
   <block id="cdb782ab256ef3f2668dbe0a875bf251" category="summary">同步處理優先順序會定義與系統效能相關的同步處理活動所需的處理時間。</block>
@@ -6865,7 +6820,6 @@
   <block id="a5f1724da2375d10d5b700c9a4e1b4c9" category="paragraph">有時、遠端寫入會因為控制器重設或儲存陣列電源循環而中斷、然後才能寫入次要磁碟區。在此情況下、控制器不需要執行鏡射配對的完整同步。</block>
   <block id="ef7c0136fda8298ef70bc3f610d1faed" category="paragraph">在控制器重設期間、當遠端寫入中斷時、主要端的新控制器擁有者會讀取儲存在記錄檔中、位於偏好的控制器擁有者保留容量磁碟區中的資訊。然後、新的控制器擁有者會將受影響的資料區塊從主要磁碟區複製到次要磁碟區、而不需要完全同步鏡射磁碟區。</block>
   <block id="1866ca64bf91acf982f0825105cd98a1" category="summary">您只能以4 GiB的增量來增加保留容量。</block>
-  <block id="5e79bfcdaf2980a36b13dea84317bc33" category="doc">為什麼我無法以要求的金額來增加保留容量？</block>
   <block id="ce83ffa7dc75c0de0405ab5e24abcecf" category="paragraph">對於非同步鏡射作業、保留容量通常為基礎磁碟區的20%。如果您認為基礎磁碟區會經歷許多變更、或儲存物件複製服務作業的預估使用壽命將會很長、請使用較高的百分比。</block>
   <block id="9b82b2833fcb1841064ceba7e4c4a845" category="summary">一般而言、當您收到鏡射配對的保留容量已滿的警告時、應該增加保留容量。您只能以8 GiB的增量來增加保留容量。</block>
   <block id="8ae525b549c567cd3fda0ba8a3890d67" category="doc">在增加鏡射配對磁碟區上的保留容量之前、我需要知道什麼？</block>
@@ -6986,8 +6940,6 @@
   <block id="9c1e5a0d898296dcc1c8ff70f8a25cff" category="list-text">先刪除本機儲存陣列上的鏡射一致性群組、然後刪除遠端儲存陣列上的鏡射一致性群組。</block>
   <block id="b9d1ca30f010ae5367a9e3dba49d0414" category="list-text">從鏡射一致性群組表格中移除鏡射一致性群組。</block>
   <block id="85f7d422d4e4be8f81ad54bed0f8d0ce" category="paragraph">有時候、鏡射一致性群組可能會從本機儲存陣列中成功刪除、但通訊錯誤會防止鏡射一致性群組從遠端儲存陣列中刪除。在此情況下、您必須存取遠端儲存陣列、才能刪除對應的鏡射一致性群組。</block>
-  <block id="6dfc033921a7d8d6b90bc5145f989f1e" category="summary">當iSCSI連接埠的IP位址變更、且本機儲存陣列無法與遠端儲存陣列通訊時、您可以更新遠端儲存陣列的IP位址。</block>
-  <block id="6f04c9a202bb634f610d093a0d5d0495" category="doc">為何要更新遠端儲存陣列的IP位址？</block>
   <block id="4eb18d2e1000f44c1aa7bf303324ef52" category="paragraph">當iSCSI連接埠的IP位址變更、且本機儲存陣列無法與遠端儲存陣列通訊時、您可以更新遠端儲存陣列的IP位址。</block>
   <block id="fd6fd032baf66907fa006af6877faa89" category="paragraph">在與iSCSI連線建立非同步鏡射關係時、本機和遠端儲存陣列都會在非同步鏡射組態中儲存遠端儲存陣列IP位址的記錄。如果iSCSI連接埠的IP位址變更、則嘗試使用該連接埠的遠端儲存陣列會發生通訊錯誤。</block>
   <block id="d7e48014036e048990b33b96292bcc91" category="paragraph">具有變更IP位址的儲存陣列會傳送訊息給與鏡射一致性群組相關聯的每個遠端儲存陣列、這些群組已設定為透過iSCSI連線鏡射。接收此訊息的儲存陣列會自動更新遠端目標IP位址。</block>
@@ -7061,7 +7013,6 @@
   <block id="851aa6e23b0323e905fc4b18b1ac93ad" category="list-text">專用於非同步鏡射通訊的控制器HBA主機通道現在可以接受主機讀取和寫入要求。</block>
   <block id="f61b34655c89283503c961e53e47178a" category="list-text">此儲存陣列中的任何磁碟區都無法以主要磁碟區或次要磁碟區的形式參與鏡射關係。</block>
   <block id="7b35335a6eefe537ec49adb2a524da1e" category="summary">當您在遠端儲存陣列上選取次要Volume時、清單會顯示該鏡射配對的所有適用磁碟區。</block>
-  <block id="d58e89d803ae3ca8b3fded751d8dac3f" category="doc">非同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
   <block id="20f1ebedc229b82bc1ca089db22f742e" category="paragraph">任何不符合使用資格的磁碟區、都不會顯示在該清單中。磁碟區可能不符合下列任一原因的資格：</block>
   <block id="da6c861252922d5dba9aca194ca15178" category="list-text">Volume並非最佳。</block>
   <block id="4e30fb2503bfbf3dbe8e11d9e48208d0" category="list-text">Volume已參與鏡射關係。</block>
@@ -7081,7 +7032,6 @@
   <block id="3636b9fe2c9d12c05e8f6d081984ef71" category="list-text">在所選鏡射一致性群組中、對所有鏡射配對上的資料進行重新同步。</block>
   <block id="99e4c2d5cb84c6dc00d6f12bdfee23ca" category="list-text">將已修改的資料從本機儲存陣列更新至遠端儲存陣列。</block>
   <block id="50fd10ff08567255543d64e6fdfd287a" category="summary">當您選取鏡射配對的主要Volume時、會有一個清單顯示所有符合資格的Volume。</block>
-  <block id="d651b1b5dea76bd9febe498feca9d0aa" category="doc">非同步鏡射：為什麼我看不到所有磁碟區？</block>
   <block id="6e6d3781c3d5e89dac9c7a5286567157" category="paragraph">任何不符合使用資格的磁碟區都不會顯示在該清單中。Volume可能不符合下列任何理由：</block>
   <block id="e162c795f41b2f54f4cc4318a9da4a18" category="list-text">對於精簡磁碟區、必須啟用自動擴充。</block>
   <block id="7f29556c75106b05f3d2b4179dcc2406" category="summary">如果您在SANtricity 無法由支援系統管理程式管理的舊儲存陣列上建立主磁碟區、您可以使用System Manager在此陣列上建立次磁碟區。</block>
@@ -7149,7 +7099,6 @@
   <block id="11b0de4b478927556d7181ae8cb63a63" category="list-text">選取您要測試的鏡射配對、然後選取*測試通訊*。</block>
   <block id="488faf1796cf425a0749bd67b69aaeeb" category="list-text">檢閱「結果」視窗中顯示的資訊、並視需要遵循所指示的修正行動。</block>
   <block id="328718c90d988fb5ec16ef6a5c12f32a" category="paragraph">如果通訊測試失敗、測試會在您關閉此對話方塊後繼續執行、直到鏡射配對之間的通訊恢復為止。</block>
-  <block id="76c6cdf244623c861eb1e9b45de9f68d" category="doc">同步鏡射：為什麼我看不到所有磁碟區？</block>
   <block id="996b3bbba1205dd996b175afc6573b9c" category="paragraph">任何不符合使用資格的磁碟區都不會顯示在該清單中。磁碟區可能不符合下列任一原因的資格：</block>
   <block id="991e25bd7d0d856f1cbe33745a8858c0" category="list-text">此磁碟區為非標準磁碟區、例如快照磁碟區或精簡磁碟區。</block>
   <block id="4c3e3eeae093b41fea312df07943a896" category="summary">同步鏡射配對的狀態會指出主磁碟區和次要磁碟區上的資料是否同步。鏡射狀態與鏡射配對中磁碟區的元件狀態無關。</block>
@@ -7202,7 +7151,6 @@
   <block id="e9f4d06ac1b68bbf0025e53cb0a0d47c" category="list-text">正在鏡射配對上手動暫停同步</block>
   <block id="7782187a2d5e2cdc939698c13e7a75be" category="section-title">孤立的鏡射配對</block>
   <block id="26777ce8c704996442046f566567fcb0" category="paragraph">當某個成員磁碟區已從一端移除（主端或次要端）、但未在另一端移除時、就會出現孤立的鏡射配對磁碟區。</block>
-  <block id="3495d24d327284018c764d189eb19ebe" category="doc">同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
   <block id="00488bd7829540f62dd4bd6dfe0f675b" category="summary">您可以測試通訊連結、以診斷本機儲存陣列與與鏡射一致性群組相關的遠端儲存陣列之間可能發生的通訊問題。</block>
   <block id="e68fe7f4465c0b23ebfd3e9388a30c38" category="paragraph">您要測試的鏡射一致性群組必須存在於本機和遠端儲存陣列上。</block>
   <block id="4e8203c0bd1e1113b52a2a0fb197d539" category="paragraph">您可以執行四種不同的測試：</block>
@@ -7243,7 +7191,6 @@
   <block id="7531a334d220ea22508e384739133ef8" category="list-text"><block ref="7531a334d220ea22508e384739133ef8" category="inline-link-macro-rx"></block></block>
   <block id="42d0992879784d7e513c56623504d02c" category="inline-link-macro">建立同步鏡射配對</block>
   <block id="923106106376cef736ef776f6214dfe6" category="list-text"><block ref="923106106376cef736ef776f6214dfe6" category="inline-link-macro-rx"></block></block>
-  <block id="082027bfe4130225fed98f419dcfcbee" category="doc">為什麼我看不到所有磁碟區？</block>
   <block id="d6a2f3fb02a6b5a0805cb96861b2ad88" category="list-text">對於同步鏡射、鏡射配對中的主要和次要磁碟區必須是標準磁碟區。它們不能是精簡磁碟區或快照磁碟區。</block>
   <block id="d003fc64a90ec0d2d96a3a9a15d536f4" category="list-text">對於非同步鏡射、精簡磁碟區必須啟用自動擴充。</block>
   <block id="0adbb67cce78097bd133a392388a4ea0" category="summary">您可以將儲存組態從一個儲存陣列匯入其他儲存陣列。當您需要在網路中設定多個陣列時、這項批次作業可節省時間。</block>
@@ -7512,7 +7459,6 @@
   <block id="f20f6d487c692f545d0e34b3f99face7" category="list-text">*自我簽署的憑證*</block>
   <block id="f052a72434f6bc613c169fc96093903a" category="paragraph">也可以使用自我簽署的憑證。如果系統管理員嘗試探索陣列而不匯入簽署的憑證、Unified Manager會顯示錯誤對話方塊、讓系統管理員接受自我簽署的憑證。儲存陣列的自我簽署憑證會標示為信任、儲存陣列也會新增至Unified Manager。</block>
   <block id="5e83f689355fdec866c155c6fe9b323e" category="paragraph">如果您不信任儲存陣列的連線、請選取*取消*、然後在將儲存陣列新增至Unified Manager之前驗證儲存陣列的安全性憑證策略。</block>
-  <block id="7f82bc53f199e7918cc64b78504c2064" category="doc">為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
   <block id="8802aac967f31435c584318c847b8f96" category="paragraph">任何不符合使用資格的磁碟區、都不會顯示在該清單中。Volume可能不符合下列任何理由：</block>
   <block id="1e7a9162b9eda403f57543b169ec7c36" category="list-text">此磁碟區為非標準磁碟區、例如快照磁碟區。</block>
   <block id="08a038d98290bf4f3a988b5b930953b6" category="list-text">對於非同步鏡射、主要磁碟區與次要磁碟區之間的精簡磁碟區屬性不相符。</block>
@@ -7718,7 +7664,6 @@
   <block id="d675ef77cef523879bf46cc81f50b333" category="paragraph">Unified Manager會執行下列動作：</block>
   <block id="0dafb34640f1fa9f320c7bf5aed1a0f2" category="admonition">如果要鏡射的磁碟區是精簡磁碟區、則在初始同步期間、只會將已配置的區塊（已配置的容量而非報告的容量）傳輸至次要磁碟區。如此可減少完成初始同步所需傳輸的資料量。</block>
   <block id="44be7be255dacc165bc883399e8ce540" category="summary">在匯入設定作業期間、目標選擇對話方塊中可能無法使用部分儲存陣列。</block>
-  <block id="2ec3d7bda9724dc0164af9b927fdbc28" category="doc">為什麼我看不到所有的儲存陣列？</block>
   <block id="509271c8c60b258f298994cb7ca8944c" category="paragraph">儲存陣列可能不會出現、原因如下：</block>
   <block id="c91bcce3104eb156b3cd15ae07870a24" category="list-text">韌體版本低於8.50。</block>
   <block id="d42c8b73b3ccc12638f610f2623a0c09" category="list-text">儲存陣列已離線。</block>
@@ -8040,9 +7985,6 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">總覽</block>
   <block id="be4486cc26282ba3c22a297f83977dbe" category="sidebar">支援的瀏覽器與作業系統</block>
-  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">常見問題集</block>
-  <block id="3023481996e16c0dd27c1aeeab45a6c4" category="sidebar">如果我看不到所有的硬體元件、該怎麼辦？</block>
-  <block id="4f77fb4cfa40635f17d21979b6692c01" category="sidebar">如果我看不到所有主機、該怎麼辦？</block>
   <block id="93af28c8ab635f0e7d402547ab0c929d" category="sidebar">主介面</block>
   <block id="fc78fae55edd9650c6455e58681d3aae" category="sidebar">檢視效能資料</block>
   <block id="76cf11d4db12b1a45f4d62797b620d5e" category="sidebar">管理介面設定</block>
@@ -8069,8 +8011,6 @@
   <block id="775b7856e9d6f75f853357d7ff4ad166" category="sidebar">變更快照磁碟區的容量</block>
   <block id="167bf1069d8793030ffca242b297158f" category="sidebar">變更容量一致性群組成員磁碟區</block>
   <block id="ab0c882e76928fd51f394b7b8f148e5f" category="sidebar">變更鏡射配對Volume的容量設定</block>
-  <block id="d863817ffe646208af65e3a3e7270ce6" category="sidebar">為什麼我無法增加保留容量？</block>
-  <block id="4c3ca9b61e82061eb67e30fc2e8f47f4" category="sidebar">為什麼我不能選擇其他金額來減少？</block>
   <block id="d9e19492064b37fdbc6a3d0c3537588a" category="sidebar">磁碟區與工作負載</block>
   <block id="8c49ce915d4f8928c912addef222bcf5" category="sidebar">資料完整性與資料安全性</block>
   <block id="464608dc32f11d61980f0e0673d96128" category="sidebar">Volume容量</block>
@@ -8085,9 +8025,6 @@
   <block id="88f1d0e5fdeb268f6b87119dfcc27f8a" category="sidebar">作業類型</block>
   <block id="31ef3dfd1e101bf5cf328ec387a10820" category="sidebar">複製Volume</block>
   <block id="41b4e5d916e26c9e0d32ceff6fd589ed" category="sidebar">管理營運</block>
-  <block id="0c54aa2356b1ba19bf4386215c1829f9" category="sidebar">為什麼這些磁碟區與工作負載無關？</block>
-  <block id="c2573d03e7d109e27aea5c826f85d422" category="sidebar">為何無法刪除選取的工作負載？</block>
-  <block id="b9f14f06f609b90bb993424923055760" category="sidebar">為什麼我看不到所有的集區和/或磁碟區群組？</block>
   <block id="c6707458876d290c703ac763778d44a0" category="sidebar">主機與主機叢集</block>
   <block id="cf9a49f1bff1d19decdde49cdbdae169" category="sidebar">如何指派磁碟區</block>
   <block id="b58847c8b7694663db21c4d392c57994" category="sidebar">設定主機存取</block>
@@ -8108,7 +8045,6 @@
   <block id="d96ab2599a9195c08b8737eafd4a8124" category="sidebar">移除成員Volume</block>
   <block id="170fad9f4be46ada31f8a718075ed709" category="sidebar">管理Snapshot Volume</block>
   <block id="2895ed1d66f9333c01622c7a7d6718eb" category="sidebar">變更快照Volume的Volume設定</block>
-  <block id="fe82cef3fafe389abaff7e7b8c1c8945" category="sidebar">為什麼我看不到所有的磁碟區、主機或主機叢集？</block>
   <block id="3b63cdc3399c713b7de8016c91a99548" category="sidebar">鏡射</block>
   <block id="de3ae7d3b7cb2b60fdd43283060e9bf8" category="sidebar">非同步概念</block>
   <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">工作流程</block>
@@ -8130,21 +8066,9 @@
   <block id="54d6c04f64489f12de29a89b83cec315" category="sidebar">停用鏡射</block>
   <block id="190233503c975b7bb1f4c8a3f12aba9d" category="sidebar">停用非同步鏡射</block>
   <block id="fa7433b43d36d2536077feb9de6b7d42" category="sidebar">停用同步鏡射</block>
-  <block id="193ce2ae6dab7d8dddd7670ffaffe748" category="sidebar">非同步常見問題集</block>
-  <block id="2b2aa633a1528095db126f6bb4133c10" category="sidebar">為什麼我無法存取所選的鏡射功能？</block>
-  <block id="cb0fd874d43f58b1962d457f8982a032" category="sidebar">為什麼我無法以要求的金額來增加保留容量？</block>
-  <block id="126f364ce23072dbb9d2813556631beb" category="sidebar">為什麼我看不到所有的集區和Volume群組？</block>
-  <block id="cad9ea95efebc08a02e3d69cfba88444" category="sidebar">非同步鏡射：為什麼我看不到所有磁碟區？</block>
-  <block id="67a0bff1354ca5f23241168ff1af4cd1" category="sidebar">非同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
-  <block id="a0a778322fcd1480ce0a97557c0bc92c" category="sidebar">為何要更新遠端儲存陣列的IP位址？</block>
-  <block id="009b56b468834c1fb339ca6fd6e64425" category="sidebar">同步常見問題集</block>
-  <block id="1ee329323d69a8ee4fb262351ae2bb47" category="sidebar">同步鏡射與非同步鏡射有何不同？</block>
-  <block id="7948b47687c25969b744a950d4151812" category="sidebar">同步鏡射：為什麼我看不到所有磁碟區？</block>
-  <block id="389d3a8b3a5730bc57f7f4d0b4d48716" category="sidebar">同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
   <block id="c7c7a6a5641f33e348244f9c43010e16" category="sidebar">功能需求</block>
   <block id="551705bacc367306569170afabb0a315" category="sidebar">Volume需求</block>
   <block id="85ecd630da2e3481551a9ee213eb40fe" category="sidebar">管理遠端儲存設備</block>
-  <block id="2f20f508a18f461954c8d3933827bcb7" category="sidebar">為什麼我在目的地陣列上看不到所有磁碟區？</block>
   <block id="34df2039718349f1b8c838bff98ae8fa" category="sidebar">硬體元件</block>
   <block id="56fed02afa343607f2a7395908bc7b80" category="sidebar">管理機櫃元件</block>
   <block id="ce5355093ef60f32420434b5e225c42c" category="sidebar">管理控制器</block>
@@ -8153,13 +8077,7 @@
   <block id="8bd00e89826dbd3fcf80ca108d7a008d" category="sidebar">管理磁碟機</block>
   <block id="14d1c0c1fae5f4b4b38ac991e0042905" category="sidebar">限制磁碟機檢視</block>
   <block id="2e2a47fe25c4d9ffccde0d65c889b8ea" category="sidebar">管理熱備援磁碟機</block>
-  <block id="1e43379f3c402667b130d9a559cbe0a3" category="sidebar">機櫃常見問題集</block>
-  <block id="94edff9f76656b0aa64f11d10564bbec" category="sidebar">控制器常見問題集</block>
-  <block id="985daafeefad88644262898a6ba85dfd" category="sidebar">我應該選擇哪一項—DHCP或手動設定？</block>
   <block id="757b19acb02bcb72f8fbe9a7b9c92bb1" category="sidebar">何時應重新整理連接埠組態？</block>
-  <block id="4a4afac381fa72747a54ec753304470e" category="sidebar">iSCSI常見問題集</block>
-  <block id="09ced3685690518398f597bd647eab6c" category="sidebar">NVMe常見問題集</block>
-  <block id="d1cc2aa09499f8deaf22b2dc39e8d219" category="sidebar">磁碟機常見問題集</block>
   <block id="388e3dfbbe5846b66146f413ab694755" category="sidebar">管理電子郵件警示</block>
   <block id="3990901575d796b02953233d3202f8bb" category="sidebar">設定郵件伺服器和收件者</block>
   <block id="48d5d00e65f9a1cc7aff26da6a5c5c0a" category="sidebar">編輯電子郵件地址</block>
@@ -8194,7 +8112,6 @@
   <block id="3b59007922517b5519c2947e72212587" category="sidebar">使用目錄服務</block>
   <block id="dc4efa2585d1662804b20a74b4acc7a4" category="sidebar">使用SAML</block>
   <block id="8377583907b5858273c3fcf855ae2800" category="sidebar">管理系統記錄</block>
-  <block id="4db7a3bf8dbbf2993ed6610cb2fb4fe0" category="sidebar">為什麼我無法登入？</block>
   <block id="ab70a9bf5b25c1b7ecd7244eef9bf625" category="sidebar">使用憑證</block>
   <block id="573efefcaa393f8bfd3572c46a082bf8" category="sidebar">檢視匯入的憑證資訊</block>
   <block id="085f430b0f579d2ec7d45759dea27e67" category="sidebar">使用CA簽署的憑證來驗證伺服器</block>
@@ -8211,7 +8128,6 @@
   <block id="a0a3f20685c328a00474bb00b7d35fd5" category="sidebar">從檢視中移除陣列</block>
   <block id="15fc53829e4c837f62e15647e031089c" category="sidebar">設定匯入</block>
   <block id="360bd2c3afed58c551a15d240c5d8ae4" category="sidebar">使用批次匯入</block>
-  <block id="c662a0230db643f7b489f1a5fd4c7738" category="sidebar">為什麼我看不到所有的儲存陣列？</block>
   <block id="7fa2f2323087b4b331f294a3e571ac48" category="sidebar">陣列群組</block>
   <block id="5004fa93538efdf6507cbefc3275b79e" category="sidebar">設定群組</block>
   <block id="07a90270ebf66da177e03281873bb626" category="sidebar">從群組中移除陣列</block>
@@ -8219,8 +8135,6 @@
   <block id="70056e37f8376098bb31cd0e5570d51b" category="sidebar">重新命名群組</block>
   <block id="240f9686efc9548a1d556d924c143924" category="sidebar">升級</block>
   <block id="ecaa37294fe56af2542fb9595f4d7c00" category="sidebar">設定鏡射</block>
-  <block id="a4228446d8c9251ebd134b25ea2f2a9d" category="sidebar">為什麼我看不到所有磁碟區？</block>
-  <block id="4a8aaebc73b69b1dce072d72f2645856" category="sidebar">為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
   <block id="bc864bcc140c5518082e93d37b396baf" category="sidebar">使用管理主機憑證</block>
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">使用陣列憑證</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">管理憑證</block>
@@ -8626,7 +8540,6 @@
   <block id="c1ef781eafa3554e3ab8e8623b4e5a71" category="paragraph">EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡射功能。</block>
   <block id="5a7b6df104eae510976ebef6d294bbc2" category="paragraph">此功能不適用於 EF600/EF600C 或 EF300/EF300C 儲存系統上的同步鏡射。</block>
   <block id="b9e88ad6836c4f5d794f382de8f1f2c9" category="admonition">EF300C 或 EF600C 儲存陣列目前不支援 DULBE 。</block>
-  <block id="4b8add2dc8ff6506b02ecbd9ce368929" category="summary">資源配置是 EF300 ， EF300C ， EF600 和 EF600C 儲存陣列中的一項功能，可讓磁碟區立即投入使用，無需背景初始化程序。</block>
   <block id="90992e53bcf79cefee988e4147be01b6" category="paragraph">E4000 ， EF600/EF600C 或 EF300/EF300C 儲存系統無法使用存取磁碟區的頻內管理。</block>
   <block id="16ebf1283fdb23275c2211d15a82e2cd" category="list-text">EF600/EF600C 或 EF300/EF300C 儲存系統不提供精簡磁碟區。</block>
   <block id="1ac9fe85275ed11ba0a95e5559f5af80" category="paragraph">顯示藥櫃遺失保護功能是否可用、僅當您使用含有藥櫃的磁碟機櫃時才會提供此功能。如果磁碟櫃中的單一藥櫃發生通訊完全中斷、藥櫃遺失保護可確保磁碟區群組中磁碟區上的資料可存取。</block>
@@ -9050,4 +8963,75 @@
   <block id="a10a0fef1a8b50d16443976fedae1e16" category="section-title">11.90R3 版的新功能</block>
   <block id="c78544d43a065eb825edb9e16bf0e9ad" category="paragraph">SANtricity 作業系統對 IOM12C 和 DCM3 的支持</block>
   <block id="94d90ce4793f949687897ec062d97b9c" category="paragraph">控制器韌體版本 11.90R3 或更高版本現已支援 IOM12C 和 DCM3 SAS-3 磁碟架。 IOM12C和 DCM3 磁碟架將取代 IOM12B 和 DCM2 磁碟架。</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
+  <block id="5453a26dc9b68778117a8311e75f8fbe" category="doc">SANtricity System Manager 的儲存控制器常見問題解答</block>
+  <block id="d51277c947b0f0f0862c6f10192a1cc0" category="section-title">我該選擇哪一個——DHCP 還是手動設定？</block>
+  <block id="ad76bfb46a270b4305ffd6738882677c" category="doc">SANtricity System Manager 儲存架常見問題解答</block>
+  <block id="19b5339279f2639b668d0bbe4f8b70a0" category="doc">SANtricity System Manager 管理介面常見問題解答</block>
+  <block id="8587ba2a3667d610eb60afc44dad1723" category="doc">SANtricity System Manager 的儲存系統設定常見問題解答</block>
+  <block id="a8d4770377b5b26815bf4624787b5cd2" category="section-title">如果我沒有看到所有硬體組件怎麼辦？</block>
+  <block id="93553c3f530e96d0430861eab073fd9f" category="section-title">如果我沒有看到所有主機怎麼辦？</block>
+  <block id="ec650621f1b4e4a52be9f5b5b3aa032e" category="doc">SANtricity System Manager 非同步鏡像常見問題解答</block>
+  <block id="9f823e5a9e8f9ed671d7256745222141" category="section-title">為什麼我無法存取我選擇的鏡像功能？</block>
+  <block id="056a12680d6f0ea9fbc5b9cd0dcbbbc5" category="section-title">為什麼我無法將預留容量增加到我請求的數量？</block>
+  <block id="627802c3caee37379a9c399ab704765d" category="section-title">為什麼我看不到所有的池和卷組？</block>
+  <block id="c61a1154889025d1e7a947414ac8a162" category="section-title">非同步鏡像 - 為什麼我看不到所有磁碟區？</block>
+  <block id="a7d50b4837966a5a224cf9d31b8f4a86" category="section-title">非同步鏡像 - 為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
+  <block id="2aea594a4c81b0946e1265a4de81a100" category="section-title">為什麼要更新遠端儲存陣列的 IP 位址？</block>
+  <block id="e49efc0cfc4c7b160fd4cdfba13d0678" category="doc">SANtricity System Manager 同步鏡像常見問題解答</block>
+  <block id="3cf88cf8f3807ba93b6284bc7f35241d" category="section-title">同步鏡像 - 為什麼我看不到所有磁碟區？</block>
+  <block id="127409013236f2ee4d2fedecdfdf9696" category="section-title">同步鏡像 - 為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
+  <block id="474e6194420a15da8f116ca1d03c1089" category="doc">了解 SANtricity 軟體中的快取設定和效能</block>
+  <block id="07a19ca9ce814c05660c931367a1daec" category="doc">SANtricity System Manager 的 CA 簽章憑證和自簽章憑證常見問題解答</block>
+  <block id="07898edb5d614ff7156be4ecdb0b0a5f" category="doc">SANtricity System Manager 的 iSCSI 協定常見問題解答</block>
+  <block id="3da657434c2b0361e0108af6bf025792" category="doc">SANtricity System Manager 的 NVMe 協定常見問題解答</block>
+  <block id="8a75fb951da264587a6600ccf7d93fea" category="doc">SANtricity System Manager 儲存驅動器安全性常見問題解答</block>
+  <block id="7e2b30503c6c69f7a65b4e868fd7b1d7" category="doc">SANtricity System Manager 的儲存系統警報常見問題解答</block>
+  <block id="fe7c1bb53377d143fbbd6019354e2c03" category="doc">SANtricity System Manager 使用者存取管理常見問題解答</block>
+  <block id="0307aefebec2be18a5e72767abfab6ea" category="section-title">為什麼我無法登入？</block>
+  <block id="8eb7d61e639ed5ef84ecef34c3ef9a90" category="doc">了解 SANtricity System Manager 中的基本磁碟區、預留容量和快照群組</block>
+  <block id="93ff2ee6ca3ebff76b39eee6c837a05c" category="doc">SANtricity System Manager 的池和磁碟區組常見問題解答</block>
+  <block id="95480a662f5c9e477922a7a2b403bb11" category="section-title">為什麼我無法提升我的保存能力？</block>
+  <block id="e162d80660b94f1ba0e8a0ed9b5db00c" category="section-title">為什麼我不能選擇其他要減少的金額？</block>
+  <block id="e28db378e03cfeaba6b656dc0456b190" category="doc">SANtricity System Manager 遠端儲存常見問題解答</block>
+  <block id="24ad5296fefcace9e0149956fd904cf2" category="section-title">為什麼我看不到目標陣列上的所有磁碟區？</block>
+  <block id="5fcdf917efa28e8116867e315322b0e1" category="doc">SANtricity System Manager 快照常見問題解答</block>
+  <block id="2ba6fbda3398bad4861f032c2009b0d3" category="section-title">為什麼我看不到所有磁碟區、主機或主機叢集？</block>
+  <block id="9421c472440f982cec67bc525c3c00a6" category="doc">SANtricity System Manager 的儲存陣列設定常見問題解答</block>
+  <block id="28f98bb6051d213c5956bab8fa693f88" category="doc">SANtricity System Manager 儲存磁碟機常見問題解答</block>
+  <block id="570b09742a6d84e577f1d00cdf68e38b" category="doc">SANtricity System Manager 的主機系統和主機叢集常見問題解答</block>
+  <block id="4538489334cc71ec5bc63f18418b8b5f" category="doc">SANtricity System Manager 捲和工作負載常見問題解答</block>
+  <block id="38457c0d7698b046b04ff29966984237" category="section-title">為什麼這些磁碟區與工作負載沒有關聯？</block>
+  <block id="38134686fcc012c564ba793d762895ce" category="section-title">為什麼我無法刪除選取的工作負載？</block>
+  <block id="73158d5edc74cd6d3fceaaadb9c001b6" category="section-title">為什麼我看不到所有池和/或磁碟區組？</block>
+  <block id="9e5fa4fee4e2e323cc46591b9c569f80" category="doc">SANtricity System Manager 的 AutoSupport 常見問題解答</block>
+  <block id="17b506511a9d92bc797c9a616e848618" category="doc">SANtricity Unified Manager 使用者存取管理常見問題解答</block>
+  <block id="46bbf70058c38d16be148ec731c4e2ff" category="doc">SANtricity Unified Manager 導入設定常見問題解答</block>
+  <block id="9265078167e4a547bcd07baa0fcd2c28" category="section-title">為什麼我看不到所有的儲存陣列？</block>
+  <block id="e4dd224c723eab5d0e1fc1ba66660335" category="doc">SANtricity Unified Manager 的儲存映像常見問題解答</block>
+  <block id="a09f907840e3debc354b7bf16928d0a9" category="section-title">為什麼我看不到我的所有捲？</block>
+  <block id="59811ac2b31c7c14c4f6c5a0fe557df0" category="section-title">為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
+  <block id="6aa27cc5d4cf944c8ace1bc2cb4b986d" category="doc">在 SANtricity Unified Manager 中匯入目錄服務設定</block>
+  <block id="af12fbdbeeb22bd98af40e694f9dbeed" category="sidebar">儲存系統設定常見問題解答</block>
+  <block id="e880fbedb2e8a12c7abef7ffeecb5c8a" category="sidebar">管理介面常見問題解答</block>
+  <block id="85f37ae864bd5c5fb734f986c131ea41" category="sidebar">池和卷組常見問題解答</block>
+  <block id="c12ad1150304879fdf3619ff461b010f" category="sidebar">捲和工作負載常見問題解答</block>
+  <block id="e3f88e92f689c60cd6dd33d9bdf1781f" category="sidebar">主機系統和主機叢集常見問題解答</block>
+  <block id="7b79c68474c127986d80027dea958b67" category="sidebar">快照常見問題解答</block>
+  <block id="f3c1090e458eacb45d91144e5e8843dc" category="sidebar">非同步鏡像常見問題解答</block>
+  <block id="e812bdafa8421a172fa5f89167c98d11" category="sidebar">同步鏡像常見問題解答</block>
+  <block id="764c366408531519068ab72822b9d70b" category="sidebar">遠端儲存常見問題解答</block>
+  <block id="f5500aa15342ea488f2a3948a19f8a86" category="sidebar">倉儲貨架常見問題</block>
+  <block id="efaedbc5c0388f05f894ade9a9b051be" category="sidebar">儲存控制器FAQ</block>
+  <block id="423cac0d8ecb8cbe666a15aa9d177028" category="sidebar">iSCSI 協定常見問題解答</block>
+  <block id="57a622d8a0a7d13e86e3514bb3b4e9ea" category="sidebar">NVMe 協定常見問題解答</block>
+  <block id="7848d82d7d98c22e1395a7e63f5fab9b" category="sidebar">儲存磁碟機常見問題解答</block>
+  <block id="dab141492d4f7a76f831015c28747d7e" category="sidebar">儲存系統警報常見問題解答</block>
+  <block id="4da5cbb04d7ab418ddaf55ae50d07680" category="sidebar">儲存陣列設定常見問題解答</block>
+  <block id="f39e9ea930d05db1a69c96b879497b38" category="sidebar">儲存磁碟機安全常見問題解答</block>
+  <block id="fe28cf5dc2afdedb53feb43fe61499e7" category="sidebar">使用者存取管理常見問題解答</block>
+  <block id="2a2d5026981871719d2bae7c3420cf9e" category="sidebar">證書常見問題</block>
+  <block id="f9e9bc191db345171d0de707013016a3" category="sidebar">AutoSupport 常見問題解答</block>
+  <block id="3af089d2853adca01b3ba738ac9987ff" category="sidebar">導入設定常見問題解答</block>
+  <block id="e35e805c872d89cfd87942f59e41eb2d" category="sidebar">儲存鏡像常見問題解答</block>
 </blocks>

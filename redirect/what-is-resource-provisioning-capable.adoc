@@ -1,0 +1,8 @@
+---
+permalink: sm-storage/what-is-resource-provisioning-capable.html 
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html 
+---
+= 
+:allow-uri-read: 
+
+

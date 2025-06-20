@@ -37,22 +37,8 @@ sidebar:
         url: "/san-getstarted/access-sam.html"
       - title: 設定精靈總覽
         url: "/sm-interface/setup-wizard-overview.html"
-      - title: 常見問題集
-        entries:
-        - title: 如果我看不到所有的硬體元件、該怎麼辦？
-          url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
-        - title: 如果我看不到所有主機、該怎麼辦？
-          url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
-        - title: 識別應用程式如何協助我管理儲存陣列？
-          url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
-        - title: 什麼是工作負載？
-          url: "/sm-interface/what-is-a-workload.html"
-        - title: 我要如何設定AutoSupport 供應方法以利執行？
-          url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
-        - title: 如何知道我是否應該接受建議的集區組態？
-          url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-        - title: SANtricity 系統管理員未偵測到任何主機。我該怎麼辦？
-          url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+      - title: 儲存系統設定常見問題解答
+        url: "/sm-interface/faq-storage-system-setup.html"
     - title: SANtricity Unified Manager 設定
       entries:
       - title: 安裝 SANtricity Unified Manager
@@ -102,28 +88,8 @@ sidebar:
           url: "/sm-interface/view-and-act-on-operations-in-progress.html"
         - title: 使用Recovery Guru從問題中恢復
           url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
-      - title: 常見問題集
-        entries:
-        - title: 支援哪些瀏覽器？
-          url: "/sm-interface/what-are-the-supported-browsers.html"
-        - title: 什麼是鍵盤快速鍵？
-          url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
-        - title: 個別磁碟區的效能統計資料與總計有何關聯？
-          url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
-        - title: 為什麼圖表中的資料顯示為零？
-          url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
-        - title: 延遲圖表顯示什麼？
-          url: "/sm-storage/what-does-the-latency-graph-show.html"
-        - title: IOPS圖表顯示什麼？
-          url: "/sm-storage/what-does-the-iops-graph-show.html"
-        - title: MIB/s圖顯示什麼？
-          url: "/sm-storage/what-does-the-mib-s-graph-show.html"
-        - title: CPU圖表顯示什麼？
-          url: "/sm-storage/what-does-the-cpu-graph-show.html"
-        - title: 保留空間圖表顯示什麼內容？
-          url: "/sm-storage/what-does-the-headroom-graph-show.html"
-        - title: 哪裡可以找到更多有關顯示偏好設定的資訊？
-          url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+      - title: 管理介面常見問題解答
+        url: "/sm-interface/faq-management-interface.html"
     - title: 資源池和Volume群組
       entries:
       - title: 總覽
@@ -206,58 +172,8 @@ sidebar:
           url: "/sm-storage/cancel-pending-snapshot-image.html"
         - title: 刪除快照群組
           url: "/sm-storage/delete-snapshot-group.html"
-      - title: 常見問題集
-        entries:
-        - title: 什麼是Volume群組？
-          url: "/sm-storage/what-is-a-volume-group.html"
-        - title: 什麼是資源池？
-          url: "/sm-storage/what-is-a-pool.html"
-        - title: 什麼是保留容量？
-          url: "/sm-storage/what-is-reserved-capacity.html"
-        - title: 什麼是FDE/FIPS安全性？
-          url: "/sm-storage/what-is-fde-fips-security.html"
-        - title: 什麼是備援檢查？
-          url: "/sm-storage/what-is-redundancy-check.html"
-        - title: 集區與Volume群組之間有何差異？
-          url: "/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html"
-        - title: 為什麼要手動設定集區？
-          url: "/sm-storage/why-would-i-want-to-manually-configure-a-pool.html"
-        - title: 容量警示為何重要？
-          url: "/sm-storage/why-are-capacity-alerts-important.html"
-        - title: 為什麼我無法增加保留容量？
-          url: "/sm-storage/why-cant-i-increase-my-preservation-capacity.html"
-        - title: 我可以從集區移除的磁碟機數量是否有限制？
-          url: "/sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html"
-        - title: 磁碟機支援哪些媒體類型？
-          url: "/sm-storage/what-media-types-are-supported-for-a-drive.html"
-        - title: 為什麼有些磁碟機沒有顯示？
-          url: "/sm-storage/why-are-some-drives-not-showing-up.html"
-        - title: 如何維護機櫃/藥櫃遺失保護？
-          url: "/sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html"
-        - title: 集區和磁碟區群組的最佳磁碟機定位為何？
-          url: "/sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html"
-        - title: 哪種RAID層級最適合我的應用程式？
-          url: "/sm-storage/what-raid-level-is-best-for-my-application.html"
-        - title: 什麼是資料保證？
-          url: "/sm-storage/what-is-data-assurance.html"
-        - title: 什麼是安全功能（磁碟機安全性）？
-          url: "/sm-storage/what-is-security-capable-drive-security.html"
-        - title: 增加保留容量需要知道什麼？
-          url: "/sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html"
-        - title: 為什麼我不能選擇其他金額來減少？
-          url: "/sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html"
-        - title: 為什麼我需要每個成員磁碟區的保留容量？
-          url: "/sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html"
-        - title: 如何檢視及解讀所有SSD快取統計資料？
-          url: "/sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html"
-        - title: 集區的最佳化容量為何？
-          url: "/sm-storage/what-is-optimization-capacity-pools.html"
-        - title: 什麼是Volume群組的最佳化容量？
-          url: "/sm-storage/what-is-optimization-capacity-volume-groups.html"
-        - title: 什麼是資源資源配置功能？
-          url: "/sm-storage/what-is-resource-provisioning-capable.html"
-        - title: 關於資源配置的Volume功能、我需要知道什麼？
-          url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+      - title: 池和卷組常見問題解答
+        url: "/sm-storage/faq-pools-volume-groups.html"
     - title: 磁碟區與工作負載
       entries:
       - title: 總覽
@@ -326,34 +242,8 @@ sidebar:
           url: "/sm-storage/copy-volume.html"
         - title: 管理營運
           url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
-      - title: 常見問題集
-        entries:
-        - title: 什麼是Volume？
-          url: "/sm-storage/what-is-a-volume.html"
-        - title: 當磁碟區群組中有足夠的可用容量來建立磁碟區時、為什麼我看到容量過度配置錯誤？
-          url: "/sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html"
-        - title: 我所選的工作負載如何影響磁碟區建立？
-          url: "/sm-storage/how-does-my-selected-workload-impact-volume-creation.html"
-        - title: 為什麼這些磁碟區與工作負載無關？
-          url: "/sm-storage/why-arent-these-volumes-associated-with-a-workload.html"
-        - title: 為何無法刪除選取的工作負載？
-          url: "/sm-storage/why-cant-i-delete-the-selected-workload.html"
-        - title: 應用程式專屬的工作負載如何協助我管理儲存陣列？
-          url: "/sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html"
-        - title: 提供此資訊如何協助建立儲存設備？
-          url: "/sm-storage/how-does-providing-this-information-help-create-storage.html"
-        - title: 我需要如何辨識擴充的容量？
-          url: "/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
-        - title: 為什麼我看不到所有的集區和/或磁碟區群組？
-          url: "/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html"
-        - title: 什麼是區段大小？
-          url: "/sm-storage/what-is-segment-sizing.html"
-        - title: 什麼是偏好的控制器擁有權？
-          url: "/sm-storage/what-is-preferred-controller-ownership.html"
-        - title: 我想在何時使用「稍後指派主機」選項？
-          url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
-        - title: 我需要知道哪些關於主機區塊大小需求的資訊？
-          url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
+      - title: 捲和工作負載常見問題解答
+        url: "/sm-storage/faq-volumes-workloads.html"
     - title: 主機與主機叢集
       entries:
       - title: 總覽
@@ -400,24 +290,8 @@ sidebar:
           url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
         - title: 變更主機的主機連接埠識別碼
           url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
-      - title: 常見問題集
-        entries:
-        - title: 什麼是主機和主機叢集？
-          url: "/sm-storage/what-are-hosts-and-host-clusters.html"
-        - title: 為什麼我需要建立主機叢集？
-          url: "/sm-storage/why-would-i-need-to-create-a-host-cluster.html"
-        - title: 如何知道哪種主機作業系統類型正確？
-          url: "/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html"
-        - title: 什麼是HBA和介面卡連接埠？
-          url: "/sm-storage/what-are-hbas-and-adapter-ports.html"
-        - title: 如何將主機連接埠與主機配對？
-          url: "/sm-storage/how-do-i-match-the-host-ports-to-a-host.html"
-        - title: 如何建立CHAP機密？
-          url: "/sm-storage/how-do-i-create-chap-secrets.html"
-        - title: 什麼是預設叢集？
-          url: "/sm-storage/what-is-the-default-cluster.html"
-        - title: 什麼是主機連線報告？
-          url: "/sm-settings/what-is-host-connectivity-reporting.html"
+      - title: 主機系統和主機叢集常見問題解答
+        url: "/sm-storage/faq-systems-clusters.html"
     - title: 快照
       entries:
       - title: 總覽
@@ -496,28 +370,8 @@ sidebar:
           url: "/sm-storage/disable-snapshot-volume.html"
         - title: 刪除Snapshot Volume
           url: "/sm-storage/delete-snapshot-volume.html"
-      - title: 常見問題集
-        entries:
-        - title: 為什麼我看不到所有的磁碟區、主機或主機叢集？
-          url: "/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html"
-        - title: 什麼是快照映像？
-          url: "/sm-storage/what-is-a-snapshot-image.html"
-        - title: 為何要使用快照映像？
-          url: "/sm-storage/why-use-snapshot-images.html"
-        - title: 快照可使用哪些類型的磁碟區？
-          url: "/sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html"
-        - title: 為什麼要建立Snapshot一致性群組？
-          url: "/sm-storage/why-would-i-create-a-snapshot-consistency-group.html"
-        - title: 什麼是Snapshot Volume？何時需要保留容量？
-          url: "/sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html"
-        - title: 什麼是快照群組？
-          url: "/sm-storage/what-is-a-snapshot-group.html"
-        - title: 為什麼要停用快照磁碟區？
-          url: "/sm-storage/why-would-i-disable-a-snapshot-volume.html"
-        - title: "「停用」狀態為何？"
-          url: "/sm-storage/what-is-the-disabled-state.html"
-        - title: 為什麼要暫停快照排程？
-          url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
+      - title: 快照常見問題解答
+        url: "/sm-storage/faq-snapshots.html"
     - title: 鏡射
       entries:
       - title: 總覽
@@ -604,48 +458,10 @@ sidebar:
           url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
         - title: 停用同步鏡射
           url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
-      - title: 非同步常見問題集
-        entries:
-        - title: 非同步鏡射與同步鏡射有何不同？
-          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
-        - title: 為什麼我無法存取所選的鏡射功能？
-          url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
-        - title: 在建立鏡射一致性群組之前、我需要知道什麼？
-          url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
-        - title: 非同步鏡射-建立鏡射配對之前、我需要知道什麼？
-          url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-        - title: 在增加鏡射配對磁碟區上的保留容量之前、我需要知道什麼？
-          url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
-        - title: 為什麼我無法以要求的金額來增加保留容量？
-          url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
-        - title: 為什麼要變更這個百分比？
-          url: "/sm-mirroring/why-would-i-change-this-percentage.html"
-        - title: 為什麼我會看到多個保留容量的候選對象？
-          url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
-        - title: 為什麼我在表格中看到無法使用的值？
-          url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
-        - title: 為什麼我看不到所有的集區和Volume群組？
-          url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
-        - title: 非同步鏡射：為什麼我看不到所有磁碟區？
-          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-        - title: 非同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？
-          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-        - title: 為何要更新遠端儲存陣列的IP位址？
-          url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
-      - title: 同步常見問題集
-        entries:
-        - title: 同步鏡射與非同步鏡射有何不同？
-          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
-        - title: 同步鏡射：為什麼我看不到所有磁碟區？
-          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-        - title: 同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？
-          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-        - title: 同步鏡射-建立鏡射配對之前、我需要知道什麼？
-          url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-        - title: 同步處理優先順序對同步處理速率有何影響？
-          url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
-        - title: 為什麼建議使用手動同步原則？
-          url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
+      - title: 非同步鏡像常見問題解答
+        url: "/sm-mirroring/faq-async-mirroring.html"
+      - title: 同步鏡像常見問題解答
+        url: "/sm-mirroring/faq-sync-mirroring.html"
     - title: 遠端儲存設備
       entries:
       - title: 總覽
@@ -670,18 +486,8 @@ sidebar:
           url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
         - title: 移除遠端儲存物件
           url: "/sm-storage/rtv-remove-remote-storage.html"
-      - title: 常見問題集
-        entries:
-        - title: 建立遠端儲存連線之前、我需要知道什麼？
-          url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
-        - title: 為什麼系統會提示我移除遠端磁碟區？
-          url: "/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html"
-        - title: 為什麼我在目的地陣列上看不到所有磁碟區？
-          url: "/sm-storage/rtv-why-dont-i-see-all-my-volumes.html"
-        - title: 匯入時、我需要知道哪些遠端磁碟區的相關資訊？
-          url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
-        - title: 在開始遠端儲存匯入之前、我需要知道什麼？
-          url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
+      - title: 遠端儲存常見問題解答
+        url: "/sm-storage/faq-remote-storage.html"
     - title: 硬體元件
       entries:
       - title: 總覽
@@ -794,70 +600,16 @@ sidebar:
           url: "/sm-hardware/assign-hot-spares-hardware.html"
         - title: 取消指派熱備援磁碟機
           url: "/sm-hardware/unassign-hot-spares.html"
-      - title: 機櫃常見問題集
-        entries:
-        - title: 什麼是機櫃損失保護和藥櫃損失保護？
-          url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
-        - title: 什麼是電池學習週期？
-          url: "/sm-hardware/what-are-battery-learn-cycles.html"
-      - title: 控制器常見問題集
-        entries:
-        - title: 什麼是自動交涉？
-          url: "/sm-hardware/what-is-auto-negotiation.html"
-        - title: 什麼是IPv6無狀態位址自動組態？
-          url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
-        - title: 我應該選擇哪一項—DHCP或手動設定？
-          url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
-        - title: 什麼是DHCP伺服器？
-          url: "/sm-hardware/what-is-a-dhcp-server.html"
-        - title: 如何設定我的DHCP伺服器？
-          url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
-        - title: 為何需要變更控制器網路組態？
-          url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
-        - title: 網路組態在哪裡？
-          url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
-        - title: 什麼是ICMP ping回應？
-          url: "/sm-hardware/what-are-icmp-ping-responses.html"
-        - title: 何時應重新整理連接埠組態？
-          url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
-        - title: 設定管理連接埠之後該怎麼辦？
-          url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
-        - title: 為什麼儲存系統處於非最佳模式？
-          url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
-      - title: iSCSI常見問題集
-        entries:
-        - title: 使用iSNS伺服器進行登錄時會發生什麼事？
-          url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
-        - title: iSCSI自動支援哪些登錄方法？
-          url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
-        - title: 我要如何解讀InfiniBand統計資料的iSER？
-          url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
-        - title: 在InfiniBand上設定或診斷iSER還需要做什麼？
-          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
-        - title: 我還需要做什麼才能設定或診斷iSCSI？
-          url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
-      - title: NVMe常見問題集
-        entries:
-        - title: 如何解讀NVMe over Fabrics統計資料？
-          url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
-        - title: 我還需要如何透過InfiniBand來設定或診斷NVMe？
-          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
-        - title: 我還需要做什麼才能透過RoCE來設定或診斷NVMe？
-          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
-        - title: 為什麼一個實體連接埠有兩個IP位址？
-          url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
-        - title: 為什麼一個實體連接埠有兩組參數？
-          url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
-      - title: 磁碟機常見問題集
-        entries:
-        - title: 什麼是熱備援磁碟機？
-          url: "/sm-storage/what-is-a-hot-spare-drive.html"
-        - title: 什麼是保留容量？
-          url: "/sm-hardware/what-is-preservation-capacity.html"
-        - title: 為什麼我要邏輯地更換磁碟機？
-          url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
-        - title: 何處可以檢視正在進行重建的磁碟機狀態？
-          url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
+      - title: 倉儲貨架常見問題
+        url: "/sm-hardware/faq-storage-shelf.html"
+      - title: 儲存控制器FAQ
+        url: "/sm-hardware/faq-storage-controller.html"
+      - title: iSCSI 協定常見問題解答
+        url: "/sm-settings/faq-iscsi-protocol.html"
+      - title: NVMe 協定常見問題解答
+        url: "/sm-settings/faq-nvme-protocol.html"
+      - title: 儲存磁碟機常見問題解答
+        url: "/sm-storage/faq-storage-drives.html"
     - title: 警示
       entries:
       - title: 總覽
@@ -912,14 +664,8 @@ sidebar:
           url: "/sm-settings/add-syslog-servers-for-alerts.html"
         - title: 刪除syslog伺服器
           url: "/sm-settings/delete-syslog-servers-for-alerts.html"
-      - title: 常見問題集
-        entries:
-        - title: 停用警示時該怎麼辦？
-          url: "/sm-settings/what-if-alerts-are-disabled.html"
-        - title: 如何設定SNMP或syslog警示？
-          url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
-        - title: 為什麼陣列與警示之間的時間戳記不一致？
-          url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+      - title: 儲存系統警報常見問題解答
+        url: "/sm-settings/faq-storage-system-alerts.html"
     - title: 陣列設定
       entries:
       - title: 設定總覽
@@ -962,18 +708,8 @@ sidebar:
           url: "/sm-settings/enable-feature-pack.html"
       - title: 下載CLI
         url: "/sm-settings/download-cli.html"
-      - title: 常見問題集
-        entries:
-        - title: 什麼是自動負載平衡？
-          url: "/sm-storage/what-is-automatic-load-balancing.html"
-        - title: 什麼是控制器快取？
-          url: "/sm-settings/what-is-controller-cache.html"
-        - title: 什麼是快取排清？
-          url: "/sm-settings/what-is-cache-flushing.html"
-        - title: 什麼是快取區塊大小？
-          url: "/sm-settings/what-is-cache-block-size.html"
-        - title: 何時應該同步儲存陣列時鐘？
-          url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+      - title: 儲存陣列設定常見問題解答
+        url: "/sm-storage/faq-storage-array-settings.html"
     - title: 磁碟機安全性
       entries:
       - title: 總覽
@@ -1008,24 +744,8 @@ sidebar:
           url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
         - title: 使用外部金鑰管理時解除鎖定磁碟機
           url: "/sm-settings/unlock-drives-using-an-external-security-key.html"
-      - title: 常見問題集
-        entries:
-        - title: 在建立安全金鑰之前、我需要知道什麼？
-          url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
-        - title: 為什麼我需要定義密碼？
-          url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
-        - title: 為何務必記錄安全金鑰資訊？
-          url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
-        - title: 備份安全金鑰之前、我需要知道什麼？
-          url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
-        - title: 在解除鎖定安全磁碟機之前、我需要知道什麼？
-          url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
-        - title: 什麼是讀寫存取能力？
-          url: "/sm-settings/what-is-read-write-accessibility.html"
-        - title: 驗證安全金鑰需要知道什麼？
-          url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
-        - title: 內部安全金鑰與外部安全金鑰管理有何不同？
-          url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+      - title: 儲存磁碟機安全常見問題解答
+        url: "/sm-settings/faq-storage-drive-security.html"
     - title: 存取管理
       entries:
       - title: 總覽
@@ -1090,24 +810,8 @@ sidebar:
           url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
         - title: 編輯稽核記錄的syslog伺服器設定
           url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
-      - title: 常見問題集
-        entries:
-        - title: 為什麼我無法登入？
-          url: "/sm-settings/why-cant-i-log-in.html"
-        - title: 新增目錄伺服器之前、我需要知道什麼？
-          url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
-        - title: 我需要知道哪些關於對應至儲存陣列角色的資訊？
-          url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
-        - title: 哪些外部管理工具可能會受此變更影響？
-          url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
-        - title: 在設定及啟用SAML之前、我需要知道哪些資訊？
-          url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
-        - title: 稽核記錄中記錄了哪些類型的事件？
-          url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
-        - title: 設定syslog伺服器之前、我需要知道什麼？
-          url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
-        - title: 系統記錄伺服器不再接收稽核記錄。我該怎麼辦？
-          url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+      - title: 使用者存取管理常見問題解答
+        url: "/sm-settings/faq-user-access-mgmt-sm.html"
     - title: 憑證
       entries:
       - title: 總覽
@@ -1136,16 +840,8 @@ sidebar:
           url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
         - title: 匯出金鑰管理伺服器憑證
           url: "/sm-settings/export-key-management-certificates.html"
-      - title: 常見問題集
-        entries:
-        - title: 為什麼會出現「無法存取其他控制器」對話方塊？
-          url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
-        - title: 如何知道需要上傳哪些憑證到 SANtricity 系統管理員才能進行外部金鑰管理？
-          url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
-        - title: 關於憑證撤銷檢查、我需要知道什麼？
-          url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
-        - title: 哪些類型的伺服器會啟用撤銷檢查？
-          url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
+      - title: 證書常見問題
+        url: "/sm-settings/faq-certificates.html"
     - title: 支援
       entries:
       - title: 總覽
@@ -1218,32 +914,8 @@ sidebar:
           url: "/sm-support/upgrade-drive-firmware.html"
         - title: 檢閱可能的軟體和韌體升級錯誤
           url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
-      - title: 常見問題集
-        entries:
-        - title: 我要收集哪些資料？
-          url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
-        - title: 無法讀取的區段資料會顯示什麼？
-          url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
-        - title: 什麼是健全狀況映像？
-          url: "/sm-support/what-is-a-health-image.html"
-        - title: 這個功能有什麼AutoSupport 作用？
-          url: "/sm-support/what-do-the-autosupport-features-do.html"
-        - title: 透過此功能收集哪種類型的資料AutoSupport ？
-          url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
-        - title: 我要如何設定AutoSupport 供應方法以使用「不知道」功能？
-          url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
-        - title: 什麼是組態資料？
-          url: "/sm-support/what-is-configuration-data.html"
-        - title: 升級SANtricity 完《不知如何」的《不知如何？
-          url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
-        - title: 在暫停IOM自動同步之前、我需要知道什麼？
-          url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
-        - title: 我的韌體升級為什麼進展緩慢？
-          url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
-        - title: 升級磁碟機韌體之前、我需要知道什麼？
-          url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
-        - title: 如何選擇要執行的升級類型？
-          url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
+      - title: AutoSupport 常見問題解答
+        url: "/sm-support/faq-autosupport.html"
   - title: 統一化管理程式SANtricity
     url: "/unified-manager/index.html"
     entries:
@@ -1307,12 +979,8 @@ sidebar:
           url: "/um-manage/import-system-settings.html"
         - title: 匯入儲存組態設定
           url: "/um-manage/import-storage-configuration-settings.html"
-      - title: 常見問題集
-        entries:
-        - title: 將匯入哪些設定？
-          url: "/um-manage/what-settings-will-be-imported.html"
-        - title: 為什麼我看不到所有的儲存陣列？
-          url: "/um-manage/why-dont-i-see-all-of-my-storage-arrays.html"
+      - title: 導入設定常見問題解答
+        url: "/um-manage/faq-import-settings.html"
     - title: 陣列群組
       entries:
       - title: 總覽
@@ -1361,24 +1029,8 @@ sidebar:
           url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
         - title: 建立同步鏡射配對
           url: "/um-manage/create-synchronous-mirrored-pair-um.html"
-      - title: 常見問題集
-        entries:
-        - title: 在建立鏡射一致性群組之前、我需要知道什麼？
-          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
-        - title: 建立鏡射配對之前、我需要知道什麼？
-          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html"
-        - title: 為什麼要變更這個百分比？
-          url: "/um-manage/why-would-i-change-this-percentage-um.html"
-        - title: 為什麼我會看到多個保留容量的候選對象？
-          url: "/um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html"
-        - title: 為什麼我看不到所有磁碟區？
-          url: "/um-manage/why-dont-i-see-all-my-volumes-um.html"
-        - title: 為什麼我看不到遠端儲存陣列上的所有磁碟區？
-          url: "/um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html"
-        - title: 同步處理優先順序對同步處理速率有何影響？
-          url: "/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html"
-        - title: 為什麼建議使用手動同步原則？
-          url: "/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html"
+      - title: 儲存鏡像常見問題解答
+        url: "/um-manage/faq-storage-mirroring.html"
     - title: 憑證
       entries:
       - title: 總覽
@@ -1449,18 +1101,8 @@ sidebar:
           url: "/um-certificates/change-saml-role-mappings.html"
         - title: 匯出SAML服務供應商檔案
           url: "/um-certificates/export-saml-service-provider-files.html"
-      - title: 常見問題集
-        entries:
-        - title: 為什麼我無法登入？
-          url: "/um-certificates/why-cant-i-log-in-unified.html"
-        - title: 新增目錄伺服器之前、我需要知道什麼？
-          url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
-        - title: 我需要知道哪些關於對應至儲存陣列角色的資訊？
-          url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
-        - title: 在設定及啟用SAML之前、我需要知道哪些資訊？
-          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
-        - title: 什麼是本機使用者？
-          url: "/um-certificates/what-are-the-local-users.html"
+      - title: 使用者存取管理常見問題解答
+        url: "/um-certificates/faq-user-access-mgmt-um.html"
   - title: 舊版
     url: "/early-versions.html"
   - title: 法律聲明

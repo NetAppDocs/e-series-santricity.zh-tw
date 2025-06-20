@@ -1,0 +1,8 @@
+---
+permalink: sm-storage/why-would-i-create-a-snapshot-consistency-group.html 
+redirect: e-series-santricity/sm-storage/faq-snapshots.html 
+---
+= 
+:allow-uri-read: 
+
+

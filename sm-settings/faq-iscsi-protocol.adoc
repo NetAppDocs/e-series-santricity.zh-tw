@@ -1,0 +1,180 @@
+---
+permalink: sm-settings/faq-iscsi-protocol.html 
+sidebar: sidebar 
+keywords:  
+summary: 如果您只是想要快速回答問題、這個常見問題集就能幫上忙。 
+---
+= SANtricity System Manager 的 iSCSI 協定常見問題解答
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您只是想要快速回答問題、這個常見問題集就能幫上忙。
+
+
+
+== 使用iSNS伺服器進行登錄時會發生什麼事？
+
+使用網際網路儲存名稱服務（iSNS）伺服器資訊時、可將主機（啟動器）設定為查詢iSNS伺服器、以便從目標（控制器）擷取資訊。
+
+此登錄可為iSNS伺服器提供控制器的iSCSI合格名稱（IQN）和連接埠資訊、並允許在啟動器（iSCSI主機）和目標（控制器）之間進行查詢。
+
+
+
+== iSCSI自動支援哪些登錄方法？
+
+iSCSI實作可支援網際網路儲存名稱服務（SNSs）探索方法、或使用「傳送目標」命令。
+
+透過iSNS方法、可在啟動器（iSCSI主機）和目標（控制器）之間進行iSNS探索。您可以註冊目標控制器、以便為iSNS伺服器提供控制器的iSCSI合格名稱（IQN）和連接埠資訊。
+
+如果未設定iSNS、iSCSI主機可在iSCSI探索工作階段期間傳送「傳送目標」命令。因此、控制器會傳回連接埠資訊（例如、Target IQN、連接埠IP位址、接聽連接埠和目標連接埠群組）。如果您使用的是iSNS、則不需要使用此探索方法、因為主機啟動器可以從iSNS伺服器擷取目標IP。
+
+
+
+== 我要如何解讀InfiniBand統計資料的iSER？
+
+「View iSER over InfiniBand Statistics」（檢視InfiniBand統計資料的iSER）對話方塊會顯示本機目標（傳輸協定）統計資料、以及InfiniBand（IB）介面統計資料上的iSER。所有統計資料均為唯讀、無法設定。
+
+* *本機目標（傳輸協定）統計資料*-提供iSER over InfiniBand目標的統計資料、顯示區塊層級存取其儲存媒體的情形。
+* * InfiniBand介面統計資料* iSER：提供InfiniBand介面上所有InfiniBand連接埠的iSER統計資料、其中包括效能統計資料、以及與每個交換器連接埠相關的連結錯誤資訊。
+
+
+您可以將每個統計資料檢視為原始統計資料或是基準統計資料。原始統計資料是自控制器啟動以來所收集的所有統計資料。比較基準統計資料是自您設定基準時間以來所收集的時間點統計資料。
+
+
+
+== 在InfiniBand上設定或診斷iSER還需要做什麼？
+
+下表列出 SANtricity 系統管理員功能，可用於在 InfiniBand 工作階段上設定及管理 iSER 。
+
+[NOTE]
+====
+僅當儲存陣列的控制器在InfiniBand主機管理連接埠上包含iSER時、才能使用iSER over InfiniBand設定。
+
+====
+[cols="35h,~"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+在InfiniBand連接埠上設定iSER
+ a| 
+. 選取*硬體*。
+. 選擇 * 控制器與元件 * 標籤。
+. 選取控制器。
+. 選取*透過InfiniBand連接埠設定iSER *。
+
+
+或
+
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSER over InfiniBand settings *、然後選取* Configure iSER over InfiniBand Ports*。
+
+
+
+
+ a| 
+檢視InfiniBand統計資料的iSER
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至「InfiniBand設定*上的* iSER」、然後選取「View iSER over InfiniBand Statistics *」。
+
+
+|===
+
+
+== 我還需要做什麼才能設定或診斷iSCSI？
+
+在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。下表列出可用於設定及管理這些 iSCSI 工作階段的 SANtricity 系統管理員功能。
+
+[NOTE]
+====
+iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。
+
+====
+
+
+=== 設定iSCSI
+
+[cols="1a,1a"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+管理iSCSI設定
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSCSI設定*以檢視所有管理功能。
+
+
+
+
+ a| 
+設定iSCSI連接埠
+ a| 
+. 選取*硬體*。
+. 選擇 * 控制器與元件 * 標籤。
+. 選取控制器。
+. 選取*設定iSCSI連接埠*。
+
+
+
+
+ a| 
+設定主機CHAP密碼
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSCSI設定*、然後選取*組態驗證*。
+
+
+或
+
+. 選取功能表：Storage[hosts]。
+. 選取主機成員。
+. 按一下功能表：檢視/編輯設定[主機連接埠]索引標籤。
+
+
+|===
+
+
+=== 診斷iSCSI
+
+[cols="1a,1a"]
+|===
+| 行動 | 位置 
+
+
+ a| 
+檢視或結束iSCSI工作階段
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSCSI設定*、然後選取*檢視/結束iSCSI工作階段*。
+
+
+或
+
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選取*檢視/結束iSCSI工作階段*。
+
+
+
+
+ a| 
+檢視iSCSI統計資料
+ a| 
+. 選取功能表：設定[系統]。
+. 向下捲動至* iSCSI設定*、然後選取*檢視iSCSI統計資料套件*。
+
+
+或
+
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選取*檢視iSCSI統計資料套件*。
+
+
+|===

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cache, settings, performance, 
 summary: 快取記憶體是控制器上暫用揮發性儲存設備的區域、存取時間比磁碟機媒體快。 
 ---
-= 快取設定與效能
+= 了解 SANtricity 軟體中的快取設定和效能
 :allow-uri-read: 
 :experimental: 
 :icons: font

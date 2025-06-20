@@ -1,0 +1,8 @@
+---
+permalink: sm-interface/what-are-the-keyboard-shortcuts.html 
+redirect: e-series-santricity/sm-interface/faq-management-interface.html 
+---
+= 
+:allow-uri-read: 
+
+

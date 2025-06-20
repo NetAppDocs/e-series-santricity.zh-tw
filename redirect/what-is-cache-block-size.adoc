@@ -1,0 +1,8 @@
+---
+permalink: sm-settings/what-is-cache-block-size.html 
+redirect: e-series-santricity/sm-storage/faq-storage-array-settings.html 
+---
+= 
+:allow-uri-read: 
+
+

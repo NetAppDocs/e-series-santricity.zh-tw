@@ -1,0 +1,8 @@
+---
+permalink: sm-storage/what-is-a-snapshot-image.html 
+redirect: e-series-santricity/sm-storage/faq-snapshots.html 
+---
+= 
+:allow-uri-read: 
+
+

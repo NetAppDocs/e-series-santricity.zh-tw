@@ -1,0 +1,8 @@
+---
+permalink: sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html 
+redirect: e-series-santricity/sm-settings/faq-storage-system-alerts.html 
+---
+= 
+:allow-uri-read: 
+
+

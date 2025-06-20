@@ -1,0 +1,8 @@
+---
+permalink: um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html 
+redirect: e-series-santricity/um-manage/faq-storage-mirroring.html 
+---
+= 
+:allow-uri-read: 
+
+

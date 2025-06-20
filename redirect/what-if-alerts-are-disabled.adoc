@@ -1,0 +1,8 @@
+---
+permalink: sm-settings/what-if-alerts-are-disabled.html 
+redirect: e-series-santricity/sm-settings/faq-storage-system-alerts.html 
+---
+= 
+:allow-uri-read: 
+
+

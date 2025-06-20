@@ -1,0 +1,8 @@
+---
+permalink: um-certificates/what-are-the-local-users.html 
+redirect: e-series-santricity/um-certificates/faq-user-access-mgmt-um.html 
+---
+= 
+:allow-uri-read: 
+
+

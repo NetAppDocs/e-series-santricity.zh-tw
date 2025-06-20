@@ -1,0 +1,8 @@
+---
+permalink: sm-storage/what-are-hosts-and-host-clusters.html 
+redirect: e-series-santricity/sm-storage/faq-systems-clusters.html 
+---
+= 
+:allow-uri-read: 
+
+
