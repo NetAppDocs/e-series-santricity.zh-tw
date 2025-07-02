@@ -9034,4 +9034,5 @@
   <block id="f9e9bc191db345171d0de707013016a3" category="sidebar">AutoSupport 常見問題解答</block>
   <block id="3af089d2853adca01b3ba738ac9987ff" category="sidebar">導入設定常見問題解答</block>
   <block id="e35e805c872d89cfd87942f59e41eb2d" category="sidebar">儲存鏡像常見問題解答</block>
+  <block id="ded92516be8a7fa425e1814e7ca1ea4e" category="paragraph">E4000 使用 iSCSI 協定時不支援非同步鏡像。</block>
 </blocks>
