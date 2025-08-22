@@ -3872,14 +3872,10 @@
   <block id="696c660ff8d9323e55146a6dbd4e4088" category="cell">作業系統</block>
   <block id="6e19b9e78e7b835e0cb9ca170b0cb9af" category="cell">最低版本/架構</block>
   <block id="eb13ea1edb52f2f7cdf4b15544892c06" category="paragraph">Red Hat Enterprise Linux（RHEL）</block>
-  <block id="dffd146a5ac84d41db983ab76ad952ba" category="paragraph">7.x、8.x / 64位元</block>
   <block id="2b9d6d95ab1289b0bd008e8fb0c6354d" category="paragraph">SUSE Linux Enterprise Server（SLES）</block>
-  <block id="e97f0e8c1139312ea8f9bc91dadcf0fe" category="paragraph">12.x、15.x / 64位元</block>
   <block id="489104917296e2721c883bb6f903e441" category="paragraph">Oracle Linux（OL）</block>
   <block id="95a90af1d5b68afaa24b9f917e25e4ec" category="paragraph">Windows伺服器</block>
-  <block id="ef4a40ec9e5d53a17ee2eae76ebe0052" category="paragraph">2016、2019、2022 / 64位元</block>
   <block id="3d945423f8e9496c429a5d8c65b4604f" category="paragraph">Ubuntu</block>
-  <block id="f93164fdf3a453327bceab4df38f5ead" category="paragraph">18.04、20.04 / 64位元</block>
   <block id="cdee3f665be88669170bda11b2f06c93" category="summary">Unified Manager安裝總覽</block>
   <block id="cbdedeba7d21b6ec4e131a86b76662c6" category="paragraph">若要安裝Web服務Proxy和Unified Manager、請參閱E系列和SANtricity 支援中心的下列指示：</block>
   <block id="a18485577a4748889b9322afa1d6eadc" category="inline-link">檢閱安裝與升級需求</block>
@@ -9035,4 +9031,9 @@
   <block id="3af089d2853adca01b3ba738ac9987ff" category="sidebar">導入設定常見問題解答</block>
   <block id="e35e805c872d89cfd87942f59e41eb2d" category="sidebar">儲存鏡像常見問題解答</block>
   <block id="ded92516be8a7fa425e1814e7ca1ea4e" category="paragraph">E4000 使用 iSCSI 協定時不支援非同步鏡像。</block>
+  <block id="df48668a095024b3fd7f5c07bbd643f2" category="paragraph">8.x(SP8), 9.x(SP2) / 64비트</block>
+  <block id="5d0e952c1d2bb4a6c656e4848e5ac620" category="paragraph">12.x (SP4, SP5), 15.x (SP4, SP5) / 64-bit</block>
+  <block id="6da6782b5d9ad68dd92fc2d385dd25e9" category="paragraph">8.x(U8), 9.x(U2)/64비트</block>
+  <block id="a644eb9a683d4a7e20ade5239234152a" category="paragraph">2019, 2022, 2025/64비트‌</block>
+  <block id="a625adde4feeab3aa4c85cef062cc2b4" category="paragraph">20.04, 22.04 / 64-bit</block>
 </blocks>

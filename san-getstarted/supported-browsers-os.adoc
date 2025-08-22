@@ -70,34 +70,34 @@ Microsoft Edge
  a| 
 Red Hat Enterprise Linux（RHEL）
  a| 
-7.x、8.x / 64位元
+8.x(SP8), 9.x(SP2) / 64비트
 
 
 
  a| 
 SUSE Linux Enterprise Server（SLES）
  a| 
-12.x、15.x / 64位元
+12.x (SP4, SP5), 15.x (SP4, SP5) / 64-bit
 
 
 
  a| 
 Oracle Linux（OL）
  a| 
-7.x、8.x / 64位元
+8.x(U8), 9.x(U2)/64비트
 
 
 
  a| 
 Windows伺服器
  a| 
-2016、2019、2022 / 64位元
+2019, 2022, 2025/64비트‌
 
 
 
  a| 
 Ubuntu
  a| 
-18.04、20.04 / 64位元
+20.04, 22.04 / 64-bit
 
 |===
