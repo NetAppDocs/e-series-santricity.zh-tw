@@ -9036,4 +9036,7 @@
   <block id="6da6782b5d9ad68dd92fc2d385dd25e9" category="paragraph">8.x(U8), 9.x(U2)/64비트</block>
   <block id="a644eb9a683d4a7e20ade5239234152a" category="paragraph">2019, 2022, 2025/64비트‌</block>
   <block id="a625adde4feeab3aa4c85cef062cc2b4" category="paragraph">20.04, 22.04 / 64-bit</block>
+  <block id="3ec10d346538ec4062959d73db3a7bac" category="list-text">主磁碟區和輔助磁碟區不得啟用資源分割區。</block>
+  <block id="9da88b3d41fc062b2fe1a843a0e9c3f6" category="admonition">E4000 控制器不支援 iSCSI 鏡像。</block>
+  <block id="2ba81316cd80bb512d2d7c99312de69e" category="section-title">11.90R4 版本新增功能</block>
 </blocks>
