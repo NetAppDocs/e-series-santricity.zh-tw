@@ -9039,4 +9039,7 @@
   <block id="3ec10d346538ec4062959d73db3a7bac" category="list-text">主磁碟區和輔助磁碟區不得啟用資源分割區。</block>
   <block id="9da88b3d41fc062b2fe1a843a0e9c3f6" category="admonition">E4000 控制器不支援 iSCSI 鏡像。</block>
   <block id="2ba81316cd80bb512d2d7c99312de69e" category="section-title">11.90R4 版本新增功能</block>
+  <block id="980295b6698b8b2aea7adc1d9dafed8c" category="section-title">Version 11.90R5 版本新增功能</block>
+  <block id="94bf3a177cda972f0b25d90290f4610c" category="paragraph">此版本僅包含缺陷修復，不包含任何新功能。如需此版本變更的詳細資訊，請參閱 E-Series SANtricity OS 11.90R5 README。</block>
+  <block id="b2676fbb812b8574fa9249e68163593f" category="paragraph">此版本僅包含少量變更，沒有新功能。如需此版本變更的詳細資訊，請參閱 E-Series SANtricity OS 11.90R4 README。</block>
 </blocks>
