@@ -35,7 +35,7 @@ summary: 您可以儲存無法讀取的磁區記錄、並將檔案傳送給技�
 
 ====
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選取*檢視/清除無法讀取的磁區*。
 . 若要儲存無法讀取的磁區記錄：
 +

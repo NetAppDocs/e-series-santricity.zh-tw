@@ -29,7 +29,7 @@ summary: 當兩個或多個主機需要I/O存取相同的磁碟區時、您可�
 
 
 .步驟
-. 選取功能表：Storage[hosts]。
+. 從左側面板中，選擇功能表：Storage [Hosts]。
 . 選取功能表：Create [主機叢集]。
 +
 此時會出現Create Host Cluster（建立主機叢集）對話方塊。

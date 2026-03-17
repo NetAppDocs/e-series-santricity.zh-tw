@@ -25,7 +25,7 @@ summary: 您可以儲存I/O路徑統計資料檔案、並將其傳送至技術�
 
 ====
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選擇*收集I/O路徑統計資料*。
 . 輸入「collect」（收集）、然後按一下「* collect*（收集*）」、確認您要執行此作業。
 +

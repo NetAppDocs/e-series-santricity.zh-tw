@@ -23,12 +23,12 @@ summary: 您可以編輯資源池的設定、包括其名稱、容量警示設�
 
 ====
 .步驟
-. 選取功能表：Storage[集區與Volume群組]。
-. 選取您要編輯的資源池、然後按一下*檢視/編輯設定*。
+. 從左側面板中選擇功能表：Storage[Pools and volume groups]。
+. 選擇要編輯的資源池，然後按一下 menu:ellipsis icon[Edit Settings]。
 +
-此時將出現Pool設定對話方塊。
+「編輯池設定」視窗隨即出現。
 
-. 選取*設定*索引標籤、然後視需要編輯資源池設定。
+. 視需要編輯集區設定。
 +
 .欄位詳細資料
 [%collapsible]

@@ -24,7 +24,7 @@ summary: 如果Pool Auto Configuration功能未提供符合需求的集區、您
 
 
 .步驟
-. 選取功能表：Storage[集區與Volume群組]。
+. 從左側面板中選擇功能表：Storage[Pools and volume groups]。
 . 按一下功能表：Create（建立）[Pool]（資源池）
 +
 此時將出現Create Pool（創建池）對話框。
@@ -101,14 +101,14 @@ DA能力
  a| 
 指出此資源池候選對象是否適用資料保證（DA）。DA會檢查並修正資料經由控制器向下傳輸到磁碟機時可能發生的錯誤。
 
-如果所有磁碟機都支援DA、則會啟用DA。建立磁碟區之後、您可以選取功能表：「Storage[ Volume（磁碟區）」>「View/Edit Settings（檢視/編輯設定）」>「Advanced（進階）」>「Permanently disableData Assurance（永久停用資料保證）如果磁碟區上的DA已停用、則無法重新啟用。
+如果所有磁碟機都支援 DA，則啟用 DA。建立磁碟區後，可以透過選擇選單：Storage（儲存）[Volumes（磁碟區）> 省略號圖示 > Disable Data Assurance（停用資料保障）] 來停用 DA。
 
 
 
  a| 
-資源資源配置功能（僅限EF300和EF600）
+資源配置功能（僅限 EF80、EF50、EF300 和 EF600）
  a| 
-顯示資源資源配置是否適用於此資源池候選對象。資源資源配置是EF300和EF600儲存陣列的一項功能、可讓磁碟區立即投入使用、而無需背景初始化程序。
+顯示此儲存池候選對象是否支援 Resource Provisioning。Resource Provisioning 是 EF80、EF50、EF300 和 EF600 儲存陣列的功能，它允許磁碟區立即投入使用，無需後台初始化過程。
 
 
 

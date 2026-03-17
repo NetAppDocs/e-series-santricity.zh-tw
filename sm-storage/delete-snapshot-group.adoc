@@ -18,9 +18,9 @@ summary: 當您想要永久刪除快照群組的資料並將其從系統中移�
 刪除快照群組時、也會刪除群組中的所有快照映像。
 
 .步驟
-. 選取功能表：Storage[集區與Volume群組]。
+. 從左側面板中選擇功能表：Storage[Pools and volume groups]。
 . 按一下*保留容量*索引標籤。
-. 選取您要刪除的快照群組、然後按一下功能表：Uncommon Tasks（非常見工作）[Delete snapshot group（刪除快照群組）]。
+. 選擇要刪除的 Snapshot 群組，然後按一下功能表：省略符號圖示 [ 刪除 ] 。
 +
 此時將出現Confirm Delete Snapshot Group（確認刪除快照組）對話框。
 

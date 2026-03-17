@@ -1,11 +1,10 @@
 ---
 indexpage:
-  title: SANtricity 軟體 11.9 文件
+  title: SANtricity 軟體 12.0 文件
   summary: System Manager與Unified Manager SANtricity
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: SANtricity 軟體 11.9 可讓您為繁重工作負載應用程式（包括資料分析，視訊監控，備份與還原），實現 E 系列混合式 Flash 和 EF
-    系列 All Flash 陣列的最大效能與使用率。
+  lead: SANtricity 軟體 12.0 讓您最大限度地發揮 E-Series 混合快閃記憶體和 EF-Series 全快閃陣列的效能和利用率，以應對繁重的工作負載應用程式，包括資料分析、視訊監控以及備份和復原。
   tiles:
   - title: 開始使用
     links:
@@ -42,9 +41,9 @@ indexpage:
   - title: 適用於SE
     links:
     - title: E系列/EF系列技術訓練（需登入）
-      url: https://fieldportal.netapp.com/content/199944
+      url: https://fieldportal.netapp.com/s/article/E-Series-and-EF-Series-SE-Technical-Training
     - title: EF300總覽與技術詳細資料（需登入）
-      url: https://fieldportal.netapp.com/content/1417672
+      url: https://fieldportal.netapp.com/s/article/eseries-ef300-se-presentation-1704449366156
     - title: NetApp Fusion 產品（需登入）
       url: https://fusion.netapp.com/
   - title: 工具與支援

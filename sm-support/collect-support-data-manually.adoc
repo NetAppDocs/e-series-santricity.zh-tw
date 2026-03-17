@@ -30,7 +30,7 @@ summary: 您可以在單一檔案中收集各種類型的儲存陣列相關庫�
 
 ====
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選擇*收集支援資料*。
 . 按一下「* Collect*」。
 +

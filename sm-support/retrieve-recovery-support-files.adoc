@@ -29,7 +29,7 @@ summary: 技術支援可使用恢復支援檔案來疑難排解問題。System M
 
 
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選擇*擷取恢復支援檔案*。
 +
 對話方塊會列出儲存陣列收集的所有恢復支援檔案。若要尋找特定檔案、您可以在「*篩選*」方塊中排序任何欄或輸入字元。

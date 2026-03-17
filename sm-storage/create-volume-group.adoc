@@ -33,7 +33,7 @@ summary: 您可以使用Volume群組來建立一或多個可供主機存取的�
 
 
 .步驟
-. 選取功能表：Storage[集區與Volume群組]。
+. 從左側面板中選擇功能表：Storage[Pools and volume groups]。
 . 按一下功能表：「Create [Volume group（建立[ Volume群組]）
 +
 此時將出現Create Volume Group（創建Volume組）對話框。
@@ -132,9 +132,9 @@ DA能力
 
 
  a| 
-資源資源配置功能（僅限EF300和EF600）
+資源配置功能（僅限 EF80、EF50、EF300 和 EF600）
  a| 
-顯示資源資源配置是否可供此群組使用。資源資源配置是EF300和EF600儲存陣列的一項功能、可讓磁碟區立即投入使用、而無需背景初始化程序。
+顯示此群組是否支援 Resource Provisioning。Resource Provisioning 是 EF80、EF50、EF300 和 EF600 儲存陣列中的功能，它允許磁碟區立即投入使用，而無需後台初始化過程。
 
 
 
@@ -273,9 +273,9 @@ DA能力
 
 
  a| 
-資源資源配置功能（僅限EF300和EF600）
+資源配置功能（僅限 EF80、EF50、EF300 和 EF600）
  a| 
-顯示資源資源配置是否可供此群組使用。資源資源配置是EF300和EF600儲存陣列的一項功能、可讓磁碟區立即投入使用、而無需背景初始化程序。
+顯示此群組是否支援 Resource Provisioning。Resource Provisioning 是 EF80、EF50、EF300 和 EF600 儲存陣列中的功能，它允許磁碟區立即投入使用，而無需後台初始化過程。
 
 |===
 ====

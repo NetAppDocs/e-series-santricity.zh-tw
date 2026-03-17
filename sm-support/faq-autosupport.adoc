@@ -179,7 +179,7 @@ HTTPS 和電子郵件方法之間的差異 * 。使用 SMTP 的電子郵件傳�
 
 ====
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 從左側面板中選擇選單：Support [Support Center > AutoSupport] 標籤。
 . 選擇*設定AutoSupport 「供應方法」*。
 +
 此時會出現一個對話方塊、列出分派交付方法。

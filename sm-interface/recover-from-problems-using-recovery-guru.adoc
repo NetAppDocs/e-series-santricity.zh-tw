@@ -14,8 +14,8 @@ summary: Recovery Guru是System Manager的一項元件、可診斷儲存陣列�
 Recovery Guru 是 SANtricity 系統管理員的元件，可診斷儲存陣列問題，並建議恢復程序來修正問題。
 
 .步驟
-. 選擇*主頁*。
-. 按一下視窗中上方標有「*從_n_問題中恢復*」的連結。
+. 從左側面板中選擇 *Home* 。
+. 點擊 *Bell* 圖示，然後點擊視窗頂部中央標有 *Recover from _n_ problems* 的連結。
 +
 此時會出現Recovery Guru對話方塊。
 
@@ -35,7 +35,6 @@ Recovery Guru 是 SANtricity 系統管理員的元件，可診斷儲存陣列問
 
 . *選用：*若要將Recovery Guru資訊儲存至檔案、請按一下* Save*圖示。
 +
-檔案會儲存在瀏覽器的「Downloads（下載）」資料夾中、名稱為「recovery guru故障」、字型為：yd-mm-dd-hh-mm-ss-mmm.html。
+該檔案以名稱  `recoveryGuru-failureName-arrayName-yyyy-mm-dd-hh-mm-ss.html` 儲存在瀏覽器的 Downloads 資料夾中。
 
-. 若要列印Recovery Guru資訊、請按一下* Print（列印）*圖示。
 

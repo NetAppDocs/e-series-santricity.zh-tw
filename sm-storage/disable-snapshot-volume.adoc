@@ -30,7 +30,7 @@ summary: 您可以在不再需要快照磁碟區或快照一致性群組中的�
 
 ====
 .步驟
-. 選取功能表：Storage[快照]。
+. 從左側面板中，選擇功能表：Storage[Snapshots]。
 . 選擇* Snapshot Volumes（快照卷）*選項卡。
 +
 System Manager會顯示與儲存陣列相關的所有快照磁碟區。

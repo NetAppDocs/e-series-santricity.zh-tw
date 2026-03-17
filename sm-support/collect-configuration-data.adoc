@@ -25,7 +25,7 @@ summary: 您可以從控制器儲存RAID組態資料、其中包含磁碟區群�
 您只能在Recovery Guru作業或技術支援指示下執行此工作。
 
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選擇*收集組態資料*。
 . 在對話方塊中、按一下* Collect*。
 +

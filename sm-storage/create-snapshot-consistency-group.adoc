@@ -31,7 +31,7 @@ summary: 為了確保複本一致、您可以建立一組多個磁碟區、稱�
 成員磁碟區必須處於最佳狀態。
 
 .步驟
-. 選取功能表：Storage[快照]。
+. 從左側面板中，選擇功能表：Storage[Snapshots]。
 . 單擊* Snapshot Consistency Group*（*快照一致性組*）選
 . 選取功能表：Create [Snapshot Consistency group（建立[ Snapshot一致性群組]）
 +

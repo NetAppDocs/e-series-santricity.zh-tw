@@ -23,8 +23,8 @@ summary: 若要在儲存陣列上啟用優質功能或功能套件、您必須�
 
 
 .步驟
-. 在System Manager中、找出並記錄機箱序號。您可以將滑鼠游標移到「Support Center（支援中心）」方塊上方、以檢視此序號。
-. 在System Manager中、找到「啟用功能識別碼」。移至功能表：設定[系統]、然後向下捲動至*附加元件*。尋找*功能啟用識別碼*。記錄功能啟用識別碼的編號。
+. 在 System Manager 中，找到並記錄機箱序號。從左側面板，前往選單：Support[Suport Center]，向下捲動至 *View top storage array properties* 即可查看機箱序號。
+. 在 System Manager 中，找到 Feature Enable Identifier。從左側面板，前往功能表：Settings[System]，然後向下捲動至 *Add-ons*。尋找 *Feature Enable Identifier*。記錄 Feature Enable Identifier 的編號。
 . 找出並記錄功能啟動的程式碼。對於功能套件、此程式碼會在執行轉換的適當指示中提供。
 +
 如需進階功能、您可以從Support網站存取啟動代碼、如下所示：

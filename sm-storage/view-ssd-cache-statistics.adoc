@@ -19,8 +19,8 @@ summary: 您可以檢視SSD快取的統計資料、例如讀取、寫入、快�
 當您檢閱及解讀統計資料時、請記住、有些解讀是由統計資料的組合所衍生而來。
 
 .步驟
-. 選取功能表：Storage[集區與Volume群組]。
-. 選取您要檢視統計資料的SSD快取、然後按一下功能表：More（更多）[View SSD Cache Statistics（檢視SSD快取統計資料）]。
+. 從左側面板中選擇功能表：Storage[Pools and volume groups]。
+. 選取您要檢視統計資料的 SSD Cache，然後按一下功能表：省略符號圖示 [View statistics]。
 +
 「檢視SSD快取統計資料」對話方塊隨即出現、並顯示所選SSD快取的名義統計資料。
 

@@ -21,7 +21,7 @@ SANtricity 系統管理員可讓您將 AutoSupport 派單傳送至技術支援�
 此作業會收集支援資料並自動傳送給技術支援人員、以便他們疑難排解問題。
 
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 從左側面板中選擇選單：Support [Support Center > AutoSupport] 標籤。
 . 選取*傳送AutoSupport SIDischischis*。
 +
 此時AutoSupport 會出現「傳送不一樣的派遣台」對話方塊。

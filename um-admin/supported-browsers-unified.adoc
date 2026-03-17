@@ -23,28 +23,28 @@ summary: 可從多種瀏覽器存取支援的支援功能。SANtricity
  a| 
 Google Chrome
  a| 
-89
+120
 
 
 
  a| 
 Mozilla Firefox
  a| 
-80
+120
 
 
 
  a| 
 Safari
  a| 
-14.
+16
 
 
 
  a| 
 Microsoft Edge
  a| 
-90
+120
 
 |===
 [NOTE]

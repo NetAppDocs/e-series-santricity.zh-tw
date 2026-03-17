@@ -24,7 +24,7 @@ SANtricity 系統管理員會自動建立 AutoSupport 派單的預設排程。�
 
 
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 從左側面板中選擇選單：Support [Support Center > AutoSupport] 標籤。
 . 選擇*排程AutoSupport *。
 +
 「排程AutoSupport 畫面」顯示「派遣」精靈。

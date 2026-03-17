@@ -21,7 +21,7 @@ summary: 如果您想要將稽核記錄歸檔到外部syslog伺服器、可以�
 
 
 .步驟
-. 選取功能表：設定[Access Management（存取管理）]。
+. 從左側面板中，選擇功能表：設定 [存取管理]。
 . 從「稽核記錄」索引標籤、選取*「設定Syslog伺服器」*。
 +
 此時將打開Configure Syslog Servers（配置Syslog服務器）對話框。

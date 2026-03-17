@@ -15,7 +15,7 @@ summary: 您可以檢視iSCSI與儲存陣列連線的詳細資訊。在非同步
 您可以檢視iSCSI與儲存陣列連線的詳細資訊。在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。
 
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選取*檢視/結束iSCSI工作階段*。
 +
 此時會顯示目前iSCSI工作階段的清單。

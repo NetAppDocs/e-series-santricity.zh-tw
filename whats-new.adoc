@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 11.90 
+keywords: whats new, new features, SANtricity 12.0 
 summary: 更新功能。SANtricity 
 ---
-= SANtricity OS 11.90 的新功能
+= SANtricity OS 12.0 的新特性
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -12,23 +12,14 @@ summary: 更新功能。SANtricity
 
 
 [role="lead"]
-下表說明 SANtricity 系統管理員 11.9 的新功能。
+下表描述了 SANtricity System Manager 12.0 中的新功能。
 
 
 
-== Version 11.90R5 版本新增功能
-
-此版本僅包含缺陷修復，不包含任何新功能。如需此版本變更的詳細資訊，請參閱 E-Series SANtricity OS 11.90R5 README。
+== 12.0 版的新功能
 
 
-
-== 11.90R4 版本新增功能
-
-此版本僅包含少量變更，沒有新功能。如需此版本變更的詳細資訊，請參閱 E-Series SANtricity OS 11.90R4 README。
-
-
-
-== 11.90R3 版的新功能
+NOTE: SANtricity OS 12.0 版本僅相容於新型 EF80 和 EF50 全快閃儲存系統。如果您使用的是 SANtricity OS 11.9 或更早版本，請參閱 link:known-issues.html["已知問題"] 以了解先前版本的新功能清單。
 
 [cols="35h,~"]
 |===
@@ -36,79 +27,41 @@ summary: 更新功能。SANtricity
 
 
  a| 
-SANtricity 作業系統對 IOM12C 和 DCM3 的支持
+新型儲存系統型號 – EF80 和 EF50 全快閃儲存系統
  a| 
-控制器韌體版本 11.90R3 或更高版本現已支援 IOM12C 和 DCM3 SAS-3 磁碟架。 IOM12C和 DCM3 磁碟架將取代 IOM12B 和 DCM2 磁碟架。
+此版本推出了 EF80 和 EF50 全 NVMe 快閃儲存系統。EF80 和 EF50 每個控制器支援 24 個 NVMe SSD 驅動器和一個主機介面卡（HIC）。支援的 NVMe over Fabrics 主機介面包括 NVMe over RoCE、NVMe over IB（適用於 EF80）和 NVMe over FC（適用於 EF50）。支援的 SCSI 介面包括 Fibre Channel。
 
-|===
-
-
-== 11.90R2 版的新功能
-
-此版本僅包含輕微變更，且沒有新功能。有關此版本變更的詳細資訊，請參閱 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["E 系列 11.90 版本資訊"^]。
-
-
-
-== 11.90R1 版的新功能
-
-[cols="35h,~"]
-|===
-| 新功能 | 說明 
-
-
- a| 
-全新儲存系統機型– EF300C 和 EF600C
- a| 
-此版本推出 EF300C 和 EF600C 所有 Flash NVMe 儲存系統。EF300C 和 EF600C 是現有 EF300 和 EF600 儲存系統的高容量 Flash 版本。EF300C 和 EF600C 支援 30TB 或 60TB 大小的高容量 NVMe SSD 磁碟機。EF300C/EF600C 僅相容於動態磁碟集區使用，不支援傳統 RAID 。
+EF80 和 EF30 也支援 30TB 或 60TB 大容量的 NVMe SSD 磁碟機。EF80 和 EF30 僅相容於 Dynamic Disk Pool 使用，不支援傳統 RAID。
 
 
 
  a| 
-EF4000 支援 12Gb SAS 介面
+SANtricity System Manager 的新使用者介面
  a| 
-E4000 控制器現在支援 12Gb SAS 主機介面卡。
-
-|===
+針對新款 EF80 和 EF50 控制器，SANtricity System Manager 使用者介面經過重新設計，外觀更加現代化。新介面採用左側面板導覽，並增強了易用性，從而簡化了管理任務。
 
 
-== 11.90 版的新功能
-
-[cols="35h,~"]
-|===
-| 新功能 | 說明 
-
-
- a| 
-全新儲存系統機型–E4000
- a| 
-此版本推出 E4000 低成本儲存系統。E4000 支援每個控制器 12 個和 60 個磁碟機，以及單一主機介面卡（ HIC ）。在初始版本中，支援的主機介面卡包括 iSCSI 和 Fibre Channel 。E4000 儲存系統和其他 E 系列儲存系統可在 Unified Manager 中檢視和管理。
+NOTE: 新的使用者介面目前僅適用於採用 SANtricity 12.0 版本的 EF80 和 EF50 儲存系統。如果您使用的是 SANtricity 11.9 或更早版本，請參閱link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html["SANtricity 系統管理員 11.9"]以取得使用舊版使用者介面的說明。
 
 
 
  a| 
-增加動態磁碟集區的容量
+伺服器憑證的主體別名 (SAN) 現在僅允許使用字母、數字和連字號字元
  a| 
-只要集區中每個個別磁碟機的容量大於 23 TB ，動態磁碟集區（ DDP ）的容量就會增加至 12 PB 。如果個別磁碟機容量小於 23 TB ，則 DDP 容量為 6 PB 。
-
-
-
- a| 
-預設媒體掃描設定已增加
- a| 
-預設的媒體掃描速率已增加至 120 天。
+在 SANtricity System Manager 或 Unified Manager 中建立或編輯伺服器憑證時，Subject Alternative Names（SANs）欄位現在僅允許使用字母、數字和連字號字元。此變更增強了安全性，並確保與 SSL/TLS 憑證的業界標準相容。
 
 
 
  a| 
-現在已接受外部金鑰管理的私密金鑰
+對於 SSD 和基於 NVMe 的系統、動態磁碟集區區段大小現在預設為 32K
  a| 
-透過私密金鑰和公開金鑰配對從外部產生的憑證簽署要求（ CSR ）檔案，現在可以透過 System Manager 匯入。
+對於基於 SSD 和 NVMe 的系統上的動態磁碟池，預設區段大小已變更為 32K。先前，這些系統的動態磁碟池預設區段大小固定為 128K。此項變更最佳化了包含大小 I/O 操作混合的工作負載的效能。
 
 
 
  a| 
-Web 服務現在可使用登入鎖定功能
+SANtricity System Manager 現已提供指令碼編輯器
  a| 
-只能透過 REST API 進行設定，內嵌式和 Proxy Web Services 現在可以使用新的登入鎖定設定。
+SANtricity System Manager 中現已提供全新的腳本編輯器。腳本編輯器可讓您建立或編輯腳本檔案、將腳本檔案儲存至儲存管理站的本機磁碟，或從磁碟載入腳本檔案。腳本編輯器提供語法檢查和命令執行功能，方便您管理儲存系統。如需更多資訊，請參閱 link:sm-support/use-script-editor.html["使用腳本編輯器"^]。
 
 |===

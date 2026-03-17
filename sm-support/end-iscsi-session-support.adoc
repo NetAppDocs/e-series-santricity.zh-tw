@@ -22,7 +22,7 @@ summary: 您可以結束不再需要的iSCSI工作階段。在非同步鏡射關
 
 
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選取*檢視/結束iSCSI工作階段*。
 +
 此時會顯示目前iSCSI工作階段的清單。

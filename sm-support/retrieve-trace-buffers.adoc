@@ -23,7 +23,7 @@ summary: 您可以從控制器擷取追蹤緩衝區、然後將檔案傳送給�
 
 ====
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選擇*擷取追蹤緩衝區*。
 . 選取您要擷取追蹤緩衝區之每個控制器旁的核取方塊。
 +

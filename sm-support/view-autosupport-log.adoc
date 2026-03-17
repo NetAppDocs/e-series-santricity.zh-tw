@@ -22,7 +22,7 @@ summary: 此資料檔提供有關供應過程中所遇到的狀態、派單記�
 
 
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 從左側面板中選擇選單：Support [Support Center > AutoSupport] 標籤。
 . 選擇*查看AutoSupport *《SView》*。
 +
 此時會出現一個對話方塊、其中列出目前AutoSupport 的資訊記錄。

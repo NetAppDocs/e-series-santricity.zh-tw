@@ -33,7 +33,7 @@ summary: 若要動態加速系統效能、您可以使用SSD快取功能、將�
 
 
 .步驟
-. 選取功能表：Storage[集區與Volume群組]。
+. 從左側面板中選擇功能表：Storage[Pools and volume groups]。
 . 按一下功能表：Create [SSD Cache（建立[SSD快取]）。
 +
 「Create SSD Cache」（建立SSD快取）對話方塊隨即出現。

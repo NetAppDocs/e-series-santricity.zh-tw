@@ -27,28 +27,28 @@ summary: 可從多種瀏覽器和作業系統中存取。SANtricity
  a| 
 Google Chrome
  a| 
-89
+120
 
 
 
  a| 
 Mozilla Firefox
  a| 
-80
+120
 
 
 
  a| 
 Safari
  a| 
-14.
+16
 
 
 
  a| 
 Microsoft Edge
  a| 
-90
+120
 
 |===
 [NOTE]
@@ -70,21 +70,21 @@ Microsoft Edge
  a| 
 Red Hat Enterprise Linux（RHEL）
  a| 
-8.x(SP8), 9.x(SP2) / 64비트
+8.x （SP10）、9.x （SP6、SP7）、10.x （GA、SP1） / 64 位元
 
 
 
  a| 
 SUSE Linux Enterprise Server（SLES）
  a| 
-12.x (SP4, SP5), 15.x (SP4, SP5) / 64-bit
+15.x (SP6、SP7)、16.x (GA) / 64 位
 
 
 
  a| 
 Oracle Linux（OL）
  a| 
-8.x(U8), 9.x(U2)/64비트
+8.x（U10）、9.x（U6、U7）、10.x（GA、SP1）/ 64 位元
 
 
 

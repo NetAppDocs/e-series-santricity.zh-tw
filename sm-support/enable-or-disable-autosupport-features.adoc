@@ -28,7 +28,7 @@ summary: 您可以在AutoSupport 初始設定期間啟用「支援功能」和�
 
 
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> AutoSupport SESS]索引標籤。
+. 從左側面板中選擇選單：Support [Support Center > AutoSupport] 標籤。
 . 選取*啟用/停用AutoSupport 功能*。
 . 選取AutoSupport 您要啟用的功能旁的核取方塊。
 +

@@ -25,7 +25,7 @@ summary: 您可以檢閱控制器的健全狀況映像。健全狀況映像是�
 
 ====
 .步驟
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
 . 選取*擷取健全狀況映像*。
 +
 您可以在下載檔案之前查看詳細資料區段、查看健全狀況映像的大小。

@@ -20,8 +20,8 @@ summary: 如果您的控制器包含透過InfiniBand連接埠的iSER、您可以
 
 
 .步驟
-. 選取功能表：設定[系統]。
-. 在* iSER over InfiniBand settings *下、選取* Configure iSER over InfiniBand連接埠*。
+. 從左側面板中，選擇功能表：設定 [系統]。
+. 在 *iSER 設定* 下，選擇 *透過 InfiniBand 連接埠配置 iSER*。
 . 按一下要設定的InfiniBand連接埠上的iSER控制器。單擊 * 下一步 * 。
 . 在下拉式清單中、選取您要設定的HIC連接埠、然後輸入主機的IP位址。
 . 單擊*完成*。

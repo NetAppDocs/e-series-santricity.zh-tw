@@ -24,8 +24,8 @@ summary: 您可以從基礎磁碟區或快照一致性群組手動建立快照�
 .步驟
 . 請執行下列其中一項動作來建立快照映像：
 +
-** 選取功能表：Storage[磁碟區]。選取物件（基礎磁碟區或快照一致性群組）、然後選取功能表：複製服務[建立即時快照]。
-** 選取功能表：Storage[快照]。選取* Snapshot images*索引標籤、然後選取功能表：Create[Instant SnapShot]。
+** 從左側面板中，選擇功能表：Storage[Volumes]。選擇物件（基本磁碟區或 Snapshot 一致性群組），然後按一下功能表：省略號圖示[Create instant snapshot]。
+** 從左側面板中選擇選單：Storage[Snapshots]。選擇 *Snapshot Images* 選項卡，然後選擇選單：Create[Instant snapshot Image]。
 +
 此時將出現Create Snapshot Image（創建快照映像）對話框。選取物件（基礎磁碟區或快照一致性群組）、然後按一下「*下一步*」。如果先前為磁碟區或快照一致性群組建立了快照映像、則系統會立即建立即時快照。否則、如果這是第一次為磁碟區或快照一致性群組建立快照映像、則會出現「Confirm Create Snapshot Image（確認建立快照映像）」對話方塊。
 

@@ -30,7 +30,7 @@ summary: 若要在金鑰管理伺服器與儲存陣列控制器之間進行安�
 NOTE: 透過私密和公開金鑰配對從外部產生的 CSR 檔案，可透過「建立外部安全金鑰」對話方塊匯入。如需匯入外部產生的 CSR 檔案的詳細資訊，請參閱 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html#step-2-import-certificates-for-the-key-management-server["步驟2：匯入金鑰管理伺服器的憑證"]。
 
 .步驟
-. 選取功能表：設定[憑證]。
+. 從左側面板中，選擇功能表：設定 [憑證]。
 . 從「金鑰管理」索引標籤中、選取*完整的csr*。
 . 輸入下列資訊：
 +
@@ -72,7 +72,7 @@ NOTE: 金鑰管理伺服器通常會有一個工具直接產生簽署的憑證�
 
 
 .步驟
-. 選取功能表：設定[憑證]。
+. 從左側面板中，選擇功能表：設定 [憑證]。
 . 從「金鑰管理」索引標籤中、選取*匯入*。
 +
 隨即開啟一個對話方塊、用於匯入憑證檔案。

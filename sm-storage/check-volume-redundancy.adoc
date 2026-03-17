@@ -41,8 +41,11 @@ summary: 在技術支援的指導下或依照Recovery Guru的指示、您可以�
 
 ====
 .步驟
-. 選取功能表：Storage[集區與Volume群組]。
-. 選取功能表：非常見工作[檢查磁碟區備援]。
+
+NOTE: Check Volume Redundancy 功能目前僅適用於 Legacy System Manager 介面中的操作。
+
+. 從左側面板中選擇功能表：Storage[Pools and volume groups]。
+. 點選要檢查的資源池或磁碟區群組的功能表：省略符號圖示 [檢查磁碟區備援]。
 +
 「檢查備援」對話方塊隨即出現。
 
