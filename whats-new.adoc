@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 12.0 
+keywords: whats new, new features, SANtricity 12.00 
 summary: 更新功能。SANtricity 
 ---
-= SANtricity OS 12.0 的新特性
+= SANtricity OS 12.00 的新特性
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -12,14 +12,14 @@ summary: 更新功能。SANtricity
 
 
 [role="lead"]
-下表描述了 SANtricity System Manager 12.0 中的新功能。
+下表描述了 SANtricity System Manager 12.00 中的新功能。
 
 
 
-== 12.0 版的新功能
+== 12.00 版的新功能
 
 
-NOTE: SANtricity OS 12.0 版本僅相容於新型 EF80 和 EF50 全快閃儲存系統。如果您使用的是 SANtricity OS 11.9 或更早版本，請參閱 link:known-issues.html["已知問題"] 以了解先前版本的新功能清單。
+NOTE: SANtricity OS 12.00 版本僅相容於新型 EF80 和 EF50 全快閃儲存系統。如果您使用的是 SANtricity OS 11.9 或更早版本，請參閱 link:known-issues.html["已知問題"] 以了解先前版本的新功能清單。
 
 [cols="35h,~"]
 |===
@@ -41,7 +41,7 @@ SANtricity System Manager 的新使用者介面
 針對新款 EF80 和 EF50 控制器，SANtricity System Manager 使用者介面經過重新設計，外觀更加現代化。新介面採用左側面板導覽，並增強了易用性，從而簡化了管理任務。
 
 
-NOTE: 新的使用者介面目前僅適用於採用 SANtricity 12.0 版本的 EF80 和 EF50 儲存系統。如果您使用的是 SANtricity 11.9 或更早版本，請參閱link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html["SANtricity 系統管理員 11.9"]以取得使用舊版使用者介面的說明。
+NOTE: 新的使用者介面目前僅適用於採用 SANtricity 12.00 版本的 EF80 和 EF50 儲存系統。如果您使用的是 SANtricity 11.9 或更早版本，請參閱link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html["SANtricity 系統管理員 11.9"]以取得使用舊版使用者介面的說明。
 
 
 

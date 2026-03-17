@@ -1,10 +1,10 @@
 ---
 indexpage:
-  title: SANtricity 軟體 12.0 文件
+  title: SANtricity 軟體 12.00 文件
   summary: System Manager與Unified Manager SANtricity
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: SANtricity 軟體 12.0 讓您最大限度地發揮 E-Series 混合快閃記憶體和 EF-Series 全快閃陣列的效能和利用率，以應對繁重的工作負載應用程式，包括資料分析、視訊監控以及備份和復原。
+  lead: SANtricity 軟體 12.00 讓您最大限度地發揮 E-Series 混合快閃記憶體和 EF-Series 全快閃陣列的效能和利用率，以應對繁重的工作負載應用程式，包括資料分析、視訊監控以及備份和復原。
   tiles:
   - title: 開始使用
     links:

@@ -8085,7 +8085,6 @@
   <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
   <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90 版本資訊</block>
   <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
-  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
   <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block>* 效能 *</block>
   <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block>* 儲存 *</block>
   <block id="21a1e68164f738b8be1dae11d5a694b3" category="inline-image-macro">資料保護</block>
@@ -8726,8 +8725,6 @@
   <block id="9da88b3d41fc062b2fe1a843a0e9c3f6" category="admonition">E4000 控制器不支援 iSCSI 鏡像。</block>
   <block id="da4fb5c6e93e74d3df8527599fa62642" category="paragraph">120</block>
   <block id="c74d97b01eae257e44aa9d5bade97baf" category="paragraph">16</block>
-  <block id="3b4608a173577ff11cb5a970a95a9116" category="inline-link">12.0 版本說明</block>
-  <block id="3140eb9f268fa80dd4b189e0d7e0986b" category="list-text"><block ref="3140eb9f268fa80dd4b189e0d7e0986b" category="inline-link-rx"></block></block>
   <block id="fd2794987891340c24fff2fa599efaee" category="admonition">EF80、EF50、EF600/EF600C 和 EF300/EF300C 儲存陣列不支援同步鏡像或精簡磁碟區。</block>
   <block id="ccdf92355b0aaee2a2280755e8b08e7c" category="paragraph">Unified Manager 是一款以 Web 為基礎的軟體，用於管理您的整個網域。透過集中式檢視，您可以查看所有新型 E-Series 和 EF-Series 陣列的狀態，例如 EF80、EF50、E4000、E2800、EF280、EF300、E5700、EF570、EF600、EF300C 和 EF600C。您也可以對選定的儲存陣列執行批次操作。</block>
   <block id="82c50740e9777a0b839701b8603354cb" category="paragraph">8.x （SP10）、9.x （SP6、SP7）、10.x （GA、SP1） / 64 位元</block>
@@ -8738,7 +8735,6 @@
   <block id="e663db07e118a870f470c797797eabdc" category="list-text">輸入 <block ref="26eb25b14d930f9d5f59b2c50798a9a4" prefix=" " category="inline-code"></block> 確認操作，然後點選 *Erase Drives*。</block>
   <block id="a37442aae2fdec96cb5238a1da614975" category="paragraph">擦除操作可能需要幾分鐘到幾小時。您可以在 menu:Storage[Operations in Progress] 中查看狀態。擦除操作完成後，這些磁碟機即可用於其他磁碟區群組或磁碟集區，或用於其他儲存陣列。</block>
   <block id="dcfabf77926c61707b0aec26409327ca" category="paragraph">已釋放或未寫入邏輯區塊錯誤 (DULBE) 是 NVMe 磁碟機上的選項，它允許 EF80、EF50、EF300/EF300C 或 EF600/EF600C 儲存陣列支援資源配置的磁碟區。</block>
-  <block id="38833d44319a29abce252a75db2a1f8b" category="doc">SANtricity System Manager 12.0</block>
   <block id="8200990c6066d1d9a57e817228d442ed" category="paragraph">指示是否啟用「已釋放或未寫入邏輯區塊錯誤 (DULBE)」選項（是）或未啟用（否）。DULBE 是 NVMe 驅動器上的選項，允許 EF80、EF50、EF300 或 EF600 儲存陣列支援資源預置磁碟區。</block>
   <block id="80c4081de557a7ea6b138514f14e41c8" category="paragraph">Latency 圖表以毫秒（ms）為單位，提供磁碟區、磁碟區群組、資源池、應用程式和工作負載的延遲統計資料。此圖表會顯示在 Logical View、Physical View 和 Applications and workloads View 標籤中。</block>
   <block id="301220bfd980824d7e894be673f80491" category="paragraph">IOPS 圖表顯示每秒輸入 / 輸出作業的統計資料。在首頁上，此圖表顯示儲存陣列的統計資料。在效能頁面的邏輯檢視、實體檢視以及應用程式和工作負載檢視標籤中，此圖表顯示儲存陣列、磁碟區、磁碟區群組、集區、應用程式和工作負載的統計資料。</block>
@@ -9083,26 +9079,30 @@
   <block id="0c577323ad91a9214ccf927630b8f24e" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不支援同步鏡像。</block>
   <block id="d789ee5d8d5244777090beeda7a82875" category="list-text">健康檢查完成後，您可以點擊每行右側的省略號 (...) 查看更多資訊並執行其他任務。</block>
   <block id="b3e39c045e7dc1da6b72058620f83a78" category="paragraph">EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存陣列不支援同步鏡像。</block>
-  <block id="a1a85e20a47be8d7fe53c0f34789b4c7" category="doc">SANtricity OS 12.0 的新特性</block>
-  <block id="0f6926308b07eb7aa9e7a13247779ca5" category="paragraph">下表描述了 SANtricity System Manager 12.0 中的新功能。</block>
-  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">12.0 版的新功能</block>
-  <block id="fe676a4357a919795437a65bc3508ba2" category="admonition">SANtricity OS 12.0 版本僅相容於新型 EF80 和 EF50 全快閃儲存系統。如果您使用的是 SANtricity OS 11.9 或更早版本，請參閱 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block> 以了解先前版本的新功能清單。</block>
   <block id="bf183e9df2b499bf43a8c68e4fec9235" category="paragraph">新型儲存系統型號 – EF80 和 EF50 全快閃儲存系統</block>
   <block id="786003cdc863f3aad3e6d8b6bfb3da10" category="paragraph">SANtricity System Manager 的新使用者介面</block>
   <block id="22b06c9a9c11b263cfc8b70ea106720b" category="paragraph">針對新款 EF80 和 EF50 控制器，SANtricity System Manager 使用者介面經過重新設計，外觀更加現代化。新介面採用左側面板導覽，並增強了易用性，從而簡化了管理任務。</block>
-  <block id="522e7d53ef8c9a652990f42224faa7e2" category="admonition">新的使用者介面目前僅適用於採用 SANtricity 12.0 版本的 EF80 和 EF50 儲存系統。如果您使用的是 SANtricity 11.9 或更早版本，請參閱<block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block>以取得使用舊版使用者介面的說明。</block>
   <block id="33c4e4a69bd4b16424ffdb3de34b0af4" category="paragraph">伺服器憑證的主體別名 (SAN) 現在僅允許使用字母、數字和連字號字元</block>
   <block id="817a0c8fef1c872c585c0d94e85a802a" category="paragraph">在 SANtricity System Manager 或 Unified Manager 中建立或編輯伺服器憑證時，Subject Alternative Names（SANs）欄位現在僅允許使用字母、數字和連字號字元。此變更增強了安全性，並確保與 SSL/TLS 憑證的業界標準相容。</block>
   <block id="98fb326bd031cfdd062648c1e4359ef9" category="paragraph">對於 SSD 和基於 NVMe 的系統、動態磁碟集區區段大小現在預設為 32K</block>
   <block id="1970e3f7efbd3974c3dc8ec9d2745647" category="paragraph">對於基於 SSD 和 NVMe 的系統上的動態磁碟池，預設區段大小已變更為 32K。先前，這些系統的動態磁碟池預設區段大小固定為 128K。此項變更最佳化了包含大小 I/O 操作混合的工作負載的效能。</block>
   <block id="acc2a3dd457f3b89ae3e07ece78ae970" category="paragraph">SANtricity System Manager 現已提供指令碼編輯器</block>
   <block id="96326b5520f644337f2b9f27c4b4e238" category="paragraph">SANtricity System Manager 中現已提供全新的腳本編輯器。腳本編輯器可讓您建立或編輯腳本檔案、將腳本檔案儲存至儲存管理站的本機磁碟，或從磁碟載入腳本檔案。腳本編輯器提供語法檢查和命令執行功能，方便您管理儲存系統。如需更多資訊，請參閱 <block ref="7511cf8ef97831a0432bb6966b2afe45" category="inline-link-macro-rx"></block>。</block>
-  <block id="a35eccd872ba8e614629dbb155eab989" category="sidebar">SANtricity 軟體 12.0 讓您最大限度地發揮 E-Series 混合快閃記憶體和 EF-Series 全快閃陣列的效能和利用率，以應對繁重的工作負載應用程式，包括資料分析、視訊監控以及備份和復原。</block>
-  <block id="a18560d6b67741b585690f916908df13" category="sidebar">SANtricity 軟體 12.0 文件</block>
-  <block id="32c395ac29352ecc8c0d3bb542c45265" category="sidebar">使用 SANtricity System Manager 12.0 進行單陣列管理</block>
   <block id="cbeeed737f5afb09d1505cf179e9c1f8" category="sidebar">使用 SANtricity Unified Manager 8 進行多陣列管理</block>
-  <block id="2352bcb087671319b99c6ee8bf6be16b" category="sidebar">SANtricity 軟體 12.0 文件</block>
   <block id="523d8e1940fe8fd7921104a2b1aa3b24" category="sidebar">使用腳本編輯器</block>
   <block id="7270f12c0a303f4c7f8c806c946d0faf" category="paragraph">此版本推出了 EF80 和 EF50 全 NVMe 快閃儲存系統。EF80 和 EF50 每個控制器均支援 24 個 NVME SSD 驅動器和一個控制器間鏡像卡。支援的 NVMe over Fabrics 主機介面包括 NVMe over RoCE、NVMe over IB、EF80 的 NVMe over FC 和 EF50 的 NVMe over FC。兩個系統支援的 SCSI 介面均為 Fibre Channel。EF50 每個控制器最多支援兩個主機介面卡，而 EF80 每個控制器最多支援三個主機介面卡。</block>
   <block id="685ec10705743526f323aaeb2e8abdb9" category="paragraph">EF80 和 EF50 也支援 30TB 或 60TB 大小的高容量 NVMe SSD 硬碟。EF80 和 EF50 只有在陣列中配備 30TB 或 60TB 硬碟時才能使用 Dynamic Disk Pool。</block>
+  <block id="e866b10ba89d5ee2fe179d93f938430c" category="inline-link">12.00 版本說明</block>
+  <block id="15df5baea5d41e42b8be265c67488ea8" category="list-text"><block ref="15df5baea5d41e42b8be265c67488ea8" category="inline-link-rx"></block></block>
+  <block id="c9f4c41100461402ef108c1e6ccc6adf" category="paragraph"><block ref="c9f4c41100461402ef108c1e6ccc6adf" category="inline-link-rx"></block></block>
+  <block id="dcf1521fe2188852a3d1ae5493b83c24" category="doc">SANtricity System Manager 12.00</block>
+  <block id="b9e4ac9c6566befa2eace1a2f5e1c0e9" category="doc">SANtricity OS 12.00 的新特性</block>
+  <block id="ae8ef432f09f0cc2743b6f647e8b7391" category="paragraph">下表描述了 SANtricity System Manager 12.00 中的新功能。</block>
+  <block id="d37b8d3a8d7d50a2d15245479531c53d" category="section-title">12.00 版的新功能</block>
+  <block id="22df7e56856f8d8f8a1db64219f4f7a9" category="admonition">SANtricity OS 12.00 版本僅相容於新型 EF80 和 EF50 全快閃儲存系統。如果您使用的是 SANtricity OS 11.9 或更早版本，請參閱 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block> 以了解先前版本的新功能清單。</block>
+  <block id="34eb0a9cd2b702531a67dae4540bdd52" category="admonition">新的使用者介面目前僅適用於採用 SANtricity 12.00 版本的 EF80 和 EF50 儲存系統。如果您使用的是 SANtricity 11.9 或更早版本，請參閱<block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block>以取得使用舊版使用者介面的說明。</block>
+  <block id="579aadc4c26cc865ba493de4c39a2dbf" category="sidebar">SANtricity 軟體 12.00 讓您最大限度地發揮 E-Series 混合快閃記憶體和 EF-Series 全快閃陣列的效能和利用率，以應對繁重的工作負載應用程式，包括資料分析、視訊監控以及備份和復原。</block>
+  <block id="4304224086372505f40ff85886d04942" category="sidebar">SANtricity 軟體 12.00 文件</block>
+  <block id="9dfc00eb4df11a45ce48523995f27cd5" category="sidebar">使用 SANtricity System Manager 12.00 進行單陣列管理</block>
+  <block id="ec5103775143b601241e8ddefaff5a2f" category="sidebar">SANtricity 軟體 12.00 文件</block>
 </blocks>
