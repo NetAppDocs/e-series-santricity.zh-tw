@@ -905,7 +905,6 @@
   <block id="f220b79cc4513584ba7d4bae43c90357" category="doc">集區的最佳化容量為何？</block>
   <block id="672f98d79305b073b8d6566d14c8bc16" category="paragraph">對於與集區相關聯的磁碟機、未分配的容量由集區的保留容量、可用容量（磁碟區未使用的容量）以及保留為額外最佳化容量的可用容量所組成。額外的最佳化容量可藉由減少可用容量來確保最小程度的最佳化容量、因此無法建立磁碟區。</block>
   <block id="45c5490b8f9ad55e093507d717bd2f32" category="paragraph">建立集區時、會產生建議的最佳化容量、以平衡效能、磁碟機耗損壽命和可用容量。「資源池設定」對話方塊中的「其他最佳化容量」滑桿可調整資源池的最佳化容量。調整滑桿可提高效能、延長使用壽命、同時犧牲可用容量或額外可用容量、同時犧牲效能和磁碟機使用壽命。</block>
-  <block id="ba85db8eaa03f65889fdd8e78af14efd" category="paragraph">額外最佳化容量滑桿僅適用於EF600和EF300儲存系統。</block>
   <block id="2d5e16304d23da14ecd4f0009bac1f3b" category="summary">您可以移除磁碟機、以降低現有資源池或SSD快取的容量。</block>
   <block id="ac3397ae43dda551f36c38a71bab9e59" category="paragraph">移除磁碟機之後、集區或SSD快取的每個磁碟區中的資料會重新分配到其餘磁碟機。移除的磁碟機將會變成未指派磁碟機、其容量將成為儲存陣列總可用容量的一部分。</block>
   <block id="99a58673d1a25ca7a256d2223185c373" category="paragraph">移除容量時、請遵循下列準則：</block>
@@ -9105,4 +9104,5 @@
   <block id="4304224086372505f40ff85886d04942" category="sidebar">SANtricity 軟體 12.00 文件</block>
   <block id="9dfc00eb4df11a45ce48523995f27cd5" category="sidebar">使用 SANtricity System Manager 12.00 進行單陣列管理</block>
   <block id="ec5103775143b601241e8ddefaff5a2f" category="sidebar">SANtricity 軟體 12.00 文件</block>
+  <block id="578bcdf9f5107955b69cf51095e173c5" category="paragraph">附加最佳化容量滑桿僅適用於 EF80、EF50、EF600 和 EF300 儲存系統。</block>
 </blocks>
