@@ -5545,7 +5545,6 @@
   <block id="92a98c57d8dff609da2fceddaeac27a4" category="paragraph">陣列設定包括：</block>
   <block id="9f6081850e27326c653ce13711fd1f40" category="list-text"><block ref="9f6081850e27326c653ce13711fd1f40" category="inline-link-macro-rx"></block></block>
   <block id="590d98531a06e067582f8f395c25ea9d" category="inline-link-macro">自動負載平衡</block>
-  <block id="3d92225d2ee8c33ffe2c15361da54d2f" category="list-text"><block ref="3d92225d2ee8c33ffe2c15361da54d2f" category="inline-link-macro-rx"></block></block>
   <block id="b07d4a5fc9bdc2d9e09fffa5409bbab4" category="inline-link-macro">附加功能</block>
   <block id="d9c3b504b15a55277f52a60d4aa86148" category="list-text"><block ref="d9c3b504b15a55277f52a60d4aa86148" category="inline-link-macro-rx"></block></block>
   <block id="919e659946b3b7994ecf9004d9cea4f8" category="inline-link-macro">磁碟機安全性</block>
@@ -9107,4 +9106,5 @@
   <block id="a35eccd872ba8e614629dbb155eab989" category="sidebar">SANtricity 軟體 12.0 讓您最大限度地發揮 E-Series 混合快閃記憶體和 EF-Series 全快閃陣列的效能和利用率，以應對繁重的工作負載應用程式，包括資料分析、視訊監控以及備份和復原。</block>
   <block id="a18560d6b67741b585690f916908df13" category="sidebar">SANtricity 軟體 12.0 文件</block>
   <block id="32c395ac29352ecc8c0d3bb542c45265" category="sidebar">使用 SANtricity System Manager 12.0 進行單陣列管理</block>
+  <block id="bc7dec44af17b73eb800d426c3a75c9f" category="list-text"><block ref="bc7dec44af17b73eb800d426c3a75c9f" category="inline-link-macro-rx"></block></block>
 </blocks>

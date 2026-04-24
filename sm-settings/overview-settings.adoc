@@ -21,7 +21,7 @@ summary: 您可以針對某些一般陣列設定和附加功能來設定System M
 陣列設定包括：
 
 * link:cache-settings-and-performance.html["快取設定與效能"]
-* link:automatic-load-balancing-overview.html"["自動負載平衡"]
+* link:automatic-load-balancing-overview.html["自動負載平衡"]
 * link:how-add-on-features-work.html["附加功能"]
 * link:overview-drive-security.html["磁碟機安全性"]
 
