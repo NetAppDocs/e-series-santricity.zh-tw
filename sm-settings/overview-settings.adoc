@@ -16,6 +16,7 @@ summary: 您可以針對某些一般陣列設定和附加功能來設定System M
 
 
 
+[[what-settings-can-i-configure]]
 == 我可以設定哪些設定？
 
 陣列設定包括：
@@ -28,6 +29,7 @@ summary: 您可以針對某些一般陣列設定和附加功能來設定System M
 
 
 
+[[related-tasks]]
 == 相關工作
 
 深入瞭解與系統設定相關的工作：

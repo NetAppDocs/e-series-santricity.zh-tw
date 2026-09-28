@@ -30,6 +30,7 @@ summary: 「效能」頁面提供圖表和資料表、可讓您評估儲存陣�
 
 
 
+[[characteristics-of-performance-data-formats]]
 == 效能資料格式的特性
 
 [cols="1a,1a,1a,1a,1a"]
@@ -93,6 +94,7 @@ summary: 「效能」頁面提供圖表和資料表、可讓您評估儲存陣�
 |===
 
 
+[[guidelines-for-viewing-performance-data]]
 == 檢視效能資料的準則
 
 * 效能資料收集功能一律開啟。沒有選項可以關閉它。

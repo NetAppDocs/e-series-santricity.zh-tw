@@ -23,7 +23,7 @@ summary: 您可以編輯Volume群組的設定、包括其名稱和RAID層級。
 
 .步驟
 . 從左側面板中選擇功能表：Storage[Pools and volume groups]。
-. 選擇要編輯的 Volume 群組，然後按一下 menu:ellipsis icon[Edit Settings]。
+. 找到要編輯的 Volume 群組，然後按一下 menu:ellipsis icon[編輯設定]。
 +
 「編輯卷組設定」視窗隨即出現。
 

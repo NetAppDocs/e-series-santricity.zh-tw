@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-is-auto-negotiation]]
 == 什麼是自動交涉？
 
 「自動協調」是指網路介面能夠自動協調自己的連線參數（速度和雙工）與其他網路介面。
@@ -29,6 +30,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 ====
 
 
+[[what-is-ipv6-stateless-address-auto-configuration]]
 == 什麼是IPv6無狀態位址自動組態？
 
 在無狀態自動組態的情況下、主機不會從伺服器取得位址和其他組態資訊。
@@ -49,12 +51,14 @@ IPv6中的無狀態自動組態具有連結本機位址、多點傳送和鄰近�
 
 
 
+[[which-do-i-choose-dhcp-or-manual-configuration]]
 == 我該選擇哪一個——DHCP 還是手動設定？
 
 網路組態的預設方法是動態主機組態傳輸協定（DHCP）。除非您的網路沒有DHCP伺服器、否則請務必使用此選項。
 
 
 
+[[what-is-a-dhcp-server]]
 == 什麼是DHCP伺服器？
 
 動態主機組態傳輸協定（DHCP）是一種傳輸協定、可自動指派網際網路傳輸協定（IP）位址。
@@ -65,6 +69,7 @@ IPv6中的無狀態自動組態具有連結本機位址、多點傳送和鄰近�
 
 
 
+[[how-do-i-configure-my-dhcp-server]]
 == 如何設定我的DHCP伺服器？
 
 您必須設定動態主機組態傳輸協定（DHCP）伺服器、以使用儲存陣列中控制器的靜態網際網路傳輸協定（IP）位址。
@@ -75,6 +80,7 @@ IPv6中的無狀態自動組態具有連結本機位址、多點傳送和鄰近�
 
 
 
+[[why-do-i-need-to-change-the-controller-network-configuration]]
 == 為何需要變更控制器網路組態？
 
 使用頻外管理時、您必須為每個控制器設定網路組態、包括其網際網路傳輸協定（IP）位址、子網路遮罩（子網路遮罩）和閘道。
@@ -83,6 +89,7 @@ IPv6中的無狀態自動組態具有連結本機位址、多點傳送和鄰近�
 
 
 
+[[where-do-i-get-the-network-configuration]]
 == 網路組態在哪裡？
 
 您可以從網路管理員取得網際網路傳輸協定（IP）位址、子網路遮罩（子網路遮罩）和閘道資訊。
@@ -91,6 +98,7 @@ IPv6中的無狀態自動組態具有連結本機位址、多點傳送和鄰近�
 
 
 
+[[what-are-icmp-ping-responses]]
 == 什麼是ICMP ping回應？
 
 網際網路控制訊息傳輸協定（ICMP）是TCP/IP套件的其中一種傳輸協定。
@@ -99,6 +107,7 @@ IPv6中的無狀態自動組態具有連結本機位址、多點傳送和鄰近�
 
 
 
+[[when-should-i-refresh-the-port-configuration]]
 == 何時應重新整理連接埠組態？
 
 每當修改或升級伺服器時、請重新整理DHCP伺服器、而且與目前儲存陣列和您要使用的儲存陣列相關的DHCP資訊已變更。
@@ -112,6 +121,7 @@ IPv6中的無狀態自動組態具有連結本機位址、多點傳送和鄰近�
 ====
 
 
+[[what-should-i-do-after-configuring-the-management-ports]]
 == 設定管理連接埠之後該怎麼辦？
 
 如果您變更了儲存陣列的IP位址、您可能會想要更新SANtricity 《統一化管理程式（Cisco Unified Manager）」中的全域陣列檢視。
@@ -122,6 +132,7 @@ IPv6中的無狀態自動組態具有連結本機位址、多點傳送和鄰近�
 
 
 
+[[why-is-the-storage-system-in-non-optimal-mode]]
 == 為什麼儲存系統處於非最佳模式？
 
 處於非最佳模式的儲存系統是因為系統組態狀態無效。儘管如此，仍完全支援對現有磁碟區的正常 I/O 存取，但 SANtricity 系統管理員將禁止某些作業。

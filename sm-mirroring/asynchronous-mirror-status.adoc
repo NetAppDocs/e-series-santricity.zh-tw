@@ -15,6 +15,7 @@ summary: 鏡射狀態定義鏡射一致性群組和鏡射Volume配對的狀態�
 
 
 
+[[status-for-mirror-consistency-groups]]
 == 鏡射一致性群組的狀態
 
 [cols="25h,~"]
@@ -97,6 +98,7 @@ summary: 鏡射狀態定義鏡射一致性群組和鏡射Volume配對的狀態�
 |===
 
 
+[[status-for-mirrored-pairs]]
 == 鏡射配對的狀態
 
 鏡射配對的狀態會指出主要磁碟區和次要磁碟區上的資料是否同步。

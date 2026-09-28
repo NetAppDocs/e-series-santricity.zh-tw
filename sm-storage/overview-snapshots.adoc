@@ -16,6 +16,7 @@ Snapshot功能可讓您建立儲存陣列磁碟區的時間點映像、以便用
 
 
 
+[[what-are-snapshot-images]]
 == 什麼是快照映像？
 
 _snapshot image_是在特定時間點擷取的Volume資料邏輯複本。如同還原點、Snapshot映像可讓您回復至已知良好的資料集。雖然主機可以存取快照映像、但無法直接讀取或寫入。
@@ -31,9 +32,10 @@ _snapshot image_是在特定時間點擷取的Volume資料邏輯複本。如同�
 
 
 
+[[how-do-i-create-snapshots]]
 == 如何建立快照？
 
-您可以從基礎磁碟區或快照一致性群組手動建立快照映像。此程序可從功能表：Storage[快照]取得。
+您可以手動從基礎 Volume 或快照一致性群組建立快照映像。此程序可從 menu:Snapshots[Snapshot 快照技術映像] 取得。
 
 深入瞭解：
 
@@ -47,9 +49,10 @@ _snapshot image_是在特定時間點擷取的Volume資料邏輯複本。如同�
 
 
 
+[[how-do-i-roll-back-data-from-a-snapshot]]
 == 如何從快照復原資料？
 
-_復原_是將基礎磁碟區中的資料傳回先前時間點的程序。您可以從功能表：Storage[快照]復原快照資料。
+_rollback_ 是將基礎 Volume 中的資料還原到先前時間點的程序。您可以從 menu:Snapshots[Snapshot 快照技術映像] 回復快照資料。
 
 深入瞭解：
 
@@ -60,6 +63,7 @@ _復原_是將基礎磁碟區中的資料傳回先前時間點的程序。您可
 
 
 
+[[related-information]]
 == 相關資訊
 
 深入瞭解與快照相關的工作：

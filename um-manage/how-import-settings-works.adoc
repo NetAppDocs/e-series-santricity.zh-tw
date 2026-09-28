@@ -15,6 +15,7 @@ summary: 您可以使用Unified Manager將設定從一個儲存陣列匯入至�
 
 
 
+[[settings-available-for-import]]
 == 可供匯入的設定
 
 下列組態可匯入多個陣列：
@@ -40,6 +41,7 @@ summary: 您可以使用Unified Manager將設定從一個儲存陣列匯入至�
 
 
 
+[[configuration-workflow]]
 == 組態工作流程
 
 若要匯入設定、請遵循此工作流程：

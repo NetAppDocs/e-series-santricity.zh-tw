@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[why-dont-i-see-all-my-volumes-hosts-or-host-clusters]]
 == 為什麼我看不到所有磁碟區、主機或主機叢集？
 
 具有啟用DA基礎磁碟區的Snapshot Volume不符合指派給不具備Data Assurance（DA）功能的主機的資格。您必須先停用基礎磁碟區上的DA、才能將快照磁碟區指派給不具備DA功能的主機。
@@ -33,6 +34,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 ====
 
 
+[[what-is-a-snapshot-image]]
 == 什麼是快照映像？
 
 Snapshot映像是在特定時間點擷取的Volume內容邏輯複本。Snapshot映像使用最小的儲存空間。
@@ -45,6 +47,7 @@ Snapshot映像資料儲存方式如下：
 
 
 
+[[why-use-snapshot-images]]
 == 為何要使用快照映像？
 
 您可以使用快照來保護資料、避免意外或惡意遺失或毀損。
@@ -61,12 +64,14 @@ Snapshot映像資料儲存方式如下：
 
 
 
+[[what-kinds-of-volumes-can-be-used-for-snapshots]]
 == 快照可使用哪些類型的磁碟區？
 
 標準磁碟區和精簡磁碟區是唯一可用於儲存快照映像的磁碟區類型。無法使用非標準磁碟區。基礎磁碟區可位於集區或磁碟區群組上。
 
 
 
+[[why-would-i-create-a-snapshot-consistency-group]]
 == 為什麼要建立Snapshot一致性群組？
 
 您可以建立快照一致性群組、以確保快照映像同時在多個磁碟區上擷取。
@@ -85,6 +90,7 @@ Snapshot映像資料儲存方式如下：
 
 
 
+[[what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity]]
 == 什麼是Snapshot Volume？何時需要保留容量？
 
 Snapshot Volume可讓主機存取快照映像中的資料。快照磁碟區包含自己的保留容量、可儲存對基礎磁碟區所做的任何修改、而不會影響原始的快照映像。主機無法讀取或寫入Snapshot映像。如果您要讀取或寫入快照資料、請建立快照磁碟區並將其指派給主機。
@@ -97,6 +103,7 @@ Snapshot Volume可讓主機存取快照映像中的資料。快照磁碟區包�
 
 
 
+[[what-is-a-snapshot-group]]
 == 什麼是快照群組？
 
 Snapshot群組是單一關聯基礎Volume的時間點快照映像集合。
@@ -109,6 +116,7 @@ System Manager會將快照映像整理成_snapshot Groups_。Snapshot群組不�
 
 
 
+[[why-would-i-disable-a-snapshot-volume]]
 == 為什麼要停用快照磁碟區？
 
 當您想要將不同的快照磁碟區指派給快照映像時、請停用快照磁碟區。您可以保留停用的快照磁碟區供日後使用。
@@ -117,6 +125,7 @@ System Manager會將快照映像整理成_snapshot Groups_。Snapshot群組不�
 
 
 
+[[what-is-the-disabled-state]]
 == 「停用」狀態為何？
 
 處於「已停用」狀態的快照磁碟區目前未指派給快照映像。若要啟用快照磁碟區、您必須使用重新建立作業、將新的快照映像指派給停用的快照磁碟區。
@@ -125,6 +134,7 @@ System Manager會將快照映像整理成_snapshot Groups_。Snapshot群組不�
 
 
 
+[[why-would-i-suspend-a-snapshot-schedule]]
 == 為什麼要暫停快照排程？
 
 當排程暫停時、不會建立排程的快照映像。您可以暫停快照排程以節省儲存空間、然後稍後再繼續排程的快照。

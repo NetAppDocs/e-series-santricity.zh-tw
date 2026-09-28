@@ -32,10 +32,7 @@ summary: 您可以建立快照排程、以便在基礎磁碟區發生問題時�
 +
 選取此快照排程的物件（Volume或Snapshot一致性群組）、然後選取功能表：複製服務[建立快照排程]。
 
-** 從左側面板中，選擇功能表：Storage[Snapshots]。
-+
-選擇 *Snapsshot schedules* 選項卡，然後按一下 *Create*。
-
+** 從左側面板中，選取 menu:快照[Snapshot 快照技術排程]，然後按一下 *建立*。
 
 
 . 選取此快照排程的物件（Volume或Snapshot一致性群組）、然後按一下*「Next（下一步）」*。

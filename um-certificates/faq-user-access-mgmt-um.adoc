@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[why-cant-i-log-in]]
 == 為什麼我無法登入？
 
 如果您在嘗試登入時收到錯誤訊息、請檢閱這些可能的原因。
@@ -30,6 +31,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-do-i-need-to-know-before-adding-a-directory-server]]
 == 新增目錄伺服器之前、我需要知道什麼？
 
 在Access Management中新增目錄伺服器之前、您必須符合特定需求。
@@ -41,6 +43,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-do-i-need-to-know-about-mapping-to-storage-array-roles]]
 == 我需要知道哪些關於對應至儲存陣列角色的資訊？
 
 在將群組對應至角色之前、請先檢閱準則。
@@ -66,6 +69,7 @@ RBAC（角色型存取控制）功能包括下列角色：
 
 
 
+[[saml]]
 === SAML
 
 如果您使用儲存陣列內嵌的安全聲明標記語言（SAML）功能、請確定：
@@ -83,12 +87,14 @@ RBAC（角色型存取控制）功能包括下列角色：
 
 
 
+[[what-do-i-need-to-know-before-configuring-and-enabling-saml]]
 == 在設定及啟用SAML之前、我需要知道哪些資訊？
 
 在設定及啟用安全性聲明標記語言（SAML）功能以進行驗證之前、請確定您符合下列需求、並瞭解SAML限制。
 
 
 
+[[requirements]]
 === 需求
 
 開始之前、請確定：
@@ -103,6 +109,7 @@ RBAC（角色型存取控制）功能包括下列角色：
 
 
 
+[[restrictions]]
 === 限制
 
 除了上述要求之外、請務必瞭解下列限制：
@@ -124,6 +131,7 @@ RBAC（角色型存取控制）功能包括下列角色：
 
 
 
+[[what-are-the-local-users]]
 == 什麼是本機使用者？
 
 本機使用者會在系統中預先定義、並包含特定權限。

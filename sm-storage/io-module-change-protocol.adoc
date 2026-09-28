@@ -22,6 +22,7 @@ summary: 當您需要現有 I/O 模組使用不同的協定時、或在 I/O 模�
 
 
 
+[[step-1-prepare-for-the-protocol-change]]
 == 步驟 1：為協議變更做好準備
 
 準備變更主機 I/O 模組上的傳輸協定，方法是驗證目前使用的傳輸協定、判斷是否需要變更傳輸協定，如果需要，請排定停機維護時段。
@@ -29,7 +30,7 @@ summary: 當您需要現有 I/O 模組使用不同的協定時、或在 I/O 模�
 .步驟
 . 如果您不知道儲存系統中主機 I/O 模組的目前傳輸協定，請使用 SANtricity System Manager 進行驗證。
 +
-.. 選擇 *Settings* > *System* 。
+.. 選擇 *系統*。
 .. 在 *Additional Settings* （其他設定）部分中，按一下 *Change host I/O protocol* （變更主機 I/O 協定）以開啟該頁面。
 .. 請參閱 *Host I/O Protocol* 欄位中顯示的預設協定。
 +
@@ -63,6 +64,7 @@ NOTE: 如果要查看主機 I/O 模組的可用傳輸協定清單，請在 *Host
 
 
 
+[[step-2-stop-host-io-operations]]
 == 步驟 2：停止主機 I/O 作業
 
 在變更協定之前，必須停止主機上的所有 I/O 作業，然後從儲存系統中刪除所有已定義的主機。
@@ -113,7 +115,7 @@ image::../media/icon_round_1.png[圖說編號 1]
 |===
 . 在 SANtricity System Manager 中確認控制器上的操作已完成：
 +
-.. 選擇 *Storage* > *Operations in progress* 以查看 Overview 畫面。
+.. 選擇 *監控* > *正在進行的操作* 以查看概覽畫面。
 .. 請等待所有操作完成，並且「概覽」畫面顯示 *目前沒有正在進行的動作* 後，再繼續執行下一步。
 
 
@@ -125,12 +127,13 @@ image::../media/icon_round_1.png[圖說編號 1]
 
 
 
+[[step-3-change-the-protocol]]
 == 步驟 3：變更傳輸協定
 
 使用 SANtricity System Manager，變更主機 I/O 模組上的傳輸協定，等待控制器完成重新開機週期，確認其狀態為 Optimal，然後重新建立主機定義。
 
 .步驟
-. 選擇 *Settings* > *System* 。
+. 選擇 *系統*。
 . 在 *Additional Settings* （其他設定）部分中，按一下 *Change host I/O protocol* （變更主機 I/O 協定）以開啟該頁面。
 . 在 *Host I/O Protocol* 欄位中，按一下下拉式選單並選擇要使用的協定。
 +
@@ -151,6 +154,7 @@ image::../media/icon_round_1.png[圖說編號 1]
 
 
 
+[[step-4-configure-the-host-to-use-the-new-protocol]]
 == 步驟 4：設定主機以使用新傳輸協定
 
 變更主機連接埠的傳輸協定後、您必須設定主機以使用新的傳輸協定。

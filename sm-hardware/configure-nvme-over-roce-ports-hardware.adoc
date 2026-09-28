@@ -19,18 +19,14 @@ summary: 如果您的控制器包含NVMe over RoCE（透過整合式乙太網路
 
 
 .步驟
-. 從左側面板中，選擇 *Hardware*。
-. 如果圖形顯示磁碟機、請按一下 * 控制器與元件 * 索引標籤。
-+
-圖形會變更、以顯示控制器而非磁碟機。
-
+. 從左側面板中，選擇功能表：Hardware[Controllers and components]。
 . 按一下要設定NVMe over RoCE連接埠的控制器。
 +
 此時會出現控制器的內容功能表。
 
 . 選取*透過RoCE連接埠設定NVMe *。
 +
-「設定NVMe over RoCE連接埠」對話方塊隨即開啟。
+「設定 NVMe over RoCE 連接埠」對話方塊開啟。
 
 . 在下拉式清單中、選取您要設定的HIC連接埠。
 . 單擊 * 下一步 * 。

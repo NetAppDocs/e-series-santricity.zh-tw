@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[how-does-asynchronous-mirroring-differ-from-synchronous-mirroring]]
 == 非同步鏡射與同步鏡射有何不同？
 
 「非同步鏡射」功能與「同步鏡射」功能有一種重要的差異：它會在特定時間點擷取來源Volume的狀態、並只複製自上次映像擷取後變更的資料。
@@ -112,6 +113,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 |===
 
 
+[[why-cant-i-access-my-chosen-mirroring-feature]]
 == 為什麼我無法存取我選擇的鏡像功能？
 
 鏡射是在 SANtricity Unified Manager 介面中設定。
@@ -137,6 +139,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存陣列不提供同步鏡像。
 
 
 
+[[what-do-i-need-to-know-before-creating-a-mirror-consistency-group]]
 == 在建立鏡射一致性群組之前、我需要知道什麼？
 
 在建立鏡射一致性群組之前、請遵循下列準則。
@@ -167,6 +170,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡像。
 
 
 
+[[asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair]]
 == 非同步鏡射-建立鏡射配對之前、我需要知道什麼？
 
 您可以在 SANtricity Unified Manager 介面中設定鏡射配對，然後在 SANtricity 系統管理員中管理這些配對。
@@ -187,6 +191,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡像。
 
 
 
+[[what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume]]
 == 在增加鏡射配對磁碟區上的保留容量之前、我需要知道什麼？
 
 一般而言、當您收到鏡射配對的保留容量已滿的警告時、應該增加保留容量。您只能以8 GiB的增量來增加保留容量。
@@ -208,6 +213,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡像。
 
 
 
+[[why-cant-i-increase-reserved-capacity-with-my-requested-amount]]
 == 為什麼我無法將預留容量增加到我請求的數量？
 
 您只能以4 GiB的增量來增加保留容量。
@@ -226,6 +232,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡像。
 
 
 
+[[why-would-i-change-this-percentage]]
 == 為什麼要變更這個百分比？
 
 保留容量通常是基礎磁碟區的40%、用於快照作業、20%的基礎磁碟區用於非同步鏡射作業。
@@ -240,6 +247,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡像。
 
 
 
+[[why-do-i-see-more-than-one-reserved-capacity-candidate]]
 == 為什麼我會看到多個保留容量的候選對象？
 
 如果集區或Volume群組中有多個磁碟區符合您為儲存物件選取的容量百分比、您將會看到多個候選磁碟區。
@@ -248,6 +256,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡像。
 
 
 
+[[why-do-i-see-not-available-values-displayed-in-the-table]]
 == 為什麼我在表格中看到無法使用的值？
 
 當遠端儲存陣列上的資料無法顯示時、表格會列出不可用的值。
@@ -256,6 +265,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡像。
 
 
 
+[[why-dont-i-see-all-of-my-pools-and-volume-groups]]
 == 為什麼我看不到所有的池和卷組？
 
 當您為非同步鏡射配對建立次要Volume時、系統會顯示該非同步鏡射配對的所有合格資源池和Volume群組清單。任何不符合使用資格的資源池或磁碟區群組、都不會顯示在該清單中。
@@ -269,6 +279,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不提供同步鏡像。
 
 
 
+[[asynchronous-mirroring-why-dont-i-see-all-my-volumes]]
 == 非同步鏡像 - 為什麼我看不到所有磁碟區？
 
 當您選取鏡射配對的主要Volume時、會有一個清單顯示所有符合資格的Volume。
@@ -285,6 +296,7 @@ NOTE: 對於 EF600 和 EF300 控制器、非同步鏡射配對的主要和次要
 
 
 
+[[asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array]]
 == 非同步鏡像 - 為什麼我看不到遠端儲存陣列上的所有磁碟區？
 
 當您在遠端儲存陣列上選取次要Volume時、清單會顯示該鏡射配對的所有適用磁碟區。
@@ -304,6 +316,7 @@ NOTE: 對於 EF600 和 EF300 控制器、非同步鏡射配對的主要和次要
 
 
 
+[[why-would-i-update-my-remote-storage-arrays-ip-address]]
 == 為什麼要更新遠端儲存陣列的 IP 位址？
 
 當iSCSI連接埠的IP位址變更、且本機儲存陣列無法與遠端儲存陣列通訊時、您可以更新遠端儲存陣列的IP位址。

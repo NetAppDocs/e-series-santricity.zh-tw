@@ -23,6 +23,7 @@ summary: 自動負載平衡功能可動態回應一段時間內的負載變更�
 
 
 
+[[enabling-and-disabling-automatic-load-balancing]]
 == 啟用和停用自動負載平衡
 
 所有儲存陣列預設會啟用自動負載平衡。
@@ -35,6 +36,7 @@ summary: 自動負載平衡功能可動態回應一段時間內的負載變更�
 
 
 
+[[host-types-that-support-the-automatic-load-balancing-feature]]
 == 支援自動負載平衡功能的主機類型
 
 即使已在儲存陣列層級啟用自動負載平衡、您為主機或主機叢集所選取的主機類型仍會直接影響該功能的運作方式。
@@ -82,6 +84,7 @@ VMware
 
 
 
+[[verifying-os-compatibility-with-the-automatic-load-balancing-feature]]
 == 驗證作業系統與自動負載平衡功能的相容性
 
 在設定新（或移轉現有）系統之前、請先確認作業系統與自動負載平衡功能的相容性。

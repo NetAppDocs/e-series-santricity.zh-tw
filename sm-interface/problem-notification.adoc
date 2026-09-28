@@ -15,6 +15,7 @@ SANtricity 系統管理員會使用圖示和其他數種方法，通知您儲存
 
 
 
+[[icons]]
 == 圖示
 
 System Manager會使用這些圖示來指出儲存陣列及其元件的狀態。
@@ -59,6 +60,7 @@ System Manager會在不同位置顯示這些圖示。
 
 
 
+[[alerts-and-leds]]
 == 警示和LED
 
 此外、System Manager會以其他方式通知您問題。

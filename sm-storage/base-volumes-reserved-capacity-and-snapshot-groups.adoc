@@ -15,6 +15,7 @@ Snapshot功能使用基礎磁碟區、保留容量和Snapshot群組。
 
 
 
+[[base-volumes]]
 == 基礎磁碟區
 
 以_基礎Volume _為快照映像的來源磁碟區。基礎磁碟區可以是厚磁碟區或精簡磁碟區、而且可以位於集區或磁碟區群組中。
@@ -29,6 +30,7 @@ image::../media/sam1130-dwg-snapshots-images-overview.gif[Snapshot 物件和基�
 
 
 
+[[reserved-capacity-and-snapshot-groups]]
 == 保留容量與快照群組
 
 System Manager會將快照映像整理成_snapshot Groups_。系統管理程式建立快照群組時、會自動建立相關的_reserved capity_、以保留群組的快照映像、並追蹤後續對其他快照所做的變更。
@@ -43,6 +45,7 @@ Snapshot群組不需要使用者動作、但您可以隨時調整快照群組的
 
 
 
+[[auto-deletion]]
 == 自動刪除
 
 使用快照時、請使用預設選項開啟自動刪除功能。當快照群組達到32個映像的快照群組限制時、自動刪除功能會自動刪除最舊的快照映像。如果您關閉自動刪除功能、則快照群組限制最終會超出、您必須手動採取行動來設定快照群組設定及管理保留容量。

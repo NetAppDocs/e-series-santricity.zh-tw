@@ -19,7 +19,7 @@ summary: 您可以在單一檔案中收集各種類型的儲存陣列相關庫�
 
 [NOTE]
 ====
-如果啟用「支援此功能」、您也可以前往*「*」*「*」選項卡並選取「*傳送此類派遣台*」來收集此資料。AutoSupport AutoSupport AutoSupport
+如果啟用 AutoSupport 功能，您也可以前往功能表：支援[AutoSupport] 並選取 *傳送 AutoSupport 調度* 來收集此資料。
 
 ====
 一次只能執行一項集合作業。如果您嘗試啟動另一個作業、您會收到錯誤訊息。
@@ -30,7 +30,7 @@ summary: 您可以在單一檔案中收集各種類型的儲存陣列相關庫�
 
 ====
 .步驟
-. 從左側面板中選擇選單：Support[Support Center > Diagnostics] 標籤。
+. 從左側面板，選取 menu:支援[診斷]。
 . 選擇*收集支援資料*。
 . 按一下「* Collect*」。
 +

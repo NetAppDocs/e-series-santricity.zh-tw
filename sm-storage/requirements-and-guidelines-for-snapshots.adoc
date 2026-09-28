@@ -15,6 +15,7 @@ summary: 建立及使用快照時、請檢閱下列需求與準則。
 
 
 
+[[snapshot-images-and-snapshot-groups]]
 == Snapshot映像和Snapshot群組
 
 * 每個快照映像只與一個快照群組相關聯。
@@ -29,6 +30,7 @@ summary: 建立及使用快照時、請檢閱下列需求與準則。
 
 
 
+[[snapshot-consistency-group]]
 == Snapshot一致性群組
 
 * Snapshot一致性群組包含一個快照群組、用於快照一致性群組的每個磁碟區。
@@ -39,6 +41,7 @@ summary: 建立及使用快照時、請檢閱下列需求與準則。
 
 
 
+[[base-volume]]
 == 基礎Volume
 
 * 快照磁碟區的資料保證（DA）和安全性設定必須與相關的基礎磁碟區相同。
@@ -49,6 +52,7 @@ summary: 建立及使用快照時、請檢閱下列需求與準則。
 
 
 
+[[reserved-capacity]]
 == 保留容量
 
 * 保留容量僅與一個基礎Volume相關聯。
@@ -58,6 +62,7 @@ summary: 建立及使用快照時、請檢閱下列需求與準則。
 
 
 
+[[pending-snapshot-images]]
 == 擱置的快照映像
 
 在下列情況下、快照映像建立可能會維持「Pending」（擱置）狀態：
@@ -68,6 +73,7 @@ summary: 建立及使用快照時、請檢閱下列需求與準則。
 
 
 
+[[maximum-number-of-snapshot-images]]
 == 最大快照映像數
 
 * 如果磁碟區是快照一致性群組的成員、System Manager會為該成員磁碟區建立一個快照群組。此快照群組會計算每個基礎磁碟區允許的最大快照群組數。
@@ -81,12 +87,14 @@ summary: 建立及使用快照時、請檢閱下列需求與準則。
 
 
 
+[[auto-deletion]]
 == 自動刪除
 
 如果快照群組或快照一致性群組已啟用自動刪除、則系統管理員會在系統為群組建立新的快照映像時刪除最舊的快照映像。
 
 
 
+[[rollback-operation]]
 == 復原作業
 
 * 當復原作業正在進行時、您無法執行下列動作：

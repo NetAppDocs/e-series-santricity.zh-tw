@@ -2,7 +2,7 @@
 permalink: sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning, 
-summary: 如果您先前已停用資源資源資源配置的預設功能、可以前往「設定」、針對您所建立的任何新SSD Volume群組或集區重新啟用該功能。您也可以再次停用設定。 
+summary: 如果您先前停用了資源配置的預設功能，您可以前往「系統」，為您建立的任何新 SSD Volume 群組或集區重新啟用該功能。您也可以再次停用此設定。 
 ---
 = 在 SANtricity System Manager 中啟用或停用新磁碟區組或池的資源配置
 :allow-uri-read: 
@@ -28,7 +28,7 @@ NOTE: 根據預設、磁碟機支援DULBE的系統會啟用資源配置。
 當您重新啟用新Volume群組或集區的資源配置時、只有新建立的Volume群組和集區才會受到影響。任何已啟用資源資源配置的現有Volume群組和資源池將維持不變。
 
 .步驟
-. 從左側面板中，選擇功能表：設定 [系統]。
+. 從左側面板中，選取 *系統*。
 . 向下捲動至*其他設定*、然後按一下*啟用/停用資源配置的Volumes *。
 +
 設定說明會指出資源資源資源配置目前已啟用或已停用。

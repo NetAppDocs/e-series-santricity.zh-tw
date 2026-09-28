@@ -15,6 +15,7 @@ summary: 您可以將一組儲存陣列分組、來管理實體與虛擬化的�
 
 
 
+[[types-of-storage-array-groups]]
 == 儲存陣列群組類型
 
 * *所有群組*

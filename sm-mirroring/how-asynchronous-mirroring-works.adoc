@@ -24,6 +24,7 @@ summary: 非同步鏡射會根據需求或排程複製資料磁碟區、如此�
 
 
 
+[[asynchronous-mirroring-session]]
 == 非同步鏡射工作階段
 
 非同步鏡射會在特定時間點擷取主要磁碟區的狀態、並只複製自上次擷取映像以來所變更的資料。非同步鏡射可讓主要站台立即更新、並在頻寬允許的情況下更新次要站台。這些資訊會在網路資源可用時快取並於稍後傳送。
@@ -46,6 +47,7 @@ image::../media/sam-1130-dwg-async-mirroring-session.gif[非同步鏡射工作�
 
 
 
+[[mirror-consistency-groups-and-mirrored-pairs]]
 == 鏡射一致性群組和鏡射配對
 
 您可以建立鏡射一致性群組、以建立本機儲存陣列與遠端儲存陣列之間的鏡射關係。非同步鏡射關係由鏡射配對組成：一組儲存陣列上的主磁碟區、另一組儲存陣列上的次磁碟區。
@@ -54,6 +56,7 @@ image::../media/sam-1130-dwg-async-mirroring-session.gif[非同步鏡射工作�
 
 
 
+[[synchronization-settings]]
 == 同步處理設定
 
 建立鏡射配對時、您也可以定義同步優先順序和重新同步原則、鏡射配對會在通訊中斷後、用來完成重新同步作業。
@@ -72,6 +75,7 @@ image::../media/sam-1130-dwg-async-mirroring-session.gif[非同步鏡射工作�
 
 
 
+[[reserved-capacity-and-asynchronous-mirroring]]
 == 保留容量與非同步鏡射
 
 保留容量用於在不進行同步時、追蹤主要與次要Volume之間的差異。它也會追蹤每個鏡射配對的同步統計資料。
@@ -80,6 +84,7 @@ image::../media/sam-1130-dwg-async-mirroring-session.gif[非同步鏡射工作�
 
 
 
+[[configuration-and-management]]
 == 組態與管理
 
 若要在兩個陣列之間啟用及設定鏡射、您必須使用Unified Manager介面。啟用鏡射之後、您就可以在System Manager中管理鏡射配對和同步設定。

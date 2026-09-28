@@ -15,6 +15,7 @@ summary: 用於匯入的磁碟區必須符合大小、狀態及其他條件的�
 
 
 
+[[remote-storage-volume]]
 == 遠端儲存Volume
 
 匯入的來源Volume稱為「遠端儲存Volume」。 此Volume必須符合下列條件：
@@ -41,6 +42,7 @@ summary: 用於匯入的磁碟區必須符合大小、狀態及其他條件的�
 
 
 
+[[target-volume-candidates]]
 == 目標Volume候選對象
 
 目標Volume是本機E系列系統上的目的地Volume。目的地Volume必須符合下列條件：

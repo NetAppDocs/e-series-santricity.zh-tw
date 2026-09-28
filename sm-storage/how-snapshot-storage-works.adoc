@@ -15,6 +15,7 @@ Snapshot功能使用寫入時複製技術來儲存快照映像、並使用已分
 
 
 
+[[how-snapshot-images-are-used]]
 == 如何使用快照映像
 
 Snapshot映像是磁碟區內容的邏輯唯讀複本、會在特定時間點擷取。您可以使用快照來防止資料遺失。
@@ -23,6 +24,7 @@ Snapshot映像也適用於測試環境。藉由建立資料的虛擬複本、您
 
 
 
+[[snapshot-creation]]
 == Snapshot建立
 
 建立快照時、Snapshot功能會儲存映像資料、如下所示：
@@ -42,6 +44,7 @@ image::../media/sam1130-dwg-snapshots-cow-overview.gif[Snapshot 概述]
 
 
 
+[[snapshot-restoration]]
 == Snapshot還原
 
 若要將資料還原至基礎磁碟區、您可以使用快照磁碟區或快照映像：

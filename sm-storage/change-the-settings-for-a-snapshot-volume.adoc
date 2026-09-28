@@ -15,8 +15,7 @@ summary: 您可以變更快照磁碟區或快照一致性群組快照磁碟區�
 您可以變更快照磁碟區或快照一致性群組快照磁碟區的設定、以重新命名、啟用或停用SSD快取、或變更主機、主機叢集或邏輯單元編號（LUN）指派。
 
 .步驟
-. 從左側面板中，選擇功能表：Storage[Snapshots]。
-. 按一下「* Snapshot Volumes *（* Snapshot磁碟區*）
+. 從左側面板中，選擇 menu:Snapshots[Snapshot 快照技術 Volume]。
 . 選取您要變更的快照磁碟區、然後按一下「*檢視/編輯設定*」。
 +
 此時將出現Snapshot Volume Settings（Snapshot Volume設置）對話框。
@@ -39,7 +38,7 @@ summary: 您可以變更快照磁碟區或快照一致性群組快照磁碟區�
  a| 
 名稱
  a| 
-您可以變更快照磁碟區的名稱。
+您可以變更快照 Volume 的名稱。Volume 名稱最多可包含 30 個字元。名稱必須是唯一的。
 
 
 

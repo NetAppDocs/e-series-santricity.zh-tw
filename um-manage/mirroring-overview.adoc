@@ -20,6 +20,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不支援同步鏡像。
 ====
 
 
+[[types-of-mirroring]]
 == 鏡射類型
 
 支援非同步和同步的兩種鏡射類型。SANtricity
@@ -30,6 +31,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不支援同步鏡像。
 
 
 
+[[differences-between-mirroring-types]]
 == 鏡射類型之間的差異
 
 下表說明兩種鏡射類型之間的主要差異。

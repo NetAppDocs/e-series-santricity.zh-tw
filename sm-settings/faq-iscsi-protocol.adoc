@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-happens-when-i-use-an-isns-server-for-registration]]
 == 使用iSNS伺服器進行登錄時會發生什麼事？
 
 使用網際網路儲存名稱服務（iSNS）伺服器資訊時、可將主機（啟動器）設定為查詢iSNS伺服器、以便從目標（控制器）擷取資訊。
@@ -24,6 +25,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[which-registration-methods-are-automatically-supported-for-iscsi]]
 == iSCSI自動支援哪些登錄方法？
 
 iSCSI實作可支援網際網路儲存名稱服務（SNSs）探索方法、或使用「傳送目標」命令。
@@ -34,9 +36,10 @@ iSCSI實作可支援網際網路儲存名稱服務（SNSs）探索方法、或�
 
 
 
+[[how-do-i-interpret-iser-over-infiniband-statistics]]
 == 我要如何解讀InfiniBand統計資料的iSER？
 
-「View iSER over InfiniBand Statistics」（檢視InfiniBand統計資料的iSER）對話方塊會顯示本機目標（傳輸協定）統計資料、以及InfiniBand（IB）介面統計資料上的iSER。所有統計資料均為唯讀、無法設定。
+「檢視 iSER over InfiniBand 統計資料」對話方塊顯示本機目標（協定）統計資料和 iSER over InfiniBand （IB）介面統計資料。所有統計資料均為唯讀，無法設定。
 
 * *本機目標（傳輸協定）統計資料*-提供iSER over InfiniBand目標的統計資料、顯示區塊層級存取其儲存媒體的情形。
 * * InfiniBand介面統計資料* iSER：提供InfiniBand介面上所有InfiniBand連接埠的iSER統計資料、其中包括效能統計資料、以及與每個交換器連接埠相關的連結錯誤資訊。
@@ -46,6 +49,7 @@ iSCSI實作可支援網際網路儲存名稱服務（SNSs）探索方法、或�
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband]]
 == 在InfiniBand上設定或診斷iSER還需要做什麼？
 
 下表列出 SANtricity 系統管理員功能，可用於在 InfiniBand 工作階段上設定及管理 iSER 。
@@ -63,16 +67,15 @@ iSCSI實作可支援網際網路儲存名稱服務（SNSs）探索方法、或�
  a| 
 在InfiniBand連接埠上設定iSER
  a| 
-. 選取*硬體*。
-. 選擇 * 控制器與元件 * 標籤。
+. 選擇選單：Hardware [ Controllers and components ]。
 . 選取控制器。
 . 選取*透過InfiniBand連接埠設定iSER *。
 
 
 或
 
-. 選取功能表：設定[系統]。
-. 向下捲動至* iSER over InfiniBand settings *、然後選取* Configure iSER over InfiniBand Ports*。
+. 選擇 *系統*。
+. 向下捲動至 *iSER over InfiniBand 設定*，然後選取 *設定 iSER over InfiniBand 連接埠*。
 
 
 
@@ -80,13 +83,14 @@ iSCSI實作可支援網際網路儲存名稱服務（SNSs）探索方法、或�
  a| 
 檢視InfiniBand統計資料的iSER
  a| 
-. 選取功能表：設定[系統]。
-. 向下捲動至「InfiniBand設定*上的* iSER」、然後選取「View iSER over InfiniBand Statistics *」。
+. 選擇 *系統*。
+. 向下捲動至 *iSER over InfiniBand 設定*，然後選取 *檢視 iSER over InfiniBand 統計資料*。
 
 
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi]]
 == 我還需要做什麼才能設定或診斷iSCSI？
 
 在非同步鏡射關係中、主機或遠端儲存陣列可能會發生iSCSI工作階段。下表列出可用於設定及管理這些 iSCSI 工作階段的 SANtricity 系統管理員功能。
@@ -98,6 +102,7 @@ iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。
 ====
 
 
+[[configure-iscsi]]
 === 設定iSCSI
 
 [cols="1a,1a"]
@@ -108,7 +113,7 @@ iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。
  a| 
 管理iSCSI設定
  a| 
-. 選取功能表：設定[系統]。
+. 選擇 *系統*。
 . 向下捲動至* iSCSI設定*以檢視所有管理功能。
 
 
@@ -128,8 +133,8 @@ iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。
  a| 
 設定主機CHAP密碼
  a| 
-. 選取功能表：設定[系統]。
-. 向下捲動至* iSCSI設定*、然後選取*組態驗證*。
+. 選擇 *系統*。
+. 向下捲動至 *iSCSI 設定*，然後選取 *設定透過 InfiniBand 的 iSCSI/iSER 驗證*。
 
 
 或
@@ -142,6 +147,7 @@ iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。
 |===
 
 
+[[diagnose-iscsi]]
 === 診斷iSCSI
 
 [cols="1a,1a"]
@@ -152,14 +158,14 @@ iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。
  a| 
 檢視或結束iSCSI工作階段
  a| 
-. 選取功能表：設定[系統]。
-. 向下捲動至* iSCSI設定*、然後選取*檢視/結束iSCSI工作階段*。
+. 選擇 *系統*。
+. 向下捲動至 *iSCSI 設定*，然後選擇 *檢視/結束 iSCSI 工作階段*。
 
 
 或
 
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
-. 選取*檢視/結束iSCSI工作階段*。
+. 選取 menu:支援[診斷]。
+. 選擇 *檢視/結束 iSCSI 工作階段*。
 
 
 
@@ -167,14 +173,14 @@ iSCSI設定只有在您的儲存陣列支援iSCSI時才能使用。
  a| 
 檢視iSCSI統計資料
  a| 
-. 選取功能表：設定[系統]。
-. 向下捲動至* iSCSI設定*、然後選取*檢視iSCSI統計資料套件*。
+. 選擇 *系統*。
+. 向下捲動至 *iSCSI 設定*，然後選擇 *檢視 iSCSI 統計資料*。
 
 
 或
 
-. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
-. 選取*檢視iSCSI統計資料套件*。
+. 選取 menu:支援[診斷]。
+. 選取 *檢視 iSCSI 統計資料*。
 
 
 |===

@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-data-am-i-collecting]]
 == 我要收集哪些資料？
 
 「支援資料收集」功能和手冊可讓您在客戶支援套裝組合中收集資料、以便技術支援人員進行遠端疑難排解和問題分析。AutoSupport
@@ -24,6 +25,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-does-unreadable-sectors-data-show-me]]
 == 無法讀取的區段資料會顯示什麼？
 
 您可以顯示儲存陣列磁碟機上偵測到無法讀取磁區的詳細資料。
@@ -104,6 +106,7 @@ Volume邏輯區塊位址
 |===
 
 
+[[what-is-a-health-image]]
 == 什麼是健全狀況映像？
 
 健全狀況映像是控制器處理器記憶體的原始資料傾印、技術支援可用來診斷控制器的問題。
@@ -112,6 +115,7 @@ Volume邏輯區塊位址
 
 
 
+[[what-do-the-autosupport-features-do]]
 == 這個功能有什麼AutoSupport 作用？
 
 此功能由三項個別功能組成、AutoSupport 您可以分別啟用。
@@ -123,6 +127,7 @@ Volume邏輯區塊位址
 
 
 
+[[what-type-of-data-is-collected-through-the-autosupport-feature]]
 == 透過此功能收集哪種類型的資料AutoSupport ？
 
 此功能包含三種標準派單類型：事件派單、排程派單、隨選及遠端診斷派單。AutoSupport
@@ -157,6 +162,7 @@ Volume邏輯區塊位址
 
 
 
+[[how-do-i-configure-the-delivery-method-for-the-autosupport-feature]]
 == 我要如何設定AutoSupport 供應方法以使用「不知道」功能？
 
 AutoSupport 功能支援 HTTPS 和 SMTP 通訊協定，可將 AutoSupport 派遣單傳送給技術支援。
@@ -179,7 +185,7 @@ HTTPS 和電子郵件方法之間的差異 * 。使用 SMTP 的電子郵件傳�
 
 ====
 .步驟
-. 從左側面板中選擇選單：Support [Support Center > AutoSupport] 標籤。
+. 從左側面板，選取 menu:支援[AutoSupport]。
 . 選擇*設定AutoSupport 「供應方法」*。
 +
 此時會出現一個對話方塊、列出分派交付方法。
@@ -213,6 +219,7 @@ HTTPS 和電子郵件方法之間的差異 * 。使用 SMTP 的電子郵件傳�
 
 
 
+[[what-is-configuration-data]]
 == 什麼是組態資料？
 
 選取「收集組態資料」時、系統會儲存RAID組態資料庫的目前狀態。
@@ -221,6 +228,7 @@ RAID組態資料庫包含控制器上磁碟區群組和磁碟集區的所有資�
 
 
 
+[[what-do-i-need-to-know-before-upgrading-the-santricity-os-software]]
 == 升級SANtricity 完《不知如何」的《不知如何？
 
 在升級控制器的軟體和韌體之前、請注意以下事項。
@@ -268,6 +276,7 @@ CAUTION: 升級時請勿變更儲存陣列。
 
 
 
+[[what-do-i-need-to-know-before-suspending-iom-auto-synchronization]]
 == 在暫停IOM自動同步之前、我需要知道什麼？
 
 暫停IOM自動同步可防止IOM韌體在下次SANtricity 進行更新時升級、
@@ -276,6 +285,7 @@ CAUTION: 升級時請勿變更儲存陣列。
 
 
 
+[[why-is-my-firmware-upgrade-progressing-so-slowly]]
 == 我的韌體升級為什麼進展緩慢？
 
 韌體升級進度取決於系統的整體負載。
@@ -284,6 +294,7 @@ CAUTION: 升級時請勿變更儲存陣列。
 
 
 
+[[what-do-i-need-to-know-before-upgrading-drive-firmware]]
 == 升級磁碟機韌體之前、我需要知道什麼？
 
 在升級磁碟機韌體之前、請注意以下事項。
@@ -298,6 +309,7 @@ CAUTION: 升級時請勿變更儲存陣列。
 
 
 
+[[how-do-i-choose-which-type-of-upgrade-to-perform]]
 == 如何選擇要執行的升級類型？
 
 您可以根據集區或Volume群組的狀態、選擇要在磁碟機上執行的升級類型。

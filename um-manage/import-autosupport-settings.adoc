@@ -15,8 +15,8 @@ summary: 您可以將AutoSupport 一個物件組態從一個儲存陣列匯入�
 您可以將AutoSupport 一個物件組態從一個儲存陣列匯入到其他儲存陣列。當您需要在網路中設定多個陣列時、這項批次作業可節省時間。
 
 .開始之前
-* 在System Manager中為您要作為來源的儲存陣列設定支援（功能表：Support[支援中心]）AutoSupport 。
-* 在System Manager中備份目標儲存陣列的現有組態（功能表：設定[系統>儲存儲存儲存陣列組態]）。
+* AutoSupport 已在 System Manager 中為您要作為來源的儲存陣列設定完成（選單：支援[AutoSupport]）。
+* 目標儲存陣列的現有組態已備份在 System Manager 中（選單：系統[儲存儲存陣列組態]）。
 
 
 .關於這項工作

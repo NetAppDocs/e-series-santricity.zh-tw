@@ -24,18 +24,14 @@ NVMe over InfiniBand設定和功能只有在儲存陣列的控制器包含NVMe o
 
 ====
 .步驟
-. 從左側面板中，選擇 *Hardware*。
-. 如果圖形顯示磁碟機、請按一下 * 控制器與元件 * 索引標籤。
-+
-圖形會變更、以顯示控制器而非磁碟機。
-
+. 從左側面板中，選擇功能表：Hardware[Controllers and components]。
 . 按一下要設定NVMe over InfiniBand連接埠的控制器。
 +
 此時會出現控制器的內容功能表。
 
 . 選取*透過InfiniBand連接埠設定NVMe *。
 +
-此時會開啟Configure NVMe over InfiniBand Portes（設定InfiniBand連接埠的NVMe）對話方塊。
+「設定 NVMe over InfiniBand 連接埠」對話方塊開啟。
 
 . 從下拉式清單中選取您要設定的HIC連接埠、然後輸入IP位址。
 +

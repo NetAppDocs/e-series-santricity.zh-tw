@@ -22,6 +22,7 @@ summary: 您可以取得及匯入CA簽署的憑證、以安全存取裝載Unifie
 
 
 
+[[step-1-complete-a-csr-file]]
 == 步驟1：完成CSR檔案
 
 您必須先產生憑證簽署要求（CSR）檔案、以識別您的組織和安裝Web服務Proxy和Unified Manager的主機系統。
@@ -57,6 +58,7 @@ summary: 您可以取得及匯入CA簽署的憑證、以安全存取裝載Unifie
 
 
 
+[[step-2-submit-csr-file]]
 == 步驟2：提交CSR檔案
 
 建立憑證簽署要求（CSR）檔案之後、您會將其傳送至憑證授權單位（CA）、以接收裝載Unified Manager和Web Services Proxy之系統的簽署管理憑證。
@@ -81,6 +83,7 @@ NOTE: E系列系統要求簽署的憑證使用PEm格式（Base64 Ascii編碼）�
 
 
 
+[[step-3-import-management-certificates]]
 == 步驟3：匯入管理憑證
 
 從憑證授權單位（CA）收到簽署的憑證後、請將憑證匯入安裝Web服務Proxy和Unified Manager介面的主機系統。

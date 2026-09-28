@@ -15,8 +15,7 @@ summary: 若要變更快照一致性群組的名稱、自動刪除設定或允�
 若要變更快照一致性群組的名稱、自動刪除設定或允許的最大快照映像數、請變更該群組的設定。
 
 .步驟
-. 從左側面板中，選擇功能表：Storage[Snapshots]。
-. 單擊* Snapshot Consistency Group*（*快照一致性組*）選
+. 從左側面板中，選取 menu:Snapshots[Snapshot 快照技術一致性群組]。
 . 選取您要編輯的快照一致性群組、然後按一下「*檢視/編輯設定*」。
 +
 此時將出現Snapshot Consistency Group（Snapshot一致性組設置）對話框。

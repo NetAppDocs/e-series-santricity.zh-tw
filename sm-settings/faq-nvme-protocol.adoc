@@ -16,9 +16,10 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[how-do-i-interpret-nvme-over-fabrics-statistics]]
 == 如何解讀NVMe over Fabrics統計資料？
 
-「View NVMe over Fabrics Statistics」（檢視NVMe over Fabrics統計資料）對話方塊會顯示NVMe子系統和RDMA介面的統計資料。所有統計資料均為唯讀、無法設定。
+「檢視 NVMe over Fabrics 統計資料」對話方塊顯示 NVMe 子系統和 RDMA 介面的統計資料。所有統計資料均為唯讀，無法設定。
 
 * * NVMe子系統統計資料*-顯示NVMe控制器及其佇列的統計資料。NVMe控制器提供主機與儲存陣列中命名空間之間的存取路徑。您可以檢閱NVMe子系統統計資料、查看連線故障、重設和關機等項目。如需這些統計資料的詳細資訊、請按一下*檢視表格標題的圖例*。
 * * RDMA介面統計資料*-提供RDMA介面上所有NVMe over Fabrics連接埠的統計資料、其中包括效能統計資料、以及與每個交換器連接埠相關的連結錯誤資訊。此索引標籤僅會在NVMe over Fabrics連接埠可用時顯示。如需統計資料的詳細資訊、請按一下*檢視表格標題的圖例*。
@@ -28,6 +29,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband]]
 == 我還需要如何透過InfiniBand來設定或診斷NVMe？
 
 下表列出 SANtricity 系統管理員功能，可用於設定和管理 InfiniBand 工作階段上的 NVMe 。
@@ -45,16 +47,15 @@ NVMe over InfiniBand設定只有在儲存陣列的控制器包含NVMe over Infin
  a| 
 設定NVMe over InfiniBand連接埠
  a| 
-. 選取*硬體*。
-. 選擇 * 控制器與元件 * 標籤。
+. 選擇選單：Hardware [ Controllers and components ]。
 . 選取控制器。
 . 選取*透過InfiniBand連接埠設定NVMe *。
 
 
 或
 
-. 選取功能表：設定[系統]。
-. 向下捲動至* NVMe over InfiniBand設定*、然後選取* Configure NVMe over InfiniBand Ports*。
+. 選擇 *系統*。
+. 向下捲動至 *NVMe over InfiniBand 設定*，然後選取 *設定 NVMe over InfiniBand 連接埠*。
 
 
 
@@ -62,16 +63,17 @@ NVMe over InfiniBand設定只有在儲存陣列的控制器包含NVMe over Infin
  a| 
 檢視NVMe over InfiniBand統計資料
  a| 
-. 選取功能表：設定[系統]。
-. 向下捲動至* NVMe over InfiniBand設定*、然後選取* View NVMe over Fabrics Statistic*。
+. 選擇 *系統*。
+. 向下捲動至 *NVMe over InfiniBand 設定*，然後選取 *檢視 NVMe over Fabrics 統計資料*。
 
 
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce]]
 == 我還需要做什麼才能透過RoCE來設定或診斷NVMe？
 
-您可以從「硬體與設定」頁面設定及管理NVMe over RoCE。
+您可以從硬體和系統頁面設定和管理 NVMe over RoCE。
 
 [NOTE]
 ====
@@ -94,8 +96,8 @@ NVMe over RoCE設定僅適用於儲存陣列的控制器包含NVMe over RoCE連�
 
 或
 
-. 選取功能表：設定[系統]。
-. 向下捲動至* NVMe over roce設定*、然後選取* Configure NVMe over roce Ports*。
+. 選擇 *系統*。
+. 向下捲動至 *NVMe over RoCE 設定*，然後選擇 *設定 NVMe over RoCE 連接埠*。
 
 
 
@@ -103,13 +105,14 @@ NVMe over RoCE設定僅適用於儲存陣列的控制器包含NVMe over RoCE連�
  a| 
 檢視NVMe over Fabrics統計資料
  a| 
-. 選取功能表：設定[系統]。
-. 向下捲動至* NVMe over roce設定*、然後選取* View NVMe over Fabrics Statistic*。
+. 選擇 *系統*。
+. 向下捲動至 *NVMe over RoCE 設定*，然後選取 *檢視 NVMe over Fabrics 統計資料*。
 
 
 |===
 
 
+[[why-are-there-two-ip-addresses-for-one-physical-port]]
 == 為什麼一個實體連接埠有兩個IP位址？
 
 EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的。
@@ -120,6 +123,7 @@ EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的
 
 
 
+[[why-are-there-two-sets-of-parameters-for-one-physical-port]]
 == 為什麼一個實體連接埠有兩組參數？
 
 EF600儲存陣列可包含兩個HIC、一個是外部的、另一個是內部的。

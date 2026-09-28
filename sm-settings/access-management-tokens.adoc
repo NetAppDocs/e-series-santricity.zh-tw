@@ -15,6 +15,7 @@ summary: 存取權杖可讓您存取陣列、而不會洩漏使用者名稱和�
 
 
 
+[[saml-and-json-web-token-access]]
 == SAML與Json Web權杖存取
 
 根據預設、啟用SAML的系統不允許存取傳統命令列工具。REST API和CLI實際上無法運作、因為MFA工作流程需要重新導向至身分識別供應商伺服器進行驗證。因此、您必須在System Manager中產生權杖、要求使用者透過MFA驗證。
@@ -24,6 +25,7 @@ NOTE: 無需啟用SAML即可使用Web權杖、但為了達到最高安全等級�
 
 
 
+[[workflow-for-creating-and-using-tokens]]
 == 建立及使用權杖的工作流程
 
 . 在System Manager中建立權杖、並判斷其到期時間。

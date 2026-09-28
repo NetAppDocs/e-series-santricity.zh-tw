@@ -33,6 +33,7 @@ summary: 使用 Script 編輯器建立或編輯腳本檔案、將腳本檔案儲
 
 
 
+[[open-the-script-editor]]
 == 開啟指令碼編輯器
 
 .步驟
@@ -136,6 +137,7 @@ Continue`語句允許腳本在遇到執行錯誤後繼續執行。此語句為�
 
 
 
+[[write-scripts-in-the-script-editor]]
 === 在腳本編輯器中編寫腳本
 
 .開始之前
@@ -169,6 +171,7 @@ setting controller mode
 
 
 
+[[interpret-script-execution-results]]
 === 解譯指令碼執行結果
 
 在腳本執行期間，輸出窗格中會顯示以下列內容開頭的訊息：

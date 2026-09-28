@@ -15,6 +15,7 @@ summary: 您可以使用集區或磁碟區群組來建立磁碟區。最佳選�
 
 
 
+[[reasons-to-choose-a-pool-or-volume-group]]
 == 選擇集區或磁碟區群組的理由
 
 *選擇資源池*
@@ -40,6 +41,7 @@ summary: 您可以使用集區或磁碟區群組來建立磁碟區。最佳選�
 ====
 
 
+[[feature-differences-between-pools-and-volume-groups]]
 == 集區與Volume群組之間的功能差異
 
 下表提供磁碟區群組與集區之間的功能比較。
@@ -149,6 +151,7 @@ summary: 您可以使用集區或磁碟區群組來建立磁碟區。最佳選�
 |===
 
 
+[[functional-comparison-of-pools-and-volume-groups]]
 == 集區和Volume群組的功能比較
 
 集區和磁碟區群組的功能和用途相同。這兩個物件都是儲存陣列中邏輯分組的一組磁碟機、用於建立主機可以存取的磁碟區。

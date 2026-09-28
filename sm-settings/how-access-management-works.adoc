@@ -22,7 +22,7 @@ summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建
 首次登入時、使用者名稱「admin」會自動顯示、無法變更。「admin」使用者可完整存取系統中的所有功能。
 
 ====
-. 系統管理員會在使用者介面中導覽至「存取管理」。儲存陣列已預先設定為使用本機使用者角色、這是RBAC（角色型存取控制）功能的實作。
+. 系統管理員在使用者介面中瀏覽至「驗證」。儲存陣列已預先設定為使用本機使用者角色，這是 RBAC （角色型存取控制）功能的實作。
 . 系統管理員可設定下列一或多種驗證方法：
 +
 ** *本機使用者角色*-驗證是透過儲存陣列中強制執行的RBAC功能來管理。本機使用者角色包括預先定義的使用者設定檔和具有特定存取權限的角色。系統管理員可以使用這些本機使用者角色做為單一驗證方法、或搭配目錄服務使用。除了為使用者設定密碼之外、不需要進行任何組態。
@@ -52,6 +52,7 @@ summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建
 
 
 
+[[tasks-available-in-system-manager]]
 == System Manager中可用的工作
 
 存取工作取決於使用者指派的角色、包括下列項目：
@@ -66,6 +67,7 @@ summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建
 
 
 
+[[limitations-in-unified-manager-and-storage-manager]]
 == Unified Manager和Storage Manager的限制
 
 如果已針對儲存陣列設定SAML、使用者將無法從Unified Manager或舊版Storage Manager介面探索或管理該陣列的儲存設備。

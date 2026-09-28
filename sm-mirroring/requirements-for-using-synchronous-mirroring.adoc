@@ -16,6 +16,7 @@ summary: 如果您打算使用同步鏡射、請謹記下列需求。
 
 
 
+[[unified-manager]]
 == Unified Manager
 
 若要在兩個陣列之間啟用及設定鏡射、您必須使用Unified Manager介面。Unified Manager與Web Services Proxy一起安裝在主機系統上。
@@ -27,6 +28,7 @@ summary: 如果您打算使用同步鏡射、請謹記下列需求。
 
 
 
+[[storage-arrays]]
 == 儲存陣列
 
 [NOTE]
@@ -46,6 +48,7 @@ EF80、EF50、EF300/EF300C 或 EF600/EF600C 儲存陣列不支援同步鏡像。
 
 
 
+[[supported-connections]]
 == 支援的連線
 
 同步鏡射的通訊僅支援使用光纖通道（FC）主機連接埠的控制器。
@@ -54,6 +57,7 @@ EF80、EF50、EF300/EF300C 或 EF600/EF600C 儲存陣列不支援同步鏡像。
 
 
 
+[[mirrored-volume-candidates]]
 == 鏡射Volume候選
 
 * 在同步鏡射配對的主要和次要磁碟區上、RAID層級、快取參數和區段大小可能會有所不同。
@@ -66,6 +70,7 @@ EF80、EF50、EF300/EF300C 或 EF600/EF600C 儲存陣列不支援同步鏡像。
 
 
 
+[[reserved-capacity]]
 == 保留容量
 
 * 主要磁碟區和次要磁碟區需要保留容量、以便記錄寫入資訊、以便從控制器重設和其他暫時性中斷中恢復。
@@ -74,6 +79,7 @@ EF80、EF50、EF300/EF300C 或 EF600/EF600C 儲存陣列不支援同步鏡像。
 
 
 
+[[drive-security-feature]]
 == 磁碟機安全功能
 
 * 如果您使用的是具有安全功能的磁碟機、則主要磁碟區和次要磁碟區必須具有相容的安全性設定。此限制並未強制執行、因此您必須自行驗證。

@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-are-the-supported-browsers]]
 == 支援哪些瀏覽器？
 
 SANtricity 系統管理員支援這些瀏覽器版本。
@@ -54,12 +55,14 @@ Microsoft Edge
 |===
 
 
+[[what-are-the-keyboard-shortcuts]]
 == 什麼是鍵盤快速鍵？
 
 您可以單獨使用鍵盤瀏覽 SANtricity 系統管理員。
 
 
 
+[[overall-navigation]]
 === 整體導覽
 
 [cols="1a,1a"]
@@ -117,6 +120,7 @@ Shift + Tab
 |===
 
 
+[[table-navigation]]
 === 表格導覽
 
 [cols="1a,1a"]
@@ -146,6 +150,7 @@ Shift + Tab
 |===
 
 
+[[calendar-navigation]]
 === 行事曆導覽
 
 [cols="1a,1a"]
@@ -245,6 +250,7 @@ Shift + Tab
 |===
 
 
+[[how-do-performance-statistics-for-individual-volumes-relate-to-the-total]]
 == 個別磁碟區的效能統計資料與總計有何關聯？
 
 集區和磁碟區群組的統計資料是透過彙總所有磁碟區（包括保留容量磁碟區）來計算。
@@ -255,6 +261,7 @@ Shift + Tab
 
 
 
+[[why-does-data-display-as-zero-in-the-graphs-and-table]]
 == 為什麼圖表中的資料顯示為零？
 
 如果圖表中的資料點顯示零、表示該時間點的物件沒有I/O活動。發生這種情況的原因可能是主機未對該物件起始I/O、或是物件本身發生問題。
@@ -315,6 +322,7 @@ Volume群組
 |===
 
 
+[[what-does-the-latency-graph-show]]
 == 延遲圖表顯示什麼？
 
 Latency 圖表以毫秒（ms）為單位，提供磁碟區、磁碟區群組、資源池、應用程式和工作負載的延遲統計資料。此圖表會顯示在 Logical View、Physical View 和 Applications and workloads View 標籤中。
@@ -328,9 +336,10 @@ Latency 圖表以毫秒（ms）為單位，提供磁碟區、磁碟區群組、�
 
 
 
+[[what-does-the-iops-graph-show]]
 == IOPS圖表顯示什麼？
 
-IOPS 圖表顯示每秒輸入 / 輸出作業的統計資料。在首頁上，此圖表顯示儲存陣列的統計資料。在效能頁面的邏輯檢視、實體檢視以及應用程式和工作負載檢視標籤中，此圖表顯示儲存陣列、磁碟區、磁碟區群組、集區、應用程式和工作負載的統計資料。
+IOPS 圖表顯示每秒輸入 / 輸出作業次數的統計資料。在儀表板上，此圖表顯示儲存陣列的統計資料。在「效能」頁面的「邏輯檢視」、「實體檢視」以及「應用程式與工作負載檢視」索引標籤中，此圖表顯示儲存陣列、Volume、Volume 群組、資源池、應用程式和工作負載的統計資料。
 
 IOPS是每秒_輸入/輸出（I/O）作業的縮寫。將游標停留在圖表上的某個點上、即可檢視該時間點的下列值：
 
@@ -341,9 +350,10 @@ IOPS是每秒_輸入/輸出（I/O）作業的縮寫。將游標停留在圖表�
 
 
 
+[[what-does-the-mibs-graph-show]]
 == MIB/s圖顯示什麼？
 
-MiB/s 圖表以 mebibytes 每秒為單位顯示傳輸速度統計資料。在 Home 頁面上，此圖表顯示儲存陣列的統計資料。在 Performance 頁面的 Logical View、Physical View 以及 Applications and workloads View 標籤中，此圖表顯示儲存陣列、磁碟區、磁碟區群組、儲存池、應用程式和工作負載的統計資料。
+MiB/s 圖表以每秒 mebibytes 為單位顯示傳輸速度統計資料。在儀表板上，此圖表顯示儲存陣列的統計資料。在「效能」頁面的「邏輯檢視」、「實體檢視」以及「應用程式與工作負載檢視」索引標籤中，此圖表顯示儲存陣列、Volume、Volume 群組、資源池、應用程式和工作負載的統計資料。
 
 MIB/s是_mibibibytes per second_的縮寫、即每秒1、048、576位元組。將游標停留在圖表上的某個點上、即可檢視該時間點的下列值：
 
@@ -354,22 +364,25 @@ MIB/s是_mibibibytes per second_的縮寫、即每秒1、048、576位元組。�
 
 
 
+[[what-does-the-cpu-graph-show]]
 == CPU圖表顯示什麼？
 
-CPU 圖表顯示每個控制器（控制器 A 和控制器 B）的處理能力統計資料。CPU 是 _central processing unit_ 的縮寫。在主頁上，此圖表顯示儲存陣列的統計資料。在「效能」頁面的「實體檢視」標籤上，此圖表顯示儲存陣列和磁碟機的統計資料。
+CPU 圖表顯示每個控制器（控制器 A 和控制器 B）的處理能力統計資料。CPU 是中央處理器的縮寫。在儀表板上，此圖表顯示儲存陣列的統計資料。在「效能」頁面的「實體檢視」標籤上，此圖表顯示儲存陣列和磁碟機的統計資料。
 
 CPU圖表顯示陣列上的作業所使用的CPU處理容量百分比。即使沒有發生外部I/O、CPU使用率百分比也可能非零、因為儲存作業系統可能正在執行背景作業和監控。將游標停留在圖表上的某個點上、即可檢視當時使用的處理能力百分比。
 
 
 
+[[what-does-the-headroom-graph-show]]
 == 保留空間圖表顯示什麼內容？
 
-Headroom 圖表與儲存陣列控制器的剩餘效能能力相關。此圖表在 Home 頁面和 Performance 頁面的 Physical View 標籤中均可見。
+「剩餘效能餘裕」圖表與儲存陣列控制器的剩餘效能功能相關。此圖表顯示在「儀表板」和「效能」頁面的「實體檢視」標籤中。
 
 保留空間圖表顯示儲存系統中實體物件的剩餘效能。將游標停留在圖表上的某個點上、即可檢視控制器A和控制器B的IOPS和MIB/s剩餘容量百分比
 
 
 
+[[where-can-i-find-more-information-about-display-preferences]]
 == 哪裡可以找到更多有關顯示偏好設定的資訊？
 
 若要尋找可用顯示選項的相關資訊：

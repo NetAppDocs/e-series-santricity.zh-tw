@@ -19,6 +19,7 @@ summary: 此功能可監控儲存陣列的健全狀況、並將自動派單傳�
 
 
 
+[[key-benefits]]
 == 主要效益
 
 此功能的主要優點AutoSupport 包括：
@@ -33,6 +34,7 @@ summary: 此功能可監控儲存陣列的健全狀況、並將自動派單傳�
 
 
 
+[[individual-autosupport-features]]
 == 個別AutoSupport 功能
 
 此功能由三項個別功能組成、AutoSupport 您可以分別啟用。
@@ -44,6 +46,7 @@ summary: 此功能可監控儲存陣列的健全狀況、並將自動派單傳�
 
 
 
+[[difference-between-autosupport-and-collect-support-data]]
 == 支援資料的不二之處AutoSupport
 
 儲存陣列中有兩種收集支援資料的方法：

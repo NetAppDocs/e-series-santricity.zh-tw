@@ -15,8 +15,7 @@ summary: 您可以變更工作負載的名稱、並檢視其相關的應用程�
 您可以變更工作負載的名稱、並檢視其相關的應用程式類型。當目前名稱不再有意義或適用時、請變更工作負載名稱。
 
 .步驟
-. 從左側面板中，選擇功能表：Storage[Volumes]。
-. 選擇 *Applications and workloads* 標籤。
+. 從左側面板，選取 menu:儲存設備[應用程式和工作負載]。
 +
 顯示 Applications and workloads 視圖。
 

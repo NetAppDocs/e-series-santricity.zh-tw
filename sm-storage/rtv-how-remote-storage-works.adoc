@@ -18,6 +18,7 @@ summary: 遠端儲存功能可讓您從遠端儲存系統將資料匯入本機E�
 
 
 
+[[hardware-setup]]
 == 硬體設定
 
 使用下列工作流程準備硬體連線。
@@ -31,7 +32,7 @@ NOTE: E4000 系統目前不支援 SANtricity 遠端儲存磁碟區。
 
 . 確保每個控制器都有iSCSI連線至遠端儲存系統。透過此連線、本機E系列系統可做為iSCSI啟動器、並可在遠端系統上設定為主機。
 . 建立匯入作業的目的地Volume。請確定磁碟區的容量等於或大於遠端儲存系統上的來源磁碟區、具有相符的區塊大小、且未對應。請參閱 link:create-volumes.html["建立磁碟區"]。
-. 從System Manager介面收集本機E系列系統的iSCSI合格名稱（IQN）。IQN稍後將用於將本機E系列系統設定為遠端儲存系統上的主機。在System Manager中、移至：功能表：設定[系統> iSCSI設定>目標IQN]。
+. 從本機 E 系列系統的 System Manager 介面取得其 iSCSI 限定名稱（IQN）。稍後將使用此 IQN 將本機 E 系列系統設定為遠端儲存系統上的主機。在 System Manager 中，前往：menu:系統[iSCSI 設定 > 目標 IQN]。
 
 
 在遠端儲存系統上：
@@ -55,6 +56,7 @@ NOTE: E4000 系統目前不支援 SANtricity 遠端儲存磁碟區。
 
 
 
+[[system-manager-setup]]
 == System Manager設定
 
 使用下列工作流程建立遠端儲存物件以供匯入：

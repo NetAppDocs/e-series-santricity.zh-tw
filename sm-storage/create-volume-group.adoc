@@ -32,6 +32,9 @@ summary: 您可以使用Volume群組來建立一或多個可供主機存取的�
 
 
 
+
+NOTE: 同一儲存陣列中不支援混用 FDE 和 FIPS 磁碟機。系統中所有支援安全功能的磁碟機必須是相同類型。
+
 .步驟
 . 從左側面板中選擇功能表：Storage[Pools and volume groups]。
 . 按一下功能表：「Create [Volume group（建立[ Volume群組]）

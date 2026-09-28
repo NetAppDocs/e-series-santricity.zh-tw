@@ -15,6 +15,7 @@ summary: 使用存取管理功能、在SANtricity 《統一化管理程式》中
 
 
 
+[[configuration-workflow]]
 == 組態工作流程
 
 存取管理組態的運作方式如下：
@@ -47,6 +48,7 @@ summary: 使用存取管理功能、在SANtricity 《統一化管理程式》中
 
 
 
+[[functions-available-in-unified-manager]]
 == Unified Manager提供的功能
 
 存取功能取決於使用者指派的角色、包括下列項目：

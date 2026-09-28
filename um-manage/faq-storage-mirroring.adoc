@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-do-i-need-to-know-before-creating-a-mirror-consistency-group]]
 == 在建立鏡射一致性群組之前、我需要知道什麼？
 
 在建立鏡射一致性群組之前、請遵循下列準則。
@@ -44,6 +45,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不支援同步鏡像。
 ====
 
 
+[[what-do-i-need-to-know-before-creating-a-mirrored-pair]]
 == 建立鏡射配對之前、我需要知道什麼？
 
 在建立鏡射配對之前、請遵循下列準則。
@@ -65,6 +67,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不支援同步鏡像。
 ====
 
 
+[[why-would-i-change-this-percentage]]
 == 為什麼要變更這個百分比？
 
 保留容量通常是基礎磁碟區的20%、用於非同步鏡射作業。通常這種容量是足夠的。
@@ -77,6 +80,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不支援同步鏡像。
 
 
 
+[[why-do-i-see-more-than-one-reserved-capacity-candidate]]
 == 為什麼我會看到多個保留容量的候選對象？
 
 如果某個集區或Volume群組中有多個Volume符合您為儲存物件選取的容量百分比量、您就會看到多個候選磁碟區。
@@ -85,6 +89,7 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存系統不支援同步鏡像。
 
 
 
+[[why-dont-i-see-all-my-volumes]]
 == 為什麼我看不到我的所有捲？
 
 當您選取鏡射配對的主要Volume時、會有一個清單顯示所有符合資格的Volume。
@@ -102,6 +107,7 @@ NOTE: 對於 EF600 和 EF300 控制器、非同步鏡射配對的主要和次要
 
 
 
+[[why-dont-i-see-all-the-volumes-on-the-remote-storage-array]]
 == 為什麼我看不到遠端儲存陣列上的所有磁碟區？
 
 當您在遠端儲存陣列上選取次要Volume時、清單會顯示該鏡射配對的所有適用磁碟區。
@@ -129,6 +135,7 @@ NOTE: 對於 EF600 和 EF300 控制器、非同步鏡射配對的主要和次要
 
 
 
+[[what-impact-does-synchronization-priority-have-on-synchronization-rates]]
 == 同步處理優先順序對同步處理速率有何影響？
 
 同步處理優先順序會定義與系統效能相關的同步處理活動所需的處理時間。
@@ -186,6 +193,7 @@ Volume大小和主機I/O速率負載會影響同步時間比較。
 
 
 
+[[why-is-it-recommended-to-use-a-manual-synchronization-policy]]
 == 為什麼建議使用手動同步原則？
 
 建議手動重新同步、因為它可讓您以最佳的方式來管理重新同步程序、以提供最佳的資料恢復機會。

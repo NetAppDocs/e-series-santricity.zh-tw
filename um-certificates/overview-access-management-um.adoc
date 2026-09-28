@@ -15,6 +15,7 @@ summary: 存取管理是一種在SANtricity 功能不全的Manager中設定使�
 
 
 
+[[what-authentication-methods-are-available]]
 == 有哪些驗證方法可用？
 
 提供下列驗證方法：
@@ -34,6 +35,7 @@ summary: 存取管理是一種在SANtricity 功能不全的Manager中設定使�
 
 
 
+[[how-do-i-configure-access-management]]
 == 如何設定存取管理？
 
 此功能已預先設定為使用本機使用者角色。SANtricity如果您想要使用LDAP、可以在「存取管理」頁面下進行設定。

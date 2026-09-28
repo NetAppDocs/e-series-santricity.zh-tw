@@ -15,6 +15,7 @@ summary: 您可以將設定從一個儲存陣列匯入到另一個儲存陣列�
 
 
 
+[[what-settings-can-be-imported]]
 == 可以匯入哪些設定？
 
 您可以匯入警示方法、AutoSupport 支援各種功能的組態、目錄服務組態、儲存組態（例如磁碟區群組和集區）、以及系統設定（例如自動負載平衡）。
@@ -27,6 +28,7 @@ summary: 您可以將設定從一個儲存陣列匯入到另一個儲存陣列�
 
 
 
+[[how-do-i-perform-a-batch-import]]
 == 如何執行批次匯入？
 
 在要作為來源的儲存陣列上、開啟System Manager並設定所需的設定。然後從Unified Manager移至「管理」頁面、將設定匯入一或多個陣列。

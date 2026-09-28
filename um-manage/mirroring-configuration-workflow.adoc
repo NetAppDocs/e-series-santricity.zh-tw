@@ -15,6 +15,7 @@ summary: 您可以在Unified Manager中設定非同步或同步鏡射、然後�
 
 
 
+[[asynchronous-mirroring-workflow]]
 == 非同步鏡射工作流程
 
 非同步鏡射涉及下列工作流程：
@@ -45,6 +46,7 @@ summary: 您可以在Unified Manager中設定非同步或同步鏡射、然後�
 
 
 
+[[synchronous-mirroring-workflow]]
 == 同步鏡射工作流程
 
 同步鏡射涉及下列工作流程：

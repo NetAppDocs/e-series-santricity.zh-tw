@@ -16,6 +16,7 @@ summary: 您可以從儲存陣列中未指派磁碟機的子集建立邏輯儲�
 
 
 
+[[what-are-pools-and-volume-groups]]
 == 什麼是資源池和磁碟區群組？
 
 _Pool_是一組邏輯分組的磁碟機。_ Volume群組_是具有共享特性之磁碟區的容器。您可以使用集區或磁碟區群組來建立可讓主機存取的磁碟區。
@@ -29,6 +30,7 @@ _Pool_是一組邏輯分組的磁碟機。_ Volume群組_是具有共享特性�
 
 
 
+[[how-do-you-create-pools]]
 == 如何建立資源池？
 
 您可以允許 System Manager 在偵測到儲存陣列中未指派的容量時自動建立儲存池。或者，當自動建立無法確定最佳配置時，您可以從選單：Storage[Pools and volume groups] 手動建立儲存池。
@@ -43,6 +45,7 @@ _Pool_是一組邏輯分組的磁碟機。_ Volume群組_是具有共享特性�
 
 
 
+[[how-do-you-create-volume-groups]]
 == 如何建立Volume群組？
 
 您可以從選單建立磁碟區群組：Storage[Pools and volume groups]。
@@ -55,6 +58,7 @@ _Pool_是一組邏輯分組的磁碟機。_ Volume群組_是具有共享特性�
 
 
 
+[[related-information]]
 == 相關資訊
 
 深入瞭解與資源池和磁碟區群組相關的概念：

@@ -16,6 +16,7 @@ summary: 使用支援中心執行技術支援可能要求的診斷、還原及�
 
 
 
+[[what-support-tasks-are-available]]
 == 有哪些支援工作可用？
 
 在Support中、您可以檢視技術支援聯絡人、執行診斷、設定AutoSupport 、檢視事件記錄、以及執行軟體升級。
@@ -29,6 +30,7 @@ summary: 使用支援中心執行技術支援可能要求的診斷、還原及�
 
 
 
+[[how-do-i-contact-technical-support]]
 == 如何聯絡技術支援？
 
-在主頁中、按一下功能表：Support（支援）[Support Center（支援中心）> Support Resources（支援資源）索引標籤]。技術支援聯絡資訊會列在介面右上角。
+從主頁點選 menu:支援[支援資源]。技術支援聯絡資訊列在介面右上角。

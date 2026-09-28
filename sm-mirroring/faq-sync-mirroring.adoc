@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[how-does-asynchronous-mirroring-differ-from-synchronous-mirroring]]
 == 非同步鏡射與同步鏡射有何不同？
 
 「非同步鏡射」功能與「同步鏡射」功能有一種重要的差異：它會在特定時間點擷取來源Volume的狀態、並只複製自上次映像擷取後變更的資料。
@@ -112,6 +113,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 |===
 
 
+[[synchronous-mirroring-why-dont-i-see-all-my-volumes]]
 == 同步鏡像 - 為什麼我看不到所有磁碟區？
 
 當您選取鏡射配對的主要Volume時、會有一個清單顯示所有符合資格的Volume。
@@ -125,6 +127,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array]]
 == 同步鏡像 - 為什麼我看不到遠端儲存陣列上的所有磁碟區？
 
 當您在遠端儲存陣列上選取次要Volume時、清單會顯示該鏡射配對的所有適用磁碟區。
@@ -144,6 +147,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair]]
 == 同步鏡射-建立鏡射配對之前、我需要知道什麼？
 
 您可以在 SANtricity Unified Manager 介面中設定鏡射配對，然後在 SANtricity 系統管理員中管理這些配對。
@@ -163,6 +167,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-impact-does-synchronization-priority-have-on-synchronization-rates]]
 == 同步處理優先順序對同步處理速率有何影響？
 
 同步處理優先順序會定義與系統效能相關的同步處理活動所需的處理時間。
@@ -224,6 +229,7 @@ Volume大小和主機I/O速率負載會影響同步時間比較。
 
 
 
+[[why-is-it-recommended-to-use-a-manual-synchronization-policy]]
 == 為什麼建議使用手動同步原則？
 
 建議手動重新同步、因為它可讓您以最佳的方式來管理重新同步程序、以提供最佳的資料恢復機會。

@@ -31,8 +31,7 @@ summary: 您可以執行復原作業來變更基礎磁碟區的內容、以符�
 
 ====
 .步驟
-. 從左側面板中，選擇功能表：Storage[Snapshots]。
-. 選擇* Snapshot imags*（快照映像*）選項卡。
+. 從左側面板中，選取 menu:Snapshots[Snapshot 快照技術映像]。
 . 選取快照映像、然後選取功能表：「Rollback [Start]（回溯[開始]）」。
 +
 出現「Confirm Start Rollback（確認開始回溯）」對話方塊。
@@ -60,6 +59,6 @@ System Manager會執行下列動作：
 
 
 .完成後
-選擇功能表：Storage[Operations in Progress] 以檢視復原作業的進度。
+選取 menu:監控[進行中的作業] 以檢視復原作業的進度。
 
 如果復原作業不成功、則會暫停作業。您可以繼續暫停的作業、如果仍不成功、請依照Recovery Guru程序修正問題、或聯絡技術支援部門。

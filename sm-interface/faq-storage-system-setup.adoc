@@ -16,6 +16,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-if-i-dont-see-all-of-my-hardware-components]]
 == 如果我沒有看到所有硬體組件怎麼辦？
 
 如果您在「驗證硬體」對話方塊中沒有看到所有的硬體元件、可能表示磁碟機櫃連接不正確、或儲存陣列中安裝了不相容的磁碟櫃。
@@ -24,6 +25,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[what-if-i-dont-see-all-of-my-hosts]]
 == 如果我沒有看到所有主機怎麼辦？
 
 如果您沒有看到連線的主機、則表示自動偵測失敗、主機連線不正確、或是目前沒有連線任何主機。
@@ -36,12 +38,14 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[how-does-identifying-applications-help-me-manage-my-storage-array]]
 == 識別應用程式如何協助我管理儲存陣列？
 
 您可以按應用程式和工作負載查看效能數據，以評估應用程式及其相關工作負載的延遲、IOPS 和 MiB/s，從而優化效能。磁碟區組態中包含 I/O 類型、區段大小、控制器擁有權以及讀取和寫入快取等特性。
 
 
 
+[[what-is-a-workload]]
 == 什麼是工作負載？
 
 對於網路中的某些應用程式（例如SQL Server或Exchange）、您可以定義工作負載來最佳化該應用程式的儲存設備。
@@ -52,14 +56,16 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[how-do-i-configure-the-delivery-method-for-autosupport]]
 == 我要如何設定AutoSupport 供應方法以利執行？
 
-若要存取AutoSupport 有關供應功能的組態工作、請前往功能表：Support（支援中心）、然後按一下* AutoSupport 《*》索引標籤。
+若要存取 AutoSupport 交付方式的組態工作，請前往功能表：支援[AutoSupport]。
 
 支援下列通訊協定： HTTPS 和 SMTP 。
 
 
 
+[[how-do-i-know-if-i-should-accept-the-recommended-pool-configuration]]
 == 如何知道我是否應該接受建議的集區組態？
 
 是否接受建議的資源池組態取決於幾個因素。
@@ -75,6 +81,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 
+[[santricity-system-manager-has-not-detected-any-hosts-what-do-i-do]]
 == SANtricity 系統管理員未偵測到任何主機。我該怎麼辦？
 
 如果您沒有看到連線的主機、則表示自動偵測失敗、主機連線不正確、或是目前沒有連線任何主機。

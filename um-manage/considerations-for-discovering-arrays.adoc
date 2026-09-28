@@ -15,12 +15,14 @@ summary: 在Unified Manager能夠顯示及管理儲存資源之前、它必須�
 
 
 
+[[discovering-multiple-storage-arrays]]
 == 探索多個儲存陣列
 
 如果您選擇探索多個陣列、請輸入網路IP位址範圍、然後Unified Manager會嘗試個別連線至該範圍內的每個IP位址。任何已成功連線的儲存陣列都會顯示在「Discover（探索）」頁面上、並可新增至您的管理網域。
 
 
 
+[[discovering-a-single-storage-array]]
 == 探索單一儲存陣列
 
 如果您選擇探索單一陣列、請在儲存陣列中輸入其中一個控制器的單一IP位址、然後新增個別的儲存陣列。
@@ -32,12 +34,14 @@ Unified Manager只會探索並顯示指派給控制器之範圍內的單一IP位
 ====
 
 
+[[user-credentials]]
 == 使用者認證
 
 在探索過程中、您必須為每個要新增的儲存陣列提供管理員密碼。
 
 
 
+[[web-services-certificates]]
 == Web服務憑證
 
 在探索過程中、Unified Manager會驗證探索到的儲存陣列是否使用受信任來源的憑證。Unified Manager使用兩種類型的憑證型驗證來驗證其與瀏覽器建立的所有連線：

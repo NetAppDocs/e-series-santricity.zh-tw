@@ -15,6 +15,7 @@ summary: 對於存取管理、系統管理員可以使用陣列內嵌的安全�
 
 
 
+[[configuration-workflow]]
 == 組態工作流程
 
 SAML組態運作方式如下：
@@ -49,6 +50,7 @@ SAML組態運作方式如下：
 
 
 
+[[management]]
 == 管理
 
 使用SAML進行驗證時、系統管理員可以執行下列管理工作：
@@ -59,6 +61,7 @@ SAML組態運作方式如下：
 
 
 
+[[access-restrictions]]
 == 存取限制
 
 啟用 SAML 時、使用者無法從舊版 Storage Manager 介面探索或管理該陣列的儲存設備。

@@ -25,13 +25,13 @@ summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一�
 
 
 
+[[step-1-review-members-for-a-snapshot-volume]]
 == 步驟1：檢視快照磁碟區的成員
 
 選取基礎磁碟區的快照映像或快照一致性群組。如果您選取快照一致性群組快照映像、快照一致性群組的成員磁碟區就會出現以供檢閱。
 
 .步驟
-. 從左側面板中，選擇功能表：Storage[Snapshots]。
-. 選擇* Snapshot Volumes（快照卷）*選項卡。
+. 從左側面板中，選擇 menu:Snapshots[Snapshot 快照技術 Volume]。
 . 選擇* Create *（建立*）。
 +
 此時將出現Create Snapshot Volume（創建Snapshot Volume）對話框。
@@ -48,6 +48,7 @@ summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一�
 
 
 
+[[step-2-assign-snapshot-volume-to-host]]
 == 步驟2：將Snapshot Volume指派給主機
 
 選取特定的主機或主機叢集、將其指派給快照磁碟區。這項指派可讓主機或主機叢集存取快照Volume。如果需要、您可以選擇稍後指派主機。
@@ -90,6 +91,7 @@ summary: 您可以建立快照磁碟區、讓主機存取磁碟區或快照一�
 
 
 
+[[step-3-reserve-capacity-for-a-snapshot-volume]]
 == 步驟3：保留快照磁碟區的容量
 
 將保留容量與讀寫快照磁碟區建立關聯。System Manager會根據基礎磁碟區或快照一致性群組的內容、建議磁碟區和容量。您可以接受建議的保留容量組態、或自訂已配置的儲存設備。
@@ -130,6 +132,7 @@ Volume候選人表格僅顯示支援指定保留容量的候選對象。
 
 
 
+[[step-4-edit-settings-for-a-snapshot-volume]]
 == 步驟4：編輯快照磁碟區的設定
 
 變更快照磁碟區的設定、例如其名稱、快取、保留容量警示臨界值等。
@@ -156,7 +159,7 @@ Volume候選人表格僅顯示支援指定保留容量的候選對象。
  a| 
 名稱
  a| 
-指定快照磁碟區的名稱。
+指定快照 Volume 的名稱。Volume 名稱最多可包含 30 個字元。名稱必須是唯一的。
 
 
 

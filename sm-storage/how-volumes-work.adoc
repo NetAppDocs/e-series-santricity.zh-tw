@@ -19,6 +19,7 @@ Volume是唯一可讓主機看到的資料層。在SAN環境中、磁碟區會�
 
 
 
+[[volume-types-you-can-create-from-pools-and-volume-groups]]
 == 您可以從集區和Volume群組建立的Volume類型
 
 Volume會從資源池或磁碟區群組中抽取容量。您可以從儲存陣列上的集區或磁碟區群組建立下列類型的磁碟區。
@@ -48,6 +49,7 @@ EF80、EF50、EF600/EF600C 和 EF300/EF300C 儲存系統不支援精簡配置。
 ====
 
 
+[[characteristics-of-volumes]]
 == 磁碟區的特性
 
 集區或磁碟區群組中的每個磁碟區都可以根據儲存在其中的資料類型、擁有各自的特性。這些特性包括：

@@ -24,12 +24,14 @@ summary: 熱備援磁碟機在System Manager的RAID 1、RAID 5或RAID 6磁碟區
 
 
 
+[[how-to-identify-hot-spares]]
 == 如何識別熱備援磁碟機
 
 您可以透過「初始設定精靈」或「硬體」頁面指派熱備援磁碟機。若要判斷是否已指派熱備援磁碟機、請前往「硬體」頁面、尋找任何以粉色顯示的磁碟機支架。
 
 
 
+[[how-hot-spare-coverage-works]]
 == 熱備援保固範圍的運作方式
 
 熱備援涵蓋範圍如下：
@@ -49,6 +51,7 @@ summary: 熱備援磁碟機在System Manager的RAID 1、RAID 5或RAID 6磁碟區
 
 
 
+[[considerations-for-hot-spare-drive-capacity]]
 == 熱備援磁碟機容量的考量
 
 選取容量等於或大於您要保護之磁碟機總容量的磁碟機。例如、如果您的18GiB磁碟機已設定容量為8 GiB、則可使用9-GiB或更大的磁碟機作為熱備援磁碟機。一般而言、除非磁碟機的容量等於或大於儲存陣列中最大磁碟機的容量、否則請勿將其指派為熱備援磁碟機。
@@ -60,12 +63,14 @@ summary: 熱備援磁碟機在System Manager的RAID 1、RAID 5或RAID 6磁碟區
 ====
 
 
+[[considerations-for-media-and-interface-types]]
 == 媒體和介面類型的考量
 
 作為熱備援磁碟機的磁碟機必須與要保護的磁碟機共用相同的媒體類型和介面類型。例如、HDD磁碟機無法做為SSD磁碟機的熱備援磁碟機。
 
 
 
+[[considerations-for-secure-capable-drives]]
 == 安全型磁碟機的考量
 
 具有安全功能的磁碟機（例如FDE或FIPS）可做為具有或不具有安全功能的磁碟機的熱備援磁碟機。但是、不具備安全功能的磁碟機、無法作為具有安全功能的磁碟機的熱備援磁碟機。
@@ -79,6 +84,7 @@ summary: 熱備援磁碟機在System Manager的RAID 1、RAID 5或RAID 6磁碟區
 ====
 
 
+[[recommended-number-of-hot-spare-drives]]
 == 建議的熱備援磁碟機數量
 
 如果您使用初始設定精靈自動建立熱備援磁碟機、系統管理員會針對每30個特定媒體類型和介面類型的磁碟機、建立一個熱備援磁碟機。否則、您可以在儲存陣列的磁碟區群組之間手動建立熱備援磁碟機。

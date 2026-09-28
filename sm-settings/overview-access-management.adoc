@@ -16,6 +16,7 @@ summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建
 
 
 
+[[what-authentication-methods-are-available]]
 == 有哪些驗證方法可用？
 
 驗證方法包括RBAC（角色型存取控制）、目錄服務和安全聲明標記語言（SAML）：
@@ -37,9 +38,10 @@ summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建
 
 
 
+[[how-do-i-configure-authentication]]
 == 如何設定驗證？
 
-儲存陣列已預先設定為使用本機使用者角色、這是RBAC功能的實作。如果您想要設定不同的方法、請前往功能表：「Settings[Access Management]（設定[存取管理]）」。
+儲存陣列已預先設定為使用本機使用者角色，這是 RBAC 功能的實作。如果您要設定不同的方法，請前往 menu:驗證[]。
 
 深入瞭解：
 
@@ -49,6 +51,7 @@ summary: 存取管理是SANtricity 一種在《Sytricity System Manager》中建
 
 
 
+[[related-information]]
 == 相關資訊
 
 深入瞭解與存取管理相關的工作：

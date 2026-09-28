@@ -15,6 +15,7 @@ summary: 可從多種瀏覽器和作業系統中存取。SANtricity
 
 
 
+[[browsers]]
 == 瀏覽器
 
 支援下列瀏覽器和版本。
@@ -58,6 +59,7 @@ Microsoft Edge
 ====
 
 
+[[operating-systems]]
 == 作業系統
 
 支援下列作業系統與版本。

@@ -24,12 +24,14 @@ EF80、EF50、EF600/EF600C 或 EF300/EF300C 儲存陣列不提供同步鏡像。
 
 
 
+[[synchronous-mirroring-relationship]]
 == 同步鏡射關係
 
 同步鏡射關係是由主磁碟區和獨立儲存陣列上的次要磁碟區所組成。包含主磁碟區的儲存陣列通常位於主站台、並為作用中主機提供服務。包含次要磁碟區的儲存陣列通常位於次要站台、並擁有資料的複本。如果主要磁碟區的儲存陣列因為完全停電、火災或主要站台的硬體故障而無法使用、則會使用次要磁碟區。
 
 
 
+[[synchronous-mirroring-session]]
 == 同步鏡射工作階段
 
 同步鏡射組態程序涉及將磁碟區組態為成對。建立鏡射配對（由一個儲存陣列上的主要磁碟區和另一個儲存陣列上的次要磁碟區組成）之後、即可啟動同步鏡射。同步鏡射的步驟如下所示。
@@ -49,6 +51,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步鏡射工作階段
 
 
 
+[[disaster-recovery]]
 == 災難恢復
 
 同步鏡射會維護資料複本、該複本與資料所在的站台實體距離較遠。如果主站台發生災難、例如停電或水災、則可從次站台快速存取資料。
@@ -57,6 +60,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步鏡射工作階段
 
 
 
+[[synchronization-settings]]
 == 同步處理設定
 
 建立鏡射配對時、您也可以定義同步優先順序和重新同步原則、鏡射配對會在通訊中斷後、用來完成重新同步作業。
@@ -69,6 +73,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步鏡射工作階段
 
 
 
+[[unsynchronized-data]]
 == 非同步化資料
 
 當主要磁碟區的儲存陣列無法將資料寫入次要磁碟區時、主要和次要磁碟區會變成不同步。這可能是因為下列問題所造成：
@@ -80,6 +85,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步鏡射工作階段
 
 
 
+[[orphaned-mirrored-pair]]
 == 孤立的鏡射配對
 
 當某個成員磁碟區已從一端移除（主端或次要端）、但未在另一端移除時、就會出現孤立的鏡射配對磁碟區。
@@ -90,6 +96,7 @@ image::../media/sam-1130-dwg-sync-mirroring-session.gif[同步鏡射工作階段
 
 
 
+[[configuration-and-management]]
 == 組態與管理
 
 若要在兩個陣列之間啟用及設定鏡射、您必須使用Unified Manager介面。啟用鏡射之後、您就可以在System Manager中管理鏡射配對和同步設定。

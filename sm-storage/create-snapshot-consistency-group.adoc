@@ -23,6 +23,7 @@ summary: 為了確保複本一致、您可以建立一組多個磁碟區、稱�
 
 
 
+[[step-1-add-members-to-snapshot-consistency-group]]
 == 步驟1：新增成員至Snapshot一致性群組
 
 選取成員以指定組成快照一致性群組的磁碟區集合。您在快照一致性群組上執行的任何動作、都會統一延伸至所選的成員磁碟區。
@@ -31,18 +32,18 @@ summary: 為了確保複本一致、您可以建立一組多個磁碟區、稱�
 成員磁碟區必須處於最佳狀態。
 
 .步驟
-. 從左側面板中，選擇功能表：Storage[Snapshots]。
-. 單擊* Snapshot Consistency Group*（*快照一致性組*）選
+. 從左側面板中，選取 menu:Snapshots[Snapshot 快照技術一致性群組]。
 . 選取功能表：Create [Snapshot Consistency group（建立[ Snapshot一致性群組]）
 +
 此時將出現Create Snapshot Consistency Group（創建Snapshot一致性組）對話框。
 
-. 選取要新增為成員磁碟區的磁碟區至快照一致性群組。
+. 尋找要新增為 Snapshot 一致性群組成員 Volume 的 Volume。
 . 按一下*下一步*、然後前往 <<步驟2：保留快照一致性群組的容量>>。
 
 
 
 
+[[step-2-reserve-capacity-for-snapshot-consistency-group]]
 == 步驟2：保留快照一致性群組的容量
 
 將保留容量與快照一致性群組建立關聯。System Manager會根據快照一致性群組的內容來建議磁碟區和容量。您可以接受建議的保留容量組態、或自訂已配置的儲存設備。
@@ -74,6 +75,7 @@ summary: 為了確保複本一致、您可以建立一組多個磁碟區、稱�
 
 
 
+[[step-3-edit-settings-for-snapshot-consistency-group]]
 == 步驟3：編輯快照一致性群組的設定
 
 接受或選擇快照一致性群組的自動刪除設定和保留容量警示臨界值。

@@ -15,6 +15,7 @@ summary: 系統管理員可以使用SANtricity 在NetApp Unified Manager中強�
 
 
 
+[[configuration-workflow]]
 == 組態工作流程
 
 本機使用者角色是在系統中預先設定的。若要使用本機使用者角色進行驗證、系統管理員可以執行下列動作：
@@ -33,6 +34,7 @@ summary: 系統管理員可以使用SANtricity 在NetApp Unified Manager中強�
 
 
 
+[[management]]
 == 管理
 
 只使用本機使用者角色進行驗證時、系統管理員可以執行下列管理工作：
