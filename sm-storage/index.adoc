@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity System Manager 12.10
+= 了解 SANtricity System Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, remove, directory, server 
 summary: 若要中斷目錄伺服器與Web服務Proxy之間的連線、您可以從「存取管理」頁面移除伺服器資訊。如果您設定了新的伺服器、然後想要移除舊的伺服器、則可能需要執行此工作。 
 ---
-= 移除目錄伺服器
+= 在 SANtricity Unified Manager 中移除目錄伺服器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -24,7 +24,7 @@ summary: 若要管理儲存資源、您必須先探索網路中的儲存陣列�
 
 * link:considerations-for-discovering-arrays.html["探索陣列的考量事項"]
 * link:discover-multiple-arrays.html["探索多個儲存陣列"]
-* link:discover-single-array.html["探索單一陣列"]
+* link:discover-single-array.html["探索單一儲存陣列"]
 
 
 
@@ -40,5 +40,5 @@ summary: 若要管理儲存資源、您必須先探索網路中的儲存陣列�
 
 * link:launch-considerations.html["存取System Manager的考量事項"]
 * link:launch-system-manager.html["管理個別的儲存陣列"]
-* link:storage-array-status.html["檢視儲存陣列狀態"]
+* link:storage-array-status.html["儲存陣列狀態"]
 

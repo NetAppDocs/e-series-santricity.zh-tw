@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, import, certificates, 
 summary: 如果控制器因為無法驗證網路伺服器的信任鏈而拒絕連線，您可以從「受信任的憑證」頁面匯入憑證，允許控制器（作為用戶端）接受來自該伺服器的通訊。 
 ---
-= 在 SANtricity System Manager 中充當客戶端時導入控制器的憑證
+= 在 SANtricity System Manager 中為用戶端控制器匯入受信任憑證
 :allow-uri-read: 
 :experimental: 
 :icons: font

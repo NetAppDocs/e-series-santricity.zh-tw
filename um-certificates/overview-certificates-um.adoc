@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, certificate management 
 summary: 「憑證管理」可讓您建立憑證簽署要求（CSR）、匯入憑證、以及管理現有的憑證。 
 ---
-= 憑證總覽
+= 了解 SANtricity Unified Manager 中的憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

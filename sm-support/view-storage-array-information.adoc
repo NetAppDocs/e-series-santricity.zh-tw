@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, storage, array, 
 summary: 您可以檢視儲存陣列的設定檔、以及儲存陣列中每個元件的韌體版本。 
 ---
-= 在 SANtricity System Manager 中查看儲存陣列的信息
+= SANtricity System Manager 中的儲存陣列資訊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

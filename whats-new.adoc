@@ -16,6 +16,13 @@ summary: 更新功能。SANtricity
 
 
 
+[[new-features-in-version-12-10r1]]
+== Version 12.10R1 版本新增功能
+
+此版本僅包含少量變更，沒有新功能。如需此版本變更的詳細資訊，請參閱 E-Series SANtricity OS 12.10R1 README。
+
+
+
 [[new-features-in-version-12-10]]
 == 12.10 版的新功能
 
@@ -131,6 +138,6 @@ NOTE: 新的使用者介面目前僅適用於採用 SANtricity 12.00 版本的 E
  a| 
 SANtricity System Manager 現已提供指令碼編輯器
  a| 
-SANtricity System Manager 中現已提供全新的腳本編輯器。腳本編輯器可讓您建立或編輯腳本檔案、將腳本檔案儲存至儲存管理站的本機磁碟，或從磁碟載入腳本檔案。腳本編輯器提供語法檢查和命令執行功能，方便您管理儲存系統。如需更多資訊，請參閱 link:sm-support/use-script-editor.html["使用腳本編輯器"^]。
+SANtricity System Manager 中現已提供全新的腳本編輯器。腳本編輯器可讓您建立或編輯腳本檔案、將腳本檔案儲存至儲存管理站的本機磁碟，或從磁碟載入腳本檔案。腳本編輯器提供語法檢查和命令執行功能，方便您管理儲存系統。如需詳細資訊，請參閱 link:sm-support/use-script-editor.html["在 SANtricity System Manager 中使用指令碼編輯器"^]。
 
 |===

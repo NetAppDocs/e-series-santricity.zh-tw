@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, settings 
 summary: 您可以編輯 SSD Cache 的設定。目前 SSD Cache 的設定可透過「檢視設定」選項存取。 
 ---
-= 在 SANtricity System Manager 中變更 SSD 快取設置
+= 在 SANtricity System Manager 中變更 SSD 快取設定
 :allow-uri-read: 
 :experimental: 
 :icons: font

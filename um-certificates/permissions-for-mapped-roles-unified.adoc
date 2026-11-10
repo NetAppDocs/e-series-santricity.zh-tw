@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, permissions, mapped, roles 
 summary: RBAC（角色型存取控制）功能包括預先定義的使用者、其中有一或多個角色對應至他們。每個角色都包含存取SANtricity 功能、可在「統一化管理程式」中存取工作。 
 ---
-= 對應角色的權限
+= SANtricity Unified Manager 中對應角色的權限
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

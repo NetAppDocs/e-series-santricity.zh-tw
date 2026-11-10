@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, mirroring, synchronously, 
 summary: 您可以使用下列工作流程來設定同步鏡射。 
 ---
-= 在 SANtricity 軟體中同步鏡像卷
+= SANtricity 軟體的同步鏡射工作流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

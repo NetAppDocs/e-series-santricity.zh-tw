@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, host, creation, volume, assignment 
 summary: 下圖說明如何設定主機存取。 
 ---
-= SANtricity System Manager 中的主機建立和磁碟區分配的工作原理
+= SANtricity System Manager 中的主機建立和 Volume 分配工作流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

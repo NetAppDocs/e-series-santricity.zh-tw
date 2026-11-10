@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: 如果您只是想要快速回答問題、這個常見問題集就能幫上忙。 
 ---
-= SANtricity System Manager 非同步鏡像常見問題解答
+= SANtricity System Manager 非同步鏡射常見問題解答
 :allow-uri-read: 
 :experimental: 
 :icons: font
