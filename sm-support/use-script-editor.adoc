@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, script editor, script file, execute script 
 summary: 使用 Script 編輯器建立或編輯腳本檔案、將腳本檔案儲存至儲存管理站的本機磁碟，或從磁碟載入腳本檔案。 
 ---
-= 在 SANtricity System Manager 中使用指令碼編輯器
+= 使用腳本編輯器
 :allow-uri-read: 
 :experimental: 
 :icons: font

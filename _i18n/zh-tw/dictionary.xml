@@ -8998,139 +8998,124 @@
   <block id="9058b34022122c78e9a4a4d9c48a5b78" category="sidebar">SANtricity 軟體 12.10 文件</block>
   <block id="484059fb06cc5d8441498bee89fda7f0" category="sidebar">使用 SANtricity System Manager 12.10 進行單陣列管理</block>
   <block id="1f83597d32022fe75587024ad625d4e2" category="sidebar">SANtricity 軟體 12.10 文件</block>
-  <block id="134432d9b45ecd0bcdd7b7c60bd89da4" category="doc">在 SANtricity System Manager 中設定遠端登入</block>
-  <block id="6f2c8150d0541f6d3d80fd1a169388e7" category="doc">在 SANtricity System Manager 中設定管理連接埠</block>
-  <block id="927b4dde35df16413982ab0976a77c09" category="doc">了解 SANtricity System Manager 中的 IP 位址分配</block>
-  <block id="5adae37ff25d36c6049a940a86676ee1" category="doc">了解 SANtricity System Manager 中的硬體頁面</block>
-  <block id="61a3838bcd7ac35c7c9ce40cc761200e" category="doc">了解 SANtricity System Manager 中使用的硬體術語</block>
-  <block id="70d924eca8845b61b1cdd970867f402d" category="doc">SANtricity System Manager 中的硬體元件</block>
-  <block id="6607ffaeb29ed452100e0c7be07cfd1b" category="doc">在 SANtricity System Manager 中初始化和格式化磁碟機</block>
-  <block id="cd7ee85ab0133b77bee2a0af986ef781" category="doc">使用 SANtricity System Manager 將控制器置於服務模式</block>
-  <block id="dd3ed70dcea5a4d788ac339495ccfaec" category="doc">在 SANtricity System Manager 中重設控制器</block>
-  <block id="c6d38bd42c7753a502dbfcc3e64a4e68" category="doc">了解 SANtricity System Manager 中的固態硬碟</block>
-  <block id="2a23eef8c145213f4060c0554e5e6b7b" category="doc">了解 SANtricity System Manager 中的密碼保護</block>
-  <block id="cd232f63ed0f060fa350ea1b26df4363" category="doc">了解 SANtricity System Manager</block>
-  <block id="a9735a04dc71a7db46a174ac8ccda166" category="doc">SANtricity System Manager 操作進行中頁面</block>
-  <block id="084874d5f181b81b23ffbd59e3d4a668" category="doc">使用 SANtricity System Manager 中的 Recovery Guru 從問題中恢復</block>
-  <block id="921c144f48ef3893455fcdb6decb4ba0" category="doc">查看並處理 SANtricity System Manager 正在進行的操作</block>
-  <block id="ba6f63b2cab2a580f8dd18519f0edbd7" category="doc">SANtricity System Manager 中的儲存設備層次結構</block>
-  <block id="5888e1873e32110f9f832a166fc0f6b6" category="doc">SANtricity System Manager 中的非同步鏡射狀態</block>
-  <block id="f098bcbdba1a541d53b204f22655fefa" category="doc">SANtricity 軟體中的非同步鏡射術語</block>
-  <block id="8f8561ca1fde03428626df6a44e63942" category="doc">在 SANtricity System Manager 中變更鏡射一致性群組角色</block>
-  <block id="2378ab2eda4ec14e25f5b46cd1c7559c" category="doc">變更 SANtricity System Manager 鏡射對中的 Volume 角色</block>
-  <block id="55be868d2ebe435e831bab0a220aa3b0" category="doc">在 SANtricity System Manager 中變更鏡射一致性群組同步設定</block>
-  <block id="8055d362c1c525a7880f1859b9d441ac" category="doc">在 SANtricity System Manager 中變更鏡射配對同步設定</block>
-  <block id="4637b68ca7ff918b4e4bf5ac658d2547" category="doc">在 SANtricity System Manager 中變更鏡射對 Volume 的預留容量設定</block>
-  <block id="0a19af6efe6a2a449d9dcd507afb17ea" category="doc">在 SANtricity System Manager 中為傳統主要 Volume 完成鏡射對</block>
-  <block id="ad5437cc669ff0015f8db812b4a4edbf" category="doc">SANtricity System Manager 非同步鏡射常見問題解答</block>
-  <block id="678dcb8b934bcfee6023f4387ecc5edc" category="doc">SANtricity System Manager 同步鏡射常見問題解答</block>
-  <block id="27dd2829274cb731d86fdfff738a32aa" category="doc">了解 SANtricity System Manager 中的鏡射</block>
-  <block id="ede0c36dbf5f30fc169cec99857a1440" category="doc">了解 SANtricity System Manager 中的非同步鏡射</block>
-  <block id="7a6d62a7461954e464c86505d6a8c7d4" category="doc">了解 SANtricity System Manager 中的同步鏡射</block>
-  <block id="191e76d66a912905e157f9225d8e3186" category="doc">在 SANtricity System Manager 中手動重新同步鏡射一致性群組</block>
-  <block id="2025435a1266219220e858696a963e70" category="doc">SANtricity 軟體中鏡射一致性群組角色變更的工作原理</block>
-  <block id="d107764a4f14ba79357c932a2e8fe251" category="doc">在 SANtricity System Manager 中暫停或繼續鏡射對同步</block>
-  <block id="5158ed7e99a63d68a703740e281ca5b3" category="doc">在 SANtricity System Manager 中暫停或繼續鏡射一致性群組同步</block>
-  <block id="2b1f465833d7101e5ea6946c576c9590" category="doc">SANtricity System Manager 中的同步鏡射狀態</block>
-  <block id="af47f4e1076312f48bf60c1509779628" category="doc">SANtricity 軟體中的同步鏡射術語</block>
-  <block id="ca68d7f80a0ebedb5b7bd3b981f01410" category="doc">SANtricity 軟體的非同步鏡射工作流程</block>
-  <block id="8954c73d912d880bf588530889efb774" category="doc">SANtricity 軟體的同步鏡射工作流程</block>
-  <block id="556d06cd51a88ddf44ea0610f7d83950" category="doc">了解 SANtricity System Manager 中的存取權杖</block>
-  <block id="68eb179a14037e17ab457b9bdc0dee21" category="doc">SANtricity System Manager 中的目錄服務存取管理</block>
-  <block id="b71dd4c1e9beff6bd6d4c63728b656bd" category="doc">SANtricity System Manager 中的本機使用者角色存取管理</block>
-  <block id="9f61df96f208c62b0160a6ea16391412" category="doc">在 SANtricity System Manager 中使用 SAML 進行存取管理</block>
-  <block id="c7d61109369977053daf9c88d1108e8e" category="doc">下載 SANtricity 命令列介面</block>
-  <block id="95a98b3c6e0c5954da4c7e8b96a3ac5a" category="doc">在 SANtricity System Manager 中啟用功能套件</block>
-  <block id="464f8a9d64784984a543eae9182df875" category="doc">在 SANtricity System Manager 中啟用或停用資源配置</block>
-  <block id="1fd0a1d54f4bd06351fb76e8eca332ad" category="doc">在 SANtricity System Manager 中為用戶端控制器匯入受信任憑證</block>
-  <block id="a934f0d06ea2342378e1380857519549" category="doc">了解 SANtricity System Manager 中的設定</block>
-  <block id="1ccffe90f1de4d408d38bf20da51c899" category="doc">SANtricity System Manager 中對應角色的權限</block>
-  <block id="039788d1864b684f87346f59bfa4d739" category="doc">在 SANtricity System Manager 中移除目錄伺服器</block>
-  <block id="3453a28d38c4cafd145716ec592d395d" category="doc">在 SANtricity System Manager 中切換至內部金鑰管理</block>
-  <block id="b470a793f075a7fcfcfc9659dc234c58" category="doc">在 SANtricity System Manager 中使用 CA 簽署的憑證進行金鑰管理伺服器驗證</block>
-  <block id="1331920238f82433bb6db7793528c5ea" category="doc">在 SANtricity System Manager 中驗證安全性金鑰</block>
-  <block id="d2a1754e8e06bfe5612c3beea7f405ff" category="doc">在 SANtricity System Manager 中將 Volume 新增至 Snapshot 快照技術一致性群組</block>
-  <block id="0e69962765f06e747fa32fbef5ca2dfa" category="doc">SANtricity System Manager 中的自動與手冊資源池建立</block>
-  <block id="02b225176109d9c377facad88362e99a" category="doc">SANtricity System Manager 中的基本 Volume、預留容量和 Snapshot 快照技術群組</block>
-  <block id="d192a83ef8925f54fdcf0c16c0e7b299" category="doc">在 SANtricity System Manager 中取消 Snapshot 快照技術映像回滾</block>
-  <block id="7e918b0d2faea692d326e3756220b310" category="doc">SANtricity System Manager 如何為 Volume 分配容量</block>
-  <block id="f54321e06c768597eebe0dcc72e489c0" category="doc">SANtricity System Manager 中的容量術語</block>
-  <block id="32a3b11ed3463df61dc16477437d8a24" category="doc">在 SANtricity System Manager 中變更 SSD 快取設定</block>
-  <block id="56192af025cdf48a354c62c853f30e54" category="doc">在 SANtricity System Manager 中變更 Snapshot 快照技術 Volume 設定</block>
-  <block id="fab94fed7dca6dc66cfc6ab1f0f5c05e" category="doc">SANtricity System Manager 中的 Thick Volume 和 Thin Volume</block>
-  <block id="3d2c4b5356c5b86167b6a15f009e24e5" category="doc">在 SANtricity System Manager 中將快照 Volume 轉換為讀寫模式</block>
-  <block id="9083ead8449c448c781abfe6b54610f4" category="doc">在 SANtricity System Manager 中建立 SSD 快取</block>
-  <block id="b5b04b6393f18dbf0e62bd2b4dd834a8" category="doc">了解 SANtricity System Manager Volume 的資料完整性和安全性</block>
-  <block id="3c54e1c53a0dc4c38d81725a8da18c12" category="doc">在 SANtricity System Manager 中啟用或停用現有 Volume 上的資源配置</block>
-  <block id="00c222b3c27caa065f2548538948419d" category="doc">使用 SANtricity CLI 匯出和匯入 Volume 群組</block>
-  <block id="60515e9f325b01561c9a2ed474128036" category="doc">SANtricity 軟體中的主機術語</block>
-  <block id="7c2e93916c4a983be9790eb66bf04cf6" category="doc">SANtricity System Manager 如何將 Volume 指派給主機和主機叢集</block>
-  <block id="c5f2b72a092ee991678a3b63fb135375" category="doc">SANtricity System Manager 中的工作負載如何運作</block>
-  <block id="bfddbb4a8974ff568ad18a38fda4dfc1" category="doc">SANtricity System Manager 中的效能計量及其影響</block>
-  <block id="eee1145d1428056283f791bad1763d47" category="doc">在 SANtricity System Manager 中變更主機 I/O 模組協定</block>
-  <block id="6bedb5cbd20ea6f758277a771f0d9619" category="doc">SANtricity System Manager 中的應用程式和工作負載</block>
-  <block id="24cc6fafa46a4c4c80d12d135f962c9b" category="doc">了解 SANtricity System Manager 中 LUN 的最大數量</block>
-  <block id="b89ee3f3429b4e7847dbed9539b56934" category="doc">了解 SANtricity System Manager 中的效能監控</block>
-  <block id="d819f2c17c60edea453d123633ebd19c" category="doc">SANtricity System Manager 中的效能圖表與指南</block>
-  <block id="ecb13a670ce0aca336bd52c59d8f9a27" category="doc">SANtricity 軟體中的效能術語</block>
-  <block id="fa147213586cc32c79ffab9d58b400ed" category="doc">在 SANtricity System Manager 中從資源池或 SSD 快取中移除容量</block>
-  <block id="a2bd31be59cb17391b08f73dc83aae2b" category="doc">在 SANtricity System Manager 中從 Snapshot 快照技術一致性群組中移除 Volume</block>
-  <block id="5cd5c8220f13f98d2fe6b292135e29ae" category="doc">SANtricity System Manager 中的遠端儲存設備運作原理</block>
-  <block id="8bfc191572da98279c6c9c0513469753" category="doc">在 SANtricity System Manager 中修改遠端儲存設備連線設定</block>
-  <block id="ca288818744ef5728748d41b6c613b9d" category="doc">SANtricity 軟體中的遠端儲存設備功能需求</block>
-  <block id="a243a7b5acda9122ef1699d6d1dc6103" category="doc">SANtricity 軟體中的遠端儲存設備 Volume 要求</block>
-  <block id="fe755a1a0856a898707f25e7afd31925" category="doc">SANtricity 軟體中的遠端儲存術語</block>
-  <block id="ddb40ea2e71917899406465ddab6b266" category="doc">了解 SANtricity System Manager 中的 Snapshot 快照技術排程和一致性群組</block>
-  <block id="29e61858c276e79b0402d85b037c18a7" category="doc">SANtricity 軟體中的 Snapshot 快照技術術語</block>
-  <block id="e2ebe859b5713ea8bb2f4a44408b9309" category="doc">在 SANtricity System Manager 中開啟資源池、Volume 群組或 SSD 快取的定位指示燈</block>
-  <block id="776f5784462b72c4d773b46e42ad192f" category="doc">SANtricity System Manager 中的 Volume 術語</block>
-  <block id="6cffc95c43f10dad2ccd290c79c89cf2" category="doc">了解 SANtricity System Manager 中的複本服務</block>
-  <block id="4a7b7b8c4bd59cf364756c6ed8442f82" category="doc">SANtricity System Manager 中的主機建立和 Volume 分配工作流程</block>
-  <block id="76d433aabf7d2457b9020c23d5e36443" category="doc">SANtricity System Manager 中的 Snapshot 快照技術映像和 Snapshot 快照技術 Volume 建立工作流程</block>
-  <block id="cb957be371f4decf5b339d4cc8a4121b" category="doc">SANtricity System Manager 中的 Volume 建立工作流程</block>
-  <block id="fa4a43d6200d6d180038f666f189f163" category="doc">了解 SANtricity System Manager 中的 AutoSupport</block>
-  <block id="c76bd70d7abee16e78ad80f656dec63f" category="doc">清除 SANtricity System Manager 中的恢復模式</block>
-  <block id="27fd826d33043052db377eea34000de6" category="doc">SANtricity System Manager 中的支援</block>
-  <block id="f731c4e3b43815425b588e377f8b8bc1" category="doc">了解 SANtricity System Manager 中的事件記錄</block>
-  <block id="87f3ce8d204b0e323026384d3bd0d9aa" category="doc">了解 SANtricity System Manager 中的支援</block>
-  <block id="d6f46d0217af5fd0a99ad24839f9525f" category="doc">了解如何使用 SANtricity System Manager 進行升級</block>
-  <block id="2a94eba180a711a184d2fd7931e69678" category="doc">在 SANtricity System Manager 中檢索健全狀況映像</block>
-  <block id="e06497835b2b7382a8895553a3db5d8b" category="doc">SANtricity System Manager 中的軟體和韌體升級錯誤</block>
-  <block id="d3befcf90191b6f16d3a22220a61e39b" category="doc">在 SANtricity System Manager 中使用指令碼編輯器</block>
-  <block id="655af2da0ba012c2c8a9a88cb897b759" category="doc">SANtricity System Manager 中的儲存陣列資訊</block>
-  <block id="e68263bc0480a6d1e0655715e366dabc" category="doc">適用於 SANtricity System Manager 的 AutoSupport 組態工作流程</block>
-  <block id="f30f830df378d2c8989c81556f2c4764" category="summary">了解 SANtricity Unified Manager 管理</block>
-  <block id="47f0413cb20bb8e14a5ffff0eaadaa09" category="doc">SANtricity Unified Manager 中的存取管理術語</block>
-  <block id="4757289a5855c9f1c7db68000325786c" category="doc">在 SANtricity Unified Manager 中新增目錄伺服器</block>
-  <block id="6b5418b89a39f915692d8e34cfd942a6" category="doc">SANtricity Unified Manager 中的憑證術語</block>
-  <block id="9637827307b29627dc2238af9725a5d6" category="doc">了解 SANtricity Unified Manager 中的憑證管理</block>
-  <block id="a7ecf1553995da3d2743c22262c37124" category="doc">了解 SANtricity Unified Manager 中的憑證</block>
-  <block id="b5f1b67c06b7b544f96a6bbdad051ccb" category="doc">SANtricity Unified Manager 中對應角色的權限</block>
-  <block id="5a209d7dbfa459b30592ced09cdeec87" category="doc">在 SANtricity Unified Manager 中移除目錄伺服器</block>
-  <block id="9d2c2b0302cfbfb3c67b05135a735b12" category="doc">在 SANtricity Unified Manager 中重設管理憑證</block>
-  <block id="5bf7980117541c59631c0a16238f41ae" category="doc">解決 SANtricity Unified Manager 中的不受信任憑證問題</block>
-  <block id="05c5f1fcfe8cc31fab357e37d4775802" category="doc">為 SANtricity Unified Manager 使用 CA 簽署的憑證</block>
-  <block id="c1007a9b27f844c6cfb5b9721fc0d3d7" category="doc">在 SANtricity Unified Manager 中檢視憑證</block>
-  <block id="9fa5838c036e41275620f4416d7f3ccc" category="doc">在 SANtricity Unified Manager 中檢視本機使用者角色</block>
-  <block id="481a1eb5d00f26554de764845060834c" category="doc">在 SANtricity Unified Manager 中探索單一儲存陣列</block>
-  <block id="477e7370a4b5379f602b1304b1cf7e15" category="doc">SANtricity Unified Manager 中的匯入設定功能如何運作</block>
-  <block id="579042bf24fd7fde9d7627d9ecf70af7" category="doc">在 SANtricity Unified Manager 中鏡射組態工作流程</block>
-  <block id="e878e800e48b5fa2852ca7f54fb327e7" category="doc">SANtricity Unified Manager 中的鏡像術語</block>
-  <block id="29da77c52eafcba541581a388cd664a9" category="doc">了解如何在 SANtricity Unified Manager 中匯入設定</block>
-  <block id="e2fdda3387120d1171ee4244ec5b44ce" category="inline-link-macro">匯入設定功能的運作方式</block>
-  <block id="03f5ec10608e982c1558044d901b338b" category="list-text"><block ref="03f5ec10608e982c1558044d901b338b" category="inline-link-macro-rx"></block></block>
-  <block id="310a91e54737c4ae8df21da5af91b19f" category="inline-link-macro">儲存設備組態複寫要求</block>
-  <block id="5319c9afb1aeefc2270bda11ebaf9791" category="list-text"><block ref="5319c9afb1aeefc2270bda11ebaf9791" category="inline-link-macro-rx"></block></block>
-  <block id="53e23b1768e32229c0ee10904e25f9c7" category="doc">了解 SANtricity Unified Manager 中的陣列群組</block>
-  <block id="62fa16231fa8e76394efd72b5b3c2e66" category="inline-link-macro">鏡像組態工作流程</block>
-  <block id="17371bd83c772c10f3243d7e49b98b70" category="list-text"><block ref="17371bd83c772c10f3243d7e49b98b70" category="inline-link-macro-rx"></block></block>
-  <block id="a0506609f1afca5d8ba269ec071ce896" category="inline-link-macro">探索單一儲存陣列</block>
-  <block id="90a265ac1f01d3273097d6ed7a2e35cb" category="list-text"><block ref="90a265ac1f01d3273097d6ed7a2e35cb" category="inline-link-macro-rx"></block></block>
-  <block id="2b3d2d1b872ee0e8f27ff39b8e81bd98" category="list-text"><block ref="2b3d2d1b872ee0e8f27ff39b8e81bd98" category="inline-link-macro-rx"></block></block>
-  <block id="1dbfa2854295a031cae67e2c27b8d7f7" category="doc">SANtricity Unified Manager 中的儲存組態複寫需求</block>
-  <block id="63b0ef9396e6fdd1ebe4ed0ac96a0b88" category="doc">SANtricity Unified Manager 中的儲存陣列狀態</block>
-  <block id="3e3ab97da43f9cbbde4f710dc1523d3a" category="doc">了解如何使用 SANtricity Unified Manager 升級儲存陣列</block>
-  <block id="712baff1701c605dfc39f4e5da7d934e" category="section-title">Version 12.10R1 版本新增功能</block>
-  <block id="9bee6f4318d6dc6bfd57ef5376da8437" category="paragraph">此版本僅包含少量變更，沒有新功能。如需此版本變更的詳細資訊，請參閱 E-Series SANtricity OS 12.10R1 README。</block>
-  <block id="534d737e3b11a0c1ecc6be448beff492" category="paragraph">SANtricity System Manager 中現已提供全新的腳本編輯器。腳本編輯器可讓您建立或編輯腳本檔案、將腳本檔案儲存至儲存管理站的本機磁碟，或從磁碟載入腳本檔案。腳本編輯器提供語法檢查和命令執行功能，方便您管理儲存系統。如需詳細資訊，請參閱 <block ref="c89b24f343925323abf5bc404bade770" category="inline-link-macro-rx"></block>。</block>
+  <block id="e696b5c8159d83bd1e0c9466e8dc6569" category="doc">在 SANtricity System Manager 中設定遠端登入（SSH）</block>
+  <block id="818b0e2fc3aea06067d74bb4f780f6b9" category="doc">在 SANtricity System Manager 中設定管理連接埠</block>
+  <block id="a5b238fa2c3059fafa096070c01245a3" category="doc">了解 E 系列控制器的 IP 位址分配</block>
+  <block id="4e93b8b944e5c04bea9b9d1730a25d24" category="doc">SANtricity System Manager 硬體頁面和元件</block>
+  <block id="4dc44f8dbe6ad59382a81af1f307e488" category="doc">了解 SANtricity 軟體中使用的硬體術語</block>
+  <block id="a4db80cf14327a39f06d517d526b499b" category="doc">在 SANtricity System Manager 中初始化（格式化）磁碟機</block>
+  <block id="bc002fb1c00b485cb67eb27376711964" category="doc">在 SANtricity System Manager 中將控制器置於服務模式</block>
+  <block id="625d3b8a8a0203cf44e0f6efaf6a34ea" category="doc">在 SANtricity System Manager 中重設（重新開機）控制器</block>
+  <block id="4e9beac4b22e622f0d3183b6f9575a00" category="doc">在 SANtricity 系統管理員中了解固態硬碟 (SSD)</block>
+  <block id="69985995523c2d426b66408d7daed125" category="doc">在 SANtricity System Manager 中管理密碼保護</block>
+  <block id="5c32253d600042425394ed5980d9be38" category="doc">了解 SANtricity System Manager 操作進行中頁面</block>
+  <block id="84c667f2d1e6dc3b9cfc907f53006d6b" category="doc">使用 SANtricity System Manager Recovery Guru 從問題中恢復</block>
+  <block id="cdc0f9266381611530583b5dbc95a241" category="doc">在 SANtricity System Manager 中檢視和處理正在進行的作業</block>
+  <block id="da92aaa9d58d31bf3512ac56ae148a38" category="doc">在 SANtricity System Manager 中檢視儲存階層</block>
+  <block id="f9b276c09a9e51a75340fb1dfc3ed5b3" category="doc">在 SANtricity System Manager 中檢視非同步鏡像狀態</block>
+  <block id="b20236a95c5f1bc7346a4ac7f1eebdd7" category="doc">了解 SANtricity 軟體中的非同步鏡像術語</block>
+  <block id="27c9d2020a7ee9c9a172785caee2aa42" category="doc">在 SANtricity System Manager 中，將鏡像一致性群組角色變更為主角色或輔助角色</block>
+  <block id="17823d78ef73f722cb5ec83d77a0f31e" category="doc">在 SANtricity System Manager 中變更鏡像配對中磁碟區之間的角色</block>
+  <block id="e344db326042f633dec679fb389ca0e4" category="doc">在 SANtricity System Manager 中變更鏡像一致性群組的同步設定</block>
+  <block id="b571c7942921f56e38dc2234119600d8" category="doc">在 SANtricity System Manager 中變更鏡像配對的同步設定</block>
+  <block id="b052df0a73bcccc6ed7511b3380c1c60" category="doc">在 SANtricity System Manager 中，為在舊系統上建立的主磁碟區完成鏡像配對</block>
+  <block id="ec650621f1b4e4a52be9f5b5b3aa032e" category="doc">SANtricity System Manager 非同步鏡像常見問題解答</block>
+  <block id="e49efc0cfc4c7b160fd4cdfba13d0678" category="doc">SANtricity System Manager 同步鏡像常見問題解答</block>
+  <block id="b2cce2e99d90dba951300d4a07acdb14" category="doc">了解 SANtricity 軟體中的非同步鏡像功能</block>
+  <block id="0f972a72bd5aee334d59e1b29c5fab31" category="doc">了解 SANtricity 軟體中的同步鏡像功能</block>
+  <block id="7926a1ac9382d00cfc6590c0c80ef6be" category="doc">在 SANtricity System Manager 中手動重新同步鏡像一致性群組</block>
+  <block id="842e6d9c2ca7e55947da010574d7e7c1" category="doc">在 SANtricity 軟體中變更鏡像一致性群組角色</block>
+  <block id="cc26556700cde643f7a4998ca0976a84" category="doc">在 SANtricity System Manager 中暫停和恢復鏡像配對的同步</block>
+  <block id="792c6be07e358d94fe968a169f79db04" category="doc">在 SANtricity System Manager 中暫停或恢復鏡像一致性群組的同步</block>
+  <block id="9212fc74e3a656c3e279ca35e552e4b8" category="doc">了解 SANtricity System Manager 中的同步鏡像狀態</block>
+  <block id="4f8462d7e51cbebb3142f0e3ef3307d5" category="doc">了解 SANtricity 軟體中的同步鏡像術語</block>
+  <block id="8a5d4160ce799475585f4a484b087ea4" category="doc">在 SANtricity 軟體中非同步鏡像磁碟區</block>
+  <block id="6269a17f543c70330eed460dfbeb80cf" category="doc">在 SANtricity 軟體中同步鏡像磁碟區</block>
+  <block id="98e180b1b51e3a769b6b400a853b4fee" category="doc">了解存取權杖和 SANtricity 軟體</block>
+  <block id="12ef56ab57abceebe446bc84df46db66" category="doc">在 SANtricity System Manager 中使用目錄服務配置存取管理</block>
+  <block id="651d31373dfaa6016c9970348683a4e2" category="doc">在 SANtricity System Manager 中使用本機使用者角色設定存取管理</block>
+  <block id="f89df32ddf89eeb4831e3ce927641b0d" category="doc">在 SANtricity System Manager 中使用 SAML 設定存取管理</block>
+  <block id="a51e02ec23d44482ee35f52a6cee39df" category="doc">下載 SANtricity 命令列介面（CLI）</block>
+  <block id="e952784922289283b3df3c1933d68928" category="admonition">同一儲存陣列中不支援混用 FDE 和 FIPS 磁碟機。系統中所有支援安全功能的磁碟機必須是相同類型。</block>
+  <block id="6dc937bc5628a4386cadff95dc13abbf" category="doc">在 SANtricity System Manager 中啟用功能套件</block>
+  <block id="10aff6802167a5ac9452c8b14db4242c" category="doc">在 SANtricity System Manager 中啟用或停用新磁碟區群組或集區的資源配置</block>
+  <block id="d58c9e6d59208ed869a5a6027d70f7f1" category="doc">在 SANtricity System Manager 中結束 iSCSI 工作階段</block>
+  <block id="a0deb44d63d5f738f7550059d305633f" category="doc">在 SANtricity System Manager 中作為用戶端時匯入控制器的憑證</block>
+  <block id="ae48cd923fae951bb620af759c7d55b2" category="doc">了解 SANtricity System Manager 中的設定概覽</block>
+  <block id="18edfcf681469261c28a2bea1990ea7c" category="doc">了解 SANtricity System Manager 中映射角色的權限</block>
+  <block id="f4e6a2ce83fceea85080a8b1da16b11b" category="doc">在 SANtricity System Manager 中刪除目錄伺服器</block>
+  <block id="00777c3320e115287926e31250ef4795" category="doc">在 SANtricity System Manager 中，將金鑰管理從外部切換到內部</block>
+  <block id="dab3bfe38b7f2554e1401a2ef31824e9" category="doc">在 SANtricity System Manager 中使用 CA 簽署的憑證對金鑰管理伺服器進行驗證</block>
+  <block id="ac84474de686243b90bb777f8ce6e019" category="doc">在 SANtricity System Manager 中驗證安全性金鑰</block>
+  <block id="c5a40eee53e3a6a046bdea74e93f749f" category="doc">在 SANtricity System Manager 中向快照一致性群組新增成員磁碟區</block>
+  <block id="509488a264daaa2f4c25a1fa7afa1f46" category="doc">了解 SANtricity System Manager 中自動建立池和手動建立池的差異</block>
+  <block id="8eb7d61e639ed5ef84ecef34c3ef9a90" category="doc">了解 SANtricity System Manager 中的基礎磁碟區、保留容量和快照群組</block>
+  <block id="a5f504929c631626bde694e07e40402f" category="doc">在 SANtricity System Manager 中取消快照映像復原</block>
+  <block id="f6451e9b8258e70783f6678ce4a78412" category="doc">如何在 SANtricity System Manager 中為磁碟區分配容量</block>
+  <block id="a22bf3ba1965f4018179bbe16740c08b" category="doc">了解 SANtricity 軟體中的容量術語</block>
+  <block id="d93ede7c0a9199ba535682cd36adfd6b" category="doc">在 SANtricity System Manager 中變更 SSD 快取設定</block>
+  <block id="2d7b65b82c1f0b9693bcaec90915566b" category="doc">在 SANtricity System Manager 中變更快照磁碟區的磁碟區設定</block>
+  <block id="0097a0f3241434bae78043e2c521dcb5" category="doc">了解 SANtricity 軟體中的厚磁碟區和精簡磁碟區</block>
+  <block id="cebf235e245ac1727a4fb08543606201" category="doc">在 SANtricity System Manager 中將快照磁碟區轉換為讀寫模式</block>
+  <block id="eb3abb20820606d928fae99a14f6f642" category="doc">在 SANtricity System Manager 中建立 SSD 快取</block>
+  <block id="9e8f2d62c9dcd77c3af552f4dc422803" category="doc">了解 SANtricity 軟體中磁碟區的資料完整性和資料安全性</block>
+  <block id="a972ddc2555e0c0f6f4250942ecf95ce" category="doc">了解 SANtricity 軟體中的資源池和磁碟區群組</block>
+  <block id="eb78bb0efa13b98850811f7037ae0248" category="doc">在 SANtricity System Manager 中啟用或停用現有磁碟區群組和集區上的資源配置</block>
+  <block id="fbca024c709800ed9d79d8d98711710e" category="doc">在 SANtricity CLI 中匯出/匯入磁碟區群組</block>
+  <block id="784971b82053a9ec4e8b050ed269b12e" category="doc">了解 SANtricity 軟體中的主機術語</block>
+  <block id="c5e2b4d9edd295e4401e7a8af50e8885" category="doc">SANtricity 軟體中如何將磁碟區指派給主機和主機叢集</block>
+  <block id="b5737f8b0357274da1616dd64fdf26d9" category="doc">工作負載在 SANtricity 軟體中的運作方式</block>
+  <block id="9d4b81d6353945511bba44b53f060178" category="doc">在 SANtricity System Manager 中解讀效能資料</block>
+  <block id="b8f664f5fc973a8d1f414e6e339615b0" category="doc">在 SANtricity System Manager 中管理應用程式和工作負載</block>
+  <block id="341c80e43a8a914f71a2e7ad4a5f7fda" category="doc">了解 SANtricity 軟體中 LUN 的最大數量</block>
+  <block id="84606dd9cabb3b19867d6f645fd8c8a8" category="doc">了解 SANtricity System Manager 中的效能概覽</block>
+  <block id="731e43a989aca6062649b6099aea7cd9" category="doc">了解 SANtricity System Manager 中的效能圖表和指南</block>
+  <block id="d3c3d5c671cfe29f288d108c475d0cea" category="doc">了解 SANtricity 軟體中的效能術語</block>
+  <block id="1f5cc0774a4c5896a1fb25c090efb928" category="doc">在 SANtricity System Manager 中從資源池或 SSD Cache 移除容量</block>
+  <block id="da30c6e6de44aadac9f61229e5115658" category="doc">在 SANtricity System Manager 中從快照一致性群組中移除成員磁碟區</block>
+  <block id="83e9ff341dfee574c32441ab8b662616" category="doc">遠端儲存在 SANtricity 軟體中的工作原理</block>
+  <block id="7f5129743a0f50bc41a8c9a062a8bab5" category="doc">在 SANtricity System Manager 中修改遠端儲存的連線設定</block>
+  <block id="2e2d253f7cd81ceb6bcba438c519b2ee" category="doc">了解 SANtricity 軟體中的遠端儲存功能要求</block>
+  <block id="f7776c2d857931b11f315d9f567809aa" category="doc">了解 SANtricity 軟體中的遠端儲存磁碟區需求</block>
+  <block id="9bbd2c41600fb135b12ce4e029570cb3" category="doc">了解 SANtricity 軟體中的遠端儲存術語</block>
+  <block id="f8e23923415fcce5a7cdcdc2257e6d85" category="doc">了解 SANtricity System Manager 中的快照排程和快照一致性群組</block>
+  <block id="b69d32f5fb8ab10915adbba619c0017e" category="doc">了解 SANtricity 軟體中的快照術語</block>
+  <block id="70bac6cb7596a1c5682c0b4051f0160e" category="doc">在 SANtricity System Manager 中開啟儲存池、磁碟區群組或 SSD Cache 的定位指示燈</block>
+  <block id="150d59a7387353231504faf7bf859a37" category="doc">了解 SANtricity 軟體中的磁碟區術語</block>
+  <block id="03d6e8dbe8844e33147500a449a64865" category="doc">在 SANtricity System Manager 中使用複製服務</block>
+  <block id="b39156053f03ed44af37d8f2f50fb255" category="doc">SANtricity System Manager 中的主機建立和磁碟區指派運作方式</block>
+  <block id="718da838e465d1abdbb88f3d4afe63d1" category="doc">在 SANtricity System Manager 中建立快照映像和快照磁碟區的工作原理</block>
+  <block id="9d122974ba94e0669b60b1256ad34bfd" category="doc">在 SANtricity System Manager 中建立磁碟區的運作方式</block>
+  <block id="dcc654c03fdd53146e27ae86d2a8d251" category="doc">了解 E 系列的 AutoSupport</block>
+  <block id="9e2da9890d81f2a3a0fd3c5aa502bbc2" category="doc">清除 SANtricity 軟體中的復原模式</block>
+  <block id="2ef1bc8a31b44790bfa2373dac614173" category="doc">了解 SANtricity 軟體中的事件日誌</block>
+  <block id="2c3df2acde9fe7176be03c82187c5d37" category="doc">在 SANtricity System Manager 中取得支援</block>
+  <block id="6c247fdcaa3825d5dc1ae46f09e8ee20" category="doc">了解如何升級 SANtricity 軟體</block>
+  <block id="7463122a32a40f3e04176a4eb5ff44c2" category="doc">在 SANtricity System Manager 中擷取健全狀況映像</block>
+  <block id="44a6cbe3df16b1a1e8d0858832567f21" category="doc">瞭解 SANtricity 軟體和韌體升級錯誤</block>
+  <block id="286df7907589603c59edb63682f9667f" category="doc">使用腳本編輯器</block>
+  <block id="664d03b3e0f7be60fce96082fc9602bd" category="doc">在 SANtricity System Manager 中檢視儲存陣列的資訊</block>
+  <block id="599923004690b0c1117d7b708d7321cb" category="doc">在 SANtricity System Manager 中設定 AutoSupport</block>
+  <block id="12552cabe7cc02a88100da5f5c4c0b2d" category="summary">SANtricity Unified Manager 8</block>
+  <block id="d851bcacf6cd800c089a36d64d74a181" category="doc">了解 SANtricity Unified Manager 存取管理術語</block>
+  <block id="955cd4a17806922c8ca0dd3c53f0e180" category="doc">在 SANtricity Unified Manager 中新增目錄伺服器</block>
+  <block id="678fed422fa391c5a10436bb093756a0" category="doc">了解 SANtricity Unified Manager 中的憑證術語</block>
+  <block id="6b719500a46be35ef104e70ead2e14cb" category="doc">憑證總覽</block>
+  <block id="200b55ecf44e01b07228d86f14ac18a0" category="doc">在 SANtricity Unified Manager 中探索單一陣列</block>
+  <block id="fc93d33343fdfc3c73cfca172ffd6ebf" category="doc">了解如何在 SANtricity Unified Manager 中配置多個儲存陣列</block>
+  <block id="dab3ba4d78fb907a2b857b70cff46835" category="doc">鏡像 SANtricity 組態工作流程</block>
+  <block id="3b359f38e087517c0d02b105333d690f" category="doc">了解 SANtricity Unified Manager 中的鏡像術語</block>
+  <block id="273afb9794fcb75bd1b190680990764e" category="doc">了解如何在 SANtricity Unified Manager 中匯入儲存陣列設定</block>
+  <block id="1eaf4936c48bc1f30cb16af32c820a59" category="list-text"><block ref="1eaf4936c48bc1f30cb16af32c820a59" category="inline-link-macro-rx"></block></block>
+  <block id="1388708b1c1631e745e1497782d0a4a5" category="list-text"><block ref="1388708b1c1631e745e1497782d0a4a5" category="inline-link-macro-rx"></block></block>
+  <block id="782dea5f0e7d506c6ba4bafc90640252" category="doc">了解 SANtricity Unified Manager 中的「群組」概覽</block>
+  <block id="457c34efc7526192d414539f64c241d3" category="inline-link-macro">鏡像組態工作流程</block>
+  <block id="a2c2ab24785ab98435f81f6f49001ec8" category="list-text"><block ref="a2c2ab24785ab98435f81f6f49001ec8" category="inline-link-macro-rx"></block></block>
+  <block id="e4030f71404621b473962d90bbbdc87b" category="list-text"><block ref="e4030f71404621b473962d90bbbdc87b" category="inline-link-macro-rx"></block></block>
+  <block id="234804df6b8c83d56d3d447cbd1e7fe3" category="inline-link-macro">檢視儲存陣列狀態</block>
+  <block id="ed3b298a5696d78a02facae953c788ad" category="list-text"><block ref="ed3b298a5696d78a02facae953c788ad" category="inline-link-macro-rx"></block></block>
+  <block id="a79c2f9262b82d53fa0ea61bc945844c" category="doc">在 SANtricity Unified Manager 中複製儲存陣列組態的需求</block>
+  <block id="76dc6c9aa3960fe34656b2f144f48c06" category="doc">在 SANtricity Unified Manager 中查看儲存陣列狀態</block>
+  <block id="9da51a1302e75e343632d510bb4cc161" category="doc">了解如何使用 SANtricity Unified Manager 升級多個儲存陣列</block>
+  <block id="96326b5520f644337f2b9f27c4b4e238" category="paragraph">SANtricity System Manager 中現已提供全新的腳本編輯器。腳本編輯器可讓您建立或編輯腳本檔案、將腳本檔案儲存至儲存管理站的本機磁碟，或從磁碟載入腳本檔案。腳本編輯器提供語法檢查和命令執行功能，方便您管理儲存系統。如需詳細資訊，請參閱 <block ref="7511cf8ef97831a0432bb6966b2afe45" category="inline-link-macro-rx"></block>。</block>
 </blocks>

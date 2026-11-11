@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, ca-signed, certificates 
 summary: 您可以取得及匯入CA簽署的憑證、以安全存取裝載Unified Manager的管理系統。 
 ---
-= 為 SANtricity Unified Manager 使用 CA 簽署的憑證
+= 管理系統使用CA簽署的憑證
 :allow-uri-read: 
 :experimental: 
 :icons: font

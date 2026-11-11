@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, create, snapshot, images, snapshot, volumes 
 summary: 在System Manager中、您可以依照下列步驟建立快照映像和快照磁碟區。 
 ---
-= SANtricity System Manager 中的 Snapshot 快照技術映像和 Snapshot 快照技術 Volume 建立工作流程
+= 在 SANtricity System Manager 中建立快照映像和快照磁碟區的工作原理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

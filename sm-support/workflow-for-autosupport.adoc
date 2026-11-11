@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, autosupport, 
 summary: 在「系統管理程式」中SANtricity 、AutoSupport 您可以依照下列步驟來設定「功能性」。 
 ---
-= 適用於 SANtricity System Manager 的 AutoSupport 組態工作流程
+= 在 SANtricity System Manager 中設定 AutoSupport
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

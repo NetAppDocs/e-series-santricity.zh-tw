@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, interpret, performance data 
 summary: 效能資料可引導您調整儲存陣列的效能。 
 ---
-= SANtricity System Manager 中的效能計量及其影響
+= 在 SANtricity System Manager 中解讀效能資料
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

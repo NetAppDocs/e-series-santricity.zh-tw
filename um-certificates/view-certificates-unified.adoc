@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, view certificates 
 summary: 您可以檢視憑證的摘要資訊、包括使用憑證的組織、發行憑證的授權單位、有效期間及指紋（唯一識別碼）。 
 ---
-= 在 SANtricity Unified Manager 中檢視憑證
+= 檢視憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

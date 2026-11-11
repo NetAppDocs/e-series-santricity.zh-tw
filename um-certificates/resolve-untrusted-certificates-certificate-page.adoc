@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, resolve, untrusted, certificates 
 summary: 當儲存陣列嘗試建立安全連線至SANtricity NetApp Unified Manager、但連線無法確認安全性時、就會發生不受信任的憑證。 
 ---
-= 解決 SANtricity Unified Manager 中的不受信任憑證問題
+= 解決不受信任的憑證
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, authentication, key, management, server, 
 summary: 若要在金鑰管理伺服器與儲存陣列控制器之間進行安全通訊、您必須設定適當的憑證集。 
 ---
-= 在 SANtricity System Manager 中使用 CA 簽署的憑證進行金鑰管理伺服器驗證
+= 在 SANtricity System Manager 中使用 CA 簽署的憑證對金鑰管理伺服器進行驗證
 :allow-uri-read: 
 :experimental: 
 :icons: font

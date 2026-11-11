@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, view, local, user, roles 
 summary: 從本機使用者角色索引標籤、您可以檢視使用者與預設角色之間的對應。這些對應是在Web Services Proxy for SANtricity the Unified Manager中強制執行的RBAC（角色型存取控制）的一部分。 
 ---
-= 在 SANtricity Unified Manager 中檢視本機使用者角色
+= 檢視本機使用者角色
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

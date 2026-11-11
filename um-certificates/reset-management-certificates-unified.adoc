@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates 
 summary: 您可以將管理憑證還原為原始的原廠自我簽署狀態。 
 ---
-= 在 SANtricity Unified Manager 中重設管理憑證
+= 重設管理憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

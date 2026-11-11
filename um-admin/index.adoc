@@ -2,9 +2,9 @@
 permalink: um-admin/index.html 
 sidebar: sidebar 
 keywords: santricity, unified, manager 8 
-summary: 了解 SANtricity Unified Manager 管理 
+summary: SANtricity Unified Manager 8 
 ---
-= 了解 SANtricity Unified Manager 管理
+= SANtricity Unified Manager 8
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, act, operations, progress, 
 summary: 若要檢視並對長期執行的作業採取行動、請使用「作業進行中」頁面。 
 ---
-= 查看並處理 SANtricity System Manager 正在進行的操作
+= 在 SANtricity System Manager 中檢視和處理正在進行的作業
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
